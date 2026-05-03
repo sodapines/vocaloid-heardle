@@ -2,7 +2,13 @@
 
 A fan-made VOCALOID Heardle-style guessing game.
 
-The site is fully static and can be hosted on GitHub Pages. Song metadata is stored in `data/songs.js`, and audio is loaded from Cloudflare R2 at `https://audio.sodapines.dev`.
+## Disclaimer
+
+This project was vibe-coded as a fun fan project after the existing VOCALOID Heardle appeared to be down. It is not meant to replace or compete with the original, and I do not claim ownership over VOCALOID, the songs, producers, characters, or related media used for identification/reference. In addition, this project will not be included in any future portfolio of mine.
+
+This project is maintained by sodapines. Feedback, corrections, bug reports, and suggestions are welcome, especially for song metadata, broken audio links, missing songs, duplicate entries, or gameplay issues.
+
+Contact: kzen@sodapines.dev
 
 ## Project structure
 
@@ -17,6 +23,3 @@ The site is fully static and can be hosted on GitHub Pages. Song metadata is sto
 
 ```sh
 node scripts/generate-songs.js https://audio.sodapines.dev
-```
-
-Local audio files should not be committed. The live app expects audio files to be available from the R2 domain as `https://audio.sodapines.dev/{vocadbId}.mp3`.
