@@ -1,0 +1,10 @@
+audio/
+*.mp3
+*.m4a
+*.ogg
+*.wav
+*.webm
+.DS_Store
+Thumbs.db
+node_modules/
+.env

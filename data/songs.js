@@ -1,0 +1,14170 @@
+window.VOCALOID_HEARDLE_SONGS = [
+  {
+    "date": "2026-05-07",
+    "vocadbId": 20,
+    "title": "World's End Dancehall",
+    "artist": "wowaka",
+    "artistString": "wowaka feat. Hatsune Miku, Megurine Luka",
+    "vocadbName": "World's End Dancehall",
+    "vocadbUrl": "https://vocadb.net/S/20",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/10759623/10759623",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/10759623/10759623",
+      "https://i1.ytimg.com/vi/ZB75e7vzX0I/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ZB75e7vzX0I/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ZB75e7vzX0I/default.jpg"
+    ],
+    "publishDate": "2010-05-18T00:00:00Z",
+    "acceptedTitles": [
+      "ワールズエンド・ダンスホール",
+      "World's End Dancehall",
+      "世末舞厅",
+      "世界末日舞厅",
+      "월즈 엔드 댄스홀"
+    ],
+    "audioClip": "https://audio.sodapines.dev/20.mp3"
+  },
+  {
+    "date": "2026-05-08",
+    "vocadbId": 82,
+    "title": "Black Gold",
+    "artist": "otetsu",
+    "artistString": "otetsu feat. Megurine Luka",
+    "vocadbName": "Black Gold",
+    "vocadbUrl": "https://vocadb.net/S/82",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/13080943/13080943",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/13080943/13080943",
+      "https://i1.ytimg.com/vi/UP5aUdsOvy4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/0ozfkoVdvLY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/me3aXKr1H8k/hqdefault.jpg",
+      "https://i.ytimg.com/vi/UP5aUdsOvy4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/w_R8aryk6Jo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/0ozfkoVdvLY/default.jpg",
+      "https://i1.sndcdn.com/avatars-000110043210-2h6ma4-large.jpg",
+      "https://i.ytimg.com/vi/me3aXKr1H8k/default.jpg",
+      "https://i.ytimg.com/vi/UP5aUdsOvy4/default.jpg",
+      "https://i.ytimg.com/vi/w_R8aryk6Jo/default.jpg"
+    ],
+    "publishDate": "2010-12-20T00:00:00Z",
+    "acceptedTitles": [
+      "ブラックゴールド",
+      "Black Gold"
+    ],
+    "audioClip": "https://audio.sodapines.dev/82.mp3"
+  },
+  {
+    "date": "2026-05-09",
+    "vocadbId": 106,
+    "title": "Circus Monster",
+    "artist": "CircusP",
+    "artistString": "CircusP feat. Megurine Luka",
+    "vocadbName": "Circus Monster",
+    "vocadbUrl": "https://vocadb.net/S/106",
+    "coverArt": "https://i.ytimg.com/vi/mizIaPGNJaE/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/mizIaPGNJaE/default.jpg",
+      "https://i1.ytimg.com/vi/mizIaPGNJaE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/mizIaPGNJaE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Uef7F01tju4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/BMQzF_BRcJ0/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/11876220/11876220",
+      "https://res.piapro.jp/r/images/card/250/luka.png?20260120",
+      "https://f4.bcbits.com/img/a3965870985_5.jpg",
+      "https://f4.bcbits.com/img/a1038023513_5.jpg",
+      "https://f4.bcbits.com/img/a1249272468_5.jpg",
+      "https://i.ytimg.com/vi/BMQzF_BRcJ0/default.jpg"
+    ],
+    "publishDate": "2010-08-25T00:00:00Z",
+    "acceptedTitles": [
+      "Circus Monster",
+      "サーカス・モンスター"
+    ],
+    "audioClip": "https://audio.sodapines.dev/106.mp3"
+  },
+  {
+    "date": "2026-05-10",
+    "vocadbId": 123,
+    "title": "Nyanyanyanyanyanyanya!",
+    "artist": "daniwell",
+    "artistString": "daniwell feat. Hatsune Miku",
+    "vocadbName": "Nyanyanyanyanyanyanya!",
+    "vocadbUrl": "https://vocadb.net/S/123",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/11509720/11509720",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/11509720/11509720",
+      "https://i1.ytimg.com/vi/Til6kcoY0Yk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Til6kcoY0Yk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/abfkwo9hM9s/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Til6kcoY0Yk/default.jpg",
+      "https://i.ytimg.com/vi/abfkwo9hM9s/default.jpg"
+    ],
+    "publishDate": "2010-07-25T00:00:00Z",
+    "acceptedTitles": [
+      "Nyanyanyanyanyanyanya!",
+      "Nyan Cat",
+      "にゃにゃにゃにゃにゃにゃにゃ!"
+    ],
+    "audioClip": "https://audio.sodapines.dev/123.mp3"
+  },
+  {
+    "date": "2026-05-11",
+    "vocadbId": 133,
+    "title": "Ten-Faced",
+    "artist": "YM",
+    "artistString": "YM feat. GUMI",
+    "vocadbName": "Ten-Faced",
+    "vocadbUrl": "https://vocadb.net/S/133",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/13304052/13304052",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/13304052/13304052",
+      "https://i1.ytimg.com/vi/OKlZjKSP8PQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/qZwxKQAiZq0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/JSIt6jviqck/hqdefault.jpg",
+      "https://i.ytimg.com/vi/OKlZjKSP8PQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/1tQlwYr0ARM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/qZwxKQAiZq0/default.jpg",
+      "https://i.ytimg.com/vi/JSIt6jviqck/default.jpg",
+      "https://i.ytimg.com/vi/OKlZjKSP8PQ/default.jpg",
+      "https://i.ytimg.com/vi/1tQlwYr0ARM/default.jpg"
+    ],
+    "publishDate": "2011-01-14T00:00:00Z",
+    "acceptedTitles": [
+      "十面相",
+      "Ten-Faced",
+      "Juumensou",
+      "Ten Faces",
+      "Juu Mensou",
+      "십면상"
+    ],
+    "audioClip": "https://audio.sodapines.dev/133.mp3"
+  },
+  {
+    "date": "2026-05-12",
+    "vocadbId": 136,
+    "title": "Rotten Heresy and Chocolate",
+    "artist": "PinocchioP",
+    "artistString": "PinocchioP feat. Hatsune Miku Append (Solid)",
+    "vocadbName": "Rotten Heresy and Chocolate",
+    "vocadbUrl": "https://vocadb.net/S/136",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/13275244/13275244",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/13275244/13275244",
+      "https://i1.ytimg.com/vi/sHnvEsNU1X0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/sHnvEsNU1X0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/84EEPr9wGEY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/LodF8X2oqww/hqdefault.jpg",
+      "https://i.ytimg.com/vi/sHnvEsNU1X0/default.jpg",
+      "https://i.ytimg.com/vi/84EEPr9wGEY/default.jpg",
+      "https://i.ytimg.com/vi/LodF8X2oqww/default.jpg",
+      "https://i1.sndcdn.com/artworks-bwXHMcBCA1zC-0-t500x500.jpg"
+    ],
+    "publishDate": "2011-01-10T00:00:00Z",
+    "acceptedTitles": [
+      "腐れ外道とチョコレゐト",
+      "Rotten Heresy and Chocolate",
+      "Kusaregedou to Chocolate",
+      "Rotten Heresy and Chocolayte",
+      "Kusare-gedou and Chocolate",
+      "썩은 외도와 초콜릿"
+    ],
+    "audioClip": "https://audio.sodapines.dev/136.mp3"
+  },
+  {
+    "date": "2026-05-06",
+    "vocadbId": 368,
+    "title": "Matryoshka",
+    "artist": "HACHI",
+    "artistString": "HACHI feat. Hatsune Miku, GUMI",
+    "vocadbName": "Matryoshka",
+    "vocadbUrl": "https://vocadb.net/S/368",
+    "coverArt": "https://i.ytimg.com/vi/HOz-9FzIDf0/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/HOz-9FzIDf0/default.jpg",
+      "https://i1.ytimg.com/vi/HOz-9FzIDf0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/HOz-9FzIDf0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/qgADQrBpYwA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/13OUbaozM9o/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/11809611/11809611",
+      "https://i.ytimg.com/vi/qgADQrBpYwA/default.jpg",
+      "https://i.ytimg.com/vi/13OUbaozM9o/default.jpg"
+    ],
+    "publishDate": "2010-08-19T00:00:00Z",
+    "acceptedTitles": [
+      "マトリョシカ",
+      "Matryoshka",
+      "Матрёшка",
+      "MATORYOSHKA",
+      "俄罗斯套娃"
+    ],
+    "audioClip": "https://audio.sodapines.dev/368.mp3"
+  },
+  {
+    "date": "2026-05-14",
+    "vocadbId": 372,
+    "title": "Antichlorobenzene",
+    "artist": "OwataP",
+    "artistString": "OwataP feat. Kagamine Rin",
+    "vocadbName": "Antichlorobenzene",
+    "vocadbUrl": "https://vocadb.net/S/372",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/12154467/12154467",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/12154467/12154467",
+      "https://i1.ytimg.com/vi/9mOzdi0XIlc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/9mOzdi0XIlc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/qaQvtckEJB0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/vfkn9FvjH90/hqdefault.jpg",
+      "https://i.ytimg.com/vi/fXZGht6ZEJs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/9mOzdi0XIlc/default.jpg",
+      "https://i.ytimg.com/vi/qaQvtckEJB0/default.jpg",
+      "https://i.ytimg.com/vi/vfkn9FvjH90/default.jpg",
+      "https://i2.hdslb.com/bfs/archive/a672782a89b84283f97bad3e9c93d6e928611b02.jpg",
+      "https://i.ytimg.com/vi/fXZGht6ZEJs/default.jpg"
+    ],
+    "publishDate": "2010-09-19T00:00:00Z",
+    "acceptedTitles": [
+      "アンチクロロベンゼン",
+      "Antichlorobenzene",
+      "錯二氯苯",
+      "浄罪系洗脳ソング",
+      "Jouzai-kei Sennou Song",
+      "Sin-cleansing type Brainwashing Song",
+      "Anti chlorobenzene"
+    ],
+    "audioClip": "https://audio.sodapines.dev/372.mp3"
+  },
+  {
+    "date": "2026-05-15",
+    "vocadbId": 373,
+    "title": "Secret Police",
+    "artist": "BuriruP",
+    "artistString": "BuriruP feat. Hatsune Miku",
+    "vocadbName": "Secret Police",
+    "vocadbUrl": "https://vocadb.net/S/373",
+    "coverArt": "https://i.ytimg.com/vi/_XB3PxNZpT4/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/_XB3PxNZpT4/default.jpg",
+      "https://i1.ytimg.com/vi/_XB3PxNZpT4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/_XB3PxNZpT4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/yAtLEITw-ks/hqdefault.jpg",
+      "https://i.ytimg.com/vi/r0jsVW0VfTI/hqdefault.jpg",
+      "https://cdn.piapro.jp/thumb_i/yt/yt52e4npuq4bo7kf_20081030004553_0250_0250.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/12695779/12695779",
+      "https://i.ytimg.com/vi/yAtLEITw-ks/default.jpg",
+      "https://i.ytimg.com/vi/r0jsVW0VfTI/default.jpg"
+    ],
+    "publishDate": "2010-11-09T00:00:00Z",
+    "acceptedTitles": [
+      "秘密警察",
+      "Secret Police",
+      "Himitsu Keisatsu"
+    ],
+    "audioClip": "https://audio.sodapines.dev/373.mp3"
+  },
+  {
+    "date": "2026-05-16",
+    "vocadbId": 382,
+    "title": "Alluring Secret ~Black Vow~",
+    "artist": "HitoshizukuP",
+    "artistString": "HitoshizukuP feat. Kagamine Rin, Kagamine Len",
+    "vocadbName": "Alluring Secret ~Black Vow~",
+    "vocadbUrl": "https://vocadb.net/S/382",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/10282629/10282629",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/10282629/10282629",
+      "https://i1.ytimg.com/vi/zrdSQrxRKgw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/YxzmspNVUzY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/zrdSQrxRKgw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/YxzmspNVUzY/default.jpg",
+      "https://i.ytimg.com/vi/zrdSQrxRKgw/default.jpg"
+    ],
+    "publishDate": "2010-04-05T00:00:00Z",
+    "acceptedTitles": [
+      "秘蜜〜黒の誓い〜",
+      "Alluring Secret ~Black Vow~",
+      "Himitsu ~Kuro no Chikai~",
+      "Secret ~Black Vow~",
+      "Secret ~Black Oath~",
+      "Himitsu ~Oath of Black~"
+    ],
+    "audioClip": "https://audio.sodapines.dev/382.mp3"
+  },
+  {
+    "date": "2026-05-17",
+    "vocadbId": 445,
+    "title": "Adult's Toy",
+    "artist": "Utsu-P",
+    "artistString": "Utsu-P feat. Kagamine Rin",
+    "vocadbName": "Adult's Toy",
+    "vocadbUrl": "https://vocadb.net/S/445",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/11104903/11104903",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/11104903/11104903",
+      "https://i1.ytimg.com/vi/BTnnaczC84k/hqdefault.jpg",
+      "https://i.ytimg.com/vi/BTnnaczC84k/hqdefault.jpg",
+      "https://i.ytimg.com/vi/guJyEFkHTKc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Dnwnr0Q2UJI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/1MMzhfwq5H8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/gDuyrzRlEF8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/BTnnaczC84k/default.jpg",
+      "https://f4.bcbits.com/img/a1664531869_5.jpg",
+      "https://i.ytimg.com/vi/guJyEFkHTKc/default.jpg",
+      "https://i.ytimg.com/vi/Dnwnr0Q2UJI/default.jpg",
+      "https://i.ytimg.com/vi/1MMzhfwq5H8/default.jpg",
+      "https://i.ytimg.com/vi/gDuyrzRlEF8/default.jpg"
+    ],
+    "publishDate": "2010-06-18T00:00:00Z",
+    "acceptedTitles": [
+      "オトナのオモチャ",
+      "Adult's Toy",
+      "Otona no Omocha",
+      "어른의 장난감"
+    ],
+    "audioClip": "https://audio.sodapines.dev/445.mp3"
+  },
+  {
+    "date": "2026-05-18",
+    "vocadbId": 453,
+    "title": "Envy Catwalk",
+    "artist": "Tohma",
+    "artistString": "Tohma feat. Hatsune Miku",
+    "vocadbName": "Envy Catwalk",
+    "vocadbUrl": "https://vocadb.net/S/453",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/15956806/15956806",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/15956806/15956806",
+      "https://i1.ytimg.com/vi/Pe70EW6__Ks/hqdefault.jpg",
+      "https://i.ytimg.com/vi/VYmxATM6N-8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/sifkeetW-qA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Pe70EW6__Ks/hqdefault.jpg",
+      "https://i.ytimg.com/vi/VYmxATM6N-8/default.jpg",
+      "https://i.ytimg.com/vi/sifkeetW-qA/default.jpg",
+      "https://i.ytimg.com/vi/Pe70EW6__Ks/default.jpg"
+    ],
+    "publishDate": "2011-10-22T00:00:00Z",
+    "acceptedTitles": [
+      "エンヴィキャットウォーク",
+      "Envy Catwalk"
+    ],
+    "audioClip": "https://audio.sodapines.dev/453.mp3"
+  },
+  {
+    "date": "2026-05-19",
+    "vocadbId": 459,
+    "title": "The Farthest Ends",
+    "artist": "Kobayashi Onyx",
+    "artistString": "Kobayashi Onyx feat. Hatsune Miku",
+    "vocadbName": "The Farthest Ends",
+    "vocadbUrl": "https://vocadb.net/S/459",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/2053548/2053548",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/2053548/2053548",
+      "https://i1.ytimg.com/vi/TYhjnpLbKaA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ZM_rzQx4p5Q/hqdefault.jpg",
+      "https://i.ytimg.com/vi/TYhjnpLbKaA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/WRAT8o8cSVs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ZM_rzQx4p5Q/default.jpg",
+      "https://res.piapro.jp/r/images/card/250/miku.png?20260120",
+      "https://i.ytimg.com/vi/TYhjnpLbKaA/default.jpg",
+      "https://i.ytimg.com/vi/WRAT8o8cSVs/default.jpg"
+    ],
+    "publishDate": "2008-01-16T00:00:00Z",
+    "acceptedTitles": [
+      "サイハテ",
+      "The Farthest Ends",
+      "Saihate"
+    ],
+    "audioClip": "https://audio.sodapines.dev/459.mp3"
+  },
+  {
+    "date": "2026-05-20",
+    "vocadbId": 525,
+    "title": "Sky Fish",
+    "artist": "siinamota",
+    "artistString": "siinamota feat. Hatsune Miku",
+    "vocadbName": "Sky Fish",
+    "vocadbUrl": "https://vocadb.net/S/525",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/12110052/12110052",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/12110052/12110052",
+      "https://i1.ytimg.com/vi/VqtCFvaBi5Y/hqdefault.jpg",
+      "https://i.ytimg.com/vi/VqtCFvaBi5Y/hqdefault.jpg",
+      "https://i.ytimg.com/vi/b5EJVRw8vKE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/t2i4DhGIpFA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/VqtCFvaBi5Y/default.jpg",
+      "https://i1.sndcdn.com/artworks-000014040680-xt5xpn-large.jpg",
+      "https://i.ytimg.com/vi/b5EJVRw8vKE/default.jpg",
+      "https://i.ytimg.com/vi/t2i4DhGIpFA/default.jpg"
+    ],
+    "publishDate": "2010-09-14T00:00:00Z",
+    "acceptedTitles": [
+      "そらのサカナ",
+      "Sky Fish",
+      "Sora no Sakana",
+      "SkyFish",
+      "하늘의 물고기"
+    ],
+    "audioClip": "https://audio.sodapines.dev/525.mp3"
+  },
+  {
+    "date": "2026-05-21",
+    "vocadbId": 550,
+    "title": "Hello, Worker",
+    "artist": "KEI",
+    "artistString": "KEI feat. Megurine Luka",
+    "vocadbName": "Hello, Worker",
+    "vocadbUrl": "https://vocadb.net/S/550",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/15488191/15488191",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/15488191/15488191",
+      "https://i1.ytimg.com/vi/qO9BGX5fEz8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/qO9BGX5fEz8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/22q4-9fd0Lw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/qO9BGX5fEz8/default.jpg",
+      "https://i.ytimg.com/vi/22q4-9fd0Lw/default.jpg",
+      "https://i.vimeocdn.com/video/582805555-106cebcac8ab7347162a24e299d6cb1ac7cdad1aa2c9f0733bf9b30f89b6288f-d_100x75?&r=pad&region=us"
+    ],
+    "publishDate": "2011-09-01T00:00:00Z",
+    "acceptedTitles": [
+      "Hello, Worker",
+      "Hello,Woker"
+    ],
+    "audioClip": "https://audio.sodapines.dev/550.mp3"
+  },
+  {
+    "date": "2026-05-22",
+    "vocadbId": 552,
+    "title": "ACUTE",
+    "artist": "KurousaP",
+    "artistString": "KurousaP feat. Hatsune Miku, Megurine Luka, KAITO",
+    "vocadbName": "ACUTE",
+    "vocadbUrl": "https://vocadb.net/S/552",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/7992704/7992704",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/7992704/7992704",
+      "https://i1.ytimg.com/vi/q7i-rWxHc0Y/hqdefault.jpg",
+      "https://i.ytimg.com/vi/g-41SEI7c-M/hqdefault.jpg",
+      "https://i.ytimg.com/vi/q7i-rWxHc0Y/hqdefault.jpg",
+      "https://i.ytimg.com/vi/dwjLNU6HWL8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/g-41SEI7c-M/default.jpg",
+      "https://i1.sndcdn.com/artworks-000046377230-iemq39-original.jpg",
+      "https://i.ytimg.com/vi/q7i-rWxHc0Y/default.jpg",
+      "https://i.ytimg.com/vi/dwjLNU6HWL8/default.jpg"
+    ],
+    "publishDate": "2009-08-20T00:00:00Z",
+    "acceptedTitles": [
+      "ACUTE"
+    ],
+    "audioClip": "https://audio.sodapines.dev/552.mp3"
+  },
+  {
+    "date": "2026-05-23",
+    "vocadbId": 555,
+    "title": "Tokyo Teddy Bear",
+    "artist": "Neru",
+    "artistString": "Neru, Ore BananaP feat. Kagamine Rin, Kagamine Rin Append (Sweet)",
+    "vocadbName": "Tokyo Teddy Bear",
+    "vocadbUrl": "https://vocadb.net/S/555",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/15308214/15308214",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/15308214/15308214",
+      "https://i1.ytimg.com/vi/eSI7RsjZy1E/hqdefault.jpg",
+      "https://i.ytimg.com/vi/eSI7RsjZy1E/hqdefault.jpg",
+      "https://i.ytimg.com/vi/eSI7RsjZy1E/default.jpg"
+    ],
+    "publishDate": "2011-08-14T00:00:00Z",
+    "acceptedTitles": [
+      "東京テディベア",
+      "Tokyo Teddy Bear",
+      "도쿄 테디베어",
+      "东京泰迪熊"
+    ],
+    "audioClip": "https://audio.sodapines.dev/555.mp3"
+  },
+  {
+    "date": "2026-05-24",
+    "vocadbId": 556,
+    "title": "Skeleton Orchestra and Lilia",
+    "artist": "Tohma",
+    "artistString": "Tohma feat. Hatsune Miku",
+    "vocadbName": "Skeleton Orchestra and Lilia",
+    "vocadbUrl": "https://vocadb.net/S/556",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/14780909/14780909",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/14780909/14780909",
+      "https://i1.ytimg.com/vi/pLN6GK6_ILg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/pLN6GK6_ILg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/pLN6GK6_ILg/default.jpg"
+    ],
+    "publishDate": "2011-06-18T00:00:00Z",
+    "acceptedTitles": [
+      "骸骨楽団とリリア",
+      "Skeleton Orchestra and Lilia",
+      "Gaikotsu Gakudan to Lilia",
+      "骸骨乐团与莉莉娅"
+    ],
+    "audioClip": "https://audio.sodapines.dev/556.mp3"
+  },
+  {
+    "date": "2026-05-25",
+    "vocadbId": 638,
+    "title": "Ievan Polkka",
+    "artist": "Otomania",
+    "artistString": "Otomania feat. Hatsune Miku",
+    "vocadbName": "Ievan Polkka",
+    "vocadbUrl": "https://vocadb.net/S/638",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/982882/982882",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/982882/982882",
+      "https://i1.ytimg.com/vi/VmaAJbKyw-Y/hqdefault.jpg",
+      "https://i.ytimg.com/vi/VmaAJbKyw-Y/hqdefault.jpg",
+      "https://i.ytimg.com/vi/c_JrWVw6aIs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/6qmUTclZhUo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/jrgO_9ey53M/hqdefault.jpg",
+      "https://i.ytimg.com/vi/VmaAJbKyw-Y/default.jpg",
+      "https://i.ytimg.com/vi/c_JrWVw6aIs/default.jpg",
+      "https://i.ytimg.com/vi/6qmUTclZhUo/default.jpg",
+      "https://i.ytimg.com/vi/jrgO_9ey53M/default.jpg"
+    ],
+    "publishDate": "2007-09-04T00:00:00Z",
+    "acceptedTitles": [
+      "Ievan Polkka",
+      "Eva's Polka",
+      "イエヴァン・ポルッカ"
+    ],
+    "audioClip": "https://audio.sodapines.dev/638.mp3"
+  },
+  {
+    "date": "2026-05-26",
+    "vocadbId": 1024,
+    "title": "Cat Food",
+    "artist": "doriko",
+    "artistString": "doriko feat. Hatsune Miku",
+    "vocadbName": "Cat Food",
+    "vocadbUrl": "https://vocadb.net/S/1024",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/12774972/12774972",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/12774972/12774972",
+      "https://i1.ytimg.com/vi/9aOBfAq7Ra4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/9aOBfAq7Ra4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/k2uywrdsmXQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/U1FN0igMZh4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/JionNwk30TU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/k2uywrdsmXQ/default.jpg",
+      "https://i.ytimg.com/vi/U1FN0igMZh4/default.jpg",
+      "https://i2.hdslb.com/bfs/archive/4d3a61b19944516ba70e966f532849e4592b8ac6.jpg",
+      "https://i.ytimg.com/vi/JionNwk30TU/default.jpg"
+    ],
+    "publishDate": "2010-11-17T00:00:00Z",
+    "acceptedTitles": [
+      "キャットフード",
+      "Cat Food"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1024.mp3"
+  },
+  {
+    "date": "2026-05-27",
+    "vocadbId": 1032,
+    "title": "Romeo and Cinderella",
+    "artist": "doriko",
+    "artistString": "doriko feat. Hatsune Miku",
+    "vocadbName": "Romeo and Cinderella",
+    "vocadbUrl": "https://vocadb.net/S/1032",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/6666016/6666016.67600511",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/6666016/6666016.67600511",
+      "https://i1.ytimg.com/vi/kp-plPYAPq8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/rrCpDYC1P4s/hqdefault.jpg",
+      "https://i.ytimg.com/vi/0f3FZYM76M0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/kp-plPYAPq8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/9HrOqmiEsN8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/x64etY04Cvo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/fTz2a9gGRRg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/rrCpDYC1P4s/default.jpg",
+      "https://i.ytimg.com/vi/0f3FZYM76M0/default.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/24610756/24610756",
+      "https://i.ytimg.com/vi/9HrOqmiEsN8/default.jpg",
+      "https://i.ytimg.com/vi/x64etY04Cvo/default.jpg",
+      "https://i.ytimg.com/vi/fTz2a9gGRRg/default.jpg",
+      "https://i1.hdslb.com/bfs/archive/717ba4b433d87d03e97012eaa2bce4b6c582fa6c.jpg"
+    ],
+    "publishDate": "2009-04-06T00:00:00Z",
+    "acceptedTitles": [
+      "ロミオとシンデレラ",
+      "Romeo and Cinderella",
+      "Romeo to Cinderella",
+      "Romeo & Cinderella",
+      "로미오와 신데렐라"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1032.mp3"
+  },
+  {
+    "date": "2026-05-28",
+    "vocadbId": 1047,
+    "title": "Stardust Utopia",
+    "artist": "otetsu",
+    "artistString": "otetsu feat. Megurine Luka",
+    "vocadbName": "Stardust Utopia",
+    "vocadbUrl": "https://vocadb.net/S/1047",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/5988510/5988510",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/5988510/5988510",
+      "https://res.piapro.jp/r/images/card/250/luka.png?20260120",
+      "https://i1.ytimg.com/vi/PffdnXIRjf8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/PffdnXIRjf8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/eT2Qj0JWv8Y/hqdefault.jpg",
+      "https://i.ytimg.com/vi/zuGvmN7WkYA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/PffdnXIRjf8/default.jpg",
+      "https://i.ytimg.com/vi/eT2Qj0JWv8Y/default.jpg",
+      "https://i.ytimg.com/vi/zuGvmN7WkYA/default.jpg"
+    ],
+    "publishDate": "2009-01-30T00:00:00Z",
+    "acceptedTitles": [
+      "星屑ユートピア",
+      "Stardust Utopia",
+      "Hoshikuzu Utopia",
+      "별가루 유토피아"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1047.mp3"
+  },
+  {
+    "date": "2026-05-29",
+    "vocadbId": 1057,
+    "title": "Depression of Cybernetics",
+    "artist": "otetsu",
+    "artistString": "otetsu feat. Megurine Luka",
+    "vocadbName": "Depression of Cybernetics",
+    "vocadbUrl": "https://vocadb.net/S/1057",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/6977183/6977183",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/6977183/6977183",
+      "https://i1.ytimg.com/vi/64TRC_6m-7I/hqdefault.jpg",
+      "https://i.ytimg.com/vi/64TRC_6m-7I/hqdefault.jpg",
+      "https://i.ytimg.com/vi/nYBpCA9MrtE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/wbW6spddI18/hqdefault.jpg",
+      "https://i.ytimg.com/vi/64TRC_6m-7I/default.jpg",
+      "https://i.ytimg.com/vi/nYBpCA9MrtE/default.jpg",
+      "https://i.ytimg.com/vi/wbW6spddI18/default.jpg"
+    ],
+    "publishDate": "2009-05-01T00:00:00Z",
+    "acceptedTitles": [
+      "迷的サイバネティックス",
+      "Depression of Cybernetics",
+      "Meiteki Cybernetics",
+      "Stray Cybernetics"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1057.mp3"
+  },
+  {
+    "date": "2026-05-30",
+    "vocadbId": 1119,
+    "title": "Palette",
+    "artist": "Yuyoyuppe",
+    "artistString": "Yuyoyuppe, meola feat. Megurine Luka",
+    "vocadbName": "Palette",
+    "vocadbUrl": "https://vocadb.net/S/1119",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/6828492/6828492",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/6828492/6828492",
+      "https://i1.ytimg.com/vi/vP_IgKTrq2U/hqdefault.jpg",
+      "https://i.ytimg.com/vi/vP_IgKTrq2U/hqdefault.jpg",
+      "https://i.ytimg.com/vi/vP_IgKTrq2U/default.jpg"
+    ],
+    "publishDate": "2009-04-23T00:00:00Z",
+    "acceptedTitles": [
+      "Palette"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1119.mp3"
+  },
+  {
+    "date": "2026-05-31",
+    "vocadbId": 1137,
+    "title": "Wanna Die",
+    "artist": "Nashimoto Ui",
+    "artistString": "Nashimoto Ui feat. Hatsune Miku",
+    "vocadbName": "Wanna Die",
+    "vocadbUrl": "https://vocadb.net/S/1137",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/9809880/9809880",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/9809880/9809880",
+      "https://cdn.piapro.jp/thumb_i/mm/mmc7owj6mlbokjng_20100227003458_0250_0250.jpg",
+      "https://i1.ytimg.com/vi/HYJfAqd9Uxw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/HYJfAqd9Uxw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/HYJfAqd9Uxw/default.jpg"
+    ],
+    "publishDate": "2010-02-23T00:00:00Z",
+    "acceptedTitles": [
+      "死にたがり",
+      "Wanna Die",
+      "Shinitagari",
+      "You Wanna Die?"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1137.mp3"
+  },
+  {
+    "date": "2026-06-01",
+    "vocadbId": 1226,
+    "title": "Unfragment",
+    "artist": "HSP",
+    "artistString": "HSP feat. Hatsune Miku",
+    "vocadbName": "Unfragment",
+    "vocadbUrl": "https://vocadb.net/S/1226",
+    "coverArt": "https://i.ytimg.com/vi/gcZvK1zvIbQ/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/gcZvK1zvIbQ/default.jpg",
+      "https://i1.ytimg.com/vi/gcZvK1zvIbQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/gcZvK1zvIbQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Qs-v9o4SYtI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/d2oqXtciNkE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/y_g4zbwWG_I/hqdefault.jpg",
+      "https://i.ytimg.com/vi/CSjUZWKoe7o/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/9205429/9205429",
+      "https://i.ytimg.com/vi/Qs-v9o4SYtI/default.jpg",
+      "https://i.ytimg.com/vi/d2oqXtciNkE/default.jpg",
+      "https://i.ytimg.com/vi/y_g4zbwWG_I/default.jpg",
+      "https://i.ytimg.com/vi/CSjUZWKoe7o/default.jpg"
+    ],
+    "publishDate": "2009-12-26T00:00:00Z",
+    "acceptedTitles": [
+      "Unfragment"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1226.mp3"
+  },
+  {
+    "date": "2026-06-02",
+    "vocadbId": 1268,
+    "title": "Coward Mont Blanc",
+    "artist": "DECO*27",
+    "artistString": "DECO*27 feat. GUMI",
+    "vocadbName": "Coward Mont Blanc",
+    "vocadbUrl": "https://vocadb.net/S/1268",
+    "coverArt": "https://i.ytimg.com/vi/B-A2eYlbrwQ/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/B-A2eYlbrwQ/default.jpg",
+      "https://i1.ytimg.com/vi/B-A2eYlbrwQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/7F4Cmu6vF-I/hqdefault.jpg",
+      "https://i.ytimg.com/vi/B-A2eYlbrwQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/zGx1IVmDJf4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/124DY6ZFZxo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/E3PwXHzOHL4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/3nKpx4R5Iy8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/7F4Cmu6vF-I/default.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/10393864/10393864",
+      "https://i.ytimg.com/vi/zGx1IVmDJf4/default.jpg",
+      "https://i.ytimg.com/vi/124DY6ZFZxo/default.jpg",
+      "https://i.ytimg.com/vi/E3PwXHzOHL4/default.jpg",
+      "https://i1.sndcdn.com/artworks-yesYysQnpTqZ-0-t500x500.jpg",
+      "https://i1.sndcdn.com/artworks-OZWSEUVarRgT-0-t500x500.jpg",
+      "https://i.ytimg.com/vi/3nKpx4R5Iy8/default.jpg"
+    ],
+    "publishDate": "2010-04-14T00:00:00Z",
+    "acceptedTitles": [
+      "弱虫モンブラン",
+      "Coward Mont Blanc",
+      "Yowamushi Mont Blanc"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1268.mp3"
+  },
+  {
+    "date": "2026-06-03",
+    "vocadbId": 1275,
+    "title": "Dancing☆Samurai",
+    "artist": "mathru",
+    "artistString": "mathru feat. Camui Gackpo",
+    "vocadbName": "Dancing☆Samurai",
+    "vocadbUrl": "https://vocadb.net/S/1275",
+    "coverArt": "https://i.ytimg.com/vi/jJdWOlup5Lk/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/jJdWOlup5Lk/default.jpg",
+      "https://i1.ytimg.com/vi/jJdWOlup5Lk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/jJdWOlup5Lk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/hpoatUxt-Xs/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/4136912/4136912",
+      "https://i.ytimg.com/vi/hpoatUxt-Xs/default.jpg"
+    ],
+    "publishDate": "2008-07-31T00:00:00Z",
+    "acceptedTitles": [
+      "ダンシング☆サムライ",
+      "Dancing☆Samurai",
+      "댄싱☆사무라이"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1275.mp3"
+  },
+  {
+    "date": "2026-06-04",
+    "vocadbId": 1277,
+    "title": "Dance with Asmodeus",
+    "artist": "mothy",
+    "artistString": "mothy feat. Camui Gackpo",
+    "vocadbName": "Dance with Asmodeus",
+    "vocadbUrl": "https://vocadb.net/S/1277",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/11519178/11519178",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/11519178/11519178",
+      "https://i1.ytimg.com/vi/AfWElTI6HMc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/CsIOkbxTA9M/hqdefault.jpg",
+      "https://i.ytimg.com/vi/J5uuUoeyLfM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/AfWElTI6HMc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/CsIOkbxTA9M/default.jpg",
+      "https://i.ytimg.com/vi/J5uuUoeyLfM/default.jpg",
+      "https://i.ytimg.com/vi/AfWElTI6HMc/default.jpg"
+    ],
+    "publishDate": "2010-07-26T00:00:00Z",
+    "acceptedTitles": [
+      "ヴェノマニア公の狂気",
+      "Dance with Asmodeus",
+      "Venomania-kou no Kyouki",
+      "The Lunacy of Duke Venomania",
+      "The Madness of Duke Venomania",
+      "Duke Venomania's Madness"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1277.mp3"
+  },
+  {
+    "date": "2026-06-05",
+    "vocadbId": 1318,
+    "title": "Your Warmth",
+    "artist": "Stag BeetleP",
+    "artistString": "Stag BeetleP feat. Hatsune Miku",
+    "vocadbName": "Your Warmth",
+    "vocadbUrl": "https://vocadb.net/S/1318",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/9189786/9189786",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/9189786/9189786",
+      "https://i1.ytimg.com/vi/t0PtXau1vjg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/JQPM2W0L44U/hqdefault.jpg",
+      "https://i.ytimg.com/vi/t0PtXau1vjg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/tdVxy-D6jTM/hqdefault.jpg",
+      "https://cdn.piapro.jp/thumb_i/6z/6zfu7fhil8zapx8g_20170202001008_0250_0250.png",
+      "https://i.ytimg.com/vi/JQPM2W0L44U/default.jpg",
+      "https://i.ytimg.com/vi/t0PtXau1vjg/default.jpg",
+      "https://i.ytimg.com/vi/tdVxy-D6jTM/default.jpg"
+    ],
+    "publishDate": "2009-12-25T00:00:00Z",
+    "acceptedTitles": [
+      "君の体温",
+      "Your Warmth",
+      "Kimi no Taion",
+      "Your Temperature",
+      "Your Body Temperature",
+      "Your Heat",
+      "너의 체온",
+      "Kimino Taion"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1318.mp3"
+  },
+  {
+    "date": "2026-06-06",
+    "vocadbId": 1319,
+    "title": "Puzzle",
+    "artist": "Stag BeetleP",
+    "artistString": "Stag BeetleP feat. Hatsune Miku",
+    "vocadbName": "Puzzle",
+    "vocadbUrl": "https://vocadb.net/S/1319",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/8139134/8139134",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/8139134/8139134",
+      "https://i1.ytimg.com/vi/STbj31OfEko/hqdefault.jpg",
+      "https://i.ytimg.com/vi/pp_-Xk-RmDc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/STbj31OfEko/hqdefault.jpg",
+      "https://i.ytimg.com/vi/u75gjVDxcUw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/790WWYMVM1k/hqdefault.jpg",
+      "https://i.ytimg.com/vi/pp_-Xk-RmDc/default.jpg",
+      "https://i.ytimg.com/vi/STbj31OfEko/default.jpg",
+      "https://cdn.piapro.jp/thumb_i/7r/7rnkq7ahi6sqjcfu_20090923182020_0250_0250.jpg",
+      "https://i.ytimg.com/vi/u75gjVDxcUw/default.jpg",
+      "https://i.ytimg.com/vi/790WWYMVM1k/default.jpg"
+    ],
+    "publishDate": "2009-09-05T00:00:00Z",
+    "acceptedTitles": [
+      "パズル",
+      "Puzzle",
+      "퍼즐"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1319.mp3"
+  },
+  {
+    "date": "2026-06-07",
+    "vocadbId": 1320,
+    "title": "Love is War",
+    "artist": "ryo",
+    "artistString": "ryo, supercell feat. Hatsune Miku",
+    "vocadbName": "Love is War",
+    "vocadbUrl": "https://vocadb.net/S/1320",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/2397344/2397344",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/2397344/2397344",
+      "https://i1.ytimg.com/vi/xCqe-iM2svs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/3Jf3rEzIFpA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/xCqe-iM2svs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Wm976kyh4kI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/jDop41Bxq2A/hqdefault.jpg",
+      "https://i.ytimg.com/vi/3Jf3rEzIFpA/default.jpg",
+      "https://i.ytimg.com/vi/xCqe-iM2svs/default.jpg",
+      "https://i.ytimg.com/vi/Wm976kyh4kI/default.jpg",
+      "https://i.ytimg.com/vi/jDop41Bxq2A/default.jpg"
+    ],
+    "publishDate": "2008-02-22T00:00:00Z",
+    "acceptedTitles": [
+      "恋は戦争",
+      "Love is War",
+      "Koi wa Sensou",
+      "EAGER LOVE REVENGE",
+      "사랑은 전쟁",
+      "恋爱战争"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1320.mp3"
+  },
+  {
+    "date": "2026-05-02",
+    "vocadbId": 1322,
+    "title": "Melt",
+    "artist": "ryo",
+    "artistString": "ryo feat. Hatsune Miku",
+    "vocadbName": "Melt",
+    "vocadbUrl": "https://vocadb.net/S/1322",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/1715919/1715919",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/1715919/1715919",
+      "https://i1.ytimg.com/vi/BDDYKsNRW3k/hqdefault.jpg",
+      "https://i.ytimg.com/vi/BDDYKsNRW3k/hqdefault.jpg",
+      "https://i.ytimg.com/vi/sV1fYSyQre4/hqdefault.jpg",
+      "https://i1.sndcdn.com/artworks-000130947457-bn84vs-large.jpg",
+      "https://i.ytimg.com/vi/BDDYKsNRW3k/default.jpg",
+      "https://i.ytimg.com/vi/sV1fYSyQre4/default.jpg"
+    ],
+    "publishDate": "2007-12-07T00:00:00Z",
+    "acceptedTitles": [
+      "メルト",
+      "Melt"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1322.mp3"
+  },
+  {
+    "date": "2026-06-09",
+    "vocadbId": 1323,
+    "title": "Black★Rock Shooter",
+    "artist": "ryo",
+    "artistString": "ryo, supercell feat. Hatsune Miku",
+    "vocadbName": "Black★Rock Shooter",
+    "vocadbUrl": "https://vocadb.net/S/1323",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/3645817/3645817",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/3645817/3645817",
+      "https://i1.ytimg.com/vi/40D2xsVsJ78/hqdefault.jpg",
+      "https://i.ytimg.com/vi/OLzOrik5YJ8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/40D2xsVsJ78/hqdefault.jpg",
+      "https://i.ytimg.com/vi/zf_vQaaglns/hqdefault.jpg",
+      "https://i.ytimg.com/vi/OLzOrik5YJ8/default.jpg",
+      "https://i0.hdslb.com/bfs/archive/ac16292935f4558413c39f80c51e4cef7cbcc91a.jpg",
+      "https://i1.sndcdn.com/artworks-000032930383-p9x3zo-large.jpg",
+      "https://i.ytimg.com/vi/40D2xsVsJ78/default.jpg",
+      "https://i.ytimg.com/vi/zf_vQaaglns/default.jpg"
+    ],
+    "publishDate": "2008-06-13T00:00:00Z",
+    "acceptedTitles": [
+      "ブラック★ロックシューター",
+      "Black★Rock Shooter",
+      "Black Rock Shooter",
+      "黑岩射手"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1323.mp3"
+  },
+  {
+    "date": "2026-06-10",
+    "vocadbId": 1326,
+    "title": "World is Mine",
+    "artist": "ryo",
+    "artistString": "ryo, supercell feat. Hatsune Miku",
+    "vocadbName": "World is Mine",
+    "vocadbUrl": "https://vocadb.net/S/1326",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/3504435/3504435",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/3504435/3504435",
+      "https://i1.ytimg.com/vi/BrzIGkhF2Ak/hqdefault.jpg",
+      "https://i.ytimg.com/vi/JW-bFg06Qgc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/BrzIGkhF2Ak/hqdefault.jpg",
+      "https://i.ytimg.com/vi/JW-bFg06Qgc/default.jpg",
+      "https://i.ytimg.com/vi/BrzIGkhF2Ak/default.jpg"
+    ],
+    "publishDate": "2008-05-31T00:00:00Z",
+    "acceptedTitles": [
+      "ワールドイズマイン",
+      "World is Mine",
+      "The World Is Mine"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1326.mp3"
+  },
+  {
+    "date": "2026-06-11",
+    "vocadbId": 1327,
+    "title": "When First Love Ends",
+    "artist": "ryo",
+    "artistString": "ryo feat. Hatsune Miku",
+    "vocadbName": "When First Love Ends",
+    "vocadbUrl": "https://vocadb.net/S/1327",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/5524166/5524166",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/5524166/5524166",
+      "https://i1.ytimg.com/vi/9YDoZZkin7M/hqdefault.jpg",
+      "https://i.ytimg.com/vi/xLDcl_fs8To/hqdefault.jpg",
+      "https://i.ytimg.com/vi/WbdzdkHLt-E/hqdefault.jpg",
+      "https://i.ytimg.com/vi/9YDoZZkin7M/hqdefault.jpg",
+      "https://i.ytimg.com/vi/xLDcl_fs8To/default.jpg",
+      "https://i.ytimg.com/vi/WbdzdkHLt-E/default.jpg",
+      "https://i.ytimg.com/vi/9YDoZZkin7M/default.jpg"
+    ],
+    "publishDate": "2008-12-12T00:00:00Z",
+    "acceptedTitles": [
+      "初めての恋が終わる時",
+      "When First Love Ends",
+      "Hajimete no Koi ga Owaru Toki",
+      "첫사랑이 끝날 때",
+      "When the First Love Ends"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1327.mp3"
+  },
+  {
+    "date": "2026-06-12",
+    "vocadbId": 1354,
+    "title": "Time Machine",
+    "artist": "40mP",
+    "artistString": "40mP, 1640mP feat. Hatsune Miku",
+    "vocadbName": "Time Machine",
+    "vocadbUrl": "https://vocadb.net/S/1354",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/12098837/12098837",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/12098837/12098837",
+      "https://i1.ytimg.com/vi/EgOWe9ByNaE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/EgOWe9ByNaE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/EgOWe9ByNaE/default.jpg"
+    ],
+    "publishDate": "2010-09-13T00:00:00Z",
+    "acceptedTitles": [
+      "タイムマシン",
+      "Time Machine",
+      "타임머신",
+      "時光機"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1354.mp3"
+  },
+  {
+    "date": "2026-06-13",
+    "vocadbId": 1355,
+    "title": "I'll Make You Do the Miku Miku♪ (You'll Do It)",
+    "artist": "ika_mo",
+    "artistString": "ika_mo feat. Hatsune Miku",
+    "vocadbName": "I'll Make You Do the Miku Miku♪ (You'll Do It)",
+    "vocadbUrl": "https://vocadb.net/S/1355",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/1097445/1097445",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/1097445/1097445",
+      "https://i1.ytimg.com/vi/HYxWRTPn9vM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/-N5XNRNhdcA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/5EFIm08cW_s/hqdefault.jpg",
+      "https://i.ytimg.com/vi/HYxWRTPn9vM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/-N5XNRNhdcA/default.jpg",
+      "https://i2.hdslb.com/bfs/archive/016ba7cc60a8c1e4d02124b721055977a94a92ca.jpg",
+      "https://i.ytimg.com/vi/5EFIm08cW_s/default.jpg",
+      "https://i.ytimg.com/vi/HYxWRTPn9vM/default.jpg"
+    ],
+    "publishDate": "2007-09-20T00:00:00Z",
+    "acceptedTitles": [
+      "みくみくにしてあげる♪【してやんよ】",
+      "I'll Make You Do the Miku Miku♪ (You'll Do It)",
+      "Miku Miku ni Shite Ageru♪ (Shite Yan yo)",
+      "みくみくにしてあげる♪",
+      "Miku Miku ni Shite Ageru♪",
+      "I'll Make You Do the Miku Miku♪",
+      "I'll Miku-Miku You♪ (For Reals)",
+      "I Will Make You Miku Miku",
+      "I'll Miku-Miku You♪"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1355.mp3"
+  },
+  {
+    "date": "2026-06-14",
+    "vocadbId": 1357,
+    "title": "Heart",
+    "artist": "Toraboruta",
+    "artistString": "Toraboruta feat. Kagamine Rin",
+    "vocadbName": "Heart",
+    "vocadbUrl": "https://vocadb.net/S/1357",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/2500648/2500648",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/2500648/2500648",
+      "https://i1.ytimg.com/vi/0h8sqfo3QJ4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/DxvVR63KAcM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/0h8sqfo3QJ4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/rFOxtCPvDVE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/t-Ho-uSbxZg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/gHYBLM3OdL4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/DxvVR63KAcM/default.jpg",
+      "https://i.ytimg.com/vi/0h8sqfo3QJ4/default.jpg",
+      "https://i.ytimg.com/vi/rFOxtCPvDVE/default.jpg",
+      "https://i.ytimg.com/vi/t-Ho-uSbxZg/default.jpg",
+      "https://i.ytimg.com/vi/gHYBLM3OdL4/default.jpg"
+    ],
+    "publishDate": "2008-03-02T00:00:00Z",
+    "acceptedTitles": [
+      "ココロ",
+      "Heart",
+      "Kokoro",
+      "心",
+      "마음"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1357.mp3"
+  },
+  {
+    "date": "2026-06-15",
+    "vocadbId": 1358,
+    "title": "His significance of existence",
+    "artist": "mothy",
+    "artistString": "mothy feat. Kagamine Len",
+    "vocadbName": "His significance of existence",
+    "vocadbUrl": "https://vocadb.net/S/1358",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/3133304/3133304",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/3133304/3133304",
+      "https://i1.ytimg.com/vi/GC6YNb6ZLKg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/5N-WXFKMT_0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/GC6YNb6ZLKg/hqdefault.jpg",
+      "https://cdn.piapro.jp/thumb_i/t7/t7d34me98dg22fs9_20080427185158_0250_0250.jpg",
+      "https://i.ytimg.com/vi/5N-WXFKMT_0/default.jpg",
+      "https://i.ytimg.com/vi/GC6YNb6ZLKg/default.jpg"
+    ],
+    "publishDate": "2008-04-29T00:00:00Z",
+    "acceptedTitles": [
+      "悪ノ召使",
+      "His significance of existence",
+      "Aku no Meshitsukai",
+      "Servant of Evil",
+      "Слуга Зла",
+      "The Servant of Evil"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1358.mp3"
+  },
+  {
+    "date": "2026-06-16",
+    "vocadbId": 1359,
+    "title": "Urbandonment",
+    "artist": "40mP",
+    "artistString": "40mP feat. Hatsune Miku",
+    "vocadbName": "Urbandonment",
+    "vocadbUrl": "https://vocadb.net/S/1359",
+    "coverArt": "https://i.ytimg.com/vi/yIQDGwyJpSo/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/yIQDGwyJpSo/default.jpg",
+      "https://i1.ytimg.com/vi/yIQDGwyJpSo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/yIQDGwyJpSo/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/11559163/11559163",
+      "https://cdn.piapro.jp/thumb_i/sz/sz2be8xuzjtamk66_20100922155252_0250_0250.jpg",
+      "https://i2.hdslb.com/bfs/archive/c903812910b6a1dfa3523b8b842b8726e763a1d2.jpg"
+    ],
+    "publishDate": "2010-07-29T00:00:00Z",
+    "acceptedTitles": [
+      "トリノコシティ",
+      "Urbandonment",
+      "Torinoko City",
+      "Left Behind City"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1359.mp3"
+  },
+  {
+    "date": "2026-06-17",
+    "vocadbId": 1360,
+    "title": "Just Be Friends",
+    "artist": "Dixie Flatline",
+    "artistString": "Dixie Flatline feat. Megurine Luka",
+    "vocadbName": "Just Be Friends",
+    "vocadbUrl": "https://vocadb.net/S/1360",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/7528841/7528841",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/7528841/7528841",
+      "https://i1.ytimg.com/vi/li1WjKl2boY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/li1WjKl2boY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/rLYtecBVHrs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/VoPzP-MwcLI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/dhMjVNEyv7M/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ZRI_zzY7rsY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/rR_ZDyhi7Eg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/li1WjKl2boY/default.jpg",
+      "https://res.piapro.jp/r/images/card/250/luka.png?20260120",
+      "https://i.ytimg.com/vi/rLYtecBVHrs/default.jpg",
+      "https://i.ytimg.com/vi/VoPzP-MwcLI/default.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/11620696/11620696",
+      "https://i.ytimg.com/vi/dhMjVNEyv7M/default.jpg",
+      "https://i.ytimg.com/vi/ZRI_zzY7rsY/default.jpg",
+      "https://i.ytimg.com/vi/rR_ZDyhi7Eg/default.jpg"
+    ],
+    "publishDate": "2009-07-04T00:00:00Z",
+    "acceptedTitles": [
+      "Just Be Friends"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1360.mp3"
+  },
+  {
+    "date": "2026-06-18",
+    "vocadbId": 1363,
+    "title": "Clockwork Clown",
+    "artist": "40mP",
+    "artistString": "40mP feat. Hatsune Miku",
+    "vocadbName": "Clockwork Clown",
+    "vocadbUrl": "https://vocadb.net/S/1363",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/15022913/15022913",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/15022913/15022913",
+      "https://i1.ytimg.com/vi/xxFkW3PCT5M/hqdefault.jpg",
+      "https://i.ytimg.com/vi/xxFkW3PCT5M/hqdefault.jpg",
+      "https://i.ytimg.com/vi/DDjcqu9uvUE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/xxFkW3PCT5M/default.jpg",
+      "https://res.piapro.jp/r/images/card/250/miku.png?20260120",
+      "https://i.ytimg.com/vi/DDjcqu9uvUE/default.jpg",
+      "https://i2.hdslb.com/bfs/archive/4b8660e7cc4feb0675eca7e013ec0deefbbe8add.jpg"
+    ],
+    "publishDate": "2011-07-15T00:00:00Z",
+    "acceptedTitles": [
+      "からくりピエロ",
+      "Clockwork Clown",
+      "Karakuri Pierrot"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1363.mp3"
+  },
+  {
+    "date": "2026-06-19",
+    "vocadbId": 1381,
+    "title": "Mozaik Role",
+    "artist": "DECO*27",
+    "artistString": "DECO*27 feat. GUMI",
+    "vocadbName": "Mozaik Role",
+    "vocadbUrl": "https://vocadb.net/S/1381",
+    "coverArt": "https://i.ytimg.com/vi/DnLFVUi3oOU/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/DnLFVUi3oOU/default.jpg",
+      "https://i1.ytimg.com/vi/DnLFVUi3oOU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/DnLFVUi3oOU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/fx-SXiiR23o/hqdefault.jpg",
+      "https://i.ytimg.com/vi/b57n99y-HZ8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/SqRuAzVAZOQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/1Ts2L2BI1r4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/IK3Z0RIIvY8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/peDjuTbPK3Y/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/11398357/11398357",
+      "https://i1.sndcdn.com/artworks-000048561968-mzsyax-large.jpg",
+      "https://i1.hdslb.com/bfs/archive/acfce2455d7df2326ea8b4696067dbf72112fbbc.jpg",
+      "https://i.ytimg.com/vi/fx-SXiiR23o/default.jpg",
+      "https://i.ytimg.com/vi/b57n99y-HZ8/default.jpg",
+      "https://i.ytimg.com/vi/SqRuAzVAZOQ/default.jpg",
+      "https://i.ytimg.com/vi/1Ts2L2BI1r4/default.jpg",
+      "https://i.ytimg.com/vi/IK3Z0RIIvY8/default.jpg",
+      "https://i1.sndcdn.com/artworks-HLf2Mr4b9pxn-0-t500x500.jpg",
+      "https://i1.sndcdn.com/artworks-o6mM2PlBVjtd-0-t500x500.jpg",
+      "https://i.ytimg.com/vi/peDjuTbPK3Y/default.jpg"
+    ],
+    "publishDate": "2010-07-15T00:00:00Z",
+    "acceptedTitles": [
+      "モザイクロール",
+      "Mozaik Role",
+      "Mosaic Role",
+      "Mozaik Roll",
+      "Mosaic Roll",
+      "모자이크 롤"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1381.mp3"
+  },
+  {
+    "date": "2026-06-20",
+    "vocadbId": 1383,
+    "title": "Sweet Devil",
+    "artist": "HachioujiP",
+    "artistString": "HachioujiP feat. Hatsune Miku",
+    "vocadbName": "Sweet Devil",
+    "vocadbUrl": "https://vocadb.net/S/1383",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/9711503/9711503",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/9711503/9711503",
+      "https://i1.ytimg.com/vi/97CWvcA7iPo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Gu0luN8SrIs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/e3qMJNrCUz0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/1PuQ-J0cwMk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/97CWvcA7iPo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Gu0luN8SrIs/default.jpg",
+      "https://i.ytimg.com/vi/e3qMJNrCUz0/default.jpg",
+      "https://i.ytimg.com/vi/1PuQ-J0cwMk/default.jpg",
+      "https://i.ytimg.com/vi/97CWvcA7iPo/default.jpg"
+    ],
+    "publishDate": "2010-02-14T00:00:00Z",
+    "acceptedTitles": [
+      "Sweet Devil"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1383.mp3"
+  },
+  {
+    "date": "2026-06-21",
+    "vocadbId": 1416,
+    "title": "Hello/How are you?",
+    "artist": "nanou",
+    "artistString": "nanou feat. Hatsune Miku Append (Soft)",
+    "vocadbName": "Hello/How are you?",
+    "vocadbUrl": "https://vocadb.net/S/1416",
+    "coverArt": "https://i.ytimg.com/vi/-M4sAQYi6r4/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/-M4sAQYi6r4/default.jpg",
+      "https://i1.ytimg.com/vi/-M4sAQYi6r4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/-M4sAQYi6r4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/vNG6tKM7OWI/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/11448603/11448603",
+      "https://i.ytimg.com/vi/vNG6tKM7OWI/default.jpg"
+    ],
+    "publishDate": "2010-07-07T00:00:00Z",
+    "acceptedTitles": [
+      "ハロ／ハワユ",
+      "Hello/How are you?"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1416.mp3"
+  },
+  {
+    "date": "2026-06-22",
+    "vocadbId": 1435,
+    "title": "Luka Luka★Night Fever",
+    "artist": "samfree",
+    "artistString": "samfree feat. Megurine Luka",
+    "vocadbName": "Luka Luka★Night Fever",
+    "vocadbUrl": "https://vocadb.net/S/1435",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/6119955/6119955",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/6119955/6119955",
+      "https://i1.ytimg.com/vi/v1iomlLD3jc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/v1iomlLD3jc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ScSW9C3DF18/hqdefault.jpg",
+      "https://i.ytimg.com/vi/5BJYOy6gp_8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/dvsPRlm4I_A/hqdefault.jpg",
+      "https://i.ytimg.com/vi/v1iomlLD3jc/default.jpg",
+      "https://i.ytimg.com/vi/ScSW9C3DF18/default.jpg",
+      "https://i.ytimg.com/vi/5BJYOy6gp_8/default.jpg",
+      "https://i.ytimg.com/vi/dvsPRlm4I_A/default.jpg"
+    ],
+    "publishDate": "2009-02-12T00:00:00Z",
+    "acceptedTitles": [
+      "ルカルカ★ナイトフィーバー",
+      "Luka Luka★Night Fever"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1435.mp3"
+  },
+  {
+    "date": "2026-06-23",
+    "vocadbId": 1437,
+    "title": "Promise",
+    "artist": "samfree",
+    "artistString": "samfree feat. Kagamine Rin, Hatsune Miku",
+    "vocadbName": "Promise",
+    "vocadbUrl": "https://vocadb.net/S/1437",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/1961633/1961633",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/1961633/1961633",
+      "https://i1.ytimg.com/vi/w3RBNI6kz-4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/w3RBNI6kz-4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Q8y5xrvH9iI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/w3RBNI6kz-4/default.jpg",
+      "https://i.ytimg.com/vi/Q8y5xrvH9iI/default.jpg"
+    ],
+    "publishDate": "2008-01-06T00:00:00Z",
+    "acceptedTitles": [
+      "Promise",
+      "プロミス"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1437.mp3"
+  },
+  {
+    "date": "2026-06-24",
+    "vocadbId": 1500,
+    "title": "Unhappy Refrain",
+    "artist": "wowaka",
+    "artistString": "wowaka feat. Hatsune Miku",
+    "vocadbName": "Unhappy Refrain",
+    "vocadbUrl": "https://vocadb.net/S/1500",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/14330479/14330479",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/14330479/14330479",
+      "https://i1.ytimg.com/vi/uMlv9VWAxko/hqdefault.jpg",
+      "https://i.ytimg.com/vi/syOpcqE8lnE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/uMlv9VWAxko/hqdefault.jpg",
+      "https://i.ytimg.com/vi/syOpcqE8lnE/default.jpg",
+      "https://i.ytimg.com/vi/uMlv9VWAxko/default.jpg"
+    ],
+    "publishDate": "2011-05-02T00:00:00Z",
+    "acceptedTitles": [
+      "アンハッピーリフレイン",
+      "Unhappy Refrain",
+      "언해피 리프레인"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1500.mp3"
+  },
+  {
+    "date": "2026-05-04",
+    "vocadbId": 1501,
+    "title": "Rollin' Girl",
+    "artist": "wowaka",
+    "artistString": "wowaka feat. Hatsune Miku",
+    "vocadbName": "Rollin' Girl",
+    "vocadbUrl": "https://vocadb.net/S/1501",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/9714351/9714351",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/9714351/9714351",
+      "https://i1.ytimg.com/vi/vnw8zURAxkU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/vnw8zURAxkU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/vnw8zURAxkU/default.jpg",
+      "https://i1.sndcdn.com/artworks-000027110327-z01o64-t500x500.jpg"
+    ],
+    "publishDate": "2010-02-14T00:00:00Z",
+    "acceptedTitles": [
+      "ローリンガール",
+      "Rollin' Girl",
+      "Rolling Girl",
+      "翻滚少女",
+      "롤링 걸"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1501.mp3"
+  },
+  {
+    "date": "2026-06-26",
+    "vocadbId": 1506,
+    "title": "Shall Not Pass",
+    "artist": "wowaka",
+    "artistString": "wowaka feat. Hatsune Miku",
+    "vocadbName": "Shall Not Pass",
+    "vocadbUrl": "https://vocadb.net/S/1506",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/7357463/7357463",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/7357463/7357463",
+      "https://i1.ytimg.com/vi/uxNoOPetZ6g/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Vn0uZ8Au6LY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/uxNoOPetZ6g/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Vn0uZ8Au6LY/default.jpg",
+      "https://i.ytimg.com/vi/uxNoOPetZ6g/default.jpg",
+      "https://res.piapro.jp/r/images/card/250/miku.png?20260120",
+      "https://i2.hdslb.com/bfs/archive/6a4daa84d5f58a4af524b0f240ed6f43f5f5169a.jpg"
+    ],
+    "publishDate": "2009-06-15T00:00:00Z",
+    "acceptedTitles": [
+      "とおせんぼ",
+      "Shall Not Pass",
+      "Toosenbo",
+      "Standing in Your Way",
+      "I Won't Let You Through",
+      "禁止通行",
+      "통행 금지 놀이"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1506.mp3"
+  },
+  {
+    "date": "2026-06-27",
+    "vocadbId": 1508,
+    "title": "Two-Sided Lovers",
+    "artist": "wowaka",
+    "artistString": "wowaka feat. Hatsune Miku",
+    "vocadbName": "Two-Sided Lovers",
+    "vocadbUrl": "https://vocadb.net/S/1508",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/8082467/8082467",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/8082467/8082467",
+      "https://i1.ytimg.com/vi/b_cuMcDWwsI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/b_cuMcDWwsI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/cE5vZ7ReRUA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/b_cuMcDWwsI/default.jpg",
+      "https://cdn.piapro.jp/thumb_i/pi/pizmoc6g8tegs3mf_20091003201029_0250_0250.jpg",
+      "https://i1.hdslb.com/bfs/archive/8a7370b9c87fd39e3640d13fb918c8f4c4f938d1.jpg",
+      "https://i.ytimg.com/vi/cE5vZ7ReRUA/default.jpg"
+    ],
+    "publishDate": "2009-08-30T00:00:00Z",
+    "acceptedTitles": [
+      "裏表ラバーズ",
+      "Two-Sided Lovers",
+      "Uraomote Lovers",
+      "Two-Faced Lovers",
+      "里表情人",
+      "Love & Lovers",
+      "겉과 속의 러버즈"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1508.mp3"
+  },
+  {
+    "date": "2026-06-28",
+    "vocadbId": 1513,
+    "title": "No Logic",
+    "artist": "JimmyThumbP",
+    "artistString": "JimmyThumbP feat. Megurine Luka",
+    "vocadbName": "No Logic",
+    "vocadbUrl": "https://vocadb.net/S/1513",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/8228650/8228650",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/8228650/8228650",
+      "https://i1.ytimg.com/vi/0GLSJHTZDuM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/DIO__fvhV0E/hqdefault.jpg",
+      "https://i.ytimg.com/vi/0GLSJHTZDuM/hqdefault.jpg",
+      "https://res.piapro.jp/r/images/card/250/luka.png?20260120",
+      "https://i.ytimg.com/vi/DIO__fvhV0E/default.jpg",
+      "https://i.ytimg.com/vi/0GLSJHTZDuM/default.jpg"
+    ],
+    "publishDate": "2009-09-14T00:00:00Z",
+    "acceptedTitles": [
+      "No Logic"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1513.mp3"
+  },
+  {
+    "date": "2026-06-29",
+    "vocadbId": 1516,
+    "title": "SPiCa",
+    "artist": "tokuP",
+    "artistString": "tokuP feat. Hatsune Miku",
+    "vocadbName": "SPiCa",
+    "vocadbUrl": "https://vocadb.net/S/1516",
+    "coverArt": "https://i1.ytimg.com/vi/orbCMnvvNwI/default.jpg",
+    "coverArts": [
+      "https://i1.ytimg.com/vi/orbCMnvvNwI/default.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/7756597/7756597",
+      "https://i1.ytimg.com/vi/orbCMnvvNwI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/orbCMnvvNwI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/sf5igfcIw4A/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ec3V80b0S2c/hqdefault.jpg",
+      "https://i.ytimg.com/vi/orbCMnvvNwI/default.jpg",
+      "https://i.ytimg.com/vi/sf5igfcIw4A/default.jpg",
+      "https://i.ytimg.com/vi/ec3V80b0S2c/default.jpg"
+    ],
+    "publishDate": "2009-07-27T00:00:00Z",
+    "acceptedTitles": [
+      "SPiCa"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1516.mp3"
+  },
+  {
+    "date": "2026-06-30",
+    "vocadbId": 1556,
+    "title": "Leave In Summer, Yet You're In My Fluffoughts",
+    "artist": "baker",
+    "artistString": "baker feat. Hatsune Miku Append (Sweet)",
+    "vocadbName": "Leave In Summer, Yet You're In My Fluffoughts",
+    "vocadbUrl": "https://vocadb.net/S/1556",
+    "coverArt": "https://i.ytimg.com/vi/xLKh5vN5Lao/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/xLKh5vN5Lao/default.jpg",
+      "https://i1.ytimg.com/vi/xLKh5vN5Lao/hqdefault.jpg",
+      "https://i.ytimg.com/vi/4CJegZYagNs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/a8d57qEkxkw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/xLKh5vN5Lao/hqdefault.jpg",
+      "https://i.ytimg.com/vi/4CJegZYagNs/default.jpg",
+      "https://i.ytimg.com/vi/a8d57qEkxkw/default.jpg",
+      "https://f4.bcbits.com/img/a3140271735_5.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/15460469/15460469"
+    ],
+    "publishDate": "2011-08-13T00:00:00Z",
+    "acceptedTitles": [
+      "夏に去りし君を想フ",
+      "Leave In Summer, Yet You're In My Fluffoughts",
+      "Natsu ni Sarishi Kimi o Omofu",
+      "Natsu ni Sarishi Kimi o Omou",
+      "ARPK 2",
+      "여름이 지나고 너를 생각해"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1556.mp3"
+  },
+  {
+    "date": "2026-07-01",
+    "vocadbId": 1573,
+    "title": "Humorous Dream of Mrs. Pumpkin",
+    "artist": "HACHI",
+    "artistString": "HACHI feat. Hatsune Miku",
+    "vocadbName": "Humorous Dream of Mrs. Pumpkin",
+    "vocadbUrl": "https://vocadb.net/S/1573",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/8489562/8489562",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/8489562/8489562",
+      "https://res.piapro.jp/r/images/card/250/miku.png?20260120",
+      "https://i1.ytimg.com/vi/_xs6LjWf3sM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/kSCnsTGuroM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/_xs6LjWf3sM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/kSCnsTGuroM/default.jpg",
+      "https://i.ytimg.com/vi/_xs6LjWf3sM/default.jpg"
+    ],
+    "publishDate": "2009-10-12T00:00:00Z",
+    "acceptedTitles": [
+      "Mrs.Pumpkinの滑稽な夢 ",
+      "Humorous Dream of Mrs. Pumpkin",
+      "Mrs. Pumpkin no Kokkei na Yume",
+      "Mrs. Pumpkin's Comical Dream",
+      "Mrs. Pumpkin's Ridiculous Dream",
+      "Mrs. Pumpkin의 우스꽝스러운 꿈"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1573.mp3"
+  },
+  {
+    "date": "2026-07-02",
+    "vocadbId": 1582,
+    "title": "Corpse Attack!!",
+    "artist": "Utsu-P",
+    "artistString": "Utsu-P feat. Hatsune Miku",
+    "vocadbName": "Corpse Attack!!",
+    "vocadbUrl": "https://vocadb.net/S/1582",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/7526338/7526338",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/7526338/7526338",
+      "https://i1.ytimg.com/vi/Fr3HuXB0Crw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Fr3HuXB0Crw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/zbPtAqfOXcg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Fr3HuXB0Crw/default.jpg",
+      "https://res.piapro.jp/r/images/card/250/miku.png?20260120",
+      "https://i2.hdslb.com/bfs/archive/6224d31647f025a0d8ec4850350982be6f00a0d0.jpg"
+    ],
+    "publishDate": "2009-07-03T00:00:00Z",
+    "acceptedTitles": [
+      "骸Attack!!",
+      "Corpse Attack!!",
+      "Mukuro Attack!!",
+      "뼈 Attack!!"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1582.mp3"
+  },
+  {
+    "date": "2026-07-03",
+    "vocadbId": 1588,
+    "title": "Beelzebub party",
+    "artist": "mothy",
+    "artistString": "mothy feat. MEIKO",
+    "vocadbName": "Beelzebub party",
+    "vocadbUrl": "https://vocadb.net/S/1588",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/6328922/6328922",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/6328922/6328922",
+      "https://i1.ytimg.com/vi/0LP8WIE5fTQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ChXVFsqIuvE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/0LP8WIE5fTQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/9ApXcU-w20Y/hqdefault.jpg",
+      "https://cdn.piapro.jp/thumb_i/he/he2qxwanudebx4uw_20090326002625_0250_0250.jpg",
+      "https://i.ytimg.com/vi/ChXVFsqIuvE/default.jpg",
+      "https://i.ytimg.com/vi/0LP8WIE5fTQ/default.jpg",
+      "https://i.ytimg.com/vi/9ApXcU-w20Y/default.jpg"
+    ],
+    "publishDate": "2009-03-03T00:00:00Z",
+    "acceptedTitles": [
+      "悪食娘コンチータ",
+      "Beelzebub party",
+      "Akujiki Musume Conchita",
+      "Evil Food Eater Conchita",
+      "The Epicurean Daughter of Evil",
+      "Repulsive Food Eater Conchita"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1588.mp3"
+  },
+  {
+    "date": "2026-07-04",
+    "vocadbId": 1590,
+    "title": "The princess of Lucifer",
+    "artist": "mothy",
+    "artistString": "mothy feat. Kagamine Rin",
+    "vocadbName": "The princess of Lucifer",
+    "vocadbUrl": "https://vocadb.net/S/1590",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/2916956/2916956",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/2916956/2916956",
+      "https://i1.ytimg.com/vi/sV7ODBvxw38/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Sxp9BJ-pDAs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/vIEx-AQ8sj0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/sV7ODBvxw38/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Sxp9BJ-pDAs/default.jpg",
+      "https://i.ytimg.com/vi/vIEx-AQ8sj0/default.jpg",
+      "https://cdn.piapro.jp/thumb_i/rs/rsrnqqo138vb3de9_20080603000948_0250_0250.jpg",
+      "https://i.ytimg.com/vi/sV7ODBvxw38/default.jpg"
+    ],
+    "publishDate": "2008-04-04T00:00:00Z",
+    "acceptedTitles": [
+      "悪ノ娘",
+      "The princess of Lucifer",
+      "Aku no Musume",
+      "Daughter of Evil",
+      "The Daughter of Evil"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1590.mp3"
+  },
+  {
+    "date": "2026-07-05",
+    "vocadbId": 1598,
+    "title": "Judgement of Corruption",
+    "artist": "mothy",
+    "artistString": "mothy feat. KAITO",
+    "vocadbName": "Judgement of Corruption",
+    "vocadbUrl": "https://vocadb.net/S/1598",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/14731092/14731092",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/14731092/14731092",
+      "https://i1.ytimg.com/vi/cmErk2wkWYQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/SwPUz1bDVyk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/cmErk2wkWYQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/SwPUz1bDVyk/default.jpg",
+      "https://i.ytimg.com/vi/cmErk2wkWYQ/default.jpg"
+    ],
+    "publishDate": "2010-12-22T00:00:00Z",
+    "acceptedTitles": [
+      "悪徳のジャッジメント",
+      "Judgement of Corruption",
+      "Akutoku no Judgement",
+      "Mammon's Court",
+      "Akutoku no Judgment",
+      "Judgment of Corruption",
+      "악덕의 저지먼트",
+      "恶德的法官"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1598.mp3"
+  },
+  {
+    "date": "2026-07-06",
+    "vocadbId": 1797,
+    "title": "glow",
+    "artist": "keeno",
+    "artistString": "keeno feat. Hatsune Miku Append (Dark)",
+    "vocadbName": "glow",
+    "vocadbUrl": "https://vocadb.net/S/1797",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/11209477/11209477",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/11209477/11209477",
+      "https://i1.ytimg.com/vi/6BHNFYk6w-M/hqdefault.jpg",
+      "https://i.ytimg.com/vi/YJAP8LU4keg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/6BHNFYk6w-M/hqdefault.jpg",
+      "https://cdn.piapro.jp/thumb_i/pk/pk9xwlmlif3by9io_20100925112711_0250_0250.jpg",
+      "https://i.ytimg.com/vi/YJAP8LU4keg/default.jpg",
+      "https://i.ytimg.com/vi/6BHNFYk6w-M/default.jpg"
+    ],
+    "publishDate": "2010-06-28T00:00:00Z",
+    "acceptedTitles": [
+      "glow"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1797.mp3"
+  },
+  {
+    "date": "2026-07-07",
+    "vocadbId": 1828,
+    "title": "Strobe Light",
+    "artist": "siinamota",
+    "artistString": "siinamota feat. Hatsune Miku Append (Light)",
+    "vocadbName": "Strobe Light",
+    "vocadbUrl": "https://vocadb.net/S/1828",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/15496537/15496537",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/15496537/15496537",
+      "https://i1.ytimg.com/vi/n77fjnp_BxM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/7sKs7INaEoA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/l4tnVErG_9w/hqdefault.jpg",
+      "https://i.ytimg.com/vi/n77fjnp_BxM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/tfU5hYh6oVQ/hqdefault.jpg",
+      "https://i1.sndcdn.com/artworks-000014041034-ricze2-large.jpg",
+      "https://i.ytimg.com/vi/7sKs7INaEoA/default.jpg",
+      "https://i.ytimg.com/vi/l4tnVErG_9w/default.jpg",
+      "https://i.ytimg.com/vi/n77fjnp_BxM/default.jpg",
+      "https://i.ytimg.com/vi/tfU5hYh6oVQ/default.jpg"
+    ],
+    "publishDate": "2011-09-02T00:00:00Z",
+    "acceptedTitles": [
+      "ストロボライト",
+      "Strobe Light",
+      "스트로보 라이트"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1828.mp3"
+  },
+  {
+    "date": "2026-07-08",
+    "vocadbId": 1834,
+    "title": "Strobe Last",
+    "artist": "siinamota",
+    "artistString": "siinamota feat. Hatsune Miku Append (Sweet)",
+    "vocadbName": "Strobe Last",
+    "vocadbUrl": "https://vocadb.net/S/1834",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/13359285/13359285",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/13359285/13359285",
+      "https://i1.ytimg.com/vi/2DEDUe5YVkY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/6hn-lXh4Myk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/2DEDUe5YVkY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/OghEtrZpkL8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/6hn-lXh4Myk/default.jpg",
+      "https://i1.sndcdn.com/artworks-000014079110-aliwo8-large.jpg",
+      "https://i2.hdslb.com/bfs/archive/5d7ad9352c21420c800a2833539b1246e347c391.jpg",
+      "https://i.ytimg.com/vi/2DEDUe5YVkY/default.jpg",
+      "https://i.ytimg.com/vi/OghEtrZpkL8/default.jpg"
+    ],
+    "publishDate": "2011-01-20T00:00:00Z",
+    "acceptedTitles": [
+      "ストロボラスト",
+      "Strobe Last",
+      "스트로보 라스트"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1834.mp3"
+  },
+  {
+    "date": "2026-07-09",
+    "vocadbId": 1890,
+    "title": "Paradichlorobenzene",
+    "artist": "OwataP",
+    "artistString": "OwataP feat. Kagamine Len",
+    "vocadbName": "Paradichlorobenzene",
+    "vocadbUrl": "https://vocadb.net/S/1890",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/8269164/8269164",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/8269164/8269164",
+      "https://i1.ytimg.com/vi/NifpMj1QFIk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/TeVhHLggZ5U/hqdefault.jpg",
+      "https://i.ytimg.com/vi/NifpMj1QFIk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/nxA0E-RhOMc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/v6ezL2UyH48/hqdefault.jpg",
+      "https://i.ytimg.com/vi/R2k69A7mCR0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/TeVhHLggZ5U/default.jpg",
+      "https://i.ytimg.com/vi/NifpMj1QFIk/default.jpg",
+      "https://i.ytimg.com/vi/nxA0E-RhOMc/default.jpg",
+      "https://i.ytimg.com/vi/v6ezL2UyH48/default.jpg",
+      "https://i.ytimg.com/vi/R2k69A7mCR0/default.jpg"
+    ],
+    "publishDate": "2009-09-19T00:00:00Z",
+    "acceptedTitles": [
+      "パラジクロロベンゼン",
+      "Paradichlorobenzene",
+      "对二氯苯",
+      "破壊系洗脳ソング",
+      "Hakai-kei Sennou Song",
+      "Destructive-type Brainwashing Song"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1890.mp3"
+  },
+  {
+    "date": "2026-07-10",
+    "vocadbId": 1949,
+    "title": "Butterfly on Your Right Shoulder",
+    "artist": "noripy",
+    "artistString": "noripy feat. Kagamine Len",
+    "vocadbName": "Butterfly on Your Right Shoulder",
+    "vocadbUrl": "https://vocadb.net/S/1949",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/6928368/6928368",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/6928368/6928368",
+      "https://i1.ytimg.com/vi/HhOK1-whpsc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/9gRWXcyAfBI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/yOyz-dM5C_g/hqdefault.jpg",
+      "https://i.ytimg.com/vi/HhOK1-whpsc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/9gRWXcyAfBI/default.jpg",
+      "https://res.piapro.jp/r/images/card/250/len.png?20260120",
+      "https://i.ytimg.com/vi/yOyz-dM5C_g/default.jpg",
+      "https://i.ytimg.com/vi/HhOK1-whpsc/default.jpg"
+    ],
+    "publishDate": "2009-05-03T00:00:00Z",
+    "acceptedTitles": [
+      "右肩の蝶",
+      "Butterfly on Your Right Shoulder",
+      "Migikata no Chou",
+      "Butterfly of the Right Shoulder",
+      "右肩之蝶"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1949.mp3"
+  },
+  {
+    "date": "2026-07-11",
+    "vocadbId": 1952,
+    "title": "Butterfly on Your Right Shoulder",
+    "artist": "noripy",
+    "artistString": "noripy feat. Kagamine Rin",
+    "vocadbName": "Butterfly on Your Right Shoulder",
+    "vocadbUrl": "https://vocadb.net/S/1952",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/6609407/6609407",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/6609407/6609407",
+      "https://i1.ytimg.com/vi/DgmPyanqjbA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/rt_iCLU_gMo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/DgmPyanqjbA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/3b9fLkmgtdo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/rt_iCLU_gMo/default.jpg",
+      "https://res.piapro.jp/r/images/card/250/rin.png?20260120",
+      "https://i.ytimg.com/vi/DgmPyanqjbA/default.jpg",
+      "https://i.ytimg.com/vi/3b9fLkmgtdo/default.jpg"
+    ],
+    "publishDate": "2009-01-13T00:00:00Z",
+    "acceptedTitles": [
+      "右肩の蝶",
+      "Butterfly on Your Right Shoulder",
+      "Migikata no Chou",
+      "Butterfly of the Right Shoulder",
+      "右肩之蝶"
+    ],
+    "audioClip": "https://audio.sodapines.dev/1952.mp3"
+  },
+  {
+    "date": "2026-07-12",
+    "vocadbId": 2356,
+    "title": "A Born Coward",
+    "artist": "164",
+    "artistString": "164 feat. GUMI",
+    "vocadbName": "A Born Coward",
+    "vocadbUrl": "https://vocadb.net/S/2356",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/14583646/14583646",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/14583646/14583646",
+      "https://i1.ytimg.com/vi/Rcg5Gdw9gTI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Rcg5Gdw9gTI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Rcg5Gdw9gTI/default.jpg"
+    ],
+    "publishDate": "2011-05-28T00:00:00Z",
+    "acceptedTitles": [
+      "天ノ弱",
+      "A Born Coward",
+      "Amanojaku",
+      "Heaven's Weakness",
+      "Ama no Jaku",
+      "천성의 약함"
+    ],
+    "audioClip": "https://audio.sodapines.dev/2356.mp3"
+  },
+  {
+    "date": "2026-07-13",
+    "vocadbId": 2432,
+    "title": "Packaged",
+    "artist": "kz",
+    "artistString": "kz, livetune feat. Hatsune Miku",
+    "vocadbName": "Packaged",
+    "vocadbUrl": "https://vocadb.net/S/2432",
+    "coverArt": "https://i.ytimg.com/vi/f5kUd72R_tg/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/f5kUd72R_tg/default.jpg",
+      "https://i1.ytimg.com/vi/f5kUd72R_tg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/f5kUd72R_tg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/od-UmuK01vs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/OzC0lGGgdbU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/pZ21PCdIUDk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/uVtzIZZb7PE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/od-UmuK01vs/default.jpg",
+      "https://i.ytimg.com/vi/OzC0lGGgdbU/default.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/1136355/1136355",
+      "https://i.ytimg.com/vi/pZ21PCdIUDk/default.jpg",
+      "https://i.ytimg.com/vi/uVtzIZZb7PE/default.jpg"
+    ],
+    "publishDate": "2007-09-25T00:00:00Z",
+    "acceptedTitles": [
+      "Packaged",
+      "Packaged (Full Ver.)"
+    ],
+    "audioClip": "https://audio.sodapines.dev/2432.mp3"
+  },
+  {
+    "date": "2026-07-14",
+    "vocadbId": 2443,
+    "title": "Last Night, Good Night",
+    "artist": "kz",
+    "artistString": "kz feat. Hatsune Miku",
+    "vocadbName": "Last Night, Good Night",
+    "vocadbUrl": "https://vocadb.net/S/2443",
+    "coverArt": "https://i.ytimg.com/vi/T6mMMYSqlM4/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/T6mMMYSqlM4/default.jpg",
+      "https://i1.ytimg.com/vi/T6mMMYSqlM4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/T6mMMYSqlM4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/jf1pg3NI6Do/hqdefault.jpg",
+      "https://i.ytimg.com/vi/DS1UvDjX-qo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/zDldRF1CUBI/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/4141643/4141643",
+      "https://i.vimeocdn.com/video/151675499-842a25d712fd8d54e8ebbe130086a8f5077bbc01cdd92adee5fa489be2bf5899-d_100x75?&r=pad&region=us",
+      "https://i.ytimg.com/vi/jf1pg3NI6Do/default.jpg",
+      "https://i.ytimg.com/vi/DS1UvDjX-qo/default.jpg",
+      "https://i.ytimg.com/vi/zDldRF1CUBI/default.jpg"
+    ],
+    "publishDate": "2008-07-31T00:00:00Z",
+    "acceptedTitles": [
+      "Last Night, Good Night"
+    ],
+    "audioClip": "https://audio.sodapines.dev/2443.mp3"
+  },
+  {
+    "date": "2026-07-15",
+    "vocadbId": 2607,
+    "title": "DYE",
+    "artist": "AVTechNO!",
+    "artistString": "AVTechNO! feat. Megurine Luka",
+    "vocadbName": "DYE",
+    "vocadbUrl": "https://vocadb.net/S/2607",
+    "coverArt": "https://i.ytimg.com/vi/_HlF-2K1WhQ/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/_HlF-2K1WhQ/default.jpg",
+      "https://i1.ytimg.com/vi/_HlF-2K1WhQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/2LF0oNQ9j2U/hqdefault.jpg",
+      "https://i.ytimg.com/vi/_HlF-2K1WhQ/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/12932450/12932450",
+      "https://i.ytimg.com/vi/2LF0oNQ9j2U/default.jpg",
+      "https://i1.sndcdn.com/artworks-000066958687-6th1xg-large.jpg",
+      "https://i2.hdslb.com/bfs/archive/6fcf47f506b99f2a9f46e67a562a60b3fd84bd0e.jpg"
+    ],
+    "publishDate": "2010-02-01T00:00:00Z",
+    "acceptedTitles": [
+      "DYE"
+    ],
+    "audioClip": "https://audio.sodapines.dev/2607.mp3"
+  },
+  {
+    "date": "2026-07-16",
+    "vocadbId": 2716,
+    "title": "Hm? Ah, Yes.",
+    "artist": "ChouchouP",
+    "artistString": "ChouchouP feat. Hatsune Miku",
+    "vocadbName": "Hm? Ah, Yes.",
+    "vocadbUrl": "https://vocadb.net/S/2716",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/10122021/10122021",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/10122021/10122021",
+      "https://i1.ytimg.com/vi/JWiH4evMVPQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/JWiH4evMVPQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/JWiH4evMVPQ/default.jpg"
+    ],
+    "publishDate": "2010-03-22T00:00:00Z",
+    "acceptedTitles": [
+      "え？あぁ、そう。",
+      "Hm? Ah, Yes.",
+      "E? Aa, Sou.",
+      "What? Ah, Yeah.",
+      "What? Ah, Yes."
+    ],
+    "audioClip": "https://audio.sodapines.dev/2716.mp3"
+  },
+  {
+    "date": "2026-07-17",
+    "vocadbId": 2734,
+    "title": "melody...",
+    "artist": "mikuru396",
+    "artistString": "mikuru396 feat. Hatsune Miku",
+    "vocadbName": "melody...",
+    "vocadbUrl": "https://vocadb.net/S/2734",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/1381337/1381337",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/1381337/1381337",
+      "https://i1.ytimg.com/vi/SjqjJvMEodI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/SjqjJvMEodI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/EgjMp9apvAU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/SjqjJvMEodI/default.jpg",
+      "https://i.ytimg.com/vi/EgjMp9apvAU/default.jpg"
+    ],
+    "publishDate": "2007-10-27T00:00:00Z",
+    "acceptedTitles": [
+      "melody..."
+    ],
+    "audioClip": "https://audio.sodapines.dev/2734.mp3"
+  },
+  {
+    "date": "2026-07-18",
+    "vocadbId": 2738,
+    "title": "Iroha Song",
+    "artist": "Ginsaku",
+    "artistString": "Ginsaku feat. Kagamine Rin",
+    "vocadbName": "Iroha Song",
+    "vocadbUrl": "https://vocadb.net/S/2738",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/6115924/6115924",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/6115924/6115924",
+      "https://i1.ytimg.com/vi/6FpLW4-5FfI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/6FpLW4-5FfI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/6FpLW4-5FfI/default.jpg",
+      "https://cdn.piapro.jp/thumb_i/59/595e5ibalec0b4rl_20091120102641_0250_0250.jpg"
+    ],
+    "publishDate": "2009-02-11T00:00:00Z",
+    "acceptedTitles": [
+      "いろは唄",
+      "Iroha Song",
+      "Iroha Uta",
+      "이로하 노래"
+    ],
+    "audioClip": "https://audio.sodapines.dev/2738.mp3"
+  },
+  {
+    "date": "2026-07-19",
+    "vocadbId": 2757,
+    "title": "Kasane territory ~ It's Teto's Turn Forever",
+    "artist": "Kasane Teto",
+    "artistString": "Riot feat. Kasane Teto",
+    "vocadbName": "Kasane territory ~ It's Teto's Turn Forever",
+    "vocadbUrl": "https://vocadb.net/S/2757",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/6157102/6157102",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/6157102/6157102",
+      "https://i1.ytimg.com/vi/AlR_y8k0UdI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/AlR_y8k0UdI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/pA5PGVMHhQI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/JALbemLw3G4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/aEOisq6R9l8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/AlR_y8k0UdI/default.jpg",
+      "https://i.ytimg.com/vi/pA5PGVMHhQI/default.jpg",
+      "https://i.ytimg.com/vi/JALbemLw3G4/default.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/8097002/8097002",
+      "https://i.ytimg.com/vi/aEOisq6R9l8/default.jpg"
+    ],
+    "publishDate": "2009-02-15T00:00:00Z",
+    "acceptedTitles": [
+      "重音territory ～ずっとテトのターン",
+      "Kasane territory ~ It's Teto's Turn Forever",
+      "Kasane territory ~ Zutto Teto no Turn",
+      "Kasane territory ~ Always Teto's Turn"
+    ],
+    "audioClip": "https://audio.sodapines.dev/2757.mp3"
+  },
+  {
+    "date": "2026-07-20",
+    "vocadbId": 2808,
+    "title": "The Tailor of Enbizaka",
+    "artist": "mothy",
+    "artistString": "mothy feat. Megurine Luka",
+    "vocadbName": "The Tailor of Enbizaka",
+    "vocadbUrl": "https://vocadb.net/S/2808",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/9032932/9032932",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/9032932/9032932",
+      "https://i1.ytimg.com/vi/xmB3zSBMVQs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/SdAWCeJSEvk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/m8L75guzMn4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Qb1TqoKROgA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/eB1rthkTYdQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/xmB3zSBMVQs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/SdAWCeJSEvk/default.jpg",
+      "https://i.ytimg.com/vi/m8L75guzMn4/default.jpg",
+      "https://i.ytimg.com/vi/Qb1TqoKROgA/default.jpg",
+      "https://i.ytimg.com/vi/eB1rthkTYdQ/default.jpg",
+      "https://cdn.piapro.jp/thumb_i/i2/i2gf0rlq4qtn8s1k_20091130230758_0250_0250.jpg",
+      "https://i.ytimg.com/vi/xmB3zSBMVQs/default.jpg"
+    ],
+    "publishDate": "2009-12-07T00:00:00Z",
+    "acceptedTitles": [
+      "円尾坂の仕立屋",
+      "The Tailor of Enbizaka",
+      "Enbizaka no Shitateya",
+      "Leviathan slope",
+      "The Tailor Shop on Enbizaka",
+      "The Tailor Shop at Enbizaka",
+      "圆尾坂的裁缝店",
+      "엔비자카의 재봉사"
+    ],
+    "audioClip": "https://audio.sodapines.dev/2808.mp3"
+  },
+  {
+    "date": "2026-07-21",
+    "vocadbId": 2823,
+    "title": "Rotten Girl Grotesque Romance",
+    "artist": "Machigerita",
+    "artistString": "Machigerita feat. Hatsune Miku",
+    "vocadbName": "Rotten Girl Grotesque Romance",
+    "vocadbUrl": "https://vocadb.net/S/2823",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/7704306/7704306",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/7704306/7704306",
+      "https://i1.ytimg.com/vi/cZwrecEXhn8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/xGThHuZ3lBQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/cZwrecEXhn8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Vu5SQqaeNgQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/dywP-UoXe2A/hqdefault.jpg",
+      "https://i.ytimg.com/vi/xGThHuZ3lBQ/default.jpg",
+      "https://i.ytimg.com/vi/cZwrecEXhn8/default.jpg",
+      "https://i.ytimg.com/vi/Vu5SQqaeNgQ/default.jpg",
+      "https://i.ytimg.com/vi/dywP-UoXe2A/default.jpg"
+    ],
+    "publishDate": "2009-07-21T00:00:00Z",
+    "acceptedTitles": [
+      "ロッテンガールグロテスクロマンス",
+      "Rotten Girl Grotesque Romance",
+      "로튼걸 그로테스크 로망스"
+    ],
+    "audioClip": "https://audio.sodapines.dev/2823.mp3"
+  },
+  {
+    "date": "2026-07-22",
+    "vocadbId": 2879,
+    "title": "Cumulonimbus Graffiti",
+    "artist": "ryo",
+    "artistString": "ryo feat. Hatsune Miku",
+    "vocadbName": "Cumulonimbus Graffiti",
+    "vocadbUrl": "https://vocadb.net/S/2879",
+    "coverArt": "https://i.ytimg.com/vi/roABID20GjU/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/roABID20GjU/default.jpg",
+      "https://i1.ytimg.com/vi/XKOoIAYSkZQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/XKOoIAYSkZQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/roABID20GjU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/FEmfBKZGTbY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/FEmfBKZGTbY/default.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/16080219/16080219"
+    ],
+    "publishDate": "2011-08-15T00:00:00Z",
+    "acceptedTitles": [
+      "積乱雲グラフィティ",
+      "Cumulonimbus Graffiti",
+      "Sekiranun Graffiti",
+      "Cumulonimbus Cloud Graffiti",
+      "적란운 그래피티",
+      "积乱云涂鸦"
+    ],
+    "audioClip": "https://audio.sodapines.dev/2879.mp3"
+  },
+  {
+    "date": "2026-07-23",
+    "vocadbId": 2904,
+    "title": "Look this Way, Baby",
+    "artist": "ryo",
+    "artistString": "ryo feat. Hatsune Miku Append (Unknown)",
+    "vocadbName": "Look this Way, Baby",
+    "vocadbUrl": "https://vocadb.net/S/2904",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/11251970/11251970",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/11251970/11251970",
+      "https://i1.ytimg.com/vi/E_LJXhQLwrk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/E_LJXhQLwrk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/E_LJXhQLwrk/default.jpg"
+    ],
+    "publishDate": "2010-07-02T00:00:00Z",
+    "acceptedTitles": [
+      "こっち向いて Baby",
+      "Look this Way, Baby",
+      "Kocchi Muite Baby"
+    ],
+    "audioClip": "https://audio.sodapines.dev/2904.mp3"
+  },
+  {
+    "date": "2026-07-24",
+    "vocadbId": 2905,
+    "title": "Yellow",
+    "artist": "kz",
+    "artistString": "kz feat. Hatsune Miku",
+    "vocadbName": "Yellow",
+    "vocadbUrl": "https://vocadb.net/S/2905",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/11251947/11251947",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/11251947/11251947",
+      "https://i1.ytimg.com/vi/tvnlgjquZ3Y/hqdefault.jpg",
+      "https://i.ytimg.com/vi/tvnlgjquZ3Y/hqdefault.jpg",
+      "https://i.ytimg.com/vi/tvnlgjquZ3Y/default.jpg"
+    ],
+    "publishDate": "2010-07-02T00:00:00Z",
+    "acceptedTitles": [
+      "Yellow"
+    ],
+    "audioClip": "https://audio.sodapines.dev/2905.mp3"
+  },
+  {
+    "date": "2026-07-25",
+    "vocadbId": 2913,
+    "title": "Starduster",
+    "artist": "JimmyThumbP",
+    "artistString": "JimmyThumbP feat. Hatsune Miku",
+    "vocadbName": "Starduster",
+    "vocadbUrl": "https://vocadb.net/S/2913",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/8541371/8541371",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/8541371/8541371",
+      "https://i1.ytimg.com/vi/RxarOTJxFnw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/RxarOTJxFnw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/51LoBIcuj8s/hqdefault.jpg",
+      "https://i.ytimg.com/vi/fnu1sMCcIVI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/uTIiiKWiWNw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/eyL018WlUMw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/RxarOTJxFnw/default.jpg",
+      "https://res.piapro.jp/r/images/card/250/miku.png?20260120",
+      "https://i.ytimg.com/vi/51LoBIcuj8s/default.jpg",
+      "https://i.ytimg.com/vi/fnu1sMCcIVI/default.jpg",
+      "https://i.ytimg.com/vi/uTIiiKWiWNw/default.jpg",
+      "https://i.ytimg.com/vi/eyL018WlUMw/default.jpg"
+    ],
+    "publishDate": "2009-10-17T00:00:00Z",
+    "acceptedTitles": [
+      "Starduster"
+    ],
+    "audioClip": "https://audio.sodapines.dev/2913.mp3"
+  },
+  {
+    "date": "2026-07-26",
+    "vocadbId": 2915,
+    "title": "Electric Angel",
+    "artist": "yasuo",
+    "artistString": "yasuo feat. Hatsune Miku",
+    "vocadbName": "Electric Angel",
+    "vocadbUrl": "https://vocadb.net/S/2915",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/1249071/1249071",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/1249071/1249071",
+      "https://i1.ytimg.com/vi/jVp91z9fEMo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/-l7jmxpqLmY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/uh3wTAuUHig/hqdefault.jpg",
+      "https://i.ytimg.com/vi/jVp91z9fEMo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/-l7jmxpqLmY/default.jpg",
+      "https://i.ytimg.com/vi/uh3wTAuUHig/default.jpg",
+      "https://i.ytimg.com/vi/jVp91z9fEMo/default.jpg"
+    ],
+    "publishDate": "2007-10-10T00:00:00Z",
+    "acceptedTitles": [
+      "えれくとりっく・えんじぇぅ",
+      "Electric Angel",
+      "일렉트릭 엔젤"
+    ],
+    "audioClip": "https://audio.sodapines.dev/2915.mp3"
+  },
+  {
+    "date": "2026-07-27",
+    "vocadbId": 2924,
+    "title": "*Hello, Planet.",
+    "artist": "sasakure.UK",
+    "artistString": "sasakure.UK feat. Hatsune Miku",
+    "vocadbName": "*Hello, Planet.",
+    "vocadbUrl": "https://vocadb.net/S/2924",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/7138245/7138245",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/7138245/7138245",
+      "https://i1.ytimg.com/vi/4wnKSR--bKI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/4wnKSR--bKI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/_dlyIyfd9s0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/WHFMb3q9IeY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/6Dzk4Nr1E6c/hqdefault.jpg",
+      "https://i.ytimg.com/vi/4wnKSR--bKI/default.jpg",
+      "https://i.ytimg.com/vi/_dlyIyfd9s0/default.jpg",
+      "https://i.ytimg.com/vi/WHFMb3q9IeY/default.jpg",
+      "https://i.ytimg.com/vi/6Dzk4Nr1E6c/default.jpg"
+    ],
+    "publishDate": "2008-09-23T00:00:00Z",
+    "acceptedTitles": [
+      "＊ハロー、プラネット。",
+      "*Hello, Planet."
+    ],
+    "audioClip": "https://audio.sodapines.dev/2924.mp3"
+  },
+  {
+    "date": "2026-07-28",
+    "vocadbId": 2925,
+    "title": "The Disappearance of Hatsune Miku -DEAD END-",
+    "artist": "cosMo@BousouP",
+    "artistString": "cosMo@BousouP feat. Hatsune Miku",
+    "vocadbName": "The Disappearance of Hatsune Miku -DEAD END-",
+    "vocadbUrl": "https://vocadb.net/S/2925",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/2937784/2937784",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/2937784/2937784",
+      "https://i1.ytimg.com/vi/FxgjwFX4uSY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/FxgjwFX4uSY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/4tx9w6dYpyw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/FxgjwFX4uSY/default.jpg",
+      "https://i.ytimg.com/vi/4tx9w6dYpyw/default.jpg"
+    ],
+    "publishDate": "2008-04-09T00:00:00Z",
+    "acceptedTitles": [
+      "初音ミクの消失 -DEAD END-",
+      "The Disappearance of Hatsune Miku -DEAD END-",
+      "Hatsune Miku no Shoushitsu -DEAD END-",
+      "初音ミクの消失（LONG VERSION）",
+      "Hatsune Miku no Shoushitsu (LONG VERSION)",
+      "The Disappearance of Hatsune Miku (LONG VERSION)",
+      "THE END OF HATSUNE MIKU",
+      "Hatsune Miku no Syouthitsu",
+      "Hatsune Miku no Syoushitsu"
+    ],
+    "audioClip": "https://audio.sodapines.dev/2925.mp3"
+  },
+  {
+    "date": "2026-07-29",
+    "vocadbId": 2978,
+    "title": "Panda Hero",
+    "artist": "HACHI",
+    "artistString": "HACHI feat. GUMI",
+    "vocadbName": "Panda Hero",
+    "vocadbUrl": "https://vocadb.net/S/2978",
+    "coverArt": "https://i.ytimg.com/vi/0RU_05zpETo/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/0RU_05zpETo/default.jpg",
+      "https://i1.ytimg.com/vi/0RU_05zpETo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/0RU_05zpETo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/d3Lkj7gsIO8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/9lvCbU3vVx0/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/13386216/13386216",
+      "https://i.ytimg.com/vi/d3Lkj7gsIO8/default.jpg",
+      "https://i.ytimg.com/vi/9lvCbU3vVx0/default.jpg"
+    ],
+    "publishDate": "2010-11-14T00:00:00Z",
+    "acceptedTitles": [
+      "パンダヒーロー",
+      "Panda Hero",
+      "판다 히어로"
+    ],
+    "audioClip": "https://audio.sodapines.dev/2978.mp3"
+  },
+  {
+    "date": "2026-07-30",
+    "vocadbId": 2980,
+    "title": "Samsara",
+    "artist": "HACHI",
+    "artistString": "HACHI feat. Hatsune Miku",
+    "vocadbName": "Samsara",
+    "vocadbUrl": "https://vocadb.net/S/2980",
+    "coverArt": "https://i.ytimg.com/vi/EahYs-8tTjQ/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/EahYs-8tTjQ/default.jpg",
+      "https://i1.ytimg.com/vi/EahYs-8tTjQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/EahYs-8tTjQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/tTksX77aUCM/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/11468381/11468381",
+      "https://i.ytimg.com/vi/tTksX77aUCM/default.jpg"
+    ],
+    "publishDate": "2010-07-07T00:00:00Z",
+    "acceptedTitles": [
+      "リンネ",
+      "Samsara",
+      "Rinne",
+      "Lynne",
+      "윤회"
+    ],
+    "audioClip": "https://audio.sodapines.dev/2980.mp3"
+  },
+  {
+    "date": "2026-07-31",
+    "vocadbId": 2982,
+    "title": "Close and Open, Demons and the Dead",
+    "artist": "HACHI",
+    "artistString": "HACHI feat. Hatsune Miku",
+    "vocadbName": "Close and Open, Demons and the Dead",
+    "vocadbUrl": "https://vocadb.net/S/2982",
+    "coverArt": "https://i.ytimg.com/vi/AKffZySqQts/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/AKffZySqQts/default.jpg",
+      "https://i1.ytimg.com/vi/AKffZySqQts/hqdefault.jpg",
+      "https://i.ytimg.com/vi/AKffZySqQts/hqdefault.jpg",
+      "https://i.ytimg.com/vi/hEeb9rOKn3Y/hqdefault.jpg",
+      "https://i.ytimg.com/vi/f1qco6S0bYM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/qdwB31431wE/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/7550182/7550182",
+      "https://i.ytimg.com/vi/hEeb9rOKn3Y/default.jpg",
+      "https://res.piapro.jp/r/images/card/250/miku.png?20260120",
+      "https://i.ytimg.com/vi/f1qco6S0bYM/default.jpg",
+      "https://i.ytimg.com/vi/qdwB31431wE/default.jpg"
+    ],
+    "publishDate": "2009-07-05T00:00:00Z",
+    "acceptedTitles": [
+      "結ンデ開イテ羅刹ト骸",
+      "Close and Open, Demons and the Dead",
+      "Musunde Hiraite Rasetsu to Mukuro",
+      "Hold, Release; Rakshasa and Carcasses"
+    ],
+    "audioClip": "https://audio.sodapines.dev/2982.mp3"
+  },
+  {
+    "date": "2026-08-01",
+    "vocadbId": 3015,
+    "title": "Love-Colored Ward",
+    "artist": "OSTER project",
+    "artistString": "OSTER project feat. Hatsune Miku",
+    "vocadbName": "Love-Colored Ward",
+    "vocadbUrl": "https://vocadb.net/S/3015",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/7361534/7361534",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/7361534/7361534",
+      "https://i1.ytimg.com/vi/tPnIwDBk09k/hqdefault.jpg",
+      "https://i.ytimg.com/vi/xxbhLY5jn_I/hqdefault.jpg",
+      "https://i.ytimg.com/vi/tPnIwDBk09k/hqdefault.jpg",
+      "https://i.ytimg.com/vi/oPXottYqzvw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/xxbhLY5jn_I/default.jpg",
+      "https://i.ytimg.com/vi/tPnIwDBk09k/default.jpg",
+      "https://res.piapro.jp/r/images/card/250/miku.png?20260120",
+      "https://i.ytimg.com/vi/oPXottYqzvw/default.jpg"
+    ],
+    "publishDate": "2009-06-16T00:00:00Z",
+    "acceptedTitles": [
+      "恋色病棟",
+      "Love-Colored Ward",
+      "Koi Iro Byoutou",
+      "Love Ward"
+    ],
+    "audioClip": "https://audio.sodapines.dev/3015.mp3"
+  },
+  {
+    "date": "2026-08-02",
+    "vocadbId": 3019,
+    "title": "Love Words",
+    "artist": "DECO*27",
+    "artistString": "DECO*27 feat. Hatsune Miku",
+    "vocadbName": "Love Words",
+    "vocadbUrl": "https://vocadb.net/S/3019",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/7696158/7696158",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/7696158/7696158",
+      "https://i1.ytimg.com/vi/I0eeS5wYGzI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/qUuK1rdmuv4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/I0eeS5wYGzI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Uc-xJaJhP0I/hqdefault.jpg",
+      "https://i.ytimg.com/vi/kUlU_2wpjAk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/qUuK1rdmuv4/default.jpg",
+      "https://i.ytimg.com/vi/I0eeS5wYGzI/default.jpg",
+      "https://i.ytimg.com/vi/Uc-xJaJhP0I/default.jpg",
+      "https://i.ytimg.com/vi/kUlU_2wpjAk/default.jpg",
+      "https://i1.sndcdn.com/artworks-4ShDBRkA6iws-0-t500x500.jpg",
+      "https://i1.sndcdn.com/artworks-oMT15Q0RyUt0-0-t500x500.jpg"
+    ],
+    "publishDate": "2009-07-20T00:00:00Z",
+    "acceptedTitles": [
+      "愛言葉",
+      "Love Words",
+      "Ai Kotoba",
+      "사랑의 말"
+    ],
+    "audioClip": "https://audio.sodapines.dev/3019.mp3"
+  },
+  {
+    "date": "2026-08-03",
+    "vocadbId": 3021,
+    "title": "Cantarella",
+    "artist": "KurousaP",
+    "artistString": "KurousaP feat. KAITO",
+    "vocadbName": "Cantarella",
+    "vocadbUrl": "https://vocadb.net/S/3021",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/2393562/2393562",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/2393562/2393562",
+      "https://i1.ytimg.com/vi/NE6R8MFNh5w/hqdefault.jpg",
+      "https://i.ytimg.com/vi/NE6R8MFNh5w/hqdefault.jpg",
+      "https://i.ytimg.com/vi/NE6R8MFNh5w/default.jpg"
+    ],
+    "publishDate": "2008-02-21T00:00:00Z",
+    "acceptedTitles": [
+      "カンタレラ",
+      "Cantarella",
+      "坎特雷拉",
+      "カンタレラ（第二版）",
+      "칸타렐라"
+    ],
+    "audioClip": "https://audio.sodapines.dev/3021.mp3"
+  },
+  {
+    "date": "2026-05-03",
+    "vocadbId": 3022,
+    "title": "Meltdown",
+    "artist": "iroha(sasaki)",
+    "artistString": "iroha(sasaki) feat. Kagamine Rin",
+    "vocadbName": "Meltdown",
+    "vocadbUrl": "https://vocadb.net/S/3022",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/8089993/8089993",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/8089993/8089993",
+      "https://i1.ytimg.com/vi/dSw8CucthGc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/LGxLbCQQkjI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/dSw8CucthGc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/1PObCzBxWt0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/7D6oLoJPs8c/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ru9Q9iF6krc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Y0vZi0qPH3k/hqdefault.jpg",
+      "https://i1.sndcdn.com/avatars-000329914311-t0y9g2-large.jpg",
+      "https://i.ytimg.com/vi/LGxLbCQQkjI/default.jpg",
+      "https://i.ytimg.com/vi/dSw8CucthGc/default.jpg",
+      "https://i.ytimg.com/vi/1PObCzBxWt0/default.jpg",
+      "https://i.ytimg.com/vi/7D6oLoJPs8c/default.jpg",
+      "https://i.ytimg.com/vi/ru9Q9iF6krc/default.jpg",
+      "https://i.ytimg.com/vi/Y0vZi0qPH3k/default.jpg",
+      "https://i1.hdslb.com/bfs/archive/1193593bd1900a53ae345a58a09c1f71decccd68.jpg"
+    ],
+    "publishDate": "2008-12-19T00:00:00Z",
+    "acceptedTitles": [
+      "炉心融解",
+      "Meltdown",
+      "Roshin Yuukai",
+      "Nuclear Meltdown",
+      "노심융해"
+    ],
+    "audioClip": "https://audio.sodapines.dev/3022.mp3"
+  },
+  {
+    "date": "2026-08-05",
+    "vocadbId": 3024,
+    "title": "Change me",
+    "artist": "shu-t",
+    "artistString": "shu-t feat. MEIKO",
+    "vocadbName": "Change me",
+    "vocadbUrl": "https://vocadb.net/S/3024",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/8722351/8722351",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/8722351/8722351",
+      "https://i1.ytimg.com/vi/Y_DzUshhdBQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Y_DzUshhdBQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/-JZQBRe3R4s/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Y_DzUshhdBQ/default.jpg",
+      "https://i.ytimg.com/vi/-JZQBRe3R4s/default.jpg"
+    ],
+    "publishDate": "2009-11-05T00:00:00Z",
+    "acceptedTitles": [
+      "Change me"
+    ],
+    "audioClip": "https://audio.sodapines.dev/3024.mp3"
+  },
+  {
+    "date": "2026-08-06",
+    "vocadbId": 3129,
+    "title": "Double Lariat",
+    "artist": "Agoaniki",
+    "artistString": "Agoaniki feat. Megurine Luka",
+    "vocadbName": "Double Lariat",
+    "vocadbUrl": "https://vocadb.net/S/3129",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/6049209/6049209",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/6049209/6049209",
+      "https://i1.ytimg.com/vi/hC8KrIY8qT4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/hC8KrIY8qT4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/qrabz1QtbZY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/dCxqJ-AGMYI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/hC8KrIY8qT4/default.jpg",
+      "https://res.piapro.jp/r/images/card/250/luka.png?20260120",
+      "https://i.ytimg.com/vi/qrabz1QtbZY/default.jpg",
+      "https://i.ytimg.com/vi/dCxqJ-AGMYI/default.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/6145002/6145002"
+    ],
+    "publishDate": "2009-02-05T00:00:00Z",
+    "acceptedTitles": [
+      "ダブルラリアット ",
+      "Double Lariat"
+    ],
+    "audioClip": "https://audio.sodapines.dev/3129.mp3"
+  },
+  {
+    "date": "2026-08-07",
+    "vocadbId": 3155,
+    "title": "A Thousand-Year Solo",
+    "artist": "yanagiP",
+    "artistString": "yanagiP feat. KAITO",
+    "vocadbName": "A Thousand-Year Solo",
+    "vocadbUrl": "https://vocadb.net/S/3155",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/3122624/3122624",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/3122624/3122624",
+      "https://i1.ytimg.com/vi/IudXfIgXH-s/hqdefault.jpg",
+      "https://i.ytimg.com/vi/IudXfIgXH-s/hqdefault.jpg",
+      "https://i.ytimg.com/vi/IudXfIgXH-s/default.jpg"
+    ],
+    "publishDate": "2008-04-27T00:00:00Z",
+    "acceptedTitles": [
+      "千年の独奏歌",
+      "A Thousand-Year Solo",
+      "Sennen no Dokusouka",
+      "A Thousand Years Solo",
+      "천년의 독주가",
+      "千年的独奏歌"
+    ],
+    "audioClip": "https://audio.sodapines.dev/3155.mp3"
+  },
+  {
+    "date": "2026-08-08",
+    "vocadbId": 3177,
+    "title": "Happy Synthesizer",
+    "artist": "EasyPop",
+    "artistString": "EasyPop feat. Megurine Luka, GUMI",
+    "vocadbName": "Happy Synthesizer",
+    "vocadbUrl": "https://vocadb.net/S/3177",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/12825985/12825985",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/12825985/12825985",
+      "https://i1.ytimg.com/vi/xOKplMgHxxA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/xOKplMgHxxA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/poiZSEjQBgw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/SeeM7qKo8-8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/yyomPcUd9Gg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/xOKplMgHxxA/default.jpg",
+      "https://i1.sndcdn.com/artworks-000185762865-i7ilzt-large.jpg",
+      "https://i.ytimg.com/vi/poiZSEjQBgw/default.jpg",
+      "https://i.ytimg.com/vi/SeeM7qKo8-8/default.jpg",
+      "https://i.ytimg.com/vi/yyomPcUd9Gg/default.jpg"
+    ],
+    "publishDate": "2010-11-22T00:00:00Z",
+    "acceptedTitles": [
+      "ハッピーシンセサイザ",
+      "Happy Synthesizer"
+    ],
+    "audioClip": "https://audio.sodapines.dev/3177.mp3"
+  },
+  {
+    "date": "2026-08-09",
+    "vocadbId": 3244,
+    "title": "trick and treat",
+    "artist": "OSTER project",
+    "artistString": "OSTER project feat. Kagamine Rin, Kagamine Len",
+    "vocadbName": "trick and treat",
+    "vocadbUrl": "https://vocadb.net/S/3244",
+    "coverArt": "https://i.ytimg.com/vi/EEPdHJxJCrA/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/EEPdHJxJCrA/default.jpg",
+      "https://i1.ytimg.com/vi/EEPdHJxJCrA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/EEPdHJxJCrA/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/5094908/5094908",
+      "https://cdn.piapro.jp/thumb_i/aq/aq2m47665jy4bori_20081102184521_0250_0250.jpg"
+    ],
+    "publishDate": "2008-10-30T00:00:00Z",
+    "acceptedTitles": [
+      "trick and treat"
+    ],
+    "audioClip": "https://audio.sodapines.dev/3244.mp3"
+  },
+  {
+    "date": "2026-08-10",
+    "vocadbId": 3312,
+    "title": "The Snow White Princess is",
+    "artist": "Noboru",
+    "artistString": "Noboru feat. Hatsune Miku",
+    "vocadbName": "The Snow White Princess is",
+    "vocadbUrl": "https://vocadb.net/S/3312",
+    "coverArt": "https://i.ytimg.com/vi/aPb-MTcpNbE/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/aPb-MTcpNbE/default.jpg",
+      "https://i1.ytimg.com/vi/aPb-MTcpNbE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/aPb-MTcpNbE/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/9797269/9797269.74835",
+      "https://cdn.piapro.jp/thumb_i/ol/ol4v40ku2u834451_20100426225117_0250_0250.png"
+    ],
+    "publishDate": "2010-02-22T00:00:00Z",
+    "acceptedTitles": [
+      "白い雪のプリンセスは",
+      "The Snow White Princess is",
+      "Shiroi Yuki no Princess wa",
+      "White Snow Princess",
+      "The Snow White Princess is...",
+      "하얀 눈의 프린세스는"
+    ],
+    "audioClip": "https://audio.sodapines.dev/3312.mp3"
+  },
+  {
+    "date": "2026-08-11",
+    "vocadbId": 3371,
+    "title": "Triple Stupid",
+    "artist": "LamazeP",
+    "artistString": "LamazeP feat. Hatsune Miku, Kasane Teto Old",
+    "vocadbName": "Triple Stupid",
+    "vocadbUrl": "https://vocadb.net/S/3371",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/3945173/3945173",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/3945173/3945173",
+      "https://i1.ytimg.com/vi/cQa2mitA8vU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/cQa2mitA8vU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/duPJqfKiA78/hqdefault.jpg",
+      "https://i.ytimg.com/vi/n5n7CSGPzqw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/FcLl3Fu9gr4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/GuauKWD2SbU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/cQa2mitA8vU/default.jpg",
+      "https://i.ytimg.com/vi/duPJqfKiA78/default.jpg",
+      "https://i.ytimg.com/vi/n5n7CSGPzqw/default.jpg",
+      "https://i.ytimg.com/vi/FcLl3Fu9gr4/default.jpg",
+      "https://i.ytimg.com/vi/GuauKWD2SbU/default.jpg"
+    ],
+    "publishDate": "2008-07-13T00:00:00Z",
+    "acceptedTitles": [
+      "驫麤～とりぷるばか～",
+      "Triple Stupid",
+      "Triple Baka",
+      "Triple Idiot",
+      "驫麤～とりぷるばか～ fullver."
+    ],
+    "audioClip": "https://audio.sodapines.dev/3371.mp3"
+  },
+  {
+    "date": "2026-08-12",
+    "vocadbId": 3387,
+    "title": "Remote Control",
+    "artist": "JesusP",
+    "artistString": "JesusP, WONDERFUL★OPPORTUNITY! feat. Kagamine Rin, Kagamine Len",
+    "vocadbName": "Remote Control",
+    "vocadbUrl": "https://vocadb.net/S/3387",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/13612500/13612500",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/13612500/13612500",
+      "https://i1.ytimg.com/vi/1st0XSY0VKQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/1st0XSY0VKQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/xdXlrrFw-xQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/SgItj2HBEvo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ugX0EEq17qA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/eXzj6AAbURI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/N4UfoDdGk9U/hqdefault.jpg",
+      "https://i.ytimg.com/vi/1st0XSY0VKQ/default.jpg",
+      "https://i.ytimg.com/vi/xdXlrrFw-xQ/default.jpg",
+      "https://i.ytimg.com/vi/SgItj2HBEvo/default.jpg",
+      "https://i.ytimg.com/vi/ugX0EEq17qA/default.jpg",
+      "https://i.ytimg.com/vi/eXzj6AAbURI/default.jpg",
+      "https://i.ytimg.com/vi/N4UfoDdGk9U/default.jpg"
+    ],
+    "publishDate": "2011-02-16T00:00:00Z",
+    "acceptedTitles": [
+      "リモコン",
+      "Remote Control",
+      "Remote Controller",
+      "RemoCon",
+      "Rimokon",
+      "리모컨",
+      "遥控器"
+    ],
+    "audioClip": "https://audio.sodapines.dev/3387.mp3"
+  },
+  {
+    "date": "2026-08-13",
+    "vocadbId": 3388,
+    "title": "Break It, Break It!",
+    "artist": "E.L.V.N",
+    "artistString": "E.L.V.N feat. MEIKO",
+    "vocadbName": "Break It, Break It!",
+    "vocadbUrl": "https://vocadb.net/S/3388",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/13047806/13047806",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/13047806/13047806",
+      "https://i1.ytimg.com/vi/ovAGYYPtS1w/hqdefault.jpg",
+      "https://i.ytimg.com/vi/RiTlCcX0rDs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ovAGYYPtS1w/hqdefault.jpg",
+      "https://i.ytimg.com/vi/RiTlCcX0rDs/default.jpg",
+      "https://i1.sndcdn.com/artworks-000032281265-tpapb8-large.jpg",
+      "https://i.ytimg.com/vi/ovAGYYPtS1w/default.jpg",
+      "https://cdn.piapro.jp/thumb_i/0m/0mjltlta9993adh5_20110705213630_0250_0250.jpg"
+    ],
+    "publishDate": "2010-12-17T00:00:00Z",
+    "acceptedTitles": [
+      "壊セ壊セ",
+      "Break It, Break It!",
+      "Kowase Kowase",
+      "Destroy, Destroy",
+      "BREAK IT, BREAK IT!"
+    ],
+    "audioClip": "https://audio.sodapines.dev/3388.mp3"
+  },
+  {
+    "date": "2026-08-14",
+    "vocadbId": 3390,
+    "title": "Blackjack",
+    "artist": "YuchaP",
+    "artistString": "YuchaP, kaichi feat. Megurine Luka",
+    "vocadbName": "Blackjack",
+    "vocadbUrl": "https://vocadb.net/S/3390",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/12640192/12640192",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/12640192/12640192",
+      "https://i1.ytimg.com/vi/yIc8j0oMAW8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/eDALlIzPGvc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/yIc8j0oMAW8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/OSQWw5gWJm8/hqdefault.jpg",
+      "https://cdn.piapro.jp/thumb_i/d6/d66cnwcpob4lctlt_20101107172512_0250_0250.jpg",
+      "https://i.ytimg.com/vi/eDALlIzPGvc/default.jpg",
+      "https://i.ytimg.com/vi/yIc8j0oMAW8/default.jpg",
+      "https://i.ytimg.com/vi/OSQWw5gWJm8/default.jpg"
+    ],
+    "publishDate": "2010-11-03T00:00:00Z",
+    "acceptedTitles": [
+      "Blackjack"
+    ],
+    "audioClip": "https://audio.sodapines.dev/3390.mp3"
+  },
+  {
+    "date": "2026-08-15",
+    "vocadbId": 3636,
+    "title": "Dream-Eating Monochrome Baku",
+    "artist": "Nem",
+    "artistString": "Nem feat. Kagamine Len Append (Power)",
+    "vocadbName": "Dream-Eating Monochrome Baku",
+    "vocadbUrl": "https://vocadb.net/S/3636",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/14926860/14926860",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/14926860/14926860",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/14926860/14926860.75971164",
+      "https://i1.ytimg.com/vi/9dxeTQYYg1Y/hqdefault.jpg",
+      "https://i.ytimg.com/vi/9dxeTQYYg1Y/hqdefault.jpg",
+      "https://i.ytimg.com/vi/MDDnAob1U7g/hqdefault.jpg",
+      "https://i.ytimg.com/vi/9dxeTQYYg1Y/default.jpg",
+      "https://i.ytimg.com/vi/MDDnAob1U7g/default.jpg"
+    ],
+    "publishDate": "2011-07-04T00:00:00Z",
+    "acceptedTitles": [
+      "夢喰い白黒バク",
+      "Dream-Eating Monochrome Baku",
+      "Yumekui Shirokuro Baku",
+      "Черно-Белый Баку, Пожирающий Сны",
+      "Dream-Eating Black and White Baku"
+    ],
+    "audioClip": "https://audio.sodapines.dev/3636.mp3"
+  },
+  {
+    "date": "2026-08-16",
+    "vocadbId": 3658,
+    "title": "Miracle Paint",
+    "artist": "OSTER project",
+    "artistString": "OSTER project feat. Hatsune Miku",
+    "vocadbName": "Miracle Paint",
+    "vocadbUrl": "https://vocadb.net/S/3658",
+    "coverArt": "https://i.ytimg.com/vi/gqPWXe0dCC4/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/gqPWXe0dCC4/default.jpg",
+      "https://i1.ytimg.com/vi/gqPWXe0dCC4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/gqPWXe0dCC4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/UEnYvYYtjEo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/FeUW17xRymA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/_sVkNITccWY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/MZq9mb6omk0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/KiimNDa9BCk/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/1588476/1588476",
+      "https://i.ytimg.com/vi/UEnYvYYtjEo/default.jpg",
+      "https://i.ytimg.com/vi/FeUW17xRymA/default.jpg",
+      "https://i.ytimg.com/vi/_sVkNITccWY/default.jpg",
+      "https://i.ytimg.com/vi/MZq9mb6omk0/default.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/3064132/3064132",
+      "https://i.ytimg.com/vi/KiimNDa9BCk/default.jpg"
+    ],
+    "publishDate": "2007-11-22T00:00:00Z",
+    "acceptedTitles": [
+      "ミラクルペイント",
+      "Miracle Paint",
+      "미라클 페인트"
+    ],
+    "audioClip": "https://audio.sodapines.dev/3658.mp3"
+  },
+  {
+    "date": "2026-08-17",
+    "vocadbId": 4083,
+    "title": "Vegetable Juice",
+    "artist": "LamazeP",
+    "artistString": "LamazeP feat. Hatsune Miku",
+    "vocadbName": "Vegetable Juice",
+    "vocadbUrl": "https://vocadb.net/S/4083",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/5508956/5508956",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/5508956/5508956",
+      "https://i1.ytimg.com/vi/_1zRycWf6QY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/7jN_RkBm2ao/hqdefault.jpg",
+      "https://i.ytimg.com/vi/_1zRycWf6QY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/7jN_RkBm2ao/default.jpg",
+      "https://i.ytimg.com/vi/_1zRycWf6QY/default.jpg"
+    ],
+    "publishDate": "2008-12-11T00:00:00Z",
+    "acceptedTitles": [
+      "ぽっぴっぽー",
+      "Vegetable Juice",
+      "PoPiPo",
+      "Popippoo"
+    ],
+    "audioClip": "https://audio.sodapines.dev/4083.mp3"
+  },
+  {
+    "date": "2026-08-18",
+    "vocadbId": 4084,
+    "title": "Don't Look at Me in That Way",
+    "artist": "Kikuo",
+    "artistString": "Kikuo feat. Hatsune Miku",
+    "vocadbName": "Don't Look at Me in That Way",
+    "vocadbUrl": "https://vocadb.net/S/4084",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/13664704/13664704",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/13664704/13664704",
+      "https://i1.ytimg.com/vi/3BFGrpQy0YE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/3BFGrpQy0YE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/pQgnv2hq--Y/hqdefault.jpg",
+      "https://i.ytimg.com/vi/3BFGrpQy0YE/default.jpg",
+      "https://f4.bcbits.com/img/a1744381274_5.jpg",
+      "https://i.ytimg.com/vi/pQgnv2hq--Y/default.jpg"
+    ],
+    "publishDate": "2011-02-21T00:00:00Z",
+    "acceptedTitles": [
+      "僕をそんな目で見ないで",
+      "Don't Look at Me in That Way",
+      "Boku o Sonna Me de Minaide",
+      "Boku wo Sonna Me de Minaide"
+    ],
+    "audioClip": "https://audio.sodapines.dev/4084.mp3"
+  },
+  {
+    "date": "2026-08-20",
+    "vocadbId": 4129,
+    "title": "Melancholic",
+    "artist": "Junky",
+    "artistString": "Junky feat. Kagamine Rin",
+    "vocadbName": "Melancholic",
+    "vocadbUrl": "https://vocadb.net/S/4129",
+    "coverArt": "https://i.ytimg.com/vi/86_kvUqhY-A/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/86_kvUqhY-A/default.jpg",
+      "https://i1.ytimg.com/vi/86_kvUqhY-A/hqdefault.jpg",
+      "https://i.ytimg.com/vi/86_kvUqhY-A/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Y1tHNKH7AAM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/OLa8cg7Np-4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/XkEa3ZZPgG0/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/10444862/10444862",
+      "https://i.ytimg.com/vi/Y1tHNKH7AAM/default.jpg",
+      "https://i.ytimg.com/vi/OLa8cg7Np-4/default.jpg",
+      "https://i.ytimg.com/vi/XkEa3ZZPgG0/default.jpg",
+      "https://i0.hdslb.com/bfs/archive/e3c7a7b83e5c4a7cea03b8c4904c3020a428ccd5.jpg"
+    ],
+    "publishDate": "2010-04-19T00:00:00Z",
+    "acceptedTitles": [
+      "メランコリック",
+      "Melancholic",
+      "멜랑콜릭"
+    ],
+    "audioClip": "https://audio.sodapines.dev/4129.mp3"
+  },
+  {
+    "date": "2026-08-20",
+    "vocadbId": 4129,
+    "title": "Melancholic",
+    "artist": "Junky",
+    "artistString": "Junky feat. Kagamine Rin",
+    "vocadbName": "Melancholic",
+    "vocadbUrl": "https://vocadb.net/S/4129",
+    "coverArt": "https://i.ytimg.com/vi/86_kvUqhY-A/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/86_kvUqhY-A/default.jpg",
+      "https://i1.ytimg.com/vi/86_kvUqhY-A/hqdefault.jpg",
+      "https://i.ytimg.com/vi/86_kvUqhY-A/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Y1tHNKH7AAM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/OLa8cg7Np-4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/XkEa3ZZPgG0/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/10444862/10444862",
+      "https://i.ytimg.com/vi/Y1tHNKH7AAM/default.jpg",
+      "https://i.ytimg.com/vi/OLa8cg7Np-4/default.jpg",
+      "https://i.ytimg.com/vi/XkEa3ZZPgG0/default.jpg",
+      "https://i0.hdslb.com/bfs/archive/e3c7a7b83e5c4a7cea03b8c4904c3020a428ccd5.jpg"
+    ],
+    "publishDate": "2010-04-19T00:00:00Z",
+    "acceptedTitles": [
+      "メランコリック",
+      "Melancholic",
+      "멜랑콜릭"
+    ],
+    "audioClip": "https://audio.sodapines.dev/4129.mp3"
+  },
+  {
+    "date": "2026-08-21",
+    "vocadbId": 4230,
+    "title": "from Y to Y",
+    "artist": "JimmyThumbP",
+    "artistString": "JimmyThumbP feat. Hatsune Miku",
+    "vocadbName": "from Y to Y",
+    "vocadbUrl": "https://vocadb.net/S/4230",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/6529016/6529016",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/6529016/6529016",
+      "https://i1.ytimg.com/vi/CDTiyUm5ggM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/9pQR4a5sisE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/CDTiyUm5ggM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/b9KgADc-vOQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/jTm6Q5Pj_Jo/hqdefault.jpg",
+      "https://cdn.piapro.jp/thumb_i/e2/e2ble38dlhk37m41_20090331205516_0250_0250.jpg",
+      "https://i.ytimg.com/vi/9pQR4a5sisE/default.jpg",
+      "https://i.ytimg.com/vi/CDTiyUm5ggM/default.jpg",
+      "https://i.ytimg.com/vi/b9KgADc-vOQ/default.jpg",
+      "https://i.ytimg.com/vi/jTm6Q5Pj_Jo/default.jpg"
+    ],
+    "publishDate": "2009-03-23T00:00:00Z",
+    "acceptedTitles": [
+      "from Y to Y"
+    ],
+    "audioClip": "https://audio.sodapines.dev/4230.mp3"
+  },
+  {
+    "date": "2026-08-22",
+    "vocadbId": 4269,
+    "title": "ANTI THE∞HOLiC",
+    "artist": "cosMo@BousouP",
+    "artistString": "cosMo@BousouP feat. Megurine Luka, Kagamine Rin",
+    "vocadbName": "ANTI THE∞HOLiC",
+    "vocadbUrl": "https://vocadb.net/S/4269",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/7781905/7781905",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/7781905/7781905",
+      "https://i1.ytimg.com/vi/V5KQA6Qmbwc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/V5KQA6Qmbwc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/P2xUk7_m50Y/hqdefault.jpg",
+      "https://i.ytimg.com/vi/V5KQA6Qmbwc/default.jpg",
+      "https://i.ytimg.com/vi/P2xUk7_m50Y/default.jpg",
+      "https://i0.hdslb.com/bfs/archive/96db98d8f3982ec19ac78b21cb374a28eeaf14dc.jpg"
+    ],
+    "publishDate": "2009-07-29T00:00:00Z",
+    "acceptedTitles": [
+      "ANTI THE∞HOLiC",
+      "Anti The Infinite Holic"
+    ],
+    "audioClip": "https://audio.sodapines.dev/4269.mp3"
+  },
+  {
+    "date": "2026-08-23",
+    "vocadbId": 4318,
+    "title": "Alice of Human Sacrifice",
+    "artist": "YugamiP",
+    "artistString": "YugamiP feat. various",
+    "vocadbName": "Alice of Human Sacrifice",
+    "vocadbUrl": "https://vocadb.net/S/4318",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/3143714/3143714",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/3143714/3143714",
+      "https://i1.ytimg.com/vi/T8Kelg2KiWE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/T8Kelg2KiWE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/7Mh_6K8H-Js/hqdefault.jpg",
+      "https://i.ytimg.com/vi/T8Kelg2KiWE/default.jpg",
+      "https://i.ytimg.com/vi/7Mh_6K8H-Js/default.jpg"
+    ],
+    "publishDate": "2008-04-30T00:00:00Z",
+    "acceptedTitles": [
+      "人柱アリス",
+      "Alice of Human Sacrifice",
+      "Hitobashira Alice",
+      "Alice Human Sacrifice",
+      "絵本『人柱アリス』",
+      "Ehon \"Hitobashira Alice\"",
+      "Picture Book \"Alice Human Sacrifice\""
+    ],
+    "audioClip": "https://audio.sodapines.dev/4318.mp3"
+  },
+  {
+    "date": "2026-08-24",
+    "vocadbId": 4322,
+    "title": "Mischievous Function -Full ver.-",
+    "artist": "GojimajiP",
+    "artistString": "GojimajiP feat. Kasane Teto",
+    "vocadbName": "Mischievous Function -Full ver.-",
+    "vocadbUrl": "https://vocadb.net/S/4322",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/12276096/12276096",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/12276096/12276096",
+      "https://i1.ytimg.com/vi/AG8KkBzO7vM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/yr3k-Ok9GE4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/AG8KkBzO7vM/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/12366217/12366217",
+      "https://i.ytimg.com/vi/yr3k-Ok9GE4/default.jpg",
+      "https://i.ytimg.com/vi/AG8KkBzO7vM/default.jpg"
+    ],
+    "publishDate": "2010-03-28T00:00:00Z",
+    "acceptedTitles": [
+      "おちゃめ機能 -Full ver.-",
+      "Mischievous Function -Full ver.-",
+      "Ochame Kinou -Full ver.-",
+      "吹っ切れた -Full ver.-",
+      "Fukkireta -Full ver.-",
+      "장난기 기능 -Full ver.-"
+    ],
+    "audioClip": "https://audio.sodapines.dev/4322.mp3"
+  },
+  {
+    "date": "2026-08-25",
+    "vocadbId": 4478,
+    "title": "Knife",
+    "artist": "rerulili",
+    "artistString": "rerulili feat. Hatsune Miku, Kagamine Rin, Kagamine Len",
+    "vocadbName": "Knife",
+    "vocadbUrl": "https://vocadb.net/S/4478",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/12324543/12324543",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/12324543/12324543",
+      "https://i1.ytimg.com/vi/Absugp8fk8M/hqdefault.jpg",
+      "https://i.ytimg.com/vi/GPqhUpLXuLI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Absugp8fk8M/hqdefault.jpg",
+      "https://i.ytimg.com/vi/5cEDssV7Jdc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/GPqhUpLXuLI/default.jpg",
+      "https://i.ytimg.com/vi/Absugp8fk8M/default.jpg",
+      "https://i.ytimg.com/vi/5cEDssV7Jdc/default.jpg"
+    ],
+    "publishDate": "2010-08-14T00:00:00Z",
+    "acceptedTitles": [
+      "Knife"
+    ],
+    "audioClip": "https://audio.sodapines.dev/4478.mp3"
+  },
+  {
+    "date": "2026-08-26",
+    "vocadbId": 4652,
+    "title": "Let's Go to Heaven",
+    "artist": "Kikuo",
+    "artistString": "Kikuo feat. Hatsune Miku",
+    "vocadbName": "Let's Go to Heaven",
+    "vocadbUrl": "https://vocadb.net/S/4652",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/14993928/14993928",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/14993928/14993928",
+      "https://i1.ytimg.com/vi/StbchUkLV9A/hqdefault.jpg",
+      "https://i.ytimg.com/vi/StbchUkLV9A/hqdefault.jpg",
+      "https://i.ytimg.com/vi/y808S-awM2E/hqdefault.jpg",
+      "https://i.ytimg.com/vi/hRqbTL-FsLM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ymqsejDbhkw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/StbchUkLV9A/default.jpg",
+      "https://i.ytimg.com/vi/y808S-awM2E/default.jpg",
+      "https://i.ytimg.com/vi/hRqbTL-FsLM/default.jpg",
+      "https://f4.bcbits.com/img/a1744381274_5.jpg",
+      "https://i.ytimg.com/vi/ymqsejDbhkw/default.jpg"
+    ],
+    "publishDate": "2011-07-11T00:00:00Z",
+    "acceptedTitles": [
+      "天国へ行こう",
+      "Let's Go to Heaven",
+      "Tengoku e Ikou",
+      "천국으로 가자"
+    ],
+    "audioClip": "https://audio.sodapines.dev/4652.mp3"
+  },
+  {
+    "date": "2026-08-27",
+    "vocadbId": 4698,
+    "title": "Hatsune Miku's Head Exercises",
+    "artist": "hapi⇒",
+    "artistString": "hapi⇒ feat. Hatsune Miku",
+    "vocadbName": "Hatsune Miku's Head Exercises",
+    "vocadbUrl": "https://vocadb.net/S/4698",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/7017661/7017661",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/7017661/7017661",
+      "https://i1.ytimg.com/vi/dqO8CoF8r24/hqdefault.jpg",
+      "https://i.ytimg.com/vi/DcKsAvOifus/hqdefault.jpg",
+      "https://i.ytimg.com/vi/dqO8CoF8r24/hqdefault.jpg",
+      "https://i.ytimg.com/vi/37QD1i-9ImM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/DcKsAvOifus/default.jpg",
+      "https://i.ytimg.com/vi/dqO8CoF8r24/default.jpg",
+      "https://i.ytimg.com/vi/37QD1i-9ImM/default.jpg"
+    ],
+    "publishDate": "2009-05-11T00:00:00Z",
+    "acceptedTitles": [
+      "初音ミクの あたまのたいそう",
+      "Hatsune Miku's Head Exercises",
+      "Hatsune Miku no Atama no Taisou",
+      "初音ミクのあたまのたいそう"
+    ],
+    "audioClip": "https://audio.sodapines.dev/4698.mp3"
+  },
+  {
+    "date": "2026-08-28",
+    "vocadbId": 4715,
+    "title": "Pinky Promise",
+    "artist": "scop",
+    "artistString": "scop feat. Hatsune Miku",
+    "vocadbName": "Pinky Promise",
+    "vocadbUrl": "https://vocadb.net/S/4715",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/10533832/10533832",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/10533832/10533832",
+      "https://i1.ytimg.com/vi/KmZEK3iHVyI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/XB1EYMTBwnA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/p_Pvh9rfqHI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/KmZEK3iHVyI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/SLE4UG5OgcU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/XB1EYMTBwnA/default.jpg",
+      "https://i.ytimg.com/vi/p_Pvh9rfqHI/default.jpg",
+      "https://i.ytimg.com/vi/KmZEK3iHVyI/default.jpg",
+      "https://i.ytimg.com/vi/SLE4UG5OgcU/default.jpg"
+    ],
+    "publishDate": "2010-04-28T00:00:00Z",
+    "acceptedTitles": [
+      "指切り",
+      "Pinky Promise",
+      "Yubikiri",
+      "Pinky Swear",
+      "손가락 걸기"
+    ],
+    "audioClip": "https://audio.sodapines.dev/4715.mp3"
+  },
+  {
+    "date": "2026-08-29",
+    "vocadbId": 4980,
+    "title": "Leia",
+    "artist": "Yuyoyuppe",
+    "artistString": "Yuyoyuppe feat. Megurine Luka",
+    "vocadbName": "Leia",
+    "vocadbUrl": "https://vocadb.net/S/4980",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/13185918/13185918",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/13185918/13185918",
+      "https://i1.ytimg.com/vi/NPU0O5mUJbs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/NPU0O5mUJbs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/NPU0O5mUJbs/default.jpg"
+    ],
+    "publishDate": "2010-12-31T00:00:00Z",
+    "acceptedTitles": [
+      "Leia"
+    ],
+    "audioClip": "https://audio.sodapines.dev/4980.mp3"
+  },
+  {
+    "date": "2026-08-30",
+    "vocadbId": 4982,
+    "title": "Abstract Nonsense",
+    "artist": "Neru",
+    "artistString": "Neru feat. Kagamine Rin",
+    "vocadbName": "Abstract Nonsense",
+    "vocadbUrl": "https://vocadb.net/S/4982",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/14375135/14375135",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/14375135/14375135",
+      "https://i1.ytimg.com/vi/EjSvChCF9_M/hqdefault.jpg",
+      "https://i.ytimg.com/vi/EjSvChCF9_M/hqdefault.jpg",
+      "https://i.ytimg.com/vi/EjSvChCF9_M/default.jpg"
+    ],
+    "publishDate": "2011-05-06T00:00:00Z",
+    "acceptedTitles": [
+      "アブストラクト・ナンセンス",
+      "Abstract Nonsense"
+    ],
+    "audioClip": "https://audio.sodapines.dev/4982.mp3"
+  },
+  {
+    "date": "2026-08-31",
+    "vocadbId": 5166,
+    "title": "magnet",
+    "artist": "Minato Takahiro",
+    "artistString": "Minato Takahiro feat. Hatsune Miku, Megurine Luka",
+    "vocadbName": "magnet",
+    "vocadbUrl": "https://vocadb.net/S/5166",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/6909505/6909505",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/6909505/6909505",
+      "https://i1.ytimg.com/vi/K_is6LWTYv4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/egxSBhfjcTU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/K_is6LWTYv4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/eOfHoITF8lA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/egxSBhfjcTU/default.jpg",
+      "https://i.ytimg.com/vi/K_is6LWTYv4/default.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/13672767/13672767",
+      "https://i.ytimg.com/vi/eOfHoITF8lA/default.jpg"
+    ],
+    "publishDate": "2009-05-01T00:00:00Z",
+    "acceptedTitles": [
+      "magnet"
+    ],
+    "audioClip": "https://audio.sodapines.dev/5166.mp3"
+  },
+  {
+    "date": "2026-09-01",
+    "vocadbId": 5191,
+    "title": "I'm Sorry, I'm Sorry",
+    "artist": "Kikuo",
+    "artistString": "Kikuo feat. Hatsune Miku",
+    "vocadbName": "I'm Sorry, I'm Sorry",
+    "vocadbUrl": "https://vocadb.net/S/5191",
+    "coverArt": "https://i.ytimg.com/vi/I1mOeAtPkgk/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/I1mOeAtPkgk/default.jpg",
+      "https://i1.ytimg.com/vi/I1mOeAtPkgk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/6elFMyYYiWA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/I1mOeAtPkgk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/uax19yUJ7v8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/emlbQY1JED4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Sz_IUYCzJpo/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/16015251/16015251",
+      "https://f4.bcbits.com/img/a1278563355_5.jpg",
+      "https://i.ytimg.com/vi/uax19yUJ7v8/default.jpg",
+      "https://i.ytimg.com/vi/emlbQY1JED4/default.jpg",
+      "https://i.ytimg.com/vi/Sz_IUYCzJpo/default.jpg"
+    ],
+    "publishDate": "2011-10-28T00:00:00Z",
+    "acceptedTitles": [
+      "ごめんね ごめんね",
+      "I'm Sorry, I'm Sorry",
+      "Gomen ne Gomen ne",
+      "Gomenne Gomenne",
+      "Gomenne, Gomenne"
+    ],
+    "audioClip": "https://audio.sodapines.dev/5191.mp3"
+  },
+  {
+    "date": "2026-09-02",
+    "vocadbId": 5244,
+    "title": "Our 16bit Wars",
+    "artist": "sasakure.UK",
+    "artistString": "sasakure.UK feat. GUMI",
+    "vocadbName": "Our 16bit Wars",
+    "vocadbUrl": "https://vocadb.net/S/5244",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/7610111/7610111",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/7610111/7610111",
+      "https://i1.ytimg.com/vi/ywNEZQWDiMI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/zfmDv_dGWq0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/SkXglRwVMaU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ywNEZQWDiMI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/zfmDv_dGWq0/default.jpg",
+      "https://i.ytimg.com/vi/ywNEZQWDiMI/default.jpg"
+    ],
+    "publishDate": "2009-07-12T00:00:00Z",
+    "acceptedTitles": [
+      "ぼくらの16bit戦争",
+      "Our 16bit Wars",
+      "Bokura no 16bit Wars",
+      "Our 16bit Warz",
+      "僕らの16bit戦争"
+    ],
+    "audioClip": "https://audio.sodapines.dev/5244.mp3"
+  },
+  {
+    "date": "2026-09-03",
+    "vocadbId": 5364,
+    "title": "FREELY TOMORROW",
+    "artist": "Mitchie M",
+    "artistString": "Mitchie M feat. Hatsune Miku",
+    "vocadbName": "FREELY TOMORROW",
+    "vocadbUrl": "https://vocadb.net/S/5364",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/15172108/15172108",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/15172108/15172108",
+      "https://i1.ytimg.com/vi/VTqQ6ZgjpNk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/VTqQ6ZgjpNk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/HCXMnr4-Zqc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ZNebSeFVPNc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/43Bt1AOeLcU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/pqSXIjxejxE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/C7c4SJUcMtg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/VTqQ6ZgjpNk/default.jpg",
+      "https://i1.sndcdn.com/artworks-000122681100-xh395y-large.jpg",
+      "https://i.ytimg.com/vi/HCXMnr4-Zqc/default.jpg",
+      "https://i.ytimg.com/vi/ZNebSeFVPNc/default.jpg",
+      "https://i.ytimg.com/vi/43Bt1AOeLcU/default.jpg",
+      "https://i.ytimg.com/vi/pqSXIjxejxE/default.jpg",
+      "https://i.ytimg.com/vi/C7c4SJUcMtg/default.jpg"
+    ],
+    "publishDate": "2011-07-31T00:00:00Z",
+    "acceptedTitles": [
+      "FREELY TOMORROW"
+    ],
+    "audioClip": "https://audio.sodapines.dev/5364.mp3"
+  },
+  {
+    "date": "2026-09-04",
+    "vocadbId": 5367,
+    "title": "Cyber Thunder Cider",
+    "artist": "EZFG",
+    "artistString": "EZFG feat. VY1",
+    "vocadbName": "Cyber Thunder Cider",
+    "vocadbUrl": "https://vocadb.net/S/5367",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/15440067/15440067",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/15440067/15440067",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/15440067/15440067.23229688",
+      "https://i1.ytimg.com/vi/b6yC8j_gIpk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/b6yC8j_gIpk/hqdefault.jpg",
+      "https://cdn.piapro.jp/thumb_i/9l/9lozk0fmlf5en1rk_20110920194455_0250_0250.jpg",
+      "https://i.ytimg.com/vi/b6yC8j_gIpk/default.jpg"
+    ],
+    "publishDate": "2011-08-27T00:00:00Z",
+    "acceptedTitles": [
+      "サイバーサンダーサイダー",
+      "Cyber Thunder Cider"
+    ],
+    "audioClip": "https://audio.sodapines.dev/5367.mp3"
+  },
+  {
+    "date": "2026-09-05",
+    "vocadbId": 5701,
+    "title": "moon",
+    "artist": "iroha(sasaki)",
+    "artistString": "iroha(sasaki) feat. Hatsune Miku",
+    "vocadbName": "moon",
+    "vocadbUrl": "https://vocadb.net/S/5701",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/1400559/1400559",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/1400559/1400559",
+      "https://i1.ytimg.com/vi/XvXaCt8iKko/hqdefault.jpg",
+      "https://i.ytimg.com/vi/vWgZ57Nzx0w/hqdefault.jpg",
+      "https://i.ytimg.com/vi/XvXaCt8iKko/hqdefault.jpg",
+      "https://i.ytimg.com/vi/PGoIn8ZkS14/hqdefault.jpg",
+      "https://i1.sndcdn.com/avatars-000329914311-t0y9g2-large.jpg",
+      "https://i.ytimg.com/vi/vWgZ57Nzx0w/default.jpg",
+      "https://i.ytimg.com/vi/XvXaCt8iKko/default.jpg",
+      "https://i.ytimg.com/vi/PGoIn8ZkS14/default.jpg"
+    ],
+    "publishDate": "2007-10-29T00:00:00Z",
+    "acceptedTitles": [
+      "moon",
+      "moon(Fullver.)",
+      "moon(Fullver.)v1.1"
+    ],
+    "audioClip": "https://audio.sodapines.dev/5701.mp3"
+  },
+  {
+    "date": "2026-09-06",
+    "vocadbId": 5833,
+    "title": "Clover♣Club",
+    "artist": "Yuuyu",
+    "artistString": "Yuuyu feat. Hatsune Miku",
+    "vocadbName": "Clover♣Club",
+    "vocadbUrl": "https://vocadb.net/S/5833",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/1937053/1937053",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/1937053/1937053",
+      "https://i1.ytimg.com/vi/rNtHG8jU6Es/hqdefault.jpg",
+      "https://i.ytimg.com/vi/rNtHG8jU6Es/hqdefault.jpg",
+      "https://i.ytimg.com/vi/rNtHG8jU6Es/default.jpg"
+    ],
+    "publishDate": "2008-01-03T00:00:00Z",
+    "acceptedTitles": [
+      "クローバー♣クラブ",
+      "Clover♣Club",
+      "クローバークラブ",
+      "クローバー・クラブ",
+      "Clover Club"
+    ],
+    "audioClip": "https://audio.sodapines.dev/5833.mp3"
+  },
+  {
+    "date": "2026-09-07",
+    "vocadbId": 5859,
+    "title": "Two Breaths Walking",
+    "artist": "DECO*27",
+    "artistString": "DECO*27 feat. Hatsune Miku",
+    "vocadbName": "Two Breaths Walking",
+    "vocadbUrl": "https://vocadb.net/S/5859",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/8061508/8061508",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/8061508/8061508",
+      "https://i1.ytimg.com/vi/O4ygRYdrwWk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/O4ygRYdrwWk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Ke8fRsoSBOA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/yVAUfOmDGzE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Kza1YAU9ofE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/l4kawxTj3_g/hqdefault.jpg",
+      "https://i.ytimg.com/vi/O4ygRYdrwWk/default.jpg",
+      "https://i.ytimg.com/vi/Ke8fRsoSBOA/default.jpg",
+      "https://i1.sndcdn.com/artworks-f3onZW4W88uD-0-t500x500.jpg",
+      "https://i1.sndcdn.com/artworks-gRrmBn6MCUTG-0-t500x500.jpg",
+      "https://i.ytimg.com/vi/yVAUfOmDGzE/default.jpg",
+      "https://i.ytimg.com/vi/Kza1YAU9ofE/default.jpg",
+      "https://i.ytimg.com/vi/l4kawxTj3_g/default.jpg"
+    ],
+    "publishDate": "2009-08-27T00:00:00Z",
+    "acceptedTitles": [
+      "二息歩行",
+      "Two Breaths Walking",
+      "Nisoku Hokou"
+    ],
+    "audioClip": "https://audio.sodapines.dev/5859.mp3"
+  },
+  {
+    "date": "2026-09-08",
+    "vocadbId": 6153,
+    "title": "Baloney Speaker",
+    "artist": "Sasanomaly",
+    "artistString": "Sasanomaly feat. Hatsune Miku Append (Soft)",
+    "vocadbName": "Baloney Speaker",
+    "vocadbUrl": "https://vocadb.net/S/6153",
+    "coverArt": "https://i.ytimg.com/vi/m0D-hgRD58o/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/m0D-hgRD58o/default.jpg",
+      "https://cdn.piapro.jp/thumb_i/45/45iyieq7yhjssvns_20110511112143_0250_0250.jpg",
+      "https://i1.ytimg.com/vi/m0D-hgRD58o/hqdefault.jpg",
+      "https://i.ytimg.com/vi/m0D-hgRD58o/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/14387746/14387746"
+    ],
+    "publishDate": "2011-05-07T00:00:00Z",
+    "acceptedTitles": [
+      "戯言スピーカー",
+      "Baloney Speaker",
+      "Tawagoto Speaker",
+      "Zaregoto Speaker",
+      "Nonsense Speaker",
+      "Joking Speaker",
+      "헛소리 스피커"
+    ],
+    "audioClip": "https://audio.sodapines.dev/6153.mp3"
+  },
+  {
+    "date": "2026-09-09",
+    "vocadbId": 6387,
+    "title": "Fire◎Flower",
+    "artist": "halyosy",
+    "artistString": "halyosy, is feat. Kagamine Len",
+    "vocadbName": "Fire◎Flower",
+    "vocadbUrl": "https://vocadb.net/S/6387",
+    "coverArt": "https://i.ytimg.com/vi/myEsj-qf73A/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/myEsj-qf73A/default.jpg",
+      "https://i1.ytimg.com/vi/myEsj-qf73A/hqdefault.jpg",
+      "https://i.ytimg.com/vi/myEsj-qf73A/hqdefault.jpg",
+      "https://res.piapro.jp/r/images/card/250/len.png?20260120",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/4153727/4153727"
+    ],
+    "publishDate": "2008-08-02T00:00:00Z",
+    "acceptedTitles": [
+      "Fire◎Flower"
+    ],
+    "audioClip": "https://audio.sodapines.dev/6387.mp3"
+  },
+  {
+    "date": "2026-09-10",
+    "vocadbId": 7033,
+    "title": "Carnival",
+    "artist": "otetsu",
+    "artistString": "otetsu feat. GUMI",
+    "vocadbName": "Carnival",
+    "vocadbUrl": "https://vocadb.net/S/7033",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/13805781/13805781",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/13805781/13805781",
+      "https://i1.ytimg.com/vi/n_AusGqbcAI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/n_AusGqbcAI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Qgu_I7TGrVo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/YHnqangyNCQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/2vdbpLX2n58/hqdefault.jpg",
+      "https://i.ytimg.com/vi/n_AusGqbcAI/default.jpg",
+      "https://i.ytimg.com/vi/Qgu_I7TGrVo/default.jpg",
+      "https://i.ytimg.com/vi/YHnqangyNCQ/default.jpg",
+      "https://i.ytimg.com/vi/2vdbpLX2n58/default.jpg"
+    ],
+    "publishDate": "2011-03-07T00:00:00Z",
+    "acceptedTitles": [
+      "カーニバル",
+      "Carnival",
+      "Карнавал"
+    ],
+    "audioClip": "https://audio.sodapines.dev/7033.mp3"
+  },
+  {
+    "date": "2026-09-11",
+    "vocadbId": 7042,
+    "title": "Shut Up with Your Complains!",
+    "artist": "OwataP",
+    "artistString": "OwataP feat. Hatsune Miku",
+    "vocadbName": "Shut Up with Your Complains!",
+    "vocadbUrl": "https://vocadb.net/S/7042",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/12294498/12294498",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/12294498/12294498",
+      "https://i1.ytimg.com/vi/-bt0IP16PZI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/-bt0IP16PZI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/dAhtupTJcPg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/o4Gh11wjpKw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/-bt0IP16PZI/default.jpg",
+      "https://i.ytimg.com/vi/dAhtupTJcPg/default.jpg",
+      "https://i.ytimg.com/vi/o4Gh11wjpKw/default.jpg"
+    ],
+    "publishDate": "2010-10-01T00:00:00Z",
+    "acceptedTitles": [
+      "ゴチャゴチャうるせー！",
+      "Shut Up with Your Complains!",
+      "Gocha Gocha Urusee!",
+      "Stop Nagging Me!",
+      "It’s Crazy!"
+    ],
+    "audioClip": "https://audio.sodapines.dev/7042.mp3"
+  },
+  {
+    "date": "2026-09-12",
+    "vocadbId": 7234,
+    "title": "RIP=RELEASE",
+    "artist": "Minato Takahiro",
+    "artistString": "Minato Takahiro feat. Megurine Luka",
+    "vocadbName": "RIP=RELEASE",
+    "vocadbUrl": "https://vocadb.net/S/7234",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/5992615/5992615",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/5992615/5992615",
+      "https://i1.ytimg.com/vi/0aIQJPLm1ww/hqdefault.jpg",
+      "https://i.ytimg.com/vi/BaqpQ1UNzeU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/0aIQJPLm1ww/hqdefault.jpg",
+      "https://i.ytimg.com/vi/X9sMko8Jm54/hqdefault.jpg",
+      "https://i.ytimg.com/vi/v-Qfd_q7OVk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/BaqpQ1UNzeU/default.jpg",
+      "https://i.ytimg.com/vi/0aIQJPLm1ww/default.jpg",
+      "https://i.ytimg.com/vi/X9sMko8Jm54/default.jpg",
+      "https://i.ytimg.com/vi/v-Qfd_q7OVk/default.jpg"
+    ],
+    "publishDate": "2009-01-30T00:00:00Z",
+    "acceptedTitles": [
+      "RIP=RELEASE"
+    ],
+    "audioClip": "https://audio.sodapines.dev/7234.mp3"
+  },
+  {
+    "date": "2026-09-13",
+    "vocadbId": 7238,
+    "title": "Cendrillon",
+    "artist": "Dios/SignalP",
+    "artistString": "Dios/SignalP feat. Hatsune Miku, KAITO",
+    "vocadbName": "Cendrillon",
+    "vocadbUrl": "https://vocadb.net/S/7238",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/4410647/4410647",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/4410647/4410647",
+      "https://i1.ytimg.com/vi/I6JWIzX6QgU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/BiS3RJJeWk4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/fU4jlRM4l7A/hqdefault.jpg",
+      "https://i.ytimg.com/vi/I6JWIzX6QgU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/piMsOntvSWg/hqdefault.jpg",
+      "https://cdn.piapro.jp/thumb_i/uk/ukeggbo9wq7gjdl4_20080831230140_0250_0250.jpg",
+      "https://i.ytimg.com/vi/fU4jlRM4l7A/default.jpg",
+      "https://i.ytimg.com/vi/I6JWIzX6QgU/default.jpg",
+      "https://i.ytimg.com/vi/piMsOntvSWg/default.jpg"
+    ],
+    "publishDate": "2008-08-25T00:00:00Z",
+    "acceptedTitles": [
+      "サンドリヨン",
+      "Cendrillon",
+      "Золушка",
+      "상드리용"
+    ],
+    "audioClip": "https://audio.sodapines.dev/7238.mp3"
+  },
+  {
+    "date": "2026-09-14",
+    "vocadbId": 7319,
+    "title": "1925",
+    "artist": "T-POCKET",
+    "artistString": "T-POCKET, FujidouYayoi feat. Hatsune Miku",
+    "vocadbName": "1925",
+    "vocadbUrl": "https://vocadb.net/S/7319",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/8430328/8430328",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/8430328/8430328",
+      "https://i1.ytimg.com/vi/QvGLt5CUBVo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/YxGRVKT-ox4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/QvGLt5CUBVo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/8xFBLego17k/hqdefault.jpg",
+      "https://i.ytimg.com/vi/YxGRVKT-ox4/default.jpg",
+      "https://i.ytimg.com/vi/QvGLt5CUBVo/default.jpg",
+      "https://res.piapro.jp/r/images/card/250/miku.png?20260120",
+      "https://i.ytimg.com/vi/8xFBLego17k/default.jpg"
+    ],
+    "publishDate": "2009-10-05T00:00:00Z",
+    "acceptedTitles": [
+      "1925",
+      "1925 ～memorial track～",
+      "1925 memorial track"
+    ],
+    "audioClip": "https://audio.sodapines.dev/7319.mp3"
+  },
+  {
+    "date": "2026-09-15",
+    "vocadbId": 7801,
+    "title": "Calc.",
+    "artist": "JimmyThumbP",
+    "artistString": "JimmyThumbP feat. Hatsune Miku",
+    "vocadbName": "Calc.",
+    "vocadbUrl": "https://vocadb.net/S/7801",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/12050471/12050471",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/12050471/12050471",
+      "https://i1.ytimg.com/vi/oidKy7khp8o/hqdefault.jpg",
+      "https://i.ytimg.com/vi/TVeIDmk3rBo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/oidKy7khp8o/hqdefault.jpg",
+      "https://res.piapro.jp/r/images/card/250/miku.png?20260120",
+      "https://i.ytimg.com/vi/TVeIDmk3rBo/default.jpg",
+      "https://i.ytimg.com/vi/oidKy7khp8o/default.jpg"
+    ],
+    "publishDate": "2010-08-11T00:00:00Z",
+    "acceptedTitles": [
+      "Calc."
+    ],
+    "audioClip": "https://audio.sodapines.dev/7801.mp3"
+  },
+  {
+    "date": "2026-09-16",
+    "vocadbId": 7922,
+    "title": "Reverse Rainbow",
+    "artist": "sunzriverP",
+    "artistString": "sunzriverP feat. Kagamine Rin, Hatsune Miku",
+    "vocadbName": "Reverse Rainbow",
+    "vocadbUrl": "https://vocadb.net/S/7922",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/4218005/4218005",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/4218005/4218005",
+      "https://i1.ytimg.com/vi/Ytmpa_v10n8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Ytmpa_v10n8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/lFDV3y76nQE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/0m-SIqBX5FU/hqdefault.jpg",
+      "https://cdn.piapro.jp/thumb_i/9m/9m1dh8duox0x2n5i_20080824134847_0250_0250.jpg",
+      "https://i.ytimg.com/vi/Ytmpa_v10n8/default.jpg",
+      "https://i.ytimg.com/vi/lFDV3y76nQE/default.jpg",
+      "https://i.ytimg.com/vi/0m-SIqBX5FU/default.jpg"
+    ],
+    "publishDate": "2008-08-08T00:00:00Z",
+    "acceptedTitles": [
+      "逆さまレインボー",
+      "Reverse Rainbow",
+      "Sakasama Rainbow",
+      "Upside-Down Rainbow"
+    ],
+    "audioClip": "https://audio.sodapines.dev/7922.mp3"
+  },
+  {
+    "date": "2026-09-17",
+    "vocadbId": 8142,
+    "title": "We Should Not Do Bad Things",
+    "artist": "Kikuo",
+    "artistString": "Kikuo feat. Hatsune Miku",
+    "vocadbName": "We Should Not Do Bad Things",
+    "vocadbUrl": "https://vocadb.net/S/8142",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/12307811/12307811",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/12307811/12307811",
+      "https://i1.ytimg.com/vi/WgKn9W33z38/hqdefault.jpg",
+      "https://i.ytimg.com/vi/geZ9UbumUsI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/v4dEf5Jwe-w/hqdefault.jpg",
+      "https://i.ytimg.com/vi/WgKn9W33z38/hqdefault.jpg",
+      "https://i.ytimg.com/vi/geZ9UbumUsI/default.jpg",
+      "https://i.ytimg.com/vi/v4dEf5Jwe-w/default.jpg",
+      "https://f4.bcbits.com/img/a1744381274_5.jpg",
+      "https://i.ytimg.com/vi/WgKn9W33z38/default.jpg"
+    ],
+    "publishDate": "2010-10-03T00:00:00Z",
+    "acceptedTitles": [
+      "悪いことはしちゃいけないよ",
+      "We Should Not Do Bad Things",
+      "Warui Koto wa Shicha Ikenai yo",
+      "I'm Not Supposed to Be Bad",
+      "나쁜 짓은 하면 안 돼"
+    ],
+    "audioClip": "https://audio.sodapines.dev/8142.mp3"
+  },
+  {
+    "date": "2026-09-18",
+    "vocadbId": 8149,
+    "title": "Breaking Things into Pieces",
+    "artist": "Kikuo",
+    "artistString": "Kikuo feat. Hatsune Miku",
+    "vocadbName": "Breaking Things into Pieces",
+    "vocadbUrl": "https://vocadb.net/S/8149",
+    "coverArt": "https://i.ytimg.com/vi/eC4XuTe7Hyc/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/eC4XuTe7Hyc/default.jpg",
+      "https://i1.ytimg.com/vi/eC4XuTe7Hyc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/NdOtYgQQjjY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/eC4XuTe7Hyc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/LKcsjUZzYHE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/1h_StqFRWxE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Q0PzQGV7LEE/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/15085899/15085899",
+      "https://i.ytimg.com/vi/LKcsjUZzYHE/default.jpg",
+      "https://i.ytimg.com/vi/1h_StqFRWxE/default.jpg",
+      "https://f4.bcbits.com/img/a1744381274_5.jpg",
+      "https://i.ytimg.com/vi/Q0PzQGV7LEE/default.jpg"
+    ],
+    "publishDate": "2011-07-22T00:00:00Z",
+    "acceptedTitles": [
+      "物をぱらぱら壊す",
+      "Breaking Things into Pieces",
+      "Mono o Parapara Kowasu",
+      "물건을 조각조각 부숴"
+    ],
+    "audioClip": "https://audio.sodapines.dev/8149.mp3"
+  },
+  {
+    "date": "2026-09-19",
+    "vocadbId": 8175,
+    "title": "Meteor",
+    "artist": "John",
+    "artistString": "John feat. Hatsune Miku Append (Sweet), Hatsune Miku Append (Dark)",
+    "vocadbName": "Meteor",
+    "vocadbUrl": "https://vocadb.net/S/8175",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/13911449/13911449",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/13911449/13911449",
+      "https://i1.ytimg.com/vi/snUfbQzgZm4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/snUfbQzgZm4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/u3T6hioBIiU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/kVD-WYdGV_M/hqdefault.jpg",
+      "https://i.ytimg.com/vi/kx3u0qQMgmY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/vt2wHUJHbbg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/hfJCZHdOwt4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/snUfbQzgZm4/default.jpg",
+      "https://i.ytimg.com/vi/u3T6hioBIiU/default.jpg",
+      "https://i.ytimg.com/vi/kVD-WYdGV_M/default.jpg",
+      "https://i.ytimg.com/vi/kx3u0qQMgmY/default.jpg",
+      "https://i.ytimg.com/vi/vt2wHUJHbbg/default.jpg",
+      "https://i.ytimg.com/vi/hfJCZHdOwt4/default.jpg"
+    ],
+    "publishDate": "2011-03-20T00:00:00Z",
+    "acceptedTitles": [
+      "メテオ",
+      "Meteor",
+      "Dreaming At Night Of The Meteor",
+      "메테오"
+    ],
+    "audioClip": "https://audio.sodapines.dev/8175.mp3"
+  },
+  {
+    "date": "2026-09-20",
+    "vocadbId": 8215,
+    "title": "The Intense Voice of Hatsune Miku (LONG VERSION)",
+    "artist": "cosMo@BousouP",
+    "artistString": "cosMo@BousouP, Storyteller feat. Hatsune Miku",
+    "vocadbName": "The Intense Voice of Hatsune Miku (LONG VERSION)",
+    "vocadbUrl": "https://vocadb.net/S/8215",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/11328911/11328911",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/11328911/11328911",
+      "https://i1.ytimg.com/vi/c3QzL4-bHd4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/c3QzL4-bHd4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/-9FSPRObc1Y/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/11495850/11495850",
+      "https://i.ytimg.com/vi/c3QzL4-bHd4/default.jpg",
+      "https://i.ytimg.com/vi/-9FSPRObc1Y/default.jpg",
+      "https://i0.hdslb.com/bfs/archive/86f40a4dd56cce6716ed291c9a9d32196346884c.jpg"
+    ],
+    "publishDate": "2010-07-09T00:00:00Z",
+    "acceptedTitles": [
+      "初音ミクの激唱（LONG VERSION）",
+      "The Intense Voice of Hatsune Miku (LONG VERSION)",
+      "Hatsune Miku no Gekishou (LONG VERSION)",
+      "The Intense Singing of Hatsune Miku (LONG VERSION)",
+      "The Singing Passion of Hatsune Miku (LONG VERSION)",
+      "하츠네 미쿠의 격창 (LONG VERSION)"
+    ],
+    "audioClip": "https://audio.sodapines.dev/8215.mp3"
+  },
+  {
+    "date": "2026-09-21",
+    "vocadbId": 8241,
+    "title": "Pair of Wintry Winds",
+    "artist": "hinayukki",
+    "artistString": "hinayukki feat. KAITO, MEIKO",
+    "vocadbName": "Pair of Wintry Winds",
+    "vocadbUrl": "https://vocadb.net/S/8241",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/4794708/4794708",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/4794708/4794708",
+      "https://i1.ytimg.com/vi/62FkU3L2N_8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/62FkU3L2N_8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/9ZWdVW6lHzQ/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/18102496/18102496",
+      "https://i.ytimg.com/vi/62FkU3L2N_8/default.jpg",
+      "https://i.ytimg.com/vi/9ZWdVW6lHzQ/default.jpg"
+    ],
+    "publishDate": "2008-10-01T00:00:00Z",
+    "acceptedTitles": [
+      "番凩",
+      "Pair of Wintry Winds",
+      "Tsugai Kogarashi",
+      "Wintry Winds",
+      "Paired Wintry Wind",
+      "츠가이코가라시",
+      "TSUGAIKOGARASHI",
+      "한 쌍의 소슬바람"
+    ],
+    "audioClip": "https://audio.sodapines.dev/8241.mp3"
+  },
+  {
+    "date": "2026-09-23",
+    "vocadbId": 8246,
+    "title": "1/6 -out of the gravity-",
+    "artist": "Vocaliod-P",
+    "artistString": "Vocaliod-P feat. Hatsune Miku",
+    "vocadbName": "1/6 -out of the gravity-",
+    "vocadbUrl": "https://vocadb.net/S/8246",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/6971638/6971638",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/6971638/6971638",
+      "https://i1.ytimg.com/vi/EUsU8kDOv_g/hqdefault.jpg",
+      "https://i.ytimg.com/vi/EUsU8kDOv_g/hqdefault.jpg",
+      "https://i.ytimg.com/vi/UaxrbwFcm8Q/hqdefault.jpg",
+      "https://i.ytimg.com/vi/EUsU8kDOv_g/default.jpg",
+      "https://i.ytimg.com/vi/UaxrbwFcm8Q/default.jpg"
+    ],
+    "publishDate": "2009-05-06T00:00:00Z",
+    "acceptedTitles": [
+      "1/6 -out of the gravity-",
+      "1/6"
+    ],
+    "audioClip": "https://audio.sodapines.dev/8246.mp3"
+  },
+  {
+    "date": "2026-09-23",
+    "vocadbId": 8246,
+    "title": "1/6 -out of the gravity-",
+    "artist": "Vocaliod-P",
+    "artistString": "Vocaliod-P feat. Hatsune Miku",
+    "vocadbName": "1/6 -out of the gravity-",
+    "vocadbUrl": "https://vocadb.net/S/8246",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/6971638/6971638",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/6971638/6971638",
+      "https://i1.ytimg.com/vi/EUsU8kDOv_g/hqdefault.jpg",
+      "https://i.ytimg.com/vi/EUsU8kDOv_g/hqdefault.jpg",
+      "https://i.ytimg.com/vi/UaxrbwFcm8Q/hqdefault.jpg",
+      "https://i.ytimg.com/vi/EUsU8kDOv_g/default.jpg",
+      "https://i.ytimg.com/vi/UaxrbwFcm8Q/default.jpg"
+    ],
+    "publishDate": "2009-05-06T00:00:00Z",
+    "acceptedTitles": [
+      "1/6 -out of the gravity-",
+      "1/6"
+    ],
+    "audioClip": "https://audio.sodapines.dev/8246.mp3"
+  },
+  {
+    "date": "2026-09-24",
+    "vocadbId": 8250,
+    "title": "Life Reset Button",
+    "artist": "kemu",
+    "artistString": "kemu feat. GUMI",
+    "vocadbName": "Life Reset Button",
+    "vocadbUrl": "https://vocadb.net/S/8250",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/16110005/16110005",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/16110005/16110005",
+      "https://i1.ytimg.com/vi/IN3kbST908c/hqdefault.jpg",
+      "https://i.ytimg.com/vi/IN3kbST908c/hqdefault.jpg",
+      "https://i.ytimg.com/vi/VRpOz3g7y5M/hqdefault.jpg",
+      "https://i.ytimg.com/vi/wfBVjsMVZV4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/q_W1teF8a0E/hqdefault.jpg",
+      "https://i.ytimg.com/vi/IN3kbST908c/default.jpg",
+      "https://i.ytimg.com/vi/wfBVjsMVZV4/default.jpg",
+      "https://i.ytimg.com/vi/q_W1teF8a0E/default.jpg"
+    ],
+    "publishDate": "2011-11-07T00:00:00Z",
+    "acceptedTitles": [
+      "人生リセットボタン",
+      "Life Reset Button",
+      "Jinsei Reset Button",
+      "인생 리셋 버튼"
+    ],
+    "audioClip": "https://audio.sodapines.dev/8250.mp3"
+  },
+  {
+    "date": "2026-09-25",
+    "vocadbId": 8251,
+    "title": "Invisible",
+    "artist": "kemu",
+    "artistString": "kemu feat. GUMI, Kagamine Rin Append (Power)",
+    "vocadbName": "Invisible",
+    "vocadbUrl": "https://vocadb.net/S/8251",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/16474954/16474954",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/16474954/16474954",
+      "https://i1.ytimg.com/vi/vXSpdipuiFs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/vXSpdipuiFs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/S6YMkXldZag/hqdefault.jpg",
+      "https://i.ytimg.com/vi/vXSpdipuiFs/default.jpg"
+    ],
+    "publishDate": "2011-12-20T00:00:00Z",
+    "acceptedTitles": [
+      "インビジブル",
+      "Invisible"
+    ],
+    "audioClip": "https://audio.sodapines.dev/8251.mp3"
+  },
+  {
+    "date": "2026-09-26",
+    "vocadbId": 8290,
+    "title": "DREAM DREAM",
+    "artist": "DECO*27",
+    "artistString": "DECO*27 feat. Hatsune Miku",
+    "vocadbName": "DREAM DREAM",
+    "vocadbUrl": "https://vocadb.net/S/8290",
+    "coverArt": "https://i.ytimg.com/vi/07r67gGbtLQ/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/07r67gGbtLQ/default.jpg",
+      "https://i1.ytimg.com/vi/07r67gGbtLQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/07r67gGbtLQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/xBXvbgVxDR4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/7HR8un5ukoc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/GHCZIh-AV_s/hqdefault.jpg",
+      "https://i.ytimg.com/vi/zeTO-rOlOb0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/xBXvbgVxDR4/default.jpg",
+      "https://i.ytimg.com/vi/7HR8un5ukoc/default.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/16679019/16679019",
+      "https://i.ytimg.com/vi/GHCZIh-AV_s/default.jpg",
+      "https://i1.sndcdn.com/artworks-TaoFwZbaAbMw-0-t500x500.jpg",
+      "https://i1.sndcdn.com/artworks-JCNQcWSPcaoe-0-t500x500.jpg",
+      "https://i.ytimg.com/vi/zeTO-rOlOb0/default.jpg"
+    ],
+    "publishDate": "2012-01-12T00:00:00Z",
+    "acceptedTitles": [
+      "ゆめゆめ",
+      "DREAM DREAM",
+      "YUMEYUME"
+    ],
+    "audioClip": "https://audio.sodapines.dev/8290.mp3"
+  },
+  {
+    "date": "2026-09-27",
+    "vocadbId": 8394,
+    "title": "A Thousand Cherry Blossoms",
+    "artist": "KurousaP",
+    "artistString": "KurousaP feat. Hatsune Miku",
+    "vocadbName": "A Thousand Cherry Blossoms",
+    "vocadbUrl": "https://vocadb.net/S/8394",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/15630734/15630734",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/15630734/15630734",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/15630734/15630734.34480305",
+      "https://i1.ytimg.com/vi/shs0rAiwsGQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/HjXbSf-9lMM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/shs0rAiwsGQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/8VEQZseJO8Y/hqdefault.jpg",
+      "https://i.ytimg.com/vi/nHGW_wUfqkQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/PJFNE9YiYX8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/HjXbSf-9lMM/default.jpg",
+      "https://i.ytimg.com/vi/shs0rAiwsGQ/default.jpg",
+      "https://i.ytimg.com/vi/8VEQZseJO8Y/default.jpg",
+      "https://i.ytimg.com/vi/nHGW_wUfqkQ/default.jpg",
+      "https://i.ytimg.com/vi/PJFNE9YiYX8/default.jpg"
+    ],
+    "publishDate": "2011-09-17T00:00:00Z",
+    "acceptedTitles": [
+      "千本桜",
+      "A Thousand Cherry Blossoms",
+      "Senbonzakura",
+      "Thousand Cherry Trees",
+      "千本樱"
+    ],
+    "audioClip": "https://audio.sodapines.dev/8394.mp3"
+  },
+  {
+    "date": "2026-09-28",
+    "vocadbId": 8395,
+    "title": "Tell Your World",
+    "artist": "kz",
+    "artistString": "kz feat. Hatsune Miku",
+    "vocadbName": "Tell Your World",
+    "vocadbUrl": "https://vocadb.net/S/8395",
+    "coverArt": "https://i.ytimg.com/vi/PqJNc9KVIZE/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/PqJNc9KVIZE/default.jpg",
+      "https://i1.ytimg.com/vi/PqJNc9KVIZE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/PqJNc9KVIZE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/XgeICLjIf8Y/hqdefault.jpg",
+      "https://i.ytimg.com/vi/X3D7tm5PZIY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/GYTZAK7lF4g/hqdefault.jpg",
+      "https://i.ytimg.com/vi/4n94ukt15qg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/GCuo9a6dVyo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/XgeICLjIf8Y/default.jpg",
+      "https://i.ytimg.com/vi/X3D7tm5PZIY/default.jpg",
+      "https://i.ytimg.com/vi/GYTZAK7lF4g/default.jpg",
+      "https://i.ytimg.com/vi/4n94ukt15qg/default.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/16550626/16550626",
+      "https://i.ytimg.com/vi/GCuo9a6dVyo/default.jpg"
+    ],
+    "publishDate": "2012-01-18T00:00:00Z",
+    "acceptedTitles": [
+      "Tell Your World"
+    ],
+    "audioClip": "https://audio.sodapines.dev/8395.mp3"
+  },
+  {
+    "date": "2026-09-29",
+    "vocadbId": 8478,
+    "title": "Crime and Punishment",
+    "artist": "DECO*27",
+    "artistString": "DECO*27 feat. Hatsune Miku",
+    "vocadbName": "Crime and Punishment",
+    "vocadbUrl": "https://vocadb.net/S/8478",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/8166339/8166339",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/8166339/8166339",
+      "https://i1.ytimg.com/vi/3xAzQ8-WXMQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/5XnsrJ8l_1M/hqdefault.jpg",
+      "https://i.ytimg.com/vi/3xAzQ8-WXMQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/z0XFw3j11zw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/5XnsrJ8l_1M/default.jpg",
+      "https://i.ytimg.com/vi/3xAzQ8-WXMQ/default.jpg",
+      "https://i.ytimg.com/vi/z0XFw3j11zw/default.jpg",
+      "https://i1.sndcdn.com/artworks-n0FmUsino57t-0-t500x500.jpg",
+      "https://i1.sndcdn.com/artworks-lHC27l4tCkd0-0-t500x500.jpg"
+    ],
+    "publishDate": "2009-09-07T00:00:00Z",
+    "acceptedTitles": [
+      "罪と罰",
+      "Crime and Punishment",
+      "Tsumi to Batsu",
+      "죄와 벌",
+      "Crime & Punishment"
+    ],
+    "audioClip": "https://audio.sodapines.dev/8478.mp3"
+  },
+  {
+    "date": "2026-09-30",
+    "vocadbId": 8623,
+    "title": "EAZY DANCE",
+    "artist": "Mitchie M",
+    "artistString": "Mitchie M feat. Hatsune Miku",
+    "vocadbName": "EAZY DANCE",
+    "vocadbUrl": "https://vocadb.net/S/8623",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/16590269/16590269",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/16590269/16590269",
+      "https://i1.ytimg.com/vi/wTwJVWetpvA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/xGpO6XL1Njo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/wTwJVWetpvA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/gU_LDY91_sE/hqdefault.jpg"
+    ],
+    "publishDate": "2012-01-02T00:00:00Z",
+    "acceptedTitles": [
+      "イージーデンス",
+      "EAZY DANCE",
+      "EASY DANCE"
+    ],
+    "audioClip": "https://audio.sodapines.dev/8623.mp3"
+  },
+  {
+    "date": "2026-10-01",
+    "vocadbId": 8676,
+    "title": "Hurting for a Very Hurtful Pain",
+    "artist": "EZFG",
+    "artistString": "EZFG feat. VY2, VY1V3",
+    "vocadbName": "Hurting for a Very Hurtful Pain",
+    "vocadbUrl": "https://vocadb.net/S/8676",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/16658127/16658127",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/16658127/16658127",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/16658127/16658127.36172312",
+      "https://i1.ytimg.com/vi/O81HImHMASc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/O81HImHMASc/hqdefault.jpg",
+      "https://res.piapro.jp/r/images/card/250/default.png",
+      "https://i.ytimg.com/vi/O81HImHMASc/default.jpg"
+    ],
+    "publishDate": "2012-01-09T00:00:00Z",
+    "acceptedTitles": [
+      "とても痛い痛がりたい",
+      "Hurting for a Very Hurtful Pain",
+      "Totemo Itai Itagaritai",
+      "痛并渴痛"
+    ],
+    "audioClip": "https://audio.sodapines.dev/8676.mp3"
+  },
+  {
+    "date": "2026-10-02",
+    "vocadbId": 8678,
+    "title": "Rin-chan Now!",
+    "artist": "OwataP",
+    "artistString": "OwataP feat. Megurine Luka, Hatsune Miku",
+    "vocadbName": "Rin-chan Now!",
+    "vocadbUrl": "https://vocadb.net/S/8678",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/16539814/16539814",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/16539814/16539814",
+      "https://i1.ytimg.com/vi/_oS2aIhE2_U/hqdefault.jpg",
+      "https://i.ytimg.com/vi/_oS2aIhE2_U/hqdefault.jpg",
+      "https://i.ytimg.com/vi/GeA86lonJoY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/hQAcJRVIi7g/hqdefault.jpg",
+      "https://i.ytimg.com/vi/_oS2aIhE2_U/default.jpg",
+      "https://i.ytimg.com/vi/GeA86lonJoY/default.jpg",
+      "https://i1.hdslb.com/bfs/archive/03ae4a5081588b0d5a693175da2e8d4f3289d803.jpg",
+      "https://i.ytimg.com/vi/hQAcJRVIi7g/default.jpg"
+    ],
+    "publishDate": "2011-08-13T00:00:00Z",
+    "acceptedTitles": [
+      "リンちゃんなう！",
+      "Rin-chan Now!",
+      "Rin-chan Nau!",
+      "鈴醤NOW！"
+    ],
+    "audioClip": "https://audio.sodapines.dev/8678.mp3"
+  },
+  {
+    "date": "2026-10-03",
+    "vocadbId": 8682,
+    "title": "Bad ∞ End ∞ Night",
+    "artist": "HitoshizukuP",
+    "artistString": "HitoshizukuP, yama△ feat. various",
+    "vocadbName": "Bad ∞ End ∞ Night",
+    "vocadbUrl": "https://vocadb.net/S/8682",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/16702635/16702635",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/16702635/16702635",
+      "https://i1.ytimg.com/vi/WDUA7z3703g/hqdefault.jpg",
+      "https://i.ytimg.com/vi/WDUA7z3703g/hqdefault.jpg",
+      "https://i.ytimg.com/vi/hMYZgovCW0s/hqdefault.jpg",
+      "https://i.ytimg.com/vi/WDUA7z3703g/default.jpg",
+      "https://i.ytimg.com/vi/hMYZgovCW0s/default.jpg"
+    ],
+    "publishDate": "2012-01-15T00:00:00Z",
+    "acceptedTitles": [
+      "Bad ∞ End ∞ Night"
+    ],
+    "audioClip": "https://audio.sodapines.dev/8682.mp3"
+  },
+  {
+    "date": "2026-10-04",
+    "vocadbId": 8735,
+    "title": "Deep Sea Girl",
+    "artist": "Yuuyu",
+    "artistString": "Yuuyu feat. Hatsune Miku",
+    "vocadbName": "Deep Sea Girl",
+    "vocadbUrl": "https://vocadb.net/S/8735",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/11956364/11956364",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/11956364/11956364",
+      "https://i1.ytimg.com/vi/2CwBFr-Eoxg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/IsWwX2-aKJg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/2CwBFr-Eoxg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/46ULnljsIlE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/IsWwX2-aKJg/default.jpg",
+      "https://i.ytimg.com/vi/2CwBFr-Eoxg/default.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/21527509/21527509",
+      "https://i.ytimg.com/vi/46ULnljsIlE/default.jpg"
+    ],
+    "publishDate": "2010-09-01T00:00:00Z",
+    "acceptedTitles": [
+      "深海少女",
+      "Deep Sea Girl",
+      "Shinkai Shoujo",
+      "Deep-Sea Girl",
+      "深海少女 -deep sea girl-",
+      "심해소녀"
+    ],
+    "audioClip": "https://audio.sodapines.dev/8735.mp3"
+  },
+  {
+    "date": "2026-10-05",
+    "vocadbId": 8877,
+    "title": "Dust Dust Curse",
+    "artist": "Kikuo",
+    "artistString": "Kikuo feat. IA",
+    "vocadbName": "Dust Dust Curse",
+    "vocadbUrl": "https://vocadb.net/S/8877",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/16802077/16802077",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/16802077/16802077",
+      "https://i1.ytimg.com/vi/oYVLIB2Nnic/hqdefault.jpg",
+      "https://i.ytimg.com/vi/oYVLIB2Nnic/hqdefault.jpg",
+      "https://i.ytimg.com/vi/8ohG6nlpZWU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/p1WIs-pALZY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/eb5AEBghKO8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/aSES5wsCuZo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/oYVLIB2Nnic/default.jpg",
+      "https://f4.bcbits.com/img/a1278563355_5.jpg",
+      "https://i.ytimg.com/vi/8ohG6nlpZWU/default.jpg",
+      "https://i.ytimg.com/vi/p1WIs-pALZY/default.jpg",
+      "https://i.ytimg.com/vi/eb5AEBghKO8/default.jpg",
+      "https://i.ytimg.com/vi/aSES5wsCuZo/default.jpg"
+    ],
+    "publishDate": "2012-01-27T00:00:00Z",
+    "acceptedTitles": [
+      "塵塵呪詛",
+      "Dust Dust Curse",
+      "Chiri Chiri Juso",
+      "チリチリジュソ",
+      "Chirichiri Juso",
+      "먼지먼지 저주"
+    ],
+    "audioClip": "https://audio.sodapines.dev/8877.mp3"
+  },
+  {
+    "date": "2026-10-06",
+    "vocadbId": 9032,
+    "title": "Bacterial Contamination",
+    "artist": "mathru",
+    "artistString": "mathru feat. Hatsune Miku",
+    "vocadbName": "Bacterial Contamination",
+    "vocadbUrl": "https://vocadb.net/S/9032",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/16866804/16866804",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/16866804/16866804",
+      "https://i1.ytimg.com/vi/tktcOUi-x-A/hqdefault.jpg",
+      "https://i.ytimg.com/vi/tktcOUi-x-A/hqdefault.jpg",
+      "https://i.ytimg.com/vi/pPuvmAFlklA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/vNpyGafxs1k/hqdefault.jpg",
+      "https://i.ytimg.com/vi/AbRVk7lIhac/hqdefault.jpg",
+      "https://i.ytimg.com/vi/tktcOUi-x-A/default.jpg",
+      "https://i.ytimg.com/vi/pPuvmAFlklA/default.jpg",
+      "https://i.ytimg.com/vi/vNpyGafxs1k/default.jpg",
+      "https://i.ytimg.com/vi/AbRVk7lIhac/default.jpg"
+    ],
+    "publishDate": "2012-02-03T00:00:00Z",
+    "acceptedTitles": [
+      "細菌汚染",
+      "Bacterial Contamination",
+      "Saikin Osen"
+    ],
+    "audioClip": "https://audio.sodapines.dev/9032.mp3"
+  },
+  {
+    "date": "2026-10-07",
+    "vocadbId": 9035,
+    "title": "Piano×Forte×Scandal",
+    "artist": "OSTER project",
+    "artistString": "OSTER project feat. MEIKO",
+    "vocadbName": "Piano×Forte×Scandal",
+    "vocadbUrl": "https://vocadb.net/S/9035",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/5597663/5597663",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/5597663/5597663",
+      "https://i1.ytimg.com/vi/JQTl7IvOX0E/hqdefault.jpg",
+      "https://i.ytimg.com/vi/JQTl7IvOX0E/hqdefault.jpg",
+      "https://i.ytimg.com/vi/JQTl7IvOX0E/default.jpg",
+      "https://res.piapro.jp/r/images/card/250/meiko.png?20260120"
+    ],
+    "publishDate": "2008-12-19T00:00:00Z",
+    "acceptedTitles": [
+      "ピアノ×フォルテ×スキャンダル",
+      "Piano×Forte×Scandal",
+      "Piano x Forte x Scandal",
+      "피아노×포르테×스캔들"
+    ],
+    "audioClip": "https://audio.sodapines.dev/9035.mp3"
+  },
+  {
+    "date": "2026-10-08",
+    "vocadbId": 9048,
+    "title": "iNSaNiTY",
+    "artist": "CircusP",
+    "artistString": "CircusP feat. KAITO, SF-A2 Codename miki",
+    "vocadbName": "iNSaNiTY",
+    "vocadbUrl": "https://vocadb.net/S/9048",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/14137534/14137534",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/14137534/14137534",
+      "https://i1.ytimg.com/vi/naUs1n-XEao/hqdefault.jpg",
+      "https://i.ytimg.com/vi/naUs1n-XEao/hqdefault.jpg",
+      "https://i.ytimg.com/vi/UDFF00jt6S8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/utiQWoZjCzA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/naUs1n-XEao/default.jpg",
+      "https://f4.bcbits.com/img/a2493455277_5.jpg",
+      "https://res.piapro.jp/r/images/card/250/miki.png?20260120",
+      "https://f4.bcbits.com/img/a1249272468_5.jpg",
+      "https://f4.bcbits.com/img/a1038023513_5.jpg",
+      "https://i.ytimg.com/vi/UDFF00jt6S8/default.jpg"
+    ],
+    "publishDate": "2011-04-12T00:00:00Z",
+    "acceptedTitles": [
+      "iNSaNiTY"
+    ],
+    "audioClip": "https://audio.sodapines.dev/9048.mp3"
+  },
+  {
+    "date": "2026-10-09",
+    "vocadbId": 9194,
+    "title": "Life Cheating Game",
+    "artist": "kemu",
+    "artistString": "kemu feat. GUMI",
+    "vocadbName": "Life Cheating Game",
+    "vocadbUrl": "https://vocadb.net/S/9194",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/16915126/16915126",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/16915126/16915126",
+      "https://i1.ytimg.com/vi/5Pbx04sT-sU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/5Pbx04sT-sU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/dOWOtxxbvUY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/K7KrG-IUZVY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/5Pbx04sT-sU/default.jpg",
+      "https://i.ytimg.com/vi/K7KrG-IUZVY/default.jpg"
+    ],
+    "publishDate": "2012-02-08T00:00:00Z",
+    "acceptedTitles": [
+      "イカサマライフゲイム",
+      "Life Cheating Game",
+      "Ikasama Life Game",
+      "Fake Life Game"
+    ],
+    "audioClip": "https://audio.sodapines.dev/9194.mp3"
+  },
+  {
+    "date": "2026-10-10",
+    "vocadbId": 9376,
+    "title": "2D Dream Fever",
+    "artist": "PolyphonicBranch",
+    "artistString": "PolyphonicBranch feat. Hatsune Miku",
+    "vocadbName": "2D Dream Fever",
+    "vocadbUrl": "https://vocadb.net/S/9376",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/16973327/16973327",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/16973327/16973327",
+      "https://i1.ytimg.com/vi/o8l0SC84AVc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/o8l0SC84AVc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/QoO5ONoD0UA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/9g78-aa08Oc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/o8l0SC84AVc/default.jpg",
+      "https://i.ytimg.com/vi/QoO5ONoD0UA/default.jpg",
+      "https://i.ytimg.com/vi/9g78-aa08Oc/default.jpg",
+      "https://i0.hdslb.com/bfs/archive/53cc367b567de5ffc342adb3212787a99f633941.jpg"
+    ],
+    "publishDate": "2012-02-14T00:00:00Z",
+    "acceptedTitles": [
+      "二次元ドリームフィーバー",
+      "2D Dream Fever",
+      "Nijigen Dream Fever",
+      "2Dimension Dream Fever",
+      "2 Dimensional Dream Fever"
+    ],
+    "audioClip": "https://audio.sodapines.dev/9376.mp3"
+  },
+  {
+    "date": "2026-10-11",
+    "vocadbId": 9538,
+    "title": "Interviewer",
+    "artist": "Stag BeetleP",
+    "artistString": "Stag BeetleP feat. Megurine Luka",
+    "vocadbName": "Interviewer",
+    "vocadbUrl": "https://vocadb.net/S/9538",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/16075884/16075884",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/16075884/16075884",
+      "https://i1.ytimg.com/vi/iN1bTB0EMgc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/yY59x3MipVo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/inu2i6JHh7g/hqdefault.jpg",
+      "https://i.ytimg.com/vi/DfnyVZZ2ShY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/iN1bTB0EMgc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/yY59x3MipVo/default.jpg",
+      "https://i.ytimg.com/vi/inu2i6JHh7g/default.jpg",
+      "https://i.ytimg.com/vi/DfnyVZZ2ShY/default.jpg",
+      "https://i.ytimg.com/vi/iN1bTB0EMgc/default.jpg"
+    ],
+    "publishDate": "2011-11-04T00:00:00Z",
+    "acceptedTitles": [
+      "インタビュア",
+      "Interviewer",
+      "인터뷰어"
+    ],
+    "audioClip": "https://audio.sodapines.dev/9538.mp3"
+  },
+  {
+    "date": "2026-10-12",
+    "vocadbId": 9553,
+    "title": "Daybreak Arrival",
+    "artist": "Last Note.",
+    "artistString": "Last Note., LasNo, Last Note. T feat. Hatsune Miku, Megurine Luka",
+    "vocadbName": "Daybreak Arrival",
+    "vocadbUrl": "https://vocadb.net/S/9553",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/17064620/17064620",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/17064620/17064620",
+      "https://i1.ytimg.com/vi/m3VV0bahY08/hqdefault.jpg",
+      "https://i.ytimg.com/vi/_-Q_o52GKzI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/m3VV0bahY08/hqdefault.jpg",
+      "https://i.ytimg.com/vi/_-Q_o52GKzI/default.jpg",
+      "https://i.ytimg.com/vi/m3VV0bahY08/default.jpg"
+    ],
+    "publishDate": "2012-02-24T00:00:00Z",
+    "acceptedTitles": [
+      "アカツキアライヴァル",
+      "Daybreak Arrival",
+      "Akatsuki Arrival"
+    ],
+    "audioClip": "https://audio.sodapines.dev/9553.mp3"
+  },
+  {
+    "date": "2026-10-13",
+    "vocadbId": 9732,
+    "title": "Virgo",
+    "artist": "kiichi",
+    "artistString": "kiichi feat. Megurine Luka",
+    "vocadbName": "Virgo",
+    "vocadbUrl": "https://vocadb.net/S/9732",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/8906865/8906865",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/8906865/8906865",
+      "https://i1.ytimg.com/vi/COBKWS6qpR0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/COBKWS6qpR0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/COBKWS6qpR0/default.jpg",
+      "https://res.piapro.jp/r/images/card/250/luka.png?20260120"
+    ],
+    "publishDate": "2009-11-24T00:00:00Z",
+    "acceptedTitles": [
+      "ヴァルゴ",
+      "Virgo"
+    ],
+    "audioClip": "https://audio.sodapines.dev/9732.mp3"
+  },
+  {
+    "date": "2026-10-14",
+    "vocadbId": 9784,
+    "title": "TOKIO FUNKA",
+    "artist": "takamatt",
+    "artistString": "takamatt feat. V3 GUMI (Power)",
+    "vocadbName": "TOKIO FUNKA",
+    "vocadbUrl": "https://vocadb.net/S/9784",
+    "coverArt": "https://i.ytimg.com/vi/bcLYdxMusHc/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/bcLYdxMusHc/default.jpg",
+      "https://i1.ytimg.com/vi/bcLYdxMusHc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/lyzQL5EjKhM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/3FF--KHhLq4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/bcLYdxMusHc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/6dUVy8viHf4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/lyzQL5EjKhM/default.jpg",
+      "https://i.ytimg.com/vi/3FF--KHhLq4/default.jpg",
+      "https://i1.hdslb.com/bfs/archive/5fe1fb63450cdc0fb348381a8b7eb084aa73cc82.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/20973557/20973557",
+      "https://i.ytimg.com/vi/6dUVy8viHf4/default.jpg"
+    ],
+    "publishDate": "2012-02-05T00:00:00Z",
+    "acceptedTitles": [
+      "トキヲ・ファンカ",
+      "TOKIO FUNKA",
+      "Tokyo Funka",
+      "토키오 펑카"
+    ],
+    "audioClip": "https://audio.sodapines.dev/9784.mp3"
+  },
+  {
+    "date": "2026-10-15",
+    "vocadbId": 10468,
+    "title": "Fools Are Attracted to Anomaly",
+    "artist": "Utsu-P",
+    "artistString": "Utsu-P feat. Kagamine Rin",
+    "vocadbName": "Fools Are Attracted to Anomaly",
+    "vocadbUrl": "https://vocadb.net/S/10468",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/17345186/17345186",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/17345186/17345186",
+      "https://i1.ytimg.com/vi/yT-N525Xzgo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/G6RwEuUyeVU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/yT-N525Xzgo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/kIF-Qectwfs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/O6qCa31cQHg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/dgX9mvgdtYc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/G6RwEuUyeVU/default.jpg",
+      "https://i.ytimg.com/vi/yT-N525Xzgo/default.jpg",
+      "https://i.ytimg.com/vi/kIF-Qectwfs/default.jpg",
+      "https://f4.bcbits.com/img/a0753143155_5.jpg",
+      "https://i0.hdslb.com/bfs/archive/6adce230936bafdd269b42842ff648ccfb40183b.jpg",
+      "https://i.ytimg.com/vi/O6qCa31cQHg/default.jpg",
+      "https://i.ytimg.com/vi/dgX9mvgdtYc/default.jpg"
+    ],
+    "publishDate": "2012-03-24T00:00:00Z",
+    "acceptedTitles": [
+      "馬鹿はアノマリーに憧れる",
+      "Fools Are Attracted to Anomaly",
+      "Baka wa Anomaly ni Akogareru",
+      "蠢蛋对异常怀有憧憬",
+      "바보는 아노말리를 동경한다"
+    ],
+    "audioClip": "https://audio.sodapines.dev/10468.mp3"
+  },
+  {
+    "date": "2026-10-16",
+    "vocadbId": 10515,
+    "title": "Love Love Nightmare",
+    "artist": "kiichi",
+    "artistString": "kiichi feat. Hatsune Miku",
+    "vocadbName": "Love Love Nightmare",
+    "vocadbUrl": "https://vocadb.net/S/10515",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/4518874/4518874",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/4518874/4518874",
+      "https://i1.ytimg.com/vi/diMBgUwfsVM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/0ElFPu4AJsQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/diMBgUwfsVM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/0ElFPu4AJsQ/default.jpg",
+      "https://i.ytimg.com/vi/diMBgUwfsVM/default.jpg",
+      "https://res.piapro.jp/r/images/card/250/miku.png?20260120"
+    ],
+    "publishDate": "2008-09-04T00:00:00Z",
+    "acceptedTitles": [
+      "Love Love Nightmare"
+    ],
+    "audioClip": "https://audio.sodapines.dev/10515.mp3"
+  },
+  {
+    "date": "2026-10-17",
+    "vocadbId": 11073,
+    "title": "Deep Sea City Underground",
+    "artist": "tanakaB",
+    "artistString": "tanakaB feat. Kagamine Rin",
+    "vocadbName": "Deep Sea City Underground",
+    "vocadbUrl": "https://vocadb.net/S/11073",
+    "coverArt": "https://i.ytimg.com/vi/qh6Sy67s6zM/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/qh6Sy67s6zM/default.jpg",
+      "https://i1.ytimg.com/vi/qh6Sy67s6zM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/qh6Sy67s6zM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/JyV4Jjr3XDU/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/16238717/16238717",
+      "https://i.ytimg.com/vi/JyV4Jjr3XDU/default.jpg",
+      "https://cdn.piapro.jp/thumb_i/jd/jd4sl1tyzi0l1537_20111125004652_0250_0250.png"
+    ],
+    "publishDate": "2011-11-22T00:00:00Z",
+    "acceptedTitles": [
+      "深海シティアンダーグラウンド",
+      "Deep Sea City Underground",
+      "Shinkai City Underground",
+      "심해시티 언더그라운드"
+    ],
+    "audioClip": "https://audio.sodapines.dev/11073.mp3"
+  },
+  {
+    "date": "2026-10-18",
+    "vocadbId": 11219,
+    "title": "Six Trillion Years and Overnight Story",
+    "artist": "kemu",
+    "artistString": "kemu feat. IA",
+    "vocadbName": "Six Trillion Years and Overnight Story",
+    "vocadbUrl": "https://vocadb.net/S/11219",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/17520775/17520775",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/17520775/17520775",
+      "https://i1.ytimg.com/vi/Om3MTou2kPg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Om3MTou2kPg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/I5diKjfdc2E/hqdefault.jpg",
+      "https://i.ytimg.com/vi/zkHgpKcX5FY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/DsnmyUdfbcI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/XWD1SC-cRBA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Om3MTou2kPg/default.jpg",
+      "https://i.ytimg.com/vi/zkHgpKcX5FY/default.jpg",
+      "https://i.ytimg.com/vi/DsnmyUdfbcI/default.jpg",
+      "https://i.ytimg.com/vi/XWD1SC-cRBA/default.jpg"
+    ],
+    "publishDate": "2012-04-11T00:00:00Z",
+    "acceptedTitles": [
+      "六兆年と一夜物語",
+      "Six Trillion Years and Overnight Story",
+      "Rokuchounen to Ichiya Monogatari",
+      "A Tale of Six Trillion Years and a Night"
+    ],
+    "audioClip": "https://audio.sodapines.dev/11219.mp3"
+  },
+  {
+    "date": "2026-10-19",
+    "vocadbId": 11376,
+    "title": "Fluticasone",
+    "artist": "kiichi",
+    "artistString": "kiichi feat. Megurine Luka",
+    "vocadbName": "Fluticasone",
+    "vocadbUrl": "https://vocadb.net/S/11376",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/6935693/6935693",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/6935693/6935693",
+      "https://i1.ytimg.com/vi/TO3FmpHc6K8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/5s0QRApg2Iw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/TO3FmpHc6K8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Ch_-Spbo8iM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/5s0QRApg2Iw/default.jpg",
+      "https://i.ytimg.com/vi/TO3FmpHc6K8/default.jpg",
+      "https://cdn.piapro.jp/thumb_i/91/91k1ro8a4wx3g2e0_20110228192605_0250_0250.jpg",
+      "https://i.ytimg.com/vi/Ch_-Spbo8iM/default.jpg"
+    ],
+    "publishDate": "2009-05-03T00:00:00Z",
+    "acceptedTitles": [
+      "フルチカゾン",
+      "Fluticasone"
+    ],
+    "audioClip": "https://audio.sodapines.dev/11376.mp3"
+  },
+  {
+    "date": "2026-10-20",
+    "vocadbId": 11378,
+    "title": "Banshee Strikes",
+    "artist": "kiichi",
+    "artistString": "kiichi feat. Hatsune Miku",
+    "vocadbName": "Banshee Strikes",
+    "vocadbUrl": "https://vocadb.net/S/11378",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/6751838/6751838",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/6751838/6751838",
+      "https://i1.ytimg.com/vi/zCqEnxejbm8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/57RIKgyHtK8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/r0ar4WD80hc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/zCqEnxejbm8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/57RIKgyHtK8/default.jpg",
+      "https://res.piapro.jp/r/images/card/250/miku.png?20260120",
+      "https://i.ytimg.com/vi/zCqEnxejbm8/default.jpg"
+    ],
+    "publishDate": "2009-04-14T00:00:00Z",
+    "acceptedTitles": [
+      "バンシー・ストライクス",
+      "Banshee Strikes"
+    ],
+    "audioClip": "https://audio.sodapines.dev/11378.mp3"
+  },
+  {
+    "date": "2026-10-21",
+    "vocadbId": 11502,
+    "title": "Assault Mirage",
+    "artist": "Nhato",
+    "artistString": "Nhato, Taishi feat. various",
+    "vocadbName": "Assault Mirage",
+    "vocadbUrl": "https://vocadb.net/S/11502",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/17586462/17586462",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/17586462/17586462",
+      "https://i1.ytimg.com/vi/U06RFg9UGWI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/U06RFg9UGWI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/U06RFg9UGWI/default.jpg"
+    ],
+    "publishDate": "2012-04-18T00:00:00Z",
+    "acceptedTitles": [
+      "Assault Mirage"
+    ],
+    "audioClip": "https://audio.sodapines.dev/11502.mp3"
+  },
+  {
+    "date": "2026-10-22",
+    "vocadbId": 11593,
+    "title": "shake it!",
+    "artist": "emon(Tes.)",
+    "artistString": "emon(Tes.) feat. Hatsune Miku",
+    "vocadbName": "shake it!",
+    "vocadbUrl": "https://vocadb.net/S/11593",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/17608134/17608134",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/17608134/17608134",
+      "https://i1.ytimg.com/vi/WxexMGe83No/hqdefault.jpg",
+      "https://i.ytimg.com/vi/6t9kVXLc6DY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/xAhtVMYf0Y0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/WxexMGe83No/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ePcZoyHpF1Q/hqdefault.jpg",
+      "https://i.ytimg.com/vi/6t9kVXLc6DY/default.jpg",
+      "https://i.ytimg.com/vi/xAhtVMYf0Y0/default.jpg",
+      "https://i.ytimg.com/vi/WxexMGe83No/default.jpg",
+      "https://i.ytimg.com/vi/ePcZoyHpF1Q/default.jpg",
+      "https://i2.hdslb.com/bfs/archive/2efbe93a16ae4c426283658db50f63317e8c0007.jpg"
+    ],
+    "publishDate": "2012-04-21T00:00:00Z",
+    "acceptedTitles": [
+      "shake it！",
+      "shake it!"
+    ],
+    "audioClip": "https://audio.sodapines.dev/11593.mp3"
+  },
+  {
+    "date": "2026-10-23",
+    "vocadbId": 11807,
+    "title": "A Split-Second Trip",
+    "artist": "Last Note.",
+    "artistString": "Last Note., LasNo, Last Note. T feat. V3 GUMI (Power)",
+    "vocadbName": "A Split-Second Trip",
+    "vocadbUrl": "https://vocadb.net/S/11807",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/17720979/17720979",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/17720979/17720979",
+      "https://i1.ytimg.com/vi/EBd1dk0kLTs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/iOcw6GmQCe4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/EBd1dk0kLTs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/mfFT_Ne1vzE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/7ZiQtf9EGHA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/wHG9Nt_ZhXs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/CWlvjBaCh8E/hqdefault.jpg",
+      "https://i.ytimg.com/vi/iOcw6GmQCe4/default.jpg",
+      "https://i.ytimg.com/vi/EBd1dk0kLTs/default.jpg",
+      "https://i.ytimg.com/vi/mfFT_Ne1vzE/default.jpg",
+      "https://i.ytimg.com/vi/7ZiQtf9EGHA/default.jpg",
+      "https://i.ytimg.com/vi/wHG9Nt_ZhXs/default.jpg",
+      "https://i.ytimg.com/vi/CWlvjBaCh8E/default.jpg"
+    ],
+    "publishDate": "2012-05-03T00:00:00Z",
+    "acceptedTitles": [
+      "セツナトリップ",
+      "A Split-Second Trip",
+      "Setsuna Trip",
+      "A Momentary Trip",
+      "세츠나 트립"
+    ],
+    "audioClip": "https://audio.sodapines.dev/11807.mp3"
+  },
+  {
+    "date": "2026-10-24",
+    "vocadbId": 11877,
+    "title": "VOiCE",
+    "artist": "lovelyP",
+    "artistString": "lovelyP feat. Hatsune Miku",
+    "vocadbName": "VOiCE",
+    "vocadbUrl": "https://vocadb.net/S/11877",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/4271779/4271779",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/4271779/4271779",
+      "https://i1.ytimg.com/vi/xbmkZGHJRMI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/xbmkZGHJRMI/hqdefault.jpg",
+      "https://cdn.piapro.jp/thumb_i/33/33ak9uqlivgcdv7b_20080721001448_0250_0250.jpg",
+      "https://i.ytimg.com/vi/xbmkZGHJRMI/default.jpg"
+    ],
+    "publishDate": "2008-08-13T00:00:00Z",
+    "acceptedTitles": [
+      "VOiCE"
+    ],
+    "audioClip": "https://audio.sodapines.dev/11877.mp3"
+  },
+  {
+    "date": "2026-10-25",
+    "vocadbId": 12285,
+    "title": "AaAaAaAAaAaAAa",
+    "artist": "Nashimoto Ui",
+    "artistString": "Nashimoto Ui feat. Hatsune Miku",
+    "vocadbName": "AaAaAaAAaAaAAa",
+    "vocadbUrl": "https://vocadb.net/S/12285",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/6816232/6816232",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/6816232/6816232",
+      "https://i1.ytimg.com/vi/8A7w_tv87NE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/0uzoHItNNTA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/_GJN31d5JgE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/8A7w_tv87NE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/H3iS97lLcGU/hqdefault.jpg",
+      "https://res.piapro.jp/r/images/card/250/miku.png?20260120",
+      "https://i.ytimg.com/vi/0uzoHItNNTA/default.jpg",
+      "https://i.ytimg.com/vi/_GJN31d5JgE/default.jpg",
+      "https://i.ytimg.com/vi/8A7w_tv87NE/default.jpg",
+      "https://i.ytimg.com/vi/H3iS97lLcGU/default.jpg"
+    ],
+    "publishDate": "2009-04-21T00:00:00Z",
+    "acceptedTitles": [
+      "あぁあぁあぁああぁあぁああぁ",
+      "AaAaAaAAaAaAAa"
+    ],
+    "audioClip": "https://audio.sodapines.dev/12285.mp3"
+  },
+  {
+    "date": "2026-10-26",
+    "vocadbId": 12443,
+    "title": "ONLINE GAME ADDICTS SPRECHCHOR",
+    "artist": "Satsuki ga Tenkomori",
+    "artistString": "Satsuki ga Tenkomori feat. Hatsune Miku",
+    "vocadbName": "ONLINE GAME ADDICTS SPRECHCHOR",
+    "vocadbUrl": "https://vocadb.net/S/12443",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/12441199/12441199",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/12441199/12441199",
+      "https://i1.ytimg.com/vi/WdAy_55dxqA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/WdAy_55dxqA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/yMqKkDZJXNk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Yq0zBXN1o2A/hqdefault.jpg",
+      "https://i.ytimg.com/vi/I3cETfu08w4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/WdAy_55dxqA/default.jpg",
+      "https://i.ytimg.com/vi/yMqKkDZJXNk/default.jpg",
+      "https://i.ytimg.com/vi/Yq0zBXN1o2A/default.jpg",
+      "https://i.ytimg.com/vi/I3cETfu08w4/default.jpg"
+    ],
+    "publishDate": "2010-10-15T00:00:00Z",
+    "acceptedTitles": [
+      "ネトゲ廃人シュプレヒコール",
+      "ONLINE GAME ADDICTS SPRECHCHOR",
+      "Netgame Haijin Sprechchor",
+      "Online Game Addict Chant",
+      "The MMORPG Addict's Anthem",
+      "온라인 게임 폐인 슈프레히코어"
+    ],
+    "audioClip": "https://audio.sodapines.dev/12443.mp3"
+  },
+  {
+    "date": "2026-10-27",
+    "vocadbId": 12518,
+    "title": "Kisaragi Attention",
+    "artist": "JIN",
+    "artistString": "JIN feat. IA",
+    "vocadbName": "Kisaragi Attention",
+    "vocadbUrl": "https://vocadb.net/S/12518",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/17930619/17930619",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/17930619/17930619",
+      "https://i1.ytimg.com/vi/-y3BSoHOT9A/hqdefault.jpg",
+      "https://i.ytimg.com/vi/-y3BSoHOT9A/hqdefault.jpg",
+      "https://i.ytimg.com/vi/x0494q7jdoM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/-y3BSoHOT9A/default.jpg",
+      "https://i.ytimg.com/vi/x0494q7jdoM/default.jpg"
+    ],
+    "publishDate": "2012-05-26T00:00:00Z",
+    "acceptedTitles": [
+      "如月アテンション",
+      "Kisaragi Attention",
+      "키사라기 어텐션"
+    ],
+    "audioClip": "https://audio.sodapines.dev/12518.mp3"
+  },
+  {
+    "date": "2026-10-28",
+    "vocadbId": 12754,
+    "title": "A Happy Death",
+    "artist": "Kikuo",
+    "artistString": "Kikuo feat. Hatsune Miku",
+    "vocadbName": "A Happy Death",
+    "vocadbUrl": "https://vocadb.net/S/12754",
+    "coverArt": "https://i.ytimg.com/vi/FaWZlXPwyKE/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/FaWZlXPwyKE/default.jpg",
+      "https://i1.ytimg.com/vi/FaWZlXPwyKE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/FaWZlXPwyKE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/SWtL0_z9lgA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/30KzOS8QTLE/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/17961470/17961470",
+      "https://i.ytimg.com/vi/SWtL0_z9lgA/default.jpg",
+      "https://f4.bcbits.com/img/a1278563355_5.jpg",
+      "https://i.ytimg.com/vi/30KzOS8QTLE/default.jpg"
+    ],
+    "publishDate": "2012-05-30T00:00:00Z",
+    "acceptedTitles": [
+      "幸福な死を",
+      "A Happy Death",
+      "Koufuku na Shi o",
+      "I Wish You a Happy Death"
+    ],
+    "audioClip": "https://audio.sodapines.dev/12754.mp3"
+  },
+  {
+    "date": "2026-10-29",
+    "vocadbId": 13086,
+    "title": "Love Dee",
+    "artist": "Mitchie M",
+    "artistString": "Mitchie M feat. Hatsune Miku, Megurine Luka",
+    "vocadbName": "Love Dee",
+    "vocadbUrl": "https://vocadb.net/S/13086",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/18047788/18047788",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/18047788/18047788",
+      "https://i1.ytimg.com/vi/8I0H1dXQxEo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/8I0H1dXQxEo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/jBitZxKs9yk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/CudvA_ryyjY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/8I0H1dXQxEo/default.jpg",
+      "https://i1.sndcdn.com/artworks-000125082317-avcxuy-large.jpg",
+      "https://i.ytimg.com/vi/jBitZxKs9yk/default.jpg",
+      "https://i.ytimg.com/vi/CudvA_ryyjY/default.jpg"
+    ],
+    "publishDate": "2012-06-09T00:00:00Z",
+    "acceptedTitles": [
+      "愛Dee",
+      "Love Dee",
+      "Ai Dee",
+      "ID"
+    ],
+    "audioClip": "https://audio.sodapines.dev/13086.mp3"
+  },
+  {
+    "date": "2026-10-30",
+    "vocadbId": 13260,
+    "title": "This Is the Happiness and Peace of Mind Committee.",
+    "artist": "UtataP",
+    "artistString": "UtataP feat. Hatsune Miku",
+    "vocadbName": "This Is the Happiness and Peace of Mind Committee.",
+    "vocadbUrl": "https://vocadb.net/S/13260",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/18100389/18100389",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/18100389/18100389",
+      "https://i1.ytimg.com/vi/kzUmM-uQVOM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/kzUmM-uQVOM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/k6OuXkG39cA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/T4MNOlqgROA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/kzUmM-uQVOM/default.jpg",
+      "https://i.ytimg.com/vi/k6OuXkG39cA/default.jpg",
+      "https://i.ytimg.com/vi/T4MNOlqgROA/default.jpg"
+    ],
+    "publishDate": "2012-06-15T00:00:00Z",
+    "acceptedTitles": [
+      "こちら、幸福安心委員会です。",
+      "This Is the Happiness and Peace of Mind Committee.",
+      "Kochira, Koufuku Anshin Iinkai Desu.",
+      "This Is the Happiness Reassurance Commission."
+    ],
+    "audioClip": "https://audio.sodapines.dev/13260.mp3"
+  },
+  {
+    "date": "2026-10-31",
+    "vocadbId": 13339,
+    "title": "-ERROR",
+    "artist": "niki",
+    "artistString": "niki feat. Lily",
+    "vocadbName": "-ERROR",
+    "vocadbUrl": "https://vocadb.net/S/13339",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/12099561/12099561",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/12099561/12099561",
+      "https://i1.ytimg.com/vi/jvoW9lJdirk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/0dIs_vSG400/hqdefault.jpg",
+      "https://i.ytimg.com/vi/jvoW9lJdirk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/-1RXaBYJVAY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/2hYQ13wX4Dg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/0dIs_vSG400/default.jpg",
+      "https://i.ytimg.com/vi/jvoW9lJdirk/default.jpg",
+      "https://i.ytimg.com/vi/-1RXaBYJVAY/default.jpg",
+      "https://i2.hdslb.com/bfs/archive/c2061672e01254a16d36fe6f032acd56cc41600d.jpg",
+      "https://i.ytimg.com/vi/2hYQ13wX4Dg/default.jpg"
+    ],
+    "publishDate": "2010-09-13T00:00:00Z",
+    "acceptedTitles": [
+      "-ERROR",
+      "ERROR"
+    ],
+    "audioClip": "https://audio.sodapines.dev/13339.mp3"
+  },
+  {
+    "date": "2026-11-01",
+    "vocadbId": 13351,
+    "title": "Common World Domination",
+    "artist": "PinocchioP",
+    "artistString": "PinocchioP feat. Hatsune Miku Append (Dark)",
+    "vocadbName": "Common World Domination",
+    "vocadbUrl": "https://vocadb.net/S/13351",
+    "coverArt": "https://i.ytimg.com/vi/8Z3TbMBfDM0/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/8Z3TbMBfDM0/default.jpg",
+      "https://i1.ytimg.com/vi/8Z3TbMBfDM0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/8Z3TbMBfDM0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/4VNEKZGhgBM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Ecg6ziEJ-MI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/zwMSLPpdhPw/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/18131841/18131841",
+      "https://i.ytimg.com/vi/4VNEKZGhgBM/default.jpg",
+      "https://i.ytimg.com/vi/Ecg6ziEJ-MI/default.jpg",
+      "https://i.ytimg.com/vi/zwMSLPpdhPw/default.jpg",
+      "https://i1.sndcdn.com/artworks-GM85qD14EDsn-0-t500x500.jpg"
+    ],
+    "publishDate": "2012-06-18T00:00:00Z",
+    "acceptedTitles": [
+      "ありふれたせかいせいふく",
+      "Common World Domination",
+      "Arifureta Sekai Seifuku"
+    ],
+    "audioClip": "https://audio.sodapines.dev/13351.mp3"
+  },
+  {
+    "date": "2026-11-02",
+    "vocadbId": 13724,
+    "title": "Crazy ∞ nighT",
+    "artist": "HitoshizukuP",
+    "artistString": "HitoshizukuP, yama△ feat. various",
+    "vocadbName": "Crazy ∞ nighT",
+    "vocadbUrl": "https://vocadb.net/S/13724",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/18382294/18382294",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/18382294/18382294",
+      "https://i1.ytimg.com/vi/T-lcOKt8uas/hqdefault.jpg",
+      "https://i.ytimg.com/vi/T-lcOKt8uas/hqdefault.jpg",
+      "https://i.ytimg.com/vi/M7O11PAcAw4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/M7O11PAcAw4/default.jpg"
+    ],
+    "publishDate": "2012-07-18T00:00:00Z",
+    "acceptedTitles": [
+      "Crazy ∞ nighT"
+    ],
+    "audioClip": "https://audio.sodapines.dev/13724.mp3"
+  },
+  {
+    "date": "2026-11-03",
+    "vocadbId": 13883,
+    "title": "Francium",
+    "artist": "kiichi",
+    "artistString": "kiichi feat. Hatsune Miku",
+    "vocadbName": "Francium",
+    "vocadbUrl": "https://vocadb.net/S/13883",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/6460566/6460566",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/6460566/6460566",
+      "https://i1.ytimg.com/vi/YoeIxwFLc6k/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Ys7C7WZjqgk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Ozs079hRq8c/hqdefault.jpg",
+      "https://i.ytimg.com/vi/YoeIxwFLc6k/hqdefault.jpg",
+      "https://i.ytimg.com/vi/k_wuolpRPoQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Ys7C7WZjqgk/default.jpg",
+      "https://i.ytimg.com/vi/Ozs079hRq8c/default.jpg",
+      "https://i.ytimg.com/vi/YoeIxwFLc6k/default.jpg",
+      "https://i.ytimg.com/vi/k_wuolpRPoQ/default.jpg"
+    ],
+    "publishDate": "2009-03-17T00:00:00Z",
+    "acceptedTitles": [
+      "Francium"
+    ],
+    "audioClip": "https://audio.sodapines.dev/13883.mp3"
+  },
+  {
+    "date": "2026-11-04",
+    "vocadbId": 13981,
+    "title": "Candy Addict Full Course",
+    "artist": "Machigerita",
+    "artistString": "Machigerita feat. Hatsune Miku Append (Dark)",
+    "vocadbName": "Candy Addict Full Course",
+    "vocadbUrl": "https://vocadb.net/S/13981",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/11140951/11140951",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/11140951/11140951",
+      "https://i1.ytimg.com/vi/TxKThY7kGMo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/TxKThY7kGMo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/nybt_wmTtX8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/TxKThY7kGMo/default.jpg",
+      "https://i.ytimg.com/vi/nybt_wmTtX8/default.jpg"
+    ],
+    "publishDate": "2010-06-21T00:00:00Z",
+    "acceptedTitles": [
+      "キャンディアディクトフルコォス",
+      "Candy Addict Full Course",
+      "The Full Course for Candy Addicts",
+      "캔디 어딕트 풀코스"
+    ],
+    "audioClip": "https://audio.sodapines.dev/13981.mp3"
+  },
+  {
+    "date": "2026-11-05",
+    "vocadbId": 14435,
+    "title": "Yoshiwara Lament",
+    "artist": "Oyamano Mayo",
+    "artistString": "asa, Oyamano Mayo feat. Kasane Teto",
+    "vocadbName": "Yoshiwara Lament",
+    "vocadbUrl": "https://vocadb.net/S/14435",
+    "coverArt": "https://i.ytimg.com/vi/NKYqJ3UvjIk/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/NKYqJ3UvjIk/default.jpg",
+      "https://i1.ytimg.com/vi/NKYqJ3UvjIk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/NKYqJ3UvjIk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/U_tqJPo9U7E/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/18395392/18395392",
+      "https://i.ytimg.com/vi/U_tqJPo9U7E/default.jpg"
+    ],
+    "publishDate": "2012-07-19T00:00:00Z",
+    "acceptedTitles": [
+      "吉原ラメント",
+      "Yoshiwara Lament"
+    ],
+    "audioClip": "https://audio.sodapines.dev/14435.mp3"
+  },
+  {
+    "date": "2026-11-06",
+    "vocadbId": 14480,
+    "title": "39",
+    "artist": "DECO*27",
+    "artistString": "sasakure.UK, DECO*27 feat. Hatsune Miku",
+    "vocadbName": "39",
+    "vocadbUrl": "https://vocadb.net/S/14480",
+    "coverArt": "https://i.ytimg.com/vi/ecU_uJRzhfk/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/ecU_uJRzhfk/default.jpg",
+      "https://i1.ytimg.com/vi/ecU_uJRzhfk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ecU_uJRzhfk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/k1QRueelzAE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/FjoV28PF038/hqdefault.jpg",
+      "https://i.ytimg.com/vi/sbPUmI4rgsY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/OqkPcFB3qg0/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/18274463/18274463",
+      "https://i.ytimg.com/vi/k1QRueelzAE/default.jpg",
+      "https://i.ytimg.com/vi/FjoV28PF038/default.jpg",
+      "https://i.ytimg.com/vi/sbPUmI4rgsY/default.jpg",
+      "https://i1.sndcdn.com/artworks-dyu3ooKqY5wt-0-original.jpg",
+      "https://i.ytimg.com/vi/OqkPcFB3qg0/default.jpg"
+    ],
+    "publishDate": "2012-07-27T00:00:00Z",
+    "acceptedTitles": [
+      "39",
+      "San Kyuu",
+      "Thank You",
+      "Miku"
+    ],
+    "audioClip": "https://audio.sodapines.dev/14480.mp3"
+  },
+  {
+    "date": "2026-11-07",
+    "vocadbId": 15047,
+    "title": "Weekender Girl",
+    "artist": "kz",
+    "artistString": "HachioujiP, kz feat. Hatsune Miku",
+    "vocadbName": "Weekender Girl",
+    "vocadbUrl": "https://vocadb.net/S/15047",
+    "coverArt": "https://i.ytimg.com/vi/06d8SwcSm_Q/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/06d8SwcSm_Q/default.jpg",
+      "https://i1.ytimg.com/vi/06d8SwcSm_Q/hqdefault.jpg",
+      "https://i.ytimg.com/vi/06d8SwcSm_Q/hqdefault.jpg",
+      "https://i.ytimg.com/vi/6kdBdNkM3K8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/qxY_E6m60CM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/VX2ev7YpKrM/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/18694965/18694965",
+      "https://i.ytimg.com/vi/6kdBdNkM3K8/default.jpg",
+      "https://i.ytimg.com/vi/qxY_E6m60CM/default.jpg",
+      "https://i.ytimg.com/vi/VX2ev7YpKrM/default.jpg"
+    ],
+    "publishDate": "2012-08-23T00:00:00Z",
+    "acceptedTitles": [
+      "Weekender Girl",
+      "ウィークエンダーガール"
+    ],
+    "audioClip": "https://audio.sodapines.dev/15047.mp3"
+  },
+  {
+    "date": "2026-11-08",
+    "vocadbId": 15389,
+    "title": "Buoyant Colors",
+    "artist": "Kikuo",
+    "artistString": "Kikuo feat. Tone Rion",
+    "vocadbName": "Buoyant Colors",
+    "vocadbUrl": "https://vocadb.net/S/15389",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/16669743/16669743",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/16669743/16669743",
+      "https://i1.ytimg.com/vi/a-nTCawDhII/hqdefault.jpg",
+      "https://i.ytimg.com/vi/a-nTCawDhII/hqdefault.jpg",
+      "https://i.ytimg.com/vi/RWj1BV3oDR8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/a-nTCawDhII/default.jpg",
+      "https://f4.bcbits.com/img/a1278563355_5.jpg",
+      "https://i.ytimg.com/vi/RWj1BV3oDR8/default.jpg"
+    ],
+    "publishDate": "2012-01-11T00:00:00Z",
+    "acceptedTitles": [
+      "ぽっかんカラー",
+      "Buoyant Colors",
+      "Pokkan Color",
+      "Pokkan Kara",
+      "팡팡 컬러"
+    ],
+    "audioClip": "https://audio.sodapines.dev/15389.mp3"
+  },
+  {
+    "date": "2026-11-09",
+    "vocadbId": 15662,
+    "title": "ODDS&ENDS",
+    "artist": "ryo",
+    "artistString": "ryo feat. Hatsune Miku Append (Unknown)",
+    "vocadbName": "ODDS&ENDS",
+    "vocadbUrl": "https://vocadb.net/S/15662",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/18626305/18626305",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/18626305/18626305",
+      "https://i.ytimg.com/vi/iOFZKwv_LfA/default.jpg",
+      "https://i1.ytimg.com/vi/iOFZKwv_LfA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/iOFZKwv_LfA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/6OmwKZ9r07o/hqdefault.jpg",
+      "https://i.ytimg.com/vi/dGNoCICGmo0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/cy0rJPGozy0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/HUzLUGKwQJc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/6OmwKZ9r07o/default.jpg",
+      "https://i1.sndcdn.com/artworks-000060524762-5o6dhz-large.jpg",
+      "https://i.ytimg.com/vi/dGNoCICGmo0/default.jpg",
+      "https://i.ytimg.com/vi/cy0rJPGozy0/default.jpg",
+      "https://i.ytimg.com/vi/HUzLUGKwQJc/default.jpg"
+    ],
+    "publishDate": "2012-08-14T00:00:00Z",
+    "acceptedTitles": [
+      "ODDS&ENDS",
+      "ODDS & ENDS"
+    ],
+    "audioClip": "https://audio.sodapines.dev/15662.mp3"
+  },
+  {
+    "date": "2026-11-10",
+    "vocadbId": 15981,
+    "title": "Masked bitcH",
+    "artist": "Giga",
+    "artistString": "Giga feat. GUMI",
+    "vocadbName": "Masked bitcH",
+    "vocadbUrl": "https://vocadb.net/S/15981",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/18684672/18684672",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/18684672/18684672",
+      "https://i1.ytimg.com/vi/MdJCnnUV1mo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/MdJCnnUV1mo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/MdJCnnUV1mo/default.jpg"
+    ],
+    "publishDate": "2012-08-22T00:00:00Z",
+    "acceptedTitles": [
+      "Masked bitcH"
+    ],
+    "audioClip": "https://audio.sodapines.dev/15981.mp3"
+  },
+  {
+    "date": "2026-11-11",
+    "vocadbId": 16061,
+    "title": "Sadistic.Music∞Factory",
+    "artist": "cosMo@BousouP",
+    "artistString": "cosMo@BousouP feat. Hatsune Miku",
+    "vocadbName": "Sadistic.Music∞Factory",
+    "vocadbUrl": "https://vocadb.net/S/16061",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/18729289/18729289",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/18729289/18729289",
+      "https://i1.ytimg.com/vi/uhVqF55BRNM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/uhVqF55BRNM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/_kM6MQgiPPg/hqdefault.jpg",
+      "https://i1.hdslb.com/bfs/archive/3ea2f3180c6b533462a86b19383a670eda685f4a.jpg",
+      "https://i.ytimg.com/vi/uhVqF55BRNM/default.jpg",
+      "https://i.ytimg.com/vi/_kM6MQgiPPg/default.jpg"
+    ],
+    "publishDate": "2012-08-27T00:00:00Z",
+    "acceptedTitles": [
+      "Sadistic.Music∞Factory"
+    ],
+    "audioClip": "https://audio.sodapines.dev/16061.mp3"
+  },
+  {
+    "date": "2026-11-12",
+    "vocadbId": 16441,
+    "title": "WAVE",
+    "artist": "niki",
+    "artistString": "niki feat. Lily",
+    "vocadbName": "WAVE",
+    "vocadbUrl": "https://vocadb.net/S/16441",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/18945135/18945135",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/18945135/18945135",
+      "https://i1.ytimg.com/vi/Tjoq6bhKyHg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/lNZ1C_BWEAM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Tjoq6bhKyHg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/QBw1dUMc7Sc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/CpCMmkooddk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Lv1OFPu1v0E/hqdefault.jpg",
+      "https://i.ytimg.com/vi/lNZ1C_BWEAM/default.jpg",
+      "https://i.ytimg.com/vi/Tjoq6bhKyHg/default.jpg",
+      "https://i.ytimg.com/vi/QBw1dUMc7Sc/default.jpg",
+      "https://i.ytimg.com/vi/CpCMmkooddk/default.jpg",
+      "https://i1.hdslb.com/bfs/archive/c77e952708fd32329901f69cc636f3f35bb08dfd.jpg",
+      "https://i.ytimg.com/vi/Lv1OFPu1v0E/default.jpg"
+    ],
+    "publishDate": "2012-09-22T00:00:00Z",
+    "acceptedTitles": [
+      "WAVE"
+    ],
+    "audioClip": "https://audio.sodapines.dev/16441.mp3"
+  },
+  {
+    "date": "2026-11-13",
+    "vocadbId": 16459,
+    "title": "Song of the Eared Robot",
+    "artist": "MimiroboP",
+    "artistString": "MimiroboP feat. Kasane Teto Old",
+    "vocadbName": "Song of the Eared Robot",
+    "vocadbUrl": "https://vocadb.net/S/16459",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/3611741/3611741",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/3611741/3611741",
+      "https://i1.ytimg.com/vi/bVqGnaE2-wM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/4njHMiiU0WE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/bVqGnaE2-wM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/4njHMiiU0WE/default.jpg",
+      "https://i.ytimg.com/vi/bVqGnaE2-wM/default.jpg"
+    ],
+    "publishDate": "2008-06-09T00:00:00Z",
+    "acceptedTitles": [
+      "耳のあるロボットの唄",
+      "Song of the Eared Robot",
+      "Mimi no Aru Robot no Uta",
+      "귀가 있는 로봇의 노래"
+    ],
+    "audioClip": "https://audio.sodapines.dev/16459.mp3"
+  },
+  {
+    "date": "2026-11-14",
+    "vocadbId": 16580,
+    "title": "Negative-Positive*Continues",
+    "artist": "sasakure.UK",
+    "artistString": "sasakure.UK feat. Hatsune Miku",
+    "vocadbName": "Negative-Positive*Continues",
+    "vocadbUrl": "https://vocadb.net/S/16580",
+    "coverArt": "https://i.ytimg.com/vi/LdnlHz3qGrQ/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/LdnlHz3qGrQ/default.jpg",
+      "https://i1.ytimg.com/vi/LdnlHz3qGrQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/KiJrHNAnLdg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/LdnlHz3qGrQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/CuMyQWiho9U/hqdefault.jpg",
+      "https://i.ytimg.com/vi/KiJrHNAnLdg/default.jpg",
+      "https://i.ytimg.com/vi/CuMyQWiho9U/default.jpg"
+    ],
+    "publishDate": "2013-03-06T00:00:00Z",
+    "acceptedTitles": [
+      "ネガポジ＊コンティニューズ",
+      "Negative-Positive*Continues",
+      "Negaposi*Continues"
+    ],
+    "audioClip": "https://audio.sodapines.dev/16580.mp3"
+  },
+  {
+    "date": "2026-11-15",
+    "vocadbId": 17189,
+    "title": "Brain Fluid Explosion Girl",
+    "artist": "rerulili",
+    "artistString": "rerulili feat. GUMI, Hatsune Miku",
+    "vocadbName": "Brain Fluid Explosion Girl",
+    "vocadbUrl": "https://vocadb.net/S/17189",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/19133907/19133907",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/19133907/19133907",
+      "https://i1.ytimg.com/vi/Ey_NHZNYTeE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Ey_NHZNYTeE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/kIp1zuLOK4U/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Ey_NHZNYTeE/default.jpg",
+      "https://i.ytimg.com/vi/kIp1zuLOK4U/default.jpg",
+      "https://i0.hdslb.com/bfs/archive/6eb0d3069bef55ecfa73a15a9b749a4c9e2ea7e8.jpg"
+    ],
+    "publishDate": "2012-03-13T00:00:00Z",
+    "acceptedTitles": [
+      "脳漿炸裂ガール",
+      "Brain Fluid Explosion Girl",
+      "Noushou Sakuretsu Girl",
+      "Spinal Fluid Explosion Girl",
+      "脳漿炸裂少女"
+    ],
+    "audioClip": "https://audio.sodapines.dev/17189.mp3"
+  },
+  {
+    "date": "2026-11-16",
+    "vocadbId": 17332,
+    "title": "Fear Garden",
+    "artist": "Chaa",
+    "artistString": "Chaa feat. Kagamine Rin",
+    "vocadbName": "Fear Garden",
+    "vocadbUrl": "https://vocadb.net/S/17332",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/3880823/3880823",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/3880823/3880823",
+      "https://i1.ytimg.com/vi/atWqT9Ji73w/hqdefault.jpg",
+      "https://i.ytimg.com/vi/atWqT9Ji73w/hqdefault.jpg",
+      "https://i.ytimg.com/vi/gkvH3vD1Kac/hqdefault.jpg",
+      "https://res.piapro.jp/r/images/card/250/rin.png?20260120",
+      "https://i.ytimg.com/vi/atWqT9Ji73w/default.jpg",
+      "https://i.ytimg.com/vi/gkvH3vD1Kac/default.jpg"
+    ],
+    "publishDate": "2008-07-06T00:00:00Z",
+    "acceptedTitles": [
+      "恐怖ガーデン",
+      "Fear Garden",
+      "Kyoufu Garden",
+      "공포 가든"
+    ],
+    "audioClip": "https://audio.sodapines.dev/17332.mp3"
+  },
+  {
+    "date": "2026-11-17",
+    "vocadbId": 17602,
+    "title": "Party Junkie",
+    "artist": "Satsuki ga Tenkomori",
+    "artistString": "Satsuki ga Tenkomori feat. Hatsune Miku",
+    "vocadbName": "Party Junkie",
+    "vocadbUrl": "https://vocadb.net/S/17602",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/19251235/19251235",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/19251235/19251235",
+      "https://i1.ytimg.com/vi/N0O1KQBhQSw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/mFhdHBYAuwE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/lZgF9ARnVZI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/N0O1KQBhQSw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/DYFHiwKwt8k/hqdefault.jpg",
+      "https://i.ytimg.com/vi/mFhdHBYAuwE/default.jpg",
+      "https://i.ytimg.com/vi/lZgF9ARnVZI/default.jpg",
+      "https://i.ytimg.com/vi/N0O1KQBhQSw/default.jpg",
+      "https://i.ytimg.com/vi/DYFHiwKwt8k/default.jpg"
+    ],
+    "publishDate": "2012-10-31T00:00:00Z",
+    "acceptedTitles": [
+      "Party Junkie"
+    ],
+    "audioClip": "https://audio.sodapines.dev/17602.mp3"
+  },
+  {
+    "date": "2026-11-18",
+    "vocadbId": 17673,
+    "title": "Pomp and Circumstance",
+    "artist": "Umetora",
+    "artistString": "Umetora feat. various",
+    "vocadbName": "Pomp and Circumstance",
+    "vocadbUrl": "https://vocadb.net/S/17673",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/19233263/19233263",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/19233263/19233263",
+      "https://i1.ytimg.com/vi/xGNQOqtGU_E/hqdefault.jpg",
+      "https://i.ytimg.com/vi/xGNQOqtGU_E/hqdefault.jpg",
+      "https://i.ytimg.com/vi/HChHis59kPI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/y0JGKienuOw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/xGNQOqtGU_E/default.jpg",
+      "https://i.ytimg.com/vi/HChHis59kPI/default.jpg"
+    ],
+    "publishDate": "2012-10-29T00:00:00Z",
+    "acceptedTitles": [
+      "威風堂々",
+      "Pomp and Circumstance",
+      "Ifuudoudou"
+    ],
+    "audioClip": "https://audio.sodapines.dev/17673.mp3"
+  },
+  {
+    "date": "2026-11-19",
+    "vocadbId": 17678,
+    "title": "Death Should Not Have Taken Thee!",
+    "artist": "JesusP",
+    "artistString": "JesusP feat. Kagamine Rin Append (Power), Kagamine Len Append (Power)",
+    "vocadbName": "Death Should Not Have Taken Thee!",
+    "vocadbUrl": "https://vocadb.net/S/17678",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/20331479/20331479",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/20331479/20331479",
+      "https://i1.ytimg.com/vi/XZnmfDByGWU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/XZnmfDByGWU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/FseXpxk5s5M/hqdefault.jpg",
+      "https://i.ytimg.com/vi/-mAjNNJrZSk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/CEVAB43UXxk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/XZnmfDByGWU/default.jpg",
+      "https://i.ytimg.com/vi/FseXpxk5s5M/default.jpg",
+      "https://i.ytimg.com/vi/-mAjNNJrZSk/default.jpg",
+      "https://i.ytimg.com/vi/CEVAB43UXxk/default.jpg"
+    ],
+    "publishDate": "2012-11-07T00:00:00Z",
+    "acceptedTitles": [
+      "しんでしまうとはなさけない！",
+      "Death Should Not Have Taken Thee!",
+      "Shinde Shimau to wa Nasakenai!"
+    ],
+    "audioClip": "https://audio.sodapines.dev/17678.mp3"
+  },
+  {
+    "date": "2026-11-20",
+    "vocadbId": 17832,
+    "title": "Reincarnation Ascension",
+    "artist": "Kikuo",
+    "artistString": "Kikuo feat. Hatsune Miku",
+    "vocadbName": "Reincarnation Ascension",
+    "vocadbUrl": "https://vocadb.net/S/17832",
+    "coverArt": "https://i.ytimg.com/vi/WhRBeW8IOgs/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/WhRBeW8IOgs/default.jpg",
+      "https://i1.ytimg.com/vi/WhRBeW8IOgs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/WhRBeW8IOgs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/usiYY3QLvbQ/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/19307778/19307778",
+      "https://i1.sndcdn.com/artworks-000033781049-9j5w1a-large.jpg",
+      "https://i.ytimg.com/vi/usiYY3QLvbQ/default.jpg"
+    ],
+    "publishDate": "2012-11-08T00:00:00Z",
+    "acceptedTitles": [
+      "てんしょう　しょうてんしょう",
+      "Reincarnation Ascension",
+      "Tenshou Shoutenshou",
+      "てんしょうしょうてんしょう",
+      "Ten Sho Sho Ten Sho",
+      "Reincarnation Ascensation"
+    ],
+    "audioClip": "https://audio.sodapines.dev/17832.mp3"
+  },
+  {
+    "date": "2026-11-21",
+    "vocadbId": 18083,
+    "title": "End of Solitude",
+    "artist": "Hikari Syuyo",
+    "artistString": "Hikari Syuyo feat. Kagamine Rin",
+    "vocadbName": "End of Solitude",
+    "vocadbUrl": "https://vocadb.net/S/18083",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/7882150/7882150",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/7882150/7882150",
+      "https://i1.ytimg.com/vi/hvklQRYBwsE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/qbTsoTSSPXc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/EPjIlshV9OQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/hvklQRYBwsE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/qbTsoTSSPXc/default.jpg",
+      "https://i.ytimg.com/vi/EPjIlshV9OQ/default.jpg",
+      "https://i.ytimg.com/vi/hvklQRYBwsE/default.jpg"
+    ],
+    "publishDate": "2009-08-09T00:00:00Z",
+    "acceptedTitles": [
+      "孤独の果て",
+      "End of Solitude",
+      "Kodoku no Hate",
+      "Solitude's End",
+      "The End of Solitude",
+      "고독의 끝"
+    ],
+    "audioClip": "https://audio.sodapines.dev/18083.mp3"
+  },
+  {
+    "date": "2026-11-22",
+    "vocadbId": 18355,
+    "title": "MOTHER",
+    "artist": "Machigerita",
+    "artistString": "Machigerita feat. Hatsune Miku",
+    "vocadbName": "MOTHER",
+    "vocadbUrl": "https://vocadb.net/S/18355",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/2172473/2172473",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/2172473/2172473",
+      "https://i1.ytimg.com/vi/fOAty3KOAwU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/fOAty3KOAwU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/fOAty3KOAwU/default.jpg",
+      "https://i1.sndcdn.com/artworks-000121057936-n0j9b6-large.jpg"
+    ],
+    "publishDate": "2008-01-29T00:00:00Z",
+    "acceptedTitles": [
+      "おかあさん",
+      "MOTHER",
+      "Okaa-san",
+      "Mother",
+      "어머니"
+    ],
+    "audioClip": "https://audio.sodapines.dev/18355.mp3"
+  },
+  {
+    "date": "2026-11-23",
+    "vocadbId": 18479,
+    "title": "Solitary Envy",
+    "artist": "koyori",
+    "artistString": "koyori feat. Hatsune Miku Append (Dark)",
+    "vocadbName": "Solitary Envy",
+    "vocadbUrl": "https://vocadb.net/S/18479",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/19466301/19466301",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/19466301/19466301",
+      "https://i1.ytimg.com/vi/PXZmn1nf-7Q/hqdefault.jpg",
+      "https://i.ytimg.com/vi/sUtgW36x448/hqdefault.jpg",
+      "https://i.ytimg.com/vi/PXZmn1nf-7Q/hqdefault.jpg",
+      "https://i.ytimg.com/vi/p5AprZsHRGw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/sUtgW36x448/default.jpg",
+      "https://i.ytimg.com/vi/PXZmn1nf-7Q/default.jpg",
+      "https://i.ytimg.com/vi/p5AprZsHRGw/default.jpg"
+    ],
+    "publishDate": "2012-11-29T00:00:00Z",
+    "acceptedTitles": [
+      "独りんぼエンヴィー",
+      "Solitary Envy",
+      "Hitorinbo Envy",
+      "Solitary Hide and Seek Envy"
+    ],
+    "audioClip": "https://audio.sodapines.dev/18479.mp3"
+  },
+  {
+    "date": "2026-11-24",
+    "vocadbId": 18718,
+    "title": "Gigantic O.T.N",
+    "artist": "Giga",
+    "artistString": "Giga feat. Kagamine Len Append (Power)",
+    "vocadbName": "Gigantic O.T.N",
+    "vocadbUrl": "https://vocadb.net/S/18718",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/19532707/19532707",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/19532707/19532707",
+      "https://i1.ytimg.com/vi/uLqDlcT140Y/hqdefault.jpg",
+      "https://i.ytimg.com/vi/uLqDlcT140Y/hqdefault.jpg",
+      "https://i.ytimg.com/vi/KoznU3Eaj7c/hqdefault.jpg",
+      "https://i.ytimg.com/vi/3S2H8ekJrbU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/uLqDlcT140Y/default.jpg",
+      "https://i.ytimg.com/vi/KoznU3Eaj7c/default.jpg",
+      "https://i.ytimg.com/vi/3S2H8ekJrbU/default.jpg",
+      "https://i1.sndcdn.com/artworks-wzhgCByuqMLu-0-t500x500.jpg"
+    ],
+    "publishDate": "2012-12-08T00:00:00Z",
+    "acceptedTitles": [
+      "ギガンティックO.T.N",
+      "Gigantic O.T.N",
+      "Gigantic P.N.S"
+    ],
+    "audioClip": "https://audio.sodapines.dev/18718.mp3"
+  },
+  {
+    "date": "2026-11-25",
+    "vocadbId": 18841,
+    "title": "Reboot",
+    "artist": "JimmyThumbP",
+    "artistString": "JimmyThumbP feat. Megurine Luka, Hatsune Miku, Samune Zimi",
+    "vocadbName": "Reboot",
+    "vocadbUrl": "https://vocadb.net/S/18841",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/19570813/19570813",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/19570813/19570813",
+      "https://i1.ytimg.com/vi/_UpaQzCP8bY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/3BFvN-idN1s/hqdefault.jpg",
+      "https://i.ytimg.com/vi/_UpaQzCP8bY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/3BFvN-idN1s/default.jpg"
+    ],
+    "publishDate": "2012-12-13T00:00:00Z",
+    "acceptedTitles": [
+      "Reboot"
+    ],
+    "audioClip": "https://audio.sodapines.dev/18841.mp3"
+  },
+  {
+    "date": "2026-11-26",
+    "vocadbId": 19060,
+    "title": "Systematic Love",
+    "artist": "Camellia",
+    "artistString": "Camellia feat. Hatsune Miku",
+    "vocadbName": "Systematic Love",
+    "vocadbUrl": "https://vocadb.net/S/19060",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/19626042/19626042",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/19626042/19626042",
+      "https://i1.ytimg.com/vi/_JPm6z7F3Co/hqdefault.jpg",
+      "https://i.ytimg.com/vi/nMZ1BflLSuU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/_JPm6z7F3Co/hqdefault.jpg",
+      "https://i.ytimg.com/vi/nMZ1BflLSuU/default.jpg",
+      "https://i.ytimg.com/vi/_JPm6z7F3Co/default.jpg"
+    ],
+    "publishDate": "2012-12-20T00:00:00Z",
+    "acceptedTitles": [
+      "システマティック・ラヴ",
+      "Systematic Love"
+    ],
+    "audioClip": "https://audio.sodapines.dev/19060.mp3"
+  },
+  {
+    "date": "2026-05-05",
+    "vocadbId": 19094,
+    "title": "Lost One's Weeping",
+    "artist": "Neru",
+    "artistString": "Neru feat. Kagamine Rin Append (Power)",
+    "vocadbName": "Lost One's Weeping",
+    "vocadbUrl": "https://vocadb.net/S/19094",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/20244918/20244918",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/20244918/20244918",
+      "https://i1.ytimg.com/vi/8oBV3jPTW4s/hqdefault.jpg",
+      "https://i.ytimg.com/vi/0E-5Fyjz_HE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/8oBV3jPTW4s/hqdefault.jpg",
+      "https://i.ytimg.com/vi/-rgy0wYYzO0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/wpXmmMtPLIE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/N4N4-wScYyI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/0E-5Fyjz_HE/default.jpg",
+      "https://i.ytimg.com/vi/8oBV3jPTW4s/default.jpg",
+      "https://i.ytimg.com/vi/-rgy0wYYzO0/default.jpg",
+      "https://i.ytimg.com/vi/wpXmmMtPLIE/default.jpg",
+      "https://i.ytimg.com/vi/N4N4-wScYyI/default.jpg"
+    ],
+    "publishDate": "2013-03-04T00:00:00Z",
+    "acceptedTitles": [
+      "ロストワンの号哭",
+      "Lost One's Weeping",
+      "Lost One no Goukoku",
+      "The Lamentations of the Lost Ones",
+      "로스트원의 호곡"
+    ],
+    "audioClip": "https://audio.sodapines.dev/19094.mp3"
+  },
+  {
+    "date": "2026-11-28",
+    "vocadbId": 19913,
+    "title": "on the rocks",
+    "artist": "OSTER project",
+    "artistString": "OSTER project feat. MEIKO V3 (Straight), KAITO V3 (Straight)",
+    "vocadbName": "on the rocks",
+    "vocadbUrl": "https://vocadb.net/S/19913",
+    "coverArt": "https://i.ytimg.com/vi/hk1L0ZV2bVc/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/hk1L0ZV2bVc/default.jpg",
+      "https://i1.ytimg.com/vi/hk1L0ZV2bVc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/hk1L0ZV2bVc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/LXt1jo57rKI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/R6Uh1Qqflzc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Y-D9QqGM94s/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/23954284/23954284",
+      "https://i.ytimg.com/vi/LXt1jo57rKI/default.jpg",
+      "https://i.ytimg.com/vi/R6Uh1Qqflzc/default.jpg",
+      "https://i.ytimg.com/vi/Y-D9QqGM94s/default.jpg"
+    ],
+    "publishDate": "2014-04-23T00:00:00Z",
+    "acceptedTitles": [
+      "on the rocks"
+    ],
+    "audioClip": "https://audio.sodapines.dev/19913.mp3"
+  },
+  {
+    "date": "2026-11-29",
+    "vocadbId": 21064,
+    "title": "electro saturator",
+    "artist": "tilt-six",
+    "artistString": "tilt-six feat. Hatsune Miku",
+    "vocadbName": "electro saturator",
+    "vocadbUrl": "https://vocadb.net/S/21064",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/19807355/19807355",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/19807355/19807355",
+      "https://i1.ytimg.com/vi/hN2PJ8mBF6w/hqdefault.jpg",
+      "https://i.ytimg.com/vi/hN2PJ8mBF6w/hqdefault.jpg",
+      "https://i.ytimg.com/vi/yKv2wWUUFPM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/hN2PJ8mBF6w/default.jpg",
+      "https://i1.sndcdn.com/artworks-000050154830-pbwlu5-large.jpg",
+      "https://i.ytimg.com/vi/yKv2wWUUFPM/default.jpg"
+    ],
+    "publishDate": "2013-01-12T00:00:00Z",
+    "acceptedTitles": [
+      "エレクトロサチュレイタ",
+      "electro saturator",
+      "Electrosaturator"
+    ],
+    "audioClip": "https://audio.sodapines.dev/21064.mp3"
+  },
+  {
+    "date": "2026-11-30",
+    "vocadbId": 21604,
+    "title": "Self-Inflicted Achromatic",
+    "artist": "Sasanomaly",
+    "artistString": "Sasanomaly feat. Hatsune Miku Append (Soft)",
+    "vocadbName": "Self-Inflicted Achromatic",
+    "vocadbUrl": "https://vocadb.net/S/21604",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/19870840/19870840",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/19870840/19870840",
+      "https://i1.ytimg.com/vi/BPIq2ZVnPAo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/BPIq2ZVnPAo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/74f_dqA70gM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/BPIq2ZVnPAo/default.jpg",
+      "https://i.ytimg.com/vi/74f_dqA70gM/default.jpg"
+    ],
+    "publishDate": "2013-01-20T00:00:00Z",
+    "acceptedTitles": [
+      "自傷無色",
+      "Self-Inflicted Achromatic",
+      "Jishou Mushoku",
+      "Self-Inflicted Colorless",
+      "Self-Harm Colorless",
+      "Jisyou musyoku",
+      "자상무색",
+      "自伤无色"
+    ],
+    "audioClip": "https://audio.sodapines.dev/21604.mp3"
+  },
+  {
+    "date": "2026-12-01",
+    "vocadbId": 21757,
+    "title": "Q",
+    "artist": "siinamota",
+    "artistString": "siinamota feat. Kagamine Rin Append (Power)",
+    "vocadbName": "Q",
+    "vocadbUrl": "https://vocadb.net/S/21757",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/19898621/19898621",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/19898621/19898621",
+      "https://i1.ytimg.com/vi/EQH2Pb8FTac/hqdefault.jpg",
+      "https://i.ytimg.com/vi/MkfC-nDZfhA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/EQH2Pb8FTac/hqdefault.jpg",
+      "https://i.ytimg.com/vi/MkfC-nDZfhA/default.jpg",
+      "https://i.ytimg.com/vi/EQH2Pb8FTac/default.jpg"
+    ],
+    "publishDate": "2013-01-23T00:00:00Z",
+    "acceptedTitles": [
+      "Q"
+    ],
+    "audioClip": "https://audio.sodapines.dev/21757.mp3"
+  },
+  {
+    "date": "2026-12-02",
+    "vocadbId": 21818,
+    "title": "Indulging: Idol Syndrome",
+    "artist": "Suzumu",
+    "artistString": "Suzumu, Giga feat. MAYU, V3 GUMI (Power)",
+    "vocadbName": "Indulging: Idol Syndrome",
+    "vocadbUrl": "https://vocadb.net/S/21818",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/19905283/19905283",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/19905283/19905283",
+      "https://i1.ytimg.com/vi/nAebX31YM2w/hqdefault.jpg",
+      "https://i.ytimg.com/vi/nAebX31YM2w/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ZcxrF8lfPkM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/nAebX31YM2w/default.jpg",
+      "https://i.ytimg.com/vi/ZcxrF8lfPkM/default.jpg"
+    ],
+    "publishDate": "2013-01-24T00:00:00Z",
+    "acceptedTitles": [
+      "過食性:アイドル症候群",
+      "Indulging: Idol Syndrome",
+      "Kashokusei: Idol Shoukougun",
+      "Binging: Idol Syndrome"
+    ],
+    "audioClip": "https://audio.sodapines.dev/21818.mp3"
+  },
+  {
+    "date": "2026-12-03",
+    "vocadbId": 22421,
+    "title": "Coin Locker Baby",
+    "artist": "MARETU",
+    "artistString": "MARETU feat. Hatsune Miku",
+    "vocadbName": "Coin Locker Baby",
+    "vocadbUrl": "https://vocadb.net/S/22421",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/19980280/19980280",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/19980280/19980280",
+      "https://i1.ytimg.com/vi/QA5zuzc1WYA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/QA5zuzc1WYA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/wUfh4q9DPMM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/RgHTSrw82GQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/QA5zuzc1WYA/default.jpg",
+      "https://i.ytimg.com/vi/wUfh4q9DPMM/default.jpg",
+      "https://i.ytimg.com/vi/RgHTSrw82GQ/default.jpg"
+    ],
+    "publishDate": "2013-02-02T00:00:00Z",
+    "acceptedTitles": [
+      "コインロッカーベイビー",
+      "Coin Locker Baby"
+    ],
+    "audioClip": "https://audio.sodapines.dev/22421.mp3"
+  },
+  {
+    "date": "2026-12-04",
+    "vocadbId": 22539,
+    "title": "World Domination How-To",
+    "artist": "Neru",
+    "artistString": "Neru feat. Kagamine Len Append (Power), Kagamine Rin Append (Power)",
+    "vocadbName": "World Domination How-To",
+    "vocadbUrl": "https://vocadb.net/S/22539",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/20286605/20286605",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/20286605/20286605",
+      "https://i1.ytimg.com/vi/HdC2cB_DZok/hqdefault.jpg",
+      "https://i.ytimg.com/vi/HdC2cB_DZok/hqdefault.jpg",
+      "https://i.ytimg.com/vi/hcNczIq2C6c/hqdefault.jpg",
+      "https://i.ytimg.com/vi/HdC2cB_DZok/default.jpg",
+      "https://i.ytimg.com/vi/hcNczIq2C6c/default.jpg"
+    ],
+    "publishDate": "2013-03-09T00:00:00Z",
+    "acceptedTitles": [
+      "ハウトゥー世界征服",
+      "World Domination How-To",
+      "How-To Sekai Seifuku",
+      "How To World Domination",
+      "HOW TO 世界征服"
+    ],
+    "audioClip": "https://audio.sodapines.dev/22539.mp3"
+  },
+  {
+    "date": "2026-12-05",
+    "vocadbId": 22881,
+    "title": "Electric Angel",
+    "artist": "Giga",
+    "artistString": "Giga, Ore BananaP feat. Kagamine Rin Append (Power), Kagamine Len Append (Power)",
+    "vocadbName": "Electric Angel",
+    "vocadbUrl": "https://vocadb.net/S/22881",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/20040564/20040564",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/20040564/20040564",
+      "https://i1.ytimg.com/vi/sSYoz0JmnZo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/sSYoz0JmnZo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/cFYA7iYRrdI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/sSYoz0JmnZo/default.jpg",
+      "https://i.ytimg.com/vi/cFYA7iYRrdI/default.jpg"
+    ],
+    "publishDate": "2013-02-13T00:00:00Z",
+    "acceptedTitles": [
+      "えれくとりっく・えんじぇぅ",
+      "Electric Angel"
+    ],
+    "audioClip": "https://audio.sodapines.dev/22881.mp3"
+  },
+  {
+    "date": "2026-12-06",
+    "vocadbId": 23087,
+    "title": "Night Talk Deceive",
+    "artist": "JIN",
+    "artistString": "JIN feat. IA",
+    "vocadbName": "Night Talk Deceive",
+    "vocadbUrl": "https://vocadb.net/S/23087",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/20116702/20116702",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/20116702/20116702",
+      "https://i1.ytimg.com/vi/aPDaFGqMX4I/hqdefault.jpg",
+      "https://i.ytimg.com/vi/aPDaFGqMX4I/hqdefault.jpg",
+      "https://i.ytimg.com/vi/98YWS7WuB0o/hqdefault.jpg",
+      "https://i.ytimg.com/vi/vFpexmwR6Mc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/uKL2uE2D2g4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/aPDaFGqMX4I/default.jpg",
+      "https://i.ytimg.com/vi/98YWS7WuB0o/default.jpg",
+      "https://i.ytimg.com/vi/vFpexmwR6Mc/default.jpg",
+      "https://i.ytimg.com/vi/uKL2uE2D2g4/default.jpg"
+    ],
+    "publishDate": "2013-02-17T00:00:00Z",
+    "acceptedTitles": [
+      "夜咄ディセイブ",
+      "Night Talk Deceive",
+      "Yobanashi Deceive",
+      "Night Tales Deceive"
+    ],
+    "audioClip": "https://audio.sodapines.dev/23087.mp3"
+  },
+  {
+    "date": "2026-12-07",
+    "vocadbId": 24039,
+    "title": "A Female Ninja, but I Want to Love",
+    "artist": "MikitoP",
+    "artistString": "MikitoP feat. Hatsune Miku, Kagamine Rin",
+    "vocadbName": "A Female Ninja, but I Want to Love",
+    "vocadbUrl": "https://vocadb.net/S/24039",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/20413055/20413055",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/20413055/20413055",
+      "https://i1.ytimg.com/vi/eI4F8vuxoQE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/eI4F8vuxoQE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/zfuR6DR8cpA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/eI4F8vuxoQE/default.jpg",
+      "https://i1.hdslb.com/bfs/archive/521b13e941349d8902f92308d3a71f2a09c8b8f8.jpg",
+      "https://i.ytimg.com/vi/zfuR6DR8cpA/default.jpg"
+    ],
+    "publishDate": "2013-03-23T00:00:00Z",
+    "acceptedTitles": [
+      "クノイチでも恋がしたい",
+      "A Female Ninja, but I Want to Love",
+      "Kunoichi Demo Koi ga Shitai",
+      "Even as a Kunoichi, I Want to Love",
+      "Even a Kunoichi Needs Love",
+      "쿠노이치라도 사랑이 하고 싶어"
+    ],
+    "audioClip": "https://audio.sodapines.dev/24039.mp3"
+  },
+  {
+    "date": "2026-12-08",
+    "vocadbId": 24239,
+    "title": "It Seems Like There's A Secret Command To Becoming Happy",
+    "artist": "UtataP",
+    "artistString": "UtataP feat. Yuzuki Yukari, Yuzuki Yukari",
+    "vocadbName": "It Seems Like There's A Secret Command To Becoming Happy",
+    "vocadbUrl": "https://vocadb.net/S/24239",
+    "coverArt": "https://i.ytimg.com/vi/lwT4h6x3UM0/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/lwT4h6x3UM0/default.jpg",
+      "https://i1.ytimg.com/vi/lwT4h6x3UM0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/lwT4h6x3UM0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/shNgOFTla-c/hqdefault.jpg",
+      "https://i.ytimg.com/vi/pFlc0E8MSFI/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/21249768/21249768",
+      "https://i.ytimg.com/vi/shNgOFTla-c/default.jpg",
+      "https://i.ytimg.com/vi/pFlc0E8MSFI/default.jpg"
+    ],
+    "publishDate": "2013-04-17T00:00:00Z",
+    "acceptedTitles": [
+      "幸せになれる隠しコマンドがあるらしい",
+      "It Seems Like There's A Secret Command To Becoming Happy",
+      "Shiawase ni Nareru Kakushi Command ga Arurashii",
+      "There's Supposed to Be a Cheat Code for Happiness",
+      "Apparently There's a Cheat Code to Happiness",
+      "There Seems to Be a Hidden Command to Being Happy"
+    ],
+    "audioClip": "https://audio.sodapines.dev/24239.mp3"
+  },
+  {
+    "date": "2026-12-09",
+    "vocadbId": 25667,
+    "title": "Love Me, Love Me, Love Me",
+    "artist": "Kikuo",
+    "artistString": "Kikuo feat. Hatsune Miku",
+    "vocadbName": "Love Me, Love Me, Love Me",
+    "vocadbUrl": "https://vocadb.net/S/25667",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/25724827/25724827",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/25724827/25724827",
+      "https://i1.ytimg.com/vi/NTrm_idbhUk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/NTrm_idbhUk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/KxNOBCyGhnk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ebA020YiIQ4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/NTrm_idbhUk/default.jpg",
+      "https://f4.bcbits.com/img/a0229877712_5.jpg",
+      "https://i.ytimg.com/vi/KxNOBCyGhnk/default.jpg"
+    ],
+    "publishDate": "2013-03-15T00:00:00Z",
+    "acceptedTitles": [
+      "愛して愛して愛して",
+      "Love Me, Love Me, Love Me",
+      "Aishite Aishite Aishite",
+      "AISITE AISITE AISITE",
+      "爱我 爱我 爱我"
+    ],
+    "audioClip": "https://audio.sodapines.dev/25667.mp3"
+  },
+  {
+    "date": "2026-12-10",
+    "vocadbId": 25725,
+    "title": "You're a Worthless Child",
+    "artist": "Kikuo",
+    "artistString": "Kikuo feat. Hatsune Miku",
+    "vocadbName": "You're a Worthless Child",
+    "vocadbUrl": "https://vocadb.net/S/25725",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/20410104/20410104",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/20410104/20410104",
+      "https://i1.ytimg.com/vi/nPF7lit7Z00/hqdefault.jpg",
+      "https://i.ytimg.com/vi/nPF7lit7Z00/hqdefault.jpg",
+      "https://i.ytimg.com/vi/HinT8DXYdDk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/thRY9hW73GI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/RXXr3G00Uvc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/nPF7lit7Z00/default.jpg",
+      "https://i.ytimg.com/vi/HinT8DXYdDk/default.jpg",
+      "https://f4.bcbits.com/img/a0229877712_5.jpg",
+      "https://i.ytimg.com/vi/thRY9hW73GI/default.jpg",
+      "https://i.ytimg.com/vi/RXXr3G00Uvc/default.jpg"
+    ],
+    "publishDate": "2013-03-23T00:00:00Z",
+    "acceptedTitles": [
+      "君はできない子",
+      "You're a Worthless Child",
+      "Kimi wa Dekinai Ko",
+      "You're a Useless Child"
+    ],
+    "audioClip": "https://audio.sodapines.dev/25725.mp3"
+  },
+  {
+    "date": "2026-12-11",
+    "vocadbId": 25896,
+    "title": "Lost Time Memory",
+    "artist": "JIN",
+    "artistString": "JIN feat. IA",
+    "vocadbName": "Lost Time Memory",
+    "vocadbUrl": "https://vocadb.net/S/25896",
+    "coverArt": "https://i.ytimg.com/vi/yJTQuDCnMjg/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/yJTQuDCnMjg/default.jpg",
+      "https://i1.ytimg.com/vi/yJTQuDCnMjg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/yJTQuDCnMjg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/uhkcKvcSpkI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/JzejNLaKFgE/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/20470051/20470051",
+      "https://i.ytimg.com/vi/uhkcKvcSpkI/default.jpg",
+      "https://i.ytimg.com/vi/JzejNLaKFgE/default.jpg"
+    ],
+    "publishDate": "2013-03-29T00:00:00Z",
+    "acceptedTitles": [
+      "ロスタイムメモリー",
+      "Lost Time Memory",
+      "Losstime Memory",
+      "로스타임 메모리"
+    ],
+    "audioClip": "https://audio.sodapines.dev/25896.mp3"
+  },
+  {
+    "date": "2026-12-12",
+    "vocadbId": 28130,
+    "title": "MiKUSABBATH",
+    "artist": "Utsu-P",
+    "artistString": "Utsu-P feat. Hatsune Miku Append (Solid)",
+    "vocadbName": "MiKUSABBATH",
+    "vocadbUrl": "https://vocadb.net/S/28130",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/20637855/20637855",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/20637855/20637855",
+      "https://i1.ytimg.com/vi/a0NXgr5jCWk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/a0NXgr5jCWk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/a0NXgr5jCWk/default.jpg",
+      "https://f4.bcbits.com/img/a1631044565_5.jpg",
+      "https://i0.hdslb.com/bfs/archive/bcff8f9f77d96df7aa9c25c4bd352d162f28f7cc.png"
+    ],
+    "publishDate": "2013-04-18T00:00:00Z",
+    "acceptedTitles": [
+      "MiKUSABBATH"
+    ],
+    "audioClip": "https://audio.sodapines.dev/28130.mp3"
+  },
+  {
+    "date": "2026-12-13",
+    "vocadbId": 28179,
+    "title": "chaosmaid",
+    "artist": "paraoka",
+    "artistString": "paraoka feat. Acme Iku",
+    "vocadbName": "chaosmaid",
+    "vocadbUrl": "https://vocadb.net/S/28179",
+    "coverArt": "https://f4.bcbits.com/img/a3347764410_5.jpg",
+    "coverArts": [
+      "https://f4.bcbits.com/img/a3347764410_5.jpg",
+      "https://i1.ytimg.com/vi/BmGN1vpZUcA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/pTmeXxa3MXU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/BmGN1vpZUcA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/pTmeXxa3MXU/default.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/18446103/18446103",
+      "https://i.ytimg.com/vi/BmGN1vpZUcA/default.jpg"
+    ],
+    "publishDate": "2008-12-29T00:00:00Z",
+    "acceptedTitles": [
+      "chaosmaid",
+      "カオスメイド"
+    ],
+    "audioClip": "https://audio.sodapines.dev/28179.mp3"
+  },
+  {
+    "date": "2026-12-14",
+    "vocadbId": 28549,
+    "title": "Raspberry＊Monster",
+    "artist": "Gom",
+    "artistString": "Gom, HoneyWorks feat. Hatsune Miku",
+    "vocadbName": "Raspberry＊Monster",
+    "vocadbUrl": "https://vocadb.net/S/28549",
+    "coverArt": "https://i.ytimg.com/vi/P4dhSf8pEeE/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/P4dhSf8pEeE/default.jpg",
+      "https://i1.ytimg.com/vi/P4dhSf8pEeE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/P4dhSf8pEeE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/YKxEHqQNrfo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/TXBXZSRI9U0/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/21051219/21051219",
+      "https://i.ytimg.com/vi/YKxEHqQNrfo/default.jpg",
+      "https://i.ytimg.com/vi/TXBXZSRI9U0/default.jpg"
+    ],
+    "publishDate": "2013-04-27T00:00:00Z",
+    "acceptedTitles": [
+      "ラズベリー＊モンスター",
+      "Raspberry＊Monster",
+      "Raspberry*Monster"
+    ],
+    "audioClip": "https://audio.sodapines.dev/28549.mp3"
+  },
+  {
+    "date": "2026-12-15",
+    "vocadbId": 28646,
+    "title": "Outer Science",
+    "artist": "JIN",
+    "artistString": "JIN feat. IA",
+    "vocadbName": "Outer Science",
+    "vocadbUrl": "https://vocadb.net/S/28646",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/21720819/21720819",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/21720819/21720819",
+      "https://i1.ytimg.com/vi/HswIHVN5D4o/hqdefault.jpg",
+      "https://i.ytimg.com/vi/HswIHVN5D4o/hqdefault.jpg",
+      "https://i.ytimg.com/vi/E0q7B1W6ANs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/qhlfgwUjayE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/uJz5DJEhtOc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/HswIHVN5D4o/default.jpg",
+      "https://i.ytimg.com/vi/E0q7B1W6ANs/default.jpg",
+      "https://i.ytimg.com/vi/qhlfgwUjayE/default.jpg",
+      "https://i.ytimg.com/vi/uJz5DJEhtOc/default.jpg"
+    ],
+    "publishDate": "2013-05-29T00:00:00Z",
+    "acceptedTitles": [
+      "アウターサイエンス",
+      "Outer Science",
+      "界外科学"
+    ],
+    "audioClip": "https://audio.sodapines.dev/28646.mp3"
+  },
+  {
+    "date": "2026-12-16",
+    "vocadbId": 29183,
+    "title": "Idola Circus",
+    "artist": "Neru",
+    "artistString": "Neru feat. Kagamine Rin",
+    "vocadbName": "Idola Circus",
+    "vocadbUrl": "https://vocadb.net/S/29183",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/20765934/20765934",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/20765934/20765934",
+      "https://i1.ytimg.com/vi/u6lHwB3e-z8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/u6lHwB3e-z8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/zAu43IGtMQc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/EiUinjApIp0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/gSg3x_gSsmI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/u6lHwB3e-z8/default.jpg",
+      "https://i.ytimg.com/vi/zAu43IGtMQc/default.jpg",
+      "https://i.ytimg.com/vi/EiUinjApIp0/default.jpg",
+      "https://i.ytimg.com/vi/gSg3x_gSsmI/default.jpg"
+    ],
+    "publishDate": "2013-05-03T00:00:00Z",
+    "acceptedTitles": [
+      "イドラのサーカス",
+      "Idola Circus",
+      "Idola no Circus",
+      "Hydra Circus",
+      "이돌라의 서커스"
+    ],
+    "audioClip": "https://audio.sodapines.dev/29183.mp3"
+  },
+  {
+    "date": "2026-12-17",
+    "vocadbId": 30981,
+    "title": "Poster Girl's Prank",
+    "artist": "Utsu-P",
+    "artistString": "Utsu-P feat. Kagamine Rin, Hatsune Miku Append (Dark), V3 GUMI (Power)",
+    "vocadbName": "Poster Girl's Prank",
+    "vocadbUrl": "https://vocadb.net/S/30981",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/21438326/21438326",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/21438326/21438326",
+      "https://i1.ytimg.com/vi/E4kcWPLtBFM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/E4kcWPLtBFM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/1MXRNf4FOsw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/E4kcWPLtBFM/default.jpg",
+      "https://i.ytimg.com/vi/1MXRNf4FOsw/default.jpg",
+      "https://i0.hdslb.com/bfs/archive/f862bb747ee5c1ef6ece4e951a76193c136d4a50.jpg"
+    ],
+    "publishDate": "2013-07-25T00:00:00Z",
+    "acceptedTitles": [
+      "看板娘の悪巫山戯",
+      "Poster Girl's Prank",
+      "Kanbanmusume no Warufuzake",
+      "Show Girl's Prank",
+      "看板娘的悪巫山戯",
+      "간판 아가씨의 나쁜 장난"
+    ],
+    "audioClip": "https://audio.sodapines.dev/30981.mp3"
+  },
+  {
+    "date": "2026-12-18",
+    "vocadbId": 32499,
+    "title": "The Fox's Wedding",
+    "artist": "MASA WORKS DESIGN",
+    "artistString": "MASA WORKS DESIGN feat. GUMI, Hatsune Miku",
+    "vocadbName": "The Fox's Wedding",
+    "vocadbUrl": "https://vocadb.net/S/32499",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/21216298/21216298",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/21216298/21216298",
+      "https://i1.ytimg.com/vi/khNi_6PnvaE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/khNi_6PnvaE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/EZqrLaJ_Mis/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/21216233/21216233",
+      "https://i.ytimg.com/vi/khNi_6PnvaE/default.jpg",
+      "https://i1.sndcdn.com/artworks-000103840887-krmwbq-t500x500.jpg",
+      "https://i.ytimg.com/vi/EZqrLaJ_Mis/default.jpg"
+    ],
+    "publishDate": "2013-06-27T00:00:00Z",
+    "acceptedTitles": [
+      "狐の嫁入り",
+      "The Fox's Wedding",
+      "Kitsune no Yomeiri",
+      "여우의 혼례",
+      "Весілля Лисиці",
+      "Лисья Свадьба"
+    ],
+    "audioClip": "https://audio.sodapines.dev/32499.mp3"
+  },
+  {
+    "date": "2026-12-19",
+    "vocadbId": 35526,
+    "title": "Hop! Step! Instant Death! A Happiness Dance Death Trap",
+    "artist": "UtataP",
+    "artistString": "UtataP feat. Hatsune Miku",
+    "vocadbName": "Hop! Step! Instant Death! A Happiness Dance Death Trap",
+    "vocadbUrl": "https://vocadb.net/S/35526",
+    "coverArt": "https://i.ytimg.com/vi/VO7sAWMIoKI/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/VO7sAWMIoKI/default.jpg",
+      "https://i1.ytimg.com/vi/VO7sAWMIoKI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/y1UX1hz1lYI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/VO7sAWMIoKI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/y1UX1hz1lYI/default.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/21430267/21430267"
+    ],
+    "publishDate": "2013-07-24T00:00:00Z",
+    "acceptedTitles": [
+      "ホップ！ステップ！即死！シアワセダンスデストラップ",
+      "Hop! Step! Instant Death! A Happiness Dance Death Trap",
+      "Hop! Step! Sokushi! Shiawase Dance Death Trap"
+    ],
+    "audioClip": "https://audio.sodapines.dev/35526.mp3"
+  },
+  {
+    "date": "2026-12-20",
+    "vocadbId": 35603,
+    "title": "Viva Happy",
+    "artist": "Mitchie M",
+    "artistString": "Mitchie M feat. Hatsune Miku",
+    "vocadbName": "Viva Happy",
+    "vocadbUrl": "https://vocadb.net/S/35603",
+    "coverArt": "https://i.ytimg.com/vi/WiUjG9fF3zw/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/WiUjG9fF3zw/default.jpg",
+      "https://i1.ytimg.com/vi/WiUjG9fF3zw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/WiUjG9fF3zw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/GqLE4PjD9ek/hqdefault.jpg",
+      "https://i.ytimg.com/vi/YkHu49oq2po/hqdefault.jpg",
+      "https://i.ytimg.com/vi/oyzcqZOhZdk/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/21443197/21443197",
+      "https://i2.hdslb.com/video/f7/f79ecdf5d138346cb21c22cc4054822a.jpg",
+      "https://i1.sndcdn.com/artworks-000129362060-2hs7kg-large.jpg",
+      "https://i.ytimg.com/vi/GqLE4PjD9ek/default.jpg",
+      "https://i.ytimg.com/vi/YkHu49oq2po/default.jpg",
+      "https://i.ytimg.com/vi/oyzcqZOhZdk/default.jpg"
+    ],
+    "publishDate": "2013-07-26T00:00:00Z",
+    "acceptedTitles": [
+      "ビバハピ",
+      "Viva Happy"
+    ],
+    "audioClip": "https://audio.sodapines.dev/35603.mp3"
+  },
+  {
+    "date": "2026-12-21",
+    "vocadbId": 36002,
+    "title": "Dance of the Dead",
+    "artist": "Kikuo",
+    "artistString": "Kikuo feat. Hatsune Miku",
+    "vocadbName": "Dance of the Dead",
+    "vocadbUrl": "https://vocadb.net/S/36002",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/21720548/21720548",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/21720548/21720548",
+      "https://i1.ytimg.com/vi/O9eHRiaTuL4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/O9eHRiaTuL4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/8H5TvPQOn74/hqdefault.jpg",
+      "https://i.ytimg.com/vi/LHYiwXI7YEs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/O9eHRiaTuL4/default.jpg",
+      "https://i.ytimg.com/vi/8H5TvPQOn74/default.jpg",
+      "https://f4.bcbits.com/img/a0229877712_5.jpg",
+      "https://i.ytimg.com/vi/LHYiwXI7YEs/default.jpg"
+    ],
+    "publishDate": "2013-08-12T00:00:00Z",
+    "acceptedTitles": [
+      "しかばねの踊り",
+      "Dance of the Dead",
+      "Shikabane no Odori",
+      "Dance of Corpse",
+      "Corpse Dance",
+      "Dance of the Corpses",
+      "尸骸之舞"
+    ],
+    "audioClip": "https://audio.sodapines.dev/36002.mp3"
+  },
+  {
+    "date": "2026-12-22",
+    "vocadbId": 37948,
+    "title": "A Fake, Fake Psychotropic",
+    "artist": "Kairiki bear",
+    "artistString": "Kairiki bear feat. GUMI",
+    "vocadbName": "A Fake, Fake Psychotropic",
+    "vocadbUrl": "https://vocadb.net/S/37948",
+    "coverArt": "https://i.ytimg.com/vi/2NkN_QpmnFM/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/2NkN_QpmnFM/default.jpg",
+      "https://i1.ytimg.com/vi/2NkN_QpmnFM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/AkcdT_dHJVg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/2NkN_QpmnFM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/9inAqKsSRtU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/AkcdT_dHJVg/default.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/21660475/21660475",
+      "https://i.ytimg.com/vi/9inAqKsSRtU/default.jpg"
+    ],
+    "publishDate": "2013-08-23T00:00:00Z",
+    "acceptedTitles": [
+      "マネマネサイコトロピック",
+      "A Fake, Fake Psychotropic",
+      "Mane Mane Psychotropic",
+      "Imitation Psychotropic",
+      "흉내흉내 사이코트로픽"
+    ],
+    "audioClip": "https://audio.sodapines.dev/37948.mp3"
+  },
+  {
+    "date": "2026-12-23",
+    "vocadbId": 38255,
+    "title": "My Palette is Full of You",
+    "artist": "siinamota",
+    "artistString": "siinamota feat. Hatsune Miku Append (Vivid)",
+    "vocadbName": "My Palette is Full of You",
+    "vocadbUrl": "https://vocadb.net/S/38255",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/19254569/19254569",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/19254569/19254569",
+      "https://i1.ytimg.com/vi/3F5n2KC6mkU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/6HZHo07_V6Y/hqdefault.jpg",
+      "https://i.ytimg.com/vi/3F5n2KC6mkU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Z152wNln2HA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/6HZHo07_V6Y/default.jpg",
+      "https://i1.hdslb.com/bfs/archive/0fd8b1a03d0f8a921eaf2d8d8e07f203c49edc3d.jpg",
+      "https://i.ytimg.com/vi/3F5n2KC6mkU/default.jpg",
+      "https://i.ytimg.com/vi/Z152wNln2HA/default.jpg"
+    ],
+    "publishDate": "2012-11-01T00:00:00Z",
+    "acceptedTitles": [
+      "パレットには君がいっぱい",
+      "My Palette is Full of You",
+      "Palette ni wa Kimi ga Ippai",
+      "You're Full of Shades of Colors",
+      "The Palette is Full of You",
+      "A Palette Full of You",
+      "팔레트에는 네가 가득"
+    ],
+    "audioClip": "https://audio.sodapines.dev/38255.mp3"
+  },
+  {
+    "date": "2026-12-24",
+    "vocadbId": 38393,
+    "title": "Holy Lance Explosion Boy",
+    "artist": "rerulili",
+    "artistString": "rerulili, Moja feat. Kagamine Len Append (Power)",
+    "vocadbName": "Holy Lance Explosion Boy",
+    "vocadbUrl": "https://vocadb.net/S/38393",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/21702752/21702752",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/21702752/21702752",
+      "https://i1.ytimg.com/vi/MqNmKnCNLyM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/MqNmKnCNLyM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/eV37fQld6dU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/EE6mEAvygQg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/MqNmKnCNLyM/default.jpg",
+      "https://i.ytimg.com/vi/eV37fQld6dU/default.jpg",
+      "https://i.ytimg.com/vi/EE6mEAvygQg/default.jpg"
+    ],
+    "publishDate": "2013-08-29T00:00:00Z",
+    "acceptedTitles": [
+      "聖槍爆裂ボーイ",
+      "Holy Lance Explosion Boy",
+      "Seisou Bakuretsu Boy",
+      "Sacred Spear Explosion Boy",
+      "성창폭렬 보이"
+    ],
+    "audioClip": "https://audio.sodapines.dev/38393.mp3"
+  },
+  {
+    "date": "2026-12-25",
+    "vocadbId": 38420,
+    "title": "Ageage Again",
+    "artist": "Mitchie M",
+    "artistString": "Mitchie M feat. Hatsune Miku",
+    "vocadbName": "Ageage Again",
+    "vocadbUrl": "https://vocadb.net/S/38420",
+    "coverArt": "https://i.ytimg.com/vi/uwwU55zBYlQ/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/uwwU55zBYlQ/default.jpg",
+      "https://i1.ytimg.com/vi/uwwU55zBYlQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/uwwU55zBYlQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/1QWiYk3nnWk/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/21965634/21965634.69982063",
+      "https://i0.hdslb.com/bfs/archive/1529a5b24dd87f5e25622169a72bd90b35be9577.jpg",
+      "https://i1.sndcdn.com/artworks-000130746709-2mq4en-large.jpg",
+      "https://i.ytimg.com/vi/1QWiYk3nnWk/default.jpg"
+    ],
+    "publishDate": "2013-10-04T00:00:00Z",
+    "acceptedTitles": [
+      "アゲアゲアゲイン",
+      "Ageage Again",
+      "Age Age Again",
+      "Up Up Again"
+    ],
+    "audioClip": "https://audio.sodapines.dev/38420.mp3"
+  },
+  {
+    "date": "2026-12-26",
+    "vocadbId": 38835,
+    "title": "Brain Revolution Girl",
+    "artist": "MARETU",
+    "artistString": "MARETU feat. Hatsune Miku",
+    "vocadbName": "Brain Revolution Girl",
+    "vocadbUrl": "https://vocadb.net/S/38835",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/21870906/21870906",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/21870906/21870906",
+      "https://i1.ytimg.com/vi/sjr-tPFADpM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/sjr-tPFADpM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/sjr-tPFADpM/default.jpg"
+    ],
+    "publishDate": "2013-09-20T00:00:00Z",
+    "acceptedTitles": [
+      "脳内革命ガール",
+      "Brain Revolution Girl",
+      "Nounai Kakumei Girl",
+      "Intercranial Revolution Girl",
+      "뇌내혁명 걸"
+    ],
+    "audioClip": "https://audio.sodapines.dev/38835.mp3"
+  },
+  {
+    "date": "2026-12-27",
+    "vocadbId": 38916,
+    "title": "Delusion Tax",
+    "artist": "kous",
+    "artistString": "DECO*27, kous feat. Hatsune Miku",
+    "vocadbName": "Delusion Tax",
+    "vocadbUrl": "https://vocadb.net/S/38916",
+    "coverArt": "https://i.ytimg.com/vi/sWvZfwY8beg/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/sWvZfwY8beg/default.jpg",
+      "https://i1.ytimg.com/vi/sWvZfwY8beg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/sWvZfwY8beg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/EZqwSoSapjk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/RHoEr0fQluI/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/21764582/21764582",
+      "https://i1.hdslb.com/bfs/archive/aec71f6dc5c0fe094c0c1e73c6cc6223dc5f46c9.jpg",
+      "https://i.ytimg.com/vi/EZqwSoSapjk/default.jpg",
+      "https://i.ytimg.com/vi/RHoEr0fQluI/default.jpg",
+      "https://i1.sndcdn.com/artworks-WF2mdcl0Fhvk-0-t500x500.jpg"
+    ],
+    "publishDate": "2013-09-07T00:00:00Z",
+    "acceptedTitles": [
+      "妄想税",
+      "Delusion Tax",
+      "Mousouzei",
+      "Mousou Zei"
+    ],
+    "audioClip": "https://audio.sodapines.dev/38916.mp3"
+  },
+  {
+    "date": "2026-12-28",
+    "vocadbId": 41593,
+    "title": "Don't Go",
+    "artist": "Sohta",
+    "artistString": "Sohta feat. Kaai Yuki",
+    "vocadbName": "Don't Go",
+    "vocadbUrl": "https://vocadb.net/S/41593",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/22001720/22001720",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/22001720/22001720",
+      "https://i1.ytimg.com/vi/ct_NaWo8azc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ct_NaWo8azc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/wKiriOAFUWY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/WYFAkxwtAsI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/wKiriOAFUWY/default.jpg",
+      "https://i.ytimg.com/vi/WYFAkxwtAsI/default.jpg"
+    ],
+    "publishDate": "2013-10-09T00:00:00Z",
+    "acceptedTitles": [
+      "いかないで",
+      "Don't Go",
+      "Ikanaide",
+      "가지 마",
+      "Do not go",
+      "别走"
+    ],
+    "audioClip": "https://audio.sodapines.dev/41593.mp3"
+  },
+  {
+    "date": "2026-12-29",
+    "vocadbId": 42111,
+    "title": "Young Girl A",
+    "artist": "siinamota",
+    "artistString": "siinamota feat. Kagamine Rin Append (Power)",
+    "vocadbName": "Young Girl A",
+    "vocadbUrl": "https://vocadb.net/S/42111",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/22061366/22061366",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/22061366/22061366",
+      "https://i1.ytimg.com/vi/AqI97zHMoQw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/AqI97zHMoQw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/VjsPYyUWUwY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/AqI97zHMoQw/default.jpg",
+      "https://i.ytimg.com/vi/VjsPYyUWUwY/default.jpg"
+    ],
+    "publishDate": "2013-10-17T00:00:00Z",
+    "acceptedTitles": [
+      "少女A",
+      "Young Girl A",
+      "Shoujo A",
+      "Girl A"
+    ],
+    "audioClip": "https://audio.sodapines.dev/42111.mp3"
+  },
+  {
+    "date": "2026-12-30",
+    "vocadbId": 42676,
+    "title": "DONUT HOLE",
+    "artist": "HACHI",
+    "artistString": "HACHI feat. GUMI",
+    "vocadbName": "DONUT HOLE",
+    "vocadbUrl": "https://vocadb.net/S/42676",
+    "coverArt": "https://i.ytimg.com/vi/qnX2CdOBcDI/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/qnX2CdOBcDI/default.jpg",
+      "https://i1.ytimg.com/vi/qnX2CdOBcDI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/qnX2CdOBcDI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/5o5NzQkKlnI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/nJfaXyDLwy4/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/22138447/22138447",
+      "https://i.ytimg.com/vi/5o5NzQkKlnI/default.jpg",
+      "https://i.ytimg.com/vi/nJfaXyDLwy4/default.jpg"
+    ],
+    "publishDate": "2013-10-28T00:00:00Z",
+    "acceptedTitles": [
+      "ドーナツホール",
+      "DONUT HOLE"
+    ],
+    "audioClip": "https://audio.sodapines.dev/42676.mp3"
+  },
+  {
+    "date": "2026-12-31",
+    "vocadbId": 42733,
+    "title": "Love Song",
+    "artist": "LamazeP",
+    "artistString": "LamazeP feat. Hatsune Miku V3 (Original)",
+    "vocadbName": "Love Song",
+    "vocadbUrl": "https://vocadb.net/S/42733",
+    "coverArt": "https://i.ytimg.com/vi/E2oRrLUxWKo/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/E2oRrLUxWKo/default.jpg",
+      "https://i1.ytimg.com/vi/E2oRrLUxWKo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/3TWiBLrmeM4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/E2oRrLUxWKo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/3TWiBLrmeM4/default.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/22151787/22151787"
+    ],
+    "publishDate": "2013-10-30T00:00:00Z",
+    "acceptedTitles": [
+      "愛の詩",
+      "Love Song",
+      "Ai no Uta"
+    ],
+    "audioClip": "https://audio.sodapines.dev/42733.mp3"
+  },
+  {
+    "date": "2027-01-01",
+    "vocadbId": 44190,
+    "title": "Kiddie War",
+    "artist": "Giga",
+    "artistString": "Giga feat. Kagamine Len Append (Power), Kagamine Rin Append (Power)",
+    "vocadbName": "Kiddie War",
+    "vocadbUrl": "https://vocadb.net/S/44190",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/22349544/22349544",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/22349544/22349544",
+      "https://i1.ytimg.com/vi/qYAmduGAwBQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/qYAmduGAwBQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/3sPEXorI4-w/hqdefault.jpg",
+      "https://i.ytimg.com/vi/f5m3hFiVk34/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Tl3vBeuyZ3Q/hqdefault.jpg",
+      "https://i.ytimg.com/vi/qYAmduGAwBQ/default.jpg",
+      "https://i.ytimg.com/vi/3sPEXorI4-w/default.jpg",
+      "https://i.ytimg.com/vi/f5m3hFiVk34/default.jpg",
+      "https://i.ytimg.com/vi/Tl3vBeuyZ3Q/default.jpg"
+    ],
+    "publishDate": "2013-11-29T00:00:00Z",
+    "acceptedTitles": [
+      "おこちゃま戦争",
+      "Kiddie War",
+      "Okochama Sensou",
+      "Childish War",
+      "Children's War",
+      "어린이 전쟁"
+    ],
+    "audioClip": "https://audio.sodapines.dev/44190.mp3"
+  },
+  {
+    "date": "2027-01-02",
+    "vocadbId": 45245,
+    "title": "DECORATOR",
+    "artist": "kz",
+    "artistString": "kz, livetune feat. Hatsune Miku",
+    "vocadbName": "DECORATOR",
+    "vocadbUrl": "https://vocadb.net/S/45245",
+    "coverArt": "https://i1.ytimg.com/vi/zweVJrnE1uY/default.jpg",
+    "coverArts": [
+      "https://i1.ytimg.com/vi/zweVJrnE1uY/default.jpg",
+      "https://i.ytimg.com/vi/zweVJrnE1uY/default.jpg",
+      "https://i1.ytimg.com/vi/zweVJrnE1uY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/zweVJrnE1uY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/sJlUV34X8JA/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/22929609/22929609",
+      "https://i.ytimg.com/vi/sJlUV34X8JA/default.jpg"
+    ],
+    "publishDate": "2014-02-20T00:00:00Z",
+    "acceptedTitles": [
+      "DECORATOR"
+    ],
+    "audioClip": "https://audio.sodapines.dev/45245.mp3"
+  },
+  {
+    "date": "2027-01-03",
+    "vocadbId": 45526,
+    "title": "Sweet Slave Comedy",
+    "artist": "AkibawotaP",
+    "artistString": "AkibawotaP feat. Sekka Yufu",
+    "vocadbName": "Sweet Slave Comedy",
+    "vocadbUrl": "https://vocadb.net/S/45526",
+    "coverArt": "https://i.ytimg.com/vi/5L2NXbpN3T8/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/5L2NXbpN3T8/default.jpg",
+      "https://i1.ytimg.com/vi/5L2NXbpN3T8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/5L2NXbpN3T8/hqdefault.jpg",
+      "https://i2.hdslb.com/bfs/archive/08c62198b423dff01f1180bb7a7525dab8a60c9e.jpg"
+    ],
+    "publishDate": "2013-12-23T00:00:00Z",
+    "acceptedTitles": [
+      "スイートスレイヴコメディ",
+      "Sweet Slave Comedy",
+      "Suite Slave Comedy",
+      "스위트 슬레이브 코미디"
+    ],
+    "audioClip": "https://audio.sodapines.dev/45526.mp3"
+  },
+  {
+    "date": "2027-01-04",
+    "vocadbId": 45753,
+    "title": "Eraser Girl",
+    "artist": "MARETU",
+    "artistString": "MARETU feat. Hatsune Miku, V3 GUMI (Power)",
+    "vocadbName": "Eraser Girl",
+    "vocadbUrl": "https://vocadb.net/S/45753",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/22542108/22542108",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/22542108/22542108",
+      "https://i1.ytimg.com/vi/KENZWTQFrQ0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/KENZWTQFrQ0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/5LTGP9HmGrg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/LpnQDkLzr8M/hqdefault.jpg",
+      "https://i.ytimg.com/vi/5LTGP9HmGrg/default.jpg",
+      "https://i.ytimg.com/vi/LpnQDkLzr8M/default.jpg"
+    ],
+    "publishDate": "2013-12-27T00:00:00Z",
+    "acceptedTitles": [
+      "少女ケシゴム",
+      "Eraser Girl",
+      "Shoujo Keshigomu",
+      "Girl eraser",
+      "소녀 지우개"
+    ],
+    "audioClip": "https://audio.sodapines.dev/45753.mp3"
+  },
+  {
+    "date": "2027-01-05",
+    "vocadbId": 47354,
+    "title": "Love! Snow! Really Magic",
+    "artist": "Mitchie M",
+    "artistString": "Mitchie M feat. Hatsune Miku, Hatsune Miku V3 (English)",
+    "vocadbName": "Love! Snow! Really Magic",
+    "vocadbUrl": "https://vocadb.net/S/47354",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/22791352/22791352.11216391",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/22791352/22791352.11216391",
+      "https://i1.ytimg.com/vi/79N1O0lF0GY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/79N1O0lF0GY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/BJ4F-CvYXeE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/1EmZgcOTWkY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/79N1O0lF0GY/default.jpg",
+      "https://i2.hdslb.com/bfs/archive/bf713ae35205e669d4011e555be0ee5e7cd40916.jpg",
+      "https://i1.sndcdn.com/artworks-000133077950-xpaafs-large.jpg",
+      "https://i.ytimg.com/vi/BJ4F-CvYXeE/default.jpg",
+      "https://i.ytimg.com/vi/1EmZgcOTWkY/default.jpg"
+    ],
+    "publishDate": "2014-02-01T00:00:00Z",
+    "acceptedTitles": [
+      "好き！雪！本気マジック",
+      "Love! Snow! Really Magic",
+      "Suki! Yuki! Maji Magic",
+      "喜欢！雪！真实的魔法",
+      "喜歡！雪！真實的魔法",
+      "Xihuan! Xue! Zhenshi de Mofa"
+    ],
+    "audioClip": "https://audio.sodapines.dev/47354.mp3"
+  },
+  {
+    "date": "2027-01-06",
+    "vocadbId": 47401,
+    "title": "Dreamin Chuchu",
+    "artist": "emon(Tes.)",
+    "artistString": "emon(Tes.) feat. Megurine Luka",
+    "vocadbName": "Dreamin Chuchu",
+    "vocadbUrl": "https://vocadb.net/S/47401",
+    "coverArt": "https://i1.ytimg.com/vi/WdHRGH1Qv70/default.jpg",
+    "coverArts": [
+      "https://i1.ytimg.com/vi/WdHRGH1Qv70/default.jpg",
+      "https://i.ytimg.com/vi/WdHRGH1Qv70/default.jpg",
+      "https://i1.ytimg.com/vi/WdHRGH1Qv70/hqdefault.jpg",
+      "https://i.ytimg.com/vi/WdHRGH1Qv70/hqdefault.jpg",
+      "https://i.ytimg.com/vi/tPp8s_5DjgM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/tPp8s_5DjgM/default.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/26557225/26557225",
+      "https://i0.hdslb.com/bfs/archive/95a6eca0b5b88a6cb94cec6b5d8d7a12594052b4.jpg"
+    ],
+    "publishDate": "2014-02-28T00:00:00Z",
+    "acceptedTitles": [
+      "どりーみんチュチュ",
+      "Dreamin Chuchu",
+      "드리밍 츄츄"
+    ],
+    "audioClip": "https://audio.sodapines.dev/47401.mp3"
+  },
+  {
+    "date": "2027-01-07",
+    "vocadbId": 47759,
+    "title": "At God's Mercy",
+    "artist": "rerulili",
+    "artistString": "rerulili feat. Hatsune Miku, Kagamine Rin, GUMI",
+    "vocadbName": "At God's Mercy",
+    "vocadbUrl": "https://vocadb.net/S/47759",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/22831329/22831329",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/22831329/22831329",
+      "https://i1.ytimg.com/vi/b2GJcYBoVyg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/b2GJcYBoVyg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/V4ko6NBmxrU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/b2GJcYBoVyg/default.jpg",
+      "https://i.ytimg.com/vi/V4ko6NBmxrU/default.jpg"
+    ],
+    "publishDate": "2014-02-07T00:00:00Z",
+    "acceptedTitles": [
+      "神のまにまに",
+      "At God's Mercy",
+      "Kami no Manimani",
+      "As the Gods Say",
+      "At the Mercy of the Gods",
+      "Entrust to god",
+      "신의 뜻대로"
+    ],
+    "audioClip": "https://audio.sodapines.dev/47759.mp3"
+  },
+  {
+    "date": "2027-01-08",
+    "vocadbId": 48019,
+    "title": "Therefore You and Me",
+    "artist": "si-o",
+    "artistString": "si-o feat. Makimiya Fuki, Hatsune Miku Append (Light)",
+    "vocadbName": "Therefore You and Me",
+    "vocadbUrl": "https://vocadb.net/S/48019",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/22877529/22877529",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/22877529/22877529",
+      "https://i1.ytimg.com/vi/LSPXSShg8vs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/qq5N6YMb_VM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/g3TrmUqbKNc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/LSPXSShg8vs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/R8AvnZFX4Xs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/qq5N6YMb_VM/default.jpg",
+      "https://i.ytimg.com/vi/g3TrmUqbKNc/default.jpg",
+      "https://res.piapro.jp/r/images/card/250/miku.png?20260120",
+      "https://i.ytimg.com/vi/LSPXSShg8vs/default.jpg",
+      "https://i.ytimg.com/vi/R8AvnZFX4Xs/default.jpg"
+    ],
+    "publishDate": "2014-02-13T00:00:00Z",
+    "acceptedTitles": [
+      "故にユーエンミ―",
+      "Therefore You and Me",
+      "Yueni You and Me",
+      "So You See, You and Me",
+      "故にユーエンミー",
+      "그러니 유 앤 미"
+    ],
+    "audioClip": "https://audio.sodapines.dev/48019.mp3"
+  },
+  {
+    "date": "2027-01-09",
+    "vocadbId": 48029,
+    "title": "Streaming Heart",
+    "artist": "DECO*27",
+    "artistString": "DECO*27, kous feat. Hatsune Miku",
+    "vocadbName": "Streaming Heart",
+    "vocadbUrl": "https://vocadb.net/S/48029",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/23144598/23144598",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/23144598/23144598",
+      "https://i1.ytimg.com/vi/9DD6JvY06Ok/hqdefault.jpg",
+      "https://i.ytimg.com/vi/9DD6JvY06Ok/hqdefault.jpg",
+      "https://i.ytimg.com/vi/dF0c5BZINBg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/uskHVmY2GP4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/9DD6JvY06Ok/default.jpg",
+      "https://i.ytimg.com/vi/dF0c5BZINBg/default.jpg",
+      "https://i.ytimg.com/vi/uskHVmY2GP4/default.jpg",
+      "https://i1.sndcdn.com/artworks-hxVwMHeoQSgt-0-t500x500.jpg"
+    ],
+    "publishDate": "2014-03-21T00:00:00Z",
+    "acceptedTitles": [
+      "ストリーミングハート",
+      "Streaming Heart"
+    ],
+    "audioClip": "https://audio.sodapines.dev/48029.mp3"
+  },
+  {
+    "date": "2027-01-10",
+    "vocadbId": 49751,
+    "title": "Gothic and Loneliness",
+    "artist": "Narushima Takashi",
+    "artistString": "Narushima Takashi feat. Kagamine Rin Append (Sweet), Kagamine Rin Append (Power)",
+    "vocadbName": "Gothic and Loneliness",
+    "vocadbUrl": "https://vocadb.net/S/49751",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/14538348/14538348",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/14538348/14538348",
+      "https://i1.ytimg.com/vi/rfDCtHQuyXE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/rfDCtHQuyXE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/AYuvn6TN9Ws/hqdefault.jpg",
+      "https://i.ytimg.com/vi/6LkBE93HrQ8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/rfDCtHQuyXE/default.jpg",
+      "https://i.ytimg.com/vi/AYuvn6TN9Ws/default.jpg",
+      "https://i.ytimg.com/vi/6LkBE93HrQ8/default.jpg"
+    ],
+    "publishDate": "2011-05-23T00:00:00Z",
+    "acceptedTitles": [
+      "Gothic and Loneliness"
+    ],
+    "audioClip": "https://audio.sodapines.dev/49751.mp3"
+  },
+  {
+    "date": "2027-01-11",
+    "vocadbId": 49755,
+    "title": "LUVORATORRRRRY!",
+    "artist": "Giga",
+    "artistString": "Giga, Reol feat. Kagamine Rin Append (Power), V3 GUMI (Power)",
+    "vocadbName": "LUVORATORRRRRY!",
+    "vocadbUrl": "https://vocadb.net/S/49755",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/22942867/22942867",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/22942867/22942867",
+      "https://i1.ytimg.com/vi/LHdlw9F3KP4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/LHdlw9F3KP4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/LHdlw9F3KP4/default.jpg"
+    ],
+    "publishDate": "2014-02-22T00:00:00Z",
+    "acceptedTitles": [
+      "LUVORATORRRRRY!"
+    ],
+    "audioClip": "https://audio.sodapines.dev/49755.mp3"
+  },
+  {
+    "date": "2027-01-12",
+    "vocadbId": 49871,
+    "title": "Tale of the Deep-Sea Lily",
+    "artist": "n-buna",
+    "artistString": "n-buna feat. Hatsune Miku V3 (Dark)",
+    "vocadbName": "Tale of the Deep-Sea Lily",
+    "vocadbUrl": "https://vocadb.net/S/49871",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/22960446/22960446",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/22960446/22960446",
+      "https://i1.ytimg.com/vi/7JANm3jOb2k/hqdefault.jpg",
+      "https://i.ytimg.com/vi/qbNhJU2Pq-4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/7JANm3jOb2k/hqdefault.jpg",
+      "https://i.ytimg.com/vi/4CHmkLhW13s/hqdefault.jpg",
+      "https://i.ytimg.com/vi/H4JuDL4N-_c/hqdefault.jpg",
+      "https://i.ytimg.com/vi/qbNhJU2Pq-4/default.jpg",
+      "https://i.ytimg.com/vi/7JANm3jOb2k/default.jpg",
+      "https://res.piapro.jp/r/images/card/250/miku.png?20260120",
+      "https://i.ytimg.com/vi/4CHmkLhW13s/default.jpg",
+      "https://i.ytimg.com/vi/H4JuDL4N-_c/default.jpg"
+    ],
+    "publishDate": "2014-02-24T00:00:00Z",
+    "acceptedTitles": [
+      "ウミユリ海底譚",
+      "Tale of the Deep-Sea Lily",
+      "Umiyuri Kaitei Tan",
+      "Sea Lily Deep Sea Tale"
+    ],
+    "audioClip": "https://audio.sodapines.dev/49871.mp3"
+  },
+  {
+    "date": "2027-01-13",
+    "vocadbId": 51082,
+    "title": "+♂",
+    "artist": "Giga",
+    "artistString": "Giga feat. Kagamine Len Append (Power)",
+    "vocadbName": "+♂",
+    "vocadbUrl": "https://vocadb.net/S/51082",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/23134050/23134050",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/23134050/23134050",
+      "https://i1.ytimg.com/vi/RIA-vEJB1Aw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/RIA-vEJB1Aw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/8zNRKC6BwRQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/RIA-vEJB1Aw/default.jpg",
+      "https://i.ytimg.com/vi/8zNRKC6BwRQ/default.jpg",
+      "https://i1.sndcdn.com/artworks-zepK3BBblXae-0-t500x500.jpg"
+    ],
+    "publishDate": "2014-03-20T00:00:00Z",
+    "acceptedTitles": [
+      "+♂",
+      "プラス男子",
+      "Plus Danshi",
+      "Plus Boy",
+      "＋♂"
+    ],
+    "audioClip": "https://audio.sodapines.dev/51082.mp3"
+  },
+  {
+    "date": "2027-01-14",
+    "vocadbId": 56903,
+    "title": "SLoWMoTIoN",
+    "artist": "PinocchioP",
+    "artistString": "PinocchioP feat. Hatsune Miku Append (Solid)",
+    "vocadbName": "SLoWMoTIoN",
+    "vocadbUrl": "https://vocadb.net/S/56903",
+    "coverArt": "https://i.ytimg.com/vi/ARt2fVT33Lw/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/ARt2fVT33Lw/default.jpg",
+      "https://i1.ytimg.com/vi/ARt2fVT33Lw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/oLNC1fZD8Ww/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ARt2fVT33Lw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ig5bo5DIR24/hqdefault.jpg",
+      "https://i.ytimg.com/vi/1htqh1p6W1Q/hqdefault.jpg",
+      "https://i.ytimg.com/vi/0zeTJSTr7vA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/oLNC1fZD8Ww/default.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/23648996/23648996",
+      "https://i.ytimg.com/vi/ig5bo5DIR24/default.jpg",
+      "https://i.ytimg.com/vi/1htqh1p6W1Q/default.jpg",
+      "https://i.ytimg.com/vi/0zeTJSTr7vA/default.jpg",
+      "https://i1.sndcdn.com/artworks-tNT3MEXj96dY-0-t500x500.jpg"
+    ],
+    "publishDate": "2014-05-27T00:00:00Z",
+    "acceptedTitles": [
+      "すろぉもぉしょん",
+      "SLoWMoTIoN",
+      "Slow Motion"
+    ],
+    "audioClip": "https://audio.sodapines.dev/56903.mp3"
+  },
+  {
+    "date": "2027-01-15",
+    "vocadbId": 57096,
+    "title": "Miss Wanna-Die",
+    "artist": "Switch",
+    "artistString": "Switch feat. IA",
+    "vocadbName": "Miss Wanna-Die",
+    "vocadbUrl": "https://vocadb.net/S/57096",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/23636447/23636447",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/23636447/23636447",
+      "https://i1.ytimg.com/vi/eBo3LU7Do9o/hqdefault.jpg",
+      "https://i.ytimg.com/vi/IDBN34J0mkc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/eBo3LU7Do9o/hqdefault.jpg",
+      "https://i.ytimg.com/vi/IDBN34J0mkc/default.jpg",
+      "https://i.ytimg.com/vi/eBo3LU7Do9o/default.jpg"
+    ],
+    "publishDate": "2014-05-26T00:00:00Z",
+    "acceptedTitles": [
+      "シニタイちゃん",
+      "Miss Wanna-Die",
+      "Shinitai-chan",
+      "죽고 싶은 소녀"
+    ],
+    "audioClip": "https://audio.sodapines.dev/57096.mp3"
+  },
+  {
+    "date": "2027-01-16",
+    "vocadbId": 57519,
+    "title": "Love Trial",
+    "artist": "40mP",
+    "artistString": "40mP feat. Hatsune Miku",
+    "vocadbName": "Love Trial",
+    "vocadbUrl": "https://vocadb.net/S/57519",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/23750267/23750267",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/23750267/23750267",
+      "https://i1.ytimg.com/vi/TXzfQ0cP1P0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/TXzfQ0cP1P0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/5H1HNFcJSjU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/dDoPOJnaoRs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/_CovcE8LQjU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/bWx7LtyPyVc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/O0OXNlVn6iQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/zG98wNxey0A/hqdefault.jpg",
+      "https://i.ytimg.com/vi/NKY39jwvn0E/hqdefault.jpg",
+      "https://i.ytimg.com/vi/TXzfQ0cP1P0/default.jpg",
+      "https://i.ytimg.com/vi/5H1HNFcJSjU/default.jpg",
+      "https://i.ytimg.com/vi/dDoPOJnaoRs/default.jpg",
+      "https://i2.hdslb.com/bfs/archive/9e976b09698c03fa176818dd3b24ee14fcbd5475.jpg",
+      "https://i.ytimg.com/vi/_CovcE8LQjU/default.jpg",
+      "https://i.ytimg.com/vi/bWx7LtyPyVc/default.jpg",
+      "https://i.ytimg.com/vi/O0OXNlVn6iQ/default.jpg",
+      "https://i.ytimg.com/vi/zG98wNxey0A/default.jpg",
+      "https://i.ytimg.com/vi/NKY39jwvn0E/default.jpg"
+    ],
+    "publishDate": "2014-06-10T00:00:00Z",
+    "acceptedTitles": [
+      "恋愛裁判",
+      "Love Trial",
+      "Ren'ai Saiban",
+      "恋爱审判"
+    ],
+    "audioClip": "https://audio.sodapines.dev/57519.mp3"
+  },
+  {
+    "date": "2027-01-17",
+    "vocadbId": 58632,
+    "title": "Patchwork Staccato",
+    "artist": "Toa",
+    "artistString": "Toa feat. Hatsune Miku",
+    "vocadbName": "Patchwork Staccato",
+    "vocadbUrl": "https://vocadb.net/S/58632",
+    "coverArt": "https://i.ytimg.com/vi/p2Irc9NPCtk/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/p2Irc9NPCtk/default.jpg",
+      "https://i1.ytimg.com/vi/p2Irc9NPCtk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/p2Irc9NPCtk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/2zIRnfir0X4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/4yuj46BDkWE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/R4obrCbjpz8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/TbSr45bSkj8/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/23762151/23762151",
+      "https://i1.hdslb.com/bfs/archive/b2942e658cf331962d50be1c06fce3e3ef61adb5.png",
+      "https://i.ytimg.com/vi/2zIRnfir0X4/default.jpg",
+      "https://i.ytimg.com/vi/4yuj46BDkWE/default.jpg",
+      "https://i.ytimg.com/vi/R4obrCbjpz8/default.jpg",
+      "https://i.ytimg.com/vi/TbSr45bSkj8/default.jpg"
+    ],
+    "publishDate": "2014-06-12T00:00:00Z",
+    "acceptedTitles": [
+      "ツギハギスタッカート",
+      "Patchwork Staccato",
+      "Tsugihagi Staccato",
+      "누덕누덕 스타카토",
+      "拼凑的断音"
+    ],
+    "audioClip": "https://audio.sodapines.dev/58632.mp3"
+  },
+  {
+    "date": "2027-01-18",
+    "vocadbId": 60953,
+    "title": "drop pop candy",
+    "artist": "Giga",
+    "artistString": "Giga feat. Kagamine Rin Append (Sweet), Megurine Luka",
+    "vocadbName": "drop pop candy",
+    "vocadbUrl": "https://vocadb.net/S/60953",
+    "coverArt": "https://i.ytimg.com/vi/4sq2lPNxi7M/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/4sq2lPNxi7M/default.jpg",
+      "https://i1.ytimg.com/vi/4sq2lPNxi7M/hqdefault.jpg",
+      "https://i.ytimg.com/vi/4sq2lPNxi7M/hqdefault.jpg",
+      "https://i.ytimg.com/vi/hM9l-06jsPk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/1mDyYdj0dmo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Wz-_PyeBMwk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/TWshSiGS2ws/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/24029703/24029703",
+      "https://i.ytimg.com/vi/hM9l-06jsPk/default.jpg",
+      "https://i.ytimg.com/vi/1mDyYdj0dmo/default.jpg",
+      "https://i.ytimg.com/vi/Wz-_PyeBMwk/default.jpg",
+      "https://i.ytimg.com/vi/TWshSiGS2ws/default.jpg",
+      "https://i1.sndcdn.com/artworks-5PJgpUV3cKDm-0-t500x500.jpg"
+    ],
+    "publishDate": "2014-07-18T00:00:00Z",
+    "acceptedTitles": [
+      "drop pop candy"
+    ],
+    "audioClip": "https://audio.sodapines.dev/60953.mp3"
+  },
+  {
+    "date": "2027-01-19",
+    "vocadbId": 62525,
+    "title": "Imperfect Animals",
+    "artist": "Utsu-P",
+    "artistString": "Utsu-P feat. Kagamine Rin, V3 GUMI (Power)",
+    "vocadbName": "Imperfect Animals",
+    "vocadbUrl": "https://vocadb.net/S/62525",
+    "coverArt": "https://i.ytimg.com/vi/-3uAkYeQH_s/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/-3uAkYeQH_s/default.jpg",
+      "https://i1.ytimg.com/vi/-3uAkYeQH_s/hqdefault.jpg",
+      "https://i.ytimg.com/vi/-3uAkYeQH_s/hqdefault.jpg",
+      "https://i.ytimg.com/vi/yJdw2Dl7YlU/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/24085385/24085385",
+      "https://i.ytimg.com/vi/yJdw2Dl7YlU/default.jpg",
+      "https://f4.bcbits.com/img/a1631044565_5.jpg"
+    ],
+    "publishDate": "2014-07-25T00:00:00Z",
+    "acceptedTitles": [
+      "インパーフェクトアニマルズ",
+      "Imperfect Animals",
+      "임퍼펙트 애니멀즈"
+    ],
+    "audioClip": "https://audio.sodapines.dev/62525.mp3"
+  },
+  {
+    "date": "2027-01-20",
+    "vocadbId": 63067,
+    "title": "Dance in Absolute Music",
+    "artist": "Utsu-P",
+    "artistString": "Utsu-P feat. v flower",
+    "vocadbName": "Dance in Absolute Music",
+    "vocadbUrl": "https://vocadb.net/S/63067",
+    "coverArt": "https://i.ytimg.com/vi/k7UryMWlMHw/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/k7UryMWlMHw/default.jpg",
+      "https://i1.ytimg.com/vi/k7UryMWlMHw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/k7UryMWlMHw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/aP4X2lwuqbs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/W-6_He4pfFY/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/24341513/24341513",
+      "https://f4.bcbits.com/img/a1631044565_5.jpg",
+      "https://i.ytimg.com/vi/aP4X2lwuqbs/default.jpg",
+      "https://i.ytimg.com/vi/W-6_He4pfFY/default.jpg"
+    ],
+    "publishDate": "2014-08-17T00:00:00Z",
+    "acceptedTitles": [
+      "絶対音楽で踊れ",
+      "Dance in Absolute Music",
+      "Zettai Ongaku de Odore",
+      "Absolute Music Dance",
+      "절대음악으로 춤춰라"
+    ],
+    "audioClip": "https://audio.sodapines.dev/63067.mp3"
+  },
+  {
+    "date": "2027-01-21",
+    "vocadbId": 63276,
+    "title": "Resonate",
+    "artist": "Giga",
+    "artistString": "Giga feat. Hatsune Miku V3 (Solid)",
+    "vocadbName": "Resonate",
+    "vocadbUrl": "https://vocadb.net/S/63276",
+    "coverArt": "https://i.ytimg.com/vi/TkroHwQYpFE/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/TkroHwQYpFE/default.jpg",
+      "https://i1.ytimg.com/vi/TkroHwQYpFE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/TkroHwQYpFE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/f_2PqUwdijI/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/24536934/24536934",
+      "https://i0.hdslb.com/bfs/archive/b745de063ae92784f402533e847bad2d6a79afad.jpg",
+      "https://i1.sndcdn.com/artworks-000114039146-oufgew-large.jpg",
+      "https://i.ytimg.com/vi/f_2PqUwdijI/default.jpg",
+      "https://i1.sndcdn.com/artworks-pUXD5ZRc9PyV-0-t500x500.jpg"
+    ],
+    "publishDate": "2014-08-17T00:00:00Z",
+    "acceptedTitles": [
+      "ヒビカセ",
+      "Resonate",
+      "Hibikase",
+      "Ripple Out",
+      "让其响彻"
+    ],
+    "audioClip": "https://audio.sodapines.dev/63276.mp3"
+  },
+  {
+    "date": "2027-01-22",
+    "vocadbId": 65736,
+    "title": "Snowman",
+    "artist": "halyosy",
+    "artistString": "halyosy feat. KAITO V3 (Straight)",
+    "vocadbName": "Snowman",
+    "vocadbUrl": "https://vocadb.net/S/65736",
+    "coverArt": "https://i.ytimg.com/vi/SQx60Rk6Ez4/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/SQx60Rk6Ez4/default.jpg",
+      "https://i1.ytimg.com/vi/SQx60Rk6Ez4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/SQx60Rk6Ez4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ZIFFIOyPzRQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/cspprmHF-lQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ZIFFIOyPzRQ/default.jpg",
+      "https://i.ytimg.com/vi/cspprmHF-lQ/default.jpg"
+    ],
+    "publishDate": "2013-11-28T00:00:00Z",
+    "acceptedTitles": [
+      "スノーマン",
+      "Snowman",
+      "스노우맨"
+    ],
+    "audioClip": "https://audio.sodapines.dev/65736.mp3"
+  },
+  {
+    "date": "2027-01-23",
+    "vocadbId": 65861,
+    "title": "Night Sky Patrol of Tomorrow",
+    "artist": "Orangestar",
+    "artistString": "Orangestar feat. IA",
+    "vocadbName": "Night Sky Patrol of Tomorrow",
+    "vocadbUrl": "https://vocadb.net/S/65861",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/24276234/24276234",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/24276234/24276234",
+      "https://i1.ytimg.com/vi/XogSflwXgpw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/XogSflwXgpw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/przHeOggFZA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/tdhbZWNfVzU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/DgGC2RM2wGk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/JCtCEpxYWcE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/XogSflwXgpw/default.jpg",
+      "https://i.ytimg.com/vi/przHeOggFZA/default.jpg",
+      "https://i.ytimg.com/vi/tdhbZWNfVzU/default.jpg",
+      "https://i.ytimg.com/vi/DgGC2RM2wGk/default.jpg",
+      "https://i.ytimg.com/vi/JCtCEpxYWcE/default.jpg"
+    ],
+    "publishDate": "2014-08-19T00:00:00Z",
+    "acceptedTitles": [
+      "アスノヨゾラ哨戒班",
+      "Night Sky Patrol of Tomorrow",
+      "Asu no Yozora Shoukaihan",
+      "明日的夜空哨戒班",
+      "내일의 밤하늘 초계반"
+    ],
+    "audioClip": "https://audio.sodapines.dev/65861.mp3"
+  },
+  {
+    "date": "2027-01-24",
+    "vocadbId": 66265,
+    "title": "With an Unblurred Eye",
+    "artist": "Mitchie M",
+    "artistString": "Mitchie M feat. Hatsune Miku V3 (Original)",
+    "vocadbName": "With an Unblurred Eye",
+    "vocadbUrl": "https://vocadb.net/S/66265",
+    "coverArt": "https://i.ytimg.com/vi/8kX5_69sO8Q/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/8kX5_69sO8Q/default.jpg",
+      "https://i1.ytimg.com/vi/8kX5_69sO8Q/hqdefault.jpg",
+      "https://i.ytimg.com/vi/8kX5_69sO8Q/hqdefault.jpg",
+      "https://i.ytimg.com/vi/x1FwPCCNGZM/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/24347618/24347618.75002514",
+      "https://i2.hdslb.com/bfs/archive/f4cf1132890e6313f4bb5329a806f049cefa32bd.jpg",
+      "https://i1.sndcdn.com/artworks-000133853064-d2qify-large.jpg",
+      "https://i.ytimg.com/vi/x1FwPCCNGZM/default.jpg"
+    ],
+    "publishDate": "2014-08-29T00:00:00Z",
+    "acceptedTitles": [
+      "ぶれないアイで",
+      "With an Unblurred Eye",
+      "Burenai Eye de",
+      "坚定的Eye",
+      "With Your Steady Eyes",
+      "Burenai ai de"
+    ],
+    "audioClip": "https://audio.sodapines.dev/66265.mp3"
+  },
+  {
+    "date": "2027-01-25",
+    "vocadbId": 68091,
+    "title": "Nice to Meet You, Mr. Earthling",
+    "artist": "PinocchioP",
+    "artistString": "PinocchioP feat. Hatsune Miku",
+    "vocadbName": "Nice to Meet You, Mr. Earthling",
+    "vocadbUrl": "https://vocadb.net/S/68091",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/26616325/26616325",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/26616325/26616325",
+      "https://i1.ytimg.com/vi/e1gY8dUfKxg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/e1gY8dUfKxg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/MM3eTNpnVuM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/sI5znwOKj_o/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Qowj6I1Cuu0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/1AR1AbiIgYY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/BRO_H5VqVfQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/e1gY8dUfKxg/default.jpg",
+      "https://i.ytimg.com/vi/MM3eTNpnVuM/default.jpg",
+      "https://i.ytimg.com/vi/sI5znwOKj_o/default.jpg",
+      "https://i.ytimg.com/vi/Qowj6I1Cuu0/default.jpg",
+      "https://i.ytimg.com/vi/1AR1AbiIgYY/default.jpg",
+      "https://i.ytimg.com/vi/BRO_H5VqVfQ/default.jpg",
+      "https://i1.sndcdn.com/artworks-wI8VvzIYGFSp-0-t500x500.jpg"
+    ],
+    "publishDate": "2014-12-03T00:00:00Z",
+    "acceptedTitles": [
+      "はじめまして地球人さん",
+      "Nice to Meet You, Mr. Earthling",
+      "Hajimemashite Chikyuujin-san",
+      "Hello There, Earthling"
+    ],
+    "audioClip": "https://audio.sodapines.dev/68091.mp3"
+  },
+  {
+    "date": "2027-01-26",
+    "vocadbId": 68155,
+    "title": "WILDFIRE!!",
+    "artist": "CircusP",
+    "artistString": "CircusP, Crusher, CIRCRUSH feat. V3 GUMI (English)",
+    "vocadbName": "WILDFIRE!!",
+    "vocadbUrl": "https://vocadb.net/S/68155",
+    "coverArt": "https://i.ytimg.com/vi/saG6H5W_Lcc/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/saG6H5W_Lcc/default.jpg",
+      "https://i1.ytimg.com/vi/TelBxYSh3z8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/y-32o_Fjnhw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/TelBxYSh3z8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/saG6H5W_Lcc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/y-32o_Fjnhw/default.jpg"
+    ],
+    "publishDate": "2014-09-21T00:00:00Z",
+    "acceptedTitles": [
+      "WILDFIRE!!"
+    ],
+    "audioClip": "https://audio.sodapines.dev/68155.mp3"
+  },
+  {
+    "date": "2027-01-27",
+    "vocadbId": 68814,
+    "title": "ECHO",
+    "artist": "Crusher",
+    "artistString": "Crusher, CIRCRUSH feat. V3 GUMI (English)",
+    "vocadbName": "ECHO",
+    "vocadbUrl": "https://vocadb.net/S/68814",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/24643818/24643818",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/24643818/24643818",
+      "https://i1.ytimg.com/vi/cQKGUgOfD8U/hqdefault.jpg",
+      "https://i.ytimg.com/vi/cQKGUgOfD8U/hqdefault.jpg",
+      "https://i.ytimg.com/vi/HNQhNY_ks2I/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Bn59Gdno_w8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/P6QMNxgtdjM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/0D8CajzsJVk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/cQKGUgOfD8U/default.jpg",
+      "https://i1.sndcdn.com/artworks-000093318777-450q47-large.jpg",
+      "https://i.ytimg.com/vi/HNQhNY_ks2I/default.jpg",
+      "https://i.ytimg.com/vi/Bn59Gdno_w8/default.jpg",
+      "https://i.ytimg.com/vi/P6QMNxgtdjM/default.jpg",
+      "https://i.ytimg.com/vi/0D8CajzsJVk/default.jpg"
+    ],
+    "publishDate": "2014-10-08T00:00:00Z",
+    "acceptedTitles": [
+      "ECHO"
+    ],
+    "audioClip": "https://audio.sodapines.dev/68814.mp3"
+  },
+  {
+    "date": "2027-01-28",
+    "vocadbId": 68872,
+    "title": "Happy Halloween",
+    "artist": "Junky",
+    "artistString": "Junky feat. Kagamine Rin",
+    "vocadbName": "Happy Halloween",
+    "vocadbUrl": "https://vocadb.net/S/68872",
+    "coverArt": "https://i.ytimg.com/vi/1DcgczDzQPk/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/1DcgczDzQPk/default.jpg",
+      "https://i1.ytimg.com/vi/1DcgczDzQPk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/gM4cPbEN8Ug/hqdefault.jpg",
+      "https://i.ytimg.com/vi/1DcgczDzQPk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/kyjTZCnODhU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/gM4cPbEN8Ug/default.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/24657407/24657407",
+      "https://i.ytimg.com/vi/kyjTZCnODhU/default.jpg",
+      "https://i2.hdslb.com/bfs/archive/679843bd9df3a37a9f2672d5307601ee4202656f.jpg"
+    ],
+    "publishDate": "2014-10-10T00:00:00Z",
+    "acceptedTitles": [
+      "Happy Halloween"
+    ],
+    "audioClip": "https://audio.sodapines.dev/68872.mp3"
+  },
+  {
+    "date": "2027-01-29",
+    "vocadbId": 69187,
+    "title": "Goodbye",
+    "artist": "CircusP",
+    "artistString": "CircusP feat. Hatsune Miku V3 (English)",
+    "vocadbName": "Goodbye",
+    "vocadbUrl": "https://vocadb.net/S/69187",
+    "coverArt": "https://i.ytimg.com/vi/AH5_sKwDw1E/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/AH5_sKwDw1E/default.jpg",
+      "https://i1.ytimg.com/vi/AH5_sKwDw1E/hqdefault.jpg",
+      "https://i.ytimg.com/vi/AH5_sKwDw1E/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/24696485/24696485",
+      "https://f4.bcbits.com/img/a3203892979_5.jpg",
+      "https://f4.bcbits.com/img/a3712115800_5.jpg"
+    ],
+    "publishDate": "2014-04-11T00:00:00Z",
+    "acceptedTitles": [
+      "Goodbye"
+    ],
+    "audioClip": "https://audio.sodapines.dev/69187.mp3"
+  },
+  {
+    "date": "2027-01-30",
+    "vocadbId": 78112,
+    "title": "Packet Hero",
+    "artist": "MARETU",
+    "artistString": "MARETU feat. Hatsune Miku",
+    "vocadbName": "Packet Hero",
+    "vocadbUrl": "https://vocadb.net/S/78112",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/25309940/25309940",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/25309940/25309940",
+      "https://i1.ytimg.com/vi/eXKoaIaSqPQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/eXKoaIaSqPQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/n0ph8RAhXxA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/eXKoaIaSqPQ/default.jpg",
+      "https://i.ytimg.com/vi/n0ph8RAhXxA/default.jpg"
+    ],
+    "publishDate": "2015-01-09T00:00:00Z",
+    "acceptedTitles": [
+      "パケットヒーロー",
+      "Packet Hero",
+      "패킷 히어로"
+    ],
+    "audioClip": "https://audio.sodapines.dev/78112.mp3"
+  },
+  {
+    "date": "2027-01-31",
+    "vocadbId": 78616,
+    "title": "This Crazy Wonderful World is For Me",
+    "artist": "n.k",
+    "artistString": "n.k feat. Hatsune Miku",
+    "vocadbName": "This Crazy Wonderful World is For Me",
+    "vocadbUrl": "https://vocadb.net/S/78616",
+    "coverArt": "https://i.ytimg.com/vi/ziGLZkisja4/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/ziGLZkisja4/default.jpg",
+      "https://i1.ytimg.com/vi/ziGLZkisja4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ziGLZkisja4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/adxpDa3mn_M/hqdefault.jpg",
+      "https://i.ytimg.com/vi/AmBIIvZNUlE/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/25379507/25379507",
+      "https://i1.hdslb.com/bfs/archive/3e56abeb51bacca2abf1bb90e2fa19f004aa3643.jpg",
+      "https://i.ytimg.com/vi/adxpDa3mn_M/default.jpg",
+      "https://i.ytimg.com/vi/AmBIIvZNUlE/default.jpg"
+    ],
+    "publishDate": "2015-01-19T00:00:00Z",
+    "acceptedTitles": [
+      "このふざけた素晴らしき世界は、僕の為にある",
+      "This Crazy Wonderful World is For Me",
+      "Kono Fuzaketa Subarashiki Sekai wa, Boku no Tame ni Aru",
+      "This Messed-Up Amazing World Exists for Me",
+      "This Fucked-Up Wonderful World Exists For Me"
+    ],
+    "audioClip": "https://audio.sodapines.dev/78616.mp3"
+  },
+  {
+    "date": "2027-02-01",
+    "vocadbId": 79675,
+    "title": "Failure Girl",
+    "artist": "Kairiki bear",
+    "artistString": "Kairiki bear feat. Hatsune Miku Append (Soft)",
+    "vocadbName": "Failure Girl",
+    "vocadbUrl": "https://vocadb.net/S/79675",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/26885931/26885931",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/26885931/26885931",
+      "https://i1.ytimg.com/vi/u0kdf9VktcM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/p8xRoIkIuRA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/u0kdf9VktcM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/p8xRoIkIuRA/default.jpg",
+      "https://i.ytimg.com/vi/u0kdf9VktcM/default.jpg"
+    ],
+    "publishDate": "2015-08-08T00:00:00Z",
+    "acceptedTitles": [
+      "失敗作少女",
+      "Failure Girl",
+      "Shippaisaku Shoujo",
+      "FAILURE GIRL",
+      "실패작 소녀"
+    ],
+    "audioClip": "https://audio.sodapines.dev/79675.mp3"
+  },
+  {
+    "date": "2027-02-02",
+    "vocadbId": 82126,
+    "title": "Crystalline",
+    "artist": "CircusP",
+    "artistString": "CircusP, Crusher, CIRCRUSH feat. V3 GUMI (English)",
+    "vocadbName": "Crystalline",
+    "vocadbUrl": "https://vocadb.net/S/82126",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/25723763/25723763",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/25723763/25723763",
+      "https://i1.ytimg.com/vi/24RtyK9f-VE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/24RtyK9f-VE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/HunGsodagOI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/HunGsodagOI/default.jpg"
+    ],
+    "publishDate": "2015-03-06T00:00:00Z",
+    "acceptedTitles": [
+      "Crystalline"
+    ],
+    "audioClip": "https://audio.sodapines.dev/82126.mp3"
+  },
+  {
+    "date": "2027-02-03",
+    "vocadbId": 86800,
+    "title": "A Sardine Grows from the Soil",
+    "artist": "Koronba",
+    "artistString": "Koronba feat. Kasane Teto",
+    "vocadbName": "A Sardine Grows from the Soil",
+    "vocadbUrl": "https://vocadb.net/S/86800",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/29755944/29755944",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/29755944/29755944",
+      "https://i1.ytimg.com/vi/e_Qb1UP002c/hqdefault.jpg",
+      "https://i.ytimg.com/vi/e_Qb1UP002c/hqdefault.jpg",
+      "https://i.ytimg.com/vi/d_T1StgldnM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/e_Qb1UP002c/default.jpg",
+      "https://i.ytimg.com/vi/d_T1StgldnM/default.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/30118602/30118602"
+    ],
+    "publishDate": "2012-12-22T00:00:00Z",
+    "acceptedTitles": [
+      "イワシがつちからはえてくるんだ",
+      "A Sardine Grows from the Soil",
+      "Iwashi ga Tsuchi kara Haetekurunda",
+      "정어리가 땅 속에서 솟아난다"
+    ],
+    "audioClip": "https://audio.sodapines.dev/86800.mp3"
+  },
+  {
+    "date": "2027-02-04",
+    "vocadbId": 86961,
+    "title": "She Wants to Give Birth",
+    "artist": "MARETU",
+    "artistString": "MARETU feat. Hatsune Miku Append (Dark)",
+    "vocadbName": "She Wants to Give Birth",
+    "vocadbUrl": "https://vocadb.net/S/86961",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/26161338/26161338",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/26161338/26161338",
+      "https://i1.ytimg.com/vi/cqTgOnIMaJM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/cqTgOnIMaJM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/HNSWCkkjExQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/cqTgOnIMaJM/default.jpg",
+      "https://i.ytimg.com/vi/HNSWCkkjExQ/default.jpg"
+    ],
+    "publishDate": "2015-05-02T00:00:00Z",
+    "acceptedTitles": [
+      "うみたがり",
+      "She Wants to Give Birth",
+      "Umitagari",
+      "Disillusioned",
+      "낳고 싶어"
+    ],
+    "audioClip": "https://audio.sodapines.dev/86961.mp3"
+  },
+  {
+    "date": "2027-02-05",
+    "vocadbId": 87021,
+    "title": "News 39",
+    "artist": "Mitchie M",
+    "artistString": "Mitchie M feat. Hatsune Miku",
+    "vocadbName": "News 39",
+    "vocadbUrl": "https://vocadb.net/S/87021",
+    "coverArt": "https://i.ytimg.com/vi/l69v6SVoE9k/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/l69v6SVoE9k/default.jpg",
+      "https://i1.ytimg.com/vi/l69v6SVoE9k/hqdefault.jpg",
+      "https://i.ytimg.com/vi/l69v6SVoE9k/hqdefault.jpg",
+      "https://i.ytimg.com/vi/mn_jy-IFGjs/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/26167108/26167108.4283719",
+      "https://i2.hdslb.com/bfs/archive/1721805559c6caa2897a8b5dd15fe93ab8921c23.jpg",
+      "https://i1.sndcdn.com/artworks-000117053415-a7jzwm-large.jpg",
+      "https://i.ytimg.com/vi/mn_jy-IFGjs/default.jpg"
+    ],
+    "publishDate": "2015-05-03T00:00:00Z",
+    "acceptedTitles": [
+      "ニュース39",
+      "News 39"
+    ],
+    "audioClip": "https://audio.sodapines.dev/87021.mp3"
+  },
+  {
+    "date": "2027-02-06",
+    "vocadbId": 89474,
+    "title": "Mind Brand",
+    "artist": "MARETU",
+    "artistString": "MARETU feat. Hatsune Miku",
+    "vocadbName": "Mind Brand",
+    "vocadbUrl": "https://vocadb.net/S/89474",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/26364502/26364502",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/26364502/26364502",
+      "https://i1.ytimg.com/vi/NIABFcVB3Is/hqdefault.jpg",
+      "https://i.ytimg.com/vi/NIABFcVB3Is/hqdefault.jpg",
+      "https://i.ytimg.com/vi/YAgdOXlWw4A/hqdefault.jpg",
+      "https://i.ytimg.com/vi/NIABFcVB3Is/default.jpg",
+      "https://i.ytimg.com/vi/YAgdOXlWw4A/default.jpg"
+    ],
+    "publishDate": "2015-05-29T00:00:00Z",
+    "acceptedTitles": [
+      "マインドブランド",
+      "Mind Brand",
+      "마인드 브랜드"
+    ],
+    "audioClip": "https://audio.sodapines.dev/89474.mp3"
+  },
+  {
+    "date": "2027-02-07",
+    "vocadbId": 89726,
+    "title": "Hand in Hand",
+    "artist": "kz",
+    "artistString": "kz feat. Hatsune Miku",
+    "vocadbName": "Hand in Hand",
+    "vocadbUrl": "https://vocadb.net/S/89726",
+    "coverArt": "https://i.ytimg.com/vi/RKtoreimcQ8/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/RKtoreimcQ8/default.jpg",
+      "https://i1.ytimg.com/vi/RKtoreimcQ8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/RKtoreimcQ8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/a9kqq9P8fA0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/a9kqq9P8fA0/default.jpg",
+      "https://i0.hdslb.com/bfs/archive/ec0befad3083eddad0f7791406619bc432e695ce.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/26654381/26654381"
+    ],
+    "publishDate": "2015-07-08T00:00:00Z",
+    "acceptedTitles": [
+      "Hand in Hand",
+      "Hand in Hand (Magical Mirai ver.)"
+    ],
+    "audioClip": "https://audio.sodapines.dev/89726.mp3"
+  },
+  {
+    "date": "2027-02-08",
+    "vocadbId": 90017,
+    "title": "Doctor=Funk Beat",
+    "artist": "nyanyannya",
+    "artistString": "nyanyannya feat. KAITO",
+    "vocadbName": "Doctor=Funk Beat",
+    "vocadbUrl": "https://vocadb.net/S/90017",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/26470008/26470008",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/26470008/26470008",
+      "https://i1.ytimg.com/vi/CPxxurEcGTw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/CPxxurEcGTw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/UdiT0jMRAM0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/HLJAKU2ZatQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/isppxfmsazk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/CPxxurEcGTw/default.jpg",
+      "https://i0.hdslb.com/bfs/archive/535b8d61c8f4c4fadd4699116288f8e0a2035f5e.jpg",
+      "https://i.ytimg.com/vi/UdiT0jMRAM0/default.jpg",
+      "https://i.ytimg.com/vi/HLJAKU2ZatQ/default.jpg",
+      "https://i.ytimg.com/vi/isppxfmsazk/default.jpg"
+    ],
+    "publishDate": "2015-06-12T00:00:00Z",
+    "acceptedTitles": [
+      "ドクター＝ファンクビート",
+      "Doctor=Funk Beat",
+      "닥터=펑크 비트"
+    ],
+    "audioClip": "https://audio.sodapines.dev/90017.mp3"
+  },
+  {
+    "date": "2027-02-09",
+    "vocadbId": 91592,
+    "title": "Lamprey Hole",
+    "artist": "Koronba",
+    "artistString": "Koronba feat. Koronba No. 4, Utane Uta",
+    "vocadbName": "Lamprey Hole",
+    "vocadbUrl": "https://vocadb.net/S/91592",
+    "coverArt": "https://i.ytimg.com/vi/2RmhTbVinV4/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/2RmhTbVinV4/default.jpg",
+      "https://i1.ytimg.com/vi/2RmhTbVinV4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/2RmhTbVinV4/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/30531878/30531878"
+    ],
+    "publishDate": "2013-03-16T00:00:00Z",
+    "acceptedTitles": [
+      "ヤツメ穴",
+      "Lamprey Hole",
+      "Yatsume Ana",
+      "칠성구멍 "
+    ],
+    "audioClip": "https://audio.sodapines.dev/91592.mp3"
+  },
+  {
+    "date": "2027-02-10",
+    "vocadbId": 96016,
+    "title": "Please Give Me a Red Pen",
+    "artist": "siinamota",
+    "artistString": "siinamota feat. Hatsune Miku",
+    "vocadbName": "Please Give Me a Red Pen",
+    "vocadbUrl": "https://vocadb.net/S/96016",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/26745370/26745370",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/26745370/26745370",
+      "https://i1.ytimg.com/vi/njRxAw3AMco/hqdefault.jpg",
+      "https://i.ytimg.com/vi/FBGvm_sXMzQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/njRxAw3AMco/hqdefault.jpg",
+      "https://i.ytimg.com/vi/FBGvm_sXMzQ/default.jpg",
+      "https://i.ytimg.com/vi/njRxAw3AMco/default.jpg"
+    ],
+    "publishDate": "2015-07-23T00:00:00Z",
+    "acceptedTitles": [
+      "赤ペンおねがいします",
+      "Please Give Me a Red Pen",
+      "Aka Pen Onegai Shimasu",
+      "Red Pen, Please",
+      "拜托你了 红笔"
+    ],
+    "audioClip": "https://audio.sodapines.dev/96016.mp3"
+  },
+  {
+    "date": "2027-02-11",
+    "vocadbId": 96567,
+    "title": "The Real Disappearance of Hatsune Miku",
+    "artist": "cosMo@BousouP",
+    "artistString": "cosMo@BousouP feat. GUMI",
+    "vocadbName": "The Real Disappearance of Hatsune Miku",
+    "vocadbUrl": "https://vocadb.net/S/96567",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/26813372/26813372",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/26813372/26813372",
+      "https://i1.ytimg.com/vi/Qs1spSzwSPE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Qs1spSzwSPE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/T8K34MQkf34/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Qs1spSzwSPE/default.jpg",
+      "https://i.ytimg.com/vi/T8K34MQkf34/default.jpg",
+      "https://i2.hdslb.com/bfs/archive/aeb2b56a45b1c8e7bf7d6d2fb9202d7f0a545c27.jpg"
+    ],
+    "publishDate": "2015-07-29T00:00:00Z",
+    "acceptedTitles": [
+      "リアル初音ミクの消失",
+      "The Real Disappearance of Hatsune Miku",
+      "Real Hatsune Miku no Shoushitsu",
+      "Real THE END OF HATSUNE MIKU",
+      "리얼 하츠네 미쿠의 소실",
+      "リアル消失",
+      "Real Shoushitsu"
+    ],
+    "audioClip": "https://audio.sodapines.dev/96567.mp3"
+  },
+  {
+    "date": "2027-02-12",
+    "vocadbId": 98874,
+    "title": "Last of Me",
+    "artist": "CircusP",
+    "artistString": "CircusP feat. Megurine Luka V4X English (Straight)",
+    "vocadbName": "Last of Me",
+    "vocadbUrl": "https://vocadb.net/S/98874",
+    "coverArt": "https://i.ytimg.com/vi/7Skij_GE9n4/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/7Skij_GE9n4/default.jpg",
+      "https://i1.ytimg.com/vi/7Skij_GE9n4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/7Skij_GE9n4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/fF4XkG4VKgs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/SI2mZbkX2B8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/IVlaevfktRc/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/26958206/26958206",
+      "https://i.ytimg.com/vi/fF4XkG4VKgs/default.jpg",
+      "https://f4.bcbits.com/img/a2449819918_5.jpg",
+      "https://i.ytimg.com/vi/IVlaevfktRc/default.jpg"
+    ],
+    "publishDate": "2015-08-17T00:00:00Z",
+    "acceptedTitles": [
+      "Last of Me"
+    ],
+    "audioClip": "https://audio.sodapines.dev/98874.mp3"
+  },
+  {
+    "date": "2027-02-13",
+    "vocadbId": 100067,
+    "title": "My R",
+    "artist": "WADATAKEAKI",
+    "artistString": "WADATAKEAKI feat. Hatsune Miku Append (Soft)",
+    "vocadbName": "My R",
+    "vocadbUrl": "https://vocadb.net/S/100067",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/27056499/27056499",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/27056499/27056499",
+      "https://i1.ytimg.com/vi/ocAKhyWuawo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ocAKhyWuawo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Tsl-2_QMhqE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/g9dMjw23B3k/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ocAKhyWuawo/default.jpg",
+      "https://i.ytimg.com/vi/Tsl-2_QMhqE/default.jpg",
+      "https://i.ytimg.com/vi/g9dMjw23B3k/default.jpg"
+    ],
+    "publishDate": "2015-08-31T00:00:00Z",
+    "acceptedTitles": [
+      "わたしのアール",
+      "My R",
+      "Watashi no R",
+      "R",
+      "나의 R"
+    ],
+    "audioClip": "https://audio.sodapines.dev/100067.mp3"
+  },
+  {
+    "date": "2027-02-14",
+    "vocadbId": 101264,
+    "title": "Who am I?",
+    "artist": "Hondou Shouta",
+    "artistString": "Hondou Shouta feat. Hatsune Miku",
+    "vocadbName": "Who am I?",
+    "vocadbUrl": "https://vocadb.net/S/101264",
+    "coverArt": "https://i.ytimg.com/vi/DeOoyxIcT0Q/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/DeOoyxIcT0Q/default.jpg",
+      "https://i1.ytimg.com/vi/DeOoyxIcT0Q/hqdefault.jpg",
+      "https://i.ytimg.com/vi/DeOoyxIcT0Q/hqdefault.jpg",
+      "https://i1.sndcdn.com/artworks-1m3tKyQ326XIC6ir-utcBhg-original.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/45514153/45514153.89221343"
+    ],
+    "publishDate": "2012-03-29T00:00:00Z",
+    "acceptedTitles": [
+      "ワタシハダレ？",
+      "Who am I?",
+      "Watashi wa Dare?",
+      "나는 누구?"
+    ],
+    "audioClip": "https://audio.sodapines.dev/101264.mp3"
+  },
+  {
+    "date": "2027-02-15",
+    "vocadbId": 104783,
+    "title": "R.I.P. Sea of Gossip",
+    "artist": "cosMo@BousouP",
+    "artistString": "cosMo@BousouP feat. GUMI",
+    "vocadbName": "R.I.P. Sea of Gossip",
+    "vocadbUrl": "https://vocadb.net/S/104783",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/27497499/27497499",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/27497499/27497499",
+      "https://i1.ytimg.com/vi/UquPv9WpuB4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/UquPv9WpuB4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/0eY4DkwXUuA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/-lqBxkoyDvI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/noeUHOmgfn8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/UquPv9WpuB4/default.jpg",
+      "https://i.ytimg.com/vi/0eY4DkwXUuA/default.jpg",
+      "https://i.ytimg.com/vi/-lqBxkoyDvI/default.jpg",
+      "https://i.ytimg.com/vi/noeUHOmgfn8/default.jpg",
+      "https://i1.hdslb.com/bfs/archive/3efbf193867ae2dd59fdd0a46386fe48914feef2.jpg"
+    ],
+    "publishDate": "2015-11-01T00:00:00Z",
+    "acceptedTitles": [
+      "R.I.P.ゴシップの海",
+      "R.I.P. Sea of Gossip",
+      "R.I.P. Gossip no Umi",
+      "R.I.P. in the Gossip Sea",
+      "R.I.P Gossip Sea",
+      "R.I.P 가십의 바다"
+    ],
+    "audioClip": "https://audio.sodapines.dev/104783.mp3"
+  },
+  {
+    "date": "2027-02-16",
+    "vocadbId": 106773,
+    "title": "Alien Alien",
+    "artist": "NayutalieN",
+    "artistString": "NayutalieN feat. Hatsune Miku",
+    "vocadbName": "Alien Alien",
+    "vocadbUrl": "https://vocadb.net/S/106773",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/28576299/28576299",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/28576299/28576299",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/28576299/28576299.67529574",
+      "https://i1.ytimg.com/vi/2t1NMRse6aI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/vRpbtf8_7XM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/-odm18Ghl7U/hqdefault.jpg",
+      "https://i.ytimg.com/vi/2t1NMRse6aI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/-GqkIivCsfQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/vRpbtf8_7XM/default.jpg",
+      "https://i.ytimg.com/vi/-odm18Ghl7U/default.jpg",
+      "https://i.ytimg.com/vi/2t1NMRse6aI/default.jpg",
+      "https://i.ytimg.com/vi/-GqkIivCsfQ/default.jpg",
+      "https://i0.hdslb.com/bfs/archive/43f676b10add4488bdd2e643d284a6d80ed2a528.jpg"
+    ],
+    "publishDate": "2015-11-14T00:00:00Z",
+    "acceptedTitles": [
+      "エイリアンエイリアン",
+      "Alien Alien",
+      "エイリアン・エイリアン",
+      "外星人外星人",
+      "에일리언 에일리언"
+    ],
+    "audioClip": "https://audio.sodapines.dev/106773.mp3"
+  },
+  {
+    "date": "2027-02-17",
+    "vocadbId": 107812,
+    "title": "Soap Lagoon",
+    "artist": "MASA WORKS DESIGN",
+    "artistString": "MASA WORKS DESIGN feat. GUMI, Hatsune Miku Append (Solid)",
+    "vocadbName": "Soap Lagoon",
+    "vocadbUrl": "https://vocadb.net/S/107812",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/27711501/27711501",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/27711501/27711501",
+      "https://i1.ytimg.com/vi/zmKczWhb534/hqdefault.jpg",
+      "https://i.ytimg.com/vi/zmKczWhb534/hqdefault.jpg",
+      "https://i.ytimg.com/vi/YQgiKi4Ovq4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/zmKczWhb534/default.jpg",
+      "https://i1.sndcdn.com/artworks-000170641189-c2kdvn-large.jpg",
+      "https://i.ytimg.com/vi/YQgiKi4Ovq4/default.jpg"
+    ],
+    "publishDate": "2015-12-02T00:00:00Z",
+    "acceptedTitles": [
+      "ソープラグーン",
+      "Soap Lagoon",
+      "소프 라군"
+    ],
+    "audioClip": "https://audio.sodapines.dev/107812.mp3"
+  },
+  {
+    "date": "2027-02-18",
+    "vocadbId": 108829,
+    "title": "Synew",
+    "artist": "MARETU",
+    "artistString": "MARETU feat. Hatsune Miku",
+    "vocadbName": "Synew",
+    "vocadbUrl": "https://vocadb.net/S/108829",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/27771293/27771293",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/27771293/27771293",
+      "https://i1.ytimg.com/vi/f0Y8Mo7nhC8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/f0Y8Mo7nhC8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/b3xUfGnrpUg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ZIVOhNcDqnI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/7g-HTUTpBAI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/f0Y8Mo7nhC8/default.jpg",
+      "https://i.ytimg.com/vi/b3xUfGnrpUg/default.jpg",
+      "https://i.ytimg.com/vi/ZIVOhNcDqnI/default.jpg",
+      "https://i.ytimg.com/vi/7g-HTUTpBAI/default.jpg"
+    ],
+    "publishDate": "2015-12-11T00:00:00Z",
+    "acceptedTitles": [
+      "スヂ",
+      "Synew",
+      "Suji",
+      "Muscles",
+      "줄거리"
+    ],
+    "audioClip": "https://audio.sodapines.dev/108829.mp3"
+  },
+  {
+    "date": "2027-02-19",
+    "vocadbId": 112085,
+    "title": "Ghost Rule",
+    "artist": "DECO*27",
+    "artistString": "DECO*27, Naoki Itai feat. Hatsune Miku V4X (Original)",
+    "vocadbName": "Ghost Rule",
+    "vocadbUrl": "https://vocadb.net/S/112085",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/27965309/27965309",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/27965309/27965309",
+      "https://i1.ytimg.com/vi/KushW6zvazM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/KushW6zvazM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/WJDDhH9o7e4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/KushW6zvazM/default.jpg",
+      "https://i.ytimg.com/vi/WJDDhH9o7e4/default.jpg",
+      "https://i1.sndcdn.com/artworks-Ezehp4wmIQLV-0-t500x500.jpg"
+    ],
+    "publishDate": "2016-01-08T00:00:00Z",
+    "acceptedTitles": [
+      "ゴーストルール",
+      "Ghost Rule",
+      "幽灵法则",
+      "고스트 룰"
+    ],
+    "audioClip": "https://audio.sodapines.dev/112085.mp3"
+  },
+  {
+    "date": "2027-02-20",
+    "vocadbId": 113082,
+    "title": "The Living Ghost is Alive",
+    "artist": "Utsu-P",
+    "artistString": "Utsu-P feat. v flower",
+    "vocadbName": "The Living Ghost is Alive",
+    "vocadbUrl": "https://vocadb.net/S/113082",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/28254204/28254204",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/28254204/28254204",
+      "https://i1.ytimg.com/vi/QvMNzt3iXyg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/QvMNzt3iXyg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/XZuxNcJHJng/hqdefault.jpg",
+      "https://i.ytimg.com/vi/FS5p2Skafaw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/QvMNzt3iXyg/default.jpg",
+      "https://i.ytimg.com/vi/XZuxNcJHJng/default.jpg",
+      "https://f4.bcbits.com/img/a0664092385_5.jpg",
+      "https://i.ytimg.com/vi/FS5p2Skafaw/default.jpg",
+      "https://i1.hdslb.com/bfs/archive/6513c523faff7ca164e0ac34a5f95714168e0d89.jpg"
+    ],
+    "publishDate": "2016-02-19T00:00:00Z",
+    "acceptedTitles": [
+      "生きてるおばけは生きている",
+      "The Living Ghost is Alive",
+      "Ikiteru Obake wa Ikiteiru"
+    ],
+    "audioClip": "https://audio.sodapines.dev/113082.mp3"
+  },
+  {
+    "date": "2027-02-21",
+    "vocadbId": 113086,
+    "title": "People Allergy",
+    "artist": "Kairiki bear",
+    "artistString": "Kairiki bear feat. v4 flower",
+    "vocadbName": "People Allergy",
+    "vocadbUrl": "https://vocadb.net/S/113086",
+    "coverArt": "https://i.ytimg.com/vi/lEGG_JPE3UQ/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/lEGG_JPE3UQ/default.jpg",
+      "https://i1.ytimg.com/vi/lEGG_JPE3UQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/lEGG_JPE3UQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/f-IIAXjrU-I/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/28108489/28108489",
+      "https://i.ytimg.com/vi/f-IIAXjrU-I/default.jpg"
+    ],
+    "publishDate": "2016-01-30T00:00:00Z",
+    "acceptedTitles": [
+      "ヒトサマアレルギー",
+      "People Allergy",
+      "Hitosama Allergy",
+      "인간님 알레르기"
+    ],
+    "audioClip": "https://audio.sodapines.dev/113086.mp3"
+  },
+  {
+    "date": "2027-02-22",
+    "vocadbId": 114805,
+    "title": "Karma",
+    "artist": "CircusP",
+    "artistString": "CircusP, Creep-P feat. Kagamine Rin V4 (English)",
+    "vocadbName": "Karma",
+    "vocadbUrl": "https://vocadb.net/S/114805",
+    "coverArt": "https://i.ytimg.com/vi/cMkJDPvJxdk/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/cMkJDPvJxdk/default.jpg",
+      "https://i1.ytimg.com/vi/cMkJDPvJxdk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/cMkJDPvJxdk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/WtsylPjGOeo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/N300Scu_dKI/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/28232577/28232577",
+      "https://i.ytimg.com/vi/WtsylPjGOeo/default.jpg",
+      "https://i1.sndcdn.com/artworks-000147204518-hm9tia-large.jpg",
+      "https://f4.bcbits.com/img/a2449819918_5.jpg",
+      "https://f4.bcbits.com/img/a2584038802_5.jpg",
+      "https://f4.bcbits.com/img/a2360959926_5.jpg",
+      "https://i.ytimg.com/vi/N300Scu_dKI/default.jpg"
+    ],
+    "publishDate": "2016-02-14T00:00:00Z",
+    "acceptedTitles": [
+      "Karma"
+    ],
+    "audioClip": "https://audio.sodapines.dev/114805.mp3"
+  },
+  {
+    "date": "2027-02-23",
+    "vocadbId": 114974,
+    "title": "I Don't Wanna Know",
+    "artist": "SEDO Sounder",
+    "artistString": "SEDO Sounder feat. MAYU",
+    "vocadbName": "I Don't Wanna Know",
+    "vocadbUrl": "https://vocadb.net/S/114974",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/28227444/28227444",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/28227444/28227444",
+      "https://i1.ytimg.com/vi/tv5ShMTeeHI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/tv5ShMTeeHI/hqdefault.jpg",
+      "https://i1.sndcdn.com/artworks-000166659334-1vliwn-large.jpg",
+      "https://i.ytimg.com/vi/tv5ShMTeeHI/default.jpg"
+    ],
+    "publishDate": "2016-02-15T00:00:00Z",
+    "acceptedTitles": [
+      "しりたくない",
+      "I Don't Wanna Know",
+      "Shiritakunai"
+    ],
+    "audioClip": "https://audio.sodapines.dev/114974.mp3"
+  },
+  {
+    "date": "2027-02-24",
+    "vocadbId": 115016,
+    "title": "Miku",
+    "artist": "Anamanaguchi",
+    "artistString": "Anamanaguchi feat. Hatsune Miku V3 (English)",
+    "vocadbName": "Miku",
+    "vocadbUrl": "https://vocadb.net/S/115016",
+    "coverArt": "https://i.ytimg.com/vi/NocXEwsJGOQ/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/NocXEwsJGOQ/default.jpg",
+      "https://i1.ytimg.com/vi/NocXEwsJGOQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/NocXEwsJGOQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/38uYUM-gFWE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/G2PDJTkFiA8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/9mW_n_ERFtY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/38uYUM-gFWE/default.jpg",
+      "https://i.ytimg.com/vi/G2PDJTkFiA8/default.jpg",
+      "https://i.ytimg.com/vi/9mW_n_ERFtY/default.jpg"
+    ],
+    "publishDate": "2016-03-09T00:00:00Z",
+    "acceptedTitles": [
+      "Miku",
+      "ミク"
+    ],
+    "audioClip": "https://audio.sodapines.dev/115016.mp3"
+  },
+  {
+    "date": "2027-02-25",
+    "vocadbId": 115476,
+    "title": "Chururira Chururira Daddadda!",
+    "artist": "WADATAKEAKI",
+    "artistString": "WADATAKEAKI feat. Yuzuki Yukari",
+    "vocadbName": "Chururira Chururira Daddadda!",
+    "vocadbUrl": "https://vocadb.net/S/115476",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/28276238/28276238",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/28276238/28276238",
+      "https://i1.ytimg.com/vi/_j0kfGNwIlw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/_j0kfGNwIlw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/XeCNUwBPLrs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/2CfN8PUWfko/hqdefault.jpg",
+      "https://i.ytimg.com/vi/isbtFgTL3FI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/_j0kfGNwIlw/default.jpg",
+      "https://i0.hdslb.com/bfs/archive/53da06ad1978f3bd1622e17f64df7ed58b4e7d45.jpg",
+      "https://i.ytimg.com/vi/XeCNUwBPLrs/default.jpg",
+      "https://i.ytimg.com/vi/2CfN8PUWfko/default.jpg",
+      "https://i.ytimg.com/vi/isbtFgTL3FI/default.jpg"
+    ],
+    "publishDate": "2016-02-22T00:00:00Z",
+    "acceptedTitles": [
+      "チュルリラ・チュルリラ・ダッダッダ！",
+      "Chururira Chururira Daddadda!",
+      "啾噜哩啦·啾噜哩啦·哒哒哒！"
+    ],
+    "audioClip": "https://audio.sodapines.dev/115476.mp3"
+  },
+  {
+    "date": "2027-02-26",
+    "vocadbId": 121110,
+    "title": "Satisfaction",
+    "artist": "kz",
+    "artistString": "kz feat. Hatsune Miku",
+    "vocadbName": "Satisfaction",
+    "vocadbUrl": "https://vocadb.net/S/121110",
+    "coverArt": "https://i.ytimg.com/vi/4h6n6Q4BLVs/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/4h6n6Q4BLVs/default.jpg",
+      "https://i1.ytimg.com/vi/4h6n6Q4BLVs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/8dLkrcmAA4g/hqdefault.jpg",
+      "https://i.ytimg.com/vi/1rJTSaC4LsQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/UxGSZiEIwWo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/4h6n6Q4BLVs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/8dLkrcmAA4g/default.jpg",
+      "https://i.ytimg.com/vi/1rJTSaC4LsQ/default.jpg",
+      "https://i.ytimg.com/vi/UxGSZiEIwWo/default.jpg"
+    ],
+    "publishDate": "2016-06-07T00:00:00Z",
+    "acceptedTitles": [
+      "Satisfaction"
+    ],
+    "audioClip": "https://audio.sodapines.dev/121110.mp3"
+  },
+  {
+    "date": "2027-02-27",
+    "vocadbId": 121112,
+    "title": "The Name of the Sin",
+    "artist": "ryo",
+    "artistString": "ryo feat. Hatsune Miku V3 (Solid), Hatsune Miku V3 (Original)",
+    "vocadbName": "The Name of the Sin",
+    "vocadbUrl": "https://vocadb.net/S/121112",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/29021785/29021785",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/29021785/29021785",
+      "https://i1.ytimg.com/vi/kWJ4z-I25LU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/kWJ4z-I25LU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/kWJ4z-I25LU/default.jpg"
+    ],
+    "publishDate": "2016-06-10T00:00:00Z",
+    "acceptedTitles": [
+      "罪の名前",
+      "The Name of the Sin",
+      "Tsumi no Namae"
+    ],
+    "audioClip": "https://audio.sodapines.dev/121112.mp3"
+  },
+  {
+    "date": "2027-02-28",
+    "vocadbId": 121935,
+    "title": "Whimsical Mercy",
+    "artist": "HachioujiP",
+    "artistString": "HachioujiP feat. Hatsune Miku V3 (Original)",
+    "vocadbName": "Whimsical Mercy",
+    "vocadbUrl": "https://vocadb.net/S/121935",
+    "coverArt": "https://i.ytimg.com/vi/o1iz4L-5zkQ/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/o1iz4L-5zkQ/default.jpg",
+      "https://i1.ytimg.com/vi/o1iz4L-5zkQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/o1iz4L-5zkQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/MRNgJrDe9tE/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/28974414/28974414",
+      "https://i.ytimg.com/vi/MRNgJrDe9tE/default.jpg"
+    ],
+    "publishDate": "2016-06-03T00:00:00Z",
+    "acceptedTitles": [
+      "気まぐれメルシィ",
+      "Whimsical Mercy",
+      "Kimagure Mercy",
+      "변덕쟁이 메르시"
+    ],
+    "audioClip": "https://audio.sodapines.dev/121935.mp3"
+  },
+  {
+    "date": "2027-03-01",
+    "vocadbId": 123584,
+    "title": "Cynic",
+    "artist": "Police Piccadilly",
+    "artistString": "Police Piccadilly feat. Yamine Renri",
+    "vocadbName": "Cynic",
+    "vocadbUrl": "https://vocadb.net/S/123584",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/28668522/28668522",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/28668522/28668522",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/28668522/28668522.10196698",
+      "https://i1.ytimg.com/vi/hFg3WRqpQmg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/hFg3WRqpQmg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/6IY2THSqsrk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/hFg3WRqpQmg/default.jpg",
+      "https://i2.hdslb.com/bfs/archive/b425ae6b2cf64c5701d3fb770bf4ada32cc3ab64.jpg",
+      "https://i.ytimg.com/vi/6IY2THSqsrk/default.jpg"
+    ],
+    "publishDate": "2016-04-19T00:00:00Z",
+    "acceptedTitles": [
+      "Cynic"
+    ],
+    "audioClip": "https://audio.sodapines.dev/123584.mp3"
+  },
+  {
+    "date": "2027-03-02",
+    "vocadbId": 124436,
+    "title": "All I Need are Things I Like",
+    "artist": "PinocchioP",
+    "artistString": "PinocchioP feat. Hatsune Miku Append (Dark), Hatsune Miku Append (Solid)",
+    "vocadbName": "All I Need are Things I Like",
+    "vocadbUrl": "https://vocadb.net/S/124436",
+    "coverArt": "https://i.ytimg.com/vi/mYHJPb9PuUM/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/mYHJPb9PuUM/default.jpg",
+      "https://i1.ytimg.com/vi/mYHJPb9PuUM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/mYHJPb9PuUM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/kfsp6r79ZJU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/d_kPtSNW0ts/hqdefault.jpg",
+      "https://i.ytimg.com/vi/YhIR2fJoBKs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/a-phoCsdcDs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/j5t3eZ4EmOw/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/28749432/28749432",
+      "https://i.ytimg.com/vi/kfsp6r79ZJU/default.jpg",
+      "https://i.ytimg.com/vi/d_kPtSNW0ts/default.jpg",
+      "https://i.ytimg.com/vi/YhIR2fJoBKs/default.jpg",
+      "https://i.ytimg.com/vi/a-phoCsdcDs/default.jpg",
+      "https://i.ytimg.com/vi/j5t3eZ4EmOw/default.jpg",
+      "https://i1.sndcdn.com/artworks-xIHhVRRYHUfX-0-t500x500.jpg"
+    ],
+    "publishDate": "2016-05-01T00:00:00Z",
+    "acceptedTitles": [
+      "すきなことだけでいいです",
+      "All I Need are Things I Like",
+      "Suki na Koto Dake de ii Desu",
+      "All You Need Are The Things You Like",
+      "좋아하는 것만 있으면 돼요"
+    ],
+    "audioClip": "https://audio.sodapines.dev/124436.mp3"
+  },
+  {
+    "date": "2027-03-03",
+    "vocadbId": 125064,
+    "title": "Copycat",
+    "artist": "CircusP",
+    "artistString": "CircusP feat. V3 GUMI (English)",
+    "vocadbName": "Copycat",
+    "vocadbUrl": "https://vocadb.net/S/125064",
+    "coverArt": "https://i.ytimg.com/vi/Q_QEPrkwZ-Q/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/Q_QEPrkwZ-Q/default.jpg",
+      "https://i1.ytimg.com/vi/Q_QEPrkwZ-Q/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Q_QEPrkwZ-Q/hqdefault.jpg",
+      "https://i.ytimg.com/vi/42bXyXeU4q4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/7eXsIUtjqRo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/CwVYczg8mxI/hqdefault.jpg",
+      "https://i1.sndcdn.com/artworks-000162737110-nqcw9t-large.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/28868044/28868044",
+      "https://i.ytimg.com/vi/42bXyXeU4q4/default.jpg",
+      "https://i.ytimg.com/vi/7eXsIUtjqRo/default.jpg",
+      "https://f4.bcbits.com/img/a2449819918_5.jpg",
+      "https://i.ytimg.com/vi/CwVYczg8mxI/default.jpg"
+    ],
+    "publishDate": "2016-05-13T00:00:00Z",
+    "acceptedTitles": [
+      "Copycat"
+    ],
+    "audioClip": "https://audio.sodapines.dev/125064.mp3"
+  },
+  {
+    "date": "2027-03-04",
+    "vocadbId": 125735,
+    "title": "LIAR DANCE",
+    "artist": "DECO*27",
+    "artistString": "DECO*27, Naoki Itai feat. Hatsune Miku",
+    "vocadbName": "LIAR DANCE",
+    "vocadbUrl": "https://vocadb.net/S/125735",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/28929186/28929186",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/28929186/28929186",
+      "https://i1.ytimg.com/vi/FOvfM0fe-FE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/FOvfM0fe-FE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/AKfdKJHlRcE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/FOvfM0fe-FE/default.jpg",
+      "https://i.ytimg.com/vi/AKfdKJHlRcE/default.jpg",
+      "https://i1.sndcdn.com/artworks-N0HxT857HyKv-0-t500x500.jpg"
+    ],
+    "publishDate": "2016-05-27T00:00:00Z",
+    "acceptedTitles": [
+      "ライアーダンス",
+      "LIAR DANCE",
+      "라이어 댄스"
+    ],
+    "audioClip": "https://audio.sodapines.dev/125735.mp3"
+  },
+  {
+    "date": "2027-03-05",
+    "vocadbId": 125736,
+    "title": "Maegamist",
+    "artist": "MARETU",
+    "artistString": "MARETU feat. Hatsune Miku",
+    "vocadbName": "Maegamist",
+    "vocadbUrl": "https://vocadb.net/S/125736",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/28930143/28930143",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/28930143/28930143",
+      "https://i1.ytimg.com/vi/jEcjQ6qpEM8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/jEcjQ6qpEM8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/4S9YMjtb6OI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/zMI2YaEj9bE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/jEcjQ6qpEM8/default.jpg",
+      "https://i.ytimg.com/vi/4S9YMjtb6OI/default.jpg",
+      "https://i.ytimg.com/vi/zMI2YaEj9bE/default.jpg"
+    ],
+    "publishDate": "2016-05-27T00:00:00Z",
+    "acceptedTitles": [
+      "マエガミスト",
+      "Maegamist",
+      "마에가미스트"
+    ],
+    "audioClip": "https://audio.sodapines.dev/125736.mp3"
+  },
+  {
+    "date": "2027-03-06",
+    "vocadbId": 125753,
+    "title": "Worrisome",
+    "artist": "Dasu",
+    "artistString": "Dasu feat. Kagamine Len Append (Power)",
+    "vocadbName": "Worrisome",
+    "vocadbUrl": "https://vocadb.net/S/125753",
+    "coverArt": "https://i.ytimg.com/vi/SnI4CGjeVOM/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/SnI4CGjeVOM/default.jpg",
+      "https://i1.ytimg.com/vi/SnI4CGjeVOM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/SnI4CGjeVOM/hqdefault.jpg",
+      "https://i1.sndcdn.com/artworks-000164721824-ixv7i0-large.jpg",
+      "https://f4.bcbits.com/img/a2753624664_5.jpg",
+      "https://f4.bcbits.com/img/a1922263861_5.jpg"
+    ],
+    "publishDate": "2016-05-27T00:00:00Z",
+    "acceptedTitles": [
+      "Nakakapagpabagabag",
+      "Worrisome",
+      "꺼림칙한"
+    ],
+    "audioClip": "https://audio.sodapines.dev/125753.mp3"
+  },
+  {
+    "date": "2027-03-07",
+    "vocadbId": 127169,
+    "title": "Law-evading Rock",
+    "artist": "Neru",
+    "artistString": "Neru feat. Kagamine Len V4X (Power)",
+    "vocadbName": "Law-evading Rock",
+    "vocadbUrl": "https://vocadb.net/S/127169",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/29081909/29081909",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/29081909/29081909",
+      "https://i1.ytimg.com/vi/u5mHVUwDf_0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/u5mHVUwDf_0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/RmAe4xid9Ss/hqdefault.jpg",
+      "https://i.ytimg.com/vi/G8O4fmZT5EI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/To0IT8dYreo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/u5mHVUwDf_0/default.jpg",
+      "https://i.ytimg.com/vi/RmAe4xid9Ss/default.jpg",
+      "https://i.ytimg.com/vi/G8O4fmZT5EI/default.jpg",
+      "https://i.ytimg.com/vi/To0IT8dYreo/default.jpg"
+    ],
+    "publishDate": "2016-06-19T00:00:00Z",
+    "acceptedTitles": [
+      "脱法ロック",
+      "Law-evading Rock",
+      "Dappou Rock",
+      "Dappo Rock, Rebellion Rock",
+      "탈법 록"
+    ],
+    "audioClip": "https://audio.sodapines.dev/127169.mp3"
+  },
+  {
+    "date": "2027-03-08",
+    "vocadbId": 127519,
+    "title": "Thank You Music!",
+    "artist": "MikitoP",
+    "artistString": "MikitoP feat. Hatsune Miku",
+    "vocadbName": "Thank You Music!",
+    "vocadbUrl": "https://vocadb.net/S/127519",
+    "coverArt": "https://i.ytimg.com/vi/OuLZlZ18APQ/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/OuLZlZ18APQ/default.jpg",
+      "https://i1.ytimg.com/vi/OuLZlZ18APQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/OuLZlZ18APQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/iAU1LmhtCSw/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/29145868/29145868",
+      "https://i1.hdslb.com/bfs/archive/315738cb4099eefcce1eadb94baf8de3f0e59139.jpg",
+      "https://i.ytimg.com/vi/iAU1LmhtCSw/default.jpg"
+    ],
+    "publishDate": "2016-06-29T00:00:00Z",
+    "acceptedTitles": [
+      "39みゅーじっく!",
+      "Thank You Music!",
+      "39 Music!",
+      "39뮤직!"
+    ],
+    "audioClip": "https://audio.sodapines.dev/127519.mp3"
+  },
+  {
+    "date": "2027-03-09",
+    "vocadbId": 129108,
+    "title": "HOUSEWIFE RADIO",
+    "artist": "GHOST",
+    "artistString": "GHOST feat. V3 GUMI (English)",
+    "vocadbName": "HOUSEWIFE RADIO",
+    "vocadbUrl": "https://vocadb.net/S/129108",
+    "coverArt": "https://i.ytimg.com/vi/8R-1PTZ-Xx4/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/8R-1PTZ-Xx4/default.jpg",
+      "https://i1.sndcdn.com/artworks-000172428983-thxcee-large.jpg",
+      "https://i1.ytimg.com/vi/cwd7N4QdFAI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/cwd7N4QdFAI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/8R-1PTZ-Xx4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/2d5m5SEcqVg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/cwd7N4QdFAI/default.jpg",
+      "https://i1.sndcdn.com/artworks-000461190705-439tnb-large.jpg",
+      "https://f4.bcbits.com/img/a2800955951_5.jpg",
+      "https://i.ytimg.com/vi/2d5m5SEcqVg/default.jpg"
+    ],
+    "publishDate": "2016-07-19T00:00:00Z",
+    "acceptedTitles": [
+      "HOUSEWIFE RADIO",
+      "HOUSEWIFE RADIO (2016)"
+    ],
+    "audioClip": "https://audio.sodapines.dev/129108.mp3"
+  },
+  {
+    "date": "2027-03-10",
+    "vocadbId": 129109,
+    "title": "Solar System Disco",
+    "artist": "NayutalieN",
+    "artistString": "NayutalieN feat. Hatsune Miku",
+    "vocadbName": "Solar System Disco",
+    "vocadbUrl": "https://vocadb.net/S/129109",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/30469574/30469574",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/30469574/30469574",
+      "https://i1.ytimg.com/vi/Ja9qmYjXk6U/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Ja9qmYjXk6U/hqdefault.jpg",
+      "https://i.ytimg.com/vi/oTQUont8VhQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/EoyU6FvgbJ4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Ja9qmYjXk6U/default.jpg",
+      "https://i.ytimg.com/vi/oTQUont8VhQ/default.jpg",
+      "https://i0.hdslb.com/bfs/archive/de75ad074608ccb595588f9842ec8dad0018157d.jpg"
+    ],
+    "publishDate": "2016-12-31T00:00:00Z",
+    "acceptedTitles": [
+      "太陽系デスコ",
+      "Solar System Disco",
+      "Taiyoukei Disco",
+      "太阳系disco",
+      "太阳系迪斯科",
+      "태양계 디스코"
+    ],
+    "audioClip": "https://audio.sodapines.dev/129109.mp3"
+  },
+  {
+    "date": "2027-03-11",
+    "vocadbId": 129113,
+    "title": "Check Check Check One Two!",
+    "artist": "WADATAKEAKI",
+    "artistString": "WADATAKEAKI feat. Yuzuki Yukari",
+    "vocadbName": "Check Check Check One Two!",
+    "vocadbUrl": "https://vocadb.net/S/129113",
+    "coverArt": "https://i.ytimg.com/vi/i2tFqnnWgdg/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/i2tFqnnWgdg/default.jpg",
+      "https://i1.ytimg.com/vi/i2tFqnnWgdg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/i2tFqnnWgdg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/1kLsXawzI6A/hqdefault.jpg",
+      "https://i.ytimg.com/vi/lE3kwADjxT4/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/29544351/29544351",
+      "https://i2.hdslb.com/bfs/archive/2b8ae69af6ff2192d5e7d5ac6677304df1c858a4.jpg",
+      "https://i.ytimg.com/vi/1kLsXawzI6A/default.jpg",
+      "https://i.ytimg.com/vi/lE3kwADjxT4/default.jpg"
+    ],
+    "publishDate": "2016-07-09T00:00:00Z",
+    "acceptedTitles": [
+      "チェチェ・チェック・ワンツー！",
+      "Check Check Check One Two!",
+      "Che Che Check One Two!",
+      "체체・체크・원투!"
+    ],
+    "audioClip": "https://audio.sodapines.dev/129113.mp3"
+  },
+  {
+    "date": "2027-03-12",
+    "vocadbId": 129549,
+    "title": "Hate It! Hate It! Huge Ego!",
+    "artist": "WADATAKEAKI",
+    "artistString": "WADATAKEAKI feat. Otomachi Una Spicy",
+    "vocadbName": "Hate It! Hate It! Huge Ego!",
+    "vocadbUrl": "https://vocadb.net/S/129549",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/29315733/29315733",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/29315733/29315733",
+      "https://i1.ytimg.com/vi/0c9958OoTL8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/0c9958OoTL8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/YSWkehiqMlE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/1-tn7Rf91bE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/0c9958OoTL8/default.jpg",
+      "https://i1.hdslb.com/bfs/archive/f5e68e85d3c47fbaff701cd881ee153ff31d13b1.jpg",
+      "https://i1.sndcdn.com/artworks-000173541674-kk163p-original.jpg",
+      "https://i.ytimg.com/vi/YSWkehiqMlE/default.jpg",
+      "https://i.ytimg.com/vi/1-tn7Rf91bE/default.jpg"
+    ],
+    "publishDate": "2016-07-25T00:00:00Z",
+    "acceptedTitles": [
+      "キライ・キライ・ジガヒダイ！",
+      "Hate It! Hate It! Huge Ego!",
+      "Kirai! Kirai! Jiga Hidai!",
+      "讨厌・讨厌・JIGAHIDAI！",
+      "Hate it. Hate it. \"JIGAHIDAI!\""
+    ],
+    "audioClip": "https://audio.sodapines.dev/129549.mp3"
+  },
+  {
+    "date": "2027-03-13",
+    "vocadbId": 130561,
+    "title": "PaⅢ.SENSATION",
+    "artist": "Yunosuke",
+    "artistString": "Yunosuke, Osamu feat. various",
+    "vocadbName": "PaⅢ.SENSATION",
+    "vocadbUrl": "https://vocadb.net/S/130561",
+    "coverArt": "https://i.ytimg.com/vi/OMQNhcGZbX4/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/OMQNhcGZbX4/default.jpg",
+      "https://i1.ytimg.com/vi/OMQNhcGZbX4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/OMQNhcGZbX4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/jub2KC3ZKu8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/avxVGgdlZaU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Ie_B9GtP3z0/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/29648328/29648328",
+      "https://i1.sndcdn.com/artworks-000182695958-f1c8ap-large.jpg",
+      "https://f4.bcbits.com/img/a3298357485_5.jpg",
+      "https://i.ytimg.com/vi/jub2KC3ZKu8/default.jpg",
+      "https://i.ytimg.com/vi/avxVGgdlZaU/default.jpg",
+      "https://i2.hdslb.com/bfs/archive/c17c357c371084fb5e301d5dd1d4d77b1a5911f6.jpg",
+      "https://f4.bcbits.com/img/a1001652977_5.jpg",
+      "https://i.ytimg.com/vi/Ie_B9GtP3z0/default.jpg"
+    ],
+    "publishDate": "2016-09-15T00:00:00Z",
+    "acceptedTitles": [
+      "PaⅢ.SENSATION",
+      "Passionate 3 Dot Sensation",
+      "PaIII.SENSATION"
+    ],
+    "audioClip": "https://audio.sodapines.dev/130561.mp3"
+  },
+  {
+    "date": "2027-03-14",
+    "vocadbId": 130889,
+    "title": "Fragile",
+    "artist": "nulut",
+    "artistString": "nulut feat. GUMI",
+    "vocadbName": "Fragile",
+    "vocadbUrl": "https://vocadb.net/S/130889",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/29610327/29610327",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/29610327/29610327",
+      "https://i1.ytimg.com/vi/a_rrj1Xh5LI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/a_rrj1Xh5LI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Dj7KlJZtcjE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/a_rrj1Xh5LI/default.jpg",
+      "https://i1.hdslb.com/bfs/archive/4f15199ce7121f0f97ba1f1ed5aa896f6b0638ef.png",
+      "https://i.ytimg.com/vi/Dj7KlJZtcjE/default.jpg"
+    ],
+    "publishDate": "2016-08-11T00:00:00Z",
+    "acceptedTitles": [
+      "フラジール",
+      "Fragile",
+      "프래질"
+    ],
+    "audioClip": "https://audio.sodapines.dev/130889.mp3"
+  },
+  {
+    "date": "2027-03-15",
+    "vocadbId": 131087,
+    "title": "Reversible Campaign",
+    "artist": "DECO*27",
+    "artistString": "DECO*27, Naoki Itai feat. Hatsune Miku V4X (Original)",
+    "vocadbName": "Reversible Campaign",
+    "vocadbUrl": "https://vocadb.net/S/131087",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/29654974/29654974",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/29654974/29654974",
+      "https://i1.ytimg.com/vi/RqxnjgFj1HU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/RqxnjgFj1HU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/UNweHRo_Eu8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/hIm1dNUI7ns/hqdefault.jpg",
+      "https://i.ytimg.com/vi/RqxnjgFj1HU/default.jpg",
+      "https://i.ytimg.com/vi/UNweHRo_Eu8/default.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/29660258/29660258",
+      "https://i.ytimg.com/vi/hIm1dNUI7ns/default.jpg",
+      "https://i1.sndcdn.com/artworks-bvhDR98QAZxP-0-t500x500.jpg"
+    ],
+    "publishDate": "2016-09-16T00:00:00Z",
+    "acceptedTitles": [
+      "リバーシブル・キャンペーン",
+      "Reversible Campaign",
+      "双面作战"
+    ],
+    "audioClip": "https://audio.sodapines.dev/131087.mp3"
+  },
+  {
+    "date": "2027-03-16",
+    "vocadbId": 131090,
+    "title": "Delusion Sentiment Compensation Federation",
+    "artist": "DECO*27",
+    "artistString": "DECO*27, emon(Tes.) feat. Hatsune Miku",
+    "vocadbName": "Delusion Sentiment Compensation Federation",
+    "vocadbUrl": "https://vocadb.net/S/131090",
+    "coverArt": "https://i.ytimg.com/vi/8pGRdRhjX3o/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/8pGRdRhjX3o/default.jpg",
+      "https://i1.ytimg.com/vi/8pGRdRhjX3o/hqdefault.jpg",
+      "https://i.ytimg.com/vi/8pGRdRhjX3o/hqdefault.jpg",
+      "https://i.ytimg.com/vi/9B8ZG8FvNWU/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/30067009/30067009",
+      "https://i.ytimg.com/vi/9B8ZG8FvNWU/default.jpg",
+      "https://i1.sndcdn.com/artworks-PDoCXgBFG92H-0-t500x500.jpg"
+    ],
+    "publishDate": "2016-09-27T00:00:00Z",
+    "acceptedTitles": [
+      "妄想感傷代償連盟",
+      "Delusion Sentiment Compensation Federation",
+      "Mousou Kanshou Daishou Renmei",
+      "MKDR",
+      "DSCF",
+      "망상감상대상연맹"
+    ],
+    "audioClip": "https://audio.sodapines.dev/131090.mp3"
+  },
+  {
+    "date": "2027-03-17",
+    "vocadbId": 132923,
+    "title": "I'm Glad You're Evil Too",
+    "artist": "PinocchioP",
+    "artistString": "PinocchioP feat. Hatsune Miku Append (Dark)",
+    "vocadbName": "I'm Glad You're Evil Too",
+    "vocadbUrl": "https://vocadb.net/S/132923",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/29520630/29520630",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/29520630/29520630",
+      "https://i1.ytimg.com/vi/PLevj9bdRRA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/PLevj9bdRRA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/zkI-Ogt06sQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/GVAr0je0810/hqdefault.jpg",
+      "https://i.ytimg.com/vi/N-xpACqL2sA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/t1XVtfu_RaQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/PLevj9bdRRA/default.jpg",
+      "https://i.ytimg.com/vi/zkI-Ogt06sQ/default.jpg",
+      "https://i1.sndcdn.com/artworks-000179203020-qxktd5-large.jpg",
+      "https://i.ytimg.com/vi/GVAr0je0810/default.jpg",
+      "https://i.ytimg.com/vi/N-xpACqL2sA/default.jpg",
+      "https://i.ytimg.com/vi/t1XVtfu_RaQ/default.jpg",
+      "https://i1.sndcdn.com/artworks-87chC5gy1xtj-0-t500x500.jpg"
+    ],
+    "publishDate": "2016-08-26T00:00:00Z",
+    "acceptedTitles": [
+      "きみも悪い人でよかった",
+      "I'm Glad You're Evil Too",
+      "Kimi mo Warui Hito de Yokatta",
+      "너도 나쁜 사람이라 다행이야",
+      "你也是坏人，真是太好了"
+    ],
+    "audioClip": "https://audio.sodapines.dev/132923.mp3"
+  },
+  {
+    "date": "2027-03-18",
+    "vocadbId": 135628,
+    "title": "Charles",
+    "artist": "balloon",
+    "artistString": "balloon feat. v flower",
+    "vocadbName": "Charles",
+    "vocadbUrl": "https://vocadb.net/S/135628",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/29822304/29822304",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/29822304/29822304",
+      "https://i1.ytimg.com/vi/TA5OFS_xX0c/hqdefault.jpg",
+      "https://i.ytimg.com/vi/TA5OFS_xX0c/hqdefault.jpg",
+      "https://i.ytimg.com/vi/FFnJOer7F10/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Ut64ptd0bYk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/TA5OFS_xX0c/default.jpg",
+      "https://f4.bcbits.com/img/a1591667219_5.jpg",
+      "https://i.ytimg.com/vi/FFnJOer7F10/default.jpg",
+      "https://i.ytimg.com/vi/Ut64ptd0bYk/default.jpg"
+    ],
+    "publishDate": "2016-10-12T00:00:00Z",
+    "acceptedTitles": [
+      "シャルル",
+      "Charles"
+    ],
+    "audioClip": "https://audio.sodapines.dev/135628.mp3"
+  },
+  {
+    "date": "2027-03-19",
+    "vocadbId": 137139,
+    "title": "Amygdala's Rag Doll",
+    "artist": "GHOST",
+    "artistString": "GHOST feat. Oliver",
+    "vocadbName": "Amygdala's Rag Doll",
+    "vocadbUrl": "https://vocadb.net/S/137139",
+    "coverArt": "https://i.ytimg.com/vi/P7vRNY7Vsy4/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/P7vRNY7Vsy4/default.jpg",
+      "https://i1.sndcdn.com/artworks-000189742894-1qev57-large.jpg",
+      "https://i1.ytimg.com/vi/JJdOk1VcMXY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/JJdOk1VcMXY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/P7vRNY7Vsy4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/rdp7pN0g0kU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/JJdOk1VcMXY/default.jpg",
+      "https://i1.sndcdn.com/artworks-000461190690-fuq71d-large.jpg",
+      "https://f4.bcbits.com/img/a1117597832_5.jpg",
+      "https://f4.bcbits.com/img/a2800955951_5.jpg",
+      "https://i.ytimg.com/vi/rdp7pN0g0kU/default.jpg"
+    ],
+    "publishDate": "2016-10-19T00:00:00Z",
+    "acceptedTitles": [
+      "Amygdala's Rag Doll"
+    ],
+    "audioClip": "https://audio.sodapines.dev/137139.mp3"
+  },
+  {
+    "date": "2027-03-20",
+    "vocadbId": 140751,
+    "title": "Alkali Underachiever",
+    "artist": "Kairiki bear",
+    "artistString": "Kairiki bear feat. Hatsune Miku V3 (Soft)",
+    "vocadbName": "Alkali Underachiever",
+    "vocadbUrl": "https://vocadb.net/S/140751",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/30105817/30105817",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/30105817/30105817",
+      "https://i1.ytimg.com/vi/zLmopbS97aY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/zLmopbS97aY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/hfBVqXO-tT0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/fBvhICyO8FM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/zLmopbS97aY/default.jpg",
+      "https://i1.hdslb.com/bfs/archive/72ca0cfe00ed97e403cfa8255a14a43ed7969f4c.jpg",
+      "https://i.ytimg.com/vi/hfBVqXO-tT0/default.jpg",
+      "https://i.ytimg.com/vi/fBvhICyO8FM/default.jpg"
+    ],
+    "publishDate": "2016-11-26T00:00:00Z",
+    "acceptedTitles": [
+      "アルカリレットウセイ",
+      "Alkali Underachiever",
+      "Alkali Rettousei",
+      "Alkaline Rettousei",
+      "Alkaline Underachiever",
+      "Alkali Inferiority",
+      "ALKALI UNDERACHIEVER",
+      "알칼리 열등생"
+    ],
+    "audioClip": "https://audio.sodapines.dev/140751.mp3"
+  },
+  {
+    "date": "2027-03-21",
+    "vocadbId": 141071,
+    "title": "Color & Electricity",
+    "artist": "muship",
+    "artistString": "muship feat. Hatsune Miku",
+    "vocadbName": "Color & Electricity",
+    "vocadbUrl": "https://vocadb.net/S/141071",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/30128905/30128905",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/30128905/30128905",
+      "https://i1.ytimg.com/vi/c8_Ctg_VvD0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/c8_Ctg_VvD0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/O3OCIjonXps/hqdefault.jpg",
+      "https://i.ytimg.com/vi/c8_Ctg_VvD0/default.jpg",
+      "https://f4.bcbits.com/img/a3491391445_5.jpg",
+      "https://i.ytimg.com/vi/O3OCIjonXps/default.jpg",
+      "https://i1.sndcdn.com/artworks-000196011404-9a59ds-large.jpg"
+    ],
+    "publishDate": "2016-11-29T00:00:00Z",
+    "acceptedTitles": [
+      "色彩電気",
+      "Color & Electricity",
+      "Shikisai Denki",
+      "Electrical Color",
+      "색채전기"
+    ],
+    "audioClip": "https://audio.sodapines.dev/141071.mp3"
+  },
+  {
+    "date": "2027-03-22",
+    "vocadbId": 141339,
+    "title": "DAYBREAK FRONTLINE",
+    "artist": "Orangestar",
+    "artistString": "Orangestar feat. IA",
+    "vocadbName": "DAYBREAK FRONTLINE",
+    "vocadbUrl": "https://vocadb.net/S/141339",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/30156654/30156654",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/30156654/30156654",
+      "https://i1.ytimg.com/vi/emrt46SRyYs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/emrt46SRyYs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/4tMC2QALMds/hqdefault.jpg",
+      "https://i.ytimg.com/vi/6Io5B6_j7K4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Q4XQRbZ93l8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/emrt46SRyYs/default.jpg",
+      "https://i1.sndcdn.com/artworks-000204423491-w7ysj8-large.jpg",
+      "https://i.ytimg.com/vi/4tMC2QALMds/default.jpg",
+      "https://i.ytimg.com/vi/6Io5B6_j7K4/default.jpg",
+      "https://i.ytimg.com/vi/Q4XQRbZ93l8/default.jpg"
+    ],
+    "publishDate": "2016-12-03T00:00:00Z",
+    "acceptedTitles": [
+      "DAYBREAK FRONTLINE"
+    ],
+    "audioClip": "https://audio.sodapines.dev/141339.mp3"
+  },
+  {
+    "date": "2027-03-23",
+    "vocadbId": 141649,
+    "title": "Dance Robot Dance",
+    "artist": "NayutalieN",
+    "artistString": "NayutalieN feat. Hatsune Miku",
+    "vocadbName": "Dance Robot Dance",
+    "vocadbUrl": "https://vocadb.net/S/141649",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/30177801/30177801",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/30177801/30177801",
+      "https://i1.ytimg.com/vi/g7dvpD_zlIM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/g7dvpD_zlIM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/J6T-SlyAKuE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/JHWJ2kHnkOw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/rKjFCrkyzHw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/g7dvpD_zlIM/default.jpg",
+      "https://i1.hdslb.com/bfs/archive/a8853123a2bf69ef17565fc5590060aabd834bf6.jpg",
+      "https://i.ytimg.com/vi/J6T-SlyAKuE/default.jpg",
+      "https://i.ytimg.com/vi/JHWJ2kHnkOw/default.jpg",
+      "https://i.ytimg.com/vi/rKjFCrkyzHw/default.jpg"
+    ],
+    "publishDate": "2016-12-06T00:00:00Z",
+    "acceptedTitles": [
+      "ダンスロボットダンス",
+      "Dance Robot Dance",
+      "跃动吧机器人之舞",
+      "댄스 로봇 댄스"
+    ],
+    "audioClip": "https://audio.sodapines.dev/141649.mp3"
+  },
+  {
+    "date": "2027-03-24",
+    "vocadbId": 143259,
+    "title": "Kill, Carry On",
+    "artist": "Police Piccadilly",
+    "artistString": "Police Piccadilly feat. Hatsune Miku",
+    "vocadbName": "Kill, Carry On",
+    "vocadbUrl": "https://vocadb.net/S/143259",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/30228596/30228596",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/30228596/30228596",
+      "https://i1.ytimg.com/vi/AWVvuh9L2cc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/AWVvuh9L2cc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/JeGPfis2QaI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/IT2xtwRB_B8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/NuI0ZDn2J4M/hqdefault.jpg",
+      "https://i.ytimg.com/vi/AWVvuh9L2cc/default.jpg",
+      "https://i.ytimg.com/vi/JeGPfis2QaI/default.jpg",
+      "https://i.ytimg.com/vi/IT2xtwRB_B8/default.jpg",
+      "https://i.ytimg.com/vi/NuI0ZDn2J4M/default.jpg"
+    ],
+    "publishDate": "2016-12-15T00:00:00Z",
+    "acceptedTitles": [
+      "キレキャリオン",
+      "Kill, Carry On",
+      "Kire Carry On",
+      "베어라 캐리온",
+      "砍下吧Carry on"
+    ],
+    "audioClip": "https://audio.sodapines.dev/143259.mp3"
+  },
+  {
+    "date": "2027-03-25",
+    "vocadbId": 145803,
+    "title": "Disappearance Addiction",
+    "artist": "MARETU",
+    "artistString": "MARETU, Kairiki bear feat. Hatsune Miku V3 (Original), Hatsune Miku V3 (Light)",
+    "vocadbName": "Disappearance Addiction",
+    "vocadbUrl": "https://vocadb.net/S/145803",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/30379034/30379034",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/30379034/30379034",
+      "https://i1.ytimg.com/vi/_l4FsnJt0k4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/_l4FsnJt0k4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/P79yc6LXniA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/_l4FsnJt0k4/default.jpg",
+      "https://i.ytimg.com/vi/P79yc6LXniA/default.jpg"
+    ],
+    "publishDate": "2017-01-06T00:00:00Z",
+    "acceptedTitles": [
+      "イナイイナイ依存症",
+      "Disappearance Addiction",
+      "Inai Inai Izonshou",
+      "DISAPPEARANCE ADDICTION",
+      "없어 없어 의존증"
+    ],
+    "audioClip": "https://audio.sodapines.dev/145803.mp3"
+  },
+  {
+    "date": "2027-03-26",
+    "vocadbId": 147813,
+    "title": "TRASH and TRASH!",
+    "artist": "WADATAKEAKI",
+    "artistString": "WADATAKEAKI feat. Kagamine Rin",
+    "vocadbName": "TRASH and TRASH!",
+    "vocadbUrl": "https://vocadb.net/S/147813",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/30541190/30541190",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/30541190/30541190",
+      "https://i1.ytimg.com/vi/dlmDDcRDByc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/dlmDDcRDByc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/NjmEox6n7qw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/qmQ4-bQyTvM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/dlmDDcRDByc/default.jpg",
+      "https://i1.hdslb.com/bfs/archive/07f51428b37c47e5f2aab9bf15e180c98d46ed0b.jpg",
+      "https://i.ytimg.com/vi/NjmEox6n7qw/default.jpg",
+      "https://i.ytimg.com/vi/qmQ4-bQyTvM/default.jpg"
+    ],
+    "publishDate": "2017-01-31T00:00:00Z",
+    "acceptedTitles": [
+      "トラッシュ・アンド・トラッシュ!",
+      "TRASH and TRASH!",
+      "트래시 앤드 트래시!"
+    ],
+    "audioClip": "https://audio.sodapines.dev/147813.mp3"
+  },
+  {
+    "date": "2027-03-27",
+    "vocadbId": 151522,
+    "title": "Beast Dance",
+    "artist": "WADATAKEAKI",
+    "artistString": "WADATAKEAKI feat. Otomachi Una Spicy, Otomachi Una (Talk Ex)",
+    "vocadbName": "Beast Dance",
+    "vocadbUrl": "https://vocadb.net/S/151522",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/30822018/30822018",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/30822018/30822018",
+      "https://i1.ytimg.com/vi/mH-PbzzRFsg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/mH-PbzzRFsg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/rf0dDg8s7rY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/IUGd_-01mbg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/mH-PbzzRFsg/default.jpg",
+      "https://i.ytimg.com/vi/rf0dDg8s7rY/default.jpg",
+      "https://i2.hdslb.com/bfs/archive/e0db63380be27f0569ee3aaf90278c63acc83a68.jpg",
+      "https://i.ytimg.com/vi/IUGd_-01mbg/default.jpg"
+    ],
+    "publishDate": "2017-03-14T00:00:00Z",
+    "acceptedTitles": [
+      "ビースト・ダンス",
+      "Beast Dance",
+      "비스트 댄스"
+    ],
+    "audioClip": "https://audio.sodapines.dev/151522.mp3"
+  },
+  {
+    "date": "2027-03-28",
+    "vocadbId": 152247,
+    "title": "Fixer",
+    "artist": "nulut",
+    "artistString": "nulut feat. v flower",
+    "vocadbName": "Fixer",
+    "vocadbUrl": "https://vocadb.net/S/152247",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/30868619/30868619",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/30868619/30868619",
+      "https://i1.ytimg.com/vi/srH34Tjjo9U/hqdefault.jpg",
+      "https://i.ytimg.com/vi/srH34Tjjo9U/hqdefault.jpg",
+      "https://i.ytimg.com/vi/FaF5FmhsV8w/hqdefault.jpg",
+      "https://i.ytimg.com/vi/srH34Tjjo9U/default.jpg",
+      "https://i2.hdslb.com/bfs/archive/853d8ec36acc49649f0ec42bce286b5e37e097a8.png",
+      "https://i.ytimg.com/vi/FaF5FmhsV8w/default.jpg"
+    ],
+    "publishDate": "2017-03-22T00:00:00Z",
+    "acceptedTitles": [
+      "フィクサー",
+      "Fixer",
+      "픽서"
+    ],
+    "audioClip": "https://audio.sodapines.dev/152247.mp3"
+  },
+  {
+    "date": "2027-03-29",
+    "vocadbId": 153133,
+    "title": "Nobody Makes Sense",
+    "artist": "PinocchioP",
+    "artistString": "PinocchioP feat. Hatsune Miku",
+    "vocadbName": "Nobody Makes Sense",
+    "vocadbUrl": "https://vocadb.net/S/153133",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/30964600/30964600",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/30964600/30964600",
+      "https://i1.ytimg.com/vi/LtSNzPyo0lA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/LtSNzPyo0lA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/zXqx2FWNvVg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/87-1-d_tLks/hqdefault.jpg",
+      "https://i.ytimg.com/vi/b62lKFbFgwk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/LtSNzPyo0lA/default.jpg",
+      "https://i.ytimg.com/vi/zXqx2FWNvVg/default.jpg",
+      "https://i.ytimg.com/vi/87-1-d_tLks/default.jpg",
+      "https://i.ytimg.com/vi/b62lKFbFgwk/default.jpg",
+      "https://i1.sndcdn.com/artworks-t6rPc1CTR0W9-0-t500x500.jpg"
+    ],
+    "publishDate": "2017-04-04T00:00:00Z",
+    "acceptedTitles": [
+      "ぼくらはみんな意味不明",
+      "Nobody Makes Sense",
+      "Bokura wa Minna Imi Fumei"
+    ],
+    "audioClip": "https://audio.sodapines.dev/153133.mp3"
+  },
+  {
+    "date": "2027-03-30",
+    "vocadbId": 157860,
+    "title": "DUNE",
+    "artist": "HACHI",
+    "artistString": "HACHI feat. Hatsune Miku",
+    "vocadbName": "DUNE",
+    "vocadbUrl": "https://vocadb.net/S/157860",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/31606995/31606995",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/31606995/31606995",
+      "https://i1.ytimg.com/vi/AS4q9yaWJkI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/AS4q9yaWJkI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Kn8Vs_kKQMc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/HBuKgYt4aeM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/AS4q9yaWJkI/default.jpg",
+      "https://i.ytimg.com/vi/Kn8Vs_kKQMc/default.jpg",
+      "https://i.ytimg.com/vi/HBuKgYt4aeM/default.jpg",
+      "https://i0.hdslb.com/bfs/archive/a5244ccb294b8fe4da5a3db3f5df68601f5108f5.jpg"
+    ],
+    "publishDate": "2017-07-20T00:00:00Z",
+    "acceptedTitles": [
+      "砂の惑星",
+      "DUNE",
+      "Suna no Wakusei",
+      "Sand Planet"
+    ],
+    "audioClip": "https://audio.sodapines.dev/157860.mp3"
+  },
+  {
+    "date": "2027-03-31",
+    "vocadbId": 158222,
+    "title": "Dear Doppelganger",
+    "artist": "kemu",
+    "artistString": "kemu, Ore BananaP feat. GUMI",
+    "vocadbName": "Dear Doppelganger",
+    "vocadbUrl": "https://vocadb.net/S/158222",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/31314079/31314079",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/31314079/31314079",
+      "https://i1.ytimg.com/vi/grdy6rLbQ-c/hqdefault.jpg",
+      "https://i.ytimg.com/vi/grdy6rLbQ-c/hqdefault.jpg",
+      "https://i.ytimg.com/vi/tv6eGWGOC3Q/hqdefault.jpg",
+      "https://i.ytimg.com/vi/grdy6rLbQ-c/default.jpg",
+      "https://i.ytimg.com/vi/tv6eGWGOC3Q/default.jpg"
+    ],
+    "publishDate": "2017-05-31T00:00:00Z",
+    "acceptedTitles": [
+      "拝啓ドッペルゲンガー",
+      "Dear Doppelganger",
+      "Haikei Doppelganger",
+      "친애하는 도플갱어에게"
+    ],
+    "audioClip": "https://audio.sodapines.dev/158222.mp3"
+  },
+  {
+    "date": "2027-04-01",
+    "vocadbId": 160508,
+    "title": "White Happy",
+    "artist": "MARETU",
+    "artistString": "MARETU feat. Hatsune Miku",
+    "vocadbName": "White Happy",
+    "vocadbUrl": "https://vocadb.net/S/160508",
+    "coverArt": "https://i.ytimg.com/vi/rYymKe82y0c/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/rYymKe82y0c/default.jpg",
+      "https://i1.ytimg.com/vi/rYymKe82y0c/hqdefault.jpg",
+      "https://i.ytimg.com/vi/rYymKe82y0c/hqdefault.jpg",
+      "https://i.ytimg.com/vi/AWnH_XV6v7s/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Ltm2eAX6PPw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/cMAUQu8fyoU/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/31485619/31485619",
+      "https://i.ytimg.com/vi/AWnH_XV6v7s/default.jpg",
+      "https://i.ytimg.com/vi/Ltm2eAX6PPw/default.jpg",
+      "https://i.ytimg.com/vi/cMAUQu8fyoU/default.jpg"
+    ],
+    "publishDate": "2017-06-30T00:00:00Z",
+    "acceptedTitles": [
+      "ホワイトハッピー",
+      "White Happy"
+    ],
+    "audioClip": "https://audio.sodapines.dev/160508.mp3"
+  },
+  {
+    "date": "2027-04-02",
+    "vocadbId": 160589,
+    "title": "Apple dot com",
+    "artist": "PinocchioP",
+    "artistString": "PinocchioP feat. Hatsune Miku",
+    "vocadbName": "Apple dot com",
+    "vocadbUrl": "https://vocadb.net/S/160589",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/31491163/31491163",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/31491163/31491163",
+      "https://i1.ytimg.com/vi/h1pSSrmdEtw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/h1pSSrmdEtw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/1Q1W8a8yEDQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/n3tw5WVYbDw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/xl8ouBOBPq0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/h1pSSrmdEtw/default.jpg",
+      "https://i.ytimg.com/vi/1Q1W8a8yEDQ/default.jpg",
+      "https://f4.bcbits.com/img/a3339090855_5.jpg",
+      "https://i.ytimg.com/vi/n3tw5WVYbDw/default.jpg",
+      "https://i.ytimg.com/vi/xl8ouBOBPq0/default.jpg",
+      "https://i1.sndcdn.com/artworks-Du61RV72B2Bh-0-t500x500.jpg"
+    ],
+    "publishDate": "2017-07-01T00:00:00Z",
+    "acceptedTitles": [
+      "アップルドットコム",
+      "Apple dot com"
+    ],
+    "audioClip": "https://audio.sodapines.dev/160589.mp3"
+  },
+  {
+    "date": "2027-04-03",
+    "vocadbId": 161199,
+    "title": "Teo",
+    "artist": "Kimura",
+    "artistString": "Kimura, Sakurai, Omoi feat. Hatsune Miku",
+    "vocadbName": "Teo",
+    "vocadbUrl": "https://vocadb.net/S/161199",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/31533883/31533883",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/31533883/31533883",
+      "https://i1.ytimg.com/vi/bmkY2yc1K7Q/hqdefault.jpg",
+      "https://i.ytimg.com/vi/bmkY2yc1K7Q/hqdefault.jpg",
+      "https://i.ytimg.com/vi/sOQirPB3T9g/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Jgg4Q2V8G8c/hqdefault.jpg",
+      "https://i.ytimg.com/vi/bmkY2yc1K7Q/default.jpg",
+      "https://i.ytimg.com/vi/sOQirPB3T9g/default.jpg",
+      "https://i2.hdslb.com/bfs/archive/f4a82deeeb3973fd9df1ba1b5d92faba503f32c4.jpg",
+      "https://i.ytimg.com/vi/Jgg4Q2V8G8c/default.jpg"
+    ],
+    "publishDate": "2017-07-08T00:00:00Z",
+    "acceptedTitles": [
+      "テオ",
+      "Teo",
+      "Theo",
+      "将手",
+      "My Hand",
+      "테오"
+    ],
+    "audioClip": "https://audio.sodapines.dev/161199.mp3"
+  },
+  {
+    "date": "2027-04-04",
+    "vocadbId": 164074,
+    "title": "SPARKS",
+    "artist": "DECO*27",
+    "artistString": "DECO*27, Rockwell feat. Hatsune Miku, Hatsune Miku V4 (English)",
+    "vocadbName": "SPARKS",
+    "vocadbUrl": "https://vocadb.net/S/164074",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/31685272/31685272",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/31685272/31685272",
+      "https://i1.ytimg.com/vi/hxSg2Ioz3LM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/hxSg2Ioz3LM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/EIq-DOrYWx4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/hxSg2Ioz3LM/default.jpg",
+      "https://i0.hdslb.com/bfs/archive/31ee527de1b68584e19bd338afac7b4da26de373.jpg",
+      "https://i.ytimg.com/vi/EIq-DOrYWx4/default.jpg"
+    ],
+    "publishDate": "2017-08-04T00:00:00Z",
+    "acceptedTitles": [
+      "ヒバナ",
+      "SPARKS",
+      "HIBANA",
+      "火花",
+      "Hibana",
+      "불꽃"
+    ],
+    "audioClip": "https://audio.sodapines.dev/164074.mp3"
+  },
+  {
+    "date": "2027-04-05",
+    "vocadbId": 164107,
+    "title": "Unknown Mother-Goose",
+    "artist": "wowaka",
+    "artistString": "wowaka, Hitorie feat. Hatsune Miku V4X (Dark)",
+    "vocadbName": "Unknown Mother-Goose",
+    "vocadbUrl": "https://vocadb.net/S/164107",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/31791630/31791630",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/31791630/31791630",
+      "https://i1.ytimg.com/vi/P_CSdxSGfaA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/P_CSdxSGfaA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/gr5Csep6yFM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/P_CSdxSGfaA/default.jpg",
+      "https://i.ytimg.com/vi/gr5Csep6yFM/default.jpg"
+    ],
+    "publishDate": "2017-08-22T00:00:00Z",
+    "acceptedTitles": [
+      "アンノウン・マザーグース",
+      "Unknown Mother-Goose",
+      "Unknown Mother Goose",
+      "不为人知的鹅妈妈童谣"
+    ],
+    "audioClip": "https://audio.sodapines.dev/164107.mp3"
+  },
+  {
+    "date": "2027-04-06",
+    "vocadbId": 164109,
+    "title": "Ooedo Julia-Night",
+    "artist": "Mitchie M",
+    "artistString": "Mitchie M feat. Hatsune Miku, KAITO V3 (Straight)",
+    "vocadbName": "Ooedo Julia-Night",
+    "vocadbUrl": "https://vocadb.net/S/164109",
+    "coverArt": "https://i.ytimg.com/vi/y3yyYYLyVzw/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/y3yyYYLyVzw/default.jpg",
+      "https://i1.ytimg.com/vi/y3yyYYLyVzw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/y3yyYYLyVzw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/g7kaPQirlKA/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/31812792/31812792",
+      "https://i1.hdslb.com/bfs/archive/43b2d632ac94ddfa9d1799be04ca6d34402296c9.jpg",
+      "https://i1.sndcdn.com/artworks-000240905910-otvx2h-large.jpg",
+      "https://i.ytimg.com/vi/g7kaPQirlKA/default.jpg"
+    ],
+    "publishDate": "2017-08-30T00:00:00Z",
+    "acceptedTitles": [
+      "大江戸ジュリアナイト",
+      "Ooedo Julia-Night",
+      "大江户Julia-Night",
+      "Ohedo Julia-Night"
+    ],
+    "audioClip": "https://audio.sodapines.dev/164109.mp3"
+  },
+  {
+    "date": "2027-04-07",
+    "vocadbId": 164262,
+    "title": "The Disease Called Love",
+    "artist": "Neru",
+    "artistString": "Neru feat. Kagamine Len V4X (Power), Kagamine Rin V4X (Power)",
+    "vocadbName": "The Disease Called Love",
+    "vocadbUrl": "https://vocadb.net/S/164262",
+    "coverArt": "https://i.ytimg.com/vi/2IH-toUoq3w/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/2IH-toUoq3w/default.jpg",
+      "https://i1.ytimg.com/vi/2IH-toUoq3w/hqdefault.jpg",
+      "https://i.ytimg.com/vi/2IH-toUoq3w/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ArlHD1l-_lE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/vEoMG4eQH50/hqdefault.jpg",
+      "https://i.ytimg.com/vi/8gst7qCEV0g/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/31942799/31942799",
+      "https://i0.hdslb.com/bfs/archive/071608381823678245dd29aa78326228233db8f1.jpg",
+      "https://i.ytimg.com/vi/ArlHD1l-_lE/default.jpg",
+      "https://i.ytimg.com/vi/vEoMG4eQH50/default.jpg",
+      "https://i.ytimg.com/vi/8gst7qCEV0g/default.jpg"
+    ],
+    "publishDate": "2017-08-11T00:00:00Z",
+    "acceptedTitles": [
+      "病名は愛だった",
+      "The Disease Called Love",
+      "Byoumei wa Ai Datta",
+      "Byoumeiha Aidatta",
+      "병명은 사랑이었다",
+      "病名为爱"
+    ],
+    "audioClip": "https://audio.sodapines.dev/164262.mp3"
+  },
+  {
+    "date": "2027-04-08",
+    "vocadbId": 164273,
+    "title": "Hated By Life.",
+    "artist": "Kanzaki Iori",
+    "artistString": "Kanzaki Iori feat. Hatsune Miku",
+    "vocadbName": "Hated By Life.",
+    "vocadbUrl": "https://vocadb.net/S/164273",
+    "coverArt": "https://i.ytimg.com/vi/0HYm60Mjm0k/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/0HYm60Mjm0k/default.jpg",
+      "https://i1.ytimg.com/vi/0HYm60Mjm0k/hqdefault.jpg",
+      "https://i.ytimg.com/vi/0HYm60Mjm0k/hqdefault.jpg",
+      "https://i.ytimg.com/vi/w6gV6OSaahg/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/31700140/31700140",
+      "https://i.ytimg.com/vi/w6gV6OSaahg/default.jpg",
+      "https://i2.hdslb.com/bfs/archive/82c201dd6894afc62034b10365e26d4fa444ccb3.jpg"
+    ],
+    "publishDate": "2017-08-06T00:00:00Z",
+    "acceptedTitles": [
+      "命に嫌われている。",
+      "Hated By Life.",
+      "Inochi ni Kirawarete Iru.",
+      "Hated by Life Itself.",
+      "被生命所厌恶",
+      "Life hates us now."
+    ],
+    "audioClip": "https://audio.sodapines.dev/164273.mp3"
+  },
+  {
+    "date": "2027-04-09",
+    "vocadbId": 166095,
+    "title": "Rebirth",
+    "artist": "MARETU",
+    "artistString": "MARETU feat. Hatsune Miku",
+    "vocadbName": "Rebirth",
+    "vocadbUrl": "https://vocadb.net/S/166095",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/31808640/31808640",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/31808640/31808640",
+      "https://i1.ytimg.com/vi/Tu2xgl1303M/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Tu2xgl1303M/hqdefault.jpg",
+      "https://i.ytimg.com/vi/miAMN4_MMdo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/p98x2oTi_v0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Tu2xgl1303M/default.jpg",
+      "https://i.ytimg.com/vi/miAMN4_MMdo/default.jpg",
+      "https://i.ytimg.com/vi/p98x2oTi_v0/default.jpg"
+    ],
+    "publishDate": "2017-08-25T00:00:00Z",
+    "acceptedTitles": [
+      "うみなおし",
+      "Rebirth",
+      "Uminaoshi",
+      "Redo The Birth",
+      "다시 낳기",
+      "重新分娩"
+    ],
+    "audioClip": "https://audio.sodapines.dev/166095.mp3"
+  },
+  {
+    "date": "2027-04-10",
+    "vocadbId": 166297,
+    "title": "Again",
+    "artist": "Crusher",
+    "artistString": "Crusher feat. V3 GUMI (English)",
+    "vocadbName": "Again",
+    "vocadbUrl": "https://vocadb.net/S/166297",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/31818521/31818521",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/31818521/31818521",
+      "https://i1.ytimg.com/vi/jdQWia3fwMU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/jdQWia3fwMU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/OABbtIKYM_I/hqdefault.jpg",
+      "https://i.ytimg.com/vi/7gorEBp0wNs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/D6redxGZXA0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/P1dYBj_DGXs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/jdQWia3fwMU/default.jpg",
+      "https://i1.sndcdn.com/artworks-000240046784-gv24s0-large.jpg",
+      "https://f4.bcbits.com/img/a3065503144_5.jpg",
+      "https://i.ytimg.com/vi/OABbtIKYM_I/default.jpg",
+      "https://i.ytimg.com/vi/7gorEBp0wNs/default.jpg",
+      "https://i.ytimg.com/vi/D6redxGZXA0/default.jpg",
+      "https://i.ytimg.com/vi/P1dYBj_DGXs/default.jpg"
+    ],
+    "publishDate": "2017-08-27T00:00:00Z",
+    "acceptedTitles": [
+      "Again"
+    ],
+    "audioClip": "https://audio.sodapines.dev/166297.mp3"
+  },
+  {
+    "date": "2027-04-11",
+    "vocadbId": 168180,
+    "title": "Appetite of a People​-​Pleaser",
+    "artist": "GHOST",
+    "artistString": "GHOST feat. v4 flower",
+    "vocadbName": "Appetite of a People​-​Pleaser",
+    "vocadbUrl": "https://vocadb.net/S/168180",
+    "coverArt": "https://i.ytimg.com/vi/kf3Err9MvDg/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/kf3Err9MvDg/default.jpg",
+      "https://i.ytimg.com/vi/7J8MFD-urhg/default.jpg",
+      "https://i1.ytimg.com/vi/7J8MFD-urhg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/7J8MFD-urhg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/kf3Err9MvDg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ez7hLp6oEF8/hqdefault.jpg",
+      "https://i1.sndcdn.com/artworks-000243784121-dmoww0-large.jpg",
+      "https://i1.sndcdn.com/artworks-000461190663-z12gyl-large.jpg",
+      "https://f4.bcbits.com/img/a2800955951_5.jpg",
+      "https://i.ytimg.com/vi/ez7hLp6oEF8/default.jpg"
+    ],
+    "publishDate": "2017-09-21T00:00:00Z",
+    "acceptedTitles": [
+      "Appetite of a People​-​Pleaser",
+      "v flower hungry"
+    ],
+    "audioClip": "https://audio.sodapines.dev/168180.mp3"
+  },
+  {
+    "date": "2027-04-12",
+    "vocadbId": 168456,
+    "title": "MONSTER",
+    "artist": "KIRA",
+    "artistString": "KIRA feat. V3 GUMI (English)",
+    "vocadbName": "MONSTER",
+    "vocadbUrl": "https://vocadb.net/S/168456",
+    "coverArt": "https://i.ytimg.com/vi/HNIypYrVlkA/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/HNIypYrVlkA/default.jpg",
+      "https://i1.ytimg.com/vi/HNIypYrVlkA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/HNIypYrVlkA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/iWxGwJy7Jv4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/3xRzq3KUIFw/hqdefault.jpg",
+      "https://i1.sndcdn.com/artworks-000244124449-r0v578-large.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/35190423/35190423.7605981",
+      "https://f4.bcbits.com/img/a1189723639_5.jpg",
+      "https://i1.sndcdn.com/artworks-000244683397-iqe84y-large.jpg",
+      "https://i.ytimg.com/vi/iWxGwJy7Jv4/default.jpg",
+      "https://i.ytimg.com/vi/3xRzq3KUIFw/default.jpg"
+    ],
+    "publishDate": "2017-09-24T00:00:00Z",
+    "acceptedTitles": [
+      "MONSTER"
+    ],
+    "audioClip": "https://audio.sodapines.dev/168456.mp3"
+  },
+  {
+    "date": "2027-04-13",
+    "vocadbId": 168886,
+    "title": "Darling",
+    "artist": "MARETU",
+    "artistString": "MARETU feat. Hatsune Miku",
+    "vocadbName": "Darling",
+    "vocadbUrl": "https://vocadb.net/S/168886",
+    "coverArt": "https://i.ytimg.com/vi/YFg48Ai1SSo/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/YFg48Ai1SSo/default.jpg",
+      "https://i1.ytimg.com/vi/YFg48Ai1SSo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/YFg48Ai1SSo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ZsYkvdGIXT0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/-i_yWQeUFso/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/32012728/32012728",
+      "https://i.ytimg.com/vi/ZsYkvdGIXT0/default.jpg",
+      "https://i.ytimg.com/vi/-i_yWQeUFso/default.jpg"
+    ],
+    "publishDate": "2017-09-29T00:00:00Z",
+    "acceptedTitles": [
+      "ダーリン",
+      "Darling",
+      "달링",
+      "亲爱的"
+    ],
+    "audioClip": "https://audio.sodapines.dev/168886.mp3"
+  },
+  {
+    "date": "2027-04-14",
+    "vocadbId": 170110,
+    "title": "Dramaturgy",
+    "artist": "Eve",
+    "artistString": "Eve, Tomoki Numano feat. Hatsune Miku",
+    "vocadbName": "Dramaturgy",
+    "vocadbUrl": "https://vocadb.net/S/170110",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/32076378/32076378",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/32076378/32076378",
+      "https://i1.ytimg.com/vi/TqYscfQNf_Y/hqdefault.jpg",
+      "https://i.ytimg.com/vi/TqYscfQNf_Y/hqdefault.jpg",
+      "https://i.ytimg.com/vi/sHO-cVXWWY0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/pz5t9_xSjD4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/9dg80N2I1K8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/TqYscfQNf_Y/default.jpg",
+      "https://i.ytimg.com/vi/sHO-cVXWWY0/default.jpg",
+      "https://i.ytimg.com/vi/pz5t9_xSjD4/default.jpg",
+      "https://i.ytimg.com/vi/9dg80N2I1K8/default.jpg"
+    ],
+    "publishDate": "2017-10-10T00:00:00Z",
+    "acceptedTitles": [
+      "ドラマツルギー",
+      "Dramaturgy",
+      "드라마투르기",
+      "拟剧论"
+    ],
+    "audioClip": "https://audio.sodapines.dev/170110.mp3"
+  },
+  {
+    "date": "2027-04-15",
+    "vocadbId": 174236,
+    "title": "Whatever whatever whatever",
+    "artist": "Neru",
+    "artistString": "Neru feat. Kagamine Len V4X (Power), Kagamine Rin V4X (Power)",
+    "vocadbName": "Whatever whatever whatever",
+    "vocadbUrl": "https://vocadb.net/S/174236",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/32246515/32246515",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/32246515/32246515",
+      "https://i1.ytimg.com/vi/y8-6QPEes1k/hqdefault.jpg",
+      "https://i.ytimg.com/vi/y8-6QPEes1k/hqdefault.jpg",
+      "https://i.ytimg.com/vi/792Zkc867Zo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/U0s_Tv-DTKM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/dUhB6smbg58/hqdefault.jpg",
+      "https://i.ytimg.com/vi/y8-6QPEes1k/default.jpg",
+      "https://i2.hdslb.com/bfs/archive/0de9372a5781d2818d3543e7d4291c66e4f2af58.jpg",
+      "https://i.ytimg.com/vi/792Zkc867Zo/default.jpg",
+      "https://i.ytimg.com/vi/U0s_Tv-DTKM/default.jpg",
+      "https://i.ytimg.com/vi/dUhB6smbg58/default.jpg"
+    ],
+    "publishDate": "2017-11-10T00:00:00Z",
+    "acceptedTitles": [
+      "い〜やい〜やい〜や",
+      "Whatever whatever whatever",
+      "I~ya I~ya I~ya",
+      "Ii ya Ii ya Ii ya",
+      "Iya Iya Iya",
+      "随便～随便～随便～",
+      "됐~어 됐~어 됐~어"
+    ],
+    "audioClip": "https://audio.sodapines.dev/174236.mp3"
+  },
+  {
+    "date": "2027-04-16",
+    "vocadbId": 178226,
+    "title": "Melty Land Nightmare",
+    "artist": "Harumaki Gohan",
+    "artistString": "Harumaki Gohan feat. Hatsune Miku V4X (Original)",
+    "vocadbName": "Melty Land Nightmare",
+    "vocadbUrl": "https://vocadb.net/S/178226",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/32748202/32748202",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/32748202/32748202",
+      "https://i1.ytimg.com/vi/ZEy36W1xX8c/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ZEy36W1xX8c/hqdefault.jpg",
+      "https://i.ytimg.com/vi/XC_zEpo0_Ms/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ZEy36W1xX8c/default.jpg",
+      "https://i2.hdslb.com/bfs/archive/3ba67814732022b721a166fc506d9390daea55a1.jpg",
+      "https://i.ytimg.com/vi/XC_zEpo0_Ms/default.jpg"
+    ],
+    "publishDate": "2017-12-29T00:00:00Z",
+    "acceptedTitles": [
+      "メルティランドナイトメア",
+      "Melty Land Nightmare"
+    ],
+    "audioClip": "https://audio.sodapines.dev/178226.mp3"
+  },
+  {
+    "date": "2027-04-17",
+    "vocadbId": 182889,
+    "title": "Ghosts Play to the Audience",
+    "artist": "PinocchioP",
+    "artistString": "PinocchioP feat. Hatsune Miku Append (Dark), Hatsune Miku Append (Solid)",
+    "vocadbName": "Ghosts Play to the Audience",
+    "vocadbUrl": "https://vocadb.net/S/182889",
+    "coverArt": "https://i.ytimg.com/vi/M92c6pl10u0/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/M92c6pl10u0/default.jpg",
+      "https://i1.ytimg.com/vi/M92c6pl10u0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/M92c6pl10u0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/wo3eL8ws50g/hqdefault.jpg",
+      "https://i.ytimg.com/vi/bDJuQN9MZTk/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/32659903/32659903",
+      "https://i2.hdslb.com/bfs/archive/1e6b32f3119a9c8f700433486fb7334abe881cd7.jpg",
+      "https://i.ytimg.com/vi/wo3eL8ws50g/default.jpg",
+      "https://i.ytimg.com/vi/bDJuQN9MZTk/default.jpg",
+      "https://i1.sndcdn.com/artworks-vJm4GOXZWg8D-0-t500x500.jpg",
+      "https://i1.sndcdn.com/artworks-tRjTdKESBymU-0-t500x500.jpg"
+    ],
+    "publishDate": "2018-01-30T00:00:00Z",
+    "acceptedTitles": [
+      "おばけのウケねらい",
+      "Ghosts Play to the Audience",
+      "Obake no Ukenerai",
+      "귀신의 우스갯소리"
+    ],
+    "audioClip": "https://audio.sodapines.dev/182889.mp3"
+  },
+  {
+    "date": "2027-04-18",
+    "vocadbId": 183014,
+    "title": "I thought I was an angel",
+    "artist": "Utsu-P",
+    "artistString": "Utsu-P feat. Hatsune Miku V4X (Dark)",
+    "vocadbName": "I thought I was an angel",
+    "vocadbUrl": "https://vocadb.net/S/183014",
+    "coverArt": "https://i.ytimg.com/vi/UvUJbhxUKT8/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/UvUJbhxUKT8/default.jpg",
+      "https://i1.ytimg.com/vi/UvUJbhxUKT8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/UvUJbhxUKT8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/_PPECywxq-Y/hqdefault.jpg",
+      "https://i.ytimg.com/vi/-vDrAwDImC0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/TUKLuvtFxHU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/mbZgyr9l2vw/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/32672006/32672006",
+      "https://i0.hdslb.com/bfs/archive/f53fe9d71884ed44ae922f7ca1a164c54910aea1.jpg",
+      "https://f4.bcbits.com/img/a0490852628_5.jpg",
+      "https://i.ytimg.com/vi/_PPECywxq-Y/default.jpg",
+      "https://i.ytimg.com/vi/-vDrAwDImC0/default.jpg",
+      "https://i.ytimg.com/vi/TUKLuvtFxHU/default.jpg",
+      "https://i.ytimg.com/vi/mbZgyr9l2vw/default.jpg"
+    ],
+    "publishDate": "2018-02-01T00:00:00Z",
+    "acceptedTitles": [
+      "天使だと思っていたのに",
+      "I thought I was an angel",
+      "Tenshi da to omotteita no ni",
+      "我以为这是一个天使",
+      "천사라고 생각했는데"
+    ],
+    "audioClip": "https://audio.sodapines.dev/183014.mp3"
+  },
+  {
+    "date": "2027-04-19",
+    "vocadbId": 184133,
+    "title": "If I Could Become Someone's Heart",
+    "artist": "YurryCanon",
+    "artistString": "YurryCanon feat. V4 GUMI (Power)",
+    "vocadbName": "If I Could Become Someone's Heart",
+    "vocadbUrl": "https://vocadb.net/S/184133",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/32727744/32727744",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/32727744/32727744",
+      "https://i1.ytimg.com/vi/hZFBTnzKa54/hqdefault.jpg",
+      "https://i.ytimg.com/vi/hZFBTnzKa54/hqdefault.jpg",
+      "https://i.ytimg.com/vi/vzrSRyqEfMQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ezf2MDUBlYQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/nmTPTqWZU1w/hqdefault.jpg",
+      "https://i.ytimg.com/vi/rBDt_49fGjE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/hZFBTnzKa54/default.jpg",
+      "https://i.ytimg.com/vi/vzrSRyqEfMQ/default.jpg",
+      "https://i.ytimg.com/vi/ezf2MDUBlYQ/default.jpg",
+      "https://i.ytimg.com/vi/nmTPTqWZU1w/default.jpg",
+      "https://i.ytimg.com/vi/rBDt_49fGjE/default.jpg"
+    ],
+    "publishDate": "2018-02-12T00:00:00Z",
+    "acceptedTitles": [
+      "だれかの心臓になれたなら",
+      "If I Could Become Someone's Heart",
+      "Dareka no Shinzou ni Nareta Nara",
+      "I Want to Be Your Heart",
+      "누군가의 심장이 될 수 있다면"
+    ],
+    "audioClip": "https://audio.sodapines.dev/184133.mp3"
+  },
+  {
+    "date": "2027-04-20",
+    "vocadbId": 185363,
+    "title": "ROKI",
+    "artist": "MikitoP",
+    "artistString": "MikitoP feat. Kagamine Rin V4X (Power)",
+    "vocadbName": "ROKI",
+    "vocadbUrl": "https://vocadb.net/S/185363",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/32798041/32798041",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/32798041/32798041",
+      "https://i1.ytimg.com/vi/Xg-qfsKN2_E/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Xg-qfsKN2_E/hqdefault.jpg",
+      "https://i.ytimg.com/vi/7S7XwNdgHBw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/3oKG5PpiI2w/hqdefault.jpg",
+      "https://i.ytimg.com/vi/YjR7Jzydqkw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/A2BkdDG_vo4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Xg-qfsKN2_E/default.jpg",
+      "https://i2.hdslb.com/bfs/archive/89e5694da8a01d95c043103e1ca62f81f57ad3b1.jpg",
+      "https://i.ytimg.com/vi/7S7XwNdgHBw/default.jpg",
+      "https://i.ytimg.com/vi/3oKG5PpiI2w/default.jpg",
+      "https://i.ytimg.com/vi/YjR7Jzydqkw/default.jpg",
+      "https://i.ytimg.com/vi/A2BkdDG_vo4/default.jpg"
+    ],
+    "publishDate": "2018-02-27T00:00:00Z",
+    "acceptedTitles": [
+      "ロキ",
+      "ROKI"
+    ],
+    "audioClip": "https://audio.sodapines.dev/185363.mp3"
+  },
+  {
+    "date": "2027-04-21",
+    "vocadbId": 185364,
+    "title": "Lost Umbrella",
+    "artist": "inabakumori",
+    "artistString": "inabakumori feat. Kaai Yuki",
+    "vocadbName": "Lost Umbrella",
+    "vocadbUrl": "https://vocadb.net/S/185364",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/32801250/32801250",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/32801250/32801250",
+      "https://i1.ytimg.com/vi/DeKLpgzh-qQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/DeKLpgzh-qQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Yvs7gfWqNSE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/FA3a-HQtiAE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/DeKLpgzh-qQ/default.jpg",
+      "https://i2.hdslb.com/bfs/archive/d6334f37f9469aee647df60412c0319bf553815e.jpg",
+      "https://i.ytimg.com/vi/Yvs7gfWqNSE/default.jpg",
+      "https://i.ytimg.com/vi/FA3a-HQtiAE/default.jpg"
+    ],
+    "publishDate": "2018-02-27T00:00:00Z",
+    "acceptedTitles": [
+      "ロストアンブレラ",
+      "Lost Umbrella"
+    ],
+    "audioClip": "https://audio.sodapines.dev/185364.mp3"
+  },
+  {
+    "date": "2027-04-22",
+    "vocadbId": 187408,
+    "title": "SNOBBISM",
+    "artist": "Neru",
+    "artistString": "Neru feat. Kagamine Len V4X (Power), Kagamine Rin V4X (Power)",
+    "vocadbName": "SNOBBISM",
+    "vocadbUrl": "https://vocadb.net/S/187408",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/32921516/32921516",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/32921516/32921516",
+      "https://i1.ytimg.com/vi/f5jDVFmEIVQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/f5jDVFmEIVQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Ibmx2_-CCP4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/BnNlonb0UaE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/f5jDVFmEIVQ/default.jpg",
+      "https://i2.hdslb.com/bfs/archive/09b96106be19bad4496e7417a39b6ddc3fd6d08d.jpg",
+      "https://i.ytimg.com/vi/Ibmx2_-CCP4/default.jpg",
+      "https://i.ytimg.com/vi/BnNlonb0UaE/default.jpg"
+    ],
+    "publishDate": "2018-03-21T00:00:00Z",
+    "acceptedTitles": [
+      "SNOBBISM"
+    ],
+    "audioClip": "https://audio.sodapines.dev/187408.mp3"
+  },
+  {
+    "date": "2027-04-23",
+    "vocadbId": 192291,
+    "title": "BRING IT ON",
+    "artist": "Giga",
+    "artistString": "Giga feat. Kagamine Rin, Kagamine Len",
+    "vocadbName": "BRING IT ON",
+    "vocadbUrl": "https://vocadb.net/S/192291",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/33510542/33510542",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/33510542/33510542",
+      "https://i1.ytimg.com/vi/oEkGC2HV7rc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/oEkGC2HV7rc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/IdekFd3D6q8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/oEkGC2HV7rc/default.jpg",
+      "https://i.ytimg.com/vi/IdekFd3D6q8/default.jpg",
+      "https://i0.hdslb.com/bfs/archive/b77e5dd1f40afe4e3a085eeea8441bfa0acaa638.jpg"
+    ],
+    "publishDate": "2018-07-13T00:00:00Z",
+    "acceptedTitles": [
+      "劣等上等",
+      "BRING IT ON",
+      "Rettou Joutou",
+      "Inferiority Superiority"
+    ],
+    "audioClip": "https://audio.sodapines.dev/192291.mp3"
+  },
+  {
+    "date": "2027-04-24",
+    "vocadbId": 197929,
+    "title": "Ghost Girl",
+    "artist": "MikitoP",
+    "artistString": "MikitoP feat. Hatsune Miku Append (Dark)",
+    "vocadbName": "Ghost Girl",
+    "vocadbUrl": "https://vocadb.net/S/197929",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/33546451/33546451",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/33546451/33546451",
+      "https://i1.ytimg.com/vi/JW3N-HvU0MA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/JW3N-HvU0MA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/b6abJ4NlzsE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/vAGt6Z8LeKs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/hSIVFkV64BI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/JW3N-HvU0MA/default.jpg",
+      "https://i1.hdslb.com/bfs/archive/b8244c779a05c2f6ec30cb31bb4b2175d65a3f8d.jpg",
+      "https://i.ytimg.com/vi/b6abJ4NlzsE/default.jpg",
+      "https://i.ytimg.com/vi/vAGt6Z8LeKs/default.jpg",
+      "https://i.ytimg.com/vi/hSIVFkV64BI/default.jpg"
+    ],
+    "publishDate": "2018-07-17T00:00:00Z",
+    "acceptedTitles": [
+      "少女レイ",
+      "Ghost Girl",
+      "Shoujo Rei",
+      "少女Rei",
+      "Girl Spirit",
+      "Spirit Girl",
+      "소녀 레이"
+    ],
+    "audioClip": "https://audio.sodapines.dev/197929.mp3"
+  },
+  {
+    "date": "2027-04-25",
+    "vocadbId": 198286,
+    "title": "Hole-Dwelling",
+    "artist": "Kikuo",
+    "artistString": "Kikuo feat. Hatsune Miku V3 (Sweet)",
+    "vocadbName": "Hole-Dwelling",
+    "vocadbUrl": "https://vocadb.net/S/198286",
+    "coverArt": "https://i.ytimg.com/vi/I15sK7dNMOM/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/I15sK7dNMOM/default.jpg",
+      "https://i1.ytimg.com/vi/I15sK7dNMOM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/I15sK7dNMOM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/5ujYkp-axv8/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/33556145/33556145",
+      "https://f4.bcbits.com/img/a0499580478_5.jpg",
+      "https://i.ytimg.com/vi/5ujYkp-axv8/default.jpg"
+    ],
+    "publishDate": "2018-07-20T00:00:00Z",
+    "acceptedTitles": [
+      "あなぐらぐらし",
+      "Hole-Dwelling",
+      "Anagura Gurashi",
+      "Pitiful Cave",
+      "구멍 속 생활"
+    ],
+    "audioClip": "https://audio.sodapines.dev/198286.mp3"
+  },
+  {
+    "date": "2027-04-26",
+    "vocadbId": 199209,
+    "title": "Venom",
+    "artist": "Kairiki bear",
+    "artistString": "Kairiki bear feat. v4 flower",
+    "vocadbName": "Venom",
+    "vocadbUrl": "https://vocadb.net/S/199209",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/33624822/33624822",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/33624822/33624822",
+      "https://i1.ytimg.com/vi/oRJBwaZ59fQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/oRJBwaZ59fQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/7ZfOcMF4siI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/oRJBwaZ59fQ/default.jpg",
+      "https://i.ytimg.com/vi/7ZfOcMF4siI/default.jpg"
+    ],
+    "publishDate": "2018-08-02T00:00:00Z",
+    "acceptedTitles": [
+      "ベノム",
+      "Venom",
+      "베놈"
+    ],
+    "audioClip": "https://audio.sodapines.dev/199209.mp3"
+  },
+  {
+    "date": "2027-04-27",
+    "vocadbId": 203241,
+    "title": "Egoist",
+    "artist": "Oonuma Parsley",
+    "artistString": "Oonuma Parsley feat. v flower",
+    "vocadbName": "Egoist",
+    "vocadbUrl": "https://vocadb.net/S/203241",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/33844537/33844537",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/33844537/33844537",
+      "https://i1.ytimg.com/vi/QprnVxCveSY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/QprnVxCveSY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/QprnVxCveSY/default.jpg"
+    ],
+    "publishDate": "2018-09-12T00:00:00Z",
+    "acceptedTitles": [
+      "エゴイスト",
+      "Egoist",
+      "에고이스트"
+    ],
+    "audioClip": "https://audio.sodapines.dev/203241.mp3"
+  },
+  {
+    "date": "2027-04-28",
+    "vocadbId": 215140,
+    "title": "Jigsaw Puzzle",
+    "artist": "Mafumafu",
+    "artistString": "Mafumafu feat. Kagamine Len V4X (Power)",
+    "vocadbName": "Jigsaw Puzzle",
+    "vocadbUrl": "https://vocadb.net/S/215140",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/34214810/34214810",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/34214810/34214810",
+      "https://i1.ytimg.com/vi/ta9zslmSRqg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ta9zslmSRqg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ta9zslmSRqg/default.jpg",
+      "https://i0.hdslb.com/bfs/archive/144c9b362a96e581a575f7ffebad37f0c79e7df3.jpg"
+    ],
+    "publishDate": "2018-11-23T00:00:00Z",
+    "acceptedTitles": [
+      "ジグソーパズル",
+      "Jigsaw Puzzle",
+      "직소 퍼즐"
+    ],
+    "audioClip": "https://audio.sodapines.dev/215140.mp3"
+  },
+  {
+    "date": "2027-04-29",
+    "vocadbId": 219729,
+    "title": "What's Inside",
+    "artist": "PinocchioP",
+    "artistString": "PinocchioP feat. Hatsune Miku V4X (Solid), Hatsune Miku V4X (Soft)",
+    "vocadbName": "What's Inside",
+    "vocadbUrl": "https://vocadb.net/S/219729",
+    "coverArt": "https://i.ytimg.com/vi/GSpwTvYgFrM/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/GSpwTvYgFrM/default.jpg",
+      "https://i1.ytimg.com/vi/GSpwTvYgFrM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/GSpwTvYgFrM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/TnDQSaoihmc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/8jbMNZa-xh8/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/34509853.70798/34509853.70798",
+      "https://i1.hdslb.com/bfs/archive/a4edb0266d94b5afe8567bbcd2f287cda90dee63.jpg",
+      "https://i.ytimg.com/vi/TnDQSaoihmc/default.jpg",
+      "https://i.ytimg.com/vi/8jbMNZa-xh8/default.jpg",
+      "https://i1.sndcdn.com/artworks-xikAsDB1OFrX-0-t500x500.jpg",
+      "https://i1.sndcdn.com/artworks-1eV5MjMphPGz-0-t500x500.jpg"
+    ],
+    "publishDate": "2019-01-22T00:00:00Z",
+    "acceptedTitles": [
+      "内臓ありますか",
+      "What's Inside",
+      "Naizou Arimasu ka",
+      "请问有内脏吗",
+      "내장이 있나요"
+    ],
+    "audioClip": "https://audio.sodapines.dev/219729.mp3"
+  },
+  {
+    "date": "2027-04-30",
+    "vocadbId": 221277,
+    "title": "Bitter Choco Decoration",
+    "artist": "syudou",
+    "artistString": "syudou feat. Hatsune Miku Append (Soft)",
+    "vocadbName": "Bitter Choco Decoration",
+    "vocadbUrl": "https://vocadb.net/S/221277",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/34425299/34425299.24889",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/34425299/34425299.24889",
+      "https://i1.ytimg.com/vi/XCyKJD6uQyg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/XCyKJD6uQyg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/fp0ZrNP3PO8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/XCyKJD6uQyg/default.jpg",
+      "https://i1.hdslb.com/bfs/archive/3cc7fd6e931bca35aa350ee4c2556bc533b1c6a7.jpg",
+      "https://i.ytimg.com/vi/fp0ZrNP3PO8/default.jpg"
+    ],
+    "publishDate": "2019-01-04T00:00:00Z",
+    "acceptedTitles": [
+      "ビターチョコデコレーション",
+      "Bitter Choco Decoration",
+      "苦巧克力装饰",
+      "Bitter Chocolate Decoration"
+    ],
+    "audioClip": "https://audio.sodapines.dev/221277.mp3"
+  },
+  {
+    "date": "2027-05-01",
+    "vocadbId": 222749,
+    "title": "Maiden Dissection",
+    "artist": "DECO*27",
+    "artistString": "Various artists",
+    "vocadbName": "Maiden Dissection",
+    "vocadbUrl": "https://vocadb.net/S/222749",
+    "coverArt": "https://i.ytimg.com/vi/7zwCIz-Ohn4/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/7zwCIz-Ohn4/default.jpg",
+      "https://i1.ytimg.com/vi/7zwCIz-Ohn4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/7zwCIz-Ohn4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/iOS_gbz7NcY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/tNQmyI5R3RY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/c1DBnfih3-4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/7CPBcUBlIYg/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/34470195.6486/34470195.6486",
+      "https://i.ytimg.com/vi/iOS_gbz7NcY/default.jpg",
+      "https://i2.hdslb.com/bfs/archive/cefb0e85d84944feeb2812a1319726563593e36a.jpg",
+      "https://i.ytimg.com/vi/tNQmyI5R3RY/default.jpg",
+      "https://i.ytimg.com/vi/c1DBnfih3-4/default.jpg",
+      "https://i.ytimg.com/vi/7CPBcUBlIYg/default.jpg"
+    ],
+    "publishDate": "2019-01-18T00:00:00Z",
+    "acceptedTitles": [
+      "乙女解剖",
+      "Maiden Dissection",
+      "Otome Kaibou",
+      "Maiden Autopsy",
+      "Otome Dissection"
+    ],
+    "audioClip": "https://audio.sodapines.dev/222749.mp3"
+  },
+  {
+    "date": "2027-05-02",
+    "vocadbId": 229552,
+    "title": "Ego rock (long ver.)",
+    "artist": "THREEE",
+    "artistString": "THREEE feat. Kagamine Len V4X (Power)",
+    "vocadbName": "Ego rock (long ver.)",
+    "vocadbUrl": "https://vocadb.net/S/229552",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/39300654/39300654.58465574",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/39300654/39300654.58465574",
+      "https://i1.ytimg.com/vi/zi7-jk4LdX0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/zi7-jk4LdX0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ids_KdyW24k/hqdefault.jpg",
+      "https://i.ytimg.com/vi/zi7-jk4LdX0/default.jpg",
+      "https://i.ytimg.com/vi/ids_KdyW24k/default.jpg",
+      "https://i2.hdslb.com/bfs/archive/8b668804159cd88dc716bc930b0397b609fd69d9.jpg"
+    ],
+    "publishDate": "2021-09-06T00:00:00Z",
+    "acceptedTitles": [
+      "エゴロック(long ver.)",
+      "Ego rock (long ver.)",
+      "エゴロック / long ver",
+      "自我摇滚 (long ver.)"
+    ],
+    "audioClip": "https://audio.sodapines.dev/229552.mp3"
+  },
+  {
+    "date": "2027-05-03",
+    "vocadbId": 230406,
+    "title": "Android Girl",
+    "artist": "DECO*27",
+    "artistString": "DECO*27, Rockwell, OTOIRO feat. Hatsune Miku",
+    "vocadbName": "Android Girl",
+    "vocadbUrl": "https://vocadb.net/S/230406",
+    "coverArt": "https://i.ytimg.com/vi/uFRPeiAEO0M/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/uFRPeiAEO0M/default.jpg",
+      "https://i1.ytimg.com/vi/uFRPeiAEO0M/hqdefault.jpg",
+      "https://i.ytimg.com/vi/uFRPeiAEO0M/hqdefault.jpg",
+      "https://i.ytimg.com/vi/fJkKvZH6eog/hqdefault.jpg",
+      "https://i.ytimg.com/vi/eJcoOT4TSoU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/64sNGHCINBo/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/35070488.20072/35070488.20072",
+      "https://i1.hdslb.com/bfs/archive/e8d94fc5e53013eb4fa758b9cc43c45f4755f554.jpg",
+      "https://i.ytimg.com/vi/fJkKvZH6eog/default.jpg",
+      "https://i.ytimg.com/vi/eJcoOT4TSoU/default.jpg",
+      "https://i.ytimg.com/vi/64sNGHCINBo/default.jpg"
+    ],
+    "publishDate": "2019-05-02T00:00:00Z",
+    "acceptedTitles": [
+      "アンドロイドガール",
+      "Android Girl",
+      "안드로이드 걸"
+    ],
+    "audioClip": "https://audio.sodapines.dev/230406.mp3"
+  },
+  {
+    "date": "2027-05-04",
+    "vocadbId": 231284,
+    "title": "Angel",
+    "artist": "Kairiki bear",
+    "artistString": "Kairiki bear feat. Meika Mikoto",
+    "vocadbName": "Angel",
+    "vocadbUrl": "https://vocadb.net/S/231284",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/34871494/34871494.13055",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/34871494/34871494.13055",
+      "https://i1.ytimg.com/vi/Fs6-S1wIiM0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Fs6-S1wIiM0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/CdwNF0VIC9I/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Fs6-S1wIiM0/default.jpg",
+      "https://i.ytimg.com/vi/CdwNF0VIC9I/default.jpg"
+    ],
+    "publishDate": "2019-03-30T00:00:00Z",
+    "acceptedTitles": [
+      "アンヘル",
+      "Angel",
+      "Ángel",
+      "앙헬",
+      "天使"
+    ],
+    "audioClip": "https://audio.sodapines.dev/231284.mp3"
+  },
+  {
+    "date": "2027-05-05",
+    "vocadbId": 232031,
+    "title": "Hyper Reality Show",
+    "artist": "Utsu-P",
+    "artistString": "Utsu-P feat. Hatsune Miku V4 (English), Hatsune Miku V4X (Original)",
+    "vocadbName": "Hyper Reality Show",
+    "vocadbUrl": "https://vocadb.net/S/232031",
+    "coverArt": "https://i.ytimg.com/vi/Z4LiNMCTV20/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/Z4LiNMCTV20/default.jpg",
+      "https://i1.ytimg.com/vi/Z4LiNMCTV20/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Z4LiNMCTV20/hqdefault.jpg",
+      "https://i.ytimg.com/vi/meeo7NwW7rE/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/34908739.13698/34908739.13698",
+      "https://i1.hdslb.com/bfs/archive/dd82210b4403739679228e9dfa4e1209bf1fd3b5.jpg",
+      "https://f4.bcbits.com/img/a0490852628_5.jpg",
+      "https://i.ytimg.com/vi/meeo7NwW7rE/default.jpg"
+    ],
+    "publishDate": "2019-04-04T00:00:00Z",
+    "acceptedTitles": [
+      "ハイパーリアリティショウ",
+      "Hyper Reality Show",
+      "超真人實境秀",
+      "하이퍼 리얼리티 쇼"
+    ],
+    "audioClip": "https://audio.sodapines.dev/232031.mp3"
+  },
+  {
+    "date": "2027-05-06",
+    "vocadbId": 236582,
+    "title": "The Chattering Lack of Common Sense",
+    "artist": "GHOST",
+    "artistString": "GHOST feat. V3 GUMI (English), YOHIOloid (English)",
+    "vocadbName": "The Chattering Lack of Common Sense",
+    "vocadbUrl": "https://vocadb.net/S/236582",
+    "coverArt": "https://i.ytimg.com/vi/ksW7SuH6IAs/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/ksW7SuH6IAs/default.jpg",
+      "https://i1.ytimg.com/vi/ksW7SuH6IAs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ksW7SuH6IAs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/OEWujj5y9Cc/hqdefault.jpg",
+      "https://i1.sndcdn.com/artworks-000529240488-y0hlo1-large.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/35072157.62920/35072157.62920",
+      "https://i.ytimg.com/vi/OEWujj5y9Cc/default.jpg",
+      "https://f4.bcbits.com/img/a3096847765_5.jpg"
+    ],
+    "publishDate": "2019-05-03T00:00:00Z",
+    "acceptedTitles": [
+      "The Chattering Lack of Common Sense"
+    ],
+    "audioClip": "https://audio.sodapines.dev/236582.mp3"
+  },
+  {
+    "date": "2027-05-07",
+    "vocadbId": 246033,
+    "title": "Gimme×Gimme",
+    "artist": "HachioujiP",
+    "artistString": "HachioujiP, Giga feat. various",
+    "vocadbName": "Gimme×Gimme",
+    "vocadbUrl": "https://vocadb.net/S/246033",
+    "coverArt": "https://i.ytimg.com/vi/ERo-sPa1a5g/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/ERo-sPa1a5g/default.jpg",
+      "https://i1.ytimg.com/vi/ERo-sPa1a5g/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ERo-sPa1a5g/hqdefault.jpg",
+      "https://i.ytimg.com/vi/sQAZy98PD28/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/35866152/35866152.16699174",
+      "https://i2.hdslb.com/bfs/archive/ac137852aeae98f4057be2b5be87bd9dcf82b8d0.jpg",
+      "https://i.ytimg.com/vi/sQAZy98PD28/default.jpg"
+    ],
+    "publishDate": "2019-08-28T00:00:00Z",
+    "acceptedTitles": [
+      "Gimme×Gimme",
+      "GimmexGimme",
+      "Gimme x Gimme"
+    ],
+    "audioClip": "https://audio.sodapines.dev/246033.mp3"
+  },
+  {
+    "date": "2027-05-08",
+    "vocadbId": 248858,
+    "title": "Failure Girl",
+    "artist": "MARETU",
+    "artistString": "MARETU, Kairiki bear feat. Hatsune Miku",
+    "vocadbName": "Failure Girl",
+    "vocadbUrl": "https://vocadb.net/S/248858",
+    "coverArt": "https://i.ytimg.com/vi/TXfJVNqaHiM/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/TXfJVNqaHiM/default.jpg",
+      "https://i1.ytimg.com/vi/TXfJVNqaHiM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/TXfJVNqaHiM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/bsTOYb7a8is/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/35513238/35513238.95146477",
+      "https://i.ytimg.com/vi/bsTOYb7a8is/default.jpg"
+    ],
+    "publishDate": "2019-08-09T00:00:00Z",
+    "acceptedTitles": [
+      "失敗作少女",
+      "Failure Girl",
+      "Shippaisaku Shoujo",
+      "失敗作少女 -MARETU Remix-",
+      "失敗作少女 (MARETU Remix)",
+      "SHIPPPAISAKU SHOUJO (MARETU Remix)",
+      "FAILURE GIRL (MARETU Remix)",
+      "실패작 소녀"
+    ],
+    "audioClip": "https://audio.sodapines.dev/248858.mp3"
+  },
+  {
+    "date": "2027-05-09",
+    "vocadbId": 248865,
+    "title": "Gehenna",
+    "artist": "wotaku",
+    "artistString": "wotaku, ANGL feat. Hatsune Miku V4X (Original)",
+    "vocadbName": "Gehenna",
+    "vocadbUrl": "https://vocadb.net/S/248865",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/35507640/35507640.21032281",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/35507640/35507640.21032281",
+      "https://i1.ytimg.com/vi/7Y9sJvLI3Po/hqdefault.jpg",
+      "https://i.ytimg.com/vi/7Y9sJvLI3Po/hqdefault.jpg",
+      "https://i.ytimg.com/vi/B0z1rIehSMo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/QfAMr554Odo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/7Y9sJvLI3Po/default.jpg",
+      "https://i.ytimg.com/vi/B0z1rIehSMo/default.jpg",
+      "https://i.ytimg.com/vi/QfAMr554Odo/default.jpg"
+    ],
+    "publishDate": "2019-08-09T00:00:00Z",
+    "acceptedTitles": [
+      "ジェヘナ",
+      "Gehenna",
+      "게헨나"
+    ],
+    "audioClip": "https://audio.sodapines.dev/248865.mp3"
+  },
+  {
+    "date": "2027-05-10",
+    "vocadbId": 249416,
+    "title": "XxX Cat",
+    "artist": "Kikuo",
+    "artistString": "Kikuo feat. Hatsune Miku",
+    "vocadbName": "XxX Cat",
+    "vocadbUrl": "https://vocadb.net/S/249416",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/35536936/35536936.20848215",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/35536936/35536936.20848215",
+      "https://i1.ytimg.com/vi/mMscN_Xa8qw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/mMscN_Xa8qw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/iV66tCDmeMc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/mMscN_Xa8qw/default.jpg",
+      "https://f4.bcbits.com/img/a0499580478_5.jpg",
+      "https://i2.hdslb.com/bfs/archive/dc5e986df68e3e0b74af8f9c62fc1cf482fa6fa7.jpg",
+      "https://i.ytimg.com/vi/iV66tCDmeMc/default.jpg"
+    ],
+    "publishDate": "2019-08-14T00:00:00Z",
+    "acceptedTitles": [
+      "バツ猫",
+      "XxX Cat",
+      "Batsu Neko",
+      "가위표 고양이",
+      "Cross Mark Cat"
+    ],
+    "audioClip": "https://audio.sodapines.dev/249416.mp3"
+  },
+  {
+    "date": "2027-05-11",
+    "vocadbId": 249746,
+    "title": "Panopticon",
+    "artist": "r-906",
+    "artistString": "r-906 feat. Hatsune Miku V4X (Original)",
+    "vocadbName": "Panopticon",
+    "vocadbUrl": "https://vocadb.net/S/249746",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/35553134/35553134.6969675",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/35553134/35553134.6969675",
+      "https://i1.ytimg.com/vi/_-Vd0ZGB-lo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/_-Vd0ZGB-lo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Hblt7UkDuKU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/iDpsq6u-mmU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/_-Vd0ZGB-lo/default.jpg",
+      "https://i.ytimg.com/vi/Hblt7UkDuKU/default.jpg",
+      "https://i1.hdslb.com/bfs/archive/98a7f2cbbf259b8d54307b5e023c7213eb645f3c.jpg",
+      "https://i.ytimg.com/vi/iDpsq6u-mmU/default.jpg"
+    ],
+    "publishDate": "2019-08-17T00:00:00Z",
+    "acceptedTitles": [
+      "パノプティコン",
+      "Panopticon",
+      "圆形监狱"
+    ],
+    "audioClip": "https://audio.sodapines.dev/249746.mp3"
+  },
+  {
+    "date": "2027-05-12",
+    "vocadbId": 250379,
+    "title": "Honey I'm Home",
+    "artist": "GHOST",
+    "artistString": "GHOST feat. DEX",
+    "vocadbName": "Honey I'm Home",
+    "vocadbUrl": "https://vocadb.net/S/250379",
+    "coverArt": "https://i.ytimg.com/vi/xHffjNbWmig/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/xHffjNbWmig/default.jpg",
+      "https://i1.ytimg.com/vi/xHffjNbWmig/hqdefault.jpg",
+      "https://i.ytimg.com/vi/xHffjNbWmig/hqdefault.jpg",
+      "https://i.ytimg.com/vi/9UjVQPtOpgs/hqdefault.jpg",
+      "https://f4.bcbits.com/img/a3615090761_5.jpg",
+      "https://i1.sndcdn.com/artworks-000584324882-jc3koq-large.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/35565342/35565342.19478339",
+      "https://i.ytimg.com/vi/9UjVQPtOpgs/default.jpg"
+    ],
+    "publishDate": "2019-08-18T00:00:00Z",
+    "acceptedTitles": [
+      "Honey I'm Home",
+      "ただいまハニー"
+    ],
+    "audioClip": "https://audio.sodapines.dev/250379.mp3"
+  },
+  {
+    "date": "2027-05-13",
+    "vocadbId": 251205,
+    "title": "Traffic Jam",
+    "artist": "NILFRUITS",
+    "artistString": "NILFRUITS feat. v4 flower",
+    "vocadbName": "Traffic Jam",
+    "vocadbUrl": "https://vocadb.net/S/251205",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/35586514/35586514.29961738",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/35586514/35586514.29961738",
+      "https://i1.ytimg.com/vi/oUevY6uH4Qg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/oUevY6uH4Qg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ASpYFGqD6D4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/oUevY6uH4Qg/default.jpg",
+      "https://i1.hdslb.com/bfs/archive/e65bcce5cc2a09cdf5a58c3836ef2370e5f5c860.jpg",
+      "https://i.ytimg.com/vi/ASpYFGqD6D4/default.jpg"
+    ],
+    "publishDate": "2019-08-12T00:00:00Z",
+    "acceptedTitles": [
+      "トラフィック・ジャム",
+      "Traffic Jam",
+      "트래픽 잼"
+    ],
+    "audioClip": "https://audio.sodapines.dev/251205.mp3"
+  },
+  {
+    "date": "2027-05-14",
+    "vocadbId": 251219,
+    "title": "The Taste of Cockroach",
+    "artist": "MARETU",
+    "artistString": "MARETU feat. Hatsune Miku V4X (Original)",
+    "vocadbName": "The Taste of Cockroach",
+    "vocadbUrl": "https://vocadb.net/S/251219",
+    "coverArt": "https://i.ytimg.com/vi/Hmc41Zsb2Ns/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/Hmc41Zsb2Ns/default.jpg",
+      "https://i1.ytimg.com/vi/Hmc41Zsb2Ns/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Hmc41Zsb2Ns/hqdefault.jpg",
+      "https://i.ytimg.com/vi/hHCOkLbLWus/hqdefault.jpg",
+      "https://i.ytimg.com/vi/WuQy9nC-uZw/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/35584107/35584107.44343432",
+      "https://i.ytimg.com/vi/hHCOkLbLWus/default.jpg",
+      "https://i.ytimg.com/vi/WuQy9nC-uZw/default.jpg"
+    ],
+    "publishDate": "2019-08-24T00:00:00Z",
+    "acceptedTitles": [
+      "ゴキブリの味",
+      "The Taste of Cockroach",
+      "Gokiburi no Aji",
+      "바퀴벌레의 맛"
+    ],
+    "audioClip": "https://audio.sodapines.dev/251219.mp3"
+  },
+  {
+    "date": "2027-05-15",
+    "vocadbId": 251400,
+    "title": "Seraphim On The Ring",
+    "artist": "Mitchie M",
+    "artistString": "Mitchie M feat. Hatsune Miku, Kagamine Rin",
+    "vocadbName": "Seraphim On The Ring",
+    "vocadbUrl": "https://vocadb.net/S/251400",
+    "coverArt": "https://i.ytimg.com/vi/lWuJRRCTHrg/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/lWuJRRCTHrg/default.jpg",
+      "https://i1.ytimg.com/vi/lWuJRRCTHrg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/lWuJRRCTHrg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/6dBGgU_0ytw/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/35588807/35588807.4171085",
+      "https://i0.hdslb.com/bfs/archive/9275b097e7b61aea4107a995ccaf3f2b3ad9fc65.jpg",
+      "https://i1.sndcdn.com/artworks-000588152486-sp4f5g-large.jpg",
+      "https://i.ytimg.com/vi/6dBGgU_0ytw/default.jpg"
+    ],
+    "publishDate": "2019-08-29T00:00:00Z",
+    "acceptedTitles": [
+      "リングの熾天使",
+      "Seraphim On The Ring",
+      "Ring no Shitenshi",
+      "擂台的炽天使",
+      "링의 치천사"
+    ],
+    "audioClip": "https://audio.sodapines.dev/251400.mp3"
+  },
+  {
+    "date": "2027-05-16",
+    "vocadbId": 251481,
+    "title": "Catch the Wave",
+    "artist": "kz",
+    "artistString": "kz feat. Hatsune Miku",
+    "vocadbName": "Catch the Wave",
+    "vocadbUrl": "https://vocadb.net/S/251481",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/35597753/35597753.84462410",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/35597753/35597753.84462410",
+      "https://i1.ytimg.com/vi/pqiJ7krbEDM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/pqiJ7krbEDM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/uB_kB8YIDyk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/VYDGtytVxhI/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/35499458/35499458.17481326",
+      "https://i.ytimg.com/vi/pqiJ7krbEDM/default.jpg",
+      "https://i.ytimg.com/vi/uB_kB8YIDyk/default.jpg"
+    ],
+    "publishDate": "2019-08-29T00:00:00Z",
+    "acceptedTitles": [
+      "Catch the Wave"
+    ],
+    "audioClip": "https://audio.sodapines.dev/251481.mp3"
+  },
+  {
+    "date": "2027-05-17",
+    "vocadbId": 256450,
+    "title": "YY",
+    "artist": "23.exe",
+    "artistString": "23.exe feat. Hatsune Miku",
+    "vocadbName": "YY",
+    "vocadbUrl": "https://vocadb.net/S/256450",
+    "coverArt": "https://i.ytimg.com/vi/TcHvEFxk_78/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/TcHvEFxk_78/default.jpg",
+      "https://i1.ytimg.com/vi/TcHvEFxk_78/hqdefault.jpg",
+      "https://i.ytimg.com/vi/TcHvEFxk_78/hqdefault.jpg",
+      "https://i.ytimg.com/vi/E4hta_Qlg-o/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ZCdzFLOhix0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/zyXJMa_slNs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/oHcb47kdS60/hqdefault.jpg",
+      "https://i0.hdslb.com/bfs/archive/889fe51f441c21a04be59eb113e96e5a88f2477e.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/35791694/35791694.5327467",
+      "https://i1.sndcdn.com/avatars-000075893700-z3renm-large.jpg",
+      "https://f4.bcbits.com/img/a3066938188_5.jpg",
+      "https://i.ytimg.com/vi/E4hta_Qlg-o/default.jpg",
+      "https://i.ytimg.com/vi/ZCdzFLOhix0/default.jpg",
+      "https://i.ytimg.com/vi/zyXJMa_slNs/default.jpg",
+      "https://i.ytimg.com/vi/oHcb47kdS60/default.jpg",
+      "https://f4.bcbits.com/img/a0358802956_5.jpg"
+    ],
+    "publishDate": "2019-10-09T00:00:00Z",
+    "acceptedTitles": [
+      "YY"
+    ],
+    "audioClip": "https://audio.sodapines.dev/256450.mp3"
+  },
+  {
+    "date": "2027-05-18",
+    "vocadbId": 256954,
+    "title": "Jitterbug",
+    "artist": "Kuriyama Yuri",
+    "artistString": "Kuriyama Yuri, Koh Hashikura feat. Hatsune Miku, MEIKO V3 (Power)",
+    "vocadbName": "Jitterbug",
+    "vocadbUrl": "https://vocadb.net/S/256954",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/35808124/35808124.33167148",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/35808124/35808124.33167148",
+      "https://i1.ytimg.com/vi/3rAblF_p704/hqdefault.jpg",
+      "https://i.ytimg.com/vi/3rAblF_p704/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ohspikSyGrI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/3rAblF_p704/default.jpg",
+      "https://i1.hdslb.com/bfs/archive/a705a19bc2b1ff2ec01c896b4f90abd0431aeeea.jpg",
+      "https://i.ytimg.com/vi/ohspikSyGrI/default.jpg"
+    ],
+    "publishDate": "2019-10-13T00:00:00Z",
+    "acceptedTitles": [
+      "ジターバグ",
+      "Jitterbug",
+      "JITTERBUG",
+      "지터버그"
+    ],
+    "audioClip": "https://audio.sodapines.dev/256954.mp3"
+  },
+  {
+    "date": "2027-05-19",
+    "vocadbId": 257182,
+    "title": "Ultimate Senpai",
+    "artist": "PinocchioP",
+    "artistString": "PinocchioP feat. Hatsune Miku V4X (Dark), Hatsune Miku V4X (Solid)",
+    "vocadbName": "Ultimate Senpai",
+    "vocadbUrl": "https://vocadb.net/S/257182",
+    "coverArt": "https://i.ytimg.com/vi/MnJq5kSn-GY/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/MnJq5kSn-GY/default.jpg",
+      "https://i1.ytimg.com/vi/MnJq5kSn-GY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/MnJq5kSn-GY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/_48_GYI6ebk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/oJxBluli1zY/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/35818693/35818693.61422570",
+      "https://i1.hdslb.com/bfs/archive/5d0a7cec11993392631e090468fd01491371c179.jpg",
+      "https://i.ytimg.com/vi/_48_GYI6ebk/default.jpg",
+      "https://i.ytimg.com/vi/oJxBluli1zY/default.jpg",
+      "https://f4.bcbits.com/img/a0430182675_5.jpg"
+    ],
+    "publishDate": "2019-10-16T00:00:00Z",
+    "acceptedTitles": [
+      "アルティメットセンパイ",
+      "Ultimate Senpai",
+      "究极前辈",
+      "얼티밋 선배"
+    ],
+    "audioClip": "https://audio.sodapines.dev/257182.mp3"
+  },
+  {
+    "date": "2027-05-20",
+    "vocadbId": 259741,
+    "title": "Last Moments",
+    "artist": "iyowa",
+    "artistString": "iyowa feat. Hatsune Miku",
+    "vocadbName": "Last Moments",
+    "vocadbUrl": "https://vocadb.net/S/259741",
+    "coverArt": "https://i.ytimg.com/vi/OVwCr2MESfo/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/OVwCr2MESfo/default.jpg",
+      "https://i1.ytimg.com/vi/OVwCr2MESfo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/OVwCr2MESfo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/dpTZXaYJ12s/hqdefault.jpg",
+      "https://i.ytimg.com/vi/8C2qQyUxgB8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/_Gw6cP0zQW4/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/35933131/35933131.18266417",
+      "https://i.ytimg.com/vi/dpTZXaYJ12s/default.jpg",
+      "https://i.ytimg.com/vi/8C2qQyUxgB8/default.jpg",
+      "https://i.ytimg.com/vi/_Gw6cP0zQW4/default.jpg"
+    ],
+    "publishDate": "2019-11-10T00:00:00Z",
+    "acceptedTitles": [
+      "IMAWANOKIWA",
+      "Last Moments"
+    ],
+    "audioClip": "https://audio.sodapines.dev/259741.mp3"
+  },
+  {
+    "date": "2027-05-21",
+    "vocadbId": 260455,
+    "title": "S.I.U.",
+    "artist": "MARETU",
+    "artistString": "MARETU feat. Hatsune Miku",
+    "vocadbName": "S.I.U.",
+    "vocadbUrl": "https://vocadb.net/S/260455",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/35928733/35928733.88918426",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/35928733/35928733.88918426",
+      "https://i1.ytimg.com/vi/LCOItseOsFE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/LCOItseOsFE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/3P7Z51rDw4E/hqdefault.jpg",
+      "https://i.ytimg.com/vi/2Q0HAjTVjrk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/D2NBIvZH6hU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/fHre5cVcKeM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/LCOItseOsFE/default.jpg",
+      "https://i.ytimg.com/vi/3P7Z51rDw4E/default.jpg",
+      "https://i.ytimg.com/vi/2Q0HAjTVjrk/default.jpg",
+      "https://i1.hdslb.com/bfs/archive/53638e316f6800f83d6cdcc7fa1c162a2f2aa1e6.jpg",
+      "https://i.ytimg.com/vi/D2NBIvZH6hU/default.jpg",
+      "https://i.ytimg.com/vi/fHre5cVcKeM/default.jpg"
+    ],
+    "publishDate": "2019-11-09T00:00:00Z",
+    "acceptedTitles": [
+      "しう",
+      "S.I.U.",
+      "SIU",
+      "Suck It Up",
+      "Temple",
+      "Existence",
+      "Shiu",
+      "四有"
+    ],
+    "audioClip": "https://audio.sodapines.dev/260455.mp3"
+  },
+  {
+    "date": "2027-05-22",
+    "vocadbId": 260566,
+    "title": "Magical Doctor",
+    "artist": "MARETU",
+    "artistString": "MARETU feat. Hatsune Miku V4X (Original)",
+    "vocadbName": "Magical Doctor",
+    "vocadbUrl": "https://vocadb.net/S/260566",
+    "coverArt": "https://i.ytimg.com/vi/Y0EcKR05Ac4/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/Y0EcKR05Ac4/default.jpg",
+      "https://i1.ytimg.com/vi/Y0EcKR05Ac4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Y0EcKR05Ac4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Gb9a58K-4tg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/30RXzpjhXwA/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/36142547/36142547.21492774",
+      "https://i.ytimg.com/vi/Gb9a58K-4tg/default.jpg",
+      "https://i.ytimg.com/vi/30RXzpjhXwA/default.jpg"
+    ],
+    "publishDate": "2019-11-17T00:00:00Z",
+    "acceptedTitles": [
+      "マジカルドクター",
+      "Magical Doctor",
+      "매지컬 닥터",
+      "Majikaru Dokutaa"
+    ],
+    "audioClip": "https://audio.sodapines.dev/260566.mp3"
+  },
+  {
+    "date": "2027-05-23",
+    "vocadbId": 263327,
+    "title": "Spring Storm",
+    "artist": "john",
+    "artistString": "john feat. Hatsune Miku",
+    "vocadbName": "Spring Storm",
+    "vocadbUrl": "https://vocadb.net/S/263327",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/36053074/36053074.63093467",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/36053074/36053074.63093467",
+      "https://i1.ytimg.com/vi/pUH9vCsvq08/hqdefault.jpg",
+      "https://i.ytimg.com/vi/pUH9vCsvq08/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ECQj6StN6tU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/3TNGlUJAY3o/hqdefault.jpg",
+      "https://i.ytimg.com/vi/pUH9vCsvq08/default.jpg",
+      "https://i.ytimg.com/vi/ECQj6StN6tU/default.jpg",
+      "https://i.ytimg.com/vi/3TNGlUJAY3o/default.jpg",
+      "https://i1.hdslb.com/bfs/archive/4709a1516efb9566e1ec06458eb65c50f2d7100d.jpg"
+    ],
+    "publishDate": "2019-12-07T00:00:00Z",
+    "acceptedTitles": [
+      "春嵐",
+      "Spring Storm",
+      "Shunran",
+      "shun-ran",
+      "춘람"
+    ],
+    "audioClip": "https://audio.sodapines.dev/263327.mp3"
+  },
+  {
+    "date": "2027-05-24",
+    "vocadbId": 265022,
+    "title": "Junky Night Town Orchestra",
+    "artist": "THREEE",
+    "artistString": "THREEE feat. Kagamine Len V4X (Power)",
+    "vocadbName": "Junky Night Town Orchestra",
+    "vocadbUrl": "https://vocadb.net/S/265022",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/36109943/36109943.52269317",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/36109943/36109943.52269317",
+      "https://i1.ytimg.com/vi/E1PGiyRjqkU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/E1PGiyRjqkU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Y7B-LGR-MnQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/bAm5v3U0KAA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/E1PGiyRjqkU/default.jpg",
+      "https://i.ytimg.com/vi/Y7B-LGR-MnQ/default.jpg",
+      "https://i.ytimg.com/vi/bAm5v3U0KAA/default.jpg",
+      "https://i1.hdslb.com/bfs/archive/0f3908f6f1add3525c504825a09bf56ba1aef6d3.jpg"
+    ],
+    "publishDate": "2019-12-20T00:00:00Z",
+    "acceptedTitles": [
+      "ジャンキーナイトタウンオーケストラ",
+      "Junky Night Town Orchestra",
+      "junky nighttown orchestra",
+      "瘾迷城市乐队"
+    ],
+    "audioClip": "https://audio.sodapines.dev/265022.mp3"
+  },
+  {
+    "date": "2027-05-25",
+    "vocadbId": 271917,
+    "title": "Villain",
+    "artist": "Teniwoha",
+    "artistString": "Teniwoha feat. v4 flower",
+    "vocadbName": "Villain",
+    "vocadbUrl": "https://vocadb.net/S/271917",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/36332327/36332327.81681242",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/36332327/36332327.81681242",
+      "https://i1.ytimg.com/vi/p9FJXfGHtDA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/p9FJXfGHtDA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/yrw7Ddi-YNs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/q2xqwwFD4Fw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/f6qo2uKI78g/hqdefault.jpg",
+      "https://i.ytimg.com/vi/xMNjBOUYrTw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/8IoMbznF2OA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/p9FJXfGHtDA/default.jpg",
+      "https://i.ytimg.com/vi/yrw7Ddi-YNs/default.jpg",
+      "https://i.ytimg.com/vi/q2xqwwFD4Fw/default.jpg",
+      "https://i.ytimg.com/vi/f6qo2uKI78g/default.jpg",
+      "https://i.ytimg.com/vi/xMNjBOUYrTw/default.jpg",
+      "https://i.ytimg.com/vi/8IoMbznF2OA/default.jpg"
+    ],
+    "publishDate": "2020-02-07T00:00:00Z",
+    "acceptedTitles": [
+      "ヴィラン",
+      "Villain",
+      "Villan",
+      "빌런"
+    ],
+    "audioClip": "https://audio.sodapines.dev/271917.mp3"
+  },
+  {
+    "date": "2027-05-26",
+    "vocadbId": 276642,
+    "title": "Becoming Potatoes",
+    "artist": "Neru",
+    "artistString": "Neru feat. Kagamine Len V4X (Power), Kagamine Rin V4X (Power)",
+    "vocadbName": "Becoming Potatoes",
+    "vocadbUrl": "https://vocadb.net/S/276642",
+    "coverArt": "https://i.ytimg.com/vi/Dun11cIEo9s/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/Dun11cIEo9s/default.jpg",
+      "https://i1.ytimg.com/vi/Dun11cIEo9s/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Dun11cIEo9s/hqdefault.jpg",
+      "https://i.ytimg.com/vi/tHPqJvV8RSs/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/36594334/36594334.78514154",
+      "https://i0.hdslb.com/bfs/archive/ca5e5fdb394d0c48b30a197f7ea5ae5de0299e9a.jpg",
+      "https://i.ytimg.com/vi/tHPqJvV8RSs/default.jpg"
+    ],
+    "publishDate": "2020-03-30T00:00:00Z",
+    "acceptedTitles": [
+      "potatoになっていく",
+      "Becoming Potatoes",
+      "potato ni Natte Iku",
+      "变身土豆",
+      "potato가 되어가"
+    ],
+    "audioClip": "https://audio.sodapines.dev/276642.mp3"
+  },
+  {
+    "date": "2027-05-27",
+    "vocadbId": 278267,
+    "title": "Goodbye Declaration",
+    "artist": "Chinozo",
+    "artistString": "Chinozo feat. v flower",
+    "vocadbName": "Goodbye Declaration",
+    "vocadbUrl": "https://vocadb.net/S/278267",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/36668789/36668789.93557039",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/36668789/36668789.93557039",
+      "https://i1.ytimg.com/vi/dHXC_ahjtEE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/dHXC_ahjtEE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/wOu_Akj6cSo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/vfLfonEeoyM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/XKOdOpOXJPI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/4dRcU7ulFpI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/dHXC_ahjtEE/default.jpg",
+      "https://i.ytimg.com/vi/wOu_Akj6cSo/default.jpg",
+      "https://i.ytimg.com/vi/vfLfonEeoyM/default.jpg",
+      "https://i.ytimg.com/vi/XKOdOpOXJPI/default.jpg",
+      "https://i.ytimg.com/vi/4dRcU7ulFpI/default.jpg",
+      "https://i2.hdslb.com/bfs/archive/cc1c78ae06376bcadf46abbf86e402f7a577f7b9.jpg"
+    ],
+    "publishDate": "2020-04-13T00:00:00Z",
+    "acceptedTitles": [
+      "グッバイ宣言",
+      "Goodbye Declaration",
+      "Goodbye Sengen",
+      "再见宣言",
+      "Good-bye Declaration",
+      "굿바이 선언"
+    ],
+    "audioClip": "https://audio.sodapines.dev/278267.mp3"
+  },
+  {
+    "date": "2027-05-28",
+    "vocadbId": 279848,
+    "title": "The Mouth of Truth",
+    "artist": "Hiiragi Kirai",
+    "artistString": "Hiiragi Kirai feat. v4 flower",
+    "vocadbName": "The Mouth of Truth",
+    "vocadbUrl": "https://vocadb.net/S/279848",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/36731216/36731216.18554175",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/36731216/36731216.18554175",
+      "https://i1.ytimg.com/vi/wp9Z2wZ-2bs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/wp9Z2wZ-2bs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Bi2NmoUIVsc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/wp9Z2wZ-2bs/default.jpg",
+      "https://i1.hdslb.com/bfs/archive/ccb11616471c3d8575857f145613765c9eb883d0.jpg",
+      "https://i.ytimg.com/vi/Bi2NmoUIVsc/default.jpg"
+    ],
+    "publishDate": "2020-04-26T00:00:00Z",
+    "acceptedTitles": [
+      "ボッカデラベリタ",
+      "The Mouth of Truth",
+      "Bocca della Verità",
+      "Bocca della Verita"
+    ],
+    "audioClip": "https://audio.sodapines.dev/279848.mp3"
+  },
+  {
+    "date": "2027-05-29",
+    "vocadbId": 280522,
+    "title": "Telecaster B-Boy (long ver.)",
+    "artist": "THREEE",
+    "artistString": "THREEE feat. Kagamine Len V4X (Power)",
+    "vocadbName": "Telecaster B-Boy (long ver.)",
+    "vocadbUrl": "https://vocadb.net/S/280522",
+    "coverArt": "https://i.ytimg.com/vi/i-DZukWFR64/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/i-DZukWFR64/default.jpg",
+      "https://i1.ytimg.com/vi/i-DZukWFR64/hqdefault.jpg",
+      "https://i.ytimg.com/vi/i-DZukWFR64/hqdefault.jpg",
+      "https://i.ytimg.com/vi/lTuS5mAedRQ/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/37507315/37507315.98820178",
+      "https://i.ytimg.com/vi/lTuS5mAedRQ/default.jpg",
+      "https://i0.hdslb.com/bfs/archive/11d88ec660522b6e02b0b9db80278a71e1d0273a.jpg"
+    ],
+    "publishDate": "2020-05-01T00:00:00Z",
+    "acceptedTitles": [
+      "テレキャスタービーボーイ (long ver.)",
+      "Telecaster B-Boy (long ver.)",
+      "电吉他摇滚男孩",
+      "텔레캐스터 비보이 (long ver.)"
+    ],
+    "audioClip": "https://audio.sodapines.dev/280522.mp3"
+  },
+  {
+    "date": "2027-05-30",
+    "vocadbId": 284993,
+    "title": "Because You're Here",
+    "artist": "PinocchioP",
+    "artistString": "PinocchioP feat. Hatsune Miku",
+    "vocadbName": "Because You're Here",
+    "vocadbUrl": "https://vocadb.net/S/284993",
+    "coverArt": "https://i.ytimg.com/vi/ygY2qObZv24/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/ygY2qObZv24/default.jpg",
+      "https://i1.ytimg.com/vi/ygY2qObZv24/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ygY2qObZv24/hqdefault.jpg",
+      "https://i.ytimg.com/vi/wSRziiXJHT8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/p5va3VZrkwE/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/37223770/37223770.96835470",
+      "https://i0.hdslb.com/bfs/archive/42d9cc1068928dcb9e986b263cfea91956b991f3.jpg",
+      "https://i.ytimg.com/vi/wSRziiXJHT8/default.jpg",
+      "https://i.ytimg.com/vi/p5va3VZrkwE/default.jpg",
+      "https://i1.sndcdn.com/artworks-VNhoMJtk7dt9-0-t500x500.jpg"
+    ],
+    "publishDate": "2020-07-22T00:00:00Z",
+    "acceptedTitles": [
+      "愛されなくても君がいる",
+      "Because You're Here",
+      "Aisarenakute mo Kimi ga Iru",
+      "就算没有爱 只要有你就好",
+      "사랑받지 못해도 네가 있어"
+    ],
+    "audioClip": "https://audio.sodapines.dev/284993.mp3"
+  },
+  {
+    "date": "2027-05-31",
+    "vocadbId": 286909,
+    "title": "Digital Girl",
+    "artist": "KIRA",
+    "artistString": "KIRA feat. Hatsune Miku V4 (English)",
+    "vocadbName": "Digital Girl",
+    "vocadbUrl": "https://vocadb.net/S/286909",
+    "coverArt": "https://i.ytimg.com/vi/_fC4gB841VI/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/_fC4gB841VI/default.jpg",
+      "https://i1.ytimg.com/vi/_fC4gB841VI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/_fC4gB841VI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/k5XsQA_crXY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/QCRcAA2l_WI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/jvg5WkIp6VY/hqdefault.jpg",
+      "https://f4.bcbits.com/img/a0959494941_5.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/37136400/37136400.49600541",
+      "https://i1.sndcdn.com/artworks-1oyWXtzRnkDFOi7l-9PKszw-large.jpg",
+      "https://i.ytimg.com/vi/k5XsQA_crXY/default.jpg",
+      "https://i.ytimg.com/vi/QCRcAA2l_WI/default.jpg",
+      "https://i.ytimg.com/vi/jvg5WkIp6VY/default.jpg"
+    ],
+    "publishDate": "2020-07-03T00:00:00Z",
+    "acceptedTitles": [
+      "Digital Girl",
+      "デジタルガール"
+    ],
+    "audioClip": "https://audio.sodapines.dev/286909.mp3"
+  },
+  {
+    "date": "2027-06-01",
+    "vocadbId": 288238,
+    "title": "Lagtrain",
+    "artist": "inabakumori",
+    "artistString": "inabakumori feat. Kaai Yuki",
+    "vocadbName": "Lagtrain",
+    "vocadbUrl": "https://vocadb.net/S/288238",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/37198038/37198038.41264715",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/37198038/37198038.41264715",
+      "https://i1.ytimg.com/vi/UnIhRpIT7nc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/UnIhRpIT7nc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/VfBswbj1824/hqdefault.jpg",
+      "https://i.ytimg.com/vi/rIfNbSk7kbE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/UnIhRpIT7nc/default.jpg",
+      "https://i2.hdslb.com/bfs/archive/81192e9411bc18bba5f00f17736126a804610679.jpg",
+      "https://i.ytimg.com/vi/VfBswbj1824/default.jpg",
+      "https://i.ytimg.com/vi/rIfNbSk7kbE/default.jpg"
+    ],
+    "publishDate": "2020-07-16T00:00:00Z",
+    "acceptedTitles": [
+      "ラグトレイン",
+      "Lagtrain",
+      "Lag Train",
+      "랙 트레인",
+      "지연열차",
+      "래그트레인"
+    ],
+    "audioClip": "https://audio.sodapines.dev/288238.mp3"
+  },
+  {
+    "date": "2027-06-02",
+    "vocadbId": 290384,
+    "title": "KING",
+    "artist": "Kanaria",
+    "artistString": "Kanaria feat. V3 GUMI (English)",
+    "vocadbName": "KING",
+    "vocadbUrl": "https://vocadb.net/S/290384",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/37287661/37287661.84477986",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/37287661/37287661.84477986",
+      "https://i1.ytimg.com/vi/cm-l2h6GB8Q/hqdefault.jpg",
+      "https://i.ytimg.com/vi/cm-l2h6GB8Q/hqdefault.jpg",
+      "https://i.ytimg.com/vi/sWlePmXNMjM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/C_dowzv5Wr8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/JWT8vQ0PUIE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/cm-l2h6GB8Q/default.jpg",
+      "https://i.ytimg.com/vi/sWlePmXNMjM/default.jpg",
+      "https://i.ytimg.com/vi/C_dowzv5Wr8/default.jpg",
+      "https://i1.hdslb.com/bfs/archive/dfc27e2064c6ec3e4fd6821b5124dcb3a7ad0262.jpg",
+      "https://i.ytimg.com/vi/JWT8vQ0PUIE/default.jpg"
+    ],
+    "publishDate": "2020-08-02T00:00:00Z",
+    "acceptedTitles": [
+      "KING"
+    ],
+    "audioClip": "https://audio.sodapines.dev/290384.mp3"
+  },
+  {
+    "date": "2027-06-03",
+    "vocadbId": 290577,
+    "title": "Wah Wah World",
+    "artist": "Giga",
+    "artistString": "Giga, Mitchie M feat. Hatsune Miku, Kagamine Rin",
+    "vocadbName": "Wah Wah World",
+    "vocadbUrl": "https://vocadb.net/S/290577",
+    "coverArt": "https://i1.ytimg.com/vi/okJ9Vk6owG8/default.jpg",
+    "coverArts": [
+      "https://i1.ytimg.com/vi/okJ9Vk6owG8/default.jpg",
+      "https://i1.ytimg.com/vi/okJ9Vk6owG8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/okJ9Vk6owG8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/O-cDu6I-lws/hqdefault.jpg"
+    ],
+    "publishDate": "2020-08-04T00:00:00Z",
+    "acceptedTitles": [
+      "ワーワーワールド",
+      "Wah Wah World",
+      "와와월드"
+    ],
+    "audioClip": "https://audio.sodapines.dev/290577.mp3"
+  },
+  {
+    "date": "2027-06-04",
+    "vocadbId": 293286,
+    "title": "Darling Dance",
+    "artist": "Kairiki bear",
+    "artistString": "Kairiki bear feat. Hatsune Miku",
+    "vocadbName": "Darling Dance",
+    "vocadbUrl": "https://vocadb.net/S/293286",
+    "coverArt": "https://i.ytimg.com/vi/Rkrm5foi188/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/Rkrm5foi188/default.jpg",
+      "https://i1.ytimg.com/vi/Rkrm5foi188/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Rkrm5foi188/hqdefault.jpg",
+      "https://i.ytimg.com/vi/b1zJC-bgBaQ/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/37441963/37441963.8827720",
+      "https://i.ytimg.com/vi/b1zJC-bgBaQ/default.jpg"
+    ],
+    "publishDate": "2020-08-30T00:00:00Z",
+    "acceptedTitles": [
+      "ダーリンダンス",
+      "Darling Dance",
+      "달링 댄스"
+    ],
+    "audioClip": "https://audio.sodapines.dev/293286.mp3"
+  },
+  {
+    "date": "2027-06-05",
+    "vocadbId": 293881,
+    "title": "GETCHA!",
+    "artist": "Giga",
+    "artistString": "Giga, KIRA feat. various",
+    "vocadbName": "GETCHA!",
+    "vocadbUrl": "https://vocadb.net/S/293881",
+    "coverArt": "https://i.ytimg.com/vi/KRVFPPYcJUc/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/KRVFPPYcJUc/default.jpg",
+      "https://i1.ytimg.com/vi/KRVFPPYcJUc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/KRVFPPYcJUc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/MLEYrR_fI1M/hqdefault.jpg",
+      "https://i.ytimg.com/vi/6b_z2jrMbkU/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/37467451/37467451.11100361",
+      "https://i.ytimg.com/vi/MLEYrR_fI1M/default.jpg",
+      "https://i.ytimg.com/vi/6b_z2jrMbkU/default.jpg",
+      "https://i1.sndcdn.com/artworks-UfjwtyCubMMz-0-t500x500.jpg"
+    ],
+    "publishDate": "2020-09-03T00:00:00Z",
+    "acceptedTitles": [
+      "GETCHA!"
+    ],
+    "audioClip": "https://audio.sodapines.dev/293881.mp3"
+  },
+  {
+    "date": "2027-06-06",
+    "vocadbId": 296597,
+    "title": "Ready Steady",
+    "artist": "Giga",
+    "artistString": "Giga feat. various",
+    "vocadbName": "Ready Steady",
+    "vocadbUrl": "https://vocadb.net/S/296597",
+    "coverArt": "https://i.ytimg.com/vi/XAg1jDDG49Y/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/XAg1jDDG49Y/default.jpg",
+      "https://i1.ytimg.com/vi/XAg1jDDG49Y/hqdefault.jpg",
+      "https://i.ytimg.com/vi/XAg1jDDG49Y/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Napi10U43q0/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/37601066/37601066.57924834",
+      "https://i.ytimg.com/vi/Napi10U43q0/default.jpg",
+      "https://i1.sndcdn.com/artworks-qLlgizBR1GWQ-0-t500x500.jpg"
+    ],
+    "publishDate": "2020-09-30T00:00:00Z",
+    "acceptedTitles": [
+      "Ready Steady"
+    ],
+    "audioClip": "https://audio.sodapines.dev/296597.mp3"
+  },
+  {
+    "date": "2027-06-07",
+    "vocadbId": 298528,
+    "title": "Loveit",
+    "artist": "PinocchioP",
+    "artistString": "PinocchioP feat. Hatsune Miku V4X (Dark)",
+    "vocadbName": "Loveit",
+    "vocadbUrl": "https://vocadb.net/S/298528",
+    "coverArt": "https://i.ytimg.com/vi/--41OGPMurU/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/--41OGPMurU/default.jpg",
+      "https://i1.ytimg.com/vi/--41OGPMurU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/--41OGPMurU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/esAaOVor-c0/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/37674814/37674814.18114881",
+      "https://i1.hdslb.com/bfs/archive/062beae40a7c09c892f48b577f7709561d47ee57.jpg",
+      "https://i.ytimg.com/vi/esAaOVor-c0/default.jpg"
+    ],
+    "publishDate": "2020-10-16T00:00:00Z",
+    "acceptedTitles": [
+      "ラヴィット",
+      "Loveit",
+      "Love it",
+      "러빗"
+    ],
+    "audioClip": "https://audio.sodapines.dev/298528.mp3"
+  },
+  {
+    "date": "2027-06-08",
+    "vocadbId": 301147,
+    "title": "OGRE",
+    "artist": "Utsu-P",
+    "artistString": "Utsu-P feat. Hatsune Miku V4X (Original)",
+    "vocadbName": "OGRE",
+    "vocadbUrl": "https://vocadb.net/S/301147",
+    "coverArt": "https://i.ytimg.com/vi/N9-M-avUjO8/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/N9-M-avUjO8/default.jpg",
+      "https://i1.ytimg.com/vi/N9-M-avUjO8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/N9-M-avUjO8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/MN97kf49tYM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/86nHb1Erco0/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/37777560/37777560.50023577",
+      "https://i2.hdslb.com/bfs/archive/9a94468312d719d11e698c0518c07b0798f61860.jpg",
+      "https://i.ytimg.com/vi/MN97kf49tYM/default.jpg",
+      "https://i.ytimg.com/vi/86nHb1Erco0/default.jpg",
+      "https://f4.bcbits.com/img/a3872290920_5.jpg"
+    ],
+    "publishDate": "2020-11-06T00:00:00Z",
+    "acceptedTitles": [
+      "OGRE"
+    ],
+    "audioClip": "https://audio.sodapines.dev/301147.mp3"
+  },
+  {
+    "date": "2027-06-09",
+    "vocadbId": 306251,
+    "title": "Is it Love?",
+    "artist": "Hiiragi Kirai",
+    "artistString": "Hiiragi Kirai feat. v4 flower",
+    "vocadbName": "Is it Love?",
+    "vocadbUrl": "https://vocadb.net/S/306251",
+    "coverArt": "https://i.ytimg.com/vi/1Esz9ONM9X8/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/1Esz9ONM9X8/default.jpg",
+      "https://i1.ytimg.com/vi/1Esz9ONM9X8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/1Esz9ONM9X8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Z8RoH_iR1M8/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/37928776/37928776.22865153",
+      "https://i0.hdslb.com/bfs/archive/dc09198e7058b63b5aaa7f289184c67600985c88.jpg",
+      "https://i.ytimg.com/vi/Z8RoH_iR1M8/default.jpg"
+    ],
+    "publishDate": "2020-12-11T00:00:00Z",
+    "acceptedTitles": [
+      "ラブカ？",
+      "Is it Love?",
+      "Rabuka?",
+      "라브카?",
+      "Love ka?"
+    ],
+    "audioClip": "https://audio.sodapines.dev/306251.mp3"
+  },
+  {
+    "date": "2027-06-11",
+    "vocadbId": 306287,
+    "title": "living millennium",
+    "artist": "iyowa",
+    "artistString": "iyowa feat. Hatsune Miku",
+    "vocadbName": "living millennium",
+    "vocadbUrl": "https://vocadb.net/S/306287",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/37944844/37944844.79264053",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/37944844/37944844.79264053",
+      "https://i1.ytimg.com/vi/3em-J9yYPAo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/3em-J9yYPAo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/oaM4Bc9eKMA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/3em-J9yYPAo/default.jpg",
+      "https://i.ytimg.com/vi/oaM4Bc9eKMA/default.jpg"
+    ],
+    "publishDate": "2020-12-11T00:00:00Z",
+    "acceptedTitles": [
+      "1000年生きてる",
+      "living millennium",
+      "1000-nen Ikiteru",
+      "Living For a Millennium",
+      "Sen'nen Ikiteru",
+      "1000년 살았어"
+    ],
+    "audioClip": "https://audio.sodapines.dev/306287.mp3"
+  },
+  {
+    "date": "2027-06-11",
+    "vocadbId": 306287,
+    "title": "living millennium",
+    "artist": "iyowa",
+    "artistString": "iyowa feat. Hatsune Miku",
+    "vocadbName": "living millennium",
+    "vocadbUrl": "https://vocadb.net/S/306287",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/37944844/37944844.79264053",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/37944844/37944844.79264053",
+      "https://i1.ytimg.com/vi/3em-J9yYPAo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/3em-J9yYPAo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/oaM4Bc9eKMA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/3em-J9yYPAo/default.jpg",
+      "https://i.ytimg.com/vi/oaM4Bc9eKMA/default.jpg"
+    ],
+    "publishDate": "2020-12-11T00:00:00Z",
+    "acceptedTitles": [
+      "1000年生きてる",
+      "living millennium",
+      "1000-nen Ikiteru",
+      "Living For a Millennium",
+      "Sen'nen Ikiteru",
+      "1000년 살았어"
+    ],
+    "audioClip": "https://audio.sodapines.dev/306287.mp3"
+  },
+  {
+    "date": "2027-06-12",
+    "vocadbId": 314061,
+    "title": "Forced Obedience",
+    "artist": "MARETU",
+    "artistString": "MARETU feat. Hatsune Miku",
+    "vocadbName": "Forced Obedience",
+    "vocadbUrl": "https://vocadb.net/S/314061",
+    "coverArt": "https://i.ytimg.com/vi/9CndmKEYhgE/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/9CndmKEYhgE/default.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/13434920/13434920",
+      "https://i1.ytimg.com/vi/9CndmKEYhgE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/9CndmKEYhgE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/0w8x9D4swTg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/0w8x9D4swTg/default.jpg",
+      "https://i1.sndcdn.com/artworks-4cF9lDVyl7fM4MmK-8PiSFg-t500x500.jpg",
+      "https://i0.hdslb.com/bfs/archive/84b74476bc6fdb58f9d469a66bc85e25ebcf394c.jpg"
+    ],
+    "publishDate": "2011-01-29T00:00:00Z",
+    "acceptedTitles": [
+      "強制隷従",
+      "Forced Obedience",
+      "Kyousei Reijuu",
+      "Forced Slavery",
+      "강제예종"
+    ],
+    "audioClip": "https://audio.sodapines.dev/314061.mp3"
+  },
+  {
+    "date": "2027-06-13",
+    "vocadbId": 315198,
+    "title": "ENVY BABY",
+    "artist": "Kanaria",
+    "artistString": "Kanaria feat. V3 GUMI (English)",
+    "vocadbName": "ENVY BABY",
+    "vocadbUrl": "https://vocadb.net/S/315198",
+    "coverArt": "https://i.ytimg.com/vi/dgS6HvEohsw/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/dgS6HvEohsw/default.jpg",
+      "https://i1.ytimg.com/vi/dgS6HvEohsw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/dgS6HvEohsw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/H-G0KzYRdMo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/OBnEWzUzVyg/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/38268550/38268550.66410868",
+      "https://i.ytimg.com/vi/H-G0KzYRdMo/default.jpg",
+      "https://i.ytimg.com/vi/OBnEWzUzVyg/default.jpg"
+    ],
+    "publishDate": "2021-02-13T00:00:00Z",
+    "acceptedTitles": [
+      "エンヴィーベイビー",
+      "ENVY BABY",
+      "Envy Baby",
+      "엔비 베이비"
+    ],
+    "audioClip": "https://audio.sodapines.dev/315198.mp3"
+  },
+  {
+    "date": "2027-06-14",
+    "vocadbId": 316298,
+    "title": "Cute Girlfriend",
+    "artist": "syudou",
+    "artistString": "syudou feat. KAFU",
+    "vocadbName": "Cute Girlfriend",
+    "vocadbUrl": "https://vocadb.net/S/316298",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/38300091/38300091.91558490",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/38300091/38300091.91558490",
+      "https://i1.ytimg.com/vi/oFmup8lxUHw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/oFmup8lxUHw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/P0EAXhppagA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/eXhLhe9VHL0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Q2ogGJCb2TU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/bPr40GKsrJ0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/wqpaiNMTWNk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Z97kNd58Jx0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/oFmup8lxUHw/default.jpg",
+      "https://i.ytimg.com/vi/P0EAXhppagA/default.jpg",
+      "https://i0.hdslb.com/bfs/archive/0881e428d816e4ff29dc12ccf857dd74812868c4.jpg",
+      "https://i.ytimg.com/vi/eXhLhe9VHL0/default.jpg",
+      "https://i.ytimg.com/vi/Q2ogGJCb2TU/default.jpg",
+      "https://i.ytimg.com/vi/bPr40GKsrJ0/default.jpg",
+      "https://i.ytimg.com/vi/wqpaiNMTWNk/default.jpg",
+      "https://i.ytimg.com/vi/Z97kNd58Jx0/default.jpg"
+    ],
+    "publishDate": "2021-02-20T00:00:00Z",
+    "acceptedTitles": [
+      "キュートなカノジョ",
+      "Cute Girlfriend",
+      "Cute na Kanojo",
+      "Cute Girl"
+    ],
+    "audioClip": "https://audio.sodapines.dev/316298.mp3"
+  },
+  {
+    "date": "2027-06-15",
+    "vocadbId": 317310,
+    "title": "Abnormality Dancin' Girl",
+    "artist": "Guchiry",
+    "artistString": "Guchiry feat. v4 flower",
+    "vocadbName": "Abnormality Dancin' Girl",
+    "vocadbUrl": "https://vocadb.net/S/317310",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/38337330/38337330.98843800",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/38337330/38337330.98843800",
+      "https://i1.ytimg.com/vi/SDt2OOdWR-Y/hqdefault.jpg",
+      "https://i.ytimg.com/vi/SDt2OOdWR-Y/hqdefault.jpg",
+      "https://i.ytimg.com/vi/6fcDDue7l-g/hqdefault.jpg",
+      "https://i.ytimg.com/vi/SDt2OOdWR-Y/default.jpg",
+      "https://i.ytimg.com/vi/6fcDDue7l-g/default.jpg",
+      "https://i2.hdslb.com/bfs/archive/af27cb59d06c6ee7116fbf722b37e1b468f24713.jpg"
+    ],
+    "publishDate": "2021-02-27T00:00:00Z",
+    "acceptedTitles": [
+      "アブノーマリティ･ダンシンガール",
+      "Abnormality Dancin' Girl",
+      "异常跳舞的女孩",
+      "Abnormality, Dancin' Girl",
+      "Abnormality Dancing Girl"
+    ],
+    "audioClip": "https://audio.sodapines.dev/317310.mp3"
+  },
+  {
+    "date": "2027-06-16",
+    "vocadbId": 321205,
+    "title": "The Vampire",
+    "artist": "DECO*27",
+    "artistString": "DECO*27, Rockwell, OTOIRO feat. Hatsune Miku",
+    "vocadbName": "The Vampire",
+    "vocadbUrl": "https://vocadb.net/S/321205",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/38387707/38387707.62141938",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/38387707/38387707.62141938",
+      "https://i1.ytimg.com/vi/e1xCOsgWG0M/hqdefault.jpg",
+      "https://i.ytimg.com/vi/e1xCOsgWG0M/hqdefault.jpg",
+      "https://i.ytimg.com/vi/-Qn_yN4g8IM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/LzwAnMLnwS4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/0WKQy3mPMcE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/e1xCOsgWG0M/default.jpg",
+      "https://i1.hdslb.com/bfs/archive/5e19169ad0675d67c35a1d91d5b486d27c28ca4f.jpg",
+      "https://i.ytimg.com/vi/-Qn_yN4g8IM/default.jpg",
+      "https://i.ytimg.com/vi/LzwAnMLnwS4/default.jpg",
+      "https://i.ytimg.com/vi/0WKQy3mPMcE/default.jpg"
+    ],
+    "publishDate": "2021-03-09T00:00:00Z",
+    "acceptedTitles": [
+      "ヴァンパイア",
+      "The Vampire",
+      "Vampire",
+      "뱀파이어"
+    ],
+    "audioClip": "https://audio.sodapines.dev/321205.mp3"
+  },
+  {
+    "date": "2027-06-17",
+    "vocadbId": 324306,
+    "title": "Hmm-Ah-Ah.",
+    "artist": "SLAVE.V-V-R",
+    "artistString": "SLAVE.V-V-R feat. Hatsune Miku V4X (Soft)",
+    "vocadbName": "Hmm-Ah-Ah.",
+    "vocadbUrl": "https://vocadb.net/S/324306",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/38495939/38495939.26505646",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/38495939/38495939.26505646",
+      "https://i1.ytimg.com/vi/ZDfedFXfb3w/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ZDfedFXfb3w/hqdefault.jpg",
+      "https://i.ytimg.com/vi/DhbC9mrwKdc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ZDfedFXfb3w/default.jpg",
+      "https://i.ytimg.com/vi/DhbC9mrwKdc/default.jpg"
+    ],
+    "publishDate": "2021-03-28T00:00:00Z",
+    "acceptedTitles": [
+      "『んっあっあっ。』",
+      "Hmm-Ah-Ah.",
+      "\"M-m? Ah, Ah?\"",
+      "\"Muh-Ah-Ah.\"",
+      "Nh-Uh-Uh.",
+      "응앗앗."
+    ],
+    "audioClip": "https://audio.sodapines.dev/324306.mp3"
+  },
+  {
+    "date": "2027-06-18",
+    "vocadbId": 324951,
+    "title": "Not Photogenic",
+    "artist": "Utsu-P",
+    "artistString": "Utsu-P feat. Hatsune Miku V4 (English), Hatsune Miku V4X (Dark)",
+    "vocadbName": "Not Photogenic",
+    "vocadbUrl": "https://vocadb.net/S/324951",
+    "coverArt": "https://i.ytimg.com/vi/GL-FTHmpXqo/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/GL-FTHmpXqo/default.jpg",
+      "https://i1.ytimg.com/vi/GL-FTHmpXqo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/GL-FTHmpXqo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Lm8vdq4SYo0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/kGZqfHZmKcA/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/38514553/38514553.20321305",
+      "https://i.ytimg.com/vi/Lm8vdq4SYo0/default.jpg",
+      "https://i.ytimg.com/vi/kGZqfHZmKcA/default.jpg",
+      "https://f4.bcbits.com/img/a3872290920_5.jpg",
+      "https://i1.hdslb.com/bfs/archive/14df738723e7d2fbdfe9b80dbc83f85c5d7d05cd.jpg"
+    ],
+    "publishDate": "2021-03-31T00:00:00Z",
+    "acceptedTitles": [
+      "映えない",
+      "Not Photogenic",
+      "Haenai",
+      "不太上镜",
+      "빛나지 않아"
+    ],
+    "audioClip": "https://audio.sodapines.dev/324951.mp3"
+  },
+  {
+    "date": "2027-06-19",
+    "vocadbId": 333833,
+    "title": "Loneliness of Spring",
+    "artist": "inabakumori",
+    "artistString": "inabakumori feat. Tsurumaki Maki AI (Japanese)",
+    "vocadbName": "Loneliness of Spring",
+    "vocadbUrl": "https://vocadb.net/S/333833",
+    "coverArt": "https://i.ytimg.com/vi/mFih47l1pVI/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/mFih47l1pVI/default.jpg",
+      "https://i1.ytimg.com/vi/mFih47l1pVI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/mFih47l1pVI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/V931ilhgfRs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Q-ckLveNjIw/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/38728089/38728089.89249442",
+      "https://i.ytimg.com/vi/V931ilhgfRs/default.jpg",
+      "https://i1.hdslb.com/bfs/archive/b5045e7959337428c4bd99d2cba7c1bb7a02be67.jpg",
+      "https://i.ytimg.com/vi/Q-ckLveNjIw/default.jpg"
+    ],
+    "publishDate": "2021-05-13T00:00:00Z",
+    "acceptedTitles": [
+      "ハルノ寂寞",
+      "Loneliness of Spring",
+      "Haru no Sekibaku",
+      "The Desolation of Spring"
+    ],
+    "audioClip": "https://audio.sodapines.dev/333833.mp3"
+  },
+  {
+    "date": "2027-06-20",
+    "vocadbId": 335986,
+    "title": "Hey Hey Hey.",
+    "artist": "PinocchioP",
+    "artistString": "PinocchioP feat. various",
+    "vocadbName": "Hey Hey Hey.",
+    "vocadbUrl": "https://vocadb.net/S/335986",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/39131047/39131047.96766050",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/39131047/39131047.96766050",
+      "https://i1.ytimg.com/vi/w8yweCungCE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/w8yweCungCE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/gIfm67RuAi0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/w8yweCungCE/default.jpg",
+      "https://i.ytimg.com/vi/gIfm67RuAi0/default.jpg",
+      "https://i1.hdslb.com/bfs/archive/a4c934ff0228fd78886a61e3bfbbe5d40b8f762a.jpg",
+      "https://f4.bcbits.com/img/a0430182675_5.jpg"
+    ],
+    "publishDate": "2021-08-05T00:00:00Z",
+    "acceptedTitles": [
+      "ねぇねぇねぇ。",
+      "Hey Hey Hey.",
+      "Nee Nee Nee.",
+      "呐呐呐。",
+      "있잖아 있잖아 있잖아."
+    ],
+    "audioClip": "https://audio.sodapines.dev/335986.mp3"
+  },
+  {
+    "date": "2027-06-21",
+    "vocadbId": 335988,
+    "title": "Non-breath oblige",
+    "artist": "PinocchioP",
+    "artistString": "PinocchioP feat. Hatsune Miku",
+    "vocadbName": "Non-breath oblige",
+    "vocadbUrl": "https://vocadb.net/S/335988",
+    "coverArt": "https://i.ytimg.com/vi/lw7pcm1W5tw/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/lw7pcm1W5tw/default.jpg",
+      "https://i1.ytimg.com/vi/lw7pcm1W5tw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/lw7pcm1W5tw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/w7HkCqCEtLY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/HB58G3h8ztA/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/38824626/38824626.77353236",
+      "https://i2.hdslb.com/bfs/archive/c653d51bd98e087a9c4c0f3a9a19fe2fc8cf570d.jpg",
+      "https://i.ytimg.com/vi/w7HkCqCEtLY/default.jpg",
+      "https://i.ytimg.com/vi/HB58G3h8ztA/default.jpg",
+      "https://f4.bcbits.com/img/a0430182675_5.jpg"
+    ],
+    "publishDate": "2021-06-02T00:00:00Z",
+    "acceptedTitles": [
+      "ノンブレス・オブリージュ",
+      "Non-breath oblige"
+    ],
+    "audioClip": "https://audio.sodapines.dev/335988.mp3"
+  },
+  {
+    "date": "2027-06-22",
+    "vocadbId": 337578,
+    "title": "phony",
+    "artist": "Tsumiki",
+    "artistString": "Tsumiki feat. KAFU",
+    "vocadbName": "phony",
+    "vocadbUrl": "https://vocadb.net/S/337578",
+    "coverArt": "https://i.ytimg.com/vi/9QLT1Aw_45s/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/9QLT1Aw_45s/default.jpg",
+      "https://i1.ytimg.com/vi/9QLT1Aw_45s/hqdefault.jpg",
+      "https://i.ytimg.com/vi/9QLT1Aw_45s/hqdefault.jpg",
+      "https://i.ytimg.com/vi/_5ptpq9BxEM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/k5A3jcsyGlA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Cn9NpA227B8/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/38833751/38833751.80872787",
+      "https://i1.hdslb.com/bfs/archive/9e864b7d9f974dd59ffb10acc157e12c6ec58f53.jpg",
+      "https://i.ytimg.com/vi/_5ptpq9BxEM/default.jpg",
+      "https://i.ytimg.com/vi/k5A3jcsyGlA/default.jpg",
+      "https://i.ytimg.com/vi/Cn9NpA227B8/default.jpg"
+    ],
+    "publishDate": "2021-06-05T00:00:00Z",
+    "acceptedTitles": [
+      "フォニイ",
+      "phony"
+    ],
+    "audioClip": "https://audio.sodapines.dev/337578.mp3"
+  },
+  {
+    "date": "2027-06-23",
+    "vocadbId": 340035,
+    "title": "Unthinkable Wonders",
+    "artist": "sasakure.UK",
+    "artistString": "sasakure.UK feat. Hatsune Miku",
+    "vocadbName": "Unthinkable Wonders",
+    "vocadbUrl": "https://vocadb.net/S/340035",
+    "coverArt": "https://i.ytimg.com/vi/dBQg24mx45Y/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/dBQg24mx45Y/default.jpg",
+      "https://i1.ytimg.com/vi/dBQg24mx45Y/hqdefault.jpg",
+      "https://i.ytimg.com/vi/dBQg24mx45Y/hqdefault.jpg",
+      "https://i.ytimg.com/vi/sFFRpdW62RI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/8_ULC_M0FyU/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/38907008/38907008.17541518",
+      "https://i1.hdslb.com/bfs/archive/f96d28030d4749ff7d8902f0bf4e7fc723147c39.jpg",
+      "https://i.ytimg.com/vi/sFFRpdW62RI/default.jpg",
+      "https://i.ytimg.com/vi/8_ULC_M0FyU/default.jpg"
+    ],
+    "publishDate": "2021-06-19T00:00:00Z",
+    "acceptedTitles": [
+      "トンデモワンダーズ",
+      "Unthinkable Wonders",
+      "TONDEMO-WONDERZ",
+      "Tondemo Wonderz",
+      "톤데모 원더즈"
+    ],
+    "audioClip": "https://audio.sodapines.dev/340035.mp3"
+  },
+  {
+    "date": "2027-06-24",
+    "vocadbId": 340399,
+    "title": "Rainy Boots",
+    "artist": "inabakumori",
+    "artistString": "inabakumori feat. Kaai Yuki",
+    "vocadbName": "Rainy Boots",
+    "vocadbUrl": "https://vocadb.net/S/340399",
+    "coverArt": "https://i.ytimg.com/vi/G5hScSFkib4/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/G5hScSFkib4/default.jpg",
+      "https://i1.ytimg.com/vi/G5hScSFkib4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/G5hScSFkib4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/vtwZWwRcekE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/lHQVg4_C1pQ/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/38927801/38927801.83522028",
+      "https://i0.hdslb.com/bfs/archive/faad7575a77d57ca6ba8be1e8492ef8be5d4f80f.jpg",
+      "https://i1.sndcdn.com/artworks-aVpWsThoUH4a-0-large.jpg",
+      "https://i.ytimg.com/vi/vtwZWwRcekE/default.jpg",
+      "https://i.ytimg.com/vi/lHQVg4_C1pQ/default.jpg"
+    ],
+    "publishDate": "2021-06-23T00:00:00Z",
+    "acceptedTitles": [
+      "レイニーブーツ",
+      "Rainy Boots",
+      "레이니 부츠"
+    ],
+    "audioClip": "https://audio.sodapines.dev/340399.mp3"
+  },
+  {
+    "date": "2027-06-25",
+    "vocadbId": 344094,
+    "title": "Cat Loving",
+    "artist": "Kashii Moimi",
+    "artistString": "Kashii Moimi feat. KAFU",
+    "vocadbName": "Cat Loving",
+    "vocadbUrl": "https://vocadb.net/S/344094",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/39034813/39034813.20703816",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/39034813/39034813.20703816",
+      "https://i1.ytimg.com/vi/7gwvBrlUiww/hqdefault.jpg",
+      "https://i.ytimg.com/vi/7gwvBrlUiww/hqdefault.jpg",
+      "https://i.ytimg.com/vi/96c9htoMjjQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/TcIpMhUHRvM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/pa9A-k17ZLE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/7gwvBrlUiww/default.jpg",
+      "https://i2.hdslb.com/bfs/archive/4f7ed52356fd24d16313b8a9385b419f50d2bf90.jpg",
+      "https://i.ytimg.com/vi/96c9htoMjjQ/default.jpg",
+      "https://i.ytimg.com/vi/TcIpMhUHRvM/default.jpg",
+      "https://i.ytimg.com/vi/pa9A-k17ZLE/default.jpg"
+    ],
+    "publishDate": "2021-07-17T00:00:00Z",
+    "acceptedTitles": [
+      "キャットラビング",
+      "Cat Loving",
+      "Cat Rubbing",
+      "캣 러빙"
+    ],
+    "audioClip": "https://audio.sodapines.dev/344094.mp3"
+  },
+  {
+    "date": "2027-06-26",
+    "vocadbId": 345109,
+    "title": "Pink",
+    "artist": "MARETU",
+    "artistString": "MARETU feat. Hatsune Miku V4X (Original), Hatsune Miku V4X (Solid)",
+    "vocadbName": "Pink",
+    "vocadbUrl": "https://vocadb.net/S/345109",
+    "coverArt": "https://i.ytimg.com/vi/ttEOHrHeh5I/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/ttEOHrHeh5I/default.jpg",
+      "https://i1.ytimg.com/vi/ttEOHrHeh5I/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ttEOHrHeh5I/hqdefault.jpg",
+      "https://i.ytimg.com/vi/aKCayhyPgiY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/sCG32ed84Uc/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/39082282/39082282.99253222",
+      "https://i.ytimg.com/vi/aKCayhyPgiY/default.jpg",
+      "https://i.ytimg.com/vi/sCG32ed84Uc/default.jpg"
+    ],
+    "publishDate": "2021-07-25T00:00:00Z",
+    "acceptedTitles": [
+      "ぴんく",
+      "Pink",
+      "핑크"
+    ],
+    "audioClip": "https://audio.sodapines.dev/345109.mp3"
+  },
+  {
+    "date": "2027-06-27",
+    "vocadbId": 348255,
+    "title": "Marshall Maximizer",
+    "artist": "Hiiragi Magnetite",
+    "artistString": "Hiiragi Magnetite feat. KAFU",
+    "vocadbName": "Marshall Maximizer",
+    "vocadbUrl": "https://vocadb.net/S/348255",
+    "coverArt": "https://i.ytimg.com/vi/jMKPYg0uhCI/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/jMKPYg0uhCI/default.jpg",
+      "https://i1.ytimg.com/vi/jMKPYg0uhCI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/jMKPYg0uhCI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/0xE41TXbcbI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/WbKj3zV4Jno/hqdefault.jpg",
+      "https://i.ytimg.com/vi/_iNTHDSRQvM/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/39217773/39217773.82088901",
+      "https://i.ytimg.com/vi/0xE41TXbcbI/default.jpg",
+      "https://i.ytimg.com/vi/WbKj3zV4Jno/default.jpg",
+      "https://i.ytimg.com/vi/_iNTHDSRQvM/default.jpg"
+    ],
+    "publishDate": "2021-08-21T00:00:00Z",
+    "acceptedTitles": [
+      "マーシャル・マキシマイザー",
+      "Marshall Maximizer",
+      "마셜・맥시마이저",
+      "마셜 맥시마이저"
+    ],
+    "audioClip": "https://audio.sodapines.dev/348255.mp3"
+  },
+  {
+    "date": "2027-06-28",
+    "vocadbId": 349763,
+    "title": "Kyu-kurarin",
+    "artist": "iyowa",
+    "artistString": "iyowa feat. KAFU",
+    "vocadbName": "Kyu-kurarin",
+    "vocadbUrl": "https://vocadb.net/S/349763",
+    "coverArt": "https://i.ytimg.com/vi/2b1IexhKPz4/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/2b1IexhKPz4/default.jpg",
+      "https://i1.ytimg.com/vi/2b1IexhKPz4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/2b1IexhKPz4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/JMAJS_s99Ho/hqdefault.jpg",
+      "https://i.ytimg.com/vi/-DfBLgmC0Jw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/75hkKzWnOTc/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/39257413/39257413.83676498",
+      "https://i.ytimg.com/vi/JMAJS_s99Ho/default.jpg",
+      "https://i.ytimg.com/vi/-DfBLgmC0Jw/default.jpg",
+      "https://i.ytimg.com/vi/75hkKzWnOTc/default.jpg"
+    ],
+    "publishDate": "2021-08-29T00:00:00Z",
+    "acceptedTitles": [
+      "きゅうくらりん",
+      "Kyu-kurarin",
+      "Kyuukurarin",
+      "Light-headed, racing heart",
+      "Light-headed",
+      "두근어질"
+    ],
+    "audioClip": "https://audio.sodapines.dev/349763.mp3"
+  },
+  {
+    "date": "2027-06-29",
+    "vocadbId": 354245,
+    "title": "God-ish",
+    "artist": "PinocchioP",
+    "artistString": "PinocchioP feat. Hatsune Miku V4X (Dark)",
+    "vocadbName": "God-ish",
+    "vocadbUrl": "https://vocadb.net/S/354245",
+    "coverArt": "https://i.ytimg.com/vi/EHBFKhLUVig/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/EHBFKhLUVig/default.jpg",
+      "https://i1.ytimg.com/vi/EHBFKhLUVig/hqdefault.jpg",
+      "https://i.ytimg.com/vi/EHBFKhLUVig/hqdefault.jpg",
+      "https://i.ytimg.com/vi/52jGb13ZjBo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/d0RGKhjIygQ/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/39334235/39334235.93170934",
+      "https://i.ytimg.com/vi/52jGb13ZjBo/default.jpg",
+      "https://i1.hdslb.com/bfs/archive/27d1479ac09bc0ce6bd1cf1fc981fed509607784.jpg",
+      "https://i.ytimg.com/vi/d0RGKhjIygQ/default.jpg",
+      "https://i1.sndcdn.com/artworks-wuCoiroauaJsy72K-tUyGnA-original.jpg",
+      "https://f4.bcbits.com/img/a3441963810_5.jpg"
+    ],
+    "publishDate": "2021-09-17T00:00:00Z",
+    "acceptedTitles": [
+      "神っぽいな",
+      "God-ish",
+      "Kamippoi na",
+      "신 같네",
+      "像神一样呐 "
+    ],
+    "audioClip": "https://audio.sodapines.dev/354245.mp3"
+  },
+  {
+    "date": "2027-06-30",
+    "vocadbId": 363570,
+    "title": "apricot",
+    "artist": "iyowa",
+    "artistString": "iyowa feat. Hatsune Miku",
+    "vocadbName": "apricot",
+    "vocadbUrl": "https://vocadb.net/S/363570",
+    "coverArt": "https://i.ytimg.com/vi/_uMDEIPgmFI/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/_uMDEIPgmFI/default.jpg",
+      "https://i1.ytimg.com/vi/_uMDEIPgmFI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/_uMDEIPgmFI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/hHGvjY3UU6g/hqdefault.jpg",
+      "https://i.ytimg.com/vi/uvENh6I8mjc/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/39746081/39746081.11018771",
+      "https://i.ytimg.com/vi/hHGvjY3UU6g/default.jpg",
+      "https://i.ytimg.com/vi/uvENh6I8mjc/default.jpg"
+    ],
+    "publishDate": "2021-12-12T00:00:00Z",
+    "acceptedTitles": [
+      "アプリコット",
+      "apricot",
+      "애프리콧"
+    ],
+    "audioClip": "https://audio.sodapines.dev/363570.mp3"
+  },
+  {
+    "date": "2027-07-01",
+    "vocadbId": 363931,
+    "title": "My Love is Hellfire",
+    "artist": "SLAVE.V-V-R",
+    "artistString": "SLAVE.V-V-R feat. MEIKO V3 (Power), MEIKO V3 (English), MEIKO V3 (Whisper)",
+    "vocadbName": "My Love is Hellfire",
+    "vocadbUrl": "https://vocadb.net/S/363931",
+    "coverArt": "https://i.ytimg.com/vi/heTaHWABCOo/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/heTaHWABCOo/default.jpg",
+      "https://i1.ytimg.com/vi/heTaHWABCOo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/heTaHWABCOo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/JmlvuBobpxE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/k6UhttZ9ogc/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/39569392/39569392.56478383",
+      "https://i.ytimg.com/vi/JmlvuBobpxE/default.jpg",
+      "https://i.ytimg.com/vi/k6UhttZ9ogc/default.jpg",
+      "https://i0.hdslb.com/bfs/archive/aa4f68da80008eb241efc056686843045ece0697.jpg"
+    ],
+    "publishDate": "2021-11-02T00:00:00Z",
+    "acceptedTitles": [
+      "私の恋はヘルファイア",
+      "My Love is Hellfire",
+      "Watashi no Koi wa Hellfire",
+      "나의 사랑은 헬파이어"
+    ],
+    "audioClip": "https://audio.sodapines.dev/363931.mp3"
+  },
+  {
+    "date": "2027-07-02",
+    "vocadbId": 365108,
+    "title": "Lower one's eyes",
+    "artist": "nulut",
+    "artistString": "nulut feat. v4 flower",
+    "vocadbName": "Lower one's eyes",
+    "vocadbUrl": "https://vocadb.net/S/365108",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/39608927/39608927.7527358",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/39608927/39608927.7527358",
+      "https://i1.ytimg.com/vi/3sEptl-psU0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/3sEptl-psU0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/dWBYKVvgZ5s/hqdefault.jpg",
+      "https://i.ytimg.com/vi/gOkV2TQioTQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/SNAFSFerjko/hqdefault.jpg",
+      "https://i.ytimg.com/vi/3sEptl-psU0/default.jpg",
+      "https://i.ytimg.com/vi/dWBYKVvgZ5s/default.jpg",
+      "https://i1.hdslb.com/bfs/archive/d4a33930f3b998a54351f39f5e69f919fc08c6c4.jpg",
+      "https://i.ytimg.com/vi/gOkV2TQioTQ/default.jpg",
+      "https://i.ytimg.com/vi/SNAFSFerjko/default.jpg"
+    ],
+    "publishDate": "2021-10-31T00:00:00Z",
+    "acceptedTitles": [
+      "ロウワー",
+      "Lower one's eyes",
+      "Lower",
+      "로워"
+    ],
+    "audioClip": "https://audio.sodapines.dev/365108.mp3"
+  },
+  {
+    "date": "2027-07-03",
+    "vocadbId": 373776,
+    "title": "CH4NGE",
+    "artist": "Giga",
+    "artistString": "Giga feat. KAFU",
+    "vocadbName": "CH4NGE",
+    "vocadbUrl": "https://vocadb.net/S/373776",
+    "coverArt": "https://i.ytimg.com/vi/LbO4pg_LHUI/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/LbO4pg_LHUI/default.jpg",
+      "https://i1.ytimg.com/vi/LbO4pg_LHUI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/LbO4pg_LHUI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/nqYyOuYJPMI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/8-DikYiPNCE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/hBaO3ObMDpI/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/39804594/39804594.4127933",
+      "https://i.ytimg.com/vi/nqYyOuYJPMI/default.jpg",
+      "https://i.ytimg.com/vi/8-DikYiPNCE/default.jpg",
+      "https://i.ytimg.com/vi/hBaO3ObMDpI/default.jpg",
+      "https://i1.sndcdn.com/artworks-HlvsQcjJG3v1-0-t500x500.jpg"
+    ],
+    "publishDate": "2021-12-25T00:00:00Z",
+    "acceptedTitles": [
+      "CH4NGE",
+      "CHANGE"
+    ],
+    "audioClip": "https://audio.sodapines.dev/373776.mp3"
+  },
+  {
+    "date": "2027-07-04",
+    "vocadbId": 374132,
+    "title": "New Darling",
+    "artist": "MARETU",
+    "artistString": "MARETU feat. Hatsune Miku V4X (Original)",
+    "vocadbName": "New Darling",
+    "vocadbUrl": "https://vocadb.net/S/374132",
+    "coverArt": "https://i.ytimg.com/vi/nXNeufhq_nw/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/nXNeufhq_nw/default.jpg",
+      "https://i1.ytimg.com/vi/nXNeufhq_nw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/nXNeufhq_nw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/9LxlDjbvF6Q/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/39813844/39813844.45301250",
+      "https://i.ytimg.com/vi/9LxlDjbvF6Q/default.jpg"
+    ],
+    "publishDate": "2021-12-27T00:00:00Z",
+    "acceptedTitles": [
+      "ニューダーリン",
+      "New Darling",
+      "뉴 달링"
+    ],
+    "audioClip": "https://audio.sodapines.dev/374132.mp3"
+  },
+  {
+    "date": "2027-07-05",
+    "vocadbId": 376689,
+    "title": "Salamander",
+    "artist": "DECO*27",
+    "artistString": "DECO*27, Rockwell, OTOIRO feat. Hatsune Miku V4X (Original)",
+    "vocadbName": "Salamander",
+    "vocadbUrl": "https://vocadb.net/S/376689",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/39853779/39853779.47627592",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/39853779/39853779.47627592",
+      "https://i1.ytimg.com/vi/-H2PCK7DJsQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/-H2PCK7DJsQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/uIoowBAD-iA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/6gWg1I_Q3RI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/-H2PCK7DJsQ/default.jpg",
+      "https://i2.hdslb.com/bfs/archive/00127fc454fae7df8f527fb2d8bb5768aa2e90bb.jpg",
+      "https://i.ytimg.com/vi/uIoowBAD-iA/default.jpg",
+      "https://i.ytimg.com/vi/6gWg1I_Q3RI/default.jpg"
+    ],
+    "publishDate": "2022-01-07T00:00:00Z",
+    "acceptedTitles": [
+      "サラマンダー",
+      "Salamander",
+      "샐러맨더"
+    ],
+    "audioClip": "https://audio.sodapines.dev/376689.mp3"
+  },
+  {
+    "date": "2027-07-06",
+    "vocadbId": 377317,
+    "title": "Identity",
+    "artist": "Kanaria",
+    "artistString": "Kanaria feat. V3 GUMI (English), Hatsune Miku V4X (Dark)",
+    "vocadbName": "Identity",
+    "vocadbUrl": "https://vocadb.net/S/377317",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/39875801/39875801.31395219",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/39875801/39875801.31395219",
+      "https://i1.ytimg.com/vi/M9moY0hEJRE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/M9moY0hEJRE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ubhbXudgSPc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/5pGVb6L-gvE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/M9moY0hEJRE/default.jpg",
+      "https://i.ytimg.com/vi/ubhbXudgSPc/default.jpg",
+      "https://i.ytimg.com/vi/5pGVb6L-gvE/default.jpg"
+    ],
+    "publishDate": "2022-01-09T00:00:00Z",
+    "acceptedTitles": [
+      "アイデンティティ",
+      "Identity",
+      "아이덴티티"
+    ],
+    "audioClip": "https://audio.sodapines.dev/377317.mp3"
+  },
+  {
+    "date": "2027-07-07",
+    "vocadbId": 387848,
+    "title": "Magical Girl and Chocolate",
+    "artist": "PinocchioP",
+    "artistString": "PinocchioP feat. Hatsune Miku V4X (Dark)",
+    "vocadbName": "Magical Girl and Chocolate",
+    "vocadbUrl": "https://vocadb.net/S/387848",
+    "coverArt": "https://i.ytimg.com/vi/T2kS1gAbxhc/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/T2kS1gAbxhc/default.jpg",
+      "https://i1.ytimg.com/vi/T2kS1gAbxhc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/T2kS1gAbxhc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/TxznsM3BmTs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/NnrrmbpvmzE/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/40089113/40089113.40112647",
+      "https://i.ytimg.com/vi/TxznsM3BmTs/default.jpg",
+      "https://i0.hdslb.com/bfs/archive/379d132b8cc80e6b0787f6a3e6393696f7fd4607.jpg",
+      "https://i.ytimg.com/vi/NnrrmbpvmzE/default.jpg",
+      "https://f4.bcbits.com/img/a3441963810_5.jpg"
+    ],
+    "publishDate": "2022-02-25T00:00:00Z",
+    "acceptedTitles": [
+      "魔法少女とチョコレゐト",
+      "Magical Girl and Chocolate",
+      "Mahou Shoujo to Chocolate",
+      "마법소녀와 초콜릿"
+    ],
+    "audioClip": "https://audio.sodapines.dev/387848.mp3"
+  },
+  {
+    "date": "2027-07-08",
+    "vocadbId": 389724,
+    "title": "Scum of the Earth",
+    "artist": "NAKISO",
+    "artistString": "NAKISO feat. Kaai Yuki V4",
+    "vocadbName": "Scum of the Earth",
+    "vocadbUrl": "https://vocadb.net/S/389724",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/40132412/40132412.18901743",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/40132412/40132412.18901743",
+      "https://i1.ytimg.com/vi/5XehRIb81k8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/5XehRIb81k8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/eYL-1yKzG04/hqdefault.jpg",
+      "https://i.ytimg.com/vi/5XehRIb81k8/default.jpg",
+      "https://i.ytimg.com/vi/eYL-1yKzG04/default.jpg"
+    ],
+    "publishDate": "2022-03-05T00:00:00Z",
+    "acceptedTitles": [
+      "ド屑",
+      "Scum of the Earth",
+      "Dokuzu",
+      "DOKUZU",
+      "Scum",
+      "Scumbag"
+    ],
+    "audioClip": "https://audio.sodapines.dev/389724.mp3"
+  },
+  {
+    "date": "2027-07-09",
+    "vocadbId": 391129,
+    "title": "FUTURE EVE",
+    "artist": "sasakure.UK",
+    "artistString": "sasakure.UK, UK Rampage feat. Hatsune Miku V3 (Original), Hatsune Miku V3 (Sweet)",
+    "vocadbName": "FUTURE EVE",
+    "vocadbUrl": "https://vocadb.net/S/391129",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/40632249/40632249.3672661",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/40632249/40632249.3672661",
+      "https://i1.ytimg.com/vi/7j0mQH0BtEU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/7j0mQH0BtEU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/j8qFrOohvWg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/uOW7LBJbU_4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/7j0mQH0BtEU/default.jpg",
+      "https://i2.hdslb.com/bfs/archive/a2ab3a88d52d1f267ab925a2ff76679747638b96.jpg",
+      "https://i.ytimg.com/vi/j8qFrOohvWg/default.jpg",
+      "https://i.ytimg.com/vi/uOW7LBJbU_4/default.jpg"
+    ],
+    "publishDate": "2022-06-17T00:00:00Z",
+    "acceptedTitles": [
+      "フューチャー・イヴ",
+      "FUTURE EVE",
+      "퓨처 이브"
+    ],
+    "audioClip": "https://audio.sodapines.dev/391129.mp3"
+  },
+  {
+    "date": "2027-07-10",
+    "vocadbId": 392049,
+    "title": "Play With Fire",
+    "artist": "Camellia",
+    "artistString": "Camellia feat. Hatsune Miku V3 (Original)",
+    "vocadbName": "Play With Fire",
+    "vocadbUrl": "https://vocadb.net/S/392049",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/40160903/40160903.74398847",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/40160903/40160903.74398847",
+      "https://i1.ytimg.com/vi/od4QcDPpNVk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/od4QcDPpNVk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/FGQjL5tI1aU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/vN6LLFn5Vck/hqdefault.jpg",
+      "https://i.ytimg.com/vi/od4QcDPpNVk/default.jpg",
+      "https://i.ytimg.com/vi/FGQjL5tI1aU/default.jpg",
+      "https://i.ytimg.com/vi/vN6LLFn5Vck/default.jpg",
+      "https://f4.bcbits.com/img/a1663012649_5.jpg"
+    ],
+    "publishDate": "2022-03-13T00:00:00Z",
+    "acceptedTitles": [
+      "ヒアソビ",
+      "Play With Fire",
+      "Hiasobi",
+      "Play-With-Fire",
+      "불장난",
+      "玩火"
+    ],
+    "audioClip": "https://audio.sodapines.dev/392049.mp3"
+  },
+  {
+    "date": "2027-07-11",
+    "vocadbId": 396029,
+    "title": "Letter to the Black World",
+    "artist": "Frog96",
+    "artistString": "Frog96 feat. Kasane Teto",
+    "vocadbName": "Letter to the Black World",
+    "vocadbUrl": "https://vocadb.net/S/396029",
+    "coverArt": "https://i.ytimg.com/vi/8BekVGwSX3c/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/8BekVGwSX3c/default.jpg",
+      "https://i1.ytimg.com/vi/8BekVGwSX3c/hqdefault.jpg",
+      "https://i.ytimg.com/vi/8BekVGwSX3c/hqdefault.jpg",
+      "https://i.ytimg.com/vi/6NauPBGpA_8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/LAyBQiz6w7M/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/40256068/40256068.44407071",
+      "https://i.ytimg.com/vi/6NauPBGpA_8/default.jpg",
+      "https://i.ytimg.com/vi/LAyBQiz6w7M/default.jpg"
+    ],
+    "publishDate": "2022-03-31T00:00:00Z",
+    "acceptedTitles": [
+      "黒塗り世界宛て書簡",
+      "Letter to the Black World",
+      "Kuronuri Sekai Ate Shokan",
+      "검게 칠해진 세계에 보내는 편지",
+      "Carta al Mundo Negro"
+    ],
+    "audioClip": "https://audio.sodapines.dev/396029.mp3"
+  },
+  {
+    "date": "2027-07-12",
+    "vocadbId": 399069,
+    "title": "Datte",
+    "artist": "Yuyoyuppe",
+    "artistString": "Yuyoyuppe feat. Natsuki Karin",
+    "vocadbName": "Datte",
+    "vocadbUrl": "https://vocadb.net/S/399069",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/40304599/40304599.80232483",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/40304599/40304599.80232483",
+      "https://i1.ytimg.com/vi/0MKomCQ_KSA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/0MKomCQ_KSA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ttzjmv3qcl0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/0MKomCQ_KSA/default.jpg",
+      "https://i2.hdslb.com/bfs/archive/968a36859dc8abd2c39beb0d3e959ea2b3c6d30c.jpg",
+      "https://i.ytimg.com/vi/ttzjmv3qcl0/default.jpg",
+      "https://i1.sndcdn.com/artworks-Xpc6Hk4hkwVg-0-t500x500.jpg"
+    ],
+    "publishDate": "2022-04-12T00:00:00Z",
+    "acceptedTitles": [
+      "Datte",
+      "だって"
+    ],
+    "audioClip": "https://audio.sodapines.dev/399069.mp3"
+  },
+  {
+    "date": "2027-07-13",
+    "vocadbId": 401491,
+    "title": "At the Mercy",
+    "artist": "r-906",
+    "artistString": "r-906 feat. Hatsune Miku",
+    "vocadbName": "At the Mercy",
+    "vocadbUrl": "https://vocadb.net/S/401491",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/40349788/40349788.53373920",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/40349788/40349788.53373920",
+      "https://i1.ytimg.com/vi/9O2VyUM5MlQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/9O2VyUM5MlQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/uV4Wr7FneUQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/KOvOuMQbdQE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/9O2VyUM5MlQ/default.jpg",
+      "https://i.ytimg.com/vi/uV4Wr7FneUQ/default.jpg",
+      "https://i.ytimg.com/vi/KOvOuMQbdQE/default.jpg",
+      "https://i1.hdslb.com/bfs/archive/e401837da5857c73dd20cc47fbdd2536d64175c4.jpg"
+    ],
+    "publishDate": "2022-04-23T00:00:00Z",
+    "acceptedTitles": [
+      "まにまに",
+      "At the Mercy",
+      "Manimani",
+      "뜻대로"
+    ],
+    "audioClip": "https://audio.sodapines.dev/401491.mp3"
+  },
+  {
+    "date": "2027-07-14",
+    "vocadbId": 411304,
+    "title": "Reincarnation Apple",
+    "artist": "PinocchioP",
+    "artistString": "PinocchioP feat. Hatsune Miku V4X (Dark)",
+    "vocadbName": "Reincarnation Apple",
+    "vocadbUrl": "https://vocadb.net/S/411304",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/40554570/40554570.11898029",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/40554570/40554570.11898029",
+      "https://i1.ytimg.com/vi/LYWP8HtgeLQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/LYWP8HtgeLQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/9kUMm57Filk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/X2n-TqnqskM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/LYWP8HtgeLQ/default.jpg",
+      "https://i.ytimg.com/vi/9kUMm57Filk/default.jpg",
+      "https://i2.hdslb.com/bfs/archive/f663f121d01426c4883f6894ef09006b807e7707.jpg",
+      "https://i.ytimg.com/vi/X2n-TqnqskM/default.jpg",
+      "https://f4.bcbits.com/img/a3441963810_5.jpg"
+    ],
+    "publishDate": "2022-06-03T00:00:00Z",
+    "acceptedTitles": [
+      "転生林檎",
+      "Reincarnation Apple",
+      "Tensei Ringo",
+      "​轉生蘋果",
+      "환생사과"
+    ],
+    "audioClip": "https://audio.sodapines.dev/411304.mp3"
+  },
+  {
+    "date": "2027-07-15",
+    "vocadbId": 416174,
+    "title": "Bug",
+    "artist": "Kairiki bear",
+    "artistString": "Kairiki bear feat. Hatsune Miku",
+    "vocadbName": "Bug",
+    "vocadbUrl": "https://vocadb.net/S/416174",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/40676162/40676162.28733015",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/40676162/40676162.28733015",
+      "https://i1.ytimg.com/vi/FkO8ub83wss/hqdefault.jpg",
+      "https://i.ytimg.com/vi/FkO8ub83wss/hqdefault.jpg",
+      "https://i.ytimg.com/vi/_d5Ad9q8FrE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/FkO8ub83wss/default.jpg",
+      "https://i.ytimg.com/vi/_d5Ad9q8FrE/default.jpg"
+    ],
+    "publishDate": "2022-06-25T00:00:00Z",
+    "acceptedTitles": [
+      "バグ",
+      "Bug",
+      "BUG",
+      "버그"
+    ],
+    "audioClip": "https://audio.sodapines.dev/416174.mp3"
+  },
+  {
+    "date": "2027-07-16",
+    "vocadbId": 429733,
+    "title": "QUEEN",
+    "artist": "Kanaria",
+    "artistString": "Kanaria feat. V3 GUMI (English)",
+    "vocadbName": "QUEEN",
+    "vocadbUrl": "https://vocadb.net/S/429733",
+    "coverArt": "https://i.ytimg.com/vi/KFCaSz_yYCM/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/KFCaSz_yYCM/default.jpg",
+      "https://i1.ytimg.com/vi/KFCaSz_yYCM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/KFCaSz_yYCM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/7n0ugCW2_jM/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/40881707/40881707.27220799",
+      "https://i.ytimg.com/vi/7n0ugCW2_jM/default.jpg"
+    ],
+    "publishDate": "2022-08-06T00:00:00Z",
+    "acceptedTitles": [
+      "QUEEN"
+    ],
+    "audioClip": "https://audio.sodapines.dev/429733.mp3"
+  },
+  {
+    "date": "2027-07-17",
+    "vocadbId": 435103,
+    "title": "Pompous Business",
+    "artist": "syudou",
+    "artistString": "syudou feat. Hatsune Miku",
+    "vocadbName": "Pompous Business",
+    "vocadbUrl": "https://vocadb.net/S/435103",
+    "coverArt": "https://i.ytimg.com/vi/LDTL7Rpqqi8/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/LDTL7Rpqqi8/default.jpg",
+      "https://i1.ytimg.com/vi/LDTL7Rpqqi8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/0Z77lSWqots/hqdefault.jpg",
+      "https://i.ytimg.com/vi/LDTL7Rpqqi8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/KdrJeL67CQI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/0Z77lSWqots/default.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/45481059/45481059.26962708",
+      "https://i.ytimg.com/vi/KdrJeL67CQI/default.jpg"
+    ],
+    "publishDate": "2012-08-12T00:00:00Z",
+    "acceptedTitles": [
+      "気取屋商売",
+      "Pompous Business",
+      "Kidoriya Shoubai",
+      "The Business of Affectation"
+    ],
+    "audioClip": "https://audio.sodapines.dev/435103.mp3"
+  },
+  {
+    "date": "2027-07-18",
+    "vocadbId": 436989,
+    "title": "Stacy",
+    "artist": "Yamadakkk",
+    "artistString": "Yamadakkk feat. Hatsune Miku",
+    "vocadbName": "Stacy",
+    "vocadbUrl": "https://vocadb.net/S/436989",
+    "coverArt": "https://i.ytimg.com/vi/Rk_bBYoxnqM/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/Rk_bBYoxnqM/default.jpg",
+      "https://i1.ytimg.com/vi/Rk_bBYoxnqM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Rk_bBYoxnqM/hqdefault.jpg"
+    ],
+    "publishDate": "2009-09-03T00:00:00Z",
+    "acceptedTitles": [
+      "ステーシー",
+      "Stacy",
+      "스테이시"
+    ],
+    "audioClip": "https://audio.sodapines.dev/436989.mp3"
+  },
+  {
+    "date": "2027-07-19",
+    "vocadbId": 438639,
+    "title": "Subspace255",
+    "artist": "ex-Dr. WILLY",
+    "artistString": "ex-Dr. WILLY feat. Megurine Luka",
+    "vocadbName": "Subspace255",
+    "vocadbUrl": "https://vocadb.net/S/438639",
+    "coverArt": "https://i.ytimg.com/vi/sWq6TSrExfU/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/sWq6TSrExfU/default.jpg",
+      "https://i1.ytimg.com/vi/sWq6TSrExfU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/kk1kvyJc_xY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/sWq6TSrExfU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/W-_EcOln-b0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/kk1kvyJc_xY/default.jpg",
+      "https://i1.sndcdn.com/artworks-BMYuRw1WSgPxzbmc-fONYSg-original.jpg",
+      "https://i.ytimg.com/vi/W-_EcOln-b0/default.jpg"
+    ],
+    "publishDate": "2009-05-03T00:00:00Z",
+    "acceptedTitles": [
+      "亜空間255",
+      "Subspace255",
+      "Akuukan255",
+      "Akuukan Nigogo"
+    ],
+    "audioClip": "https://audio.sodapines.dev/438639.mp3"
+  },
+  {
+    "date": "2027-07-20",
+    "vocadbId": 440233,
+    "title": "Just Like Trivial Garbage",
+    "artist": "ex-Dr. WILLY",
+    "artistString": "ex-Dr. WILLY feat. Megurine Luka",
+    "vocadbName": "Just Like Trivial Garbage",
+    "vocadbUrl": "https://vocadb.net/S/440233",
+    "coverArt": "https://i.ytimg.com/vi/nYugCQlwy80/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/nYugCQlwy80/default.jpg",
+      "https://i1.ytimg.com/vi/nYugCQlwy80/hqdefault.jpg",
+      "https://i.ytimg.com/vi/nMy4gn4FBQM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/nYugCQlwy80/hqdefault.jpg",
+      "https://i.ytimg.com/vi/tIkdkgFa-Yc/hqdefault.jpg",
+      "https://i1.sndcdn.com/artworks-jkASb1vsyzy94gIi-mQWTKg-original.jpg",
+      "https://i1.sndcdn.com/artworks-MfkVE0RTN6FThdpB-6x1WvQ-original.jpg",
+      "https://i.ytimg.com/vi/nMy4gn4FBQM/default.jpg",
+      "https://i.ytimg.com/vi/tIkdkgFa-Yc/default.jpg"
+    ],
+    "publishDate": "2009-05-19T00:00:00Z",
+    "acceptedTitles": [
+      "まるで瑣末なゴミのよう",
+      "Just Like Trivial Garbage",
+      "Marude Samatsu na Gomi no You"
+    ],
+    "audioClip": "https://audio.sodapines.dev/440233.mp3"
+  },
+  {
+    "date": "2027-07-21",
+    "vocadbId": 443534,
+    "title": "Heat abnormal",
+    "artist": "iyowa",
+    "artistString": "iyowa feat. Adachi Rei",
+    "vocadbName": "Heat abnormal",
+    "vocadbUrl": "https://vocadb.net/S/443534",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/41193299/41193299.68161621",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/41193299/41193299.68161621",
+      "https://i1.ytimg.com/vi/b2NTglk9tvI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/b2NTglk9tvI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/8U5ivgnE5FQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/DySBODRQEuw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/M3we1RzoxaI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/b2NTglk9tvI/default.jpg",
+      "https://i.ytimg.com/vi/8U5ivgnE5FQ/default.jpg",
+      "https://i.ytimg.com/vi/DySBODRQEuw/default.jpg",
+      "https://i.ytimg.com/vi/M3we1RzoxaI/default.jpg"
+    ],
+    "publishDate": "2022-10-08T00:00:00Z",
+    "acceptedTitles": [
+      "熱異常",
+      "Heat abnormal",
+      "Netsu Ijou",
+      "Thermal Anomaly",
+      "열이상"
+    ],
+    "audioClip": "https://audio.sodapines.dev/443534.mp3"
+  },
+  {
+    "date": "2027-07-22",
+    "vocadbId": 444905,
+    "title": "ÅMARA (The Great Intelligence)",
+    "artist": "sasakure.UK",
+    "artistString": "sasakure.UK feat. Hatsune Miku, KAITO V3 (Soft)",
+    "vocadbName": "ÅMARA (The Great Intelligence)",
+    "vocadbUrl": "https://vocadb.net/S/444905",
+    "coverArt": "https://i.ytimg.com/vi/p6snD1650ck/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/p6snD1650ck/default.jpg",
+      "https://i1.ytimg.com/vi/p6snD1650ck/hqdefault.jpg",
+      "https://i.ytimg.com/vi/p6snD1650ck/hqdefault.jpg",
+      "https://i.ytimg.com/vi/cTE6-LhGWmY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/hC3VX6El2pQ/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/41214760/41214760.68676342",
+      "https://i.ytimg.com/vi/cTE6-LhGWmY/default.jpg",
+      "https://i0.hdslb.com/bfs/archive/67158855b730afae381fd974e9f76c625e4c46b5.jpg",
+      "https://i.ytimg.com/vi/hC3VX6El2pQ/default.jpg"
+    ],
+    "publishDate": "2022-10-11T00:00:00Z",
+    "acceptedTitles": [
+      "ÅMARA(大未来電脳)",
+      "ÅMARA (The Great Intelligence)",
+      "ÅMARA (Dai Mirai Dennou)",
+      "ÅMARA (大未来電脳)",
+      "AMARA(大未来電脳)",
+      "AMARA (大未来電脳)",
+      "AMARA (Dai Mirai Dennou)",
+      "AMARA (The Great Intelligence)",
+      "ÅMARA (Telecommunications of The Great Future)",
+      "AMARA (Telecommunications of The Great Future)",
+      "ÅMARA (The Cyberbrain of The Great Future)",
+      "AMARA (The Cyberbrain of The Great Future)"
+    ],
+    "audioClip": "https://audio.sodapines.dev/444905.mp3"
+  },
+  {
+    "date": "2027-07-23",
+    "vocadbId": 460547,
+    "title": "Psi",
+    "artist": "r-906",
+    "artistString": "r-906 feat. Hatsune Miku",
+    "vocadbName": "Psi",
+    "vocadbUrl": "https://vocadb.net/S/460547",
+    "coverArt": "https://i.ytimg.com/vi/efXqozK4A40/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/efXqozK4A40/default.jpg",
+      "https://i1.ytimg.com/vi/efXqozK4A40/hqdefault.jpg",
+      "https://i.ytimg.com/vi/efXqozK4A40/hqdefault.jpg",
+      "https://i.ytimg.com/vi/dEqrztHa0pA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/-7V6u_n6ryw/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/41564188/41564188.23807940",
+      "https://i1.hdslb.com/bfs/archive/9658512801b19f60f0974858d9cb89e93a36f48d.jpg",
+      "https://i.ytimg.com/vi/dEqrztHa0pA/default.jpg",
+      "https://i.ytimg.com/vi/-7V6u_n6ryw/default.jpg"
+    ],
+    "publishDate": "2022-12-22T00:00:00Z",
+    "acceptedTitles": [
+      "プシ",
+      "Psi",
+      "Ψ",
+      "프시"
+    ],
+    "audioClip": "https://audio.sodapines.dev/460547.mp3"
+  },
+  {
+    "date": "2027-07-24",
+    "vocadbId": 462289,
+    "title": "The Good Child and the Fox Spirit",
+    "artist": "Kikuo",
+    "artistString": "Kikuo feat. Qǐxuān",
+    "vocadbName": "The Good Child and the Fox Spirit",
+    "vocadbUrl": "https://vocadb.net/S/462289",
+    "coverArt": "https://i.ytimg.com/vi/uKbRXeJ9lv4/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/uKbRXeJ9lv4/default.jpg",
+      "https://i1.ytimg.com/vi/uKbRXeJ9lv4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/uKbRXeJ9lv4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/pUtsGAb5_Ik/hqdefault.jpg",
+      "https://i.ytimg.com/vi/SeKDeMVzXgE/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/41581419/41581419.64790012",
+      "https://i0.hdslb.com/bfs/archive/136c7e4f8d268748f95fe0cbcfbec61eea78a882.jpg",
+      "https://f4.bcbits.com/img/a1310860059_5.jpg",
+      "https://i.ytimg.com/vi/pUtsGAb5_Ik/default.jpg",
+      "https://i.ytimg.com/vi/SeKDeMVzXgE/default.jpg"
+    ],
+    "publishDate": "2022-12-31T00:00:00Z",
+    "acceptedTitles": [
+      "イイコと妖狐",
+      "The Good Child and the Fox Spirit",
+      "Ii Ko to Youko",
+      "Good kid and a fox spirit",
+      "착한 아이와 여우 요괴"
+    ],
+    "audioClip": "https://audio.sodapines.dev/462289.mp3"
+  },
+  {
+    "date": "2027-07-25",
+    "vocadbId": 467610,
+    "title": "(Not) A Devil",
+    "artist": "DECO*27",
+    "artistString": "Various artists",
+    "vocadbName": "(Not) A Devil",
+    "vocadbUrl": "https://vocadb.net/S/467610",
+    "coverArt": "https://i.ytimg.com/vi/lMEt3RdqB9Y/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/lMEt3RdqB9Y/default.jpg",
+      "https://i1.ytimg.com/vi/lMEt3RdqB9Y/hqdefault.jpg",
+      "https://i.ytimg.com/vi/lMEt3RdqB9Y/hqdefault.jpg",
+      "https://i.ytimg.com/vi/AFSlEd6Sp9o/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/41606052/41606052.7678420",
+      "https://i.ytimg.com/vi/AFSlEd6Sp9o/default.jpg"
+    ],
+    "publishDate": "2023-01-13T00:00:00Z",
+    "acceptedTitles": [
+      "デビルじゃないもん",
+      "(Not) A Devil",
+      "Devil ja Nai Mon",
+      "데빌이 아닌걸",
+      "才不是恶魔呢",
+      "Devil Janai Mon"
+    ],
+    "audioClip": "https://audio.sodapines.dev/467610.mp3"
+  },
+  {
+    "date": "2027-07-26",
+    "vocadbId": 474393,
+    "title": "Flowers Scattered by Winds",
+    "artist": "balloon",
+    "artistString": "balloon feat. Hatsune Miku",
+    "vocadbName": "Flowers Scattered by Winds",
+    "vocadbUrl": "https://vocadb.net/S/474393",
+    "coverArt": "https://i.ytimg.com/vi/ixLrlhthgHs/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/ixLrlhthgHs/default.jpg",
+      "https://i1.ytimg.com/vi/ixLrlhthgHs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ixLrlhthgHs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/rw2e0vpMw7E/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/41770519/41770519.21626769",
+      "https://i1.sndcdn.com/artworks-3oGMvmaesN23-0-original.jpg",
+      "https://i.ytimg.com/vi/rw2e0vpMw7E/default.jpg"
+    ],
+    "publishDate": "2023-02-10T00:00:00Z",
+    "acceptedTitles": [
+      "花に風",
+      "Flowers Scattered by Winds",
+      "Hana ni Kaze",
+      "Wind Over the Flower",
+      "Hananikaze",
+      "꽃에 바람"
+    ],
+    "audioClip": "https://audio.sodapines.dev/474393.mp3"
+  },
+  {
+    "date": "2027-07-27",
+    "vocadbId": 476100,
+    "title": "Anonymous M",
+    "artist": "PinocchioP",
+    "artistString": "PinocchioP feat. ARuFa, Hatsune Miku V4X (Unknown)",
+    "vocadbName": "Anonymous M",
+    "vocadbUrl": "https://vocadb.net/S/476100",
+    "coverArt": "https://i.ytimg.com/vi/yiqEEL7ac6M/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/yiqEEL7ac6M/default.jpg",
+      "https://i1.ytimg.com/vi/yiqEEL7ac6M/hqdefault.jpg",
+      "https://i.ytimg.com/vi/yiqEEL7ac6M/hqdefault.jpg",
+      "https://i.ytimg.com/vi/yM4HD6a-0w8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/5trk64f4FMU/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/41803605/41803605.11363833",
+      "https://i0.hdslb.com/bfs/archive/940b6e250e05cc87518faf397c19e5d248a807ad.jpg",
+      "https://i.ytimg.com/vi/yM4HD6a-0w8/default.jpg",
+      "https://i.ytimg.com/vi/5trk64f4FMU/default.jpg",
+      "https://f4.bcbits.com/img/a3441963810_5.jpg"
+    ],
+    "publishDate": "2023-02-17T00:00:00Z",
+    "acceptedTitles": [
+      "匿名M",
+      "Anonymous M",
+      "Tokumei M",
+      "익명M",
+      "المجهولة م",
+      "นิรนาม M",
+      "L’Anonyme M",
+      "Anonymes M",
+      "Anonimowa M",
+      "Anônima M",
+      "Анонимная М",
+      "Anónima M",
+      "Anonim M",
+      "Анонім «М»",
+      "M nặc danh"
+    ],
+    "audioClip": "https://audio.sodapines.dev/476100.mp3"
+  },
+  {
+    "date": "2027-07-28",
+    "vocadbId": 480295,
+    "title": "New Human Race",
+    "artist": "marasy",
+    "artistString": "Various artists",
+    "vocadbName": "New Human Race",
+    "vocadbUrl": "https://vocadb.net/S/480295",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/41943266/41943266.84593065",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/41943266/41943266.84593065",
+      "https://i1.ytimg.com/vi/rKdwNw-d3MQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/rKdwNw-d3MQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/35hSao0Bxi8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/cXQBBr-gZUg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/rKdwNw-d3MQ/default.jpg",
+      "https://i0.hdslb.com/bfs/archive/f75e4107f6c465b2a782234a68b071f042fb7864.jpg",
+      "https://i.ytimg.com/vi/35hSao0Bxi8/default.jpg",
+      "https://i.ytimg.com/vi/cXQBBr-gZUg/default.jpg"
+    ],
+    "publishDate": "2023-03-19T00:00:00Z",
+    "acceptedTitles": [
+      "新人類",
+      "New Human Race",
+      "Shinjinrui",
+      "しんじんるい",
+      "A New Human",
+      "신인류"
+    ],
+    "audioClip": "https://audio.sodapines.dev/480295.mp3"
+  },
+  {
+    "date": "2027-07-29",
+    "vocadbId": 482572,
+    "title": "Hair Swept Back By Gale-Force Winds",
+    "artist": "Yukopi",
+    "artistString": "Yukopi feat. Kaai Yuki",
+    "vocadbName": "Hair Swept Back By Gale-Force Winds",
+    "vocadbUrl": "https://vocadb.net/S/482572",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/41926207/41926207.95161718",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/41926207/41926207.95161718",
+      "https://i1.ytimg.com/vi/D6DVTLvOupE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/D6DVTLvOupE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/hUmfOCeyyik/hqdefault.jpg",
+      "https://i.ytimg.com/vi/D6DVTLvOupE/default.jpg",
+      "https://i.ytimg.com/vi/hUmfOCeyyik/default.jpg"
+    ],
+    "publishDate": "2023-03-15T00:00:00Z",
+    "acceptedTitles": [
+      "強風オールバック",
+      "Hair Swept Back By Gale-Force Winds",
+      "Kyoufuu All Back",
+      "Powerful Wind, Slicked-back Hair",
+      "强风大背头",
+      "Kyo-Fu All Back",
+      "강풍 올백"
+    ],
+    "audioClip": "https://audio.sodapines.dev/482572.mp3"
+  },
+  {
+    "date": "2027-07-30",
+    "vocadbId": 483357,
+    "title": "Moth",
+    "artist": "Utsu-P",
+    "artistString": "Utsu-P feat. Hatsune Miku V4X (Dark), Hatsune Miku V4 (English)",
+    "vocadbName": "Moth",
+    "vocadbUrl": "https://vocadb.net/S/483357",
+    "coverArt": "https://i.ytimg.com/vi/sja_sX0MXXg/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/sja_sX0MXXg/default.jpg",
+      "https://i1.ytimg.com/vi/sja_sX0MXXg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/sja_sX0MXXg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/zORuYPn6HQY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/dLx4gzk1a5U/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/41949707/41949707.65455718",
+      "https://i1.hdslb.com/bfs/archive/bd324cf91076e5c46d56f85cbba216bef3b70ed8.jpg",
+      "https://i.ytimg.com/vi/zORuYPn6HQY/default.jpg",
+      "https://i.ytimg.com/vi/dLx4gzk1a5U/default.jpg",
+      "https://f4.bcbits.com/img/a3175409824_5.jpg"
+    ],
+    "publishDate": "2023-03-18T00:00:00Z",
+    "acceptedTitles": [
+      "ガ",
+      "Moth",
+      "Ga",
+      "가"
+    ],
+    "audioClip": "https://audio.sodapines.dev/483357.mp3"
+  },
+  {
+    "date": "2027-07-31",
+    "vocadbId": 483406,
+    "title": "A Thousand Light Years",
+    "artist": "iyowa",
+    "artistString": "iyowa feat. various",
+    "vocadbName": "A Thousand Light Years",
+    "vocadbUrl": "https://vocadb.net/S/483406",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/41951611/41951611.65711710",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/41951611/41951611.65711710",
+      "https://i1.ytimg.com/vi/uB_jQ8H2Yeg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/uB_jQ8H2Yeg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/__OjRn6YENs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/JsCTsSlFxcU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/kCEfhQ_nXwo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/uB_jQ8H2Yeg/default.jpg",
+      "https://i.ytimg.com/vi/__OjRn6YENs/default.jpg",
+      "https://i.ytimg.com/vi/JsCTsSlFxcU/default.jpg",
+      "https://i.ytimg.com/vi/kCEfhQ_nXwo/default.jpg"
+    ],
+    "publishDate": "2023-03-19T00:00:00Z",
+    "acceptedTitles": [
+      "一千光年",
+      "A Thousand Light Years",
+      "Issen Kounen",
+      "KLY",
+      "일천광년"
+    ],
+    "audioClip": "https://audio.sodapines.dev/483406.mp3"
+  },
+  {
+    "date": "2027-08-01",
+    "vocadbId": 490444,
+    "title": "Samsa",
+    "artist": "Teniwoha",
+    "artistString": "Teniwoha feat. Hatsune Miku V4X (Original)",
+    "vocadbName": "Samsa",
+    "vocadbUrl": "https://vocadb.net/S/490444",
+    "coverArt": "https://i.ytimg.com/vi/q90SFMi8aUg/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/q90SFMi8aUg/default.jpg",
+      "https://i1.ytimg.com/vi/q90SFMi8aUg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/q90SFMi8aUg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/8BQqO_1nl24/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/42047041/42047041.80710657",
+      "https://i.ytimg.com/vi/8BQqO_1nl24/default.jpg"
+    ],
+    "publishDate": "2023-04-06T00:00:00Z",
+    "acceptedTitles": [
+      "ザムザ",
+      "Samsa",
+      "잠자"
+    ],
+    "audioClip": "https://audio.sodapines.dev/490444.mp3"
+  },
+  {
+    "date": "2027-08-02",
+    "vocadbId": 494418,
+    "title": "Better Off Worse",
+    "artist": "CircusP",
+    "artistString": "CircusP feat. v4 flower",
+    "vocadbName": "Better Off Worse",
+    "vocadbUrl": "https://vocadb.net/S/494418",
+    "coverArt": "https://i.ytimg.com/vi/nrsr_-QXCv4/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/nrsr_-QXCv4/default.jpg",
+      "https://i1.ytimg.com/vi/nrsr_-QXCv4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/nrsr_-QXCv4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/GFLEvp2bsvs/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/42209181/42209181.69185509",
+      "https://i0.hdslb.com/bfs/archive/95da43ecffa4a68dfab4d5e6cbc0cd114f99e306.jpg",
+      "https://i.ytimg.com/vi/GFLEvp2bsvs/default.jpg",
+      "https://f4.bcbits.com/img/a3978317241_5.jpg",
+      "https://i1.sndcdn.com/artworks-WWOBhMrzparj8zyn-pIqHsw-large.jpg"
+    ],
+    "publishDate": "2023-05-12T00:00:00Z",
+    "acceptedTitles": [
+      "Better Off Worse"
+    ],
+    "audioClip": "https://audio.sodapines.dev/494418.mp3"
+  },
+  {
+    "date": "2027-08-03",
+    "vocadbId": 500519,
+    "title": "Rabbit Hole",
+    "artist": "DECO*27",
+    "artistString": "DECO*27, tepe, OTOIRO feat. Hatsune Miku",
+    "vocadbName": "Rabbit Hole",
+    "vocadbUrl": "https://vocadb.net/S/500519",
+    "coverArt": "https://i.ytimg.com/vi/eSW2LVbPThw/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/eSW2LVbPThw/default.jpg",
+      "https://i1.ytimg.com/vi/eSW2LVbPThw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/eSW2LVbPThw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/MTXs3LIAE24/hqdefault.jpg",
+      "https://i.ytimg.com/vi/7zA4QunlGYg/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/42224358/42224358.70397019",
+      "https://i1.hdslb.com/bfs/archive/93c3134fa63032a667b7e43279f9b0a616454fed.jpg",
+      "https://i.ytimg.com/vi/MTXs3LIAE24/default.jpg",
+      "https://i.ytimg.com/vi/7zA4QunlGYg/default.jpg"
+    ],
+    "publishDate": "2023-05-19T00:00:00Z",
+    "acceptedTitles": [
+      "ラビットホール",
+      "Rabbit Hole"
+    ],
+    "audioClip": "https://audio.sodapines.dev/500519.mp3"
+  },
+  {
+    "date": "2027-08-04",
+    "vocadbId": 506793,
+    "title": "Liar Dancer",
+    "artist": "Masarada",
+    "artistString": "Masarada feat. Kasane Teto SV",
+    "vocadbName": "Liar Dancer",
+    "vocadbUrl": "https://vocadb.net/S/506793",
+    "coverArt": "https://i.ytimg.com/vi/UHbmkxv-874/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/UHbmkxv-874/default.jpg",
+      "https://i1.ytimg.com/vi/UHbmkxv-874/hqdefault.jpg",
+      "https://i.ytimg.com/vi/UHbmkxv-874/hqdefault.jpg",
+      "https://i.ytimg.com/vi/jblCQkH1lA4/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/42356352/42356352.91859651",
+      "https://i.ytimg.com/vi/jblCQkH1lA4/default.jpg",
+      "https://i2.hdslb.com/bfs/archive/c3302c9bab99a0d916db97d9de82828ea36372e6.jpg"
+    ],
+    "publishDate": "2023-06-15T00:00:00Z",
+    "acceptedTitles": [
+      "ライアーダンサー",
+      "Liar Dancer",
+      "라이어 댄서",
+      "谎言舞者"
+    ],
+    "audioClip": "https://audio.sodapines.dev/506793.mp3"
+  },
+  {
+    "date": "2027-08-05",
+    "vocadbId": 516664,
+    "title": "Even Though I Loved You",
+    "artist": "MARETU",
+    "artistString": "MARETU feat. Hatsune Miku V4X (Soft), Hatsune Miku V4X (Sweet)",
+    "vocadbName": "Even Though I Loved You",
+    "vocadbUrl": "https://vocadb.net/S/516664",
+    "coverArt": "https://i.ytimg.com/vi/R_g0M5Zmqhg/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/R_g0M5Zmqhg/default.jpg",
+      "https://i1.ytimg.com/vi/R_g0M5Zmqhg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/R_g0M5Zmqhg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/jCLiAvUKEyE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/bTiPATKqf-w/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/42540632/42540632.60869879",
+      "https://i.ytimg.com/vi/jCLiAvUKEyE/default.jpg",
+      "https://i.ytimg.com/vi/bTiPATKqf-w/default.jpg"
+    ],
+    "publishDate": "2023-07-28T00:00:00Z",
+    "acceptedTitles": [
+      "あいしていたのに",
+      "Even Though I Loved You",
+      "Aishite ita no ni",
+      "I Loved You",
+      "Even Though I Had Loved You",
+      "사랑하고 있었는데",
+      "aishiteitanoni"
+    ],
+    "audioClip": "https://audio.sodapines.dev/516664.mp3"
+  },
+  {
+    "date": "2027-08-06",
+    "vocadbId": 518922,
+    "title": "Relay Outer",
+    "artist": "inabakumori",
+    "artistString": "inabakumori feat. Kaai Yuki",
+    "vocadbName": "Relay Outer",
+    "vocadbUrl": "https://vocadb.net/S/518922",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/42576236/42576236.50709029",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/42576236/42576236.50709029",
+      "https://i1.ytimg.com/vi/b56xjtP6Qac/hqdefault.jpg",
+      "https://i.ytimg.com/vi/QO7qKdxmY6E/hqdefault.jpg",
+      "https://i.ytimg.com/vi/b56xjtP6Qac/hqdefault.jpg",
+      "https://i.ytimg.com/vi/76HGgKXBjIs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/QO7qKdxmY6E/default.jpg",
+      "https://i.ytimg.com/vi/b56xjtP6Qac/default.jpg",
+      "https://i1.hdslb.com/bfs/archive/49d95a51c22ac9416270a0d52df6f466148edf9b.jpg",
+      "https://i.ytimg.com/vi/76HGgKXBjIs/default.jpg"
+    ],
+    "publishDate": "2023-08-05T00:00:00Z",
+    "acceptedTitles": [
+      "リレイアウター",
+      "Relay Outer",
+      "Relayouter",
+      "릴레이 아우터"
+    ],
+    "audioClip": "https://audio.sodapines.dev/518922.mp3"
+  },
+  {
+    "date": "2027-08-07",
+    "vocadbId": 520007,
+    "title": "Humaniac",
+    "artist": "Sasuke Haraguchi",
+    "artistString": "Sasuke Haraguchi feat. Kasane Teto",
+    "vocadbName": "Humaniac",
+    "vocadbUrl": "https://vocadb.net/S/520007",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/42585649/42585649.26980841",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/42585649/42585649.26980841",
+      "https://i1.ytimg.com/vi/HTxwOxFt5d4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/HTxwOxFt5d4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/L_5XcE4LrYs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/HTxwOxFt5d4/default.jpg",
+      "https://i.ytimg.com/vi/L_5XcE4LrYs/default.jpg",
+      "https://i2.hdslb.com/bfs/archive/f107f4267f1ff8cddac194a8f492d411516d206a.jpg"
+    ],
+    "publishDate": "2023-08-06T00:00:00Z",
+    "acceptedTitles": [
+      "人マニア",
+      "Humaniac",
+      "HITO Mania",
+      "Human Enthusiast",
+      "Man Maniac",
+      "Human Mania",
+      "Human Maniac",
+      "Hitomania"
+    ],
+    "audioClip": "https://audio.sodapines.dev/520007.mp3"
+  },
+  {
+    "date": "2027-08-08",
+    "vocadbId": 520602,
+    "title": "Tiny Me",
+    "artist": "Masarada",
+    "artistString": "Masarada feat. Kasane Teto SV",
+    "vocadbName": "Tiny Me",
+    "vocadbUrl": "https://vocadb.net/S/520602",
+    "coverArt": "https://i.ytimg.com/vi/4aFC2oC-wHA/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/4aFC2oC-wHA/default.jpg",
+      "https://i1.ytimg.com/vi/4aFC2oC-wHA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/4aFC2oC-wHA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/WrAou1idF5A/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/42595400/42595400.50858449",
+      "https://i0.hdslb.com/bfs/archive/3b997ab76b99a71344a6f596b7feabd11b1246c8.jpg",
+      "https://i.ytimg.com/vi/WrAou1idF5A/default.jpg"
+    ],
+    "publishDate": "2023-08-08T00:00:00Z",
+    "acceptedTitles": [
+      "ちっちゃな私",
+      "Tiny Me",
+      "Chiccha na Watashi",
+      "Teensy Little Me",
+      "자그마한 나",
+      "小小的我"
+    ],
+    "audioClip": "https://audio.sodapines.dev/520602.mp3"
+  },
+  {
+    "date": "2027-08-09",
+    "vocadbId": 525760,
+    "title": "Chaos Boogie",
+    "artist": "jon-YAKITORY",
+    "artistString": "jon-YAKITORY feat. Hatsune Miku V4X (Original)",
+    "vocadbName": "Chaos Boogie",
+    "vocadbUrl": "https://vocadb.net/S/525760",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/42682989/42682989.91726213",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/42682989/42682989.91726213",
+      "https://i1.ytimg.com/vi/1Swg-aBO9eY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/1Swg-aBO9eY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/U9-O1t1UPJs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/7rEsCDgi9Kk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/1Swg-aBO9eY/default.jpg",
+      "https://i1.hdslb.com/bfs/archive/0608a964eeecc8ad0889414fbe6792ef85b256d7.jpg",
+      "https://i.ytimg.com/vi/U9-O1t1UPJs/default.jpg",
+      "https://i.ytimg.com/vi/7rEsCDgi9Kk/default.jpg"
+    ],
+    "publishDate": "2023-08-29T00:00:00Z",
+    "acceptedTitles": [
+      "混沌ブギ",
+      "Chaos Boogie",
+      "Konton Boogie"
+    ],
+    "audioClip": "https://audio.sodapines.dev/525760.mp3"
+  },
+  {
+    "date": "2027-08-10",
+    "vocadbId": 534385,
+    "title": "Electrical Forecast",
+    "artist": "inabakumori",
+    "artistString": "inabakumori feat. Hatsune Miku, Hatsune Miku Append (Soft)",
+    "vocadbName": "Electrical Forecast",
+    "vocadbUrl": "https://vocadb.net/S/534385",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/43089818/43089818.7953470",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/43089818/43089818.7953470",
+      "https://i1.ytimg.com/vi/Imcr7rsBxsc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Imcr7rsBxsc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/QBQEZnxUlQw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Imcr7rsBxsc/default.jpg",
+      "https://i.ytimg.com/vi/QBQEZnxUlQw/default.jpg"
+    ],
+    "publishDate": "2023-10-06T00:00:00Z",
+    "acceptedTitles": [
+      "電気予報",
+      "Electrical Forecast",
+      "Denki Yohou",
+      "Electricity Forecast",
+      "전기예보"
+    ],
+    "audioClip": "https://audio.sodapines.dev/534385.mp3"
+  },
+  {
+    "date": "2027-08-11",
+    "vocadbId": 540085,
+    "title": "M@GICAL☆CURE! LOVE ♥ SHOT!",
+    "artist": "SAWTOWNE",
+    "artistString": "SAWTOWNE feat. Hatsune Miku V4 (English)",
+    "vocadbName": "M@GICAL☆CURE! LOVE ♥ SHOT!",
+    "vocadbUrl": "https://vocadb.net/S/540085",
+    "coverArt": "https://i.ytimg.com/vi/GiyUwuieWjo/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/GiyUwuieWjo/default.jpg",
+      "https://i1.ytimg.com/vi/GiyUwuieWjo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/GiyUwuieWjo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/17JZKJlx5uI/hqdefault.jpg",
+      "https://i1.sndcdn.com/artworks-52iJLKyGg3vHizyg-xZdVOQ-large.jpg",
+      "https://i.ytimg.com/vi/17JZKJlx5uI/default.jpg",
+      "https://f4.bcbits.com/img/a0461278564_5.jpg"
+    ],
+    "publishDate": "2023-10-25T00:00:00Z",
+    "acceptedTitles": [
+      "M@GICAL☆CURE! LOVE ♥ SHOT!",
+      "MAGICAL☆CURE! LOVE ♥ SHOT!"
+    ],
+    "audioClip": "https://audio.sodapines.dev/540085.mp3"
+  },
+  {
+    "date": "2027-08-12",
+    "vocadbId": 557307,
+    "title": "Override",
+    "artist": "Yoshida Yasei",
+    "artistString": "Yoshida Yasei feat. Kasane Teto SV",
+    "vocadbName": "Override",
+    "vocadbUrl": "https://vocadb.net/S/557307",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/43083649/43083649.94186123",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/43083649/43083649.94186123",
+      "https://i1.ytimg.com/vi/LLjfal8jCYI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/LLjfal8jCYI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/5ic1N2bBRkM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/LLjfal8jCYI/default.jpg",
+      "https://i.ytimg.com/vi/5ic1N2bBRkM/default.jpg",
+      "https://i0.hdslb.com/bfs/archive/a4b84f501deccba991223452ab278391191d55c1.jpg"
+    ],
+    "publishDate": "2023-11-29T00:00:00Z",
+    "acceptedTitles": [
+      "オーバーライド",
+      "Override",
+      "오버라이드"
+    ],
+    "audioClip": "https://audio.sodapines.dev/557307.mp3"
+  },
+  {
+    "date": "2027-08-13",
+    "vocadbId": 571496,
+    "title": "Beyond the way",
+    "artist": "Giga",
+    "artistString": "Giga feat. various",
+    "vocadbName": "Beyond the way",
+    "vocadbUrl": "https://vocadb.net/S/571496",
+    "coverArt": "https://i.ytimg.com/vi/SJcgOWsDwi4/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/SJcgOWsDwi4/default.jpg",
+      "https://i1.ytimg.com/vi/SJcgOWsDwi4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/SJcgOWsDwi4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Bxr9bxikHcU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Bxr9bxikHcU/default.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/43244916/43244916.52394234"
+    ],
+    "publishDate": "2024-01-06T00:00:00Z",
+    "acceptedTitles": [
+      "Beyond the way"
+    ],
+    "audioClip": "https://audio.sodapines.dev/571496.mp3"
+  },
+  {
+    "date": "2027-08-14",
+    "vocadbId": 578841,
+    "title": "Isn't it \"A\"",
+    "artist": "PinocchioP",
+    "artistString": "PinocchioP feat. Hatsune Miku V4X (Dark), Kagamine Rin V4X (Warm)",
+    "vocadbName": "Isn't it \"A\"",
+    "vocadbUrl": "https://vocadb.net/S/578841",
+    "coverArt": "https://i.ytimg.com/vi/LUch7N9Gw28/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/LUch7N9Gw28/default.jpg",
+      "https://i1.ytimg.com/vi/LUch7N9Gw28/hqdefault.jpg",
+      "https://i.ytimg.com/vi/LUch7N9Gw28/hqdefault.jpg",
+      "https://i.ytimg.com/vi/eggBwREXhIM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/HLoR_lHiy6M/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/43297412/43297412.73300562",
+      "https://i0.hdslb.com/bfs/archive/ab52fdcb12d90121434016dbe6489860a2cfcce3.jpg",
+      "https://i.ytimg.com/vi/eggBwREXhIM/default.jpg",
+      "https://i.ytimg.com/vi/HLoR_lHiy6M/default.jpg"
+    ],
+    "publishDate": "2024-01-26T00:00:00Z",
+    "acceptedTitles": [
+      "Aじゃないか",
+      "Isn't it \"A\"",
+      "A ja Nai ka",
+      "A Janai ka",
+      "A이지 않은가"
+    ],
+    "audioClip": "https://audio.sodapines.dev/578841.mp3"
+  },
+  {
+    "date": "2027-08-15",
+    "vocadbId": 588674,
+    "title": "B-B-B Y I K E S!!!",
+    "artist": "SatapanP",
+    "artistString": "SatapanP feat. Hatsune Miku, Kasane Teto SV, Zundamon",
+    "vocadbName": "B-B-B Y I K E S!!!",
+    "vocadbUrl": "https://vocadb.net/S/588674",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/43305065/43305065.30811248",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/43305065/43305065.30811248",
+      "https://i1.ytimg.com/vi/DDZtUUVJ0yc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/DDZtUUVJ0yc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/l3VpCFoUOko/hqdefault.jpg",
+      "https://i.ytimg.com/vi/DDZtUUVJ0yc/default.jpg",
+      "https://i.ytimg.com/vi/l3VpCFoUOko/default.jpg"
+    ],
+    "publishDate": "2024-02-22T00:00:00Z",
+    "acceptedTitles": [
+      "ヤババイナ",
+      "B-B-B Y I K E S!!!",
+      "YABABAINA",
+      "YIK-KES!!!",
+      "Yababaina"
+    ],
+    "audioClip": "https://audio.sodapines.dev/588674.mp3"
+  },
+  {
+    "date": "2027-08-16",
+    "vocadbId": 588814,
+    "title": "Medicine",
+    "artist": "Sasuke Haraguchi",
+    "artistString": "Sasuke Haraguchi feat. Kasane Teto",
+    "vocadbName": "Medicine",
+    "vocadbUrl": "https://vocadb.net/S/588814",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/43436193/43436193.24020685",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/43436193/43436193.24020685",
+      "https://i1.ytimg.com/vi/F38EuG2dAyM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/F38EuG2dAyM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/TK2V_GGjyWI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/F38EuG2dAyM/default.jpg",
+      "https://i.ytimg.com/vi/TK2V_GGjyWI/default.jpg",
+      "https://i1.hdslb.com/bfs/archive/1641dc9b1856dcc8bf4022c50bd6f3323a8a3c61.jpg"
+    ],
+    "publishDate": "2024-02-23T00:00:00Z",
+    "acceptedTitles": [
+      "イガク",
+      "Medicine",
+      "Igaku",
+      "Medical",
+      "의학"
+    ],
+    "audioClip": "https://audio.sodapines.dev/588814.mp3"
+  },
+  {
+    "date": "2027-08-17",
+    "vocadbId": 594927,
+    "title": "MELLOMELLOID",
+    "artist": "Kairiki bear",
+    "artistString": "Kairiki bear feat. Hatsune Miku",
+    "vocadbName": "MELLOMELLOID",
+    "vocadbUrl": "https://vocadb.net/S/594927",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/43461213/43461213.648419",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/43461213/43461213.648419",
+      "https://i1.ytimg.com/vi/TFpizvPDbec/hqdefault.jpg",
+      "https://i.ytimg.com/vi/TFpizvPDbec/hqdefault.jpg",
+      "https://i.ytimg.com/vi/2ENM9GVOuAI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ngsmGpKuI_4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/TFpizvPDbec/default.jpg",
+      "https://i.ytimg.com/vi/2ENM9GVOuAI/default.jpg",
+      "https://i.ytimg.com/vi/ngsmGpKuI_4/default.jpg"
+    ],
+    "publishDate": "2024-03-03T00:00:00Z",
+    "acceptedTitles": [
+      "メロメロイド",
+      "MELLOMELLOID",
+      "Meromeroid",
+      "Melomeloid",
+      "Attract-oid",
+      "헤롱헤롱로이드"
+    ],
+    "audioClip": "https://audio.sodapines.dev/594927.mp3"
+  },
+  {
+    "date": "2027-08-18",
+    "vocadbId": 603850,
+    "title": "M@GICAL☆CURE! LOVE ♥ SHOT! (Special Edition)",
+    "artist": "SAWTOWNE",
+    "artistString": "SAWTOWNE feat. Hatsune Miku V4 (English)",
+    "vocadbName": "M@GICAL☆CURE! LOVE ♥ SHOT! (Special Edition)",
+    "vocadbUrl": "https://vocadb.net/S/603850",
+    "coverArt": "https://i.ytimg.com/vi/LaEgpNBt-bQ/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/LaEgpNBt-bQ/default.jpg",
+      "https://i1.ytimg.com/vi/LaEgpNBt-bQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/LaEgpNBt-bQ/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/43654892/43654892.63468473"
+    ],
+    "publishDate": "2024-03-22T00:00:00Z",
+    "acceptedTitles": [
+      "M@GICAL☆CURE! LOVE ♥ SHOT! (Special Edition)",
+      "M@GICAL☆CURE! LOVE ♥ SHOT! (スペシャルエディション)",
+      "MAGICAL☆CURE! LOVE ♥ SHOT! (Special Edition)"
+    ],
+    "audioClip": "https://audio.sodapines.dev/603850.mp3"
+  },
+  {
+    "date": "2027-08-19",
+    "vocadbId": 604228,
+    "title": "Beautiful Flavor",
+    "artist": "MARETU",
+    "artistString": "MARETU feat. Hatsune Miku V4X (Original)",
+    "vocadbName": "Beautiful Flavor",
+    "vocadbUrl": "https://vocadb.net/S/604228",
+    "coverArt": "https://i.ytimg.com/vi/fGizrX4JjPg/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/fGizrX4JjPg/default.jpg",
+      "https://i1.ytimg.com/vi/fGizrX4JjPg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/fGizrX4JjPg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/_2ly7nbxGlI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/WbuPVokJOcU/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/43563374/43563374.80751094",
+      "https://i.ytimg.com/vi/_2ly7nbxGlI/default.jpg",
+      "https://i.ytimg.com/vi/WbuPVokJOcU/default.jpg",
+      "https://i1.sndcdn.com/artworks-q3gPtQjbvEy3s50a-wpbVGg-t500x500.jpg"
+    ],
+    "publishDate": "2024-03-23T00:00:00Z",
+    "acceptedTitles": [
+      "ビノミ",
+      "Beautiful Flavor",
+      "Binomi",
+      "Taste of Beautiful",
+      "Taste of Beauty",
+      "美之味",
+      "비노미",
+      "Sabor da Beleza"
+    ],
+    "audioClip": "https://audio.sodapines.dev/604228.mp3"
+  },
+  {
+    "date": "2027-08-20",
+    "vocadbId": 605339,
+    "title": "BUTCHER VANITY",
+    "artist": "Vane Lily",
+    "artistString": "Various artists",
+    "vocadbName": "BUTCHER VANITY",
+    "vocadbUrl": "https://vocadb.net/S/605339",
+    "coverArt": "https://i.ytimg.com/vi/vjBFftpQxxM/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/vjBFftpQxxM/default.jpg",
+      "https://i1.ytimg.com/vi/vjBFftpQxxM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/vjBFftpQxxM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/o4dxH06Jgp0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/R7E9Q_Ot9M8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/M5mIYZbYL_4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/WvHg7jSDN4A/hqdefault.jpg",
+      "https://f4.bcbits.com/img/a2947330942_5.jpg",
+      "https://i.ytimg.com/vi/o4dxH06Jgp0/default.jpg",
+      "https://i.ytimg.com/vi/R7E9Q_Ot9M8/default.jpg",
+      "https://f4.bcbits.com/img/a1190825594_5.jpg",
+      "https://i.ytimg.com/vi/M5mIYZbYL_4/default.jpg",
+      "https://i.ytimg.com/vi/WvHg7jSDN4A/default.jpg"
+    ],
+    "publishDate": "2024-03-28T00:00:00Z",
+    "acceptedTitles": [
+      "BUTCHER VANITY",
+      "^q^",
+      "虚荣屠夫"
+    ],
+    "audioClip": "https://audio.sodapines.dev/605339.mp3"
+  },
+  {
+    "date": "2027-08-21",
+    "vocadbId": 610187,
+    "title": "Mesmerizer",
+    "artist": "32ki",
+    "artistString": "32ki feat. Hatsune Miku V4X (Original), Kasane Teto SV",
+    "vocadbName": "Mesmerizer",
+    "vocadbUrl": "https://vocadb.net/S/610187",
+    "coverArt": "https://i.ytimg.com/vi/19y8YTbvri8/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/19y8YTbvri8/default.jpg",
+      "https://i1.ytimg.com/vi/19y8YTbvri8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/19y8YTbvri8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ibjWftkJrd4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/sVCcqC3M1H4/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/43708803/43708803.68284955",
+      "https://i0.hdslb.com/bfs/archive/c4496e1c95132a8dd859f9ad52d92a7e58efec75.jpg",
+      "https://i.ytimg.com/vi/ibjWftkJrd4/default.jpg",
+      "https://i1.sndcdn.com/artworks-gJfmS7kravcu3yGg-cOrLMg-original.jpg",
+      "https://i.ytimg.com/vi/sVCcqC3M1H4/default.jpg"
+    ],
+    "publishDate": "2024-04-27T00:00:00Z",
+    "acceptedTitles": [
+      "メズマライザー",
+      "Mesmerizer",
+      "Mesmeriser",
+      "메스머라이저",
+      "Mesmerizador",
+      "ผู้​ส​ะ​ก​ด​จิ​ต",
+      "فاتن"
+    ],
+    "audioClip": "https://audio.sodapines.dev/610187.mp3"
+  },
+  {
+    "date": "2027-08-22",
+    "vocadbId": 614867,
+    "title": "I'm the Rain",
+    "artist": "inabakumori",
+    "artistString": "inabakumori feat. Kaai Yuki",
+    "vocadbName": "I'm the Rain",
+    "vocadbUrl": "https://vocadb.net/S/614867",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/43679339/43679339.7261039",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/43679339/43679339.7261039",
+      "https://i1.ytimg.com/vi/EEk4JGzqoFg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/EEk4JGzqoFg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/-bdaKyHAnK8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/EEk4JGzqoFg/default.jpg",
+      "https://i1.hdslb.com/bfs/archive/3c9e5a95685493ce56ebbce4bf3d1375d016e014.jpg",
+      "https://i1.sndcdn.com/artworks-LqZpHCfn5pFL-0-original.jpg",
+      "https://i.ytimg.com/vi/-bdaKyHAnK8/default.jpg"
+    ],
+    "publishDate": "2024-04-19T00:00:00Z",
+    "acceptedTitles": [
+      "私は雨",
+      "I'm the Rain",
+      "Watashi wa Ame",
+      "I Am Rain",
+      "我是雨",
+      "나는 비"
+    ],
+    "audioClip": "https://audio.sodapines.dev/614867.mp3"
+  },
+  {
+    "date": "2027-08-23",
+    "vocadbId": 626191,
+    "title": "●utlaws",
+    "artist": "Masarada",
+    "artistString": "Masarada feat. Kasane Teto SV",
+    "vocadbName": "●utlaws",
+    "vocadbUrl": "https://vocadb.net/S/626191",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/43773753/43773753.17939958",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/43773753/43773753.17939958",
+      "https://i1.ytimg.com/vi/c5_0NPftdlY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/c5_0NPftdlY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/8y3oP_vST2s/hqdefault.jpg",
+      "https://i.ytimg.com/vi/c5_0NPftdlY/default.jpg",
+      "https://i.ytimg.com/vi/8y3oP_vST2s/default.jpg",
+      "https://i1.sndcdn.com/artworks-O7z8ZfDEbZ94N0sA-rlrLKQ-t500x500.jpg",
+      "https://i2.hdslb.com/bfs/archive/ae98ebc19d0bccf895912f68936373aaa3217e94.png",
+      "https://i2.hdslb.com/bfs/archive/c95dbfa3b78daaadd17d427a2681054faf53cf1c.jpg"
+    ],
+    "publishDate": "2024-05-11T00:00:00Z",
+    "acceptedTitles": [
+      "㋰責任集合体",
+      "●utlaws",
+      "Musekinin Shuugoutai",
+      "⬤utlaws",
+      "⓪ Responsibility Society",
+      "Outlaws",
+      "무책임집합체",
+      "(무)책임집합체",
+      "无责任集合体"
+    ],
+    "audioClip": "https://audio.sodapines.dev/626191.mp3"
+  },
+  {
+    "date": "2027-08-24",
+    "vocadbId": 642538,
+    "title": "Empurple",
+    "artist": "Harumaki Gohan",
+    "artistString": "Harumaki Gohan feat. Hatsune Miku",
+    "vocadbName": "Empurple",
+    "vocadbUrl": "https://vocadb.net/S/642538",
+    "coverArt": "https://i.ytimg.com/vi/InZ7GOU-CQ8/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/InZ7GOU-CQ8/default.jpg",
+      "https://i1.ytimg.com/vi/InZ7GOU-CQ8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/InZ7GOU-CQ8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/CXklm32DnK4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/OHhlvmqZ8Uw/hqdefault.jpg",
+      "https://i2.hdslb.com/bfs/archive/ca7dcd0ab2a71b172959b41c97a9c32d2148a956.jpg",
+      "https://i.ytimg.com/vi/CXklm32DnK4/default.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/44195185/44195185.23848231",
+      "https://i.ytimg.com/vi/OHhlvmqZ8Uw/default.jpg"
+    ],
+    "publishDate": "2024-06-21T00:00:00Z",
+    "acceptedTitles": [
+      "エンパープル",
+      "Empurple",
+      "엠퍼플"
+    ],
+    "audioClip": "https://audio.sodapines.dev/642538.mp3"
+  },
+  {
+    "date": "2027-08-25",
+    "vocadbId": 642667,
+    "title": "Machine Love",
+    "artist": "Jamie Paige",
+    "artistString": "Jamie Paige feat. Kasane Teto SV",
+    "vocadbName": "Machine Love",
+    "vocadbUrl": "https://vocadb.net/S/642667",
+    "coverArt": "https://i.ytimg.com/vi/sqK-jh4TDXo/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/sqK-jh4TDXo/default.jpg",
+      "https://i1.ytimg.com/vi/sqK-jh4TDXo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/sqK-jh4TDXo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/mrLI2gw4Emo/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Ebrk8n8QYpc/hqdefault.jpg",
+      "https://f4.bcbits.com/img/a4213514692_5.jpg",
+      "https://i.ytimg.com/vi/mrLI2gw4Emo/default.jpg",
+      "https://i1.sndcdn.com/artworks-3hMIqavsYst5XQHe-DBQHgA-t500x500.jpg",
+      "https://f4.bcbits.com/img/a2695750060_5.jpg",
+      "https://i.ytimg.com/vi/Ebrk8n8QYpc/default.jpg"
+    ],
+    "publishDate": "2024-06-21T00:00:00Z",
+    "acceptedTitles": [
+      "Machine Love"
+    ],
+    "audioClip": "https://audio.sodapines.dev/642667.mp3"
+  },
+  {
+    "date": "2027-08-26",
+    "vocadbId": 663744,
+    "title": "weathergirl",
+    "artist": "rice",
+    "artistString": "Various artists",
+    "vocadbName": "weathergirl",
+    "vocadbUrl": "https://vocadb.net/S/663744",
+    "coverArt": "https://i.ytimg.com/vi/M7VSEZOQIlg/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/M7VSEZOQIlg/default.jpg",
+      "https://i1.ytimg.com/vi/M7VSEZOQIlg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/M7VSEZOQIlg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/C4gZWTeU6QQ/hqdefault.jpg",
+      "https://i.ytimg.com/vi/whSp6RSakn0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/o5CyWg-Wyng/hqdefault.jpg",
+      "https://f4.bcbits.com/img/a0688475279_5.jpg",
+      "https://i.ytimg.com/vi/C4gZWTeU6QQ/default.jpg",
+      "https://i.ytimg.com/vi/whSp6RSakn0/default.jpg",
+      "https://f4.bcbits.com/img/a2727240193_5.jpg",
+      "https://i.ytimg.com/vi/o5CyWg-Wyng/default.jpg"
+    ],
+    "publishDate": "2024-08-19T00:00:00Z",
+    "acceptedTitles": [
+      "weathergirl"
+    ],
+    "audioClip": "https://audio.sodapines.dev/663744.mp3"
+  },
+  {
+    "date": "2027-08-27",
+    "vocadbId": 668055,
+    "title": "Monitoring",
+    "artist": "DECO*27",
+    "artistString": "DECO*27, Hayato Yamamoto, OTOIRO feat. Hatsune Miku",
+    "vocadbName": "Monitoring",
+    "vocadbUrl": "https://vocadb.net/S/668055",
+    "coverArt": "https://i.ytimg.com/vi/kbNdx0yqbZE/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/kbNdx0yqbZE/default.jpg",
+      "https://i1.ytimg.com/vi/kbNdx0yqbZE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/kbNdx0yqbZE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/OjoLYGcbJcI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/76aPcVSadQU/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/44317852/44317852.3751477",
+      "https://i2.hdslb.com/bfs/archive/cb57a835ced66703577b203f8dff9075dc2bc95b.jpg",
+      "https://i.ytimg.com/vi/OjoLYGcbJcI/default.jpg",
+      "https://i.ytimg.com/vi/76aPcVSadQU/default.jpg"
+    ],
+    "publishDate": "2024-11-22T00:00:00Z",
+    "acceptedTitles": [
+      "モニタリング",
+      "Monitoring",
+      "모니터링"
+    ],
+    "audioClip": "https://audio.sodapines.dev/668055.mp3"
+  },
+  {
+    "date": "2027-08-28",
+    "vocadbId": 685575,
+    "title": "Monstrous Flower",
+    "artist": "NAKISO",
+    "artistString": "NAKISO feat. Hatsune Miku V3 (Soft)",
+    "vocadbName": "Monstrous Flower",
+    "vocadbUrl": "https://vocadb.net/S/685575",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/44233925/44233925.50703607",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/44233925/44233925.50703607",
+      "https://i1.ytimg.com/vi/jaSJ4t2ITW8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/jaSJ4t2ITW8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/6aXSLfLs67A/hqdefault.jpg",
+      "https://i.ytimg.com/vi/jaSJ4t2ITW8/default.jpg",
+      "https://i.ytimg.com/vi/6aXSLfLs67A/default.jpg"
+    ],
+    "publishDate": "2024-10-12T00:00:00Z",
+    "acceptedTitles": [
+      "化けの花",
+      "Monstrous Flower",
+      "BAKENOHANA",
+      "Bake no Hana",
+      "Disguised in Flowers",
+      "Flower of Transformation",
+      "Ghost Flower",
+      "둔갑의 꽃"
+    ],
+    "audioClip": "https://audio.sodapines.dev/685575.mp3"
+  },
+  {
+    "date": "2027-08-29",
+    "vocadbId": 687774,
+    "title": "WEIWARD ROMANCE",
+    "artist": "Vane Lily",
+    "artistString": "Various artists",
+    "vocadbName": "WEIWARD ROMANCE",
+    "vocadbUrl": "https://vocadb.net/S/687774",
+    "coverArt": "https://i.ytimg.com/vi/-eDYT_20YhM/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/-eDYT_20YhM/default.jpg",
+      "https://i1.ytimg.com/vi/-eDYT_20YhM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/-eDYT_20YhM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/GpBf5ZOUR_A/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Kk3iFcWmFc0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/msrfXj3xyXg/hqdefault.jpg",
+      "https://i.ytimg.com/vi/GpBf5ZOUR_A/default.jpg",
+      "https://f4.bcbits.com/img/a4207482158_5.jpg",
+      "https://i.ytimg.com/vi/Kk3iFcWmFc0/default.jpg",
+      "https://f4.bcbits.com/img/a1823898506_5.jpg",
+      "https://i.ytimg.com/vi/msrfXj3xyXg/default.jpg"
+    ],
+    "publishDate": "2024-10-19T00:00:00Z",
+    "acceptedTitles": [
+      "炜WARD ROMANCE",
+      "WEIWARD ROMANCE",
+      "WAYWARD ROMANCE",
+      "WĚIWARD ROMANCE"
+    ],
+    "audioClip": "https://audio.sodapines.dev/687774.mp3"
+  },
+  {
+    "date": "2027-08-30",
+    "vocadbId": 691882,
+    "title": "FUEL",
+    "artist": "Utsu-P",
+    "artistString": "Utsu-P feat. Hatsune Miku V4 (English)",
+    "vocadbName": "FUEL",
+    "vocadbUrl": "https://vocadb.net/S/691882",
+    "coverArt": "https://i.ytimg.com/vi/n9xeDxXE4Jc/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/n9xeDxXE4Jc/default.jpg",
+      "https://i1.ytimg.com/vi/n9xeDxXE4Jc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/n9xeDxXE4Jc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/7TXPs6LLiFE/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/44268146/44268146.89231289",
+      "https://i0.hdslb.com/bfs/archive/63b297be0944a33f8997e8c64f6c1d11a03b54b6.jpg",
+      "https://i.ytimg.com/vi/7TXPs6LLiFE/default.jpg"
+    ],
+    "publishDate": "2024-10-29T00:00:00Z",
+    "acceptedTitles": [
+      "フューエル",
+      "FUEL",
+      "퓨얼"
+    ],
+    "audioClip": "https://audio.sodapines.dev/691882.mp3"
+  },
+  {
+    "date": "2027-08-31",
+    "vocadbId": 696145,
+    "title": "Obsolete Meat",
+    "artist": "32ki",
+    "artistString": "32ki feat. Hatsune Miku V4X (Original), Kasane Teto SV",
+    "vocadbName": "Obsolete Meat",
+    "vocadbUrl": "https://vocadb.net/S/696145",
+    "coverArt": "https://nicovideo.cdn.nimg.jp/thumbnails/44267219/44267219.27393302",
+    "coverArts": [
+      "https://nicovideo.cdn.nimg.jp/thumbnails/44267219/44267219.27393302",
+      "https://i1.ytimg.com/vi/L2hzsXOT0Nc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/L2hzsXOT0Nc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/8KG8-qHuKe0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/FsDTnLxf_sA/hqdefault.jpg",
+      "https://i.ytimg.com/vi/L2hzsXOT0Nc/default.jpg",
+      "https://i1.hdslb.com/bfs/archive/6fd861b936705a9a46c7e36215d033060d4cceaa.jpg",
+      "https://i1.sndcdn.com/artworks-9AQ1pVNYn0x4nyae-3yl0SQ-large.png",
+      "https://i.ytimg.com/vi/8KG8-qHuKe0/default.jpg",
+      "https://i.ytimg.com/vi/FsDTnLxf_sA/default.jpg"
+    ],
+    "publishDate": "2024-11-08T00:00:00Z",
+    "acceptedTitles": [
+      "オブソミート",
+      "Obsolete Meat",
+      "Obsomeat",
+      "Obso-Meat",
+      "오래된 식사"
+    ],
+    "audioClip": "https://audio.sodapines.dev/696145.mp3"
+  },
+  {
+    "date": "2027-09-01",
+    "vocadbId": 696211,
+    "title": "A Spoonful of SPELL",
+    "artist": "r-906",
+    "artistString": "r-906 feat. Hatsune Miku V4X (Soft)",
+    "vocadbName": "A Spoonful of SPELL",
+    "vocadbUrl": "https://vocadb.net/S/696211",
+    "coverArt": "https://i.ytimg.com/vi/B6vKLsh09Qw/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/B6vKLsh09Qw/default.jpg",
+      "https://i1.ytimg.com/vi/B6vKLsh09Qw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/B6vKLsh09Qw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/m9yRj2vhR4k/hqdefault.jpg",
+      "https://i.ytimg.com/vi/fNvpNJRSZ8A/hqdefault.jpg",
+      "https://i.ytimg.com/vi/3EtQ1LIeKeA/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/44685408/44685408.61780438",
+      "https://i.ytimg.com/vi/m9yRj2vhR4k/default.jpg",
+      "https://i.ytimg.com/vi/fNvpNJRSZ8A/default.jpg",
+      "https://i.ytimg.com/vi/3EtQ1LIeKeA/default.jpg",
+      "https://i2.hdslb.com/bfs/archive/323fab57a5f5fd45e0dd8a204dab76037252c587.jpg"
+    ],
+    "publishDate": "2024-11-23T00:00:00Z",
+    "acceptedTitles": [
+      "匙ノ咒",
+      "A Spoonful of SPELL",
+      "Saji no Majinai",
+      "Spoon Spell",
+      "A Spoonful of Curse"
+    ],
+    "audioClip": "https://audio.sodapines.dev/696211.mp3"
+  },
+  {
+    "date": "2027-09-02",
+    "vocadbId": 696221,
+    "title": "Tetoris",
+    "artist": "Hiiragi Magnetite",
+    "artistString": "Hiiragi Magnetite feat. Kasane Teto SV",
+    "vocadbName": "Tetoris",
+    "vocadbUrl": "https://vocadb.net/S/696221",
+    "coverArt": "https://i.ytimg.com/vi/Soy4jGPHr3g/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/Soy4jGPHr3g/default.jpg",
+      "https://i1.ytimg.com/vi/Soy4jGPHr3g/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Soy4jGPHr3g/hqdefault.jpg",
+      "https://i.ytimg.com/vi/L2TrIJsTKHk/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/44301514/44301514.55424729",
+      "https://i1.hdslb.com/bfs/archive/3e804cd6f9d2b77a93aada8a64872158354c9d12.jpg",
+      "https://i.ytimg.com/vi/L2TrIJsTKHk/default.jpg"
+    ],
+    "publishDate": "2024-11-08T00:00:00Z",
+    "acceptedTitles": [
+      "テトリス",
+      "Tetoris",
+      "Tetris",
+      "테토리스"
+    ],
+    "audioClip": "https://audio.sodapines.dev/696221.mp3"
+  },
+  {
+    "date": "2027-09-03",
+    "vocadbId": 725359,
+    "title": "Water the Roses",
+    "artist": "CircusP",
+    "artistString": "Various artists",
+    "vocadbName": "Water the Roses",
+    "vocadbUrl": "https://vocadb.net/S/725359",
+    "coverArt": "https://i.ytimg.com/vi/NA3MJmcyPpE/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/NA3MJmcyPpE/default.jpg",
+      "https://i1.ytimg.com/vi/NA3MJmcyPpE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/NA3MJmcyPpE/hqdefault.jpg",
+      "https://i.ytimg.com/vi/3xca4lmYR6U/hqdefault.jpg",
+      "https://i.ytimg.com/vi/XIbsqjxAOr0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/8L9qCnWslK0/hqdefault.jpg",
+      "https://f4.bcbits.com/img/a0877139336_5.jpg",
+      "https://i.ytimg.com/vi/3xca4lmYR6U/default.jpg",
+      "https://i.ytimg.com/vi/XIbsqjxAOr0/default.jpg",
+      "https://f4.bcbits.com/img/a0256437221_5.jpg",
+      "https://i.ytimg.com/vi/8L9qCnWslK0/default.jpg"
+    ],
+    "publishDate": "2025-01-04T00:00:00Z",
+    "acceptedTitles": [
+      "Water the Roses"
+    ],
+    "audioClip": "https://audio.sodapines.dev/725359.mp3"
+  },
+  {
+    "date": "2027-09-04",
+    "vocadbId": 734953,
+    "title": "Confessions of a Rotten Girl",
+    "artist": "SAWTOWNE",
+    "artistString": "SAWTOWNE feat. Hatsune Miku V4 (English)",
+    "vocadbName": "Confessions of a Rotten Girl",
+    "vocadbUrl": "https://vocadb.net/S/734953",
+    "coverArt": "https://i.ytimg.com/vi/sV2H712ldOI/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/sV2H712ldOI/default.jpg",
+      "https://i1.ytimg.com/vi/sV2H712ldOI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/sV2H712ldOI/hqdefault.jpg",
+      "https://i.ytimg.com/vi/_JeLNAjjBHw/hqdefault.jpg",
+      "https://i.ytimg.com/vi/_JeLNAjjBHw/default.jpg",
+      "https://f4.bcbits.com/img/a1557483797_5.jpg",
+      "https://i1.hdslb.com/bfs/archive/79290d8fcd6ab8f9f839a328c7eefa28dbffe9a4.jpg"
+    ],
+    "publishDate": "2025-01-17T00:00:00Z",
+    "acceptedTitles": [
+      "Confessions of a Rotten Girl",
+      "腐女忏悔录"
+    ],
+    "audioClip": "https://audio.sodapines.dev/734953.mp3"
+  },
+  {
+    "date": "2027-09-05",
+    "vocadbId": 750840,
+    "title": "ELECTRIC WEEKEND ZONE",
+    "artist": "Jamie Paige",
+    "artistString": "Various artists",
+    "vocadbName": "ELECTRIC WEEKEND ZONE",
+    "vocadbUrl": "https://vocadb.net/S/750840",
+    "coverArt": "https://i.ytimg.com/vi/lOwCUMprBoY/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/lOwCUMprBoY/default.jpg",
+      "https://i1.ytimg.com/vi/lOwCUMprBoY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/lOwCUMprBoY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/XlZFX_EvUr8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/XlZFX_EvUr8/default.jpg",
+      "https://f4.bcbits.com/img/a3853276132_5.jpg"
+    ],
+    "publishDate": "2025-02-17T00:00:00Z",
+    "acceptedTitles": [
+      "ELECTRIC WEEKEND ZONE"
+    ],
+    "audioClip": "https://audio.sodapines.dev/750840.mp3"
+  },
+  {
+    "date": "2027-09-06",
+    "vocadbId": 752940,
+    "title": "Telepathy",
+    "artist": "DECO*27",
+    "artistString": "DECO*27, tepe, OTOIRO feat. Hatsune Miku V4X (Original)",
+    "vocadbName": "Telepathy",
+    "vocadbUrl": "https://vocadb.net/S/752940",
+    "coverArt": "https://i.ytimg.com/vi/c56TpxfO9q0/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/c56TpxfO9q0/default.jpg",
+      "https://i1.ytimg.com/vi/c56TpxfO9q0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/c56TpxfO9q0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/AVIo9K-DrcY/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/44661043/44661043.41405619",
+      "https://i1.hdslb.com/bfs/archive/02dae0d6f830ade998a29b3a567e0d8a7f158203.jpg",
+      "https://i.ytimg.com/vi/AVIo9K-DrcY/default.jpg"
+    ],
+    "publishDate": "2025-02-21T00:00:00Z",
+    "acceptedTitles": [
+      "テレパシ",
+      "Telepathy",
+      "텔레파시"
+    ],
+    "audioClip": "https://audio.sodapines.dev/752940.mp3"
+  },
+  {
+    "date": "2027-09-07",
+    "vocadbId": 773406,
+    "title": "Affection Addiction",
+    "artist": "KAT",
+    "artistString": "KAT, Aku P, ryutsu feat. POPY",
+    "vocadbName": "Affection Addiction",
+    "vocadbUrl": "https://vocadb.net/S/773406",
+    "coverArt": "https://i.ytimg.com/vi/UTcZHzDY3LU/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/UTcZHzDY3LU/default.jpg",
+      "https://i1.ytimg.com/vi/UTcZHzDY3LU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/UTcZHzDY3LU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/SQYo0wsYMnA/hqdefault.jpg",
+      "https://f4.bcbits.com/img/a0735763595_5.jpg",
+      "https://i.ytimg.com/vi/SQYo0wsYMnA/default.jpg",
+      "https://i1.sndcdn.com/artworks-a1LFiNdQUYXu0LGJ-XisOxg-t500x500.jpg"
+    ],
+    "publishDate": "2025-04-05T00:00:00Z",
+    "acceptedTitles": [
+      "Affection Addiction"
+    ],
+    "audioClip": "https://audio.sodapines.dev/773406.mp3"
+  },
+  {
+    "date": "2027-09-08",
+    "vocadbId": 793121,
+    "title": "Static",
+    "artist": "rice",
+    "artistString": "Various artists",
+    "vocadbName": "Static",
+    "vocadbUrl": "https://vocadb.net/S/793121",
+    "coverArt": "https://i.ytimg.com/vi/KlTNKOnfXFk/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/KlTNKOnfXFk/default.jpg",
+      "https://i1.ytimg.com/vi/KlTNKOnfXFk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/KlTNKOnfXFk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Qc8nkGIRft8/hqdefault.jpg",
+      "https://f4.bcbits.com/img/a3409995091_5.jpg",
+      "https://i.ytimg.com/vi/Qc8nkGIRft8/default.jpg"
+    ],
+    "publishDate": "2025-05-24T00:00:00Z",
+    "acceptedTitles": [
+      "Static",
+      "雪花屏",
+      "スタティック"
+    ],
+    "audioClip": "https://audio.sodapines.dev/793121.mp3"
+  },
+  {
+    "date": "2027-09-09",
+    "vocadbId": 805916,
+    "title": "BIRDBRAIN",
+    "artist": "Jamie Paige",
+    "artistString": "Jamie Paige, OK GLASS feat. Kasane Teto SV",
+    "vocadbName": "BIRDBRAIN",
+    "vocadbUrl": "https://vocadb.net/S/805916",
+    "coverArt": "https://i.ytimg.com/vi/0iVlSNpq8i8/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/0iVlSNpq8i8/default.jpg",
+      "https://i1.ytimg.com/vi/0iVlSNpq8i8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/0iVlSNpq8i8/hqdefault.jpg",
+      "https://i.ytimg.com/vi/dBLzh47wdrU/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Cn__J8t7agk/hqdefault.jpg",
+      "https://f4.bcbits.com/img/a2695750060_5.jpg",
+      "https://i.ytimg.com/vi/dBLzh47wdrU/default.jpg",
+      "https://i.ytimg.com/vi/Cn__J8t7agk/default.jpg"
+    ],
+    "publishDate": "2025-06-27T00:00:00Z",
+    "acceptedTitles": [
+      "BIRDBRAIN",
+      "トリアタマ",
+      "Toriatama",
+      "Birdbrain",
+      "バカ鳥",
+      "Bakadori",
+      "バカトリ",
+      "バードブレイン"
+    ],
+    "audioClip": "https://audio.sodapines.dev/805916.mp3"
+  },
+  {
+    "date": "2027-09-10",
+    "vocadbId": 807725,
+    "title": "Freesia",
+    "artist": "ex-Dr. WILLY",
+    "artistString": "ex-Dr. WILLY feat. Megurine Luka V4X (Hard)",
+    "vocadbName": "Freesia",
+    "vocadbUrl": "https://vocadb.net/S/807725",
+    "coverArt": "https://i.ytimg.com/vi/TdZNsRqM_cY/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/TdZNsRqM_cY/default.jpg",
+      "https://i1.ytimg.com/vi/TdZNsRqM_cY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/TdZNsRqM_cY/hqdefault.jpg",
+      "https://i.ytimg.com/vi/DOdp5A-XSlc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/DOdp5A-XSlc/default.jpg"
+    ],
+    "publishDate": "2025-07-03T00:00:00Z",
+    "acceptedTitles": [
+      "フリージア",
+      "Freesia"
+    ],
+    "audioClip": "https://audio.sodapines.dev/807725.mp3"
+  },
+  {
+    "date": "2027-09-11",
+    "vocadbId": 819926,
+    "title": "Retry Now",
+    "artist": "NAKISO",
+    "artistString": "NAKISO feat. Hatsune Miku V3 (Soft)",
+    "vocadbName": "Retry Now",
+    "vocadbUrl": "https://vocadb.net/S/819926",
+    "coverArt": "https://i.ytimg.com/vi/3iUgKH8c7p4/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/3iUgKH8c7p4/default.jpg",
+      "https://i1.ytimg.com/vi/3iUgKH8c7p4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/3iUgKH8c7p4/hqdefault.jpg",
+      "https://i.ytimg.com/vi/nqTmucJwa8g/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/45241713/45241713.81772729",
+      "https://i.ytimg.com/vi/nqTmucJwa8g/default.jpg"
+    ],
+    "publishDate": "2025-08-01T00:00:00Z",
+    "acceptedTitles": [
+      "いますぐ輪廻",
+      "Retry Now",
+      "Imasugu Rinne",
+      "Ima Sugu Rin'ne",
+      "Ima Sugu Rinne",
+      "立刻轮回",
+      "지금 바로 윤회",
+      "Ima Sugu Rin Ne"
+    ],
+    "audioClip": "https://audio.sodapines.dev/819926.mp3"
+  },
+  {
+    "date": "2027-09-12",
+    "vocadbId": 820162,
+    "title": "Spoken For",
+    "artist": "Jamie Paige",
+    "artistString": "Various artists",
+    "vocadbName": "Spoken For",
+    "vocadbUrl": "https://vocadb.net/S/820162",
+    "coverArt": "https://i.ytimg.com/vi/LvYL8u4p-aM/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/LvYL8u4p-aM/default.jpg",
+      "https://i1.ytimg.com/vi/LvYL8u4p-aM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/LvYL8u4p-aM/hqdefault.jpg",
+      "https://i.ytimg.com/vi/E3RiJGexoMo/hqdefault.jpg",
+      "https://f4.bcbits.com/img/a2264356507_5.jpg",
+      "https://i.ytimg.com/vi/E3RiJGexoMo/default.jpg"
+    ],
+    "publishDate": "2025-08-01T00:00:00Z",
+    "acceptedTitles": [
+      "Spoken For"
+    ],
+    "audioClip": "https://audio.sodapines.dev/820162.mp3"
+  },
+  {
+    "date": "2027-09-13",
+    "vocadbId": 846213,
+    "title": "Love Attribute",
+    "artist": "PinocchioP",
+    "artistString": "PinocchioP feat. Hatsune Miku V4X (Dark)",
+    "vocadbName": "Love Attribute",
+    "vocadbUrl": "https://vocadb.net/S/846213",
+    "coverArt": "https://i.ytimg.com/vi/Xx1TnVObQ0k/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/Xx1TnVObQ0k/default.jpg",
+      "https://i1.ytimg.com/vi/Xx1TnVObQ0k/hqdefault.jpg",
+      "https://i.ytimg.com/vi/Xx1TnVObQ0k/hqdefault.jpg",
+      "https://i.ytimg.com/vi/BQsr9x5lma0/hqdefault.jpg",
+      "https://i.ytimg.com/vi/2ZAMrJZzPSg/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/45467830/45467830.42672129",
+      "https://i2.hdslb.com/bfs/archive/56bafa53c974f4c60dc258dd42c8f1e9df278488.jpg",
+      "https://i.ytimg.com/vi/BQsr9x5lma0/default.jpg",
+      "https://i.ytimg.com/vi/2ZAMrJZzPSg/default.jpg"
+    ],
+    "publishDate": "2025-10-03T00:00:00Z",
+    "acceptedTitles": [
+      "愛属性",
+      "Love Attribute",
+      "Ai Zokusei",
+      "사랑 속성"
+    ],
+    "audioClip": "https://audio.sodapines.dev/846213.mp3"
+  },
+  {
+    "date": "2027-09-14",
+    "vocadbId": 848354,
+    "title": "Marshmallow",
+    "artist": "DECO*27",
+    "artistString": "DECO*27, Hayato Yamamoto, OTOIRO feat. Hatsune Miku",
+    "vocadbName": "Marshmallow",
+    "vocadbUrl": "https://vocadb.net/S/848354",
+    "coverArt": "https://i.ytimg.com/vi/ZIzEnTdR368/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/ZIzEnTdR368/default.jpg",
+      "https://i1.ytimg.com/vi/ZIzEnTdR368/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ZIzEnTdR368/hqdefault.jpg",
+      "https://i.ytimg.com/vi/xFK3bNHn4AQ/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/45426911/45426911.79837292",
+      "https://i1.hdslb.com/bfs/archive/709d1cd3f6fd765741e970739b927e985638f91d.jpg",
+      "https://i.ytimg.com/vi/xFK3bNHn4AQ/default.jpg"
+    ],
+    "publishDate": "2025-10-08T00:00:00Z",
+    "acceptedTitles": [
+      "マシュマロ",
+      "Marshmallow",
+      "마시멜로"
+    ],
+    "audioClip": "https://audio.sodapines.dev/848354.mp3"
+  },
+  {
+    "date": "2027-09-15",
+    "vocadbId": 869388,
+    "title": "Looping the Rooms",
+    "artist": "rusino",
+    "artistString": "rusino feat. Hatsune Miku V4X (Dark)",
+    "vocadbName": "Looping the Rooms",
+    "vocadbUrl": "https://vocadb.net/S/869388",
+    "coverArt": "https://i.ytimg.com/vi/icBDYkfxpMs/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/icBDYkfxpMs/default.jpg",
+      "https://i1.ytimg.com/vi/icBDYkfxpMs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/icBDYkfxpMs/hqdefault.jpg",
+      "https://i.ytimg.com/vi/ZiYcVhpV6oQ/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/45739389/45739389.91150782",
+      "https://i.ytimg.com/vi/ZiYcVhpV6oQ/default.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/45525873/45525873.62948037",
+      "https://i2.hdslb.com/bfs/archive/746172412ad257a3bd56953503529d1ef59bf611.jpg"
+    ],
+    "publishDate": "2025-11-21T00:00:00Z",
+    "acceptedTitles": [
+      "ループザルーム",
+      "Looping the Rooms",
+      "루프 더 룸",
+      "Atravessando os Quartos",
+      "Loop the Room"
+    ],
+    "audioClip": "https://audio.sodapines.dev/869388.mp3"
+  },
+  {
+    "date": "2027-09-16",
+    "vocadbId": 886353,
+    "title": "Human",
+    "artist": "Vane Lily",
+    "artistString": "Various artists",
+    "vocadbName": "Human",
+    "vocadbUrl": "https://vocadb.net/S/886353",
+    "coverArt": "https://i.ytimg.com/vi/hbuNxmAXdNk/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/hbuNxmAXdNk/default.jpg",
+      "https://i1.ytimg.com/vi/hbuNxmAXdNk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/hbuNxmAXdNk/hqdefault.jpg",
+      "https://i.ytimg.com/vi/IFlQe7idIVA/hqdefault.jpg",
+      "https://f4.bcbits.com/img/a3770995884_5.jpg",
+      "https://i.ytimg.com/vi/IFlQe7idIVA/default.jpg"
+    ],
+    "publishDate": "2025-12-19T00:00:00Z",
+    "acceptedTitles": [
+      "Human"
+    ],
+    "audioClip": "https://audio.sodapines.dev/886353.mp3"
+  },
+  {
+    "date": "2027-09-17",
+    "vocadbId": 891732,
+    "title": "Fascinator",
+    "artist": "MARETU",
+    "artistString": "MARETU feat. Hatsune Miku V4X (Original)",
+    "vocadbName": "Fascinator",
+    "vocadbUrl": "https://vocadb.net/S/891732",
+    "coverArt": "https://i.ytimg.com/vi/UShV3NXq00U/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/UShV3NXq00U/default.jpg",
+      "https://i1.ytimg.com/vi/UShV3NXq00U/hqdefault.jpg",
+      "https://i.ytimg.com/vi/UShV3NXq00U/hqdefault.jpg",
+      "https://i.ytimg.com/vi/sgYizEY3P1E/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/45782449/45782449.54823170",
+      "https://i.ytimg.com/vi/sgYizEY3P1E/default.jpg",
+      "https://i1.hdslb.com/bfs/archive/5b718d4ce17521df4aee5bee8fd3520afd1c7e40.jpg"
+    ],
+    "publishDate": "2025-12-30T00:00:00Z",
+    "acceptedTitles": [
+      "ファシネイター",
+      "Fascinator",
+      "패서네이터",
+      "施魅者"
+    ],
+    "audioClip": "https://audio.sodapines.dev/891732.mp3"
+  },
+  {
+    "date": "2027-09-18",
+    "vocadbId": 920553,
+    "title": "Ego Renegade Boy",
+    "artist": "Jamie Paige",
+    "artistString": "Various artists",
+    "vocadbName": "Ego Renegade Boy",
+    "vocadbUrl": "https://vocadb.net/S/920553",
+    "coverArt": "https://i.ytimg.com/vi/OSYmTw6_bjc/default.jpg",
+    "coverArts": [
+      "https://i.ytimg.com/vi/OSYmTw6_bjc/default.jpg",
+      "https://i1.ytimg.com/vi/OSYmTw6_bjc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/OSYmTw6_bjc/hqdefault.jpg",
+      "https://i.ytimg.com/vi/qdlD5a9umzg/hqdefault.jpg",
+      "https://nicovideo.cdn.nimg.jp/thumbnails/45975134/45975134.86589540",
+      "https://i.ytimg.com/vi/qdlD5a9umzg/default.jpg",
+      "https://f4.bcbits.com/img/a4169771518_5.jpg"
+    ],
+    "publishDate": "2026-02-21T00:00:00Z",
+    "acceptedTitles": [
+      "Ego Renegade Boy",
+      "自我反逆ボーイ",
+      "Jiga Hangyaku Boy"
+    ],
+    "audioClip": "https://audio.sodapines.dev/920553.mp3"
+  }
+];
