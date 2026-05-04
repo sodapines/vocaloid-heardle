@@ -740,3 +740,168 @@ button:disabled { opacity: 0.5; cursor: not-allowed; }
   .nnd-main { padding-right: 0; }
   .nnd-header-links { display: none; }
 }
+
+/* ── SETTINGS MODAL ── */
+.settings-list { display: grid; gap: 0; }
+
+.settings-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--line);
+}
+.settings-row:last-child { border-bottom: none; }
+
+.settings-info { display: flex; flex-direction: column; gap: 2px; }
+.settings-label { font-size: 12px; font-weight: 700; color: var(--text); }
+.settings-desc { font-size: 11px; color: var(--faint); }
+
+.settings-toggle {
+  flex-shrink: 0;
+  min-height: 24px;
+  height: 24px;
+  padding: 0 10px;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--faint);
+  background: linear-gradient(to bottom, #ffffff, #e0e0e0);
+  border: 1px solid var(--ls);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.9);
+  min-width: 44px;
+  transition: none;
+}
+.settings-toggle.is-on {
+  background: var(--red);
+  color: #ffffff;
+  border-color: var(--red-dark);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+}
+
+.settings-multi { display: flex; border: 1px solid var(--ls); flex-shrink: 0; }
+.settings-choice {
+  min-height: 24px;
+  height: 24px;
+  padding: 0 8px;
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--muted);
+  background: linear-gradient(to bottom, #ffffff, #e8e8e8);
+  border: none;
+  border-right: 1px solid var(--ls);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.8);
+  transition: none;
+}
+.settings-choice:last-child { border-right: none; }
+.settings-choice:hover { background: linear-gradient(to bottom, #fff5f5, #ffd0d0); color: var(--red); }
+.settings-choice.is-active {
+  background: var(--red);
+  color: #ffffff;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+}
+
+/* ── DARK MODE ── */
+body.dark-mode {
+  --bg: #0b0b0b;
+  --surface: #161616;
+  --sf: #1f1f1f;
+  --text: #e0e0e0;
+  --muted: #999999;
+  --faint: #555555;
+  --line: #2a2a2a;
+  --ls: #333333;
+  --red: #cc0000;
+  --red-dark: #990000;
+  --link: #6699dd;
+  --link-visited: #9977bb;
+}
+
+body.dark-mode .nnd-topbar { background: #000000; border-color: #000; }
+body.dark-mode .nnd-mainbar { background: #161616; border-bottom: 2px solid var(--red); }
+body.dark-mode .nnd-marquee-bar { background: #1a1a00; border-color: #333300; }
+body.dark-mode .nnd-marquee-label { background: #cc9900; border-color: #aa7700; }
+body.dark-mode .nnd-marquee-inner { color: #bbaa00; }
+body.dark-mode .nnd-tag-row { background: #111111; border-color: #2a2a2a; }
+body.dark-mode .nnd-tag { background: #1a2233; border-color: #2a3a55; color: var(--link); }
+body.dark-mode .nnd-tag:hover { background: #1f2a40; }
+body.dark-mode input, body.dark-mode textarea { background: #1f1f1f; color: var(--text); border-color: var(--ls); }
+body.dark-mode input:focus, body.dark-mode textarea:focus { border-color: #4477bb; box-shadow: none; }
+body.dark-mode .progress-track { background: #111111; border-color: #222222; }
+body.dark-mode .play-button { background: linear-gradient(to bottom, #282828, #1a1a1a); border-color: #333333; }
+body.dark-mode .play-icon { border-left-color: #cccccc; }
+body.dark-mode .play-button.is-playing .play-icon { border-color: #cccccc; }
+body.dark-mode .play-button:hover { background: linear-gradient(to bottom, #331111, #220a0a); border-color: var(--red); }
+body.dark-mode button { background: linear-gradient(to bottom, #dd1111, #aa0000); border-color: #880000; }
+body.dark-mode button:hover { background: linear-gradient(to bottom, #ee2222, #bb1111); }
+body.dark-mode .secondary-button { background: linear-gradient(to bottom, #282828, #1a1a1a); border-color: #333333; color: #cccccc; }
+body.dark-mode .secondary-button:hover { background: linear-gradient(to bottom, #303030, #222222); color: #ffffff; }
+body.dark-mode .mode-button { background: linear-gradient(to bottom, #282828, #1a1a1a); color: #888888; border-color: #333333; }
+body.dark-mode .mode-button:hover { background: linear-gradient(to bottom, #331111, #220a0a); color: #cc4444; }
+body.dark-mode .mode-button.is-active { background: var(--red); color: #ffffff; box-shadow: none; }
+body.dark-mode .nnd-intro-panel { background: #111111; border-color: #2a2a2a; }
+body.dark-mode .game-panel { background: #161616; border-color: #2a2a2a; }
+body.dark-mode .nnd-sidebar-box { background: #161616; border-color: #2a2a2a; }
+body.dark-mode .nnd-sidebar-header { background: linear-gradient(to bottom, #222222, #1a1a1a); border-color: #2a2a2a; color: #cccccc; }
+body.dark-mode .sidebar-stat-row { border-color: #2a2a2a; color: #888888; }
+body.dark-mode .sidebar-stat-row strong { color: var(--red); }
+body.dark-mode .sidebar-link { color: var(--link); }
+body.dark-mode .sidebar-hof-item { border-color: #2a2a2a; }
+body.dark-mode .hof-song { color: #dddddd; }
+body.dark-mode .hof-artist { color: #666666; }
+body.dark-mode .settings-toggle { background: linear-gradient(to bottom, #282828, #1a1a1a); color: #666666; border-color: #333333; box-shadow: none; }
+body.dark-mode .settings-toggle.is-on { background: var(--red); color: #fff; border-color: #880000; }
+body.dark-mode .settings-choice { background: linear-gradient(to bottom, #282828, #1a1a1a); color: #888888; border-color: #333333; box-shadow: none; }
+body.dark-mode .settings-choice:hover { background: linear-gradient(to bottom, #331111, #220a0a); color: #cc4444; }
+body.dark-mode .settings-choice.is-active { background: var(--red); color: #fff; }
+body.dark-mode .settings-label { color: #dddddd; }
+body.dark-mode .settings-desc { color: #555555; }
+body.dark-mode .settings-row { border-color: #2a2a2a; }
+body.dark-mode .site-footer { background: #0b0b0b; border-color: #222222; color: #444444; }
+body.dark-mode .site-footer a { color: #555555; }
+body.dark-mode .guess-history li { background: #161616; border-color: #2a2a2a; color: #888888; }
+body.dark-mode .guess-history li:nth-child(even) { background: #1a1a1a; }
+body.dark-mode .guess-history h3 { color: #cccccc; border-color: #2a2a2a; }
+body.dark-mode .status-row { border-color: #2a2a2a; color: #555555; }
+body.dark-mode .nnd-meta-row { border-color: #2a2a2a; color: #555555; }
+body.dark-mode .nnd-meta-label { color: #888888; }
+body.dark-mode .caption { color: #cccccc; }
+body.dark-mode .modal { background: #161616; border-color: #2a2a2a; color: #e0e0e0; }
+body.dark-mode .modal h2 { color: #cccccc; border-color: #2a2a2a; }
+body.dark-mode .modal p { color: #aaaaaa; }
+body.dark-mode .modal-close { background: linear-gradient(to bottom, #282828, #1a1a1a); border-color: #333333; color: #888888; box-shadow: none; }
+body.dark-mode .modal-close:hover { background: linear-gradient(to bottom, #331111, #220a0a); color: #cc4444; }
+body.dark-mode .modal-backdrop { background: rgba(0,0,0,0.8); }
+body.dark-mode .cover-placeholder { background: #111111; border-color: #222222; }
+body.dark-mode .nnd-logo-text { color: #e0e0e0; }
+body.dark-mode .nnd-logo-sub { color: #666666; }
+body.dark-mode .nnd-header-links a { color: #999999; }
+body.dark-mode .nnd-header-links a:hover { color: var(--red); }
+body.dark-mode .nnd-divider { color: #333333; }
+body.dark-mode .nnd-breadcrumb { color: #444444; }
+body.dark-mode .nnd-topbar-right { color: #333333; }
+body.dark-mode .suggestion-list { background: #1f1f1f; border-color: #333333; }
+body.dark-mode .suggestion-list li { border-color: #2a2a2a; color: #cccccc; }
+body.dark-mode .suggestion-list li:hover, body.dark-mode .suggestion-list li.is-active { background: #1a2233; }
+body.dark-mode .stats-mode-button { background: linear-gradient(to bottom, #282828, #1a1a1a); color: #888888; border-color: #333333; box-shadow: none; }
+body.dark-mode .stats-mode-button.is-active { background: var(--red); color: #fff; }
+body.dark-mode .stats-grid div { background: #1f1f1f; border-color: #2a2a2a; }
+body.dark-mode .stats-grid span { color: #555555; }
+body.dark-mode .guess-bar { background: #3a1111; border-color: #441111; }
+
+/* hide sidebar when disabled */
+body.no-sidebar .nnd-sidebar { display: none; }
+body.no-sidebar .nnd-main { padding-right: 0; }
+
+/* hide marquee when disabled */
+body.no-marquee .nnd-marquee-bar { display: none; }
+
+/* hide danmaku when disabled */
+body.no-danmaku .nnd-danmaku { display: none; }
+
+/* danmaku speed overrides */
+body.danmaku-slow .danmaku-comment { animation-duration: 14s !important; }
+body.danmaku-fast .danmaku-comment { animation-duration: 4s !important; }
+
+/* hide autocomplete when disabled */
+body.no-autocomplete .suggestion-list { display: none !important; }

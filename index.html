@@ -4,6 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>VOCALOID Heardle</title>
+    <meta property="og:title" content="VOCALOID Heardle">
+    <meta property="og:description" content="Guess the VOCALOID song from the opening clip. A fan-made daily music guessing game.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="VOCALOID Heardle">
+    <meta name="twitter:description" content="Guess the VOCALOID song from the opening clip. A fan-made daily music guessing game.">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -25,6 +31,8 @@
         <a href="#" data-modal-target="about">About</a>
         <span class="nnd-divider">|</span>
         <a href="#" data-modal-target="support">Support</a>
+        <span class="nnd-divider">|</span>
+        <a href="#" data-modal-target="settings">Settings</a>
       </div>
     </div>
 
@@ -178,13 +186,13 @@
             <div class="sidebar-hof-item"><span class="hof-rank">2nd</span><span class="hof-song">I'll Make You Do the Miku Miku</span><span class="hof-artist">ika</span></div>
             <div class="sidebar-hof-item"><span class="hof-rank">3rd</span><span class="hof-song">Melt</span><span class="hof-artist">ryo</span></div>
             <div class="sidebar-hof-item"><span class="hof-rank">4th</span><span class="hof-song">World's End Dancehall</span><span class="hof-artist">wowaka</span></div>
-            <div class="sidebar-hof-item"><span class="hof-rank">5th</span><span class="hof-song">Matryoshka</span><span class="hof-artist">HACHI</span></div>
-            <p class="sidebar-hof-note">Most viewed on NicoNico</p>
+            <div class="sidebar-hof-item"><span class="hof-rank">5th</span><span class="hof-song">Matryoshka</span><span class="hof-artist">hachi</span></div>
+            <p class="sidebar-hof-note">Most viewed VOCALOID songs on NicoNico</p>
           </div>
         </div>
 
         <div class="nnd-sidebar-box">
-          <div class="nnd-sidebar-header">Links</div>
+          <div class="nnd-sidebar-header">🔗 Links</div>
           <div class="nnd-sidebar-body">
             <a href="https://vocadb.net" target="_blank" class="sidebar-link">VocaDB ↗</a>
             <a href="https://nicovideo.jp" target="_blank" class="sidebar-link">NicoNico ↗</a>
@@ -252,11 +260,72 @@
       </div>
     </section>
 
+    <section class="modal" id="settings" role="dialog" aria-modal="true" aria-labelledby="settings-title" hidden>
+      <button class="modal-close" type="button" aria-label="Close dialog">x</button>
+      <h2 id="settings-title">Settings</h2>
+      <div class="settings-list">
+
+        <div class="settings-row">
+          <div class="settings-info">
+            <span class="settings-label">Dark Mode</span>
+            <span class="settings-desc">Switch between light and dark theme</span>
+          </div>
+          <button class="settings-toggle" id="setting-darkmode" type="button" role="switch" aria-checked="false">OFF</button>
+        </div>
+
+        <div class="settings-row">
+          <div class="settings-info">
+            <span class="settings-label">Bullet Comments</span>
+            <span class="settings-desc">Scrolling danmaku overlay on cover art</span>
+          </div>
+          <button class="settings-toggle" id="setting-danmaku" type="button" role="switch" aria-checked="true">ON</button>
+        </div>
+
+        <div class="settings-row">
+          <div class="settings-info">
+            <span class="settings-label">Comment Speed</span>
+            <span class="settings-desc">How fast bullet comments scroll</span>
+          </div>
+          <div class="settings-multi">
+            <button class="settings-choice" data-setting="danmaku-speed" data-value="slow" type="button">Slow</button>
+            <button class="settings-choice is-active" data-setting="danmaku-speed" data-value="normal" type="button">Normal</button>
+            <button class="settings-choice" data-setting="danmaku-speed" data-value="fast" type="button">Fast</button>
+          </div>
+        </div>
+
+        <div class="settings-row">
+          <div class="settings-info">
+            <span class="settings-label">Marquee Bar</span>
+            <span class="settings-desc">Scrolling announcement at the top</span>
+          </div>
+          <button class="settings-toggle" id="setting-marquee" type="button" role="switch" aria-checked="true">ON</button>
+        </div>
+
+        <div class="settings-row">
+          <div class="settings-info">
+            <span class="settings-label">Sidebar</span>
+            <span class="settings-desc">Stats and info panel on the right</span>
+          </div>
+          <button class="settings-toggle" id="setting-sidebar" type="button" role="switch" aria-checked="true">ON</button>
+        </div>
+
+        <div class="settings-row">
+          <div class="settings-info">
+            <span class="settings-label">Autocomplete</span>
+            <span class="settings-desc">Show song suggestions while typing</span>
+          </div>
+          <button class="settings-toggle" id="setting-autocomplete" type="button" role="switch" aria-checked="true">ON</button>
+        </div>
+
+      </div>
+    </section>
+
     <script src="data/songs.js"></script>
     <script src="app.js"></script>
     <script>
       const d = new Date();
       document.getElementById('nnd-date').textContent = d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
     </script>
+    <script src="settings.js"></script>
   </body>
 </html>

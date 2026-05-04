@@ -339,7 +339,6 @@ function loadPuzzle() {
     render();
     return;
   }
-
   const completedResult = loadStats().results[getDateKey()];
 
   if (completedResult) {
@@ -554,10 +553,9 @@ function completeRound(won) {
     attempts: won ? state.attempt : null,
     title: state.puzzle.title,
   };
-  // re-enable play so winner can replay the full clip
   playButton.disabled = false;
   playButton.setAttribute("aria-label", "Play full clip");
-  state.clipStage = clipStages.length - 1; // unlock full 16s
+  state.clipStage = clipStages.length - 1;
   skipButton.disabled = true;
   guessInput.disabled = true;
   nextButton.hidden = false;
@@ -912,13 +910,6 @@ suggestionList.addEventListener("mousedown", (event) => {
 });
 
 dailyModeButton.addEventListener("click", () => {
-  if (state.mode === "daily") return;
-  // save current unlimited puzzle so it isn't lost
-  state.savedUnlimitedPuzzle = state.puzzle;
-  state.savedUnlimitedGuesses = [...state.guesses];
-  state.savedUnlimitedAttempt = state.attempt;
-  state.savedUnlimitedClipStage = state.clipStage;
-  state.savedUnlimitedComplete = state.isComplete;
   state.mode = "daily";
   state.statsMode = "daily";
   loadPuzzle();
@@ -926,40 +917,15 @@ dailyModeButton.addEventListener("click", () => {
 });
 
 unlimitedModeButton.addEventListener("click", () => {
-  if (state.mode === "unlimited") return;
   state.mode = "unlimited";
   state.statsMode = "unlimited";
-  // restore saved unlimited puzzle if we have one mid-game
-  if (state.savedUnlimitedPuzzle) {
-    stopClip();
-    state.puzzle = state.savedUnlimitedPuzzle;
-    state.guesses = state.savedUnlimitedGuesses || [];
-    state.attempt = state.savedUnlimitedAttempt || 1;
-    state.clipStage = state.savedUnlimitedClipStage || 0;
-    state.isComplete = state.savedUnlimitedComplete || false;
-    state.lastResult = null;
-    currentAudio = new Audio(state.puzzle.audioClip);
-    currentAudio.preload = "auto";
-    currentAudio.addEventListener("ended", resetPlayButton);
-    scheduleMessage.hidden = true;
-    nextButton.hidden = !state.isComplete;
-    shareButton.hidden = !state.isComplete;
-    playButton.disabled = state.isComplete && !state.savedUnlimitedComplete;
-    skipButton.disabled = state.isComplete;
-    guessInput.disabled = state.isComplete;
-    if (state.isComplete) revealAnswer();
-    render();
-  } else {
-    state.unlimitedQueue = [];
-    loadPuzzle();
-  }
+  state.unlimitedQueue = [];
+  loadPuzzle();
   renderStats();
 });
 
 nextButton.addEventListener("click", () => {
   state.mode = "unlimited";
-  state.savedUnlimitedPuzzle = null;
-  state.savedUnlimitedGuesses = [];
   loadPuzzle();
 });
 
