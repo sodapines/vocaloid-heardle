@@ -422,6 +422,16 @@ button, input, textarea { font: inherit; cursor: pointer; }
 }
 
 /* ── GUESS FORM ── */
+.clip-note {
+  margin: -2px 0 7px;
+  padding: 3px 6px;
+  background: #ffffee;
+  border: 1px solid #d6d6a8;
+  border-left: 3px solid #cc9900;
+  color: #777744;
+  font-size: 11px;
+  line-height: 1.3;
+}
 .guess-form { display: grid; gap: 6px; }
 .guess-field { position: relative; display: grid; gap: 3px; }
 label { color: var(--muted); font-size: 11px; font-weight: 700; }
@@ -871,6 +881,12 @@ body.dark-mode .guess-history li { background: #161616; border-color: #2a2a2a; c
 body.dark-mode .guess-history li:nth-child(even) { background: #1a1a1a; }
 body.dark-mode .guess-history h3 { color: #cccccc; border-color: #2a2a2a; }
 body.dark-mode .status-row { border-color: #2a2a2a; color: #555555; }
+body.dark-mode .clip-note {
+  background: #1a1a00;
+  border-color: #333300;
+  border-left-color: #cc9900;
+  color: #bbaa66;
+}
 body.dark-mode .nnd-meta-row { border-color: #2a2a2a; color: #555555; }
 body.dark-mode .nnd-meta-label { color: #888888; }
 body.dark-mode .caption { color: #cccccc; }
