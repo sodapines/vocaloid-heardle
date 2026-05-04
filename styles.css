@@ -477,10 +477,13 @@ input:focus, textarea:focus {
   padding: 5px 8px;
   border-bottom: 1px solid var(--line);
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
 }
 .suggestion-list li:hover, .suggestion-list li.is-active { background: #e8f0fa; }
-.suggestion-title { font-weight: 700; }
-.suggestion-artist { color: var(--faint); font-size: 11px; }
+.suggestion-title { font-weight: 700; font-size: 12px; color: var(--text); }
+.suggestion-artist { color: var(--faint); font-size: 10px; }
 
 .button-row { display: grid; grid-template-columns: 1fr 1fr; gap: 5px; }
 
@@ -757,7 +760,23 @@ button:disabled { opacity: 0.5; cursor: not-allowed; }
   .nnd-sidebar-box { flex: 1 1 45%; }
   .nnd-main { padding-right: 0; }
   .nnd-header-links { display: none; }
+  .nnd-mobile-settings { display: flex; }
 }
+
+.nnd-mobile-settings {
+  display: none;
+  align-items: center;
+  margin-left: auto;
+}
+.nnd-mobile-settings a {
+  color: var(--link);
+  font-size: 12px;
+  text-decoration: none;
+  padding: 4px 8px;
+  border: 1px solid var(--line);
+  background: var(--sf);
+}
+.nnd-mobile-settings a:hover { color: var(--red); text-decoration: none; }
 
 /* ── SETTINGS MODAL ── */
 .settings-list { display: grid; gap: 0; }
@@ -929,3 +948,321 @@ body.danmaku-fast .danmaku-comment { animation-duration: 4s !important; }
 
 /* hide autocomplete when disabled */
 body.no-autocomplete .suggestion-list { display: none !important; }
+
+/* ── TOAST NOTIFICATION ── */
+#nnd-toast {
+  position: fixed;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+  background: #fffde8;
+  border: 1px solid #e0d890;
+  border-top: none;
+  padding: 0;
+  font-size: 11px;
+  color: #555500;
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+  white-space: nowrap;
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+#nnd-toast.nnd-toast-fade { opacity: 0; }
+.nnd-toast-label {
+  background: #cc0000;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 0 8px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+}
+.nnd-toast-msg {
+  padding: 4px 12px;
+  display: flex;
+  align-items: center;
+}
+
+/* ── GIVE UP BUTTON ── */
+.give-up-button {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+  min-height: 26px;
+  font-size: 11px;
+  color: var(--faint);
+  background: transparent;
+  border: 1px solid var(--line);
+  box-shadow: none;
+}
+.give-up-button:hover {
+  color: var(--red);
+  border-color: var(--red);
+  background: transparent;
+}
+
+/* ── NEW BADGE ── */
+.new-badge {
+  display: inline-block;
+  background: #cc9900;
+  color: #fff;
+  font-size: 9px;
+  font-weight: 700;
+  padding: 1px 4px;
+  margin-left: 4px;
+  vertical-align: middle;
+  line-height: 1.4;
+}
+
+/* ── GUESS FLASH ANIMATION ── */
+@keyframes guess-flash {
+  0%   { background: rgba(204,0,0,0.12); }
+  100% { background: transparent; }
+}
+.guess-flash {
+  animation: guess-flash 0.6s ease-out forwards;
+}
+
+/* ── GUESS ICON ── */
+.guess-icon {
+  font-size: 10px;
+  font-weight: 900;
+  margin-right: 2px;
+}
+.is-correct .guess-icon { color: var(--red); }
+.is-wrong .guess-icon   { color: var(--muted); }
+.is-skipped .guess-icon { color: var(--faint); }
+.is-answer .guess-icon  { color: var(--faint); }
+
+/* ── SUGGESTION HIGHLIGHT ── */
+.suggestion-list mark {
+  background: rgba(204,0,0,0.15);
+  color: var(--red);
+  font-weight: 700;
+  padding: 0;
+}
+
+/* ── WIN RATE BAR ── */
+.sb-winrate-track {
+  width: 100%;
+  height: 4px;
+  background: var(--line);
+  margin: 2px 0 5px;
+}
+.sb-winrate-fill {
+  height: 100%;
+  background: var(--red);
+  width: 0%;
+  transition: width 0.3s ease;
+}
+
+/* ── SETTINGS VOLUME ── */
+.settings-volume {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+.settings-volume input[type="range"] {
+  width: 80px;
+  height: 4px;
+  accent-color: var(--red);
+  cursor: pointer;
+}
+#setting-volume-label {
+  font-size: 11px;
+  color: var(--muted);
+  min-width: 32px;
+  text-align: right;
+}
+
+/* ── SETTINGS RESET ── */
+.settings-reset-btn {
+  background: linear-gradient(to bottom, #ffffff, #e8e8e8) !important;
+  color: var(--red) !important;
+  border-color: var(--red) !important;
+  font-weight: 700;
+}
+.settings-reset-btn:hover {
+  background: linear-gradient(to bottom, #fff5f5, #ffd0d0) !important;
+}
+.settings-confirm {
+  padding: 8px;
+  background: #fff5f5;
+  border: 1px solid #ffaaaa;
+  border-top: none;
+  font-size: 11px;
+  color: var(--red);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.settings-confirm-btns {
+  display: flex;
+  gap: 4px;
+}
+
+/* ── DANMAKU DENSITY ── */
+body.danmaku-few .danmaku-comment:nth-child(n+4)    { display: none; }
+body.danmaku-medium .danmaku-comment:nth-child(n+6) { display: none; }
+/* danmaku-many shows all 7 by default */
+
+/* ── DARK MODE ADDITIONS ── */
+body.dark-mode .settings-confirm { background: #2a0a0a; border-color: #551111; }
+body.dark-mode .sb-winrate-track { background: var(--ls); }
+body.dark-mode #nnd-toast { background: #1a1800; border-color: #333300; color: #bbaa00; }
+body.dark-mode .suggestion-list mark { background: rgba(204,0,0,0.25); }
+/* ── COVER PLACEHOLDER ── */
+.cover-placeholder-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: 100%;
+  height: 100%;
+  padding: 16px;
+}
+.cover-placeholder-q {
+  display: block;
+  font-size: 4rem;
+  font-weight: 900;
+  color: #444444;
+  font-family: "MS PGothic","Hiragino Kaku Gothic Pro","Meiryo",Arial,sans-serif;
+  line-height: 1;
+  border: 3px solid #333333;
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1a1a1a;
+  color: #cc0000;
+}
+.cover-placeholder-hint {
+  display: block;
+  font-size: 10px;
+  color: #444444;
+  letter-spacing: 0.08em;
+  font-family: "MS PGothic","Hiragino Kaku Gothic Pro","Meiryo",Arial,sans-serif;
+}
+
+/* ── COVER ART LOSS DIM ── */
+.game-panel.is-complete.is-loss .cover-placeholder img,
+.game-panel.is-complete.is-loss #cover-image {
+  filter: brightness(0.6) grayscale(0.3);
+}
+
+/* ── COMPACT MODE ── */
+body.compact-mode .nnd-marquee-bar,
+body.compact-mode .nnd-tag-row,
+body.compact-mode .nnd-sidebar { display: none; }
+body.compact-mode .nnd-main { padding-right: 0; }
+
+/* ── SIDEBAR ATTEMPT DOTS ── */
+.sb-attempt-dots {
+  display: flex;
+  gap: 3px;
+  padding: 4px 0 2px;
+}
+.sb-attempt-dot {
+  width: 12px;
+  height: 12px;
+  border: 1px solid var(--ls);
+  background: var(--sf);
+  border-radius: 0;
+  font-size: 0;
+}
+.sb-attempt-dot.is-used { background: #cc0000; border-color: #990000; }
+.sb-attempt-dot.is-skipped { background: #888888; border-color: #555555; }
+.sb-attempt-dot.is-current { background: #ffcc00; border-color: #aa8800; }
+.sb-attempt-dot.is-correct { background: #22aa44; border-color: #116622; }
+
+/* ── SETTINGS PARENT/CHILD GROUPING ── */
+.settings-row-parent {
+  border-bottom: none;
+}
+.settings-children {
+  border-left: 3px solid var(--red);
+  margin-left: 8px;
+  margin-bottom: 0;
+}
+.settings-row-child {
+  padding-left: 10px;
+  background: var(--sf);
+}
+.settings-row-child .settings-label {
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--muted);
+}
+.settings-row-child .settings-desc {
+  font-size: 10px;
+}
+.settings-children.is-overridden .settings-toggle {
+  opacity: 0.4;
+  pointer-events: none;
+}
+.settings-children.is-overridden .settings-label,
+.settings-children.is-overridden .settings-desc {
+  opacity: 0.4;
+}
+/* ── LOSS TOAST ── */
+.nnd-toast-loss .nnd-toast-label { background: #555555; }
+
+/* ── PLAY BUTTON PULSE ── */
+@keyframes play-pulse {
+  0%   { box-shadow: 0 0 0 0 rgba(204,0,0,0.5); }
+  60%  { box-shadow: 0 0 0 6px rgba(204,0,0,0); }
+  100% { box-shadow: 0 0 0 0 rgba(204,0,0,0); }
+}
+.play-button.pulse { animation: play-pulse 0.6s ease-out; }
+
+/* ── STREAK HOT INDICATOR ── */
+.sidebar-stat-row.streak-hot strong { color: #cc0000; font-weight: 900; }
+.sidebar-stat-row.streak-hot span::after {
+  content: " (HOT)";
+  color: #cc0000;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+/* ── DISCLAIMER NND STYLE ── */
+.clip-note {
+  display: flex;
+  align-items: stretch;
+  background: #fffde8;
+  border: 1px solid #e0d890;
+  font-size: 11px;
+  color: #555500;
+  margin: 5px 0;
+  padding: 0;
+}
+.clip-note::before {
+  content: "[!]";
+  background: #cc9900;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 0 7px;
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+/* ── COVER ART LOSS DIM ── */
+.game-panel.is-complete.is-loss #cover-image { filter: brightness(0.6) grayscale(0.3); }
+
+/* ── DARK MODE ADDITIONS ── */
+body.dark-mode .nnd-toast-loss .nnd-toast-label { background: #444444; }
+body.dark-mode .clip-note { background: #1a1800; border-color: #333300; color: #bbaa00; }
+body.dark-mode .clip-note::before { background: #886600; border-right-color: #664400; }
+
+body.dark-mode .nnd-mobile-settings a { background: var(--sf); border-color: var(--ls); color: var(--link); }
+body.dark-mode .nnd-mobile-settings a:hover { color: var(--red); }

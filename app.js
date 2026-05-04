@@ -153,9 +153,20 @@ function renderStats() {
   const sbBest = document.querySelector("#sb-best");
   if (sbPlayed) sbPlayed.textContent = sbMode.played;
   if (sbWon) sbWon.textContent = sbMode.won;
-  if (sbRate) sbRate.textContent = `${sbWinRate}%`;
-  if (sbStreak) sbStreak.textContent = sbMode.currentStreak;
+  if (sbRate) {
+    sbRate.textContent = `${sbWinRate}%`;
+    const bar = document.querySelector("#sb-winrate-bar");
+    if (bar) bar.style.width = `${sbWinRate}%`;
+  }
+  if (sbStreak) {
+    sbStreak.textContent = sbMode.currentStreak;
+    const streakRow = document.querySelector("#streak-row");
+    if (streakRow) streakRow.classList.toggle("streak-hot", sbMode.currentStreak >= 5);
+  }
   if (sbBest) sbBest.textContent = sbMode.maxStreak;
+
+  const totalEl = document.querySelector("#sb-total-songs");
+  if (totalEl) totalEl.textContent = songs.length.toLocaleString();
 
   // update sidebar label
   const sbLabel = document.querySelector("#sb-mode-label");
@@ -307,6 +318,7 @@ function resetRound() {
   clipTimer = null;
   guessForm.reset();
   hideSuggestions();
+  gamePanel.classList.remove("is-loss");
   coverPlaceholderMark.hidden = false;
   coverImage.hidden = true;
   coverImage.removeAttribute("src");
@@ -348,6 +360,8 @@ function loadPuzzle() {
   if (state.mode === "unlimited") {
     state.lastUnlimitedTitle = state.puzzle.title;
     render();
+    guessInput.focus();
+    pulsePlayButton();
     return;
   }
   const completedResult = loadStats().results[getDateKey()];
@@ -367,6 +381,11 @@ function loadPuzzle() {
     playButton.setAttribute("aria-label", "Play full clip");
     skipButton.disabled = true;
     guessInput.disabled = true;
+  }
+
+  if (!completedResult) {
+    guessInput.focus();
+    pulsePlayButton();
   }
 
   render();
@@ -420,7 +439,7 @@ function revealAnswer() {
   }
 
   coverPlaceholderMark.hidden = true;
-  coverCaption.textContent = `${state.puzzle.title} - ${state.puzzle.artist}`;
+  coverCaption.textContent = `${state.puzzle.title} - ${getSuggestionArtist(state.puzzle)}`;
   answerLink.hidden = !state.puzzle.vocadbUrl;
   answerLink.href = state.puzzle.vocadbUrl || "#";
 
@@ -571,6 +590,19 @@ function completeRound(won) {
   guessInput.disabled = true;
   nextButton.hidden = false;
   shareButton.hidden = false;
+  if (giveUpButton) giveUpButton.hidden = true;
+  if (state.mode === "daily") {
+    localStorage.setItem("vh-last-played-date", getDateKey());
+    const badge = document.querySelector("#new-badge");
+    if (badge) badge.hidden = true;
+  }
+  if (won) {
+    showToast(`Correct! — ${state.puzzle.title}`);
+    gamePanel.classList.remove("is-loss");
+  } else {
+    showLossToast(`The answer was: ${state.puzzle.title}`);
+    gamePanel.classList.add("is-loss");
+  }
 }
 
 function render() {
@@ -586,7 +618,17 @@ function render() {
   dailyModeButton.classList.toggle("is-active", state.mode === "daily");
   unlimitedModeButton.classList.toggle("is-active", state.mode === "unlimited");
   updateProgress(0);
+  updateGiveUpVisibility();
+  updateAttemptDots();
   renderGuesses();
+}
+
+function getResultIcon(result) {
+  if (result === "Correct") return "✓";
+  if (result === "Wrong") return "✗";
+  if (result === "Skipped") return "→";
+  if (result === "Answer") return "!";
+  return "";
 }
 
 function renderGuesses() {
@@ -595,16 +637,20 @@ function renderGuesses() {
     return;
   }
 
+  const previousCount = guessList.querySelectorAll("li:not(.empty-guess)").length;
+
   guessList.innerHTML = state.guesses
-    .map((guess) => {
+    .map((guess, index) => {
       const resultClass = ` is-${normalizeGuess(guess.result).replace(/\s+/g, "-")}`;
       const safeLabel = escapeHtml(guess.label);
       const safeResult = escapeHtml(guess.result);
+      const icon = getResultIcon(guess.result);
+      const isNew = index === state.guesses.length - 1 && state.guesses.length > previousCount;
 
       return `
-        <li>
+        <li${isNew ? ' class="guess-flash"' : ""}>
           <span>${safeLabel}</span>
-          <span class="guess-result${resultClass}">${safeResult}</span>
+          <span class="guess-result${resultClass}"><span class="guess-icon">${icon}</span> ${safeResult}</span>
         </li>
       `;
     })
@@ -625,8 +671,16 @@ function escapeHtml(value) {
   });
 }
 
+function highlightMatch(text, query) {
+  if (!query) return escapeHtml(text);
+  const escaped = escapeHtml(text);
+  const escapedQuery = query.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return escaped.replace(new RegExp(`(${escapedQuery})`, "gi"), "<mark>$1</mark>");
+}
+
 function renderSuggestions() {
-  const matches = getMatchingSongs(guessInput.value);
+  const query = guessInput.value;
+  const matches = getMatchingSongs(query);
   activeSuggestionIndex = -1;
 
   if (matches.length === 0) {
@@ -634,12 +688,14 @@ function renderSuggestions() {
     return;
   }
 
+  const normalizedQuery = normalizeGuess(query);
+
   suggestionList.innerHTML = matches
     .map(
       (song, index) => `
         <li role="option" data-index="${index}" data-title="${escapeHtml(song.title)}">
-          <span class="suggestion-title">${escapeHtml(song.title)}</span>
-          <span class="suggestion-artist"> - ${escapeHtml(getSuggestionArtist(song))}</span>
+          <span class="suggestion-title">${highlightMatch(song.title, normalizedQuery)}</span>
+          <span class="suggestion-artist">${escapeHtml(getSuggestionArtist(song))}</span>
         </li>
       `,
     )
@@ -721,6 +777,11 @@ function stopClip() {
   resetPlayButton();
 }
 
+function getVolume() {
+  const v = parseFloat(localStorage.getItem("vh-volume"));
+  return isNaN(v) ? 0.5 : v;
+}
+
 function playClip() {
   if (!state.puzzle || !currentAudio) {
     return;
@@ -728,6 +789,7 @@ function playClip() {
 
   stopClip();
   currentAudio.currentTime = 0;
+  currentAudio.volume = getVolume();
   playButton.classList.add("is-playing");
   playButton.setAttribute("aria-label", "Pause clip");
   updateProgress(0);
@@ -753,36 +815,22 @@ function buildShareText() {
   const modeLabel = state.mode === "daily" ? "Daily" : "Unlimited";
   const score = state.lastResult.won ? `${state.lastResult.attempts}/${clipStages.length}` : `X/${clipStages.length}`;
   const context = state.mode === "daily" ? formatToday() : state.puzzle.title;
+
+  let gaveUp = false;
   const squares = clipStages
     .map((_, index) => {
+      if (gaveUp) return null;
       const guess = state.guesses[index];
-
-      if (guess?.result === "Wrong") {
-        return "\uD83D\uDFE5";
-      }
-
-      if (guess?.result === "Skipped") {
-        return "\u2B1B";
-      }
-
-      if (guess?.result === "Correct") {
-        return "\uD83D\uDFE9";
-      }
-
-      if (!state.lastResult.won) {
-        return "⬛";
-      }
-
-      if (index + 1 < state.lastResult.attempts) {
-        return "⬛";
-      }
-
-      if (index + 1 === state.lastResult.attempts) {
-        return "🟩";
-      }
-
+      if (guess?.result === "Answer") { gaveUp = true; return "\u2B1B"; }
+      if (guess?.result === "Wrong") return "\uD83D\uDFE5";
+      if (guess?.result === "Skipped") return "\u2B1B";
+      if (guess?.result === "Correct") return "\uD83D\uDFE9";
+      if (!state.lastResult.won) return "⬛";
+      if (index + 1 < state.lastResult.attempts) return "⬛";
+      if (index + 1 === state.lastResult.attempts) return "🟩";
       return "⬜";
     })
+    .filter((s) => s !== null)
     .join(" ");
 
   return [
@@ -791,6 +839,36 @@ function buildShareText() {
     "",
     `🔊 ${squares}`,
   ].join("\n");
+}
+
+function showToast(message) {
+  const existing = document.querySelector("#nnd-toast");
+  if (existing) existing.remove();
+  const toast = document.createElement("div");
+  toast.id = "nnd-toast";
+  toast.innerHTML = `<span class="nnd-toast-label">[✓]</span><span class="nnd-toast-msg">${message}</span>`;
+  document.body.appendChild(toast);
+  setTimeout(() => toast.classList.add("nnd-toast-fade"), 1800);
+  setTimeout(() => toast.remove(), 2400);
+}
+
+function showLossToast(message) {
+  const existing = document.querySelector("#nnd-toast");
+  if (existing) existing.remove();
+  const toast = document.createElement("div");
+  toast.id = "nnd-toast";
+  toast.classList.add("nnd-toast-loss");
+  toast.innerHTML = `<span class="nnd-toast-label">[!]</span><span class="nnd-toast-msg">${message}</span>`;
+  document.body.appendChild(toast);
+  setTimeout(() => toast.classList.add("nnd-toast-fade"), 2800);
+  setTimeout(() => toast.remove(), 3400);
+}
+
+function pulsePlayButton() {
+  playButton.classList.remove("pulse");
+  void playButton.offsetWidth;
+  playButton.classList.add("pulse");
+  setTimeout(() => playButton.classList.remove("pulse"), 600);
 }
 
 function copyText(value) {
@@ -868,17 +946,21 @@ guessForm.addEventListener("submit", (event) => {
   if (isCorrect) {
     addGuess(guess, "Correct");
     completeRound(true);
+    guessForm.reset();
+    hideSuggestions();
   } else {
     addGuess(guess, "Wrong");
+    const clearOnWrong = localStorage.getItem("vh-clearwrong") !== "false";
+    if (clearOnWrong) {
+      guessInput.value = "";
+      hideSuggestions();
+    }
     if (state.attempt >= clipStages.length) {
       completeRound(false);
     } else {
       advanceAttempt();
     }
   }
-
-  guessForm.reset();
-  hideSuggestions();
   render();
 });
 
@@ -910,13 +992,80 @@ guessInput.addEventListener("keydown", (event) => {
   }
 });
 
+const giveUpButton = document.querySelector("#give-up-button");
+if (giveUpButton) {
+  giveUpButton.addEventListener("click", () => {
+    if (!state.puzzle || state.isComplete) return;
+    addGuess("Gave up", "Answer");
+    completeRound(false);
+    render();
+  });
+}
+
+function updateAttemptDots() {
+  const container = document.querySelector("#sb-attempt-dots");
+  if (!container) return;
+  container.innerHTML = clipStages.map((_, i) => {
+    const attemptNum = i + 1;
+    const guess = state.guesses[i];
+    let cls = "sb-attempt-dot";
+    if (state.isComplete && state.lastResult?.won && attemptNum === state.lastResult.attempts) {
+      cls += " is-correct";
+    } else if (guess?.result === "Wrong" || guess?.result === "Answer") {
+      cls += " is-used";
+    } else if (guess?.result === "Skipped") {
+      cls += " is-skipped";
+    } else if (attemptNum === state.attempt && !state.isComplete) {
+      cls += " is-current";
+    }
+    return `<span class="${cls}"></span>`;
+  }).join("");
+}
+
+function updateGiveUpVisibility() {
+  if (giveUpButton) {
+    giveUpButton.hidden = state.isComplete || state.attempt < 3;
+  }
+}
+
+function checkNewBadge() {
+  const badge = document.querySelector("#new-badge");
+  if (!badge) return;
+  const lastPlayed = localStorage.getItem("vh-last-played-date");
+  badge.hidden = lastPlayed === getDateKey();
+}
+
+const resetStatsButton = document.querySelector("#reset-stats-button");
+const resetStatsConfirm = document.querySelector("#reset-stats-confirm");
+const resetStatsYes = document.querySelector("#reset-stats-yes");
+const resetStatsNo = document.querySelector("#reset-stats-no");
+
+if (resetStatsButton) {
+  resetStatsButton.addEventListener("click", () => {
+    if (resetStatsConfirm) resetStatsConfirm.hidden = false;
+    resetStatsButton.hidden = true;
+  });
+}
+if (resetStatsYes) {
+  resetStatsYes.addEventListener("click", () => {
+    localStorage.removeItem(statsKey);
+    localStorage.removeItem(unlimitedStatsKey);
+    renderStats();
+    showToast("Stats have been reset");
+    if (resetStatsConfirm) resetStatsConfirm.hidden = true;
+    if (resetStatsButton) resetStatsButton.hidden = false;
+  });
+}
+if (resetStatsNo) {
+  resetStatsNo.addEventListener("click", () => {
+    if (resetStatsConfirm) resetStatsConfirm.hidden = true;
+    if (resetStatsButton) resetStatsButton.hidden = false;
+  });
+}
+
 suggestionList.addEventListener("mousedown", (event) => {
   const option = event.target.closest("li");
-
-  if (!option) {
-    return;
-  }
-
+  if (!option) return;
   event.preventDefault();
   selectSuggestion(option.dataset.title);
 });
@@ -924,6 +1073,7 @@ suggestionList.addEventListener("mousedown", (event) => {
 dailyModeButton.addEventListener("click", () => {
   state.mode = "daily";
   state.statsMode = "daily";
+  document.title = "VOCALOID Heardle — Daily";
   loadPuzzle();
   renderStats();
 });
@@ -932,6 +1082,7 @@ unlimitedModeButton.addEventListener("click", () => {
   state.mode = "unlimited";
   state.statsMode = "unlimited";
   state.unlimitedQueue = [];
+  document.title = "VOCALOID Heardle — Unlimited";
   loadPuzzle();
   renderStats();
 });
@@ -950,7 +1101,7 @@ shareButton.addEventListener("click", async () => {
 
   try {
     await copyText(shareText);
-    shareButton.textContent = "Copied";
+    showToast("Result copied to clipboard");
     shareOutput.hidden = true;
   } catch {
     shareOutput.value = shareText;
@@ -1006,3 +1157,4 @@ document.addEventListener("click", (event) => {
 
 loadPuzzle();
 renderStats();
+checkNewBadge();

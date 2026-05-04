@@ -7,9 +7,13 @@
     <meta property="og:title" content="VOCALOID Heardle">
     <meta property="og:description" content="Guess the VOCALOID song from the opening clip. A fan-made daily music guessing game.">
     <meta property="og:type" content="website">
-    <meta name="twitter:card" content="summary">
+    <meta property="og:image" content="https://vocaloidle.sodapines.dev/favicon.jpg">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="VOCALOID Heardle">
     <meta name="twitter:description" content="Guess the VOCALOID song from the opening clip. A fan-made daily music guessing game.">
+    <meta name="twitter:image" content="https://vocaloidle.sodapines.dev/favicon.jpg">
+    <link rel="icon" type="image/jpeg" href="favicon.jpg">
+    <link rel="apple-touch-icon" href="favicon.jpg">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -33,6 +37,9 @@
         <a href="#" data-modal-target="support">Support</a>
         <span class="nnd-divider">|</span>
         <a href="#" data-modal-target="settings">Settings</a>
+      </div>
+      <div class="nnd-mobile-settings">
+        <a href="#" data-modal-target="settings">&#9881; Settings</a>
       </div>
     </div>
 
@@ -65,7 +72,7 @@
           <span class="eyebrow" id="mode-eyebrow">daily puzzle</span>
           <span class="intro-copy">Guess the VOCALOID song from the opening clip.</span>
           <div class="mode-switch">
-            <button class="mode-button is-active" id="daily-mode-button" type="button">Daily</button>
+            <button class="mode-button is-active" id="daily-mode-button" type="button">Daily <span class="new-badge" id="new-badge" hidden>NEW</span></button>
             <button class="mode-button" id="unlimited-mode-button" type="button">Unlimited</button>
           </div>
         </div>
@@ -74,7 +81,10 @@
 
           <div class="nnd-player-wrap">
             <div class="cover-placeholder" id="cover-art-box">
-              <span id="cover-placeholder-mark" aria-hidden="true">?</span>
+              <div id="cover-placeholder-mark" class="cover-placeholder-inner" aria-hidden="true">
+                <span class="cover-placeholder-q">?</span>
+                <span class="cover-placeholder-hint">再生してください</span>
+              </div>
               <img id="cover-image" alt="" hidden>
               <div class="cover-fallback" id="cover-fallback" hidden></div>
             </div>
@@ -119,7 +129,7 @@
             </div>
             <span class="clip-length" id="clip-length">1s</span>
           </div>
-          <p class="clip-note">Disclaimer: Some songs may not begin playing within the first second.</p>
+          <p class="clip-note">Some songs may not begin playing within the first second.</p>
 
           <form class="guess-form" id="guess-form">
             <div class="guess-field">
@@ -140,6 +150,7 @@
               <button class="secondary-button" id="skip-button" type="button">Skip</button>
             </div>
           </form>
+          <button class="give-up-button secondary-button" id="give-up-button" type="button" hidden>Give Up</button>
 
           <button class="next-button" id="next-button" type="button" hidden>Next Song</button>
           <button class="share-button secondary-button" id="share-button" type="button" hidden>Copy Result</button>
@@ -162,9 +173,12 @@
             <div class="sidebar-stat-row"><span>Played</span><strong id="sb-played">0</strong></div>
             <div class="sidebar-stat-row"><span>Won</span><strong id="sb-won">0</strong></div>
             <div class="sidebar-stat-row"><span>Win Rate</span><strong id="sb-rate">0%</strong></div>
-            <div class="sidebar-stat-row"><span>Streak</span><strong id="sb-streak">0</strong></div>
+            <div class="sb-winrate-track"><div class="sb-winrate-fill" id="sb-winrate-bar"></div></div>
+            <div class="sidebar-stat-row" id="streak-row"><span>Streak</span><strong id="sb-streak">0</strong></div>
             <div class="sidebar-stat-row"><span>Best Streak</span><strong id="sb-best">0</strong></div>
+            <div class="sidebar-stat-row"><span>Songs in pool</span><strong id="sb-total-songs">—</strong></div>
             <div class="sidebar-stat-divider"></div>
+            <div class="sb-attempt-dots" id="sb-attempt-dots"></div>
             <a href="#" data-modal-target="stats" class="sidebar-link">View full stats →</a>
           </div>
         </div>
@@ -294,28 +308,84 @@
           </div>
         </div>
 
-        <div class="settings-row">
+        <div class="settings-row settings-row-parent">
           <div class="settings-info">
-            <span class="settings-label">Marquee Bar</span>
-            <span class="settings-desc">Scrolling announcement at the top</span>
+            <span class="settings-label">Compact Mode</span>
+            <span class="settings-desc">Hides marquee, tags, and sidebar at once</span>
           </div>
-          <button class="settings-toggle" id="setting-marquee" type="button" role="switch" aria-checked="true">ON</button>
+          <button class="settings-toggle" id="setting-compact" type="button" role="switch" aria-checked="false">OFF</button>
+        </div>
+
+        <div class="settings-children" id="compact-children">
+          <div class="settings-row settings-row-child">
+            <div class="settings-info">
+              <span class="settings-label">Marquee Bar</span>
+              <span class="settings-desc">Scrolling announcement at the top</span>
+            </div>
+            <button class="settings-toggle" id="setting-marquee" type="button" role="switch" aria-checked="true">ON</button>
+          </div>
+
+          <div class="settings-row settings-row-child">
+            <div class="settings-info">
+              <span class="settings-label">Sidebar</span>
+              <span class="settings-desc">Stats and info panel on the right</span>
+            </div>
+            <button class="settings-toggle" id="setting-sidebar" type="button" role="switch" aria-checked="true">ON</button>
+          </div>
+
+          <div class="settings-row settings-row-child">
+            <div class="settings-info">
+              <span class="settings-label">Autocomplete</span>
+              <span class="settings-desc">Show song suggestions while typing</span>
+            </div>
+            <button class="settings-toggle" id="setting-autocomplete" type="button" role="switch" aria-checked="true">ON</button>
+          </div>
         </div>
 
         <div class="settings-row">
           <div class="settings-info">
-            <span class="settings-label">Sidebar</span>
-            <span class="settings-desc">Stats and info panel on the right</span>
+            <span class="settings-label">Bullet Comment Density</span>
+            <span class="settings-desc">How many comments appear on screen</span>
           </div>
-          <button class="settings-toggle" id="setting-sidebar" type="button" role="switch" aria-checked="true">ON</button>
+          <div class="settings-multi">
+            <button class="settings-choice" data-setting="danmaku-density" data-value="few" type="button">Few</button>
+            <button class="settings-choice is-active" data-setting="danmaku-density" data-value="medium" type="button">Medium</button>
+            <button class="settings-choice" data-setting="danmaku-density" data-value="many" type="button">Many</button>
+          </div>
         </div>
 
         <div class="settings-row">
           <div class="settings-info">
-            <span class="settings-label">Autocomplete</span>
-            <span class="settings-desc">Show song suggestions while typing</span>
+            <span class="settings-label">Volume</span>
+            <span class="settings-desc">Clip playback volume</span>
           </div>
-          <button class="settings-toggle" id="setting-autocomplete" type="button" role="switch" aria-checked="true">ON</button>
+          <div class="settings-volume">
+            <input type="range" id="setting-volume" min="0" max="100" value="100" step="1">
+            <span id="setting-volume-label">100%</span>
+          </div>
+        </div>
+
+        <div class="settings-row">
+          <div class="settings-info">
+            <span class="settings-label">Clear Input on Wrong</span>
+            <span class="settings-desc">Clears the guess field after a wrong answer</span>
+          </div>
+          <button class="settings-toggle is-on" id="setting-clearwrong" type="button" role="switch" aria-checked="true">ON</button>
+        </div>
+
+        <div class="settings-row settings-row-reset">
+          <div class="settings-info">
+            <span class="settings-label">Reset Stats</span>
+            <span class="settings-desc">Permanently clear all your stats</span>
+          </div>
+          <button class="settings-toggle settings-reset-btn" id="reset-stats-button" type="button">Reset</button>
+        </div>
+        <div class="settings-confirm" id="reset-stats-confirm" hidden>
+          <span>Are you sure? This cannot be undone.</span>
+          <div class="settings-confirm-btns">
+            <button class="settings-choice" id="reset-stats-yes" type="button">Yes, reset</button>
+            <button class="settings-choice is-active" id="reset-stats-no" type="button">Cancel</button>
+          </div>
         </div>
 
       </div>
