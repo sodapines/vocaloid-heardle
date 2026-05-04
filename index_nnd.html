@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VOCALOID Heardle</title>
+    <link rel="stylesheet" href="styles_nnd.css">
+  </head>
+  <body>
+
+    <div class="nnd-topbar">
+      <div class="nnd-topbar-left">
+        <span class="nnd-breadcrumb">Games &rsaquo; Music &rsaquo; VOCALOID &rsaquo; Heardle</span>
+      </div>
+      <div class="nnd-topbar-right">
+        <span id="nnd-date"></span>
+      </div>
+    </div>
+
+    <div class="nnd-mainbar">
+      <a class="nnd-logo" href="index.html">
+        <span class="nnd-logo-mark">▶</span><span class="nnd-logo-text">VOCALOID<span class="nnd-logo-sub">Heardle</span></span>
+      </a>
+      <div class="nnd-header-links">
+        <a href="#" data-modal-target="about">About</a>
+        <span class="nnd-divider">|</span>
+        <a href="#" data-modal-target="support">Support</a>
+      </div>
+    </div>
+
+    <div class="nnd-marquee-bar">
+      <span class="nnd-marquee-label">[INFO]</span>
+      <div class="nnd-marquee-wrap">
+        <div class="nnd-marquee-inner">
+          A new daily puzzle is available each day &nbsp;&nbsp;&nbsp;★&nbsp;&nbsp;&nbsp; Use unlimited mode to practice anytime &nbsp;&nbsp;&nbsp;★&nbsp;&nbsp;&nbsp; Guess the VOCALOID song from the opening clip in 6 tries or less &nbsp;&nbsp;&nbsp;★&nbsp;&nbsp;&nbsp; Share your score with friends! &nbsp;&nbsp;&nbsp;★&nbsp;&nbsp;&nbsp; Songs sourced from VocaDB &nbsp;&nbsp;&nbsp;★&nbsp;&nbsp;&nbsp;
+        </div>
+      </div>
+    </div>
+
+    <div class="nnd-tag-row">
+      <span class="nnd-tag-label">Tags:</span>
+      <a href="#" class="nnd-tag">VOCALOID</a>
+      <a href="#" class="nnd-tag">音楽ゲーム</a>
+      <a href="#" class="nnd-tag">初音ミク</a>
+      <a href="#" class="nnd-tag">殿堂入り</a>
+      <a href="#" class="nnd-tag">Legendary</a>
+      <a href="#" class="nnd-tag">Daily Puzzle</a>
+      <a href="#" class="nnd-tag">Vocal Synth</a>
+      <a href="#" class="nnd-tag">Fan-made</a>
+    </div>
+
+    <div class="nnd-body">
+
+      <main class="nnd-main">
+
+        <div class="nnd-intro-panel">
+          <span class="eyebrow" id="mode-eyebrow">daily puzzle</span>
+          <span class="intro-copy">Guess the VOCALOID song from the opening clip.</span>
+          <div class="mode-switch">
+            <button class="mode-button is-active" id="daily-mode-button" type="button">Daily</button>
+            <button class="mode-button" id="unlimited-mode-button" type="button">Unlimited</button>
+          </div>
+        </div>
+
+        <section class="game-panel" id="game-panel" aria-label="Song puzzle">
+
+          <div class="nnd-player-wrap">
+            <div class="cover-placeholder" id="cover-art-box">
+              <span id="cover-placeholder-mark" aria-hidden="true">?</span>
+              <img id="cover-image" alt="" hidden>
+              <div class="cover-fallback" id="cover-fallback" hidden></div>
+            </div>
+            <div class="nnd-danmaku" id="danmaku-overlay" aria-hidden="true">
+              <span class="danmaku-comment" style="top:10%;animation-duration:7s;animation-delay:0s">草</span>
+              <span class="danmaku-comment" style="top:26%;animation-duration:9s;animation-delay:1.4s">神曲!!</span>
+              <span class="danmaku-comment" style="top:42%;animation-duration:6.5s;animation-delay:2.8s">I know this one!!</span>
+              <span class="danmaku-comment" style="top:58%;animation-duration:8s;animation-delay:0.6s">懐かしい～</span>
+              <span class="danmaku-comment" style="top:74%;animation-duration:10s;animation-delay:3.2s">GOAT song fr</span>
+              <span class="danmaku-comment" style="top:18%;animation-duration:7.5s;animation-delay:4.5s">ボカロ最高</span>
+              <span class="danmaku-comment" style="top:52%;animation-duration:8.5s;animation-delay:1.9s">www</span>
+            </div>
+          </div>
+
+          <div class="nnd-meta-row">
+            <span class="nnd-meta-item"><span class="nnd-meta-label">▶ Views:</span> —</span>
+            <span class="nnd-meta-item"><span class="nnd-meta-label">Category:</span> Music / VOCALOID</span>
+            <span class="nnd-meta-item"><span class="nnd-meta-label">Source:</span> <a href="https://vocadb.net" target="_blank">VocaDB</a></span>
+          </div>
+
+          <p class="caption" id="cover-caption">cover art appears after the answer</p>
+          <a class="answer-link" id="answer-link" href="#" target="_blank" rel="noreferrer" hidden>View on VocaDB</a>
+
+          <p class="schedule-message" id="schedule-message" hidden></p>
+
+          <div class="status-row">
+            <span id="puzzle-date">Today</span>
+            <span id="attempt-count">Attempt 1 of 6</span>
+          </div>
+
+          <div class="player-shell">
+            <button class="play-button" id="play-button" type="button" aria-label="Play clip">
+              <span class="play-icon" aria-hidden="true"></span>
+            </button>
+            <div class="progress-track" aria-hidden="true">
+              <span class="progress-fill"></span>
+              <span class="progress-marker" style="left: 6.25%"></span>
+              <span class="progress-marker" style="left: 12.5%"></span>
+              <span class="progress-marker" style="left: 25%"></span>
+              <span class="progress-marker" style="left: 43.75%"></span>
+              <span class="progress-marker" style="left: 68.75%"></span>
+            </div>
+            <span class="clip-length" id="clip-length">1s</span>
+          </div>
+
+          <form class="guess-form" id="guess-form">
+            <div class="guess-field">
+              <label for="guess-input">Song Title</label>
+              <input
+                id="guess-input"
+                name="guess"
+                type="text"
+                autocomplete="off"
+                placeholder="type your guess..."
+                aria-controls="suggestion-list"
+                aria-expanded="false"
+              >
+              <ul class="suggestion-list" id="suggestion-list" role="listbox" hidden></ul>
+            </div>
+            <div class="button-row">
+              <button type="submit">Submit</button>
+              <button class="secondary-button" id="skip-button" type="button">Skip</button>
+            </div>
+          </form>
+
+          <button class="next-button" id="next-button" type="button" hidden>Next Song</button>
+          <button class="share-button secondary-button" id="share-button" type="button" hidden>Copy Result</button>
+          <textarea class="share-output" id="share-output" readonly hidden></textarea>
+
+          <div class="guess-history" aria-live="polite">
+            <h3>Past Guesses</h3>
+            <ol id="guess-list">
+              <li class="empty-guess">No guesses yet</li>
+            </ol>
+          </div>
+        </section>
+      </main>
+
+      <aside class="nnd-sidebar">
+
+        <div class="nnd-sidebar-box">
+          <div class="nnd-sidebar-header" id="sb-mode-label">Daily Stats</div>
+          <div class="nnd-sidebar-body">
+            <div class="sidebar-stat-row"><span>Played</span><strong id="sb-played">0</strong></div>
+            <div class="sidebar-stat-row"><span>Won</span><strong id="sb-won">0</strong></div>
+            <div class="sidebar-stat-row"><span>Win Rate</span><strong id="sb-rate">0%</strong></div>
+            <div class="sidebar-stat-row"><span>Streak</span><strong id="sb-streak">0</strong></div>
+            <div class="sidebar-stat-row"><span>Best Streak</span><strong id="sb-best">0</strong></div>
+            <div class="sidebar-stat-divider"></div>
+            <a href="#" data-modal-target="stats" class="sidebar-link">View full stats →</a>
+          </div>
+        </div>
+
+        <div class="nnd-sidebar-box">
+          <div class="nnd-sidebar-header">How to Play</div>
+          <div class="nnd-sidebar-body nnd-sidebar-howto">
+            <p><span class="how-num">1.</span> Press ▶ to hear the opening clip</p>
+            <p><span class="how-num">2.</span> Type the song title and submit</p>
+            <p><span class="how-num">3.</span> Wrong or skipped? More clip unlocks</p>
+            <p><span class="how-num">4.</span> Guess correctly in 6 tries to win</p>
+            <p><span class="how-num">5.</span> Share your score when done!</p>
+          </div>
+        </div>
+
+        <div class="nnd-sidebar-box">
+          <div class="nnd-sidebar-header">Hall of Legend</div>
+          <div class="nnd-sidebar-body">
+            <div class="sidebar-hof-item"><span class="hof-rank">1st</span><span class="hof-song">Senbonzakura</span><span class="hof-artist">Kurousa</span></div>
+            <div class="sidebar-hof-item"><span class="hof-rank">2nd</span><span class="hof-song">I'll Make You Do the Miku Miku</span><span class="hof-artist">ika</span></div>
+            <div class="sidebar-hof-item"><span class="hof-rank">3rd</span><span class="hof-song">Melt</span><span class="hof-artist">ryo</span></div>
+            <div class="sidebar-hof-item"><span class="hof-rank">4th</span><span class="hof-song">World's End Dancehall</span><span class="hof-artist">wowaka</span></div>
+            <div class="sidebar-hof-item"><span class="hof-rank">5th</span><span class="hof-song">Matryoshka</span><span class="hof-artist">HACHI</span></div>
+            <p class="sidebar-hof-note">Most viewed on NicoNico</p>
+          </div>
+        </div>
+
+        <div class="nnd-sidebar-box">
+          <div class="nnd-sidebar-header">Links</div>
+          <div class="nnd-sidebar-body">
+            <a href="https://vocadb.net" target="_blank" class="sidebar-link">VocaDB ↗</a>
+            <a href="https://nicovideo.jp" target="_blank" class="sidebar-link">NicoNico ↗</a>
+            <a href="#" data-modal-target="about" class="sidebar-link">About this site</a>
+            <a href="#" data-modal-target="support" class="sidebar-link">Contact / Support</a>
+          </div>
+        </div>
+
+      </aside>
+    </div>
+
+    <footer class="site-footer">
+      <p>VOCALOID Heardle: fan-made daily guessing game &copy; 2026 &nbsp;|&nbsp; Not affiliated with Crypton Future Media or NicoNico &nbsp;|&nbsp; Song data from <a href="https://vocadb.net" target="_blank">VocaDB</a></p>
+    </footer>
+
+    <div class="modal-backdrop" id="modal-backdrop" hidden></div>
+
+    <section class="modal" id="how-to-play" role="dialog" aria-modal="true" aria-labelledby="how-to-play-title" hidden>
+      <button class="modal-close" type="button" aria-label="Close dialog">x</button>
+      <h2 id="how-to-play-title">How to Play</h2>
+      <div class="instruction-list">
+        <p><span aria-hidden="true">♪</span>Listen to the intro, then find the correct VOCALOID song.</p>
+        <p><span aria-hidden="true">+</span>Skipped or incorrect attempts unlock more of the clip.</p>
+        <p><span aria-hidden="true">#</span>Guess in as few tries as possible and share your score.</p>
+      </div>
+      <button class="modal-action" type="button">Play</button>
+    </section>
+
+    <section class="modal" id="about" role="dialog" aria-modal="true" aria-labelledby="about-title" hidden>
+      <button class="modal-close" type="button" aria-label="Close dialog">x</button>
+      <h2 id="about-title">About</h2>
+      <p>VOCALOID Heardle is a daily song guessing game built around VOCALOID and vocal synth music.</p>
+      <p>Each puzzle reveals a little more of the intro after every wrong guess or skip. Song details and VocaDB links appear after the answer.</p>
+    </section>
+
+    <section class="modal" id="support" role="dialog" aria-modal="true" aria-labelledby="support-title" hidden>
+      <button class="modal-close" type="button" aria-label="Close dialog">x</button>
+      <h2 id="support-title">Support</h2>
+      <p>VOCALOID Heardle is maintained by sodapines as a small fan-made music puzzle project.</p>
+      <p>For bugs, song corrections, or suggestions, email <a href="mailto:kzen@sodapines.dev">kzen@sodapines.dev</a>.</p>
+    </section>
+
+    <section class="modal" id="stats" role="dialog" aria-modal="true" aria-labelledby="stats-title" hidden>
+      <button class="modal-close" type="button" aria-label="Close dialog">x</button>
+      <h2 id="stats-title">Stats</h2>
+      <div class="stats-mode-switch">
+        <button class="stats-mode-button is-active" id="stats-daily-button" type="button">Daily</button>
+        <button class="stats-mode-button" id="stats-unlimited-button" type="button">Unlimited</button>
+      </div>
+      <div class="guess-scale">
+        <div><span>1</span><i class="guess-bar"></i><strong data-distribution="1">0</strong></div>
+        <div><span>2</span><i class="guess-bar"></i><strong data-distribution="2">0</strong></div>
+        <div><span>3</span><i class="guess-bar"></i><strong data-distribution="3">0</strong></div>
+        <div><span>4</span><i class="guess-bar"></i><strong data-distribution="4">0</strong></div>
+        <div><span>5</span><i class="guess-bar"></i><strong data-distribution="5">0</strong></div>
+        <div><span>6</span><i class="guess-bar"></i><strong data-distribution="6">0</strong></div>
+        <div><span>x</span><i class="guess-bar"></i><strong data-distribution="fail">0</strong></div>
+      </div>
+      <div class="stats-grid">
+        <div><strong id="stat-played">0</strong><span>Played</span></div>
+        <div><strong id="stat-won">0</strong><span>Won</span></div>
+        <div><strong id="stat-win-rate">0%</strong><span>Win rate</span></div>
+        <div><strong id="stat-current-streak">0</strong><span>Current streak</span></div>
+        <div><strong id="stat-max-streak">0</strong><span>Max streak</span></div>
+      </div>
+    </section>
+
+    <script src="data/songs.js"></script>
+    <script src="app.js"></script>
+    <script>
+      const d = new Date();
+      document.getElementById('nnd-date').textContent = d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+    </script>
+  </body>
+</html>
