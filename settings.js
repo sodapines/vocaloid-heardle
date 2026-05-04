@@ -21,6 +21,7 @@ function applySetting(id, value) {
   localStorage.setItem(s.key, value);
 
   if (id === 'darkmode') {
+    document.documentElement.classList.toggle('dark-mode', value);
     document.body.classList.toggle('dark-mode', value);
   } else {
     // these settings add a class when OFF (inverted)

@@ -24,6 +24,14 @@ html, body {
   line-height: 1.4;
 }
 
+html.dark-mode {
+  background: #0b0b0b;
+}
+
+html.dark-mode body {
+  background: #0b0b0b;
+}
+
 [hidden] { display: none !important; }
 
 a { color: var(--link); text-decoration: none; }
@@ -827,7 +835,7 @@ body.dark-mode .nnd-tag { background: #1a2233; border-color: #2a3a55; color: var
 body.dark-mode .nnd-tag:hover { background: #1f2a40; }
 body.dark-mode input, body.dark-mode textarea { background: #1f1f1f; color: var(--text); border-color: var(--ls); }
 body.dark-mode input:focus, body.dark-mode textarea:focus { border-color: #4477bb; box-shadow: none; }
-body.dark-mode .progress-track { background: #111111; border-color: #222222; }
+body.dark-mode .progress-track { background: #181818; border-color: #333333; }
 body.dark-mode .play-button { background: linear-gradient(to bottom, #282828, #1a1a1a); border-color: #333333; }
 body.dark-mode .play-icon { border-left-color: #cccccc; }
 body.dark-mode .play-button.is-playing .play-icon { border-color: #cccccc; }

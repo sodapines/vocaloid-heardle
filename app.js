@@ -204,6 +204,25 @@ function normalizeGuess(value) {
   return value.trim().toLowerCase().replace(/\s+/g, " ");
 }
 
+function getSongSearchValues(song) {
+  return [
+    song.title,
+    song.artist,
+    song.artistString,
+    song.displayArtist,
+    song.suggestionArtistString,
+    song.vocadbName,
+    ...(song.acceptedTitles || []),
+    ...(song.producerNames || []),
+    ...(song.singerNames || []),
+    ...(song.artistSearchNames || []),
+  ].filter(Boolean);
+}
+
+function getSuggestionArtist(song) {
+  return song.suggestionArtistString || song.displayArtist || song.artistString || song.artist || "";
+}
+
 function getMatchingSongs(value) {
   const query = normalizeGuess(value);
 
@@ -214,22 +233,14 @@ function getMatchingSongs(value) {
   const matches = [];
 
   songs.forEach((song) => {
-    const searchableValues = [
-      song.title,
-      song.artist,
-      song.artistString,
-      song.vocadbName,
-      ...(song.acceptedTitles || []),
-    ]
-      .filter(Boolean)
-      .map(normalizeGuess);
+    const searchableValues = getSongSearchValues(song).map(normalizeGuess);
 
     if (searchableValues.some((value) => value.includes(query))) {
       matches.push(song);
     }
   });
 
-  return matches.slice(0, 8);
+  return matches.slice(0, 12);
 }
 
 function getDailyPuzzle() {
@@ -628,7 +639,7 @@ function renderSuggestions() {
       (song, index) => `
         <li role="option" data-index="${index}" data-title="${escapeHtml(song.title)}">
           <span class="suggestion-title">${escapeHtml(song.title)}</span>
-          <span class="suggestion-artist"> - ${escapeHtml(song.artist)}</span>
+          <span class="suggestion-artist"> - ${escapeHtml(getSuggestionArtist(song))}</span>
         </li>
       `,
     )
@@ -674,7 +685,8 @@ function resetPlayButton() {
 function updateProgress(seconds = currentAudio?.currentTime || 0) {
   const unlockedLength = clipStages[state.clipStage] || clipStages[0];
   const visibleSeconds = Math.min(seconds, unlockedLength);
-  const percent = Math.max(0, Math.min((visibleSeconds / maxClipLength) * 100, 100));
+  const markerNudge = visibleSeconds > 0 ? 0.09 : 0;
+  const percent = Math.max(0, Math.min(((visibleSeconds + markerNudge) / maxClipLength) * 100, 100));
   document.documentElement.style.setProperty("--clip-progress", `${percent}%`);
 }
 

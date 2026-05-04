@@ -1,0 +1,120 @@
+{
+  "csvPath": "C:\\Users\\phung\\Downloads\\VocaDB IDs + YT URLs - Sheet1.csv",
+  "before": {
+    "idListCount": 495,
+    "songCount": 497,
+    "csvIdCount": 500,
+    "csvUniqueIdCount": 497
+  },
+  "after": {
+    "idListCount": 495,
+    "songCount": 495
+  },
+  "duplicateIdEntries": [],
+  "duplicateSongIds": [],
+  "csvDuplicateIds": [
+    {
+      "id": 4129,
+      "rows": [
+        101,
+        103
+      ]
+    },
+    {
+      "id": 8246,
+      "rows": [
+        251,
+        252
+      ]
+    },
+    {
+      "id": 306287,
+      "rows": [
+        351,
+        352
+      ]
+    }
+  ],
+  "missingFromCsv": [],
+  "csvMissingFromIdList": [
+    1949,
+    540085
+  ],
+  "csvStatusCounts": {
+    "OK": 500
+  },
+  "may5Preview": [
+    {
+      "date": "2026-05-05",
+      "vocadbId": 86961,
+      "title": "She Wants to Give Birth",
+      "artist": "MARETU"
+    },
+    {
+      "date": "2026-05-06",
+      "vocadbId": 36002,
+      "title": "Dance of the Dead",
+      "artist": "Kikuo"
+    },
+    {
+      "date": "2026-05-07",
+      "vocadbId": 603850,
+      "title": "M@GICAL☆CURE! LOVE ♥ SHOT! (Special Edition)",
+      "artist": "SAWTOWNE"
+    },
+    {
+      "date": "2026-05-08",
+      "vocadbId": 373,
+      "title": "Secret Police",
+      "artist": "BuriruP"
+    },
+    {
+      "date": "2026-05-09",
+      "vocadbId": 5191,
+      "title": "I'm Sorry, I'm Sorry",
+      "artist": "Kikuo"
+    },
+    {
+      "date": "2026-05-10",
+      "vocadbId": 11593,
+      "title": "shake it!",
+      "artist": "emon(Tes.)"
+    },
+    {
+      "date": "2026-05-11",
+      "vocadbId": 11219,
+      "title": "Six Trillion Years and Overnight Story",
+      "artist": "kemu"
+    },
+    {
+      "date": "2026-05-12",
+      "vocadbId": 232031,
+      "title": "Hyper Reality Show",
+      "artist": "Utsu-P"
+    },
+    {
+      "date": "2026-05-13",
+      "vocadbId": 121110,
+      "title": "Satisfaction",
+      "artist": "kz"
+    },
+    {
+      "date": "2026-05-14",
+      "vocadbId": 363931,
+      "title": "My Love is Hellfire",
+      "artist": "SLAVE.V-V-R"
+    },
+    {
+      "date": "2026-05-15",
+      "vocadbId": 79675,
+      "title": "Failure Girl",
+      "artist": "Kairiki bear"
+    },
+    {
+      "date": "2026-05-16",
+      "vocadbId": 2738,
+      "title": "Iroha Song",
+      "artist": "Ginsaku"
+    }
+  ]
+}
