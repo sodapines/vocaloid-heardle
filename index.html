@@ -15,6 +15,7 @@
     <link rel="icon" type="image/jpeg" href="favicon.jpg">
     <link rel="apple-touch-icon" href="favicon.jpg">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/7.2.3/css/flag-icons.min.css">
   </head>
   <body>
 
@@ -31,6 +32,10 @@
       <a class="nnd-logo" href="index.html">
         <span class="nnd-logo-mark">▶</span><span class="nnd-logo-text">VOCALOID<span class="nnd-logo-sub">Heardle</span></span>
       </a>
+      <div class="nnd-lang-switch">
+        <button class="lang-btn is-active" data-lang="en" type="button" title="English"><span class="fi fi-us"></span></button>
+        <button class="lang-btn" data-lang="jp" type="button" title="日本語"><span class="fi fi-jp"></span></button>
+      </div>
       <div class="nnd-header-links">
         <a href="#" data-modal-target="about">About</a>
         <span class="nnd-divider">|</span>
@@ -133,7 +138,7 @@
 
           <form class="guess-form" id="guess-form">
             <div class="guess-field">
-              <label for="guess-input">Song Title</label>
+              <label for="guess-input" id="guess-input-label">Song Title</label>
               <input
                 id="guess-input"
                 name="guess"
@@ -146,14 +151,14 @@
               <ul class="suggestion-list" id="suggestion-list" role="listbox" hidden></ul>
             </div>
             <div class="button-row">
-              <button type="submit">Submit</button>
+              <button type="submit"><span id="submit-button-text">Submit</span></button>
               <button class="secondary-button" id="skip-button" type="button">Skip</button>
             </div>
           </form>
           <button class="give-up-button secondary-button" id="give-up-button" type="button" hidden>Give Up</button>
 
           <button class="next-button" id="next-button" type="button" hidden>Next Song</button>
-          <button class="share-button secondary-button" id="share-button" type="button" hidden>Copy Result</button>
+          <button class="share-button secondary-button" id="share-button" type="button" hidden><span id="share-button-text">Copy Result</span></button>
           <textarea class="share-output" id="share-output" readonly hidden></textarea>
 
           <div class="guess-history" aria-live="polite">
@@ -170,21 +175,23 @@
         <div class="nnd-sidebar-box">
           <div class="nnd-sidebar-header" id="sb-mode-label">Daily Stats</div>
           <div class="nnd-sidebar-body">
-            <div class="sidebar-stat-row"><span>Played</span><strong id="sb-played">0</strong></div>
-            <div class="sidebar-stat-row"><span>Won</span><strong id="sb-won">0</strong></div>
-            <div class="sidebar-stat-row"><span>Win Rate</span><strong id="sb-rate">0%</strong></div>
-            <div class="sb-winrate-track"><div class="sb-winrate-fill" id="sb-winrate-bar"></div></div>
-            <div class="sidebar-stat-row" id="streak-row"><span>Streak</span><strong id="sb-streak">0</strong></div>
-            <div class="sidebar-stat-row"><span>Best Streak</span><strong id="sb-best">0</strong></div>
-            <div class="sidebar-stat-row"><span>Songs in pool</span><strong id="sb-total-songs">—</strong></div>
+            <div class="sidebar-stat-row"><span class="sb-played-label">Played</span><strong id="sb-played">0</strong></div>
+            <div class="sidebar-stat-row"><span class="sb-won-label">Won</span><strong id="sb-won">0</strong></div>
+            <div class="sidebar-stat-row has-bar">
+              <div class="stat-row-top"><span class="sb-winrate-label">Win Rate</span><strong id="sb-rate">0%</strong></div>
+              <div class="sb-winrate-track"><div class="sb-winrate-fill" id="sb-winrate-bar"></div></div>
+            </div>
+            <div class="sidebar-stat-row" id="streak-row"><span class="sb-streak-label">Streak</span><strong id="sb-streak">0</strong></div>
+            <div class="sidebar-stat-row"><span class="sb-best-label">Best Streak</span><strong id="sb-best">0</strong></div>
+            <div class="sidebar-stat-row"><span class="sb-total-label">Songs in pool</span><strong id="sb-total-songs">—</strong></div>
             <div class="sidebar-stat-divider"></div>
             <div class="sb-attempt-dots" id="sb-attempt-dots"></div>
-            <a href="#" data-modal-target="stats" class="sidebar-link">View full stats →</a>
+            <a href="#" data-modal-target="stats" class="sidebar-link full-stats">View full stats →</a>
           </div>
         </div>
 
         <div class="nnd-sidebar-box">
-          <div class="nnd-sidebar-header">How to Play</div>
+          <div class="nnd-sidebar-header sb-howtoplay-header">How to Play</div>
           <div class="nnd-sidebar-body nnd-sidebar-howto">
             <p><span class="how-num">1.</span> Press ▶ to hear the opening clip</p>
             <p><span class="how-num">2.</span> Type the song title and submit</p>
@@ -195,7 +202,7 @@
         </div>
 
         <div class="nnd-sidebar-box">
-          <div class="nnd-sidebar-header">Hall of Myths</div>
+          <div class="nnd-sidebar-header sb-hallofmyths-header">Hall of Myths</div>
           <div class="nnd-sidebar-body">
             <div class="sidebar-hof-item"><span class="hof-rank">1st</span><span class="hof-song">Senbonzakura</span><span class="hof-artist">Kurousa</span></div>
             <div class="sidebar-hof-item"><span class="hof-rank">2nd</span><span class="hof-song">I'll Make You Do the Miku Miku</span><span class="hof-artist">ika</span></div>
@@ -207,7 +214,7 @@
         </div>
 
         <div class="nnd-sidebar-box">
-          <div class="nnd-sidebar-header">Links</div>
+          <div class="nnd-sidebar-header sb-links-header">Links</div>
           <div class="nnd-sidebar-body">
             <a href="https://vocadb.net" target="_blank" class="sidebar-link">VocaDB ↗</a>
             <a href="https://nicovideo.jp" target="_blank" class="sidebar-link">NicoNico ↗</a>
@@ -365,6 +372,18 @@
           </div>
         </div>
 
+        <div class="settings-row" id="title-mode-row">
+          <div class="settings-info">
+            <span class="settings-label">Song Title Display</span>
+            <span class="settings-desc">How song titles appear in suggestions and history</span>
+          </div>
+          <div class="settings-multi">
+            <button class="settings-choice is-active" data-title-mode="en" type="button">EN</button>
+            <button class="settings-choice" data-title-mode="romaji" type="button">Romaji</button>
+            <button class="settings-choice" data-title-mode="jp" type="button">JP</button>
+          </div>
+        </div>
+
         <div class="settings-row">
           <div class="settings-info">
             <span class="settings-label">Clear Input on Wrong</span>
@@ -395,7 +414,10 @@
     <script src="app.js"></script>
     <script>
       const d = new Date();
-      document.getElementById('nnd-date').textContent = d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+      const lang = localStorage.getItem('vh-lang') || 'en';
+      document.getElementById('nnd-date').textContent = lang === 'jp'
+        ? new Intl.DateTimeFormat('ja-JP', { year: 'numeric', month: 'long', day: 'numeric' }).format(d)
+        : d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
     </script>
     <script src="settings.js"></script>
   </body>

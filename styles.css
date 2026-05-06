@@ -210,7 +210,8 @@ button, input, textarea { font: inherit; cursor: pointer; }
   padding: 5px 8px;
   background: var(--surface);
   border: 1px solid var(--line);
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  overflow: hidden;
 }
 .eyebrow {
   display: inline-block;
@@ -221,8 +222,8 @@ button, input, textarea { font: inherit; cursor: pointer; }
   font-weight: 700;
   flex-shrink: 0;
 }
-.intro-copy { color: var(--muted); font-size: 12px; }
-.mode-switch { display: flex; margin-left: auto; border: 1px solid var(--ls); }
+.intro-copy { color: var(--muted); font-size: 12px; flex-shrink: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.mode-switch { display: flex; margin-left: auto; border: 1px solid var(--ls); flex-shrink: 0; }
 .mode-button {
   min-height: 24px;
   height: 24px;
@@ -608,12 +609,15 @@ button:disabled { opacity: 0.5; cursor: not-allowed; }
 .sidebar-stat-row {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
   font-size: 11px;
   color: var(--muted);
   padding: 2px 0;
   border-bottom: 1px dotted var(--line);
 }
-.sidebar-stat-row strong { color: var(--red); font-weight: 700; }
+.sidebar-stat-row strong { color: var(--red); font-weight: 700; white-space: nowrap; flex-shrink: 0; }
+.sidebar-stat-row span { flex: 1; min-width: 0; }
 .sidebar-stat-divider { border-top: 1px solid var(--line); margin: 4px 0; }
 .sidebar-link {
   display: block;
@@ -1047,11 +1051,26 @@ body.no-autocomplete .suggestion-list { display: none !important; }
 }
 
 /* ── WIN RATE BAR ── */
+/* ── WIN RATE BAR ── */
+.sidebar-stat-row.has-bar {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 2px;
+}
+.sidebar-stat-row.has-bar .stat-row-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.sidebar-stat-row.has-bar .stat-row-top strong {
+  white-space: nowrap;
+  flex-shrink: 0;
+}
 .sb-winrate-track {
   width: 100%;
   height: 4px;
   background: var(--line);
-  margin: 2px 0 5px;
 }
 .sb-winrate-fill {
   height: 100%;
@@ -1266,3 +1285,60 @@ body.dark-mode .clip-note::before { background: #886600; border-right-color: #66
 
 body.dark-mode .nnd-mobile-settings a { background: var(--sf); border-color: var(--ls); color: var(--link); }
 body.dark-mode .nnd-mobile-settings a:hover { color: var(--red); }
+/* ── LANGUAGE TOGGLE ── */
+.nnd-lang-switch {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  margin-left: 10px;
+}
+.lang-btn {
+  background: linear-gradient(to bottom, #ffffff, #dddddd);
+  border: 1px solid var(--ls);
+  border-radius: 2px;
+  min-height: unset;
+  height: 16px;
+  width: 24px;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.9), 0 1px 2px rgba(0,0,0,0.2);
+  transition: none;
+  opacity: 0.55;
+  overflow: hidden;
+  position: relative;
+}
+.lang-btn .fi {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 1px;
+}
+/* glossy overlay */
+.lang-btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.45) 0%, rgba(255,255,255,0.1) 50%, rgba(0,0,0,0.05) 100%);
+  pointer-events: none;
+  border-radius: 1px;
+}
+.lang-btn:hover {
+  opacity: 0.85;
+  filter: none;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.9), 0 1px 3px rgba(0,0,0,0.3);
+}
+.lang-btn.is-active {
+  opacity: 1;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.5), 0 0 0 1px var(--red);
+}
+body.dark-mode .lang-btn {
+  border-color: #333333;
+  box-shadow: none;
+}
+body.dark-mode .lang-btn.is-active {
+  box-shadow: 0 0 0 1px var(--red);
+}

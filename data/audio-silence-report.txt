@@ -1,0 +1,670 @@
+VOCALOID Heardle Audio Silence Report
+Checked at: 2026-05-06T00:29:35.028Z
+Threshold: -45 dB RMS over 50ms windows
+Songs checked: 981
+Decode errors: 0
+
+Songs with no audible audio by clip length
+
+1s: 443
+  1501 - Rollin' Girl (wowaka feat. Hatsune Miku) first audible: 2.6
+  3022 - Meltdown (iroha(sasaki) feat. Kagamine Rin) first audible: 2.3
+  87458 - Meru (n-buna feat. Hatsune Miku) first audible: 1.4
+  18641 - GLIDE (niki feat. Lily) first audible: 1.95
+  217889 - Lucky☆Orb (emon(Tes.) feat. Hatsune Miku) first audible: 1.8
+  1416 - Hello/How are you? (nanou feat. Hatsune Miku) first audible: 5.55
+  185363 - ROKI (MikitoP feat. Kagamine Rin) first audible: 2
+  127412 - The Things I Deserve (GHOST feat. MAIKA) first audible: 5.5
+  379611 - Niccori^^ Survey Team Theme (JesusP, WONDERFUL★OPPORTUNITY! feat. Kagamine Rin, Kagamine Len) first audible: 1.35
+  8250 - Life Reset Button (kemu feat. GUMI) first audible: 1.25
+  251205 - Traffic Jam (NILFRUITS feat. flower) first audible: 1.5
+  197072 - The Cat's Dining Table (Kikuo feat. Hatsune Miku) first audible: 1.6
+  379 - Just Google It (AhmingP feat. Megurine Luka, Camui Gackpo) first audible: 1.75
+  55490 - Sad Machine (Porter Robinson feat. AVANNA) first audible: 2.05
+  23718 - Cantarella ~grace edition~ (KurousaP, Tatsuro Ariki feat. KAITO) first audible: 1.7
+  3155 - A Thousand-Year Solo (yanagiP feat. KAITO) first audible: 1.95
+  532518 - Volt Tackle (DECO*27, tepe, OTOIRO feat. Hatsune Miku) first audible: 1.25
+  462289 - The Good Child and the Fox Spirit (Kikuo feat. Qǐxuān) first audible: 1.7
+  2905 - Yellow (kz feat. Hatsune Miku) first audible: 6.05
+  96567 - The Real Disappearance of Hatsune Miku (cosMo@BousouP feat. GUMI) first audible: 1
+  131090 - Delusion Sentiment Compensation Federation (DECO*27, emon(Tes.) feat. Hatsune Miku) first audible: 2.2
+  5367 - Cyber Thunder Cider (EZFG feat. VY1) first audible: 1.2
+  15389 - Buoyant Colors (Kikuo feat. Tone Rion) first audible: 2.85
+  11502 - Assault Mirage (Nhato, Taishi feat. various) first audible: 1.1
+  550 - Hello, Worker (KEI feat. Megurine Luka) first audible: 2.1
+  199492 - Vocaloid Colosseum (DIVELA feat. Kagamine Rin) first audible: 2.2
+  392049 - Play With Fire (Camellia feat. Hatsune Miku) first audible: 2
+  70731 - Black Rain (regulus feat. Hatsune Miku) first audible: 1.65
+  152247 - Fixer (nulut feat. v flower) first audible: 1.35
+  125735 - LIAR DANCE (DECO*27, Naoki Itai feat. Hatsune Miku) first audible: 1.25
+  13086 - Love Dee (Mitchie M feat. Hatsune Miku, Megurine Luka) first audible: 1.8
+  8954 - Hope (Yuyoyuppe feat. Hatsune Miku) first audible: 1.35
+  100067 - My R (WADATAKEAKI feat. Hatsune Miku) first audible: 1.3
+  7042 - Shut Up with Your Complains! (OwataP feat. Hatsune Miku) first audible: 1.15
+  8678 - Rin-chan Now! (OwataP feat. Megurine Luka, Hatsune Miku) first audible: 1.9
+  113082 - The Living Ghost is Alive (Utsu-P feat. v flower) first audible: 1.75
+  146638 - Shut Uppp Love (YM feat. GUMI) first audible: 1.05
+  2925 - The Disappearance of Hatsune Miku -DEAD END- (cosMo@BousouP feat. Hatsune Miku) first audible: 1.2
+  3312 - The Snow White Princess is (Noboru feat. Hatsune Miku) first audible: 1.65
+  11818 - Sweet Magic (Junky feat. Kagamine Rin) first audible: 1.55
+  257182 - Ultimate Senpai (PinocchioP feat. Hatsune Miku) first audible: 1.65
+  198286 - Hole-Dwelling (Kikuo feat. Hatsune Miku) first audible: 0.9
+  629634 - My Head Hurts (Eipu feat. Kasane Teto) first audible: 1.1
+  365108 - Lower one's eyes (nulut feat. flower) first audible: 1.1
+  28150 - Pink Stick Luv (Giga, Ore BananaP feat. Kagamine Len, Kagamine Rin) first audible: 1.75
+  47354 - Love! Snow! Really Magic (Mitchie M feat. Hatsune Miku) first audible: 1.3
+  1320 - Love is War (ryo, supercell feat. Hatsune Miku) first audible: 0.5
+  121112 - The Name of the Sin (ryo feat. Hatsune Miku) first audible: 1.25
+  276128 - Step for a Crescent (r-906 feat. Hatsune Miku) first audible: 1.05
+  278747 - The World Hasn’t Even Started Yet (PinocchioP feat. Hatsune Miku) first audible: 1.1
+  1828 - Strobe Light (siinamota feat. Hatsune Miku) first audible: 2.05
+  230 - Mr.Music (rerulili feat. various) first audible: 1
+  356951 - Unique Parade (Utsu-P feat. Hatsune Miku) first audible: 1.65
+  57096 - Miss Wanna-Die (Switch feat. IA) first audible: 1.65
+  173 - ↑Game of Life↓ (Yuzuhiko feat. Hatsune Miku) first audible: 1.7
+  194055 - Airhead (Picon feat. Hatsune Miku) first audible: 1.3
+  128135 - I Can't Stand All These Deaf Boys! (LamazeP feat. Kagamine Rin) first audible: 1.55
+  124258 - Deja Vu (CircusP, STUDIO GUIANA feat. Hatsune Miku, Megurine Luka) first audible: 6.4
+  584100 - Awoo (Kuriyama Yuri, Koh Hashikura feat. Hatsune Miku, MEIKO) first audible: 4.85
+  20 - World's End Dancehall (wowaka feat. Hatsune Miku, Megurine Luka) first audible: 3.35
+  1119 - Palette (Yuyoyuppe, meola feat. Megurine Luka) first audible: 3.5
+  666063 - Write over me (iyowa feat. Hatsune Miku, Hanakuma Chifuyu) first audible: 1.85
+  239903 - Propaganda! (Crusher feat. Hatsune Miku) first audible: 5
+  4980 - Leia (Yuyoyuppe feat. Megurine Luka) first audible: 1.3
+  6153 - Baloney Speaker (Sasanomaly feat. Hatsune Miku) first audible: 2.05
+  441046 - Anuria. (ceresP feat. Hatsune Miku, Kagamine Rin, Megurine Luka) first audible: 3.3
+  224386 - Alice in N.Y. (HitoshizukuP, yama△ feat. various) first audible: 1.7
+  215140 - Jigsaw Puzzle (Mafumafu feat. Kagamine Len) first audible: 1.4
+  11219 - Six Trillion Years and Overnight Story (kemu feat. IA) first audible: 1.65
+  130889 - Fragile (nulut feat. GUMI) first audible: 1.9
+  7234 - RIP=RELEASE (Minato Takahiro feat. Megurine Luka) first audible: 2.2
+  37948 - A Fake, Fake Psychotropic (Kairiki bear feat. GUMI) first audible: 1.75
+  4715 - Pinky Promise (scop feat. Hatsune Miku) first audible: 1.2
+  1617 - For a Dead Girl+ (Yuyoyuppe feat. Megurine Luka) first audible: 1.7
+  12283 - Alice in Musicland (OSTER project feat. various) first audible: 8.35
+  10575 - CANDY CANDY (Giga, Ore BananaP feat. GUMI) first audible: 1.85
+  563462 - Mayonnaise fried chicken (Nunununununununununununununununu feat. various) first audible: 1.2
+  784586 - Irregular Man (Masarada feat. Kasane Teto) first audible: 1.75
+  12322 - Strangers (Heavenz feat. Hatsune Miku) first audible: 1.5
+  21818 - Indulging: Idol Syndrome (Suzumu, Giga feat. MAYU, GUMI) first audible: 1.3
+  1268 - Coward Mont Blanc (DECO*27 feat. GUMI) first audible: 3.5
+  104783 - R.I.P. Sea of Gossip (cosMo@BousouP feat. GUMI) first audible: 1.1
+  273981 - Kisaragi Station (x0o0x_ feat. Hatsune Miku, v flower) first audible: 0.8
+  2734 - melody... (mikuru396 feat. Hatsune Miku) first audible: 1.7
+  5833 - Clover♣Club (Yuuyu feat. Hatsune Miku) first audible: 0.7
+  368 - Matryoshka (HACHI feat. Hatsune Miku, GUMI) first audible: 1.2
+  1354 - Time Machine (40mP, 1640mP feat. Hatsune Miku) first audible: 1.45
+  276642 - Becoming Potatoes (Neru feat. Kagamine Len, Kagamine Rin) first audible: 0.95
+  54619 - Milk Crown on Sonechka (yuzy feat. Hatsune Miku) first audible: 1.9
+  16589 - lllToluthin Antennalll (LettuceP, Giga, Ore BananaP feat. Kagamine Len) first audible: 1.75
+  47510 - Sincerity: Drastic Treatment for Pretended Innocence (Suzumu, Ore BananaP feat. Kagamine Len, Kagamine Rin) first audible: 1.3
+  149842 - secret (Ryuuuu feat. Megurine Luka) first audible: 2.15
+  186227 - flos (R Sound Design feat. Hatsune Miku) first audible: 1
+  221277 - Bitter Choco Decoration (syudou feat. Hatsune Miku) first audible: 1.4
+  691882 - FUEL (Utsu-P feat. Hatsune Miku) first audible: 1.05
+  324306 - Hmm-Ah-Ah. (SLAVE.V-V-R feat. Hatsune Miku) first audible: 1.2
+  3024 - Change me (shu-t feat. MEIKO) first audible: 1.55
+  1500 - Unhappy Refrain (wowaka feat. Hatsune Miku) first audible: 1.1
+  598030 - Rookie (DECO*27, Hayato Yamamoto, OTOIRO feat. Hatsune Miku) first audible: 1.2
+  171132 - It'd Be Good If I Could Fly! (Guity feat. Megurine Luka) first audible: 2.3
+  111480 - Now Is the Time to Make a Song! (LamazeP feat. various) first audible: 1.6
+  2920 - Colorful×Melody (doriko, OSTER project, Team MOER feat. Hatsune Miku, Kagamine Rin) first audible: 3.55
+  575526 - MISS MISERYGUTS (R.I.P feat. Tsuina-chan) first audible: 10
+  178178 - Vampire’s ∞ pathoS ~Vampire and Sister~ (HitoshizukuP, yama△, Hitoshizuku×Yama△ feat. Kagamine Len) first audible: 1.85
+  11877 - VOiCE (lovelyP feat. Hatsune Miku) first audible: 1.2
+  12754 - A Happy Death (Kikuo feat. Hatsune Miku) first audible: 1.85
+  1288 - Paranoid Doll (Various artists) first audible: 2.15
+  9538 - Interviewer (Stag BeetleP feat. Megurine Luka) first audible: 3.8
+  174024 - Protodisco (nulut feat. v flower) first audible: 1.75
+  13615 - The Earth's Final Confession (kemu feat. GUMI) first audible: 2.95
+  773406 - Affection Addiction (KAT, Aku P, ryutsu feat. POPY) first audible: 4.95
+  8160 - Rubik's Cube (Nanahoshi Orchestra feat. Hatsune Miku) first audible: 1.45
+  299484 - Jackpot Sad Girl (syudou feat. Hatsune Miku) first audible: 1.35
+  304790 - Highlight (KIRA feat. Hatsune Miku) first audible: 2.45
+  23473 - Transparent Elegy (n-buna feat. GUMI) first audible: 1.15
+  1250 - IMITATION BLACK (natsuP, SCL Project feat. various) first audible: 1.25
+  289794 - The Iron Maiden and the Dreamy Princess (Joruzin feat. Kagamine Rin) first audible: 1.1
+  133356 - Star of the Show (GHOST feat. Macne Nana) first audible: 4.35
+  21757 - Q (siinamota feat. Kagamine Rin) first audible: 1
+  123584 - Cynic (Police Piccadilly feat. Yamine Renri) first audible: 1.25
+  2356 - A Born Coward (164 feat. GUMI) first audible: 4.05
+  82 - Black Gold (otetsu feat. Megurine Luka) first audible: 1.95
+  11378 - Banshee Strikes (kiichi feat. Hatsune Miku) first audible: 1.15
+  349763 - Kyu-kurarin (iyowa feat. KAFU) first audible: 2.2
+  60953 - drop pop candy (Giga feat. Kagamine Rin, Megurine Luka) first audible: 1.85
+  555 - Tokyo Teddy Bear (Neru, Ore BananaP feat. Kagamine Rin) first audible: 1.2
+  337578 - phony (Tsumiki feat. KAFU) first audible: 0.7
+  191838 - METEOR (DIVELA feat. Hatsune Miku) first audible: 1.5
+  262740 - Ghost City Tokyo (Ayase feat. Hatsune Miku) first audible: 1.55
+  18091 - hp (nakano4 feat. Sekka Yufu) first audible: 0.05
+  1612 - Gift from the Princess who Brought Sleep (mothy feat. Hatsune Miku) first audible: 1.25
+  523075 - Heavenly You (LonePi feat. Reml) first audible: 1.65
+  112693 - O Light (Kikuo feat. Hatsune Miku) first audible: 1.05
+  49755 - LUVORATORRRRRY! (Giga, Reol feat. Kagamine Rin, GUMI) first audible: 1.8
+  467610 - (Not) A Devil (Various artists) first audible: 1.1
+  234901 - Bless Your Breath (WADATAKEAKI feat. Hatsune Miku) first audible: 2.85
+  153133 - Nobody Makes Sense (PinocchioP feat. Hatsune Miku) first audible: 1.8
+  495819 - Hymn to the Decadent Life (Ro2noki feat. Kasane Teto) first audible: 1.85
+  404329 - 🔪、🔪、🔪 (Kikuo feat. Hatsune Miku) first audible: 1.05
+  1137 - Wanna Die (Nashimoto Ui feat. Hatsune Miku) first audible: 2.55
+  294412 - Newly Edgy Idols (Mitchie M feat. various) first audible: 0.95
+  474393 - Flowers Scattered by Winds (balloon feat. Hatsune Miku) first audible: 1.6
+  34 - Poker Face (YuchaP feat. GUMI) first audible: 1.35
+  29524 - Dance of Two People at the Edge of the World (Hondou Shouta feat. Hatsune Miku) first audible: 2
+  2915 - Electric Angel (yasuo feat. Hatsune Miku) first audible: 1.2
+  22869 - Crescent Moon (KurousaP feat. KAITO) first audible: 2.9
+  552563 - Ultra Trailer (Masarada feat. Kasane Teto) first audible: 1.95
+  4176 - Mischievous Function (GojimajiP feat. Kasane Teto) first audible: 1
+  293881 - GETCHA! (Giga, KIRA feat. various) first audible: 0.95
+  610187 - Mesmerizer (32ki feat. Hatsune Miku, Kasane Teto) first audible: 1.3
+  13883 - Francium (kiichi feat. Hatsune Miku) first audible: 1.35
+  150952 - Imperial Girl (R Sound Design feat. Hatsune Miku) first audible: 2.05
+  251475 - Assassin Princess (Mitchie M feat. Hatsune Miku) first audible: 1.1
+  10018 - paranoia (tuna maru feat. Hatsune Miku) first audible: 1.6
+  364491 - oyasumination (ippo.tsk feat. Eleanor Forte) first audible: 1.15
+  51233 - I Hate Sailor Uniforms (JinseiP feat. Nekomura Iroha) first audible: 1.1
+  294035 - Neroism (Kairiki bear feat. Meika Mikoto) first audible: 1.35
+  186 - Sunset Love Suicide (Machigerita feat. GUMI) first audible: 10.4
+  402883 - You (Kairiki bear feat. flower) first audible: 1.2
+  518889 - Self Proclaimed Angel (KAT, ryutsu feat. Tsurumaki Maki) first audible: 1.9
+  1502 - Doll of Building Blocks (wowaka feat. Hatsune Miku) first audible: 1.3
+  1032 - Romeo and Cinderella (doriko feat. Hatsune Miku) first audible: 1.3
+  398 - Circle You, Circle You (Kamiyanagi feat. Hatsune Miku, Megurine Luka) first audible: 1.25
+  460547 - Psi (r-906 feat. Hatsune Miku) first audible: 1.4
+  1573 - Humorous Dream of Mrs. Pumpkin (HACHI feat. Hatsune Miku) first audible: 1.05
+  168180 - Appetite of a People​-​Pleaser (GHOST feat. flower) first audible: 5.7
+  13339 - -ERROR (niki feat. Lily) first audible: 2.55
+  1797 - glow (keeno feat. Hatsune Miku) first audible: 1.1
+  8242 - I Wish They'd Just Die (dBu Usagi feat. KAITO) first audible: 1.1
+  225814 - Wozwald (NILFRUITS feat. flower) first audible: 3.7
+  869388 - Looping the Rooms (rusino feat. Hatsune Miku) first audible: 1.9
+  1363 - Clockwork Clown (40mP feat. Hatsune Miku) first audible: 0.95
+  5800 - Ashes to Ashes (tennen feat. KAITO) first audible: 2.2
+  7319 - 1925 (T-POCKET, FujidouYayoi feat. Hatsune Miku) first audible: 2.95
+  497009 - CIRCUS PANIC!!! (32ki feat. Hatsune Miku) first audible: 1.75
+  121935 - Whimsical Mercy (HachioujiP feat. Hatsune Miku) first audible: 3.55
+  22539 - World Domination How-To (Neru feat. Kagamine Len, Kagamine Rin) first audible: 1.65
+  68814 - ECHO (Crusher, CIRCRUSH feat. GUMI) first audible: 8
+  47401 - Dreamin Chuchu (emon(Tes.) feat. Megurine Luka) first audible: 1.85
+  1359 - Urbandonment (40mP feat. Hatsune Miku) first audible: 1.8
+  33115 - Street girl (Nashimoto Ui feat. Hatsune Miku) first audible: 1.7
+  145258 - Monologue (MARETU feat. Hatsune Miku) first audible: 1.8
+  1590 - The princess of Lucifer (mothy feat. Kagamine Rin) first audible: 2.15
+  66265 - With an Unblurred Eye (Mitchie M feat. Hatsune Miku) first audible: 1.45
+  1057 - Depression of Cybernetics (otetsu feat. Megurine Luka) first audible: 1.6
+  127519 - Thank You Music! (MikitoP feat. Hatsune Miku) first audible: 2.15
+  414247 - ♂♀♂♂♀♂♀ (MARETU feat. Hatsune Miku) first audible: 1.5
+  471623 - Singing of Love (MakarafaP feat. Megurine Luka) first audible: 2.45
+  9194 - Life Cheating Game (kemu feat. GUMI) first audible: 2.35
+  2980 - Samsara (HACHI feat. Hatsune Miku) first audible: 2
+  59045 - Undead Enemy (Suzumu, Giga feat. Kagamine Rin) first audible: 1.5
+  7839 - VOC@LOID in Love (OSTER project feat. Hatsune Miku) first audible: 2.35
+  1326 - World is Mine (ryo, supercell feat. Hatsune Miku) first audible: 1.45
+  401491 - At the Mercy (r-906 feat. Hatsune Miku) first audible: 0.95
+  173242 - Lemming Ming (Kairiki bear feat. v flower) first audible: 0.95
+  28153 - Splatter Party (Camellia feat. Hatsune Miku) first audible: 6
+  129187 - Blessed Messiah and the Tower of AI (Various artists) first audible: 5.15
+  197929 - Ghost Girl (MikitoP feat. Hatsune Miku) first audible: 2.4
+  3254 - THE WANDERLAST (sasakure.UK feat. Megurine Luka) first audible: 3.8
+  203445 - Additional Memory (JIN, Gussy, Sakana feat. Hatsune Miku) first audible: 1.3
+  8693 - PONPONPON (Giga, Ore BananaP feat. Kagamine Len) first audible: 1.65
+  540081 - Zero Talking (Harumaki Gohan feat. Hatsune Miku) first audible: 1.35
+  12285 - AaAaAaAAaAaAAa (Nashimoto Ui feat. Hatsune Miku) first audible: 1.2
+  363931 - My Love is Hellfire (SLAVE.V-V-R feat. MEIKO) first audible: 1.2
+  495666 - The Peachy Key (iyowa feat. Hatsune Miku) first audible: 1.25
+  372 - Antichlorobenzene (OwataP feat. Kagamine Rin) first audible: 1
+  125064 - Copycat (CircusP feat. GUMI) first audible: 4.55
+  52926 - Let's Say the P Names! (MARETU feat. Hatsune Miku) first audible: 2.35
+  87021 - News 39 (Mitchie M feat. Hatsune Miku) first audible: 0.85
+  438630 - Meddlesome person (BELLINI feat. Hatsune Miku) first audible: 2.3
+  72052 - Jekyll & Hyde (EruP, FantasticPlanets feat. Hatsune Miku, IA) first audible: 1.7
+  29183 - Idola Circus (Neru feat. Kagamine Rin) first audible: 1.35
+  306287 - living millennium (iyowa feat. Hatsune Miku) first audible: 1.4
+  588696 - Dizzy Paranoia Girl (KAT, ryutsu feat. Kasane Teto) first audible: 1.6
+  3658 - Miracle Paint (OSTER project feat. Hatsune Miku) first audible: 0.75
+  4982 - Abstract Nonsense (Neru feat. Kagamine Rin) first audible: 1.2
+  125414 - INFLUENCER IS DEAD (JesusP feat. Kagamine Rin, Kagamine Len) first audible: 1.25
+  286106 - Underachieving Lover (Kairiki bear feat. Kagamine Rin) first audible: 1.25
+  25899 - Ayano's Theory of Happiness (JIN, Nakanishi Ryousuke feat. IA) first audible: 1.5
+  113086 - People Allergy (Kairiki bear feat. flower) first audible: 2.65
+  28500 - Electric Paradigm (lumo, Project DIVA Channel feat. Hatsune Miku) first audible: 5
+  2823 - Rotten Girl Grotesque Romance (Machigerita feat. Hatsune Miku) first audible: 7.75
+  195220 - Hello Dystopia (Mafumafu feat. Kagamine Len, Kagamine Rin) first audible: 1.25
+  680923 - DONUT HOLE 2024 (HACHI feat. GUMI) first audible: 1.4
+  1381 - Mozaik Role (DECO*27 feat. GUMI) first audible: 1.4
+  709707 - Mimukauwa Nice Try (Nunununununununununununununununu feat. Hatsune Miku) first audible: 1.7
+  4269 - ANTI THE∞HOLiC (cosMo@BousouP feat. Megurine Luka, Kagamine Rin) first audible: 1.65
+  344272 - Beat Eater (Police Piccadilly feat. Hatsune Miku) first audible: 1.5
+  18355 - MOTHER (Machigerita feat. Hatsune Miku) first audible: 1.7
+  126849 - Exorcism (Creep-P, Prismatic feat. CYBER DIVA) first audible: 2.65
+  140751 - Alkali Underachiever (Kairiki bear feat. Hatsune Miku) first audible: 1.55
+  10515 - Love Love Nightmare (kiichi feat. Hatsune Miku) first audible: 2.9
+  11073 - Deep Sea City Underground (tanakaB feat. Kagamine Rin) first audible: 1.1
+  293286 - Darling Dance (Kairiki bear feat. Hatsune Miku) first audible: 1.5
+  8215 - The Intense Voice of Hatsune Miku (LONG VERSION) (cosMo@BousouP, Storyteller feat. Hatsune Miku) first audible: 1.1
+  436989 - Stacy (Yamadakkk feat. Hatsune Miku) first audible: 2.75
+  18083 - End of Solitude (Hikari Syuyo feat. Kagamine Rin) first audible: 1.3
+  13340 - +REVERSE (niki feat. Lily) first audible: 1.75
+  65861 - Night Sky Patrol of Tomorrow (Orangestar feat. IA) first audible: 1.15
+  2607 - DYE (AVTechNO! feat. Megurine Luka) first audible: 0.8
+  260566 - Magical Doctor (MARETU feat. Hatsune Miku) first audible: 1.5
+  4698 - Hatsune Miku's Head Exercises (hapi⇒ feat. Hatsune Miku) first audible: 2.1
+  2241 - Star Fragment (Eiji Hirasawa feat. Hatsune Miku) first audible: 4.1
+  4318 - Alice of Human Sacrifice (YugamiP feat. various) first audible: 1.4
+  12443 - ONLINE GAME ADDICTS SPRECHCHOR (Satsuki ga Tenkomori feat. Hatsune Miku) first audible: 0.85
+  150978 - Rain and Petra (balloon feat. v flower) first audible: 1
+  2655 - Chain Girl (Noboru feat. Hatsune Miku) first audible: 1.15
+  8241 - Pair of Wintry Winds (hinayukki feat. KAITO, MEIKO) first audible: 1.3
+  12518 - Kisaragi Attention (JIN feat. IA) first audible: 5.7
+  8877 - Dust Dust Curse (Kikuo feat. IA) first audible: 4.7
+  156001 - Dreamless Dreams (Harumaki Gohan feat. Hatsune Miku) first audible: 2.35
+  62650 - Ballerina Girl (MikitoP feat. GUMI) first audible: 1.2
+  13981 - Candy Addict Full Course (Machigerita feat. Hatsune Miku) first audible: 3.2
+  44190 - Kiddie War (Giga feat. Kagamine Len, Kagamine Rin) first audible: 1.45
+  492234 - SUSHI-GO-ROUND (Utsu-P feat. ROSE) first audible: 0.85
+  153750 - Hate Girl (Kairiki bear feat. Hatsune Miku) first audible: 1.2
+  696145 - Obsolete Meat (32ki feat. Hatsune Miku, Kasane Teto) first audible: 1.5
+  9424 - Romantic Hero (Last Note., Last Note. T, LasNo feat. GUMI) first audible: 1
+  2922 - StargazeR (KotsBeirne feat. Hatsune Miku) first audible: 2.25
+  86800 - A Sardine Grows from the Soil (Koronba feat. Kasane Teto) first audible: 3.5
+  137139 - Amygdala's Rag Doll (GHOST feat. Oliver) first audible: 5.05
+  231975 - Emptiness, Emptiness, Emptiness of Emptiness (Kikuo feat. Hatsune Miku) first audible: 1.8
+  363570 - apricot (iyowa feat. Hatsune Miku) first audible: 1.35
+  239350 - Soap (Kuriyama Yuri, Koh Hashikura feat. Hatsune Miku) first audible: 3.85
+  2904 - Look this Way, Baby (ryo feat. Hatsune Miku) first audible: 2.4
+  9035 - Piano×Forte×Scandal (OSTER project feat. MEIKO) first audible: 1.9
+  696211 - A Spoonful of SPELL (r-906 feat. Hatsune Miku) first audible: 1.4
+  303535 - Go To The Big City (Tsukiri, Niang Donglong feat. GUMI) first audible: 1.9
+  2738 - Iroha Song (Ginsaku feat. Kagamine Rin) first audible: 1.65
+  183095 - Merry Bad End (Mafumafu feat. various) first audible: 2.25
+  9029 - Suicide Melody (Nashimoto Ui feat. Hatsune Miku) first audible: 1
+  471300 - Here Comes Ryukka! (MakarafaP feat. Megurine Luka) first audible: 2.65
+  12476 - Irony (scop feat. Hatsune Miku) first audible: 2
+  5364 - FREELY TOMORROW (Mitchie M feat. Hatsune Miku) first audible: 3.7
+  626191 - ●utlaws (Masarada feat. Kasane Teto) first audible: 1.75
+  2651 - Monochrome∞Blue Sky (Noboru feat. Hatsune Miku) first audible: 3.55
+  1723 - ARiA (tokuP feat. Hatsune Miku) first audible: 1.1
+  24039 - A Female Ninja, but I Want to Love (MikitoP feat. Hatsune Miku, Kagamine Rin) first audible: 1.3
+  5244 - Our 16bit Wars (sasakure.UK feat. GUMI) first audible: 3.25
+  2251 - Adolescence (Dios/SignalP feat. Kagamine Rin, Kagamine Len) first audible: 1.15
+  8809 - Heart Democracy (MikitoP feat. Hatsune Miku) first audible: 5.2
+  101264 - Who am I? (Hondou Shouta feat. Hatsune Miku) first audible: 1.8
+  3478 - Dear (19's Sound Factory feat. Hatsune Miku) first audible: 2.9
+  3177 - Happy Synthesizer (EasyPop feat. Megurine Luka, GUMI) first audible: 1.7
+  250379 - Honey I'm Home (GHOST feat. DEX) first audible: 5.15
+  8682 - Bad ∞ End ∞ Night (HitoshizukuP, yama△ feat. various) first audible: 1.05
+  1275 - Dancing☆Samurai (mathru feat. Camui Gackpo) first audible: 1.1
+  1327 - When First Love Ends (ryo feat. Hatsune Miku) first audible: 0.7
+  42676 - DONUT HOLE (HACHI feat. GUMI) first audible: 3.9
+  28646 - Outer Science (JIN feat. IA) first audible: 1.25
+  361709 - 4BLOOD (KIRA feat. Hatsune Miku) first audible: 1.25
+  520007 - Humaniac (Sasuke Haraguchi feat. Kasane Teto) first audible: 1.6
+  8601 - DoReMiFa Rondo (40mP feat. Hatsune Miku) first audible: 1.95
+  8251 - Invisible (kemu feat. GUMI, Kagamine Rin) first audible: 1.15
+  7922 - Reverse Rainbow (sunzriverP feat. Kagamine Rin, Hatsune Miku) first audible: 2.75
+  13351 - Common World Domination (PinocchioP feat. Hatsune Miku) first audible: 1.05
+  1506 - Shall Not Pass (wowaka feat. Hatsune Miku) first audible: 1.3
+  188906 - YOZURINA (PinocchioP feat. Hatsune Miku) first audible: 3.05
+  158222 - Dear Doppelganger (kemu, Ore BananaP feat. GUMI) first audible: 3.15
+  476100 - Anonymous M (PinocchioP feat. ARuFa, Hatsune Miku) first audible: 1
+  4178 - Li-Li-Li-Li, I Like You, I Love You (JevanniP feat. Kagamine Rin) first audible: 1.85
+  50703 - Blessing (halyosy feat. various) first audible: 1.1
+  106 - Circus Monster (CircusP feat. Megurine Luka) first audible: 1.8
+  600885 - Language of the Lost (R.I.P feat. Kasane Teto) first audible: 8.1
+  1503 - My Talent (wowaka feat. Hatsune Miku) first audible: 1.35
+  38916 - Delusion Tax (DECO*27, kous feat. Hatsune Miku) first audible: 1.7
+  390 - Scissorsloid (Kamiyanagi feat. Hatsune Miku, Megurine Luka) first audible: 1.4
+  505908 - SONG of MEAT (nagimiso feat. Hatsune Miku, Female Voice 1) first audible: 1.15
+  58632 - Patchwork Staccato (Toa feat. Hatsune Miku) first audible: 1.8
+  340769 - Casino (Azari feat. flower) first audible: 0.75
+  424792 - My Bread was Burnt to a Crisp! (picdo feat. Adachi Rei) first audible: 1.3
+  331459 - IDSMILE (Toa feat. Hatsune Miku, Kagamine Rin) first audible: 1.4
+  12136 - Wind-Up God (kemu feat. GUMI) first audible: 5.85
+  1508 - Two-Sided Lovers (wowaka feat. Hatsune Miku) first audible: 3.15
+  189757 - THE END OF HATSUNE MIKU (cosMo@BousouP feat. Hatsune Miku) first audible: 1.6
+  8811 - Sayoko (MikitoP feat. Hatsune Miku) first audible: 1.6
+  9032 - Bacterial Contamination (mathru feat. Hatsune Miku) first audible: 1.15
+  265018 - Theory of Negativity (DECO*27, Rockwell, OTOIRO feat. Hatsune Miku) first audible: 1.2
+  807725 - Freesia (ex-Dr. WILLY feat. Megurine Luka) first audible: 1.75
+  133 - Ten-Faced (YM feat. GUMI) first audible: 1.7
+  237486 - Suicidal Girl (DaijoubuP feat. Hatsune Miku) first audible: 2.35
+  333949 - NULL (Utsu-P feat. Hatsune Miku) first audible: 1.3
+  2443 - Last Night, Good Night (kz feat. Hatsune Miku) first audible: 1
+  8739 - Love-Hate (Gom, HoneyWorks feat. Kagamine Rin, Kagamine Len) first audible: 0.35
+  187408 - SNOBBISM (Neru feat. Kagamine Len, Kagamine Rin) first audible: 3.45
+  62687 - Last Continue (PinocchioP feat. Hatsune Miku) first audible: 1.75
+  327805 - ATARI FRONT PROGRAM (Utsu-P feat. KAFU) first audible: 1.4
+  17673 - Pomp and Circumstance (Umetora feat. various) first audible: 1.35
+  19094 - Lost One's Weeping (Neru feat. Kagamine Rin) first audible: 1.5
+  17492 - Chain (Minatsuki Toka feat. Sukone Tei) first audible: 2.3
+  525 - Sky Fish (siinamota feat. Hatsune Miku) first audible: 2.4
+  199952 - Akari Has Arrived (GYARI feat. Kizuna Akari) first audible: 1.25
+  63067 - Dance in Absolute Music (Utsu-P feat. v flower) first audible: 1.7
+  483406 - A Thousand Light Years (iyowa feat. various) first audible: 2.45
+  207152 - Gauze (NILFRUITS feat. flower) first audible: 1.55
+  63276 - Resonate (Giga feat. Hatsune Miku) first audible: 2.3
+  8204 - Flutter, Flutter (TamazP feat. Hatsune Miku) first audible: 2.3
+  63660 - EveR ∞ LastinG ∞ NighT (HitoshizukuP, yama△ feat. various) first audible: 0.8
+  10767 - White Letter (GonGoss feat. Hatsune Miku) first audible: 1.65
+  46018 - ELECT (niki feat. Lily) first audible: 1.85
+  210407 - Leia - Remind (Yuyoyuppe feat. Megurine Luka) first audible: 1.25
+  471347 - Iron Velvet (MakarafaP feat. Megurine Luka) first audible: 1.35
+  616868 - All I Can See Is You (r-906 feat. Hatsune Miku) first audible: 1.6
+  48029 - Streaming Heart (DECO*27, kous feat. Hatsune Miku) first audible: 1.2
+  22102 - Twilight ∞ nighT (HitoshizukuP, yama△ feat. various) first audible: 3.2
+  46115 - Somehow (ChouchouP feat. GUMI) first audible: 1.4
+  18841 - Reboot (JimmyThumbP feat. Megurine Luka, Hatsune Miku, Samune Zimi) first audible: 1.65
+  2716 - Hm? Ah, Yes. (ChouchouP feat. Hatsune Miku) first audible: 1.25
+  1932 - Doubleganger (KulfiQ feat. Kagamine Rin, Hatsune Miku) first audible: 1.35
+  8093 - Gemini (Dixie Flatline feat. Kagamine Rin, Kagamine Len) first audible: 4
+  500571 - Daitankei (dronemania feat. Hatsune Miku) first audible: 1.8
+  278267 - Goodbye Declaration (Chinozo feat. v flower) first audible: 1.15
+  393661 - Astral Travel (Kikuo feat. Hatsune Miku) first audible: 2.2
+  2757 - Kasane territory ~ It's Teto's Turn Forever (Riot feat. Kasane Teto) first audible: 1.65
+  186877 - Greenlights Serenade (Kimura, Sakurai, Omoi feat. Hatsune Miku) first audible: 1.45
+  9732 - Virgo (kiichi feat. Megurine Luka) first audible: 1.8
+  1830 - Astronauts (siinamota feat. Hatsune Miku) first audible: 3.8
+  3387 - Remote Control (JesusP, WONDERFUL★OPPORTUNITY! feat. Kagamine Rin, Kagamine Len) first audible: 0.95
+  8394 - A Thousand Cherry Blossoms (KurousaP feat. Hatsune Miku) first audible: 1.45
+  42733 - Love Song (LamazeP feat. Hatsune Miku) first audible: 1.35
+  15691 - The Celestial Fox (marasy feat. Kagamine Rin) first audible: 2
+  12908 - Reon (Yuyoyuppe feat. Megurine Luka) first audible: 5.35
+  1516 - SPiCa (tokuP feat. Hatsune Miku) first audible: 1.4
+  49871 - Tale of the Deep-Sea Lily (n-buna feat. Hatsune Miku) first audible: 2.05
+  49455 - Heart Chrome (HachioujiP feat. anon, kanon) first audible: 2.3
+  396029 - Letter to the Black World (Frog96 feat. Kasane Teto) first audible: 1.3
+  1509 - In the Gray Zone. (wowaka feat. Hatsune Miku) first audible: 1.55
+  49751 - Gothic and Loneliness (Narushima Takashi feat. Kagamine Rin) first audible: 1.55
+  293251 - Orthodoxia (Guchiry feat. Otomachi Una, Kagamine Len) first audible: 1.05
+  32854 - Your Adventure Log Has Vanished! (JesusP feat. Kagamine Rin, Kagamine Len) first audible: 1.4
+  68091 - Nice to Meet You, Mr. Earthling (PinocchioP feat. Hatsune Miku) first audible: 1.45
+  179162 - Akane chan Will Listen to Whatever You Have to Say (GYARI feat. Kotonoha Akane, Yuzuki Yukari) first audible: 1.55
+  1125 - When Swindlers Start Laughing Out (Nashimoto Ui feat. Hatsune Miku) first audible: 2.2
+  15981 - Masked bitcH (Giga feat. GUMI) first audible: 1.95
+  3636 - Dream-Eating Monochrome Baku (Nem feat. Kagamine Len) first audible: 1.95
+  62525 - Imperfect Animals (Utsu-P feat. Kagamine Rin, GUMI) first audible: 0.05
+  47470 - Mono Poisoner (DECO*27, kous feat. Hatsune Miku) first audible: 2.05
+  343868 - Hatsune Creation Myth (cosMo@BousouP feat. Hatsune Miku) first audible: 1.2
+  232031 - Hyper Reality Show (Utsu-P feat. Hatsune Miku) first audible: 1.1
+  3240 - Toeto (Toraboruta feat. Megurine Luka) first audible: 2.9
+  203241 - Egoist (Oonuma Parsley feat. v flower) first audible: 1.35
+  3015 - Love-Colored Ward (OSTER project feat. Hatsune Miku) first audible: 1.6
+  533777 - Are You Okay? (cosMo@BousouP feat. Hatsune Miku) first audible: 1.55
+  164107 - Unknown Mother-Goose (wowaka, Hitorie feat. Hatsune Miku) first audible: 2
+  401500 - Unfriendly Hater (Meddmia feat. Hatsune Miku, KAFU) first audible: 1.1
+  3390 - Blackjack (YuchaP, kaichi feat. Megurine Luka) first audible: 1.3
+  3371 - Triple Stupid (LamazeP feat. Hatsune Miku, Kasane Teto) first audible: 1.4
+  199209 - Venom (Kairiki bear feat. flower) first audible: 1.2
+  1510 - Out of Step (wowaka feat. Hatsune Miku) first audible: 1.85
+  115016 - Miku (Anamanaguchi feat. Hatsune Miku) first audible: 1.2
+  357290 - Voices of Svaahaa (Kikuo feat. Hatsune Miku) first audible: 1.95
+  9784 - TOKIO FUNKA (takamatt feat. GUMI) first audible: 1
+  99820 - Glucagon (EZFG feat. Megurine Luka) first audible: 1.1
+  51459 - Persecution Complex Cellphone Girl (LOL) (Giga feat. GUMI) first audible: 1.85
+  2978 - Panda Hero (HACHI feat. GUMI) first audible: 1.3
+  638 - Ievan Polkka (Otomania feat. Hatsune Miku) first audible: 1
+  56903 - SLoWMoTIoN (PinocchioP feat. Hatsune Miku) first audible: 1.55
+  583673 - Coelacanth (gasmasko feat. GUMI) first audible: 3.85
+  520602 - Tiny Me (Masarada feat. Kasane Teto) first audible: 1.7
+  129108 - HOUSEWIFE RADIO (GHOST feat. GUMI) first audible: 5.8
+  25898 - Sunset Yesterday (JIN feat. IA) first audible: 3.05
+  135628 - Charles (balloon feat. v flower) first audible: 0.95
+  4989 - Babylon (Tohma feat. Hatsune Miku) first audible: 1.4
+  54534 - Declare War on All VOC@LOID (Minatsuki Toka feat. Sukone Tei) first audible: 1.6
+  113375 - My Boyfriend Has Died. (MARETU feat. Hatsune Miku, Kagamine Rin) first audible: 1
+  2369 - Eye Examination (40mP feat. GUMI) first audible: 3.6
+  11376 - Fluticasone (kiichi feat. Megurine Luka) first audible: 1.65
+  177923 - House Of Songs (Maison Hatsune) (OSTER project, Mitchie M feat. Hatsune Miku) first audible: 1.05
+  16441 - WAVE (niki feat. Lily) first audible: 2.05
+  42901 - Tho (PinocchioP feat. Hatsune Miku) first audible: 1.1
+  222749 - Maiden Dissection (Various artists) first audible: 1.6
+  18917 - Clean Freak (scop feat. GUMI) first audible: 2.15
+  129859 - ARROW (niki feat. Lily) first audible: 1.85
+  17354 - Hide and Seek (Ho-ong-i feat. SeeU) first audible: 5.9
+  366700 - Hello Marina (inabakumori feat. Hatsune Miku, Kaai Yuki) first audible: 1.2
+  8300 - Mushroom Mother (PinocchioP feat. Hatsune Miku) first audible: 0.05
+  380 - Dark Woods Circus (Machigerita feat. Hatsune Miku, Kagamine Rin, Kagamine Len) first audible: 4.25
+  101514 - In a Rainy Town, Balloons Dance with Devils (HACHI feat. Hatsune Miku) first audible: 1.35
+  366848 - A Sneering Nihil (Utero, Araki Jakkan feat. Hatsune Miku) first audible: 1.9
+  178847 - cutlery (Yuukisan feat. Hatsune Miku) first audible: 1.1
+  298528 - Loveit (PinocchioP feat. Hatsune Miku) first audible: 1.25
+  248858 - Failure Girl (MARETU, Kairiki bear feat. Hatsune Miku) first audible: 1.05
+  17832 - Reincarnation Ascension (Kikuo feat. Hatsune Miku) first audible: 2.5
+  85162 - Electrostatic Human (Kairiki bear feat. Hatsune Miku) first audible: 1.85
+  328029 - Sadistic.Music∞Factory - Remake The second phase - (cosMo@BousouP feat. Hatsune Miku) first audible: 1.05
+  4083 - Vegetable Juice (LamazeP feat. Hatsune Miku) first audible: 2.3
+  1357 - Heart (Toraboruta feat. Kagamine Rin) first audible: 1.25
+  236223 - Cotton Candy (Kikuo feat. Hatsune Miku) first audible: 4.1
+  121116 - Amazing Dolce (HitoshizukuP, yama△ feat. various) first audible: 0.7
+  16061 - Sadistic.Music∞Factory (cosMo@BousouP feat. Hatsune Miku) first audible: 1.3
+  388369 - Hello Builder (Utsu-P feat. Hatsune Miku) first audible: 1.35
+  65736 - Snowman (halyosy feat. KAITO) first audible: 1.85
+  748682 - Gorgon (Utsu-P feat. Hatsune Miku) first audible: 1.2
+  542922 - The Reason Is (Daibaku Hashin, Sevgasaki Eight feat. various) first audible: 1
+  14435 - Yoshiwara Lament (asa, Oyamano Mayo feat. Kasane Teto) first audible: 5.4
+  22922 - Redial (kz feat. Hatsune Miku) first audible: 4.05
+  45245 - DECORATOR (kz, livetune feat. Hatsune Miku) first audible: 1.1
+  9553 - Daybreak Arrival (Last Note., LasNo, Last Note. T feat. Hatsune Miku, Megurine Luka) first audible: 1.9
+  2982 - Close and Open, Demons and the Dead (HACHI feat. Hatsune Miku) first audible: 1.55
+  17602 - Party Junkie (Satsuki ga Tenkomori feat. Hatsune Miku) first audible: 0.8
+  332964 - "eye." (SLAVE.V-V-R feat. Hatsune Miku) first audible: 1.45
+  79675 - Failure Girl (Kairiki bear feat. Hatsune Miku) first audible: 1.15
+  9734 - Jitter Doll (niki feat. Lily) first audible: 2.7
+
+2s: 150
+  1501 - Rollin' Girl (wowaka feat. Hatsune Miku) first audible: 2.6
+  3022 - Meltdown (iroha(sasaki) feat. Kagamine Rin) first audible: 2.3
+  18641 - GLIDE (niki feat. Lily) first audible: 1.95
+  1416 - Hello/How are you? (nanou feat. Hatsune Miku) first audible: 5.55
+  185363 - ROKI (MikitoP feat. Kagamine Rin) first audible: 2
+  127412 - The Things I Deserve (GHOST feat. MAIKA) first audible: 5.5
+  251205 - Traffic Jam (NILFRUITS feat. flower) first audible: 1.5
+  55490 - Sad Machine (Porter Robinson feat. AVANNA) first audible: 2.05
+  2905 - Yellow (kz feat. Hatsune Miku) first audible: 6.05
+  131090 - Delusion Sentiment Compensation Federation (DECO*27, emon(Tes.) feat. Hatsune Miku) first audible: 2.2
+  15389 - Buoyant Colors (Kikuo feat. Tone Rion) first audible: 2.85
+  11502 - Assault Mirage (Nhato, Taishi feat. various) first audible: 1.1
+  550 - Hello, Worker (KEI feat. Megurine Luka) first audible: 2.1
+  199492 - Vocaloid Colosseum (DIVELA feat. Kagamine Rin) first audible: 2.2
+  392049 - Play With Fire (Camellia feat. Hatsune Miku) first audible: 2
+  13086 - Love Dee (Mitchie M feat. Hatsune Miku, Megurine Luka) first audible: 1.8
+  47354 - Love! Snow! Really Magic (Mitchie M feat. Hatsune Miku) first audible: 1.3
+  1828 - Strobe Light (siinamota feat. Hatsune Miku) first audible: 2.05
+  57096 - Miss Wanna-Die (Switch feat. IA) first audible: 1.65
+  124258 - Deja Vu (CircusP, STUDIO GUIANA feat. Hatsune Miku, Megurine Luka) first audible: 6.4
+  584100 - Awoo (Kuriyama Yuri, Koh Hashikura feat. Hatsune Miku, MEIKO) first audible: 4.85
+  20 - World's End Dancehall (wowaka feat. Hatsune Miku, Megurine Luka) first audible: 3.35
+  1119 - Palette (Yuyoyuppe, meola feat. Megurine Luka) first audible: 3.5
+  239903 - Propaganda! (Crusher feat. Hatsune Miku) first audible: 5
+  6153 - Baloney Speaker (Sasanomaly feat. Hatsune Miku) first audible: 2.05
+  441046 - Anuria. (ceresP feat. Hatsune Miku, Kagamine Rin, Megurine Luka) first audible: 3.3
+  11219 - Six Trillion Years and Overnight Story (kemu feat. IA) first audible: 1.65
+  7234 - RIP=RELEASE (Minato Takahiro feat. Megurine Luka) first audible: 2.2
+  12283 - Alice in Musicland (OSTER project feat. various) first audible: 8.35
+  1268 - Coward Mont Blanc (DECO*27 feat. GUMI) first audible: 3.5
+  149842 - secret (Ryuuuu feat. Megurine Luka) first audible: 2.15
+  186227 - flos (R Sound Design feat. Hatsune Miku) first audible: 1
+  171132 - It'd Be Good If I Could Fly! (Guity feat. Megurine Luka) first audible: 2.3
+  2920 - Colorful×Melody (doriko, OSTER project, Team MOER feat. Hatsune Miku, Kagamine Rin) first audible: 3.55
+  575526 - MISS MISERYGUTS (R.I.P feat. Tsuina-chan) first audible: 10
+  12754 - A Happy Death (Kikuo feat. Hatsune Miku) first audible: 1.85
+  1288 - Paranoid Doll (Various artists) first audible: 2.15
+  9538 - Interviewer (Stag BeetleP feat. Megurine Luka) first audible: 3.8
+  13615 - The Earth's Final Confession (kemu feat. GUMI) first audible: 2.95
+  773406 - Affection Addiction (KAT, Aku P, ryutsu feat. POPY) first audible: 4.95
+  304790 - Highlight (KIRA feat. Hatsune Miku) first audible: 2.45
+  133356 - Star of the Show (GHOST feat. Macne Nana) first audible: 4.35
+  2356 - A Born Coward (164 feat. GUMI) first audible: 4.05
+  82 - Black Gold (otetsu feat. Megurine Luka) first audible: 1.95
+  349763 - Kyu-kurarin (iyowa feat. KAFU) first audible: 2.2
+  18091 - hp (nakano4 feat. Sekka Yufu) first audible: 0.05
+  234901 - Bless Your Breath (WADATAKEAKI feat. Hatsune Miku) first audible: 2.85
+  153133 - Nobody Makes Sense (PinocchioP feat. Hatsune Miku) first audible: 1.8
+  1137 - Wanna Die (Nashimoto Ui feat. Hatsune Miku) first audible: 2.55
+  29524 - Dance of Two People at the Edge of the World (Hondou Shouta feat. Hatsune Miku) first audible: 2
+  22869 - Crescent Moon (KurousaP feat. KAITO) first audible: 2.9
+  150952 - Imperial Girl (R Sound Design feat. Hatsune Miku) first audible: 2.05
+  186 - Sunset Love Suicide (Machigerita feat. GUMI) first audible: 10.4
+  518889 - Self Proclaimed Angel (KAT, ryutsu feat. Tsurumaki Maki) first audible: 1.9
+  168180 - Appetite of a People​-​Pleaser (GHOST feat. flower) first audible: 5.7
+  13339 - -ERROR (niki feat. Lily) first audible: 2.55
+  225814 - Wozwald (NILFRUITS feat. flower) first audible: 3.7
+  869388 - Looping the Rooms (rusino feat. Hatsune Miku) first audible: 1.9
+  1363 - Clockwork Clown (40mP feat. Hatsune Miku) first audible: 0.95
+  5800 - Ashes to Ashes (tennen feat. KAITO) first audible: 2.2
+  7319 - 1925 (T-POCKET, FujidouYayoi feat. Hatsune Miku) first audible: 2.95
+  121935 - Whimsical Mercy (HachioujiP feat. Hatsune Miku) first audible: 3.55
+  68814 - ECHO (Crusher, CIRCRUSH feat. GUMI) first audible: 8
+  1590 - The princess of Lucifer (mothy feat. Kagamine Rin) first audible: 2.15
+  127519 - Thank You Music! (MikitoP feat. Hatsune Miku) first audible: 2.15
+  471623 - Singing of Love (MakarafaP feat. Megurine Luka) first audible: 2.45
+  9194 - Life Cheating Game (kemu feat. GUMI) first audible: 2.35
+  2980 - Samsara (HACHI feat. Hatsune Miku) first audible: 2
+  7839 - VOC@LOID in Love (OSTER project feat. Hatsune Miku) first audible: 2.35
+  28153 - Splatter Party (Camellia feat. Hatsune Miku) first audible: 6
+  129187 - Blessed Messiah and the Tower of AI (Various artists) first audible: 5.15
+  197929 - Ghost Girl (MikitoP feat. Hatsune Miku) first audible: 2.4
+  3254 - THE WANDERLAST (sasakure.UK feat. Megurine Luka) first audible: 3.8
+  8693 - PONPONPON (Giga, Ore BananaP feat. Kagamine Len) first audible: 1.65
+  125064 - Copycat (CircusP feat. GUMI) first audible: 4.55
+  52926 - Let's Say the P Names! (MARETU feat. Hatsune Miku) first audible: 2.35
+  438630 - Meddlesome person (BELLINI feat. Hatsune Miku) first audible: 2.3
+  113086 - People Allergy (Kairiki bear feat. flower) first audible: 2.65
+  28500 - Electric Paradigm (lumo, Project DIVA Channel feat. Hatsune Miku) first audible: 5
+  2823 - Rotten Girl Grotesque Romance (Machigerita feat. Hatsune Miku) first audible: 7.75
+  126849 - Exorcism (Creep-P, Prismatic feat. CYBER DIVA) first audible: 2.65
+  10515 - Love Love Nightmare (kiichi feat. Hatsune Miku) first audible: 2.9
+  436989 - Stacy (Yamadakkk feat. Hatsune Miku) first audible: 2.75
+  4698 - Hatsune Miku's Head Exercises (hapi⇒ feat. Hatsune Miku) first audible: 2.1
+  2241 - Star Fragment (Eiji Hirasawa feat. Hatsune Miku) first audible: 4.1
+  12518 - Kisaragi Attention (JIN feat. IA) first audible: 5.7
+  8877 - Dust Dust Curse (Kikuo feat. IA) first audible: 4.7
+  156001 - Dreamless Dreams (Harumaki Gohan feat. Hatsune Miku) first audible: 2.35
+  13981 - Candy Addict Full Course (Machigerita feat. Hatsune Miku) first audible: 3.2
+  2922 - StargazeR (KotsBeirne feat. Hatsune Miku) first audible: 2.25
+  86800 - A Sardine Grows from the Soil (Koronba feat. Kasane Teto) first audible: 3.5
+  137139 - Amygdala's Rag Doll (GHOST feat. Oliver) first audible: 5.05
+  239350 - Soap (Kuriyama Yuri, Koh Hashikura feat. Hatsune Miku) first audible: 3.85
+  2904 - Look this Way, Baby (ryo feat. Hatsune Miku) first audible: 2.4
+  183095 - Merry Bad End (Mafumafu feat. various) first audible: 2.25
+  471300 - Here Comes Ryukka! (MakarafaP feat. Megurine Luka) first audible: 2.65
+  12476 - Irony (scop feat. Hatsune Miku) first audible: 2
+  5364 - FREELY TOMORROW (Mitchie M feat. Hatsune Miku) first audible: 3.7
+  2651 - Monochrome∞Blue Sky (Noboru feat. Hatsune Miku) first audible: 3.55
+  5244 - Our 16bit Wars (sasakure.UK feat. GUMI) first audible: 3.25
+  8809 - Heart Democracy (MikitoP feat. Hatsune Miku) first audible: 5.2
+  3478 - Dear (19's Sound Factory feat. Hatsune Miku) first audible: 2.9
+  250379 - Honey I'm Home (GHOST feat. DEX) first audible: 5.15
+  42676 - DONUT HOLE (HACHI feat. GUMI) first audible: 3.9
+  8601 - DoReMiFa Rondo (40mP feat. Hatsune Miku) first audible: 1.95
+  7922 - Reverse Rainbow (sunzriverP feat. Kagamine Rin, Hatsune Miku) first audible: 2.75
+  188906 - YOZURINA (PinocchioP feat. Hatsune Miku) first audible: 3.05
+  158222 - Dear Doppelganger (kemu, Ore BananaP feat. GUMI) first audible: 3.15
+  106 - Circus Monster (CircusP feat. Megurine Luka) first audible: 1.8
+  600885 - Language of the Lost (R.I.P feat. Kasane Teto) first audible: 8.1
+  58632 - Patchwork Staccato (Toa feat. Hatsune Miku) first audible: 1.8
+  12136 - Wind-Up God (kemu feat. GUMI) first audible: 5.85
+  1508 - Two-Sided Lovers (wowaka feat. Hatsune Miku) first audible: 3.15
+  237486 - Suicidal Girl (DaijoubuP feat. Hatsune Miku) first audible: 2.35
+  187408 - SNOBBISM (Neru feat. Kagamine Len, Kagamine Rin) first audible: 3.45
+  17492 - Chain (Minatsuki Toka feat. Sukone Tei) first audible: 2.3
+  525 - Sky Fish (siinamota feat. Hatsune Miku) first audible: 2.4
+  483406 - A Thousand Light Years (iyowa feat. various) first audible: 2.45
+  63276 - Resonate (Giga feat. Hatsune Miku) first audible: 2.3
+  8204 - Flutter, Flutter (TamazP feat. Hatsune Miku) first audible: 2.3
+  63660 - EveR ∞ LastinG ∞ NighT (HitoshizukuP, yama△ feat. various) first audible: 0.8
+  22102 - Twilight ∞ nighT (HitoshizukuP, yama△ feat. various) first audible: 3.2
+  8093 - Gemini (Dixie Flatline feat. Kagamine Rin, Kagamine Len) first audible: 4
+  393661 - Astral Travel (Kikuo feat. Hatsune Miku) first audible: 2.2
+  186877 - Greenlights Serenade (Kimura, Sakurai, Omoi feat. Hatsune Miku) first audible: 1.45
+  1830 - Astronauts (siinamota feat. Hatsune Miku) first audible: 3.8
+  15691 - The Celestial Fox (marasy feat. Kagamine Rin) first audible: 2
+  12908 - Reon (Yuyoyuppe feat. Megurine Luka) first audible: 5.35
+  49871 - Tale of the Deep-Sea Lily (n-buna feat. Hatsune Miku) first audible: 2.05
+  49455 - Heart Chrome (HachioujiP feat. anon, kanon) first audible: 2.3
+  1125 - When Swindlers Start Laughing Out (Nashimoto Ui feat. Hatsune Miku) first audible: 2.2
+  47470 - Mono Poisoner (DECO*27, kous feat. Hatsune Miku) first audible: 2.05
+  3240 - Toeto (Toraboruta feat. Megurine Luka) first audible: 2.9
+  164107 - Unknown Mother-Goose (wowaka, Hitorie feat. Hatsune Miku) first audible: 2
+  357290 - Voices of Svaahaa (Kikuo feat. Hatsune Miku) first audible: 1.95
+  583673 - Coelacanth (gasmasko feat. GUMI) first audible: 3.85
+  129108 - HOUSEWIFE RADIO (GHOST feat. GUMI) first audible: 5.8
+  25898 - Sunset Yesterday (JIN feat. IA) first audible: 3.05
+  2369 - Eye Examination (40mP feat. GUMI) first audible: 3.6
+  16441 - WAVE (niki feat. Lily) first audible: 2.05
+  18917 - Clean Freak (scop feat. GUMI) first audible: 2.15
+  17354 - Hide and Seek (Ho-ong-i feat. SeeU) first audible: 5.9
+  380 - Dark Woods Circus (Machigerita feat. Hatsune Miku, Kagamine Rin, Kagamine Len) first audible: 4.25
+  17832 - Reincarnation Ascension (Kikuo feat. Hatsune Miku) first audible: 2.5
+  4083 - Vegetable Juice (LamazeP feat. Hatsune Miku) first audible: 2.3
+  236223 - Cotton Candy (Kikuo feat. Hatsune Miku) first audible: 4.1
+  121116 - Amazing Dolce (HitoshizukuP, yama△ feat. various) first audible: 0.7
+  14435 - Yoshiwara Lament (asa, Oyamano Mayo feat. Kasane Teto) first audible: 5.4
+  22922 - Redial (kz feat. Hatsune Miku) first audible: 4.05
+  9734 - Jitter Doll (niki feat. Lily) first audible: 2.7
+
+4s: 48
+  18641 - GLIDE (niki feat. Lily) first audible: 1.95
+  1416 - Hello/How are you? (nanou feat. Hatsune Miku) first audible: 5.55
+  127412 - The Things I Deserve (GHOST feat. MAIKA) first audible: 5.5
+  2905 - Yellow (kz feat. Hatsune Miku) first audible: 6.05
+  124258 - Deja Vu (CircusP, STUDIO GUIANA feat. Hatsune Miku, Megurine Luka) first audible: 6.4
+  584100 - Awoo (Kuriyama Yuri, Koh Hashikura feat. Hatsune Miku, MEIKO) first audible: 4.85
+  239903 - Propaganda! (Crusher feat. Hatsune Miku) first audible: 5
+  12283 - Alice in Musicland (OSTER project feat. various) first audible: 8.35
+  575526 - MISS MISERYGUTS (R.I.P feat. Tsuina-chan) first audible: 10
+  12754 - A Happy Death (Kikuo feat. Hatsune Miku) first audible: 1.85
+  773406 - Affection Addiction (KAT, Aku P, ryutsu feat. POPY) first audible: 4.95
+  133356 - Star of the Show (GHOST feat. Macne Nana) first audible: 4.35
+  2356 - A Born Coward (164 feat. GUMI) first audible: 4.05
+  186 - Sunset Love Suicide (Machigerita feat. GUMI) first audible: 10.4
+  168180 - Appetite of a People​-​Pleaser (GHOST feat. flower) first audible: 5.7
+  1363 - Clockwork Clown (40mP feat. Hatsune Miku) first audible: 0.95
+  68814 - ECHO (Crusher, CIRCRUSH feat. GUMI) first audible: 8
+  9194 - Life Cheating Game (kemu feat. GUMI) first audible: 2.35
+  28153 - Splatter Party (Camellia feat. Hatsune Miku) first audible: 6
+  129187 - Blessed Messiah and the Tower of AI (Various artists) first audible: 5.15
+  125064 - Copycat (CircusP feat. GUMI) first audible: 4.55
+  28500 - Electric Paradigm (lumo, Project DIVA Channel feat. Hatsune Miku) first audible: 5
+  2823 - Rotten Girl Grotesque Romance (Machigerita feat. Hatsune Miku) first audible: 7.75
+  2241 - Star Fragment (Eiji Hirasawa feat. Hatsune Miku) first audible: 4.1
+  12518 - Kisaragi Attention (JIN feat. IA) first audible: 5.7
+  8877 - Dust Dust Curse (Kikuo feat. IA) first audible: 4.7
+  86800 - A Sardine Grows from the Soil (Koronba feat. Kasane Teto) first audible: 3.5
+  137139 - Amygdala's Rag Doll (GHOST feat. Oliver) first audible: 5.05
+  239350 - Soap (Kuriyama Yuri, Koh Hashikura feat. Hatsune Miku) first audible: 3.85
+  5364 - FREELY TOMORROW (Mitchie M feat. Hatsune Miku) first audible: 3.7
+  2651 - Monochrome∞Blue Sky (Noboru feat. Hatsune Miku) first audible: 3.55
+  8809 - Heart Democracy (MikitoP feat. Hatsune Miku) first audible: 5.2
+  250379 - Honey I'm Home (GHOST feat. DEX) first audible: 5.15
+  7922 - Reverse Rainbow (sunzriverP feat. Kagamine Rin, Hatsune Miku) first audible: 2.75
+  158222 - Dear Doppelganger (kemu, Ore BananaP feat. GUMI) first audible: 3.15
+  600885 - Language of the Lost (R.I.P feat. Kasane Teto) first audible: 8.1
+  12136 - Wind-Up God (kemu feat. GUMI) first audible: 5.85
+  63660 - EveR ∞ LastinG ∞ NighT (HitoshizukuP, yama△ feat. various) first audible: 0.8
+  22102 - Twilight ∞ nighT (HitoshizukuP, yama△ feat. various) first audible: 3.2
+  8093 - Gemini (Dixie Flatline feat. Kagamine Rin, Kagamine Len) first audible: 4
+  12908 - Reon (Yuyoyuppe feat. Megurine Luka) first audible: 5.35
+  583673 - Coelacanth (gasmasko feat. GUMI) first audible: 3.85
+  129108 - HOUSEWIFE RADIO (GHOST feat. GUMI) first audible: 5.8
+  17354 - Hide and Seek (Ho-ong-i feat. SeeU) first audible: 5.9
+  380 - Dark Woods Circus (Machigerita feat. Hatsune Miku, Kagamine Rin, Kagamine Len) first audible: 4.25
+  236223 - Cotton Candy (Kikuo feat. Hatsune Miku) first audible: 4.1
+  14435 - Yoshiwara Lament (asa, Oyamano Mayo feat. Kasane Teto) first audible: 5.4
+  22922 - Redial (kz feat. Hatsune Miku) first audible: 4.05
+
+7s: 8
+  1416 - Hello/How are you? (nanou feat. Hatsune Miku) first audible: 5.55
+  12283 - Alice in Musicland (OSTER project feat. various) first audible: 8.35
+  575526 - MISS MISERYGUTS (R.I.P feat. Tsuina-chan) first audible: 10
+  186 - Sunset Love Suicide (Machigerita feat. GUMI) first audible: 10.4
+  68814 - ECHO (Crusher, CIRCRUSH feat. GUMI) first audible: 8
+  2823 - Rotten Girl Grotesque Romance (Machigerita feat. Hatsune Miku) first audible: 7.75
+  86800 - A Sardine Grows from the Soil (Koronba feat. Kasane Teto) first audible: 3.5
+  600885 - Language of the Lost (R.I.P feat. Kasane Teto) first audible: 8.1
+
+11s: 0
+  none
+
+16s: 0
+  none

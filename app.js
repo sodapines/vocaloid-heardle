@@ -4,6 +4,560 @@ const songs = window.VOCALOID_HEARDLE_SONGS || [];
 const statsKey = "vocaloid-heardle-stats";
 const unlimitedStatsKey = "vocaloid-heardle-unlimited-stats";
 
+// ── i18n ──
+const STRINGS = {
+  en: {
+    dailyPuzzle: "daily puzzle",
+    unlimitedPuzzle: "unlimited puzzle",
+    daily: "Daily",
+    unlimited: "Unlimited",
+    attempt: (n, total) => `Attempt ${n} of ${total}`,
+    coverCaption: "cover art appears after the answer",
+    noSchedule: "No puzzle is scheduled for today yet.",
+    songTitle: "Song Title",
+    submit: "Submit",
+    skip: "Skip",
+    giveUp: "Give Up",
+    nextSong: "Next Song",
+    copyResult: "Copy Result",
+    pastGuesses: "Past Guesses",
+    noGuesses: "No guesses yet",
+    correct: "Correct",
+    wrong: "Wrong",
+    skipped: "Skipped",
+    answer: "Answer",
+    gaveUp: "Gave up",
+    viewVocaDB: "View on VocaDB",
+    dailyStats: "Daily Stats",
+    unlimitedStats: "Unlimited Stats",
+    played: "Played",
+    won: "Won",
+    winRate: "Win Rate",
+    streak: "Streak",
+    bestStreak: "Best Streak",
+    songsInPool: "Songs in pool",
+    viewFullStats: "View full stats →",
+    howToPlay: "How to Play",
+    hallOfMyths: "Hall of Myths",
+    links: "Links",
+    toastCorrect: (title) => `Correct! — ${title}`,
+    toastAnswer: (title) => `The answer was: ${title}`,
+    toastCopied: "Result copied to clipboard",
+    toastStatsReset: "Stats have been reset",
+    heardleDaily: "VOCALOID Heardle Daily",
+    heardleUnlimited: "VOCALOID Heardle Unlimited",
+    placeholder: "type your guess...",
+    disclaimer: "Some songs may not begin playing within the first second.",
+    marquee: "A new daily puzzle is available each day ★ Use unlimited mode to practice anytime ★ Guess the VOCALOID song from the opening clip in 6 tries or less ★ Share your score with friends! ★ Songs sourced from VocaDB ★",
+    introCopy: "Guess the VOCALOID song from the opening clip.",
+    breadcrumb: "Games › Music › VOCALOID › Heardle",
+    footerText: "VOCALOID Heardle: fan-made daily guessing game © 2026 | Not affiliated with Crypton Future Media or NicoNico | Song data from",
+    howToPlayStep1: "Press ▶ to hear the opening clip",
+    howToPlayStep2: "Type the song title and submit",
+    howToPlayStep3: "Wrong or skipped? More clip unlocks",
+    howToPlayStep4: "Guess correctly in 6 tries to win",
+    howToPlayStep5: "Share your score when done!",
+    hofNote: "Most viewed VOCALOID songs on NicoNico",
+    modalHowToPlayTitle: "How to Play",
+    modalHowToPlayP1: "Listen to the intro, then find the correct VOCALOID song.",
+    modalHowToPlayP2: "Skipped or incorrect attempts unlock more of the clip.",
+    modalHowToPlayP3: "Guess in as few tries as possible and share your score.",
+    modalHowToPlayPlay: "Play",
+    modalAboutTitle: "About",
+    modalAboutP1: "VOCALOID Heardle is a daily song guessing game built around VOCALOID and vocal synth music.",
+    modalAboutP2: "Each puzzle reveals a little more of the intro after every wrong guess or skip. Song details and VocaDB links appear after the answer.",
+    modalSupportTitle: "Support",
+    modalSupportP1: "VOCALOID Heardle is maintained by sodapines as a small fan-made music puzzle project.",
+    modalSupportP2: "For bugs, song corrections, or suggestions, email",
+    modalStatsTitle: "Stats",
+    modalStatsDailyBtn: "Daily",
+    modalStatsUnlimitedBtn: "Unlimited",
+    statsPlayed: "Played",
+    statsWon: "Won",
+    statsWinRate: "Win rate",
+    statsCurrentStreak: "Current streak",
+    statsMaxStreak: "Max streak",
+    settingsTitle: "Settings",
+    settingDarkMode: "Dark Mode",
+    settingDarkModeDesc: "Switch between light and dark theme",
+    settingBulletComments: "Bullet Comments",
+    settingBulletCommentsDesc: "Scrolling danmaku overlay on cover art",
+    settingCommentSpeed: "Comment Speed",
+    settingCommentSpeedDesc: "How fast bullet comments scroll",
+    settingSpeedSlow: "Slow",
+    settingSpeedNormal: "Normal",
+    settingSpeedFast: "Fast",
+    settingCompactMode: "Compact Mode",
+    settingCompactModeDesc: "Hides marquee, tags, and sidebar at once",
+    settingMarqueeBar: "Marquee Bar",
+    settingMarqueeBarDesc: "Scrolling announcement at the top",
+    settingSidebar: "Sidebar",
+    settingSidebarDesc: "Stats and info panel on the right",
+    settingAutocomplete: "Autocomplete",
+    settingAutocompleteDesc: "Show song suggestions while typing",
+    settingDensity: "Bullet Comment Density",
+    settingDensityDesc: "How many comments appear on screen",
+    settingDensityFew: "Few",
+    settingDensityMedium: "Medium",
+    settingDensityMany: "Many",
+    settingVolume: "Volume",
+    settingVolumeDesc: "Clip playback volume",
+    settingTitleDisplay: "Song Title Display",
+    settingTitleDisplayDesc: "How song titles appear in suggestions and history",
+    settingClearInput: "Clear Input on Wrong",
+    settingClearInputDesc: "Clears the guess field after a wrong answer",
+    settingResetStats: "Reset Stats",
+    settingResetStatsDesc: "Permanently clear all your stats",
+    settingResetBtn: "Reset",
+    settingResetConfirm: "Are you sure? This cannot be undone.",
+    settingResetYes: "Yes, reset",
+    settingResetNo: "Cancel",
+    infoLabel: "[INFO]",
+    metaViews: "▶ Views:",
+    metaCategory: "Category:",
+    metaSource: "Source:",
+    navAbout: "About",
+    navSupport: "Support",
+    navSettings: "Settings",
+    hofSong1: "Senbonzakura",
+    hofSong2: "I'll Make You Do the Miku Miku",
+    hofSong3: "Melt",
+    hofSong4: "World's End Dancehall",
+    hofSong5: "Matryoshka",
+    hofArtist1: "Kurousa",
+    hofArtist2: "ika",
+    hofArtist3: "ryo",
+    hofArtist4: "wowaka",
+    hofArtist5: "hachi",
+    linkVocaDB: "VocaDB ↗",
+    linkNicoNico: "NicoNico ↗",
+    linkAbout: "About this site",
+    linkContact: "Contact / Support",
+    introCopy: "Guess the VOCALOID song from the opening clip.",
+    breadcrumb: "Games › Music › VOCALOID › Heardle",
+    footerText: "VOCALOID Heardle: fan-made daily guessing game © 2026 | Not affiliated with Crypton Future Media or NicoNico | Song data from",
+    howToPlayStep1: "Press ▶ to hear the opening clip",
+    howToPlayStep2: "Type the song title and submit",
+    howToPlayStep3: "Wrong or skipped? More clip unlocks",
+    howToPlayStep4: "Guess correctly in 6 tries to win",
+    howToPlayStep5: "Share your score when done!",
+    hofNote: "Most viewed VOCALOID songs on NicoNico",
+  },
+  jp: {
+    dailyPuzzle: "毎日のパズル",
+    unlimitedPuzzle: "無制限モード",
+    daily: "毎日",
+    unlimited: "無制限",
+    attempt: (n, total) => `挑戦 ${n} / ${total}`,
+    coverCaption: "正解後にジャケット画像が表示されます",
+    noSchedule: "本日のパズルはまだ準備されていません。",
+    songTitle: "曲名",
+    submit: "送信",
+    skip: "スキップ",
+    giveUp: "ギブアップ",
+    nextSong: "次の曲",
+    copyResult: "結果をコピー",
+    pastGuesses: "過去の回答",
+    noGuesses: "まだ回答がありません",
+    correct: "正解",
+    wrong: "不正解",
+    skipped: "スキップ",
+    answer: "答え",
+    gaveUp: "ギブアップ",
+    viewVocaDB: "VocaDBで見る",
+    dailyStats: "毎日の統計",
+    unlimitedStats: "無制限の統計",
+    played: "プレイ数",
+    won: "正解数",
+    winRate: "正解率",
+    streak: "連続正解",
+    bestStreak: "最高連続正解",
+    songsInPool: "曲数",
+    viewFullStats: "全統計を見る →",
+    howToPlay: "遊び方",
+    hallOfMyths: "殿堂入り",
+    links: "リンク",
+    toastCorrect: (title) => `正解！— ${title}`,
+    toastAnswer: (title) => `正解は：${title}`,
+    toastCopied: "結果をコピーしました",
+    toastStatsReset: "統計をリセットしました",
+    heardleDaily: "VOCALOID Heardle 毎日",
+    heardleUnlimited: "VOCALOID Heardle 無制限",
+    placeholder: "曲名を入力...",
+    disclaimer: "曲によっては最初の1秒で再生が始まらない場合があります。",
+    marquee: "毎日新しいパズルが更新されます ★ 無制限モードでいつでも練習できます ★ 6回以内にVOCALOID曲を当てよう ★ 結果をシェアしよう！ ★ 楽曲データはVocaDBより ★",
+    introCopy: "イントロを聴いてVOCALOID曲を当てよう。",
+    breadcrumb: "ゲーム › 音楽 › VOCALOID › Heardle",
+    footerText: "VOCALOID Heardle：ファンメイドの毎日クイズゲーム © 2026 | クリプトン・フューチャー・メディア及びニコニコと無関係 | 楽曲データ：",
+    howToPlayStep1: "▶ を押してイントロを聴く",
+    howToPlayStep2: "曲名を入力して送信する",
+    howToPlayStep3: "不正解・スキップでより長いクリップが解放される",
+    howToPlayStep4: "6回以内に正解する",
+    howToPlayStep5: "結果をシェアしよう！",
+    hofNote: "ニコニコ動画で最も再生されたVOCALOID曲",
+    modalHowToPlayTitle: "遊び方",
+    modalHowToPlayP1: "イントロを聴いて、正しいVOCALOID曲を見つけよう。",
+    modalHowToPlayP2: "スキップまたは不正解でクリップがより長く解放される。",
+    modalHowToPlayP3: "なるべく少ない回数で正解してスコアをシェアしよう。",
+    modalHowToPlayPlay: "プレイ",
+    modalAboutTitle: "について",
+    modalAboutP1: "VOCALOID HeardleはVOCALOIDとボーカル合成音楽をテーマにした毎日の曲当てゲームです。",
+    modalAboutP2: "不正解やスキップのたびにイントロが少しずつ解放されます。正解後に曲の詳細とVocaDBリンクが表示されます。",
+    modalSupportTitle: "サポート",
+    modalSupportP1: "VOCALOID Heardleはsodapinesが運営するファンメイドの音楽パズルプロジェクトです。",
+    modalSupportP2: "バグ・曲の修正・ご提案はこちらまで：",
+    modalStatsTitle: "統計",
+    modalStatsDailyBtn: "毎日",
+    modalStatsUnlimitedBtn: "無制限",
+    statsPlayed: "プレイ数",
+    statsWon: "正解数",
+    statsWinRate: "正解率",
+    statsCurrentStreak: "現在の連続正解",
+    statsMaxStreak: "最高連続正解",
+    settingsTitle: "設定",
+    settingDarkMode: "ダークモード",
+    settingDarkModeDesc: "ライト・ダークテーマの切り替え",
+    settingBulletComments: "弾幕コメント",
+    settingBulletCommentsDesc: "カバー画像上にスクロールするコメント",
+    settingCommentSpeed: "コメント速度",
+    settingCommentSpeedDesc: "コメントのスクロール速度",
+    settingSpeedSlow: "遅い",
+    settingSpeedNormal: "普通",
+    settingSpeedFast: "速い",
+    settingCompactMode: "コンパクトモード",
+    settingCompactModeDesc: "マーキー・タグ・サイドバーを一括非表示",
+    settingMarqueeBar: "マーキーバー",
+    settingMarqueeBarDesc: "上部のスクロールアナウンス",
+    settingSidebar: "サイドバー",
+    settingSidebarDesc: "右側の統計・情報パネル",
+    settingAutocomplete: "オートコンプリート",
+    settingAutocompleteDesc: "入力中に曲名の候補を表示",
+    settingDensity: "弾幕コメント密度",
+    settingDensityDesc: "画面に表示されるコメント数",
+    settingDensityFew: "少ない",
+    settingDensityMedium: "普通",
+    settingDensityMany: "多い",
+    settingVolume: "音量",
+    settingVolumeDesc: "クリップの再生音量",
+    settingTitleDisplay: "曲名表示",
+    settingTitleDisplayDesc: "候補・履歴での曲名の表示方法",
+    settingClearInput: "不正解時に入力をクリア",
+    settingClearInputDesc: "不正解後に入力欄を自動クリア",
+    settingResetStats: "統計のリセット",
+    settingResetStatsDesc: "すべての統計を完全に削除",
+    settingResetBtn: "リセット",
+    settingResetConfirm: "本当によろしいですか？元に戻せません。",
+    settingResetYes: "はい、リセット",
+    settingResetNo: "キャンセル",
+    infoLabel: "【情報】",
+    metaViews: "▶ 再生数：",
+    metaCategory: "カテゴリ：",
+    metaSource: "ソース：",
+    navAbout: "サイトについて",
+    navSupport: "サポート",
+    navSettings: "設定",
+    hofSong1: "千本桜",
+    hofSong2: "みくみくにしてあげる♪",
+    hofSong3: "メルト",
+    hofSong4: "ワールズエンド・ダンスホール",
+    hofSong5: "マトリョシカ",
+    hofArtist1: "黒うさ",
+    hofArtist2: "ika",
+    hofArtist3: "ryo",
+    hofArtist4: "wowaka",
+    hofArtist5: "ハチ",
+    linkVocaDB: "VocaDB ↗",
+    linkNicoNico: "ニコニコ動画 ↗",
+    linkAbout: "このサイトについて",
+    linkContact: "お問い合わせ",
+    introCopy: "イントロを聴いてVOCALOID曲を当てよう。",
+    breadcrumb: "ゲーム › 音楽 › VOCALOID › Heardle",
+    footerText: "VOCALOID Heardle：ファンメイドの毎日クイズゲーム © 2026 | クリプトン・フューチャー・メディア及びニコニコと無関係 | 楽曲データ：",
+    howToPlayStep1: "▶ を押してイントロを聴く",
+    howToPlayStep2: "曲名を入力して送信する",
+    howToPlayStep3: "不正解・スキップでより長いクリップが解放される",
+    howToPlayStep4: "6回以内に正解する",
+    howToPlayStep5: "結果をシェアしよう！",
+    hofNote: "ニコニコ動画で最も再生されたVOCALOID曲",
+  },
+};
+
+function getLang() {
+  return localStorage.getItem("vh-lang") || "en";
+}
+
+function t(key, ...args) {
+  const lang = getLang();
+  const val = STRINGS[lang]?.[key] ?? STRINGS.en[key];
+  return typeof val === "function" ? val(...args) : val;
+}
+
+function hasJapanese(str) {
+  return /[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff\uff66-\uff9f]/.test(str);
+}
+
+function getJpTitle(song) {
+  const jpTitle = (song.acceptedTitles || []).find(hasJapanese);
+  return jpTitle || song.title;
+}
+
+function getDisplayTitle(song) {
+  const titleMode = localStorage.getItem("vh-title-mode") || "en";
+  if (titleMode === "jp") return getJpTitle(song);
+  if (titleMode === "romaji") {
+    const titles = song.acceptedTitles || [];
+    const romaji = titles.find(t => !hasJapanese(t) && t !== song.title && /^[a-zA-Z]/.test(t));
+    return romaji || song.title;
+  }
+  if (titleMode === "en") {
+    // if en mode but lang is jp, still show EN title
+    return song.title;
+  }
+  // fallback: if no explicit mode, follow language
+  if (getLang() === "jp") return getJpTitle(song);
+  return song.title;
+}
+
+function applyLanguage() {
+  const lang = getLang();
+  document.documentElement.lang = lang === "jp" ? "ja" : "en";
+
+  // flag buttons
+  document.querySelectorAll(".lang-btn").forEach(btn => {
+    btn.classList.toggle("is-active", btn.dataset.lang === lang);
+  });
+
+  const set = (sel, key, ...args) => {
+    const el = document.querySelector(sel);
+    if (el) el.textContent = t(key, ...args);
+  };
+
+  // game UI
+  set("#guess-input-label", "songTitle");
+  set("#submit-button-text", "submit");
+  set("#skip-button", "skip");
+  set("#give-up-button", "giveUp");
+  set("#next-button", "nextSong");
+  set("#share-button-text", "copyResult");
+  set(".guess-history h3", "pastGuesses");
+  set(".nnd-marquee-inner", "marquee");
+  set(".intro-copy", "introCopy");
+  const clipNote = document.querySelector(".clip-note");
+  if (clipNote) clipNote.textContent = t("disclaimer");
+
+  // breadcrumb
+  const breadcrumb = document.querySelector(".nnd-breadcrumb");
+  if (breadcrumb) breadcrumb.textContent = t("breadcrumb");
+
+  // sidebar
+  set(".sb-played-label", "played");
+  set(".sb-won-label", "won");
+  set(".sb-winrate-label", "winRate");
+  set(".sb-streak-label", "streak");
+  set(".sb-best-label", "bestStreak");
+  set(".sb-total-label", "songsInPool");
+  set(".sidebar-link.full-stats", "viewFullStats");
+  set(".sb-howtoplay-header", "howToPlay");
+  set(".sb-hallofmyths-header", "hallOfMyths");
+  set(".sb-links-header", "links");
+  set(".sidebar-hof-note", "hofNote");
+
+  // sidebar how to play steps
+  const steps = document.querySelectorAll(".nnd-sidebar-howto p");
+  const stepKeys = ["howToPlayStep1","howToPlayStep2","howToPlayStep3","howToPlayStep4","howToPlayStep5"];
+  steps.forEach((p, i) => {
+    if (stepKeys[i]) {
+      const num = p.querySelector(".how-num");
+      p.textContent = t(stepKeys[i]);
+      if (num) p.prepend(num);
+    }
+  });
+
+  // mode buttons
+  const daily = document.querySelector("#daily-mode-button");
+  const unlimited = document.querySelector("#unlimited-mode-button");
+  if (daily) daily.childNodes[0].textContent = t("daily") + " ";
+  if (unlimited) unlimited.textContent = t("unlimited");
+
+  // input placeholder
+  if (guessInput) guessInput.placeholder = t("placeholder");
+
+  // cover caption if not complete
+  if (!state.isComplete) {
+    if (coverCaption) coverCaption.textContent = t("coverCaption");
+  }
+
+  // modals
+  set("#how-to-play-title", "modalHowToPlayTitle");
+  set("#about-title", "modalAboutTitle");
+  set("#support-title", "modalSupportTitle");
+  set("#stats-title", "modalStatsTitle");
+  set("#settings-title", "settingsTitle");
+  set("#stats-daily-button", "modalStatsDailyBtn");
+  set("#stats-unlimited-button", "modalStatsUnlimitedBtn");
+
+  // stats modal grid labels
+  const statLabels = document.querySelectorAll(".stats-grid span");
+  const statLabelKeys = ["statsPlayed","statsWon","statsWinRate","statsCurrentStreak","statsMaxStreak"];
+  statLabels.forEach((el, i) => { if (statLabelKeys[i]) el.textContent = t(statLabelKeys[i]); });
+
+  // how to play modal
+  const htpPs = document.querySelectorAll("#how-to-play .instruction-list p");
+  if (htpPs[0]) htpPs[0].lastChild.textContent = t("modalHowToPlayP1");
+  if (htpPs[1]) htpPs[1].lastChild.textContent = t("modalHowToPlayP2");
+  if (htpPs[2]) htpPs[2].lastChild.textContent = t("modalHowToPlayP3");
+  const htpPlay = document.querySelector("#how-to-play .modal-action");
+  if (htpPlay) htpPlay.textContent = t("modalHowToPlayPlay");
+
+  // about modal
+  const aboutPs = document.querySelectorAll("#about p");
+  if (aboutPs[0]) aboutPs[0].textContent = t("modalAboutP1");
+  if (aboutPs[1]) aboutPs[1].textContent = t("modalAboutP2");
+
+  // support modal
+  const supportPs = document.querySelectorAll("#support p");
+  if (supportPs[0]) supportPs[0].textContent = t("modalSupportP1");
+  if (supportPs[1]) {
+    supportPs[1].textContent = t("modalSupportP2") + " ";
+    const emailLink = document.createElement("a");
+    emailLink.href = "mailto:kzen@sodapines.dev";
+    emailLink.textContent = "kzen@sodapines.dev";
+    supportPs[1].appendChild(emailLink);
+  }
+
+  // settings modal
+  set("#settings-title", "settingsTitle");
+  const settingRows = [
+    ["[id='setting-darkmode']", "settingDarkMode", "settingDarkModeDesc"],
+    ["[id='setting-danmaku']", "settingBulletComments", "settingBulletCommentsDesc"],
+    ["[id='setting-compact']", "settingCompactMode", "settingCompactModeDesc"],
+    ["[id='setting-marquee']", "settingMarqueeBar", "settingMarqueeBarDesc"],
+    ["[id='setting-sidebar']", "settingSidebar", "settingSidebarDesc"],
+    ["[id='setting-autocomplete']", "settingAutocomplete", "settingAutocompleteDesc"],
+    ["[id='setting-clearwrong']", "settingClearInput", "settingClearInputDesc"],
+    ["[id='reset-stats-button']", "settingResetStats", "settingResetStatsDesc"],
+  ];
+  settingRows.forEach(([btnSel, labelKey, descKey]) => {
+    const btn = document.querySelector(btnSel);
+    if (!btn) return;
+    const row = btn.closest(".settings-row");
+    if (!row) return;
+    const label = row.querySelector(".settings-label");
+    const desc = row.querySelector(".settings-desc");
+    if (label) label.textContent = t(labelKey);
+    if (desc) desc.textContent = t(descKey);
+  });
+
+  // comment speed label/desc — separate from its buttons
+  const speedRow = document.querySelector("[data-setting='danmaku-speed']")?.closest(".settings-row");
+  if (speedRow) {
+    const lbl = speedRow.querySelector(".settings-label");
+    const dsc = speedRow.querySelector(".settings-desc");
+    if (lbl) lbl.textContent = t("settingCommentSpeed");
+    if (dsc) dsc.textContent = t("settingCommentSpeedDesc");
+  }
+
+  // comment speed buttons
+  const speedBtns = document.querySelectorAll("[data-setting='danmaku-speed']");
+  const speedKeys = ["settingSpeedSlow","settingSpeedNormal","settingSpeedFast"];
+  speedBtns.forEach((btn, i) => { if (speedKeys[i]) btn.textContent = t(speedKeys[i]); });
+
+  // density label/desc
+  const densityRow = document.querySelector("[data-setting='danmaku-density']")?.closest(".settings-row");
+  if (densityRow) {
+    const lbl = densityRow.querySelector(".settings-label");
+    const dsc = densityRow.querySelector(".settings-desc");
+    if (lbl) lbl.textContent = t("settingDensity");
+    if (dsc) dsc.textContent = t("settingDensityDesc");
+  }
+  const densityBtns = document.querySelectorAll("[data-setting='danmaku-density']");
+  const densityKeys = ["settingDensityFew","settingDensityMedium","settingDensityMany"];
+  densityBtns.forEach((btn, i) => { if (densityKeys[i]) btn.textContent = t(densityKeys[i]); });
+
+  // volume label/desc
+  const volInput = document.querySelector("#setting-volume");
+  if (volInput) {
+    const row = volInput.closest(".settings-row");
+    if (row) {
+      const lbl = row.querySelector(".settings-label");
+      const dsc = row.querySelector(".settings-desc");
+      if (lbl) lbl.textContent = t("settingVolume");
+      if (dsc) dsc.textContent = t("settingVolumeDesc");
+    }
+  }
+
+  // title mode row — always visible, overrides language for song titles
+  const titleModeRow = document.querySelector("#title-mode-row");
+  if (titleModeRow) {
+    titleModeRow.hidden = false;
+    const lbl = titleModeRow.querySelector(".settings-label");
+    const dsc = titleModeRow.querySelector(".settings-desc");
+    if (lbl) lbl.textContent = t("settingTitleDisplay");
+    if (dsc) dsc.textContent = t("settingTitleDisplayDesc");
+  }
+
+  // reset stats confirm
+  const resetConfirmText = document.querySelector("#reset-stats-confirm > span");
+  if (resetConfirmText) resetConfirmText.textContent = t("settingResetConfirm");
+  const resetBtn = document.querySelector("#reset-stats-button");
+  if (resetBtn) resetBtn.textContent = t("settingResetBtn");
+  const resetYes = document.querySelector("#reset-stats-yes");
+  if (resetYes) resetYes.textContent = t("settingResetYes");
+  const resetNo = document.querySelector("#reset-stats-no");
+  if (resetNo) resetNo.textContent = t("settingResetNo");
+
+  // topbar date
+  const dateEl = document.querySelector("#nnd-date");
+  if (dateEl) {
+    const d = new Date();
+    dateEl.textContent = lang === "jp"
+      ? new Intl.DateTimeFormat("ja-JP", { year: "numeric", month: "long", day: "numeric" }).format(d)
+      : d.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
+  }
+
+  // [INFO] marquee label
+  const marqueeLabel = document.querySelector(".nnd-marquee-label");
+  if (marqueeLabel) marqueeLabel.textContent = t("infoLabel");
+
+  // meta row labels
+  const metaLabels = document.querySelectorAll(".nnd-meta-label");
+  if (metaLabels[0]) metaLabels[0].textContent = t("metaViews");
+  if (metaLabels[1]) metaLabels[1].textContent = t("metaCategory");
+  if (metaLabels[2]) metaLabels[2].textContent = t("metaSource");
+
+  // top-right nav
+  document.querySelectorAll(".nnd-header-links a").forEach(a => {
+    const target = a.dataset.modalTarget;
+    if (target === "about") a.textContent = t("navAbout");
+    if (target === "support") a.textContent = t("navSupport");
+    if (target === "settings") a.textContent = t("navSettings");
+  });
+  const mobileSettings = document.querySelector(".nnd-mobile-settings a");
+  if (mobileSettings) mobileSettings.textContent = "⚙ " + t("navSettings");
+
+  // Hall of Myths songs and artists
+  const hofSongs = document.querySelectorAll(".hof-song");
+  const hofArtists = document.querySelectorAll(".hof-artist");
+  const hofSongKeys = ["hofSong1","hofSong2","hofSong3","hofSong4","hofSong5"];
+  const hofArtistKeys = ["hofArtist1","hofArtist2","hofArtist3","hofArtist4","hofArtist5"];
+  hofSongs.forEach((el, i) => { if (hofSongKeys[i]) el.textContent = t(hofSongKeys[i]); });
+  hofArtists.forEach((el, i) => { if (hofArtistKeys[i]) el.textContent = t(hofArtistKeys[i]); });
+
+  // sidebar links
+  document.querySelectorAll(".nnd-sidebar .sidebar-link:not(.full-stats)").forEach(a => {
+    const href = a.getAttribute("href") || "";
+    const target = a.dataset.modalTarget;
+    if (href.includes("vocadb.net")) a.textContent = t("linkVocaDB");
+    else if (href.includes("nicovideo.jp")) a.textContent = t("linkNicoNico");
+    else if (target === "about") a.textContent = t("linkAbout");
+    else if (target === "support") a.textContent = t("linkContact");
+  });
+
+  // re-render guesses and update sidebar stats label
+  renderGuesses();
+  if (typeof renderStats === "function") renderStats();
+}
+
 const state = {
   mode: "daily",
   attempt: 1,
@@ -170,7 +724,7 @@ function renderStats() {
 
   // update sidebar label
   const sbLabel = document.querySelector("#sb-mode-label");
-  if (sbLabel) sbLabel.textContent = state.mode === "daily" ? "Daily Stats" : "Unlimited Stats";
+  if (sbLabel) sbLabel.textContent = state.mode === "daily" ? t("dailyStats") : t("unlimitedStats");
 }
 
 function openModal(modalId) {
@@ -196,7 +750,15 @@ function closeModal() {
 }
 
 function formatToday() {
-  return new Intl.DateTimeFormat(undefined, {
+  const lang = getLang();
+  if (lang === "jp") {
+    return new Intl.DateTimeFormat("ja-JP", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    }).format(new Date());
+  }
+  return new Intl.DateTimeFormat("en-US", {
     month: "short",
     day: "numeric",
     year: "numeric",
@@ -230,8 +792,177 @@ function getSongSearchValues(song) {
   ].filter(Boolean);
 }
 
+const JP_NAME_MAP = {
+  // ── Vocaloid / Synth singers ──
+  "Hatsune Miku": "初音ミク",
+  "Kagamine Rin": "鏡音リン",
+  "Kagamine Len": "鏡音レン",
+  "Megurine Luka": "巡音ルカ",
+  "KAITO": "KAITO",
+  "MEIKO": "MEIKO",
+  "Gumi": "GUMI",
+  "IA": "IA",
+  "Kaai Yuki": "歌愛ユキ",
+  "Kasane Teto": "重音テト",
+  "Yuzuki Yukari": "結月ゆかり",
+  "Tohoku Zunko": "東北ずん子",
+  "Kizuna Akari": "紲星あかり",
+  "Tone Rion": "音街ウナ",
+  "Una": "音街ウナ",
+  "Nekomura Iroha": "猫村いろは",
+  "SF-A2 miki": "SF-A2 miki",
+  "CUL": "CUL",
+  "VY1": "VY1",
+  "VY2": "VY2",
+  "Lily": "Lily",
+  "Macne Nana": "マクネナナ",
+  "Kokone": "ここね",
+  "Mayu": "MAYU",
+  "Azuki": "小豆",
+  "Merli": "メルリ",
+  "Galaco": "GALACO",
+  "Rana": "ラナ",
+  "Ring Suzune": "鈴音リン",
+  "Fukase": "FUKASE",
+  "Tsurumaki Maki": "弦巻マキ",
+  "Tohoku Kiritan": "東北きりたん",
+  "Tohoku Itako": "東北イタコ",
+  "Shizuku Otonase": "音瀬しずく",
+  "Akane Lino": "燐音アカネ",
+  "Various artists": "Various artists",
+  // ── Producers ──
+  "PinocchioP": "ピノキオピー",
+  "DECO*27": "DECO*27",
+  "wowaka": "wowaka",
+  "ryo": "ryo",
+  "supercell": "supercell",
+  "kemu": "kemu",
+  "cosMo@BousouP": "cosMo@暴走P",
+  "HachioujiP": "八王子P",
+  "MikuP": "ミクP",
+  "MikitoP": "みきとP",
+  "UtataP": "うたたP",
+  "UtsuP": "うつP",
+  "Utsu-P": "うつP",
+  "LamazeP": "ラマーズP",
+  "GomP": "GomP",
+  "Gom": "Gom",
+  "NayutalieN": "ナユタン星人",
+  "Orangestar": "Orangestar",
+  "n-buna": "n-buna",
+  "doriko": "doriko",
+  "halyosy": "halyosy",
+  "baker": "baker",
+  "kz": "kz",
+  "livetune": "livetune",
+  "samfree": "samfree",
+  "sasakure.UK": "さつき が てんこもり",
+  "Satsuki ga Tenkomori": "さつき が てんこもり",
+  "syudou": "しゅーず",
+  "inabakumori": "稲葉曇",
+  "Yoasobi": "YOASOBI",
+  "Eve": "Eve",
+  "Reol": "Reol",
+  "iroha(sasaki)": "iroha(sasaki)",
+  "mothy": "悪ノP",
+  "Hitoshizuku": "一粒",
+  "HitoshizukuP": "一粒P",
+  "KurousaP": "黒うさP",
+  "Last Note.": "LastNote.",
+  "Nem": "Nem",
+  "Neru": "Neru",
+  "Kikuo": "きくお",
+  "Kanaria": "カナリア",
+  "Omoi": "Omoi",
+  "MARETU": "MARETU",
+  "Mitchie M": "Mitchie M",
+  "Junky": "Junky",
+  "Scop": "scop",
+  "scop": "scop",
+  "tilt-six": "tilt-six",
+  "Giga": "Giga",
+  "otetsu": "otetsu",
+  "Hitorie": "ヒトリエ",
+  "JIN": "じん",
+  "Kairiki bear": "カイリキーベア",
+  "Chinozo": "チノゾ",
+  "Yuuyu": "ゆうゆ",
+  "Yuyoyuppe": "ゆよゆっぺ",
+  "HoneyWorks": "HoneyWorks",
+  "Toraboruta": "とらぼるた",
+  "OSTER project": "OSTER project",
+  "EasyPop": "EasyPop",
+  "Machigerita": "まちゲリータ",
+  "Suzumu": "鈴木",
+  "Tsumiki": "ツミキ",
+  "Teniwoha": "てにをは",
+  "Hiiragi Kirai": "柊キライ",
+  "Harumaki Gohan": "春巻飯",
+  "Koronba": "コロンバ",
+  "Nanou": "なのう",
+  "nanou": "なのう",
+  "balloon": "balloon",
+  "niki": "niki",
+  "keeno": "keeno",
+  "Iyowa": "イヨワ",
+  "iyowa": "イヨワ",
+  "koyori": "こより",
+  "Yurry Canon": "ゆるりかのん",
+  "YurryCanon": "ゆるりかのん",
+  "Mafumafu": "まふまふ",
+  "Siinamota": "椎名もた",
+  "siinamota": "椎名もた",
+  "Owata P": "おわたP",
+  "OwataP": "おわたP",
+  "Polyphonicbranch": "ポリフォニックブランチ",
+  "PolyphonicBranch": "ポリフォニックブランチ",
+  "Rerulili": "れるりり",
+  "rerulili": "れるりり",
+  "Shikata Akiko": "志方あきこ",
+  "Nasimoto Ui": "なしもとうい",
+  "NashimotoUi": "なしもとうい",
+  "Nashimoto Ui": "なしもとうい",
+  "1640mP": "1640mP",
+  "HACHI": "ハチ",
+  "WADATAKEAKI": "WADATAKEAKI",
+  "Daniwell": "daniwell",
+  "daniwell": "daniwell",
+  "Chouchou P": "ちょうちょP",
+  "ChouchouP": "ちょうちょP",
+  "CircusP": "サーカスP",
+  "Circus P": "サーカスP",
+  "Ginsaku": "銀咲",
+  "Yukopi": "ゆこぴ",
+  "Camellia": "かめりあ",
+  "Toa": "toa",
+  "Storyteller": "Storyteller",
+  "Minato": "湊",
+  "Minato Takahiro": "湊貴広",
+  "n.k": "n.k",
+  "Dios/SignalP": "DIOS/シグナルP",
+  "Sasanomaly": "笹野末莉",
+  "Neru": "Neru",
+  "Yama": "yama",
+  "yama△": "yama△",
+  "Sohta": "そうた",
+  "Noripy": "のりぴ",
+  "noripy": "のりぴ",
+};
+
+
+function jpifyArtist(artistStr) {
+  if (!artistStr) return artistStr;
+  let result = artistStr;
+  for (const [en, jp] of Object.entries(JP_NAME_MAP)) {
+    result = result.replace(new RegExp(en.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "g"), jp);
+  }
+  return result;
+}
+
 function getSuggestionArtist(song) {
-  return song.suggestionArtistString || song.displayArtist || song.artistString || song.artist || "";
+  const base = song.suggestionArtistString || song.displayArtist || song.artistString || song.artist || "";
+  if (getLang() === "jp") return jpifyArtist(base);
+  return base;
 }
 
 function getMatchingSongs(value) {
@@ -325,13 +1056,13 @@ function resetRound() {
   coverImage.alt = "";
   coverFallback.hidden = true;
   coverFallback.innerHTML = "";
-  coverCaption.textContent = "cover art appears after the answer";
+  coverCaption.textContent = t("coverCaption");
   answerLink.hidden = true;
   answerLink.href = "#";
   scheduleMessage.hidden = true;
   nextButton.hidden = true;
   shareButton.hidden = true;
-  shareButton.textContent = "Copy Result";
+  shareButton.innerHTML = `<span id="share-button-text">${t("copyResult")}</span>`;
   shareOutput.hidden = true;
   shareOutput.value = "";
   playButton.disabled = false;
@@ -345,7 +1076,7 @@ function loadPuzzle() {
 
   if (!state.puzzle) {
     scheduleMessage.hidden = false;
-    scheduleMessage.textContent = "No puzzle is scheduled for today yet.";
+    scheduleMessage.textContent = t("noSchedule");
     playButton.disabled = true;
     skipButton.disabled = true;
     guessInput.disabled = true;
@@ -439,7 +1170,7 @@ function revealAnswer() {
   }
 
   coverPlaceholderMark.hidden = true;
-  coverCaption.textContent = `${state.puzzle.title} - ${getSuggestionArtist(state.puzzle)}`;
+  coverCaption.textContent = `${getDisplayTitle(state.puzzle)} - ${getSuggestionArtist(state.puzzle)}`;
   answerLink.hidden = !state.puzzle.vocadbUrl;
   answerLink.href = state.puzzle.vocadbUrl || "#";
 
@@ -597,21 +1328,22 @@ function completeRound(won) {
     if (badge) badge.hidden = true;
   }
   if (won) {
-    showToast(`Correct! — ${state.puzzle.title}`);
+    showToast(t("toastCorrect", getDisplayTitle(state.puzzle)));
     gamePanel.classList.remove("is-loss");
   } else {
-    showLossToast(`The answer was: ${state.puzzle.title}`);
+    showLossToast(t("toastAnswer", getDisplayTitle(state.puzzle)));
     gamePanel.classList.add("is-loss");
   }
 }
 
 function render() {
   gamePanel.classList.toggle("is-complete", state.isComplete);
-  puzzleDate.textContent = state.mode === "daily" ? formatToday() : "Unlimited";
-  attemptCount.textContent = `Attempt ${state.attempt} of ${clipStages.length}`;
+  puzzleDate.textContent = state.mode === "daily" ? formatToday() : t("unlimited");
+  attemptCount.textContent = t("attempt", state.attempt, clipStages.length);
   clipLength.textContent = `${clipStages[state.clipStage]}s`;
-  modeEyebrow.textContent = state.mode === "daily" ? "daily puzzle" : "unlimited puzzle";
+  modeEyebrow.textContent = state.mode === "daily" ? t("dailyPuzzle") : t("unlimitedPuzzle");
   answerLink.hidden = !state.isComplete || !state.puzzle?.vocadbUrl;
+  answerLink.textContent = t("viewVocaDB");
   nextButton.hidden = !state.isComplete;
   shareButton.hidden = !state.isComplete;
   shareOutput.value = state.isComplete ? buildShareText() : "";
@@ -631,9 +1363,17 @@ function getResultIcon(result) {
   return "";
 }
 
+function getResultLabel(result) {
+  if (result === "Correct") return t("correct");
+  if (result === "Wrong") return t("wrong");
+  if (result === "Skipped") return t("skipped");
+  if (result === "Answer") return t("answer");
+  return result;
+}
+
 function renderGuesses() {
   if (state.guesses.length === 0) {
-    guessList.innerHTML = '<li class="empty-guess">No guesses yet</li>';
+    guessList.innerHTML = `<li class="empty-guess">${t("noGuesses")}</li>`;
     return;
   }
 
@@ -643,7 +1383,7 @@ function renderGuesses() {
     .map((guess, index) => {
       const resultClass = ` is-${normalizeGuess(guess.result).replace(/\s+/g, "-")}`;
       const safeLabel = escapeHtml(guess.label);
-      const safeResult = escapeHtml(guess.result);
+      const safeResult = escapeHtml(getResultLabel(guess.result));
       const icon = getResultIcon(guess.result);
       const isNew = index === state.guesses.length - 1 && state.guesses.length > previousCount;
 
@@ -693,8 +1433,8 @@ function renderSuggestions() {
   suggestionList.innerHTML = matches
     .map(
       (song, index) => `
-        <li role="option" data-index="${index}" data-title="${escapeHtml(song.title)}">
-          <span class="suggestion-title">${highlightMatch(song.title, normalizedQuery)}</span>
+        <li role="option" data-index="${index}" data-title="${escapeHtml(getDisplayTitle(song))}">
+          <span class="suggestion-title">${highlightMatch(getDisplayTitle(song), normalizedQuery)}</span>
           <span class="suggestion-artist">${escapeHtml(getSuggestionArtist(song))}</span>
         </li>
       `,
@@ -924,7 +1664,7 @@ skipButton.addEventListener("click", () => {
     return;
   }
 
-  addGuess(`Skipped attempt ${state.attempt}`, "Skipped");
+  addGuess(`${t("skipped")} ${state.attempt}`, "Skipped");
   if (state.attempt >= clipStages.length) {
     completeRound(false);
   } else {
@@ -944,7 +1684,7 @@ guessForm.addEventListener("submit", (event) => {
   const isCorrect = isCorrectGuess(guess);
 
   if (isCorrect) {
-    addGuess(guess, "Correct");
+    addGuess(getDisplayTitle(state.puzzle), "Correct");
     completeRound(true);
     guessForm.reset();
     hideSuggestions();
@@ -996,7 +1736,7 @@ const giveUpButton = document.querySelector("#give-up-button");
 if (giveUpButton) {
   giveUpButton.addEventListener("click", () => {
     if (!state.puzzle || state.isComplete) return;
-    addGuess("Gave up", "Answer");
+    addGuess(t("gaveUp"), "Answer");
     completeRound(false);
     render();
   });
@@ -1051,7 +1791,7 @@ if (resetStatsYes) {
     localStorage.removeItem(statsKey);
     localStorage.removeItem(unlimitedStatsKey);
     renderStats();
-    showToast("Stats have been reset");
+    showToast(t("toastStatsReset"));
     if (resetStatsConfirm) resetStatsConfirm.hidden = true;
     if (resetStatsButton) resetStatsButton.hidden = false;
   });
@@ -1101,7 +1841,7 @@ shareButton.addEventListener("click", async () => {
 
   try {
     await copyText(shareText);
-    showToast("Result copied to clipboard");
+    showToast(t("toastCopied"));
     shareOutput.hidden = true;
   } catch {
     shareOutput.value = shareText;
@@ -1155,6 +1895,49 @@ document.addEventListener("click", (event) => {
   }
 });
 
+// ── LANGUAGE TOGGLE ──
+document.querySelectorAll(".lang-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const newLang = btn.dataset.lang;
+    localStorage.setItem("vh-lang", newLang);
+    // auto-switch title mode to match language
+    if (newLang === "jp") {
+      localStorage.setItem("vh-title-mode", "jp");
+    } else {
+      localStorage.setItem("vh-title-mode", "en");
+    }
+    // update title mode button active state
+    document.querySelectorAll("[data-title-mode]").forEach(b =>
+      b.classList.toggle("is-active", b.dataset.titleMode === localStorage.getItem("vh-title-mode"))
+    );
+    applyLanguage();
+    render();
+    if (state.isComplete) revealAnswer();
+  });
+});
+
+// ── TITLE MODE ──
+document.querySelectorAll("[data-title-mode]").forEach(btn => {
+  btn.addEventListener("click", () => {
+    localStorage.setItem("vh-title-mode", btn.dataset.titleMode);
+    document.querySelectorAll("[data-title-mode]").forEach(b =>
+      b.classList.toggle("is-active", b.dataset.titleMode === btn.dataset.titleMode)
+    );
+    render();
+    if (state.isComplete) revealAnswer();
+    hideSuggestions();
+  });
+});
+
+function initTitleMode() {
+  const mode = localStorage.getItem("vh-title-mode") || "en";
+  document.querySelectorAll("[data-title-mode]").forEach(btn =>
+    btn.classList.toggle("is-active", btn.dataset.titleMode === mode)
+  );
+}
+
 loadPuzzle();
 renderStats();
 checkNewBadge();
+applyLanguage();
+initTitleMode();
