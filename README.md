@@ -4,9 +4,9 @@ A fan-made VOCALOID Heardle-style guessing game.
 
 ## Disclaimer
 
-This project was vibe-coded as a fun fan project after the existing VOCALOID Heardle appeared to be down. It is not meant to replace or compete with the original, and I do not claim ownership over VOCALOID, the songs, producers, characters, or related media used for identification/reference. In addition, this project will not be included in any future portfolio of mine.
+This project was created with the assistance of AI as a fun fan project after the existing VOCALOID Heardle appeared to be down. It is not meant to replace or compete with the original, and I do not claim ownership over VOCALOID, the songs, producers, characters, or related media used for identification/reference. In addition, this project will not be included in any future portfolio of mine.
 
-This project is maintained by sodapines. Feedback, corrections, bug reports, and suggestions are welcome, especially for song metadata, broken audio links, missing songs, duplicate entries, or gameplay issues.
+This project is maintained by sodapines and facilitated by VocaStats. Feedback, corrections, bug reports, and suggestions are welcome, especially for song metadata, broken audio links, missing songs, duplicate entries, or gameplay issues.
 
 Contact: kzen@sodapines.dev
 
