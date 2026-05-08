@@ -112,3 +112,5 @@ if (volInput) {
 document.querySelectorAll('[data-setting="danmaku-density"]').forEach(btn => {
   btn.addEventListener('click', () => applyDanmakuDensity(btn.dataset.value));
 });
+
+// just to make sure...
