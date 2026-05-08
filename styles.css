@@ -1342,3 +1342,108 @@ body.dark-mode .lang-btn {
 body.dark-mode .lang-btn.is-active {
   box-shadow: 0 0 0 1px var(--red);
 }
+/* ── SIDEBAR RANKINGS ── */
+.sb-rankings-tabs {
+  display: flex;
+  gap: 0;
+  margin-bottom: 5px;
+  border: 1px solid var(--ls);
+  width: 100%;
+}
+.sb-rankings-tab {
+  flex: 1;
+  min-height: 20px;
+  height: 20px;
+  padding: 0 2px;
+  font-size: 9px;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--muted);
+  background: linear-gradient(to bottom, #ffffff, #e8e8e8);
+  border: none;
+  border-right: 1px solid var(--ls);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.8);
+  cursor: pointer;
+  transition: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.sb-rankings-tab:last-child { border-right: none; }
+.sb-rankings-tab:hover { background: linear-gradient(to bottom, #fff5f5, #ffd0d0); color: var(--red); filter: none; }
+.sb-rankings-tab.is-active { background: var(--red); color: #fff; box-shadow: none; }
+
+.sb-rankings-row {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  padding: 3px 0;
+  border-bottom: 1px dotted var(--line);
+  font-size: 11px;
+}
+.sb-rankings-row:last-child { border-bottom: none; }
+.sb-rankings-rank { color: var(--red); font-weight: 700; min-width: 16px; flex-shrink: 0; font-size: 10px; }
+.sb-rankings-song { flex: 1; color: var(--text); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 11px; }
+.sb-rankings-pct { color: var(--muted); font-size: 10px; flex-shrink: 0; }
+.sb-rankings-loading { font-size: 11px; color: var(--faint); font-style: italic; padding: 4px 0; }
+
+/* ── RANKINGS MODAL ── */
+.rankings-note {
+  font-size: 11px;
+  color: var(--faint);
+  font-style: italic;
+  margin: -8px 0 12px;
+}
+.rankings-tabs {
+  display: flex;
+  gap: 0;
+  margin-bottom: 12px;
+  border: 1px solid var(--ls);
+  width: max-content;
+}
+.rankings-tab {
+  min-height: 26px;
+  height: 26px;
+  padding: 0 14px;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: inherit;
+  color: var(--muted);
+  background: linear-gradient(to bottom, #ffffff, #e8e8e8);
+  border: none;
+  border-right: 1px solid var(--ls);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.8);
+  cursor: pointer;
+  transition: none;
+}
+.rankings-tab:last-child { border-right: none; }
+.rankings-tab:hover { background: linear-gradient(to bottom, #fff5f5, #ffd0d0); color: var(--red); filter: none; }
+.rankings-tab.is-active { background: var(--red); color: #fff; font-weight: 700; box-shadow: none; }
+
+.rankings-content { display: grid; gap: 0; }
+.rankings-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 12px;
+}
+.rankings-row:last-child { border-bottom: none; }
+.rankings-rank { color: var(--red); font-weight: 700; min-width: 22px; flex-shrink: 0; font-size: 11px; }
+.rankings-title-col { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 1px; }
+.rankings-song { color: var(--text); font-weight: 700; font-size: 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.rankings-artist { color: var(--faint); font-size: 10px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.rankings-stats-col { flex-shrink: 0; text-align: right; display: flex; flex-direction: column; gap: 1px; }
+.rankings-plays { color: var(--muted); font-size: 10px; }
+.rankings-winrate { color: var(--red); font-size: 11px; font-weight: 700; }
+.rankings-avg { color: var(--faint); font-size: 10px; }
+.rankings-loading { font-size: 12px; color: var(--faint); font-style: italic; padding: 12px 0; text-align: center; }
+
+/* dark mode */
+body.dark-mode .sb-rankings-tab { background: linear-gradient(to bottom, #282828, #1a1a1a); color: #888; border-color: #333; box-shadow: none; }
+body.dark-mode .sb-rankings-tab.is-active { background: var(--red); color: #fff; }
+body.dark-mode .rankings-tab { background: linear-gradient(to bottom, #282828, #1a1a1a); color: #888; border-color: #333; box-shadow: none; }
+body.dark-mode .rankings-tab.is-active { background: var(--red); color: #fff; }
+body.dark-mode .rankings-row { border-color: #2a2a2a; }
+body.dark-mode .sb-rankings-row { border-color: #2a2a2a; }
