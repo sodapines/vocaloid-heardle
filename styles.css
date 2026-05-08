@@ -760,11 +760,21 @@ button:disabled { opacity: 0.5; cursor: not-allowed; }
 /* ── RESPONSIVE ── */
 @media (max-width: 680px) {
   .nnd-body { flex-direction: column; padding: 6px 6px 55px; }
-  .nnd-sidebar { width: 100%; min-width: 0; flex-direction: row; flex-wrap: wrap; }
-  .nnd-sidebar-box { flex: 1 1 45%; }
+  .nnd-sidebar { width: 100%; min-width: 0; flex-direction: column; flex-wrap: nowrap; }
+  .nnd-sidebar-box { flex: 1 1 100%; }
   .nnd-main { padding-right: 0; }
   .nnd-header-links { display: none; }
   .nnd-mobile-settings { display: flex; }
+
+  /* Cover art was 16:9 full-width — way too tall on phones. */
+  .cover-placeholder { aspect-ratio: 4 / 3; max-height: 240px; }
+
+  /* Let the intro line wrap instead of getting ellipsis'd. */
+  .nnd-intro-panel { flex-wrap: wrap; }
+  .intro-copy { white-space: normal; overflow: visible; text-overflow: clip; flex-basis: 100%; }
+
+  /* Slightly smaller danmaku so it doesn't dominate the cover. */
+  .danmaku-comment { font-size: 12px; }
 }
 
 .nnd-mobile-settings {
