@@ -1345,17 +1345,22 @@ body.dark-mode .lang-btn.is-active {
 /* ── SIDEBAR RANKINGS ── */
 .sb-rankings-tabs {
   display: flex;
+  flex-wrap: nowrap;
   gap: 0;
   margin-bottom: 5px;
   border: 1px solid var(--ls);
   width: 100%;
+  overflow: hidden;
 }
 .sb-rankings-tab {
-  flex: 1;
+  appearance: none;
+  flex: 1 1 0;
+  min-width: 0;
   min-height: 20px;
   height: 20px;
   padding: 0 2px;
   font-size: 9px;
+  line-height: 20px;
   font-weight: 700;
   font-family: inherit;
   color: var(--muted);
@@ -1368,9 +1373,11 @@ body.dark-mode .lang-btn.is-active {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  transform: none;
 }
 .sb-rankings-tab:last-child { border-right: none; }
 .sb-rankings-tab:hover { background: linear-gradient(to bottom, #fff5f5, #ffd0d0); color: var(--red); filter: none; }
+.sb-rankings-tab:active { transform: none; }
 .sb-rankings-tab.is-active { background: var(--red); color: #fff; box-shadow: none; }
 
 .sb-rankings-row {
@@ -1396,16 +1403,23 @@ body.dark-mode .lang-btn.is-active {
 }
 .rankings-tabs {
   display: flex;
+  flex-wrap: nowrap;
   gap: 0;
   margin-bottom: 12px;
   border: 1px solid var(--ls);
   width: max-content;
+  max-width: 100%;
+  overflow: hidden;
 }
 .rankings-tab {
+  appearance: none;
+  flex: 0 1 auto;
+  min-width: 86px;
   min-height: 26px;
   height: 26px;
   padding: 0 14px;
   font-size: 12px;
+  line-height: 26px;
   font-weight: 400;
   font-family: inherit;
   color: var(--muted);
@@ -1415,9 +1429,12 @@ body.dark-mode .lang-btn.is-active {
   box-shadow: inset 0 1px 0 rgba(255,255,255,0.8);
   cursor: pointer;
   transition: none;
+  transform: none;
+  white-space: nowrap;
 }
 .rankings-tab:last-child { border-right: none; }
 .rankings-tab:hover { background: linear-gradient(to bottom, #fff5f5, #ffd0d0); color: var(--red); filter: none; }
+.rankings-tab:active { transform: none; }
 .rankings-tab.is-active { background: var(--red); color: #fff; font-weight: 700; box-shadow: none; }
 
 .rankings-content { display: grid; gap: 0; }
