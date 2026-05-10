@@ -3,6 +3,8 @@ const maxClipLength = clipStages.at(-1);
 const songs = window.VOCALOID_HEARDLE_SONGS || [];
 const statsKey = "vocaloid-heardle-stats";
 const unlimitedStatsKey = "vocaloid-heardle-unlimited-stats";
+const archiveResultsKey = "vocaloid-heardle-archive-results";
+const contactEmail = "kzen@sodapines.dev";
 
 // ── i18n ──
 const STRINGS = {
@@ -11,6 +13,8 @@ const STRINGS = {
     unlimitedPuzzle: "unlimited puzzle",
     daily: "Daily",
     unlimited: "Unlimited",
+    archive: "Archive",
+    archivePuzzle: "archive puzzle",
     attempt: (n, total) => `Attempt ${n} of ${total}`,
     coverCaption: "cover art appears after the answer",
     noSchedule: "No puzzle is scheduled for today yet.",
@@ -27,7 +31,6 @@ const STRINGS = {
     skipped: "Skipped",
     answer: "Answer",
     gaveUp: "Gave up",
-    viewVocaDB: "View on VocaDB",
     dailyStats: "Daily Stats",
     unlimitedStats: "Unlimited Stats",
     played: "Played",
@@ -44,11 +47,13 @@ const STRINGS = {
     toastAnswer: (title) => `The answer was: ${title}`,
     toastCopied: "Result copied to clipboard",
     toastStatsReset: "Stats have been reset",
+    toastAlreadyGuessed: "Already guessed.",
+    toastSelectSong: "Select a song from the list.",
     heardleDaily: "VOCALOID Heardle Daily",
     heardleUnlimited: "VOCALOID Heardle Unlimited",
     placeholder: "type your guess...",
     disclaimer: "Some songs may not begin playing within the first second.",
-    marquee: "A new daily puzzle is available each day ★ Use unlimited mode to practice anytime ★ Guess the VOCALOID song from the opening clip in 6 tries or less ★ Share your score with friends! ★ Songs sourced from VocaDB ★",
+    marquee: "★ A new daily puzzle is available each day ★ Use unlimited mode to practice anytime ★ Guess the VOCALOID song from the opening clip in 6 tries or less ★ Share your score with friends! ★ Songs sourced from VocaDB ★",
     introCopy: "Guess the VOCALOID song from the opening clip.",
     breadcrumb: "Games › Music › VOCALOID › Heardle",
     footerText: "VOCALOID Heardle: fan-made daily guessing game © 2026 | Not affiliated with Crypton Future Media or NicoNico | Song data from",
@@ -69,6 +74,47 @@ const STRINGS = {
     modalSupportTitle: "Support",
     modalSupportP1: "VOCALOID Heardle is maintained by sodapines as a small fan-made music puzzle project.",
     modalSupportP2: "For bugs, song corrections, or suggestions, email",
+    modalSupportP3: "Hosting and the stats backend cost a bit each month to keep running. If you've enjoyed the game and want to chip in, even a one-time tip helps cover those costs.",
+    modalReleaseTitle: "Release Notes",
+    modalReleaseVersion: "Official Release v1.0",
+    modalReleaseIntro: "This release collects the major updates being prepared for the public site.",
+    modalReleaseArchive: "Daily Archive with playable past puzzles, monthly completion summaries, and hardest/easiest daily notes.",
+    modalReleaseRandom: "Random Archive Puzzle for jumping into older dailies without picking a date.",
+    modalReleaseStats: "Global song stats, solve rates, average attempts, and expanded rankings with Lowest/Highest Avg tabs.",
+    modalReleasePool: "Song Pool credits, VocaDB source information, and clearer project disclaimers.",
+    modalReleaseCommunity: "Suggest a Song, Report Issue forms, and Community Suggested tags for future additions.",
+    modalReleaseLanguage: "English/Japanese interface support with song title display options.",
+    modalReleasePolish: "Retro NicoNico-inspired layout polish, improved autocomplete, and Cloudflare-hosted audio support.",
+    modalSongPoolTitle: "Song Pool",
+    modalSongPoolSummary: "Songs are sourced from VocaDB. Daily puzzles are selected from a curated VOCALOID/music database.",
+    modalSongPoolTotal: "Total songs in pool",
+    modalSongPoolSources: "Sources used",
+    modalSongPoolSourcesValue: "VocaDB, YouTube, NicoNico, Cloudflare R2 audio hosting",
+    modalSongPoolCredit: "Song data credit",
+    modalSongPoolDisclaimer: "VOCALOID Heardle is a fan-made project and is not affiliated with Crypton Future Media, NicoNico, VocaDB, or the artists represented in the song pool.",
+    modalSuggestTitle: "Suggest a Song",
+    modalSuggestIntro: "Send a song for future puzzle consideration. Suggestions are not guaranteed, but they help improve the pool.",
+    modalSuggestLabelTitle: "Song title",
+    modalSuggestLabelProducer: "Producer",
+    modalSuggestLabelVocal: "Vocal synth",
+    modalSuggestLabelVocadb: "VocaDB link",
+    modalSuggestLabelSource: "YouTube/NicoNico link",
+    modalSuggestLabelReason: "Why should this be included?",
+    modalSuggestSubmit: "Email Suggestion",
+    modalReportTitle: "Report Issue",
+    modalReportIntro: "Use this form to report a problem with the current puzzle.",
+    modalReportLabelReason: "Reason",
+    modalReportLabelDetails: "Details",
+    modalReportDetailPlaceholder: "What happened?",
+    modalReportSubmit: "Email Report",
+    modalReportOptMetadata: "Wrong song metadata",
+    modalReportOptAudio: "Audio does not play",
+    modalReportOptSource: "Wrong source",
+    modalReportOptDuplicate: "Duplicate song",
+    modalReportOptStartpoint: "Bad starting point",
+    modalReportOptAnswer: "Answer not accepted",
+    modalReportOptOther: "Other",
+    reportIssue: "Report issue",
     modalStatsTitle: "Stats",
     modalStatsDailyBtn: "Daily",
     modalStatsUnlimitedBtn: "Unlimited",
@@ -77,6 +123,31 @@ const STRINGS = {
     statsWinRate: "Win rate",
     statsCurrentStreak: "Current streak",
     statsMaxStreak: "Max streak",
+    statsAvgAttempts: "Avg winning attempts",
+    sbAvgAttempts: "Avg Attempts",
+    nextDailyCountdown: (h, m, s) => `Next puzzle in <strong>${h}h ${m}m ${s}s</strong>`,
+    nextDailyReady: "A new daily puzzle is available!",
+    archiveSolved: "Solved",
+    archiveFailed: "Open",
+    archiveUnplayed: "Available",
+    archiveSummaryOpened: "Played",
+    archiveSummarySolved: "Solved",
+    archiveSummaryRevealed: "Revealed",
+    archiveSummaryComplete: "Complete",
+    archiveMonthBadge: (solved, total, rate) => `${solved}/${total} solved · ${rate}%`,
+    archiveHardest: "Hardest daily",
+    archiveEasiest: "Easiest daily",
+    archiveInsightsLoading: "Loading month difficulty...",
+    archiveInsightsEmpty: "Month difficulty appears after you open archive puzzles.",
+    archiveRandom: "Random Archive Puzzle",
+    archiveRandomEmpty: "No archive puzzles are available yet.",
+    tagCommunitySuggested: "Community suggested",
+    tagSpecialTest: "Special test label",
+    kofiNudgeText: "Enjoying the project? Tips help keep it running.",
+    kofiNudgeLink: "Support on Ko-fi →",
+    statHardestLabel: "Hardest solved",
+    statHardestEmpty: "Hardest solved: solve a song to set this!",
+    statHardestLine: (title, rate) => `<span class="sh-label">Hardest solved:</span> <span class="sh-title">${title}</span> — <span class="sh-rate">${rate}% global solve</span>`,
     settingsTitle: "Settings",
     settingDarkMode: "Dark Mode",
     settingDarkModeDesc: "Switch between light and dark theme",
@@ -106,6 +177,9 @@ const STRINGS = {
     settingTitleDisplayDesc: "How song titles appear in suggestions and history",
     settingClearInput: "Clear Input on Wrong",
     settingClearInputDesc: "Clears the guess field after a wrong answer",
+    settingReportIssue: "Report Issue",
+    settingReportIssueDesc: "Send metadata, audio, duplicate, or answer problems",
+    settingReportIssueBtn: "Report",
     settingResetStats: "Reset Stats",
     settingResetStatsDesc: "Permanently clear all your stats",
     settingResetBtn: "Reset",
@@ -119,6 +193,11 @@ const STRINGS = {
     navAbout: "About",
     navSupport: "Support",
     navSettings: "Settings",
+    navUpdates: "Updates",
+    linkReleaseNotes: "Release Notes",
+    linkReleaseVersion: "Release v1.0",
+    linkSongPool: "Song Pool",
+    linkSuggestSong: "Suggest a Song",
     hofSong1: "Senbonzakura",
     hofSong2: "I'll Make You Do the Miku Miku",
     hofSong3: "Melt",
@@ -137,6 +216,8 @@ const STRINGS = {
     rankingsTabPlays: "Popular",
     rankingsTabHardest: "Hardest",
     rankingsTabEasiest: "Easiest",
+    rankingsTabAvgLow: "Lowest Avg",
+    rankingsTabAvgHigh: "Highest Avg",
     rankingsSeeAll: "See all →",
     rankingsNote: "Based on unlimited mode plays only. Songs with fewer than 5 plays are excluded.",
     rankingsModalTitle: "Global Rankings",
@@ -146,6 +227,18 @@ const STRINGS = {
     rankingsNoData: "No data yet.",
     rankingsNoDataModal: "No data yet, play some unlimited songs first!",
     rankingsLoading: "Loading...",
+    archiveTitle: "Daily Archive",
+    archiveNote: "Play previous daily puzzles. New completed dailies appear here automatically.",
+    archiveEmpty: "No puzzle",
+    globalStats: (rate, avg, plays) => `Global solve rate: <span class="gs-rate${rate < 30 ? ' gs-hard' : ''}">${rate}%</span> · Avg winning attempts: <span class="gs-rate">${avg}/6</span> · ${plays.toLocaleString()} plays`,
+    globalStatsNoWins: (rate, plays) => `Global solve rate: <span class="gs-rate gs-hard">${rate}%</span> · ${plays.toLocaleString()} plays`,
+    globalStatsNone: "",
+    difficultyLabel: (label) => `Difficulty: ${label}`,
+    difficultyFree: "Free",
+    difficultyEasy: "Easy",
+    difficultyMedium: "Medium",
+    difficultyHard: "Hard",
+    difficultyUnknown: "what is this song???",
     introCopy: "Guess the VOCALOID song from the opening clip.",
     breadcrumb: "Games › Music › VOCALOID › Heardle",
     footerText: "VOCALOID Heardle: fan-made daily guessing game © 2026 | Not affiliated with Crypton Future Media or NicoNico | Song data from",
@@ -161,6 +254,8 @@ const STRINGS = {
     unlimitedPuzzle: "無制限モード",
     daily: "毎日",
     unlimited: "無制限",
+    archive: "アーカイブ",
+    archivePuzzle: "アーカイブ問題",
     attempt: (n, total) => `挑戦 ${n} / ${total}`,
     coverCaption: "正解後にジャケット画像が表示されます",
     noSchedule: "本日のパズルはまだ準備されていません。",
@@ -177,7 +272,6 @@ const STRINGS = {
     skipped: "スキップ",
     answer: "答え",
     gaveUp: "ギブアップ",
-    viewVocaDB: "VocaDBで見る",
     dailyStats: "毎日の統計",
     unlimitedStats: "無制限の統計",
     played: "プレイ数",
@@ -194,11 +288,13 @@ const STRINGS = {
     toastAnswer: (title) => `正解は：${title}`,
     toastCopied: "結果をコピーしました",
     toastStatsReset: "統計をリセットしました",
+    toastAlreadyGuessed: "すでに回答済みです。",
+    toastSelectSong: "リストから曲を選んでください。",
     heardleDaily: "VOCALOID Heardle 毎日",
     heardleUnlimited: "VOCALOID Heardle 無制限",
     placeholder: "曲名を入力...",
     disclaimer: "曲によっては最初の1秒で再生が始まらない場合があります。",
-    marquee: "毎日新しいパズルが更新されます ★ 無制限モードでいつでも練習できます ★ 6回以内にVOCALOID曲を当てよう ★ 結果をシェアしよう！ ★ 楽曲データはVocaDBより ★",
+    marquee: "★ 毎日新しいパズルが更新されます ★ 無制限モードでいつでも練習できます ★ 6回以内にVOCALOID曲を当てよう ★ 結果をシェアしよう！ ★ 楽曲データはVocaDBより ★",
     introCopy: "イントロを聴いてVOCALOID曲を当てよう。",
     breadcrumb: "ゲーム › 音楽 › VOCALOID › Heardle",
     footerText: "VOCALOID Heardle：ファンメイドの毎日クイズゲーム © 2026 | クリプトン・フューチャー・メディア及びニコニコと無関係 | 楽曲データ：",
@@ -219,6 +315,39 @@ const STRINGS = {
     modalSupportTitle: "サポート",
     modalSupportP1: "VOCALOID Heardleはsodapinesが運営するファンメイドの音楽パズルプロジェクトです。",
     modalSupportP2: "バグ・曲の修正・ご提案はこちらまで：",
+    modalSupportP3: "サーバーと統計バックエンドの維持には毎月少し費用がかかります。気に入っていただけたら、1回限りの寄付でも運営の助けになります。",
+    modalSongPoolTitle: "曲プール",
+    modalSongPoolSummary: "楽曲はVocaDBから取得しています。デイリーパズルはVOCALOID/音楽データベースからキュレーションされた曲から選ばれます。",
+    modalSongPoolTotal: "プールの総曲数",
+    modalSongPoolSources: "使用ソース",
+    modalSongPoolSourcesValue: "VocaDB・YouTube・ニコニコ動画・Cloudflare R2 音声ホスティング",
+    modalSongPoolCredit: "楽曲データ提供",
+    modalSongPoolDisclaimer: "VOCALOID Heardleはファンメイドのプロジェクトであり、クリプトン・フューチャー・メディア、ニコニコ動画、VocaDB、および曲プールに含まれるアーティストとは無関係です。",
+    modalSuggestTitle: "曲を提案する",
+    modalSuggestIntro: "今後のパズル候補として曲を送ってください。採用は保証されませんが、プール改善に役立ちます。",
+    modalSuggestLabelTitle: "曲名",
+    modalSuggestLabelProducer: "プロデューサー",
+    modalSuggestLabelVocal: "ボーカル合成",
+    modalSuggestLabelVocadb: "VocaDBリンク",
+    modalSuggestLabelSource: "YouTube/ニコニコリンク",
+    modalSuggestLabelReason: "なぜ追加すべきですか？",
+    modalSuggestSubmit: "メールで提案",
+    modalReportTitle: "問題を報告",
+    modalReportIntro: "現在のパズルの問題をこのフォームで報告してください。",
+    modalReportLabelReason: "理由",
+    modalReportLabelDetails: "詳細",
+    modalReportDetailPlaceholder: "何が起きましたか？",
+    modalReportSubmit: "メールで報告",
+    modalReportOptMetadata: "曲のメタデータが間違っている",
+    modalReportOptAudio: "音声が再生されない",
+    modalReportOptSource: "ソースが違う",
+    modalReportOptDuplicate: "曲が重複している",
+    modalReportOptStartpoint: "再生開始位置が悪い",
+    modalReportOptAnswer: "正解が受け付けられない",
+    modalReportOptOther: "その他",
+    reportIssue: "問題を報告",
+    linkSongPool: "曲プール",
+    linkSuggestSong: "曲を提案する",
     modalStatsTitle: "統計",
     modalStatsDailyBtn: "毎日",
     modalStatsUnlimitedBtn: "無制限",
@@ -227,6 +356,31 @@ const STRINGS = {
     statsWinRate: "正解率",
     statsCurrentStreak: "現在の連続正解",
     statsMaxStreak: "最高連続正解",
+    statsAvgAttempts: "平均挑戦回数",
+    sbAvgAttempts: "平均挑戦",
+    nextDailyCountdown: (h, m, s) => `次の問題まで <strong>${h}時間${m}分${s}秒</strong>`,
+    nextDailyReady: "新しい問題が利用可能です！",
+    archiveSolved: "解放済み",
+    archiveFailed: "開封",
+    archiveUnplayed: "プレイ可能",
+    archiveSummaryOpened: "プレイ",
+    archiveSummarySolved: "正解",
+    archiveSummaryRevealed: "開封",
+    archiveSummaryComplete: "達成率",
+    archiveMonthBadge: (solved, total, rate) => `${solved}/${total} 正解 · ${rate}%`,
+    archiveHardest: "最難関デイリー",
+    archiveEasiest: "最易デイリー",
+    archiveInsightsLoading: "月間難易度を読み込み中...",
+    archiveInsightsEmpty: "アーカイブ問題を開くと月間難易度が表示されます。",
+    archiveRandom: "ランダムアーカイブ",
+    archiveRandomEmpty: "利用できるアーカイブ問題はまだありません。",
+    tagCommunitySuggested: "コミュニティ推薦",
+    tagSpecialTest: "特別テストラベル",
+    kofiNudgeText: "楽しんでいただけましたか？支援は運営の助けになります。",
+    kofiNudgeLink: "Ko-fiで支援する →",
+    statHardestLabel: "最難関の正解",
+    statHardestEmpty: "最難関の正解：曲を1つ正解すると記録されます！",
+    statHardestLine: (title, rate) => `<span class="sh-label">最難関の正解:</span> <span class="sh-title">${title}</span> — <span class="sh-rate">グローバル正解率${rate}%</span>`,
     settingsTitle: "設定",
     settingDarkMode: "ダークモード",
     settingDarkModeDesc: "ライト・ダークテーマの切り替え",
@@ -287,6 +441,8 @@ const STRINGS = {
     rankingsTabPlays: "再生数",
     rankingsTabHardest: "難しい",
     rankingsTabEasiest: "簡単",
+    rankingsTabAvgLow: "低平均",
+    rankingsTabAvgHigh: "高平均",
     rankingsSeeAll: "すべて見る →",
     rankingsNote: "無制限モードのプレイのみ対象。5回未満のプレイは除外されます。",
     rankingsModalTitle: "グローバルランキング",
@@ -296,6 +452,18 @@ const STRINGS = {
     rankingsNoData: "データがまだありません。",
     rankingsNoDataModal: "データがまだありません — 無制限モードで曲を当ててみよう！",
     rankingsLoading: "読み込み中...",
+    archiveTitle: "アーカイブ",
+    archiveNote: "過去のデイリーパズルをプレイできます。終了したデイリーは自動的に追加されます。",
+    archiveEmpty: "パズルなし",
+    globalStats: (rate, avg, plays) => `グローバル正解率: <span class="gs-rate${rate < 30 ? ' gs-hard' : ''}">${rate}%</span> · 平均挑戦回数: <span class="gs-rate">${avg}/6</span> · ${plays.toLocaleString()}回`,
+    globalStatsNoWins: (rate, plays) => `グローバル正解率: <span class="gs-rate gs-hard">${rate}%</span> · ${plays.toLocaleString()}回`,
+    globalStatsNone: "",
+    difficultyLabel: (label) => `難易度: ${label}`,
+    difficultyFree: "サービス",
+    difficultyEasy: "簡単",
+    difficultyMedium: "普通",
+    difficultyHard: "難しい",
+    difficultyUnknown: "なんの曲？？？",
     introCopy: "イントロを聴いてVOCALOID曲を当てよう。",
     breadcrumb: "ゲーム › 音楽 › VOCALOID › Heardle",
     footerText: "VOCALOID Heardle：ファンメイドの毎日クイズゲーム © 2026 | クリプトン・フューチャー・メディア及びニコニコと無関係 | 楽曲データ：",
@@ -307,6 +475,28 @@ const STRINGS = {
     hofNote: "ニコニコ動画で最も再生されたVOCALOID曲",
   },
 };
+
+Object.assign(STRINGS.jp, {
+  modalReleaseTitle: "更新情報",
+  modalReleaseVersion: "正式リリース v1.0",
+  modalReleaseIntro: "このリリースでは、公開版サイトに向けた主な更新をまとめています。",
+  modalReleaseArchive: "過去のデイリーパズルを遊べるアーカイブ、達成率、月ごとの難易度メモを追加。",
+  modalReleaseStats: "グローバル楽曲統計、正解率、平均挑戦回数、ランキングを追加。",
+  modalReleasePool: "曲プールのクレジット、VocaDBソース情報、プロジェクトの免責表記を整理。",
+  modalReleaseCommunity: "曲の提案フォームと問題報告フォームでコミュニティからのフィードバックに対応。",
+  modalReleaseLanguage: "英語/日本語インターフェースと曲名表示オプションに対応。",
+  modalReleasePolish: "ニコニコ風レトロUIの調整、オートコンプリート改善、Cloudflare配信音声への対応。",
+  navUpdates: "更新情報",
+  linkReleaseNotes: "更新情報",
+  linkReleaseVersion: "リリース v1.0",
+});
+
+Object.assign(STRINGS.jp, {
+  modalReleaseArchive: "過去のデイリーパズル、月ごとの達成サマリー、最難関/最易デイリーのメモを追加。",
+  modalReleaseRandom: "日付を選ばず過去のデイリーに飛べるランダムアーカイブ問題を追加。",
+  modalReleaseStats: "グローバル楽曲統計、正解率、平均挑戦回数、低平均/高平均タブ付きランキングを追加。",
+  modalReleaseCommunity: "曲の提案、問題報告フォーム、今後の追加曲向けコミュニティ推薦タグに対応。",
+});
 
 function getLang() {
   return localStorage.getItem("vh-lang") || "en";
@@ -325,6 +515,14 @@ function hasJapanese(str) {
 function getJpTitle(song) {
   const jpTitle = (song.acceptedTitles || []).find(hasJapanese);
   return jpTitle || song.title;
+}
+
+// Truncate long titles with ellipsis to keep layouts from breaking.
+// Used at render sites where overflow causes visual problems (rankings, toasts).
+// NOT applied to autocomplete or guess matching — those need full titles.
+function truncateTitle(title, max = 40) {
+  if (!title) return "";
+  return title.length > max ? title.slice(0, max - 1).trimEnd() + "…" : title;
 }
 
 function getDisplayTitle(song) {
@@ -402,6 +600,7 @@ function applyLanguage() {
   set(".sb-winrate-label", "winRate");
   set(".sb-streak-label", "streak");
   set(".sb-best-label", "bestStreak");
+  set(".sb-avg-label", "sbAvgAttempts");
   set(".sb-total-label", "songsInPool");
   set(".sidebar-link.full-stats", "viewFullStats");
   set(".sb-howtoplay-header", "howToPlay");
@@ -423,8 +622,10 @@ function applyLanguage() {
   // mode buttons
   const daily = document.querySelector("#daily-mode-button");
   const unlimited = document.querySelector("#unlimited-mode-button");
+  const archive = document.querySelector("#archive-mode-button");
   if (daily) daily.childNodes[0].textContent = t("daily") + " ";
   if (unlimited) unlimited.textContent = t("unlimited");
+  if (archive) archive.textContent = t("archive");
 
   // input placeholder
   if (guessInput) guessInput.placeholder = t("placeholder");
@@ -433,11 +634,25 @@ function applyLanguage() {
   if (!state.isComplete) {
     if (coverCaption) coverCaption.textContent = t("coverCaption");
   }
+  renderSourceTags();
 
   // modals
   set("#how-to-play-title", "modalHowToPlayTitle");
   set("#about-title", "modalAboutTitle");
   set("#support-title", "modalSupportTitle");
+  set("#release-notes-title", "modalReleaseTitle");
+  set("#release-version", "modalReleaseVersion");
+  set("#release-intro", "modalReleaseIntro");
+  set("#release-item-archive", "modalReleaseArchive");
+  set("#release-item-random", "modalReleaseRandom");
+  set("#release-item-stats", "modalReleaseStats");
+  set("#release-item-pool", "modalReleasePool");
+  set("#release-item-community", "modalReleaseCommunity");
+  set("#release-item-language", "modalReleaseLanguage");
+  set("#release-item-polish", "modalReleasePolish");
+  set("#song-pool-title", "modalSongPoolTitle");
+  set("#suggest-song-title", "modalSuggestTitle");
+  set("#report-issue-title", "modalReportTitle");
   set("#stats-title", "modalStatsTitle");
   set("#settings-title", "settingsTitle");
   set("#stats-daily-button", "modalStatsDailyBtn");
@@ -445,7 +660,7 @@ function applyLanguage() {
 
   // stats modal grid labels
   const statLabels = document.querySelectorAll(".stats-grid span");
-  const statLabelKeys = ["statsPlayed","statsWon","statsWinRate","statsCurrentStreak","statsMaxStreak"];
+  const statLabelKeys = ["statsPlayed","statsWon","statsWinRate","statsCurrentStreak","statsMaxStreak","statsAvgAttempts"];
   statLabels.forEach((el, i) => { if (statLabelKeys[i]) el.textContent = t(statLabelKeys[i]); });
 
   // how to play modal
@@ -471,6 +686,62 @@ function applyLanguage() {
     emailLink.textContent = "kzen@sodapines.dev";
     supportPs[1].appendChild(emailLink);
   }
+  if (supportPs[2]) supportPs[2].textContent = t("modalSupportP3");
+  // song pool / contribution modals
+  const songPoolSummary = document.querySelector("#song-pool-summary");
+  if (songPoolSummary) songPoolSummary.textContent = t("modalSongPoolSummary");
+  const songPoolCount = document.querySelector("#song-pool-count");
+  if (songPoolCount) songPoolCount.textContent = songs.length.toLocaleString();
+  const infoLabels = document.querySelectorAll("#song-pool dt");
+  const infoValues = document.querySelectorAll("#song-pool dd");
+  const infoLabelKeys = ["modalSongPoolTotal", "modalSongPoolSources", "modalSongPoolCredit"];
+  infoLabels.forEach((el, i) => { if (infoLabelKeys[i]) el.textContent = t(infoLabelKeys[i]); });
+  if (infoValues[1]) infoValues[1].textContent = t("modalSongPoolSourcesValue");
+  const songPoolFinePrint = document.querySelector("#song-pool .fine-print");
+  if (songPoolFinePrint) songPoolFinePrint.textContent = t("modalSongPoolDisclaimer");
+  const suggestIntro = document.querySelector("#suggest-song > p");
+  if (suggestIntro) suggestIntro.textContent = t("modalSuggestIntro");
+  // suggest-song form labels
+  const sLabelTitle = document.querySelector("#suggest-label-title");
+  if (sLabelTitle) { sLabelTitle.firstChild.textContent = t("modalSuggestLabelTitle") + " "; }
+  const sLabelProducer = document.querySelector("#suggest-label-producer");
+  if (sLabelProducer) { sLabelProducer.firstChild.textContent = t("modalSuggestLabelProducer") + " "; }
+  const sLabelVocal = document.querySelector("#suggest-label-vocal");
+  if (sLabelVocal) { sLabelVocal.firstChild.textContent = t("modalSuggestLabelVocal") + " "; }
+  const sLabelVocadb = document.querySelector("#suggest-label-vocadb");
+  if (sLabelVocadb) { sLabelVocadb.firstChild.textContent = t("modalSuggestLabelVocadb") + " "; }
+  const sLabelSource = document.querySelector("#suggest-label-source");
+  if (sLabelSource) { sLabelSource.firstChild.textContent = t("modalSuggestLabelSource") + " "; }
+  const sLabelReason = document.querySelector("#suggest-label-reason");
+  if (sLabelReason) { sLabelReason.firstChild.textContent = t("modalSuggestLabelReason") + " "; }
+  const sSubmitBtn = document.querySelector("#suggest-submit-btn");
+  if (sSubmitBtn) sSubmitBtn.textContent = t("modalSuggestSubmit");
+  const reportIntro = document.querySelector("#report-context");
+  if (reportIntro && !state.puzzle) reportIntro.textContent = t("modalReportIntro");
+  // report-issue form labels and options
+  const rLabelReason = document.querySelector("#report-label-reason");
+  if (rLabelReason) { rLabelReason.firstChild.textContent = t("modalReportLabelReason") + "\n          "; }
+  const rLabelDetails = document.querySelector("#report-label-details");
+  if (rLabelDetails) { rLabelDetails.firstChild.textContent = t("modalReportLabelDetails") + " "; }
+  const reportDetails = document.querySelector("#report-details");
+  if (reportDetails) reportDetails.placeholder = t("modalReportDetailPlaceholder");
+  const rSubmitBtn = document.querySelector("#report-submit-btn");
+  if (rSubmitBtn) rSubmitBtn.textContent = t("modalReportSubmit");
+  const reportOptIds = [
+    ["report-opt-metadata", "modalReportOptMetadata"],
+    ["report-opt-audio",    "modalReportOptAudio"],
+    ["report-opt-source",   "modalReportOptSource"],
+    ["report-opt-duplicate","modalReportOptDuplicate"],
+    ["report-opt-startpoint","modalReportOptStartpoint"],
+    ["report-opt-answer",   "modalReportOptAnswer"],
+    ["report-opt-other",    "modalReportOptOther"],
+  ];
+  reportOptIds.forEach(([id, key]) => {
+    const el = document.getElementById(id);
+    if (el) el.textContent = t(key);
+  });
+  const reportLink = document.querySelector("#report-issue-link");
+  if (reportLink) reportLink.textContent = t("reportIssue");
 
   // settings modal
   set("#settings-title", "settingsTitle");
@@ -577,10 +848,19 @@ function applyLanguage() {
     const target = a.dataset.modalTarget;
     if (target === "about") a.textContent = t("navAbout");
     if (target === "support") a.textContent = t("navSupport");
+    if (target === "release-notes") a.textContent = t("navUpdates");
     if (target === "settings") a.textContent = t("navSettings");
+    if (target === "song-pool") a.textContent = t("linkSongPool");
+    if (target === "suggest-song") a.textContent = t("linkSuggestSong");
   });
-  const mobileSettings = document.querySelector(".nnd-mobile-settings a");
-  if (mobileSettings) mobileSettings.textContent = "⚙ " + t("navSettings");
+  document.querySelectorAll(".nnd-mobile-settings a").forEach(a => {
+    const target = a.dataset.modalTarget;
+    if (target === "about") a.textContent = t("navAbout");
+    if (target === "support") a.textContent = t("navSupport");
+    if (target === "release-notes") a.textContent = t("navUpdates");
+    if (target === "settings") a.textContent = "⚙ " + t("navSettings");
+    // Ko-fi link has no data-modal-target — leave its text alone.
+  });
 
   // Hall of Myths songs and artists
   const hofSongs = document.querySelectorAll(".hof-song");
@@ -596,8 +876,19 @@ function applyLanguage() {
     const target = a.dataset.modalTarget;
     if (href.includes("vocadb.net")) a.textContent = t("linkVocaDB");
     else if (href.includes("nicovideo.jp")) a.textContent = t("linkNicoNico");
+    else if (target === "song-pool") a.textContent = t("linkSongPool");
+    else if (target === "suggest-song") a.textContent = t("linkSuggestSong");
+    else if (target === "release-notes") a.textContent = t("linkReleaseNotes");
     else if (target === "about") a.textContent = t("linkAbout");
     else if (target === "support") a.textContent = t("linkContact");
+  });
+
+  // footer links
+  document.querySelectorAll(".site-footer a[data-modal-target]").forEach(a => {
+    const target = a.dataset.modalTarget;
+    if (target === "song-pool") a.textContent = t("linkSongPool");
+    else if (target === "suggest-song") a.textContent = t("linkSuggestSong");
+    else if (target === "release-notes") a.textContent = t("linkReleaseVersion");
   });
 
   // sidebar rankings
@@ -612,8 +903,14 @@ function applyLanguage() {
   const rankingsNote = document.querySelector(".rankings-note");
   if (rankingsNote) rankingsNote.textContent = t("rankingsNote");
   const modalTabs = document.querySelectorAll(".rankings-tab");
-  const modalTabKeys = ["rankingsTabPlays", "rankingsTabHardest", "rankingsTabEasiest"];
+  const modalTabKeys = ["rankingsTabPlays", "rankingsTabHardest", "rankingsTabEasiest", "rankingsTabAvgLow", "rankingsTabAvgHigh"];
   modalTabs.forEach((btn, i) => { if (modalTabKeys[i]) btn.textContent = t(modalTabKeys[i]); });
+
+  set("#archive-title", "archiveTitle");
+  const archiveNote = document.querySelector(".archive-note");
+  if (archiveNote) archiveNote.textContent = t("archiveNote");
+  set("#archive-random-button", "archiveRandom");
+  renderArchiveCalendar();
 
   // re-render rankings with new language
   loadSidebarRankings(currentSbTab);
@@ -621,6 +918,20 @@ function applyLanguage() {
   // re-render guesses and update sidebar stats label
   renderGuesses();
   if (typeof renderStats === "function") renderStats();
+
+  // re-render the cached global win rate line so it switches language too
+  renderGlobalStats();
+
+  // translate Ko-fi nudge under the result area
+  const kofiNudgeText = document.querySelector(".kofi-nudge-text");
+  if (kofiNudgeText) kofiNudgeText.textContent = t("kofiNudgeText");
+  const kofiNudgeLink = document.querySelector(".kofi-nudge-link");
+  if (kofiNudgeLink) kofiNudgeLink.textContent = t("kofiNudgeLink");
+
+  // re-tick countdown so the unit labels (h/m/s vs 時間/分/秒) update right away
+  if (typeof renderCountdownTick === "function" && nextDailyCountdownEl && !nextDailyCountdownEl.hidden) {
+    renderCountdownTick();
+  }
 }
 
 const state = {
@@ -634,6 +945,8 @@ const state = {
   lastUnlimitedTitle: "",
   unlimitedQueue: [],
   statsMode: "daily",
+  archiveDate: null,
+  archiveMonth: null,
 };
 
 const gamePanel = document.querySelector("#game-panel");
@@ -650,6 +963,7 @@ const scheduleMessage = document.querySelector("#schedule-message");
 const modeEyebrow = document.querySelector("#mode-eyebrow");
 const dailyModeButton = document.querySelector("#daily-mode-button");
 const unlimitedModeButton = document.querySelector("#unlimited-mode-button");
+const archiveModeButton = document.querySelector("#archive-mode-button");
 const nextButton = document.querySelector("#next-button");
 const shareButton = document.querySelector("#share-button");
 const shareOutput = document.querySelector("#share-output");
@@ -657,18 +971,36 @@ const coverImage = document.querySelector("#cover-image");
 const coverFallback = document.querySelector("#cover-fallback");
 const coverPlaceholderMark = document.querySelector("#cover-placeholder-mark");
 const coverCaption = document.querySelector("#cover-caption");
-const answerLink = document.querySelector("#answer-link");
+const sourceTags = document.querySelector("#source-tags");
+const sourceLink = document.querySelector("#source-link");
+const globalStatsEl = document.querySelector("#global-stats");
+const resultTools = document.querySelector("#result-tools");
+const reportIssueNudge = document.querySelector("#report-issue-nudge");
 const statPlayed = document.querySelector("#stat-played");
 const statWon = document.querySelector("#stat-won");
 const statWinRate = document.querySelector("#stat-win-rate");
 const statCurrentStreak = document.querySelector("#stat-current-streak");
 const statMaxStreak = document.querySelector("#stat-max-streak");
+const statAvgAttempts = document.querySelector("#stat-avg-attempts");
+const statHardest = document.querySelector("#stat-hardest");
+const nextDailyCountdownEl = document.querySelector("#next-daily-countdown");
+const kofiNudgeEl = document.querySelector("#kofi-nudge");
 const distributionItems = document.querySelectorAll("[data-distribution]");
 const statsDailyButton = document.querySelector("#stats-daily-button");
 const statsUnlimitedButton = document.querySelector("#stats-unlimited-button");
 const modalBackdrop = document.querySelector("#modal-backdrop");
 const modalButtons = document.querySelectorAll("[data-modal-target]");
 const modalCloseButtons = document.querySelectorAll(".modal-close, .modal-action");
+const archiveGrid = document.querySelector("#archive-grid");
+const archiveMonthLabel = document.querySelector("#archive-month-label");
+const archiveSummary = document.querySelector("#archive-summary");
+const archiveInsights = document.querySelector("#archive-insights");
+const archiveRandomButton = document.querySelector("#archive-random-button");
+const archivePrevMonth = document.querySelector("#archive-prev-month");
+const archiveNextMonth = document.querySelector("#archive-next-month");
+const suggestSongForm = document.querySelector("#suggest-song-form");
+const reportIssueForm = document.querySelector("#report-issue-form");
+const reportContext = document.querySelector("#report-context");
 let activeModal = null;
 let currentAudio = null;
 let clipTimer = null;
@@ -736,6 +1068,25 @@ function saveUnlimitedStats(stats) {
   localStorage.setItem(unlimitedStatsKey, JSON.stringify(stats));
 }
 
+function loadArchiveResults() {
+  try {
+    return JSON.parse(localStorage.getItem(archiveResultsKey)) || {};
+  } catch {
+    return {};
+  }
+}
+
+function saveArchiveResults(results) {
+  localStorage.setItem(archiveResultsKey, JSON.stringify(results));
+}
+
+function saveArchiveResult(dateKey, result) {
+  if (!dateKey) return;
+  const results = loadArchiveResults();
+  results[dateKey] = result;
+  saveArchiveResults(results);
+}
+
 function renderStats() {
   const stats = state.statsMode === "daily" ? loadStats() : loadUnlimitedStats();
   const winRate = stats.played > 0 ? Math.round((stats.won / stats.played) * 100) : 0;
@@ -746,6 +1097,25 @@ function renderStats() {
   statWinRate.textContent = `${winRate}%`;
   statCurrentStreak.textContent = stats.currentStreak;
   statMaxStreak.textContent = stats.maxStreak;
+
+  // Personal avg attempts — weighted average of solve buckets 1–6.
+  // "—" if no successful solves yet, since 0 average is misleading.
+  if (statAvgAttempts) {
+    const personalAvg = computePersonalAvg(stats.distribution);
+    statAvgAttempts.textContent = personalAvg === null ? "—" : personalAvg.toFixed(1);
+  }
+
+  // Hardest solved — read from stats.hardestSolved if present.
+  if (statHardest) {
+    const hardest = stats.hardestSolved;
+    if (hardest && hardest.title) {
+      statHardest.innerHTML = t("statHardestLine", escapeHtml(hardest.title), hardest.rate);
+      statHardest.hidden = false;
+    } else {
+      statHardest.textContent = t("statHardestEmpty");
+      statHardest.hidden = false;
+    }
+  }
 
   distributionItems.forEach((item) => {
     const key = item.dataset.distribution;
@@ -763,13 +1133,14 @@ function renderStats() {
   statsUnlimitedButton.classList.toggle("is-active", state.statsMode === "unlimited");
 
   // sync sidebar stats
-  const sbMode = state.mode === "daily" ? loadStats() : loadUnlimitedStats();
+  const sbMode = state.mode === "unlimited" ? loadUnlimitedStats() : loadStats();
   const sbWinRate = sbMode.played > 0 ? Math.round((sbMode.won / sbMode.played) * 100) : 0;
   const sbPlayed = document.querySelector("#sb-played");
   const sbWon = document.querySelector("#sb-won");
   const sbRate = document.querySelector("#sb-rate");
   const sbStreak = document.querySelector("#sb-streak");
   const sbBest = document.querySelector("#sb-best");
+  const sbAvg = document.querySelector("#sb-avg");
   if (sbPlayed) sbPlayed.textContent = sbMode.played;
   if (sbWon) sbWon.textContent = sbMode.won;
   if (sbRate) {
@@ -783,13 +1154,353 @@ function renderStats() {
     if (streakRow) streakRow.classList.toggle("streak-hot", sbMode.currentStreak >= 5);
   }
   if (sbBest) sbBest.textContent = sbMode.maxStreak;
+  if (sbAvg) {
+    const sbPersonalAvg = computePersonalAvg(sbMode.distribution);
+    sbAvg.textContent = sbPersonalAvg === null ? "—" : sbPersonalAvg.toFixed(1);
+  }
 
   const totalEl = document.querySelector("#sb-total-songs");
   if (totalEl) totalEl.textContent = songs.length.toLocaleString();
 
   // update sidebar label
   const sbLabel = document.querySelector("#sb-mode-label");
-  if (sbLabel) sbLabel.textContent = state.mode === "daily" ? t("dailyStats") : t("unlimitedStats");
+  if (sbLabel) sbLabel.textContent = state.mode === "unlimited" ? t("unlimitedStats") : t("dailyStats");
+}
+
+// Weighted average of solve attempts 1–6. Returns null if no solves recorded.
+function computePersonalAvg(distribution) {
+  if (!distribution) return null;
+  let total = 0;
+  let weighted = 0;
+  for (let i = 1; i <= 6; i++) {
+    const c = Number(distribution[i]) || 0;
+    total += c;
+    weighted += i * c;
+  }
+  return total > 0 ? weighted / total : null;
+}
+
+// Countdown to the next local midnight, when a new daily puzzle becomes available.
+// Only ticks while the daily round is complete (saves cycles when not visible).
+let countdownTimer = null;
+function updateNextDailyCountdown() {
+  if (!nextDailyCountdownEl) return;
+  // Show only when a daily round is finished. Hidden in unlimited mode entirely.
+  const shouldShow = state.mode === "daily" && state.isComplete;
+  if (!shouldShow) {
+    nextDailyCountdownEl.hidden = true;
+    if (countdownTimer) { clearInterval(countdownTimer); countdownTimer = null; }
+    return;
+  }
+  renderCountdownTick();
+  if (!countdownTimer) {
+    countdownTimer = setInterval(renderCountdownTick, 1000);
+  }
+}
+
+function renderCountdownTick() {
+  if (!nextDailyCountdownEl) return;
+  const now = new Date();
+  const tomorrow = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1, 0, 0, 0, 0);
+  const ms = tomorrow - now;
+  if (ms <= 0) {
+    nextDailyCountdownEl.innerHTML = `<strong>${t("nextDailyReady")}</strong>`;
+    nextDailyCountdownEl.hidden = false;
+    return;
+  }
+  const h = Math.floor(ms / 3600000);
+  const m = Math.floor((ms % 3600000) / 60000);
+  const s = Math.floor((ms % 60000) / 1000);
+  nextDailyCountdownEl.innerHTML = t("nextDailyCountdown", h, m, s);
+  nextDailyCountdownEl.hidden = false;
+}
+
+function getArchiveSongs() {
+  const todayKey = getDateKey();
+  return songs
+    .filter((song) => song.date && song.audioClip && song.date <= todayKey)
+    .sort((a, b) => a.date.localeCompare(b.date));
+}
+
+function getArchiveSongMap() {
+  return new Map(getArchiveSongs().map((song) => [song.date, song]));
+}
+
+function getMinArchiveMonth() {
+  return new Date(2026, 4, 1);
+}
+
+function getMaxArchiveMonth() {
+  const archiveSongs = getArchiveSongs();
+  const latestDate = archiveSongs.at(-1)?.date || getDateKey();
+  const latest = parseDateKey(latestDate);
+  return new Date(latest.getFullYear(), latest.getMonth(), 1);
+}
+
+function monthKey(date) {
+  return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, "0")}`;
+}
+
+function clampArchiveMonth(date) {
+  const min = getMinArchiveMonth();
+  const max = getMaxArchiveMonth();
+  if (date < min) return min;
+  if (date > max) return max;
+  return date;
+}
+
+function ensureArchiveMonth() {
+  if (state.archiveMonth) return;
+  state.archiveMonth = getMaxArchiveMonth();
+}
+
+function shiftArchiveMonth(offset) {
+  ensureArchiveMonth();
+  state.archiveMonth = clampArchiveMonth(new Date(
+    state.archiveMonth.getFullYear(),
+    state.archiveMonth.getMonth() + offset,
+    1
+  ));
+  renderArchiveCalendar();
+}
+
+function getRandomArchiveSong() {
+  const archiveSongList = getArchiveSongs();
+  if (archiveSongList.length === 0) return null;
+
+  const dailyResults = loadStats().results || {};
+  const archiveResults = loadArchiveResults();
+  const unopened = archiveSongList.filter((song) => !archiveResults[song.date] && !dailyResults[song.date]);
+  const pool = unopened.length > 0 ? unopened : archiveSongList;
+  return pool[Math.floor(Math.random() * pool.length)] || null;
+}
+
+function renderArchiveCalendar() {
+  if (!archiveGrid || !archiveMonthLabel) return;
+  ensureArchiveMonth();
+  state.archiveMonth = clampArchiveMonth(state.archiveMonth);
+
+  const lang = getLang();
+  const archiveSongList = getArchiveSongs();
+  const archiveSongs = new Map(archiveSongList.map((song) => [song.date, song]));
+  const dailyResults = loadStats().results || {};
+  const archiveResults = loadArchiveResults();
+  const todayKey = getDateKey();
+  const monthStart = state.archiveMonth;
+  const year = monthStart.getFullYear();
+  const month = monthStart.getMonth();
+  const firstDay = new Date(year, month, 1);
+  const daysInMonth = new Date(year, month + 1, 0).getDate();
+
+  const monthLabel = new Intl.DateTimeFormat(lang === "jp" ? "ja-JP" : "en-US", {
+    month: "long",
+    year: "numeric",
+  }).format(monthStart);
+  archiveMonthLabel.textContent = monthLabel;
+
+  if (archivePrevMonth) archivePrevMonth.disabled = monthKey(monthStart) <= monthKey(getMinArchiveMonth());
+  if (archiveNextMonth) archiveNextMonth.disabled = monthKey(monthStart) >= monthKey(getMaxArchiveMonth());
+  if (archiveSummary) {
+    const monthSongList = archiveSongList.filter((song) => {
+      const songDate = parseDateKey(song.date);
+      return songDate.getFullYear() === year && songDate.getMonth() === month;
+    });
+    const monthResultEntries = monthSongList
+      .map((song) => archiveResults[song.date] || dailyResults[song.date] || null)
+      .filter(Boolean);
+    const monthSolvedCount = monthResultEntries.filter((result) => result.won).length;
+    const monthSolveRate = monthSongList.length > 0
+      ? Math.round((monthSolvedCount / monthSongList.length) * 100)
+      : 0;
+    archiveMonthLabel.innerHTML = `
+      <span>${escapeHtml(monthLabel)}</span>
+      <span class="archive-month-badge">${escapeHtml(t("archiveMonthBadge", monthSolvedCount, monthSongList.length, monthSolveRate))}</span>
+    `;
+
+    const resultEntries = monthSongList
+      .map((song) => archiveResults[song.date] || dailyResults[song.date] || null)
+      .filter(Boolean);
+    const openedCount = resultEntries.length;
+    const solvedCount = resultEntries.filter((result) => result.won).length;
+    const revealedCount = openedCount - solvedCount;
+    const completionRate = monthSongList.length > 0
+      ? Math.round((openedCount / monthSongList.length) * 100)
+      : 0;
+
+    archiveSummary.innerHTML = [
+      [t("archiveSummaryOpened"), openedCount],
+      [t("archiveSummarySolved"), solvedCount],
+      [t("archiveSummaryRevealed"), revealedCount],
+      [t("archiveSummaryComplete"), `${completionRate}%`],
+    ].map(([label, value]) => `
+      <span class="archive-summary-item">
+        <strong>${escapeHtml(String(value))}</strong>
+        <span>${escapeHtml(label)}</span>
+      </span>
+    `).join("");
+  }
+  renderArchiveInsights(year, month, archiveSongList);
+
+  const cells = [];
+  for (let i = 0; i < firstDay.getDay(); i++) {
+    cells.push(`<span class="archive-day is-empty" aria-hidden="true"></span>`);
+  }
+
+  for (let day = 1; day <= daysInMonth; day++) {
+    const key = `${year}-${String(month + 1).padStart(2, "0")}-${String(day).padStart(2, "0")}`;
+    const song = archiveSongs.get(key);
+    const disabled = !song || key > todayKey;
+    const selected = key === state.archiveDate;
+    const result = archiveResults[key] || dailyResults[key] || null;
+    const completed = Boolean(result);
+    const title = !song ? t("archiveEmpty") : completed ? getDisplayTitle(song) : t("archiveUnplayed");
+    const visibleTitle = !song ? title : truncateTitle(title, window.matchMedia("(max-width: 680px)").matches ? 28 : 14);
+    const status = result ? (result.won ? t("archiveSolved") : t("archiveFailed")) : "";
+    const cellClass = [
+      "archive-day",
+      selected ? "is-selected" : "",
+      completed ? "is-complete" : "",
+      result?.won ? "is-solved" : "",
+      result && !result.won ? "is-failed" : "",
+      !song ? "is-no-puzzle" : "",
+      song && !completed ? "is-locked" : "",
+    ].filter(Boolean).join(" ");
+
+    cells.push(`
+      <button
+        class="${cellClass}"
+        type="button"
+        data-archive-date="${key}"
+        ${disabled ? "disabled" : ""}
+        title="${escapeHtml(title)}"
+      >
+        <span class="archive-day-number">${day}</span>
+        <span class="archive-day-title">${escapeHtml(visibleTitle)}</span>
+        ${status ? `<span class="archive-day-status">${escapeHtml(status)}</span>` : ""}
+      </button>
+    `);
+  }
+
+  archiveGrid.innerHTML = cells.join("");
+}
+
+const archiveGlobalStatsCache = new Map();
+
+async function getSongGlobalStats(songId) {
+  if (!songId) return null;
+  const key = String(songId);
+  if (archiveGlobalStatsCache.has(key)) return archiveGlobalStatsCache.get(key);
+
+  try {
+    const res = await fetch(`${WORKER_URL}/stats?songId=${encodeURIComponent(key)}`);
+    if (!res.ok) {
+      archiveGlobalStatsCache.set(key, null);
+      return null;
+    }
+    const data = await res.json();
+    const plays = data.plays || 0;
+    if (plays < 1) {
+      archiveGlobalStatsCache.set(key, null);
+      return null;
+    }
+    const wins = data.wins || 0;
+    const rate = Math.round((wins / plays) * 100);
+    const buckets = data.attempts || {};
+    let totalSolves = 0;
+    let weightedSum = 0;
+    for (const [attempt, count] of Object.entries(buckets)) {
+      const n = parseInt(attempt, 10);
+      const c = Number(count) || 0;
+      if (Number.isFinite(n) && n >= 1 && n <= 6) {
+        totalSolves += c;
+        weightedSum += n * c;
+      }
+    }
+    const avg = totalSolves > 0 ? weightedSum / totalSolves : null;
+    const stats = { plays, wins, rate, avg };
+    archiveGlobalStatsCache.set(key, stats);
+    return stats;
+  } catch {
+    archiveGlobalStatsCache.set(key, null);
+    return null;
+  }
+}
+
+async function renderArchiveInsights(year, month, archiveSongList) {
+  if (!archiveInsights) return;
+  const requestedMonth = monthKey(new Date(year, month, 1));
+  const dailyResults = loadStats().results || {};
+  const archiveResults = loadArchiveResults();
+  const monthSongs = archiveSongList.filter((song) => {
+    const songDate = parseDateKey(song.date);
+    return songDate.getFullYear() === year && songDate.getMonth() === month;
+  }).filter((song) => archiveResults[song.date] || dailyResults[song.date]);
+
+  if (monthSongs.length === 0) {
+    archiveInsights.innerHTML = `<p>${escapeHtml(t("archiveInsightsEmpty"))}</p>`;
+    return;
+  }
+
+  archiveInsights.innerHTML = `<p>${escapeHtml(t("archiveInsightsLoading"))}</p>`;
+  const rows = (await Promise.all(monthSongs.map(async (song) => {
+    const stats = await getSongGlobalStats(song.vocadbId);
+    return stats ? { song, ...stats } : null;
+  }))).filter(Boolean);
+
+  if (requestedMonth !== monthKey(state.archiveMonth)) return;
+  if (rows.length === 0) {
+    archiveInsights.innerHTML = `<p>${escapeHtml(t("archiveInsightsEmpty"))}</p>`;
+    return;
+  }
+
+  const hardest = [...rows].sort((a, b) =>
+    a.rate - b.rate ||
+    (b.avg ?? 0) - (a.avg ?? 0) ||
+    b.plays - a.plays
+  )[0];
+  const easiest = [...rows].sort((a, b) =>
+    b.rate - a.rate ||
+    (a.avg ?? 7) - (b.avg ?? 7) ||
+    b.plays - a.plays
+  )[0];
+  const renderRow = (label, entry) => `
+    <span class="archive-insight-row">
+      <strong>${escapeHtml(label)}:</strong>
+      <span>${escapeHtml(truncateTitle(getDisplayTitle(entry.song), 32))}</span>
+      <em>${entry.rate}%</em>
+    </span>
+  `;
+
+  archiveInsights.innerHTML = [
+    renderRow(t("archiveHardest"), hardest),
+    renderRow(t("archiveEasiest"), easiest),
+  ].join("");
+}
+
+function makeMailto(subject, body) {
+  return `mailto:${contactEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+}
+
+function getPuzzleContextLines() {
+  const puzzle = state.puzzle;
+  return [
+    `Mode: ${state.mode}`,
+    `Date: ${state.archiveDate || getDateKey()}`,
+    `Song: ${puzzle ? getDisplayTitle(puzzle) : "Unknown"}`,
+    `Artist: ${puzzle ? getSuggestionArtist(puzzle) : "Unknown"}`,
+    `VocaDB ID: ${puzzle?.vocadbId || "Unknown"}`,
+    `VocaDB URL: ${puzzle?.vocadbUrl || "Unknown"}`,
+    `Audio URL: ${puzzle?.audioClip || "Unknown"}`,
+  ];
+}
+
+function updateReportContext() {
+  if (!reportContext) return;
+  if (!state.puzzle) {
+    reportContext.textContent = t("modalReportIntro");
+    return;
+  }
+  reportContext.textContent = `Reporting: ${getDisplayTitle(state.puzzle)} - ${getSuggestionArtist(state.puzzle)}`;
 }
 
 function openModal(modalId) {
@@ -801,6 +1512,7 @@ function openModal(modalId) {
 
   closeModal();
   activeModal = modal;
+  if (modalId === "report-issue") updateReportContext();
   modal.hidden = false;
   modalBackdrop.hidden = false;
 }
@@ -1033,26 +1745,151 @@ function getSuggestionArtist(song) {
 
 function getMatchingSongs(value) {
   const query = normalizeGuess(value);
+  if (!query) return [];
 
-  if (!query) {
-    return [];
-  }
+  // For single CJK characters, only match if it's an exact title/acceptedTitle match
+  // to prevent "ガ" from flooding results with everything containing that kana.
+  const isSingleCJK = query.length === 1 && /[\u3000-\u9fff\uac00-\ud7af\uf900-\ufaff]/.test(query);
 
-  const matches = [];
+  const scored = [];
 
   songs.forEach((song) => {
-    const searchableValues = getSongSearchValues(song).map(normalizeGuess);
+    const titles = [song.title, song.vocadbName, ...(song.acceptedTitles || [])].filter(Boolean).map(normalizeGuess);
+    const artistFields = [
+      song.artist,
+      song.artistString,
+      song.displayArtist,
+      song.suggestionArtistString,
+      ...(song.producerNames || []),
+      ...(song.singerNames || []),
+      ...(song.artistSearchNames || []),
+    ].filter(Boolean).map(normalizeGuess);
 
-    if (searchableValues.some((value) => value.includes(query))) {
-      matches.push(song);
+    if (isSingleCJK) {
+      // Only surface if query is an exact match against a title or accepted title
+      if (titles.some((t) => t === query)) {
+        scored.push({ song, score: 100 });
+      }
+      return;
     }
+
+    let score = 0;
+
+    // ── Title scoring ──
+    if (titles.some((t) => t === query)) {
+      score = Math.max(score, 100);                          // exact title
+    } else if (titles.some((t) => t.startsWith(query + " ") || t.startsWith(query + "-") || t.startsWith(query + ":"))) {
+      score = Math.max(score, 80);                           // title starts with query as full word
+    } else if (titles.some((t) => t.startsWith(query))) {
+      score = Math.max(score, 70);                           // title prefix (e.g. "moth" → "Moth...")
+    } else if (titles.some((t) => wordBoundaryMatch(t, query))) {
+      score = Math.max(score, 50);                           // word inside title
+    } else if (titles.some((t) => t.includes(query))) {
+      score = Math.max(score, 30);                           // substring in title
+    }
+
+    // ── Artist scoring (lower ceiling so title matches always win) ──
+    if (score === 0) {
+      if (artistFields.some((a) => a === query)) {
+        score = Math.max(score, 60);                         // exact artist name
+      } else if (artistFields.some((a) => a.startsWith(query))) {
+        score = Math.max(score, 45);                         // artist prefix
+      } else if (artistFields.some((a) => wordBoundaryMatch(a, query))) {
+        score = Math.max(score, 35);                         // word in artist
+      } else if (artistFields.some((a) => a.includes(query))) {
+        score = Math.max(score, 20);                         // substring in artist
+      }
+    } else {
+      // Even when we already have a title match, boost if artist also matches
+      // so "utsu-p moth" surfaces more precisely
+      if (artistFields.some((a) => a.includes(query))) {
+        score += 5;
+      }
+    }
+
+    if (score > 0) scored.push({ song, score });
   });
 
-  return matches.slice(0, 12);
+  scored.sort((a, b) => b.score - a.score);
+  return scored.slice(0, 12).map((s) => s.song);
+}
+
+// Returns true if `query` appears at a word boundary inside `text`
+function wordBoundaryMatch(text, query) {
+  if (!text.includes(query)) return false;
+  const idx = text.indexOf(query);
+  const before = idx === 0 || /[\s\-:(,]/.test(text[idx - 1]);
+  const after = idx + query.length >= text.length || /[\s\-:),]/.test(text[idx + query.length]);
+  return before && after;
 }
 
 function getDailyPuzzle() {
   return songs.find((song) => song.date === getDateKey()) || null;
+}
+
+function getArchivePuzzle() {
+  if (!state.archiveDate) {
+    return null;
+  }
+
+  return songs.find((song) => song.date === state.archiveDate) || null;
+}
+
+function parseDateKey(dateKey) {
+  const [year, month, day] = dateKey.split("-").map(Number);
+  return new Date(year, month - 1, day);
+}
+
+function formatArchiveDate(dateKey) {
+  const date = parseDateKey(dateKey);
+  const lang = getLang();
+  return new Intl.DateTimeFormat(lang === "jp" ? "ja-JP" : "en-US", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+  }).format(date);
+}
+
+function isArchiveDatePlayable(dateKey) {
+  if (!dateKey || dateKey > getDateKey()) return false;
+  return songs.some((song) => song.date === dateKey && song.audioClip);
+}
+
+function getArchiveDateFromUrl() {
+  const params = new URLSearchParams(window.location.search);
+  const queryDate = params.get("archive");
+  const hashMatch = window.location.hash.match(/^#archive(?:=|\/)(\d{4}-\d{2}-\d{2})$/);
+  const dateKey = queryDate || hashMatch?.[1] || "";
+  return /^\d{4}-\d{2}-\d{2}$/.test(dateKey) ? dateKey : "";
+}
+
+function setArchiveUrl(dateKey, replace = false) {
+  const url = new URL(window.location.href);
+  url.searchParams.set("archive", dateKey);
+  url.hash = "";
+  const method = replace ? "replaceState" : "pushState";
+  window.history[method]({}, "", url);
+}
+
+function clearArchiveUrl(replace = false) {
+  const url = new URL(window.location.href);
+  url.searchParams.delete("archive");
+  url.hash = "";
+  const method = replace ? "replaceState" : "pushState";
+  window.history[method]({}, "", url);
+}
+
+function loadArchiveDate(dateKey, replaceUrl = false) {
+  if (!isArchiveDatePlayable(dateKey)) return false;
+  state.mode = "archive";
+  state.archiveDate = dateKey;
+  state.archiveMonth = new Date(parseDateKey(dateKey).getFullYear(), parseDateKey(dateKey).getMonth(), 1);
+  setArchiveUrl(dateKey, replaceUrl);
+  document.title = `VOCALOID Heardle - ${formatArchiveDate(dateKey)}`;
+  loadPuzzle();
+  renderStats();
+  renderArchiveCalendar();
+  return true;
 }
 
 function getRandomIndex(length) {
@@ -1104,6 +1941,12 @@ function getUnlimitedPuzzle() {
   return state.unlimitedQueue.shift() || null;
 }
 
+function getPuzzleForCurrentMode() {
+  if (state.mode === "archive") return getArchivePuzzle();
+  if (state.mode === "unlimited") return getUnlimitedPuzzle();
+  return getDailyPuzzle();
+}
+
 function resetRound() {
   stopClip();
   state.attempt = 1;
@@ -1123,8 +1966,19 @@ function resetRound() {
   coverFallback.hidden = true;
   coverFallback.innerHTML = "";
   coverCaption.textContent = t("coverCaption");
-  answerLink.hidden = true;
-  answerLink.href = "#";
+  if (sourceTags) {
+    sourceTags.hidden = true;
+    sourceTags.innerHTML = "";
+  }
+  if (sourceLink) {
+    sourceLink.href = "https://vocadb.net";
+    sourceLink.textContent = "VocaDB";
+  }
+  if (globalStatsEl) {
+    globalStatsEl.hidden = true;
+    globalStatsEl.innerHTML = "";
+  }
+  lastGlobalStats = null;
   scheduleMessage.hidden = true;
   nextButton.hidden = true;
   shareButton.hidden = true;
@@ -1138,7 +1992,7 @@ function resetRound() {
 
 function loadPuzzle() {
   resetRound();
-  state.puzzle = state.mode === "daily" ? getDailyPuzzle() : getUnlimitedPuzzle();
+  state.puzzle = getPuzzleForCurrentMode();
 
   if (!state.puzzle) {
     scheduleMessage.hidden = false;
@@ -1161,7 +2015,13 @@ function loadPuzzle() {
     pulsePlayButton();
     return;
   }
-  const completedResult = loadStats().results[getDateKey()];
+  const savedDailyResults = loadStats().results || {};
+  const savedArchiveResults = loadArchiveResults();
+  const completedResult = state.mode === "daily"
+    ? savedDailyResults[getDateKey()]
+    : state.mode === "archive" && state.archiveDate
+      ? savedArchiveResults[state.archiveDate] || savedDailyResults[state.archiveDate]
+      : null;
 
   if (completedResult) {
     state.isComplete = true;
@@ -1190,15 +2050,11 @@ function loadPuzzle() {
 
 function recordResult(won) {
   const isDaily = state.mode === "daily";
+  const isUnlimited = state.mode === "unlimited";
+  const isArchive = state.mode === "archive";
   const todayKey = getDateKey();
-  const stats = isDaily ? loadStats() : loadUnlimitedStats();
+  const resultKey = isArchive ? state.archiveDate : todayKey;
 
-  if (isDaily && stats.results[todayKey]) {
-    renderStats();
-    return stats.results[todayKey];
-  }
-
-  stats.played += 1;
   const result = {
     won,
     attempts: won ? state.attempt : null,
@@ -1206,8 +2062,25 @@ function recordResult(won) {
     guesses: state.guesses,
   };
 
+  if (!isDaily && !isUnlimited) {
+    if (isArchive && resultKey) {
+      saveArchiveResult(resultKey, result);
+      renderArchiveCalendar();
+    }
+    renderStats();
+    return result;
+  }
+
+  const stats = isDaily ? loadStats() : loadUnlimitedStats();
+  if (isDaily && stats.results[resultKey]) {
+    renderStats();
+    return stats.results[resultKey];
+  }
+
+  stats.played += 1;
+
   if (isDaily) {
-    stats.results[todayKey] = result;
+    stats.results[resultKey] = result;
   }
 
   if (won) {
@@ -1236,9 +2109,18 @@ function revealAnswer() {
   }
 
   coverPlaceholderMark.hidden = true;
-  coverCaption.textContent = `${getDisplayTitle(state.puzzle)} - ${getSuggestionArtist(state.puzzle)}`;
-  answerLink.hidden = !state.puzzle.vocadbUrl;
-  answerLink.href = state.puzzle.vocadbUrl || "#";
+  coverCaption.textContent = `${truncateTitle(getDisplayTitle(state.puzzle), 60)} - ${getSuggestionArtist(state.puzzle)}`;
+  if (sourceLink) {
+    sourceLink.href = state.puzzle.vocadbUrl || "https://vocadb.net";
+    sourceLink.textContent = "VocaDB";
+  }
+  renderSourceTags();
+
+  loadGlobalStats(state.puzzle.vocadbId, {
+    mode: state.mode,
+    puzzle: state.puzzle,
+    result: state.lastResult,
+  });
 
   const coverArts = getCoverArts(state.puzzle);
 
@@ -1256,6 +2138,122 @@ function revealAnswer() {
     <span>${escapeHtml(state.puzzle.artistString || state.puzzle.artist)}</span>
   `;
   coverFallback.hidden = false;
+}
+
+function hasSourceTag(song, tag) {
+  return Array.isArray(song?.sourceTags) && song.sourceTags.includes(tag);
+}
+
+function renderSourceTags() {
+  if (!sourceTags) return;
+  const labels = [
+    hasSourceTag(state.puzzle, "community") ? t("tagCommunitySuggested") : "",
+    hasSourceTag(state.puzzle, "special-test") ? t("tagSpecialTest") : "",
+  ].filter(Boolean);
+
+  if (!state.isComplete || labels.length === 0) {
+    sourceTags.hidden = true;
+    sourceTags.innerHTML = "";
+    return;
+  }
+
+  sourceTags.innerHTML = labels.map((label) => `<span>${escapeHtml(label)}</span>`).join("");
+  sourceTags.hidden = false;
+}
+
+// Cached after a successful loadGlobalStats so we can re-render on language switch
+// without making another KV read.
+let lastGlobalStats = null;
+
+// Bucket the global solve rate into a difficulty tier.
+// Returns one of: "free" | "easy" | "medium" | "hard" | "unknown"
+// Also exposes the threshold logic in one place so labels and color stay in sync.
+function getDifficultyKey(rate) {
+  if (rate >= 90) return "free";
+  if (rate >= 70) return "easy";
+  if (rate >= 40) return "medium";
+  if (rate >= 15) return "hard";
+  return "unknown";
+}
+
+// Fetch and render the global solve stats for the answered song.
+// Hidden if the song has no plays or the request fails — failure is silent
+// because this is a cosmetic addition, not core gameplay.
+async function loadGlobalStats(songId, context = {}) {
+  if (!globalStatsEl || !songId) return;
+  globalStatsEl.hidden = true;
+  globalStatsEl.innerHTML = "";
+  lastGlobalStats = null;
+  try {
+    const res = await fetch(`${WORKER_URL}/stats?songId=${encodeURIComponent(songId)}`);
+    if (!res.ok) return;
+    const data = await res.json();
+    const plays = data.plays || 0;
+    if (plays < 1) return;
+    const wins = data.wins || 0;
+    const rate = Math.round((wins / plays) * 100);
+
+    // Compute avg attempts from the per-attempt buckets recorded in /record.
+    // The buckets only count successful solves, so this is "avg attempts among solvers".
+    const buckets = data.attempts || {};
+    let totalSolves = 0;
+    let weightedSum = 0;
+    for (const [k, v] of Object.entries(buckets)) {
+      const n = parseInt(k, 10);
+      const c = Number(v) || 0;
+      if (Number.isFinite(n) && n >= 1 && n <= 6) {
+        totalSolves += c;
+        weightedSum += n * c;
+      }
+    }
+    const avg = totalSolves > 0 ? (weightedSum / totalSolves) : null;
+
+    lastGlobalStats = { rate, plays, avg };
+    renderGlobalStats();
+    maybeUpdateHardestSolved(rate, context);
+  } catch {
+    // silent — stats backend hiccup shouldn't break the answer reveal
+  }
+}
+
+// If the player just solved this song AND its global solve rate is lower than
+// their previous "hardest solved" record (or they have none), update the record.
+// Stored in the same stats blob as everything else, per mode.
+function maybeUpdateHardestSolved(globalRate, context = {}) {
+  const mode = context.mode || state.mode;
+  const puzzle = context.puzzle || state.puzzle;
+  const result = context.result || state.lastResult;
+  if (mode !== "daily" && mode !== "unlimited") return;
+  if (!puzzle || !result || !result.won) return;
+  const isDaily = mode === "daily";
+  const stats = isDaily ? loadStats() : loadUnlimitedStats();
+  const prev = stats.hardestSolved;
+  if (prev && typeof prev.rate === "number" && prev.rate <= globalRate) return;
+
+  stats.hardestSolved = {
+    vocadbId: puzzle.vocadbId,
+    title: getDisplayTitle(puzzle),
+    rate: globalRate,
+    solvedAt: Date.now(),
+  };
+  if (isDaily) saveStats(stats); else saveUnlimitedStats(stats);
+  // Refresh modal in case it's open right now.
+  if (typeof renderStats === "function") renderStats();
+}
+
+function renderGlobalStats() {
+  if (!globalStatsEl || !lastGlobalStats) return;
+  const { rate, plays, avg } = lastGlobalStats;
+  const statsLine = avg === null
+    ? t("globalStatsNoWins", rate, plays)
+    : t("globalStats", rate, avg.toFixed(1), plays);
+
+  const diffKey = getDifficultyKey(rate);
+  const diffLabel = t("difficulty" + diffKey.charAt(0).toUpperCase() + diffKey.slice(1));
+  const diffLine = `<span class="gs-difficulty gs-diff-${diffKey}">${t("difficultyLabel", diffLabel)}</span>`;
+
+  globalStatsEl.innerHTML = `${statsLine}<br>${diffLine}`;
+  globalStatsEl.hidden = false;
 }
 
 function getYouTubeImageVideoId(url) {
@@ -1374,12 +2372,12 @@ coverImage.addEventListener("error", () => {
 function completeRound(won) {
   state.isComplete = true;
   stopClip();
-  revealAnswer();
   state.lastResult = recordResult(won) || {
     won,
     attempts: won ? state.attempt : null,
     title: state.puzzle.title,
   };
+  revealAnswer();
   playButton.disabled = false;
   playButton.setAttribute("aria-label", "Play full clip");
   state.clipStage = clipStages.length - 1;
@@ -1416,21 +2414,36 @@ function completeRound(won) {
 
 function render() {
   gamePanel.classList.toggle("is-complete", state.isComplete);
-  puzzleDate.textContent = state.mode === "daily" ? formatToday() : t("unlimited");
+  puzzleDate.textContent = state.mode === "daily"
+    ? formatToday()
+    : state.mode === "archive" && state.archiveDate
+      ? formatArchiveDate(state.archiveDate)
+      : t("unlimited");
   attemptCount.textContent = t("attempt", state.attempt, clipStages.length);
   clipLength.textContent = `${clipStages[state.clipStage]}s`;
-  modeEyebrow.textContent = state.mode === "daily" ? t("dailyPuzzle") : t("unlimitedPuzzle");
-  answerLink.hidden = !state.isComplete || !state.puzzle?.vocadbUrl;
-  answerLink.textContent = t("viewVocaDB");
+  modeEyebrow.textContent = state.mode === "daily"
+    ? t("dailyPuzzle")
+    : state.mode === "archive"
+      ? t("archivePuzzle")
+      : t("unlimitedPuzzle");
+  if (sourceLink) {
+    sourceLink.href = state.isComplete && state.puzzle?.vocadbUrl ? state.puzzle.vocadbUrl : "https://vocadb.net";
+    sourceLink.textContent = "VocaDB";
+  }
   nextButton.hidden = !state.isComplete;
   shareButton.hidden = !state.isComplete;
   shareOutput.value = state.isComplete ? buildShareText() : "";
+  if (resultTools) resultTools.hidden = !state.isComplete;
+  if (kofiNudgeEl) kofiNudgeEl.hidden = !state.isComplete;
+  if (reportIssueNudge) reportIssueNudge.hidden = !state.isComplete;
   dailyModeButton.classList.toggle("is-active", state.mode === "daily");
   unlimitedModeButton.classList.toggle("is-active", state.mode === "unlimited");
+  if (archiveModeButton) archiveModeButton.classList.toggle("is-active", state.mode === "archive");
   updateProgress(0);
   updateGiveUpVisibility();
   updateAttemptDots();
   renderGuesses();
+  updateNextDailyCountdown();
 }
 
 function getResultIcon(result) {
@@ -1497,17 +2510,25 @@ function highlightMatch(text, query) {
   return escaped.replace(new RegExp(`(${escapedQuery})`, "gi"), "<mark>$1</mark>");
 }
 
+// Tracks whether the current input value was explicitly chosen from the suggestion list
+let suggestionWasSelected = false;
+
 function renderSuggestions() {
   const query = guessInput.value;
   const matches = getMatchingSongs(query);
+  const normalizedQuery = normalizeGuess(query);
+
+  // Remember what title is currently highlighted so we can restore it after re-render
+  const previousActiveTitle = activeSuggestionIndex >= 0
+    ? suggestionList.querySelectorAll("li")[activeSuggestionIndex]?.dataset.title
+    : null;
+
   activeSuggestionIndex = -1;
 
   if (matches.length === 0) {
     hideSuggestions();
     return;
   }
-
-  const normalizedQuery = normalizeGuess(query);
 
   suggestionList.innerHTML = matches
     .map(
@@ -1521,6 +2542,26 @@ function renderSuggestions() {
     .join("");
   suggestionList.hidden = false;
   guessInput.setAttribute("aria-expanded", "true");
+
+  // Restore highlighted selection by title rather than by index so fast typing
+  // doesn't silently shift what's highlighted when results reorder
+  if (previousActiveTitle) {
+    const items = Array.from(suggestionList.querySelectorAll("li"));
+    const restored = items.findIndex((li) => li.dataset.title === previousActiveTitle);
+    if (restored >= 0) {
+      activeSuggestionIndex = restored;
+      items[restored].classList.add("is-active");
+    }
+  }
+}
+
+// Debounced wrapper — fires renderSuggestions after 80 ms of quiet typing.
+// Short enough not to feel laggy; long enough to skip intermediate keystrokes.
+let _suggestionDebounceTimer = null;
+function renderSuggestionsDebounced() {
+  suggestionWasSelected = false;
+  clearTimeout(_suggestionDebounceTimer);
+  _suggestionDebounceTimer = setTimeout(renderSuggestions, 80);
 }
 
 function hideSuggestions() {
@@ -1531,6 +2572,7 @@ function hideSuggestions() {
 
 function selectSuggestion(title) {
   guessInput.value = title;
+  suggestionWasSelected = true;
   hideSuggestions();
   guessInput.focus();
 }
@@ -1631,9 +2673,13 @@ function buildShareText() {
     return "";
   }
 
-  const modeLabel = state.mode === "daily" ? "Daily" : "Unlimited";
+  const modeLabel = state.mode === "daily" ? "Daily" : state.mode === "archive" ? "Archive" : "Unlimited";
   const score = state.lastResult.won ? `${state.lastResult.attempts}/${clipStages.length}` : `X/${clipStages.length}`;
-  const context = state.mode === "daily" ? formatToday() : getDisplayTitle(state.puzzle);
+  const context = state.mode === "daily"
+    ? formatToday()
+    : state.mode === "archive" && state.archiveDate
+      ? formatArchiveDate(state.archiveDate)
+      : getDisplayTitle(state.puzzle);
 
   let gaveUp = false;
   const squares = clipStages
@@ -1652,12 +2698,22 @@ function buildShareText() {
     .filter((s) => s !== null)
     .join(" ");
 
-  return [
+  // Stats line — only included if we have global data cached from loadGlobalStats.
+  // Race-safe: if the player copies before the fetch resolves (or fetch failed),
+  // we just omit the line rather than showing placeholder text.
+  const lines = [
     `VOCALOID Heardle ${modeLabel}`,
     `${score} · ${context}`,
-    "",
-    `🔊 ${squares}`,
-  ].join("\n");
+  ];
+  if (lastGlobalStats) {
+    const { rate, avg } = lastGlobalStats;
+    const avgPart = avg !== null ? ` · ${avg.toFixed(1)}/6 avg` : "";
+    lines.push(`${rate}% solve${avgPart}`);
+  }
+  lines.push("");
+  lines.push(`🔊 ${squares}`);
+
+  return lines.join("\n");
 }
 
 // ── GLOBAL RANKINGS ──
@@ -1673,13 +2729,48 @@ function getSongById(vocadbId) {
 async function fetchRankings(sort) {
   if (rankingsCache[sort]) return rankingsCache[sort];
   try {
-    const res = await fetch(`${WORKER_URL}/leaderboard?sort=${sort}&limit=50`);
-    const data = await res.json();
+    const isAvgSort = sort === "avg-low" || sort === "avg-high";
+    let data;
+    if (isAvgSort) {
+      const responses = await Promise.all([
+        fetch(`${WORKER_URL}/leaderboard?sort=plays&limit=1000`),
+        fetch(`${WORKER_URL}/leaderboard?sort=hardest&limit=1000`),
+        fetch(`${WORKER_URL}/leaderboard?sort=easiest&limit=1000`),
+      ]);
+      const payloads = await Promise.all(responses.map((res) => res.json()));
+      const merged = new Map();
+      payloads.flat().forEach((entry) => {
+        if (entry?.songId) merged.set(String(entry.songId), entry);
+      });
+      data = Array.from(merged.values());
+    } else {
+      const res = await fetch(`${WORKER_URL}/leaderboard?sort=${sort}&limit=50`);
+      data = await res.json();
+    }
+    if (isAvgSort) {
+      data = data
+        .sort((a, b) => {
+          const avgA = getAvgSortValue(a, sort);
+          const avgB = getAvgSortValue(b, sort);
+          const diff = avgA - avgB;
+          if (diff !== 0) return sort === "avg-low" ? diff : -diff;
+          const winDiff = (a.winRate || 0) - (b.winRate || 0);
+          if (winDiff !== 0) return sort === "avg-low" ? winDiff : -winDiff;
+          return (b.plays || 0) - (a.plays || 0);
+        })
+        .slice(0, 50);
+    }
     rankingsCache[sort] = data;
     return data;
   } catch {
     return null;
   }
+}
+
+function getAvgSortValue(entry, sort) {
+  const avg = Number(entry?.avgAttempts);
+  if (Number.isFinite(avg)) return avg;
+  return sort === "avg-low" ? 0 : -1;
 }
 
 function formatAvgAttempts(value) {
@@ -1698,7 +2789,7 @@ async function loadSidebarRankings(sort) {
   }
   list.innerHTML = data.slice(0, 5).map((entry, index) => {
     const song = getSongById(entry.songId);
-    const title = song ? getDisplayTitle(song) : `Song #${entry.songId}`;
+    const title = song ? truncateTitle(getDisplayTitle(song), 28) : `Song #${entry.songId}`;
     const winRate = Math.round((entry.winRate || 0) * 100);
     return `
       <div class="sb-rankings-row">
@@ -1721,7 +2812,7 @@ async function loadModalRankings(sort) {
   }
   content.innerHTML = data.map((entry, index) => {
     const song = getSongById(entry.songId);
-    const title = song ? getDisplayTitle(song) : `Song #${entry.songId}`;
+    const title = song ? truncateTitle(getDisplayTitle(song), 40) : `Song #${entry.songId}`;
     const artist = song ? getSuggestionArtist(song) : "—";
     const winRate = Math.round((entry.winRate || 0) * 100);
     const plays = (entry.plays || 0).toLocaleString();
@@ -1871,6 +2962,33 @@ guessForm.addEventListener("submit", (event) => {
     return;
   }
 
+  // ── Duplicate guess protection ──
+  const normalizedGuess = normalizeGuess(guess);
+  const alreadyGuessed = state.guesses.some(
+    (g) => g.result === "Wrong" && normalizeGuess(g.label) === normalizedGuess,
+  );
+  if (alreadyGuessed) {
+    showLossToast(t("toastAlreadyGuessed"));
+    return;
+  }
+
+  // ── Producer-only guard ──
+  // If what was typed doesn't match any song title (only artist fields), and the
+  // user didn't explicitly pick from the suggestion list, block the submission.
+  // This prevents a bare producer name like "maretu" from burning an attempt.
+  const matchesTitleDirectly = songs.some((song) => {
+    const titles = [song.title, song.vocadbName, ...(song.acceptedTitles || [])].filter(Boolean);
+    return titles.some((t) => normalizeGuess(t) === normalizedGuess);
+  });
+
+  if (!matchesTitleDirectly && !suggestionWasSelected) {
+    // Show the suggestions (in case debounce hasn't fired yet) and warn
+    clearTimeout(_suggestionDebounceTimer);
+    renderSuggestions();
+    showLossToast(t("toastSelectSong"));
+    return;
+  }
+
   const isCorrect = isCorrectGuess(guess);
 
   if (isCorrect) {
@@ -1891,10 +3009,11 @@ guessForm.addEventListener("submit", (event) => {
       advanceAttempt();
     }
   }
+  suggestionWasSelected = false;
   render();
 });
 
-guessInput.addEventListener("input", renderSuggestions);
+guessInput.addEventListener("input", renderSuggestionsDebounced);
 
 guessInput.addEventListener("keydown", (event) => {
   if (suggestionList.hidden) {
@@ -1980,7 +3099,9 @@ if (resetStatsYes) {
   resetStatsYes.addEventListener("click", () => {
     localStorage.removeItem(statsKey);
     localStorage.removeItem(unlimitedStatsKey);
+    localStorage.removeItem(archiveResultsKey);
     renderStats();
+    renderArchiveCalendar();
     showToast(t("toastStatsReset"));
     if (resetStatsConfirm) resetStatsConfirm.hidden = true;
     if (resetStatsButton) resetStatsButton.hidden = false;
@@ -2003,15 +3124,25 @@ suggestionList.addEventListener("mousedown", (event) => {
 dailyModeButton.addEventListener("click", () => {
   state.mode = "daily";
   state.statsMode = "daily";
+  state.archiveDate = null;
+  clearArchiveUrl();
   document.title = "VOCALOID Heardle — Daily";
   loadPuzzle();
   renderStats();
 });
 
+if (archiveModeButton) {
+  archiveModeButton.addEventListener("click", () => {
+    renderArchiveCalendar();
+  });
+}
+
 unlimitedModeButton.addEventListener("click", () => {
   state.mode = "unlimited";
   state.statsMode = "unlimited";
+  state.archiveDate = null;
   state.unlimitedQueue = [];
+  clearArchiveUrl();
   document.title = "VOCALOID Heardle — Unlimited";
   loadPuzzle();
   renderStats();
@@ -2019,7 +3150,49 @@ unlimitedModeButton.addEventListener("click", () => {
 
 nextButton.addEventListener("click", () => {
   state.mode = "unlimited";
+  state.archiveDate = null;
+  clearArchiveUrl();
   loadPuzzle();
+});
+
+if (archivePrevMonth) {
+  archivePrevMonth.addEventListener("click", () => shiftArchiveMonth(-1));
+}
+
+if (archiveNextMonth) {
+  archiveNextMonth.addEventListener("click", () => shiftArchiveMonth(1));
+}
+
+if (archiveRandomButton) {
+  archiveRandomButton.addEventListener("click", () => {
+    const song = getRandomArchiveSong();
+    if (!song) {
+      showToast(t("archiveRandomEmpty"));
+      return;
+    }
+    loadArchiveDate(song.date);
+    document.title = `VOCALOID Heardle — ${formatArchiveDate(state.archiveDate)}`;
+    closeModal();
+  });
+}
+
+if (archiveGrid) {
+  archiveGrid.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-archive-date]");
+    if (!button || button.disabled) return;
+    loadArchiveDate(button.dataset.archiveDate);
+    document.title = `VOCALOID Heardle — ${formatArchiveDate(state.archiveDate)}`;
+    closeModal();
+  });
+}
+
+window.addEventListener("popstate", () => {
+  const archiveDate = getArchiveDateFromUrl();
+  if (archiveDate && loadArchiveDate(archiveDate, true)) return;
+  state.mode = "daily";
+  state.archiveDate = null;
+  loadPuzzle();
+  renderStats();
 });
 
 shareButton.addEventListener("click", async () => {
@@ -2041,6 +3214,47 @@ shareButton.addEventListener("click", async () => {
     shareButton.textContent = "Select Result";
   }
 });
+
+if (suggestSongForm) {
+  suggestSongForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const body = [
+      "Song suggestion for VOCALOID Heardle",
+      "",
+      `Song title: ${document.querySelector("#suggest-title")?.value || ""}`,
+      `Producer: ${document.querySelector("#suggest-producer")?.value || ""}`,
+      `Vocal synth: ${document.querySelector("#suggest-vocal")?.value || ""}`,
+      `VocaDB link: ${document.querySelector("#suggest-vocadb")?.value || ""}`,
+      `YouTube/NicoNico link: ${document.querySelector("#suggest-source")?.value || ""}`,
+      "",
+      "Why should this be included?",
+      document.querySelector("#suggest-reason")?.value || "",
+      "",
+      "Note: suggestions are not guaranteed.",
+    ].join("\n");
+    window.location.href = makeMailto("VOCALOID Heardle song suggestion", body);
+  });
+}
+
+if (reportIssueForm) {
+  reportIssueForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    const reason = document.querySelector("#report-reason")?.value || "Issue report";
+    const details = document.querySelector("#report-details")?.value || "";
+    const body = [
+      "VOCALOID Heardle issue report",
+      "",
+      `Reason: ${reason}`,
+      "",
+      "Puzzle context:",
+      ...getPuzzleContextLines(),
+      "",
+      "Details:",
+      details,
+    ].join("\n");
+    window.location.href = makeMailto(`VOCALOID Heardle issue: ${reason}`, body);
+  });
+}
 
 statsDailyButton.addEventListener("click", () => {
   state.statsMode = "daily";
@@ -2121,7 +3335,11 @@ function initTitleMode() {
   );
 }
 
-loadPuzzle();
+const initialArchiveDate = getArchiveDateFromUrl();
+if (!initialArchiveDate || !loadArchiveDate(initialArchiveDate, true)) {
+  if (initialArchiveDate) clearArchiveUrl(true);
+  loadPuzzle();
+}
 renderStats();
 checkNewBadge();
 applyLanguage();

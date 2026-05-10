@@ -14,7 +14,7 @@
     <meta name="twitter:image" content="https://vocaloidle.sodapines.dev/favicon.jpg">
     <link rel="icon" type="image/jpeg" href="favicon.jpg">
     <link rel="apple-touch-icon" href="favicon.jpg">
-    <link rel="stylesheet" href="styles.css?v=3">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/7.2.3/css/flag-icons.min.css">
   </head>
   <body>
@@ -41,10 +41,18 @@
         <span class="nnd-divider">|</span>
         <a href="#" data-modal-target="support">Support</a>
         <span class="nnd-divider">|</span>
+        <a href="#" data-modal-target="release-notes">Updates</a>
+        <span class="nnd-divider">|</span>
         <a href="#" data-modal-target="settings">Settings</a>
+        <span class="nnd-divider">|</span>
+        <a class="nnd-kofi" href="https://ko-fi.com/sodapines" target="_blank" rel="noopener noreferrer">Support on Ko-fi</a>
       </div>
       <div class="nnd-mobile-settings">
+        <a href="#" data-modal-target="about">About</a>
+        <a href="#" data-modal-target="support">Support</a>
+        <a href="#" data-modal-target="release-notes">Updates</a>
         <a href="#" data-modal-target="settings">&#9881; Settings</a>
+        <a class="nnd-kofi" href="https://ko-fi.com/sodapines" target="_blank" rel="noopener noreferrer">Ko-fi</a>
       </div>
     </div>
 
@@ -79,6 +87,7 @@
           <div class="mode-switch">
             <button class="mode-button is-active" id="daily-mode-button" type="button">Daily <span class="new-badge" id="new-badge" hidden>NEW</span></button>
             <button class="mode-button" id="unlimited-mode-button" type="button">Unlimited</button>
+            <button class="mode-button" id="archive-mode-button" type="button" data-modal-target="archive">Archive</button>
           </div>
         </div>
 
@@ -107,11 +116,13 @@
           <div class="nnd-meta-row">
             <span class="nnd-meta-item"><span class="nnd-meta-label">▶ Views:</span> —</span>
             <span class="nnd-meta-item"><span class="nnd-meta-label">Category:</span> Music / VOCALOID</span>
-            <span class="nnd-meta-item"><span class="nnd-meta-label">Source:</span> <a href="https://vocadb.net" target="_blank">VocaDB</a></span>
+            <span class="nnd-meta-item"><span class="nnd-meta-label">Source:</span> <a id="source-link" href="https://vocadb.net" target="_blank" rel="noreferrer">VocaDB</a></span>
+            <span class="nnd-meta-item next-daily-countdown" id="next-daily-countdown" hidden></span>
           </div>
 
+          <p class="source-tags" id="source-tags" hidden></p>
           <p class="caption" id="cover-caption">cover art appears after the answer</p>
-          <a class="answer-link" id="answer-link" href="#" target="_blank" rel="noreferrer" hidden>View on VocaDB</a>
+          <p class="global-stats" id="global-stats" hidden></p>
 
           <p class="schedule-message" id="schedule-message" hidden></p>
 
@@ -161,11 +172,19 @@
           <button class="share-button secondary-button" id="share-button" type="button" hidden><span id="share-button-text">Copy Result</span></button>
           <textarea class="share-output" id="share-output" readonly hidden></textarea>
 
+          <p class="kofi-nudge" id="kofi-nudge" hidden>
+            <span class="kofi-nudge-text">Enjoying the project? Tips help keep it running.</span>
+            <a class="kofi-nudge-link" href="https://ko-fi.com/sodapines" target="_blank" rel="noopener noreferrer">Support on Ko-fi →</a>
+          </p>
+
           <div class="guess-history" aria-live="polite">
             <h3>Past Guesses</h3>
             <ol id="guess-list">
               <li class="empty-guess">No guesses yet</li>
             </ol>
+            <p class="report-issue-nudge" id="report-issue-nudge" hidden style="margin:6px 0 0;font-size:11px;text-align:right;">
+              <a href="#" data-modal-target="report-issue" id="report-issue-link">Report issue</a>
+            </p>
           </div>
         </section>
       </main>
@@ -183,8 +202,7 @@
             </div>
             <div class="sidebar-stat-row" id="streak-row"><span class="sb-streak-label">Streak</span><strong id="sb-streak">0</strong></div>
             <div class="sidebar-stat-row"><span class="sb-best-label">Best Streak</span><strong id="sb-best">0</strong></div>
-            <div class="sidebar-stat-row"><span class="sb-total-label">Songs in pool</span><strong id="sb-total-songs">—</strong></div>
-            <div class="sidebar-stat-divider"></div>
+            <div class="sidebar-stat-row"><span class="sb-avg-label">Avg Attempts</span><strong id="sb-avg">—</strong></div>
             <div class="sb-attempt-dots" id="sb-attempt-dots"></div>
             <a href="#" data-modal-target="stats" class="sidebar-link full-stats">View full stats →</a>
           </div>
@@ -233,6 +251,9 @@
           <div class="nnd-sidebar-body">
             <a href="https://vocadb.net" target="_blank" class="sidebar-link">VocaDB ↗</a>
             <a href="https://nicovideo.jp" target="_blank" class="sidebar-link">NicoNico ↗</a>
+            <hr style="border:none;border-top:1px solid var(--line);margin:4px 0;">
+            <a href="#" data-modal-target="suggest-song" class="sidebar-link">Suggest a Song</a>
+            <a href="#" data-modal-target="release-notes" class="sidebar-link">Release Notes</a>
             <a href="#" data-modal-target="about" class="sidebar-link">About this site</a>
             <a href="#" data-modal-target="support" class="sidebar-link">Contact / Support</a>
           </div>
@@ -242,7 +263,7 @@
     </div>
 
     <footer class="site-footer">
-      <p>VOCALOID Heardle: fan-made daily guessing game &copy; 2026 &nbsp;|&nbsp; Not affiliated with Crypton Future Media or NicoNico &nbsp;|&nbsp; Song data from <a href="https://vocadb.net" target="_blank">VocaDB</a></p>
+      <p>VOCALOID Heardle: fan-made daily guessing game &copy; 2026 &nbsp;|&nbsp; Not affiliated with Crypton Future Media, NicoNico, or VocaDB &nbsp;|&nbsp; Song data from <a href="https://vocadb.net" target="_blank">VocaDB</a> &nbsp;|&nbsp; <a href="#" data-modal-target="song-pool">Song Pool</a> &nbsp;|&nbsp; <a href="#" data-modal-target="release-notes">Release v1.0</a></p>
     </footer>
 
     <div class="modal-backdrop" id="modal-backdrop" hidden></div>
@@ -270,6 +291,71 @@
       <h2 id="support-title">Support</h2>
       <p>VOCALOID Heardle is maintained by sodapines as a small fan-made music puzzle project.</p>
       <p>For bugs, song corrections, or suggestions, email <a href="mailto:kzen@sodapines.dev">kzen@sodapines.dev</a>.</p>
+      <p class="support-kofi-line">Hosting and the stats backend cost a bit each month to keep running. If you've enjoyed the game and want to chip in, even a one-time tip helps cover those costs.</p>
+    </section>
+
+    <section class="modal" id="release-notes" role="dialog" aria-modal="true" aria-labelledby="release-notes-title" hidden>
+      <button class="modal-close" type="button" aria-label="Close dialog">x</button>
+      <h2 id="release-notes-title">Release Notes</h2>
+      <p class="release-version" id="release-version">Official Release v1.0</p>
+      <p id="release-intro">This release collects the major updates being prepared for the public site.</p>
+      <ul class="release-list">
+        <li id="release-item-archive">Daily Archive with playable past puzzles, monthly completion summaries, and hardest/easiest daily notes.</li>
+        <li id="release-item-random">Random Archive Puzzle for jumping into older dailies without picking a date.</li>
+        <li id="release-item-stats">Global song stats, solve rates, average attempts, and expanded rankings.</li>
+        <li id="release-item-pool">Song Pool credits, VocaDB source information, and clearer project disclaimers.</li>
+        <li id="release-item-community">Suggest a Song, Report Issue forms, and Community Suggested tags for future additions.</li>
+        <li id="release-item-language">English/Japanese interface support with song title display options.</li>
+        <li id="release-item-polish">Retro NicoNico-inspired layout polish, improved autocomplete, and Cloudflare-hosted audio support.</li>
+      </ul>
+    </section>
+
+    <section class="modal" id="song-pool" role="dialog" aria-modal="true" aria-labelledby="song-pool-title" hidden>
+      <button class="modal-close" type="button" aria-label="Close dialog">x</button>
+      <h2 id="song-pool-title">Song Pool</h2>
+      <p id="song-pool-summary">Songs are sourced from VocaDB. Daily puzzles are selected from a curated VOCALOID/music database.</p>
+      <dl class="info-list">
+        <div><dt>Total songs in pool</dt><dd id="song-pool-count">-</dd></div>
+        <div><dt>Sources used</dt><dd>VocaDB, YouTube, NicoNico, Cloudflare R2 audio hosting</dd></div>
+        <div><dt>Song data credit</dt><dd><a href="https://vocadb.net" target="_blank" rel="noreferrer">VocaDB</a></dd></div>
+      </dl>
+      <p class="fine-print">VOCALOID Heardle is a fan-made project and is not affiliated with Crypton Future Media, NicoNico, VocaDB, or the artists represented in the song pool.</p>
+    </section>
+
+    <section class="modal" id="suggest-song" role="dialog" aria-modal="true" aria-labelledby="suggest-song-title" hidden>
+      <button class="modal-close" type="button" aria-label="Close dialog">x</button>
+      <h2 id="suggest-song-title">Suggest a Song</h2>
+      <p>Send a song for future puzzle consideration. Suggestions are not guaranteed, but they help improve the pool.</p>
+      <form class="mail-form" id="suggest-song-form">
+        <label id="suggest-label-title">Song title <input id="suggest-title" name="title" type="text" required></label>
+        <label id="suggest-label-producer">Producer <input id="suggest-producer" name="producer" type="text"></label>
+        <label id="suggest-label-vocal">Vocal synth <input id="suggest-vocal" name="vocal" type="text"></label>
+        <label id="suggest-label-vocadb">VocaDB link <input id="suggest-vocadb" name="vocadb" type="url" placeholder="https://vocadb.net/S/..."></label>
+        <label id="suggest-label-source">YouTube/NicoNico link <input id="suggest-source" name="source" type="url"></label>
+        <label id="suggest-label-reason">Why should this be included? <textarea id="suggest-reason" name="reason" rows="4"></textarea></label>
+        <button class="form-submit" id="suggest-submit-btn" type="submit">Email Suggestion</button>
+      </form>
+    </section>
+
+    <section class="modal" id="report-issue" role="dialog" aria-modal="true" aria-labelledby="report-issue-title" hidden>
+      <button class="modal-close" type="button" aria-label="Close dialog">x</button>
+      <h2 id="report-issue-title">Report Issue</h2>
+      <p id="report-context">Use this form to report a problem with the current puzzle.</p>
+      <form class="mail-form" id="report-issue-form">
+        <label id="report-label-reason">Reason
+          <select id="report-reason" name="reason" required>
+            <option id="report-opt-metadata" value="Wrong song metadata">Wrong song metadata</option>
+            <option id="report-opt-audio" value="Audio does not play">Audio does not play</option>
+            <option id="report-opt-source" value="Wrong source">Wrong source</option>
+            <option id="report-opt-duplicate" value="Duplicate song">Duplicate song</option>
+            <option id="report-opt-startpoint" value="Bad starting point">Bad starting point</option>
+            <option id="report-opt-answer" value="Answer not accepted">Answer not accepted</option>
+            <option id="report-opt-other" value="Other">Other</option>
+          </select>
+        </label>
+        <label id="report-label-details">Details <textarea id="report-details" name="details" rows="4" placeholder="What happened?"></textarea></label>
+        <button class="form-submit" id="report-submit-btn" type="submit">Email Report</button>
+      </form>
     </section>
 
     <section class="modal" id="stats" role="dialog" aria-modal="true" aria-labelledby="stats-title" hidden>
@@ -294,7 +380,9 @@
         <div><strong id="stat-win-rate">0%</strong><span>Win rate</span></div>
         <div><strong id="stat-current-streak">0</strong><span>Current streak</span></div>
         <div><strong id="stat-max-streak">0</strong><span>Max streak</span></div>
+        <div><strong id="stat-avg-attempts">—</strong><span>Avg attempts</span></div>
       </div>
+      <p class="stat-hardest" id="stat-hardest" hidden></p>
     </section>
 
     <section class="modal" id="settings" role="dialog" aria-modal="true" aria-labelledby="settings-title" hidden>
@@ -430,13 +518,37 @@
       <h2 id="rankings-title">Global Rankings</h2>
       <p class="rankings-note">Based on unlimited mode plays only. Songs with fewer than 5 plays are excluded.</p>
       <div class="rankings-tabs">
-        <button class="rankings-tab is-active" data-tab="plays">Popular</button>
-        <button class="rankings-tab" data-tab="hardest">Hardest</button>
-        <button class="rankings-tab" data-tab="easiest">Easiest</button>
+        <div class="rankings-tab-row">
+          <button class="rankings-tab is-active" data-tab="plays">Popular</button>
+          <button class="rankings-tab" data-tab="hardest">Hardest</button>
+          <button class="rankings-tab" data-tab="easiest">Easiest</button>
+        </div>
+        <div class="rankings-tab-row rankings-tab-row-secondary">
+          <button class="rankings-tab" data-tab="avg-low">Lowest Avg</button>
+          <button class="rankings-tab" data-tab="avg-high">Highest Avg</button>
+        </div>
       </div>
       <div class="rankings-content" id="rankings-content">
         <div class="rankings-loading">Loading...</div>
       </div>
+    </section>
+
+    <section class="modal" id="archive" role="dialog" aria-modal="true" aria-labelledby="archive-title" hidden>
+      <button class="modal-close" type="button" aria-label="Close dialog">x</button>
+      <h2 id="archive-title">Archive</h2>
+      <p class="archive-note">Play previous daily puzzles. New completed dailies appear here automatically.</p>
+      <div class="archive-summary" id="archive-summary" aria-label="Archive stats"></div>
+      <div class="archive-insights" id="archive-insights" aria-live="polite"></div>
+      <button class="archive-random" id="archive-random-button" type="button">Random Archive Puzzle</button>
+      <div class="archive-toolbar">
+        <button class="archive-nav" id="archive-prev-month" type="button" aria-label="Previous month">‹</button>
+        <strong id="archive-month-label">Month</strong>
+        <button class="archive-nav" id="archive-next-month" type="button" aria-label="Next month">›</button>
+      </div>
+      <div class="archive-weekdays" aria-hidden="true">
+        <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span>
+      </div>
+      <div class="archive-grid" id="archive-grid"></div>
     </section>
 
     <script src="data/songs.js"></script>
