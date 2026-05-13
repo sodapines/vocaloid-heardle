@@ -4,7 +4,42 @@ const songs = window.VOCALOID_HEARDLE_SONGS || [];
 const statsKey = "vocaloid-heardle-stats";
 const unlimitedStatsKey = "vocaloid-heardle-unlimited-stats";
 const archiveResultsKey = "vocaloid-heardle-archive-results";
+const achievementsKey = "vocaloid-heardle-achievements";
+const unlimitedRecentKey = "vocaloid-heardle-unlimited-recent";
+const unlimitedRecentLimit = 100;
+const unlimitedHistoryKey = "vocaloid-heardle-unlimited-history";
+const unlimitedHistoryLimit = 100;
 const contactEmail = "kzen@sodapines.dev";
+
+// ── DANMAKU COMMENT POOL ──
+const DANMAKU_POOL = [
+  "草", "www", "神曲!!", "懐かしい～", "ボカロ最高", "I know this one!!",
+  "GOAT song fr", "わかる", "これ好きすぎる", "名曲", "泣ける", "やばい",
+  "初見でわかった", "むずい", "懐かしすぎ", "天才", "ｗｗｗ", "好きすぎる",
+  "ずるい", "エモい", "うわーこれ知ってる", "全部聴いた", "神", "この曲やばい",
+  "ボカロ沼へようこそ", "わかった！", "あーこれか", "うおおお", "ｷﾀ━━━!!",
+  "こんなん絶対わかんない", "余裕でしょ", "え待って何これ", "知らん曲だ",
+  "これむず", "何回聴いた", "泣", "名曲すぎ", "懐かしすぎて死ぬ",
+  "ggez", "no way i know this", "wait i've heard this", "too easy lol",
+  "this is a banger", "no clue", "i love this song", "goat",
+  "absolutely no idea", "WAIT I KNOW THIS", "classic", "underrated fr",
+];
+
+const SENBONZAKURA_COMMENTS = [
+  "千本桜!!", "千本桜キタ━━━!!", "SENBONZAKURA!!!", "これは千本桜でしょ",
+  "千本桜すき", "ｷﾀｷﾀｷﾀ━━━!!", "千本桜神曲", "わかった千本桜",
+  "千本桜余裕", "これは有名すぎる", "伝説の曲", "www千本桜",
+  "LETS GOOO", "SENBONZAKURA LETS GO", "no way its senbonzakura",
+  "CALLED IT", "千本桜は別格", "千本桜！！！", "神！！！",
+  "ボカロ最高峰", "殿堂入り当然", "千本桜すぎ草", "キタキタキタキタ",
+];
+
+let mylistCount = Number(localStorage.getItem("vocaloid-heardle-mylist") || 0);
+
+function initMylist() {
+  const el = document.getElementById("nnd-mylist-count");
+  if (el) el.textContent = mylistCount.toLocaleString();
+}
 
 // ── i18n ──
 const STRINGS = {
@@ -46,11 +81,29 @@ const STRINGS = {
     toastCorrect: (title) => `Correct! — ${title}`,
     toastAnswer: (title) => `The answer was: ${title}`,
     toastCopied: "Result copied to clipboard",
+    toastAchievementUnlocked: "Achievement unlocked",
+    modalAchievementsTitle: "Achievements",
+    achievementsSummary: (unlocked, total) => `${unlocked} / ${total} unlocked`,
+    achievementStatusUnlocked: (date) => `Unlocked ${date}`,
+    achievementStatusLocked: "Locked",
+    achievementHiddenTitle: "???",
+    achievementHiddenDesc: "This achievement is still hidden.",
+    achievementCategoryAll: "All",
+    achievementCategoryGeneral: "General",
+    achievementCategoryDaily: "Daily",
+    achievementCategoryUnlimited: "Unlimited",
+    achievementCategoryArchive: "Archive",
+    achievementCategoryKnowledge: "Knowledge",
+    achievementCategoryChallenge: "Challenge",
+    achievementCategorySecret: "Secret",
     toastStatsReset: "Stats have been reset",
     toastAlreadyGuessed: "Already guessed.",
     toastSelectSong: "Select a song from the list.",
     heardleDaily: "VOCALOID Heardle Daily",
     heardleUnlimited: "VOCALOID Heardle Unlimited",
+    heardleArchive: "VOCALOID Heardle Archive",
+    shareGlobalStats: (rate, avg) => `${rate}% solve${avg !== null ? ` · ${avg.toFixed(1)}/6 avg` : ""}`,
+    shareSelectResult: "Select Result",
     placeholder: "type your guess...",
     disclaimer: "Some songs may not begin playing within the first second.",
     marquee: "★ A new daily puzzle is available each day ★ Use unlimited mode to practice anytime ★ Guess the VOCALOID song from the opening clip in 6 tries or less ★ Share your score with friends! ★ Songs sourced from VocaDB ★",
@@ -124,6 +177,33 @@ const STRINGS = {
     statsCurrentStreak: "Current streak",
     statsMaxStreak: "Max streak",
     statsAvgAttempts: "Avg winning attempts",
+    statsFirstTry: "First-try solves",
+    statsRarestSolve: "Rarest solve",
+    statsRarestFirstTry: "Rarest 1/6",
+    statsArchiveGroup: "Archive Mode",
+    statsArchiveProgress: "Progress",
+    statsAchievementsGroup: "Achievements",
+    statsAchievementsProgress: "Progress",
+    statsNoneYet: "None yet",
+    statsRarestLine: (title, rate) => `${title} — ${rate}% global solve`,
+    statsArchiveProgressLine: (solved, total, rate) => `${solved}/${total} solved · ${rate}%`,
+    statsAchievementsProgressLine: (unlocked, total, rate) => `${unlocked}/${total} unlocked · ${rate}%`,
+    statsCopyProfile: "Copy Profile",
+    profileCopied: "Profile copied to clipboard",
+    profileDaily: "Daily",
+    profileUnlimited: "Unlimited",
+    profileArchive: "Archive",
+    profileAchievements: "Achievements",
+    profileAvgSolve: "Avg solve",
+    profileBestStreak: "Best streak",
+    profileRarestSolve: "Rarest solve",
+    profileRarestFirstTry: "Rarest 1/6",
+    profileFirstTry: "First tries",
+    profilePlayed: "played",
+    profileWinRate: "win rate",
+    profileSolved: "solved",
+    profileOpened: "opened",
+    profileNoData: "none yet",
     sbAvgAttempts: "Avg Attempts",
     nextDailyCountdown: (h, m, s) => `Next puzzle in <strong>${h}h ${m}m ${s}s</strong>`,
     nextDailyReady: "A new daily puzzle is available!",
@@ -145,9 +225,6 @@ const STRINGS = {
     tagSpecialTest: "Special test label",
     kofiNudgeText: "Enjoying the project? Tips help keep it running.",
     kofiNudgeLink: "Support on Ko-fi →",
-    statHardestLabel: "Hardest solved",
-    statHardestEmpty: "Hardest solved: solve a song to set this!",
-    statHardestLine: (title, rate) => `<span class="sh-label">Hardest solved:</span> <span class="sh-title">${title}</span> — <span class="sh-rate">${rate}% global solve</span>`,
     settingsTitle: "Settings",
     settingDarkMode: "Dark Mode",
     settingDarkModeDesc: "Switch between light and dark theme",
@@ -177,6 +254,14 @@ const STRINGS = {
     settingTitleDisplayDesc: "How song titles appear in suggestions and history",
     settingClearInput: "Clear Input on Wrong",
     settingClearInputDesc: "Clears the guess field after a wrong answer",
+    settingBackupStats: "Backup Stats",
+    settingBackupStatsDesc: "Export or import local stats data",
+    settingExportStats: "Export",
+    settingImportStats: "Import",
+    settingImportPlaceholder: "Paste exported stats JSON here",
+    toastStatsExported: "Stats backup copied to clipboard",
+    toastStatsImported: "Stats backup imported",
+    toastStatsImportFailed: "Stats import failed. Check the backup text.",
     settingReportIssue: "Report Issue",
     settingReportIssueDesc: "Send metadata, audio, duplicate, or answer problems",
     settingReportIssueBtn: "Report",
@@ -195,7 +280,8 @@ const STRINGS = {
     navSettings: "Settings",
     navUpdates: "Updates",
     linkReleaseNotes: "Release Notes",
-    linkReleaseVersion: "Release v1.0",
+    linkReleaseVersion: "Release v1.1",
+    linkAchievements: "Achievements",
     linkSongPool: "Song Pool",
     linkSuggestSong: "Suggest a Song",
     hofSong1: "Senbonzakura",
@@ -233,6 +319,13 @@ const STRINGS = {
     globalStats: (rate, avg, plays) => `Global solve rate: <span class="gs-rate${rate < 30 ? ' gs-hard' : ''}">${rate}%</span> · Avg winning attempts: <span class="gs-rate">${avg}/6</span> · ${plays.toLocaleString()} plays`,
     globalStatsNoWins: (rate, plays) => `Global solve rate: <span class="gs-rate gs-hard">${rate}%</span> · ${plays.toLocaleString()} plays`,
     globalStatsNone: "",
+    globalComparisonBeat: "You beat the global average.",
+    globalComparisonMatched: "You matched the global average.",
+    globalComparisonClose: "Close to the global average.",
+    globalComparisonLate: "Later than average.",
+    globalComparisonRevealed: "Revealed.",
+    globalComparisonLine: (attempts, avg, verdict) => `Your solve: <span>${attempts}/6</span> · Global avg: <span>${avg}/6</span><br>${verdict}`,
+    globalComparisonRevealLine: (avg, verdict) => `Global avg: <span>${avg}/6</span><br>${verdict}`,
     difficultyLabel: (label) => `Difficulty: ${label}`,
     difficultyFree: "Free",
     difficultyEasy: "Easy",
@@ -287,11 +380,29 @@ const STRINGS = {
     toastCorrect: (title) => `正解！— ${title}`,
     toastAnswer: (title) => `正解は：${title}`,
     toastCopied: "結果をコピーしました",
+    toastAchievementUnlocked: "\u5B9F\u7E3E\u89E3\u9664",
+    modalAchievementsTitle: "\u5B9F\u7E3E",
+    achievementsSummary: (unlocked, total) => `${unlocked} / ${total} \u89E3\u9664\u6E08\u307F`,
+    achievementStatusUnlocked: (date) => `${date}\u306B\u89E3\u9664`,
+    achievementStatusLocked: "\u672A\u89E3\u9664",
+    achievementHiddenTitle: "???",
+    achievementHiddenDesc: "\u6761\u4EF6\u306F\u307E\u3060\u79D8\u5BC6\u3067\u3059\u3002",
+    achievementCategoryAll: "\u3059\u3079\u3066",
+    achievementCategoryGeneral: "\u4E00\u822C",
+    achievementCategoryDaily: "\u30C7\u30A4\u30EA\u30FC",
+    achievementCategoryUnlimited: "\u7121\u5236\u9650",
+    achievementCategoryArchive: "\u30A2\u30FC\u30AB\u30A4\u30D6",
+    achievementCategoryKnowledge: "\u77E5\u8B58",
+    achievementCategoryChallenge: "\u30C1\u30E3\u30EC\u30F3\u30B8",
+    achievementCategorySecret: "\u30B7\u30FC\u30AF\u30EC\u30C3\u30C8",
     toastStatsReset: "統計をリセットしました",
     toastAlreadyGuessed: "すでに回答済みです。",
     toastSelectSong: "リストから曲を選んでください。",
     heardleDaily: "VOCALOID Heardle 毎日",
     heardleUnlimited: "VOCALOID Heardle 無制限",
+    heardleArchive: "VOCALOID Heardle アーカイブ",
+    shareGlobalStats: (rate, avg) => `正解率${rate}%${avg !== null ? `・平均${avg.toFixed(1)}/6` : ""}`,
+    shareSelectResult: "結果を選択",
     placeholder: "曲名を入力...",
     disclaimer: "曲によっては最初の1秒で再生が始まらない場合があります。",
     marquee: "★ 毎日新しいパズルが更新されます ★ 無制限モードでいつでも練習できます ★ 6回以内にVOCALOID曲を当てよう ★ 結果をシェアしよう！ ★ 楽曲データはVocaDBより ★",
@@ -357,6 +468,33 @@ const STRINGS = {
     statsCurrentStreak: "現在の連続正解",
     statsMaxStreak: "最高連続正解",
     statsAvgAttempts: "平均挑戦回数",
+    statsFirstTry: "一発正解",
+    statsRarestSolve: "最レア正解",
+    statsRarestFirstTry: "最レア一発正解",
+    statsArchiveGroup: "アーカイブ",
+    statsArchiveProgress: "進捗",
+    statsAchievementsGroup: "\u5B9F\u7E3E",
+    statsAchievementsProgress: "\u9032\u6357",
+    statsNoneYet: "まだありません",
+    statsRarestLine: (title, rate) => `${title} — グローバル正解率${rate}%`,
+    statsArchiveProgressLine: (solved, total, rate) => `${solved}/${total} 正解 · ${rate}%`,
+    statsAchievementsProgressLine: (unlocked, total, rate) => `${unlocked}/${total} \u89E3\u9664\u6E08\u307F \u00B7 ${rate}%`,
+    statsCopyProfile: "プロフィールをコピー",
+    profileCopied: "プロフィールをコピーしました",
+    profileDaily: "毎日",
+    profileUnlimited: "無制限",
+    profileArchive: "アーカイブ",
+    profileAchievements: "\u5B9F\u7E3E",
+    profileAvgSolve: "平均正解",
+    profileBestStreak: "最高連続正解",
+    profileRarestSolve: "最レア正解",
+    profileRarestFirstTry: "最レア一発正解",
+    profileFirstTry: "一発正解",
+    profilePlayed: "プレイ",
+    profileWinRate: "正解率",
+    profileSolved: "正解",
+    profileOpened: "開封",
+    profileNoData: "まだありません",
     sbAvgAttempts: "平均挑戦",
     nextDailyCountdown: (h, m, s) => `次の問題まで <strong>${h}時間${m}分${s}秒</strong>`,
     nextDailyReady: "新しい問題が利用可能です！",
@@ -378,9 +516,6 @@ const STRINGS = {
     tagSpecialTest: "特別テストラベル",
     kofiNudgeText: "楽しんでいただけましたか？支援は運営の助けになります。",
     kofiNudgeLink: "Ko-fiで支援する →",
-    statHardestLabel: "最難関の正解",
-    statHardestEmpty: "最難関の正解：曲を1つ正解すると記録されます！",
-    statHardestLine: (title, rate) => `<span class="sh-label">最難関の正解:</span> <span class="sh-title">${title}</span> — <span class="sh-rate">グローバル正解率${rate}%</span>`,
     settingsTitle: "設定",
     settingDarkMode: "ダークモード",
     settingDarkModeDesc: "ライト・ダークテーマの切り替え",
@@ -410,6 +545,14 @@ const STRINGS = {
     settingTitleDisplayDesc: "候補・履歴での曲名の表示方法",
     settingClearInput: "不正解時に入力をクリア",
     settingClearInputDesc: "不正解後に入力欄を自動クリア",
+    settingBackupStats: "統計バックアップ",
+    settingBackupStatsDesc: "ローカル統計をエクスポート/インポート",
+    settingExportStats: "エクスポート",
+    settingImportStats: "インポート",
+    settingImportPlaceholder: "エクスポートした統計JSONを貼り付け",
+    toastStatsExported: "統計バックアップをコピーしました",
+    toastStatsImported: "統計バックアップをインポートしました",
+    toastStatsImportFailed: "インポートに失敗しました。バックアップ内容を確認してください。",
     settingResetStats: "統計のリセット",
     settingResetStatsDesc: "すべての統計を完全に削除",
     settingResetBtn: "リセット",
@@ -458,6 +601,13 @@ const STRINGS = {
     globalStats: (rate, avg, plays) => `グローバル正解率: <span class="gs-rate${rate < 30 ? ' gs-hard' : ''}">${rate}%</span> · 平均挑戦回数: <span class="gs-rate">${avg}/6</span> · ${plays.toLocaleString()}回`,
     globalStatsNoWins: (rate, plays) => `グローバル正解率: <span class="gs-rate gs-hard">${rate}%</span> · ${plays.toLocaleString()}回`,
     globalStatsNone: "",
+    globalComparisonBeat: "グローバル平均より早く正解しました。",
+    globalComparisonMatched: "グローバル平均と同じ結果です。",
+    globalComparisonClose: "グローバル平均に近い結果です。",
+    globalComparisonLate: "グローバル平均より遅めです。",
+    globalComparisonRevealed: "答えを開示しました。",
+    globalComparisonLine: (attempts, avg, verdict) => `あなたの正解: <span>${attempts}/6</span> · 全体平均: <span>${avg}/6</span><br>${verdict}`,
+    globalComparisonRevealLine: (avg, verdict) => `全体平均: <span>${avg}/6</span><br>${verdict}`,
     difficultyLabel: (label) => `難易度: ${label}`,
     difficultyFree: "サービス",
     difficultyEasy: "簡単",
@@ -488,7 +638,8 @@ Object.assign(STRINGS.jp, {
   modalReleasePolish: "ニコニコ風レトロUIの調整、オートコンプリート改善、Cloudflare配信音声への対応。",
   navUpdates: "更新情報",
   linkReleaseNotes: "更新情報",
-  linkReleaseVersion: "リリース v1.0",
+  linkReleaseVersion: "リリース v1.1",
+  linkAchievements: "\u5B9F\u7E3E",
 });
 
 Object.assign(STRINGS.jp, {
@@ -498,6 +649,623 @@ Object.assign(STRINGS.jp, {
   modalReleaseCommunity: "曲の提案、問題報告フォーム、今後の追加曲向けコミュニティ推薦タグに対応。",
 });
 
+let currentReleaseVersion = "v1.1";
+
+const RELEASE_NOTES = {
+  en: {
+    "v1.1": {
+      version: "Release v1.1",
+      intro: "This update expands the game around stats, personal progress, achievements, visual polish, and unlimited mode history.",
+      items: [
+        "Achievements system with 42 total achievements across General, Daily, Unlimited, Archive, Knowledge, Challenge, and Secret categories — including hidden achievements.",
+        "Full Global Rankings modal with Popular, Hardest, Easiest, Lowest Avg, and Highest Avg tabs.",
+        "Expanded personal stats with first-try solves, rarest solve, rarest 1/6, archive progress, and achievement progress.",
+        "Copy Profile button for sharing local Daily, Unlimited, and Archive progress without accounts.",
+        "Post-solve global comparison toast showing how your result compares with the global average.",
+        "Settings backup tools for exporting and importing local stats, archive progress, and unlimited history.",
+        "Archive calendar now shows attempt count per solved puzzle (1/6 through 6/6) with a color gradient from green to red.",
+        "Unlimited History: your last 100 unlimited puzzle results, accessible from the Unlimited stats tab.",
+        "Bullet comments now draw from a large randomized pool and cycle differently each puzzle. Senbonzakura gets its own comment set.",
+        "マイリスト counter in the video meta row increments each time you solve a puzzle correctly, persisted across sessions.",
+        "One secret achievement remains undocumented. It involves a specific song and the right settings.",
+        "Song pool update to 1001 playable songs with duplicate entries removed and refreshed audio links.",
+        "Unlimited mode now avoids recently played songs across a larger window, and Skip extends active playback to the newly unlocked clip length.",
+        "Japanese result sharing now localizes mode labels and global stats text more completely.",
+      ],
+    },
+    "v1.0": {
+      version: "Official Release v1.0",
+      intro: "This release collected the major updates prepared for the public site.",
+      items: [
+        "Daily Archive with playable past puzzles, monthly completion summaries, and hardest/easiest daily notes.",
+        "Random Archive Puzzle for jumping into older dailies without picking a date.",
+        "Global song stats, solve rates, average attempts, and expanded rankings with Lowest/Highest Avg tabs.",
+        "Song Pool credits, VocaDB source information, and clearer project disclaimers.",
+        "Suggest a Song, Report Issue forms, and Community Suggested tags for future additions.",
+        "English/Japanese interface support with song title display options.",
+        "Retro NicoNico-inspired layout polish, improved autocomplete, and Cloudflare-hosted audio support.",
+      ],
+    },
+  },
+  jp: {
+    "v1.1": {
+      version: "リリース v1.1",
+      intro: "この更新では、統計・個人の進捗・実績・ビジュアル・無制限モードの履歴機能を中心に拡張しました。",
+      items: [
+        "General、Daily、Unlimited、Archive、Knowledge、Challenge、Secretの7カテゴリに合計42個の実績を追加（隠し実績含む）。",
+        "人気、難しい、簡単、低平均、高平均タブ付きのグローバルランキングモーダルを追加。",
+        "一発正解、最レア正解、最レア1/6、アーカイブ進捗、実績進捗を含む個人統計を拡張。",
+        "アカウントなしでDaily、Unlimited、Archiveの進捗を共有できるプロフィールコピーを追加。",
+        "クリア後に自分の結果とグローバル平均を比較する通知を追加。",
+        "ローカル統計・アーカイブ進捗・無制限履歴をエクスポート/インポートできるバックアップ機能を追加。",
+        "アーカイブカレンダーに正解した試行回数（1/6〜6/6）を色グラデーション付きで表示。",
+        "無制限モードの直近100件のプレイ履歴を統計タブから確認できるようになりました。",
+        "弾幕コメントがランダムプールから選ばれるようになり、毎回異なるコメントが表示されます。千本桜には専用コメントセットを用意。",
+        "動画メタ行にマイリストカウンターを追加。正解するたびに増加し、リロード後も保持されます。",
+        "ある特定の曲と、ある設定の組み合わせで解除できる隠し実績が1つあります。",
+        "曲プールを1001曲に更新し、重複曲を削除、音声リンクを更新。",
+        "無制限モードで直近の曲をより広い範囲で避けるようにし、スキップ時は再生中の音声が新しい秒数まで延長されるよう改善。",
+        "日本語の結果共有でモード名とグローバル統計テキストをより完全に翻訳。",
+      ],
+    },
+    "v1.0": {
+      version: "正式リリース v1.0",
+      intro: "このリリースでは、公開版サイトに向けた主な更新をまとめました。",
+      items: [
+        "過去のデイリーパズル、月ごとの達成サマリー、最難関/最易デイリーのメモを追加。",
+        "日付を選ばず過去のデイリーに飛べるランダムアーカイブ問題を追加。",
+        "グローバル楽曲統計、正解率、平均挑戦回数、低平均/高平均タブ付きランキングを追加。",
+        "曲プールのクレジット、VocaDBソース情報、プロジェクトの免責表記を整理。",
+        "曲の提案、問題報告フォーム、今後の追加曲向けコミュニティ推薦タグに対応。",
+        "英語/日本語インターフェースと曲名表示オプションに対応。",
+        "ニコニコ風レトロUIの調整、オートコンプリート改善、Cloudflare配信音声への対応。",
+      ],
+    },
+  },
+};
+
+const ACHIEVEMENTS = [
+  {
+    id: "first_solve",
+    category: "general",
+    hidden: false,
+    title: {
+      en: "First Clear",
+      jp: "初クリア",
+    },
+    description: {
+      en: "Solve any puzzle.",
+      jp: "いずれかのパズルを正解する。",
+    },
+  },
+  {
+    id: "first_try",
+    category: "general",
+    hidden: false,
+    title: {
+      en: "Instant Recognition",
+      jp: "即答",
+    },
+    description: {
+      en: "Solve a puzzle on the first try.",
+      jp: "1回目の挑戦で正解する。",
+    },
+  },
+  {
+    id: "daily_streak_5",
+    category: "daily",
+    hidden: false,
+    title: {
+      en: "Regular Listener",
+      jp: "5日連続シグナル",
+    },
+    description: {
+      en: "Build a 5-day daily win streak.",
+      jp: "デイリーで5日連続正解する。",
+    },
+  },
+  {
+    id: "daily_streak_10",
+    category: "daily",
+    hidden: false,
+    title: {
+      en: "Daily Commitment",
+      jp: "放送習慣",
+    },
+    description: {
+      en: "Build a 10-day daily win streak.",
+      jp: "デイリーで10日連続正解する。",
+    },
+  },
+  {
+    id: "unlimited_10_wins",
+    category: "unlimited",
+    hidden: false,
+    title: {
+      en: "On Repeat",
+      jp: "練習室",
+    },
+    description: {
+      en: "Win 10 Unlimited puzzles.",
+      jp: "無制限モードで10回正解する。",
+    },
+  },
+  {
+    id: "unlimited_50_wins",
+    category: "unlimited",
+    hidden: false,
+    title: {
+      en: "Smart Fan",
+      jp: "深いローテーション",
+    },
+    description: {
+      en: "Win 50 Unlimited puzzles.",
+      jp: "無制限モードで50回正解する。",
+    },
+  },
+  {
+    id: "archive_first",
+    category: "archive",
+    hidden: false,
+    title: {
+      en: "Archive Opened",
+      jp: "アーカイブ開封",
+    },
+    description: {
+      en: "Play an Archive puzzle.",
+      jp: "アーカイブパズルをプレイする。",
+    },
+  },
+  {
+    id: "archive_10_solved",
+    category: "archive",
+    hidden: false,
+    title: {
+      en: "Going Through the Archives",
+      jp: "バックログリスナー",
+    },
+    description: {
+      en: "Solve 10 Archive puzzles.",
+      jp: "アーカイブパズルを10問正解する。",
+    },
+  },
+  {
+    id: "archive_month_complete",
+    category: "archive",
+    hidden: false,
+    title: {
+      en: "Month Complete",
+      jp: "月間コンプリート",
+    },
+    description: {
+      en: "Open every available puzzle in a month.",
+      jp: "1か月分の利用可能なパズルをすべて開く。",
+    },
+  },
+  {
+    id: "rare_solve",
+    category: "knowledge",
+    hidden: false,
+    title: {
+      en: "Deep Cut",
+      jp: "ディープカット",
+    },
+    description: {
+      en: "Solve a song with a global solve rate under 20%.",
+      jp: "グローバル正解率20%未満の曲を正解する。",
+    },
+  },
+  {
+    id: "rare_first_try",
+    category: "knowledge",
+    hidden: true,
+    title: {
+      en: "True Fan",
+      jp: "シグナルロック",
+    },
+    description: {
+      en: "Solve a rare song on the first try.",
+      jp: "レアな曲を1回目で正解する。",
+    },
+  },
+  {
+    id: "no_skip_win",
+    category: "challenge",
+    hidden: false,
+    title: {
+      en: "Got It First Try",
+      jp: "スキップ不要",
+    },
+    description: {
+      en: "Solve a puzzle without using Skip.",
+      jp: "スキップを使わずに正解する。",
+    },
+  },
+  {
+    id: "clutch_solve",
+    category: "challenge",
+    hidden: false,
+    title: {
+      en: "Squeaked By",
+      jp: "ラストチャンス",
+    },
+    description: {
+      en: "Solve a puzzle on the sixth try.",
+      jp: "6回目の挑戦で正解する。",
+    },
+  },
+  {
+    id: "full_reveal",
+    category: "challenge",
+    hidden: true,
+    title: {
+      en: "I Knew That One",
+      jp: "答えはそこにあった",
+    },
+    description: {
+      en: "Reveal a puzzle after using all attempts.",
+      jp: "すべての挑戦を使い切って答えを見る。",
+    },
+  },
+  // ── NEW ACHIEVEMENTS ──
+  {
+    id: "daily_played_30",
+    category: "daily",
+    hidden: false,
+    title: {
+      en: "Habit",
+      jp: "習慣",
+    },
+    description: {
+      en: "Play 30 daily puzzles.",
+      jp: "デイリーパズルを30回プレイする。",
+    },
+  },
+  {
+    id: "daily_streak_30",
+    category: "daily",
+    hidden: false,
+    title: {
+      en: "Committed",
+      jp: "30日連続",
+    },
+    description: {
+      en: "Build a 30-day daily win streak.",
+      jp: "デイリーで30日連続正解する。",
+    },
+  },
+  {
+    id: "daily_win_rate_90",
+    category: "daily",
+    hidden: false,
+    title: {
+      en: "Sharp Ear",
+      jp: "鋭い耳",
+    },
+    description: {
+      en: "Reach a 90% win rate on daily puzzles (min. 10 played).",
+      jp: "デイリーパズルの勝率90%以上（10回以上プレイ）。",
+    },
+  },
+  {
+    id: "unlimited_100_wins",
+    category: "unlimited",
+    hidden: false,
+    title: {
+      en: "Knowledge is Power",
+      jp: "常連",
+    },
+    description: {
+      en: "Win 100 Unlimited puzzles.",
+      jp: "無制限モードで100回正解する。",
+    },
+  },
+  {
+    id: "unlimited_first_try_streak_3",
+    category: "unlimited",
+    hidden: true,
+    title: {
+      en: "Hot Streak",
+      jp: "連続即答",
+    },
+    description: {
+      en: "Solve 3 Unlimited puzzles in a row on the first try.",
+      jp: "無制限モードで3連続1回正解する。",
+    },
+  },
+  {
+    id: "archive_25_solved",
+    category: "archive",
+    hidden: false,
+    title: {
+      en: "Deep in the Vault",
+      jp: "アーカイブ25問",
+    },
+    description: {
+      en: "Solve 25 Archive puzzles.",
+      jp: "アーカイブパズルを25問正解する。",
+    },
+  },
+  {
+    id: "archive_2_months_complete",
+    category: "archive",
+    hidden: false,
+    title: {
+      en: "Completionist",
+      jp: "コンプリート2か月",
+    },
+    description: {
+      en: "Complete every puzzle in 2 different months.",
+      jp: "2か月分のパズルをすべてクリアする。",
+    },
+  },
+  {
+    id: "knowledge_very_rare_solve",
+    category: "knowledge",
+    hidden: false,
+    title: {
+      en: "Obscure Taste",
+      jp: "超レア正解",
+    },
+    description: {
+      en: "Solve a song with a global solve rate under 10%.",
+      jp: "グローバル正解率10%未満の曲を正解する。",
+    },
+  },
+  {
+    id: "knowledge_100_unique",
+    category: "knowledge",
+    hidden: false,
+    title: {
+      en: "Extensive Library",
+      jp: "100曲制覇",
+    },
+    description: {
+      en: "Solve 100 different songs across all modes.",
+      jp: "全モードで100種類の曲を正解する。",
+    },
+  },
+  {
+    id: "challenge_no_wrong",
+    category: "challenge",
+    hidden: false,
+    title: {
+      en: "Clean Sheet",
+      jp: "ノーミス",
+    },
+    description: {
+      en: "Solve a puzzle without any wrong guesses.",
+      jp: "一度も間違えずに正解する。",
+    },
+  },
+  {
+    id: "challenge_perfect_daily_week",
+    category: "challenge",
+    hidden: false,
+    title: {
+      en: "Perfect Week",
+      jp: "完璧な1週間",
+    },
+    description: {
+      en: "Solve 7 daily puzzles in a row on the first try.",
+      jp: "デイリーパズルを7連続で1回正解する。",
+    },
+  },
+  {
+    id: "challenge_second_try",
+    category: "challenge",
+    hidden: false,
+    title: {
+      en: "Almost Instant",
+      jp: "惜しい",
+    },
+    description: {
+      en: "Solve a puzzle on the second try.",
+      jp: "2回目の挑戦で正解する。",
+    },
+  },
+  {
+    id: "secret_play_midnight",
+    category: "secret",
+    hidden: true,
+    title: {
+      en: "Night Owl",
+      jp: "夜型",
+    },
+    description: {
+      en: "Play a puzzle between midnight and 4am.",
+      jp: "深夜0時〜4時の間にパズルをプレイする。",
+    },
+  },
+  {
+    id: "secret_share_result",
+    category: "secret",
+    hidden: true,
+    title: {
+      en: "Tell Your Friends",
+      jp: "シェアした",
+    },
+    description: {
+      en: "Share your result.",
+      jp: "結果をシェアする。",
+    },
+  },
+  // ── NEW ACHIEVEMENTS ──
+  {
+    id: "daily_played_all_month",
+    category: "daily",
+    hidden: false,
+    title: {
+      en: "Perfect Attendance",
+      jp: "皆勤賞",
+    },
+    description: {
+      en: "Play every day for a full calendar month.",
+      jp: "1か月間、毎日パズルをプレイする。",
+    },
+  },
+  {
+    id: "daily_bounce_back",
+    category: "daily",
+    hidden: false,
+    title: {
+      en: "Back at It",
+      jp: "カムバック",
+    },
+    description: {
+      en: "Play the day after losing a streak.",
+      jp: "ストリークが途切れた翌日もプレイする。",
+    },
+  },
+  {
+    id: "unlimited_200_wins",
+    category: "unlimited",
+    hidden: false,
+    title: {
+      en: "No Life",
+      jp: "廃人",
+    },
+    description: {
+      en: "Win 200 Unlimited puzzles.",
+      jp: "無制限モードで200回正解する。",
+    },
+  },
+  {
+    id: "unlimited_500_wins",
+    category: "unlimited",
+    hidden: false,
+    title: {
+      en: "This Is All I Do",
+      jp: "これしかやってない",
+    },
+    description: {
+      en: "Win 500 Unlimited puzzles.",
+      jp: "無制限モードで500回正解する。",
+    },
+  },
+  {
+    id: "unlimited_quick_win",
+    category: "unlimited",
+    hidden: false,
+    title: {
+      en: "Speed Run",
+      jp: "スピードクリア",
+    },
+    description: {
+      en: "Win an Unlimited puzzle without ever letting the full clip play.",
+      jp: "無制限モードでクリップを最後まで聴かずに正解する。",
+    },
+  },
+  {
+    id: "archive_50_solved",
+    category: "archive",
+    hidden: false,
+    title: {
+      en: "Going Way Back",
+      jp: "大昔まで",
+    },
+    description: {
+      en: "Solve 50 Archive puzzles.",
+      jp: "アーカイブパズルを50問正解する。",
+    },
+  },
+  {
+    id: "knowledge_same_song_twice",
+    category: "knowledge",
+    hidden: false,
+    title: {
+      en: "Already Knew That One",
+      jp: "また同じ曲",
+    },
+    description: {
+      en: "Solve the same song in two different modes.",
+      jp: "同じ曲を異なるモードで2回正解する。",
+    },
+  },
+  {
+    id: "knowledge_rare_5_solves",
+    category: "knowledge",
+    hidden: false,
+    title: {
+      en: "Consistently Obscure",
+      jp: "一貫してマニア",
+    },
+    description: {
+      en: "Solve 5 different songs each with a global solve rate under 20%.",
+      jp: "グローバル正解率20%未満の曲を5種類正解する。",
+    },
+  },
+  {
+    id: "challenge_clutch_3",
+    category: "challenge",
+    hidden: false,
+    title: {
+      en: "Always Down to the Wire",
+      jp: "いつもギリギリ",
+    },
+    description: {
+      en: "Solve 3 puzzles on the sixth try.",
+      jp: "6回目の挑戦で3回正解する。",
+    },
+  },
+  {
+    id: "secret_open_achievements",
+    category: "secret",
+    hidden: true,
+    title: {
+      en: "Achievement Hunter",
+      jp: "実績コレクター",
+    },
+    description: {
+      en: "Open the Achievements page.",
+      jp: "実績ページを開く。",
+    },
+  },
+  {
+    id: "secret_switch_language",
+    category: "secret",
+    hidden: true,
+    title: {
+      en: "バイリンガル",
+      jp: "Bilingual",
+    },
+    description: {
+      en: "Switch the interface language.",
+      jp: "インターフェース言語を切り替える。",
+    },
+  },
+  {
+    id: "secret_weekend_play",
+    category: "secret",
+    hidden: true,
+    title: {
+      en: "No Plans Today",
+      jp: "休日も欠かさず",
+    },
+    description: {
+      en: "Play a puzzle on a weekend.",
+      jp: "週末にパズルをプレイする。",
+    },
+  },
+  {
+    id: "secret_senbonzakura",
+    category: "secret",
+    hidden: true,
+    title: {
+      en: "千本桜",
+      jp: "千本桜",
+    },
+    description: {
+      en: "Guess Senbonzakura correctly with bullet comments set to maximum.",
+      jp: "弾幕コメントを最大にして「千本桜」に正解する。",
+    },
+  },
+];
+
+const achievementById = new Map(ACHIEVEMENTS.map((achievement) => [achievement.id, achievement]));
+const achievementToastQueue = [];
+let achievementToastActive = false;
+
 function getLang() {
   return localStorage.getItem("vh-lang") || "en";
 }
@@ -506,6 +1274,24 @@ function t(key, ...args) {
   const lang = getLang();
   const val = STRINGS[lang]?.[key] ?? STRINGS.en[key];
   return typeof val === "function" ? val(...args) : val;
+}
+
+function renderReleaseNotes() {
+  const lang = getLang();
+  const notes = RELEASE_NOTES[lang]?.[currentReleaseVersion] || RELEASE_NOTES.en[currentReleaseVersion];
+  const versionEl = document.querySelector("#release-version");
+  const introEl = document.querySelector("#release-intro");
+  const listEl = document.querySelector(".release-list");
+
+  if (versionEl) versionEl.textContent = notes.version;
+  if (introEl) introEl.textContent = notes.intro;
+  if (listEl) {
+    listEl.innerHTML = notes.items.map((item) => `<li>${escapeHtml(item)}</li>`).join("");
+  }
+
+  document.querySelectorAll(".release-tab").forEach((button) => {
+    button.classList.toggle("is-active", button.dataset.releaseVersion === currentReleaseVersion);
+  });
 }
 
 function hasJapanese(str) {
@@ -641,22 +1427,16 @@ function applyLanguage() {
   set("#about-title", "modalAboutTitle");
   set("#support-title", "modalSupportTitle");
   set("#release-notes-title", "modalReleaseTitle");
-  set("#release-version", "modalReleaseVersion");
-  set("#release-intro", "modalReleaseIntro");
-  set("#release-item-archive", "modalReleaseArchive");
-  set("#release-item-random", "modalReleaseRandom");
-  set("#release-item-stats", "modalReleaseStats");
-  set("#release-item-pool", "modalReleasePool");
-  set("#release-item-community", "modalReleaseCommunity");
-  set("#release-item-language", "modalReleaseLanguage");
-  set("#release-item-polish", "modalReleasePolish");
+  renderReleaseNotes();
   set("#song-pool-title", "modalSongPoolTitle");
   set("#suggest-song-title", "modalSuggestTitle");
   set("#report-issue-title", "modalReportTitle");
   set("#stats-title", "modalStatsTitle");
+  set("#achievements-title", "modalAchievementsTitle");
   set("#settings-title", "settingsTitle");
   set("#stats-daily-button", "modalStatsDailyBtn");
   set("#stats-unlimited-button", "modalStatsUnlimitedBtn");
+  set("#stats-copy-profile", "statsCopyProfile");
 
   // stats modal grid labels
   const statLabels = document.querySelectorAll(".stats-grid span");
@@ -753,6 +1533,7 @@ function applyLanguage() {
     ["[id='setting-sidebar']", "settingSidebar", "settingSidebarDesc"],
     ["[id='setting-autocomplete']", "settingAutocomplete", "settingAutocompleteDesc"],
     ["[id='setting-clearwrong']", "settingClearInput", "settingClearInputDesc"],
+    ["[id='setting-export-stats']", "settingBackupStats", "settingBackupStatsDesc"],
     ["[id='reset-stats-button']", "settingResetStats", "settingResetStatsDesc"],
   ];
   settingRows.forEach(([btnSel, labelKey, descKey]) => {
@@ -817,6 +1598,16 @@ function applyLanguage() {
   // reset stats confirm
   const resetConfirmText = document.querySelector("#reset-stats-confirm > span");
   if (resetConfirmText) resetConfirmText.textContent = t("settingResetConfirm");
+  const exportStatsBtn = document.querySelector("#setting-export-stats");
+  if (exportStatsBtn) exportStatsBtn.textContent = t("settingExportStats");
+  const importStatsBtn = document.querySelector("#setting-import-stats");
+  if (importStatsBtn) importStatsBtn.textContent = t("settingImportStats");
+  const statsImportInput = document.querySelector("#stats-import-input");
+  if (statsImportInput) statsImportInput.placeholder = t("settingImportPlaceholder");
+  const statsImportConfirm = document.querySelector("#stats-import-confirm");
+  if (statsImportConfirm) statsImportConfirm.textContent = t("settingImportStats");
+  const statsImportCancel = document.querySelector("#stats-import-cancel");
+  if (statsImportCancel) statsImportCancel.textContent = t("settingResetNo");
   const resetBtn = document.querySelector("#reset-stats-button");
   if (resetBtn) resetBtn.textContent = t("settingResetBtn");
   const resetYes = document.querySelector("#reset-stats-yes");
@@ -848,6 +1639,7 @@ function applyLanguage() {
     const target = a.dataset.modalTarget;
     if (target === "about") a.textContent = t("navAbout");
     if (target === "support") a.textContent = t("navSupport");
+    if (target === "achievements") a.textContent = t("linkAchievements");
     if (target === "release-notes") a.textContent = t("navUpdates");
     if (target === "settings") a.textContent = t("navSettings");
     if (target === "song-pool") a.textContent = t("linkSongPool");
@@ -857,6 +1649,7 @@ function applyLanguage() {
     const target = a.dataset.modalTarget;
     if (target === "about") a.textContent = t("navAbout");
     if (target === "support") a.textContent = t("navSupport");
+    if (target === "achievements") a.textContent = t("linkAchievements");
     if (target === "release-notes") a.textContent = t("navUpdates");
     if (target === "settings") a.textContent = "⚙ " + t("navSettings");
     // Ko-fi link has no data-modal-target — leave its text alone.
@@ -879,6 +1672,7 @@ function applyLanguage() {
     else if (target === "song-pool") a.textContent = t("linkSongPool");
     else if (target === "suggest-song") a.textContent = t("linkSuggestSong");
     else if (target === "release-notes") a.textContent = t("linkReleaseNotes");
+    else if (target === "achievements") a.textContent = t("linkAchievements");
     else if (target === "about") a.textContent = t("linkAbout");
     else if (target === "support") a.textContent = t("linkContact");
   });
@@ -889,6 +1683,7 @@ function applyLanguage() {
     if (target === "song-pool") a.textContent = t("linkSongPool");
     else if (target === "suggest-song") a.textContent = t("linkSuggestSong");
     else if (target === "release-notes") a.textContent = t("linkReleaseVersion");
+    else if (target === "achievements") a.textContent = t("linkAchievements");
   });
 
   // sidebar rankings
@@ -918,6 +1713,7 @@ function applyLanguage() {
   // re-render guesses and update sidebar stats label
   renderGuesses();
   if (typeof renderStats === "function") renderStats();
+  if (typeof renderAchievements === "function") renderAchievements();
 
   // re-render the cached global win rate line so it switches language too
   renderGlobalStats();
@@ -945,6 +1741,7 @@ const state = {
   lastUnlimitedTitle: "",
   unlimitedQueue: [],
   statsMode: "daily",
+  achievementCategory: "all",
   archiveDate: null,
   archiveMonth: null,
 };
@@ -982,12 +1779,21 @@ const statWinRate = document.querySelector("#stat-win-rate");
 const statCurrentStreak = document.querySelector("#stat-current-streak");
 const statMaxStreak = document.querySelector("#stat-max-streak");
 const statAvgAttempts = document.querySelector("#stat-avg-attempts");
-const statHardest = document.querySelector("#stat-hardest");
+const statsDetailList = document.querySelector("#stats-detail-list");
 const nextDailyCountdownEl = document.querySelector("#next-daily-countdown");
 const kofiNudgeEl = document.querySelector("#kofi-nudge");
 const distributionItems = document.querySelectorAll("[data-distribution]");
 const statsDailyButton = document.querySelector("#stats-daily-button");
 const statsUnlimitedButton = document.querySelector("#stats-unlimited-button");
+const statsCopyProfileButton = document.querySelector("#stats-copy-profile");
+const exportStatsButton = document.querySelector("#setting-export-stats");
+const importStatsButton = document.querySelector("#setting-import-stats");
+const statsImportPanel = document.querySelector("#stats-import-panel");
+const statsImportInput = document.querySelector("#stats-import-input");
+const statsImportConfirm = document.querySelector("#stats-import-confirm");
+const statsImportCancel = document.querySelector("#stats-import-cancel");
+const achievementsSummary = document.querySelector("#achievements-summary");
+const achievementsList = document.querySelector("#achievements-list");
 const modalBackdrop = document.querySelector("#modal-backdrop");
 const modalButtons = document.querySelectorAll("[data-modal-target]");
 const modalCloseButtons = document.querySelectorAll(".modal-close, .modal-action");
@@ -1013,6 +1819,9 @@ function getDefaultStats() {
     won: 0,
     currentStreak: 0,
     maxStreak: 0,
+    firstTrySolves: 0,
+    hardestSolved: null,
+    rarestFirstTry: null,
     distribution: {
       1: 0,
       2: 0,
@@ -1026,23 +1835,35 @@ function getDefaultStats() {
   };
 }
 
+function normalizeStats(parsedStats = {}, options = {}) {
+  const defaultStats = getDefaultStats();
+  const distribution = {
+    ...defaultStats.distribution,
+    ...(parsedStats.distribution || {}),
+  };
+
+  return {
+    ...defaultStats,
+    ...parsedStats,
+    firstTrySolves: Number.isFinite(Number(parsedStats.firstTrySolves))
+      ? Number(parsedStats.firstTrySolves)
+      : Number(distribution[1]) || 0,
+    hardestSolved: parsedStats.hardestSolved || null,
+    rarestFirstTry: parsedStats.rarestFirstTry || null,
+    distribution,
+    results: options.keepResults === false
+      ? {}
+      : {
+          ...defaultStats.results,
+          ...(parsedStats.results || {}),
+        },
+  };
+}
+
 function loadStats() {
   try {
     const parsedStats = JSON.parse(localStorage.getItem(statsKey)) || {};
-    const defaultStats = getDefaultStats();
-
-    return {
-      ...defaultStats,
-      ...parsedStats,
-      distribution: {
-        ...defaultStats.distribution,
-        ...(parsedStats.distribution || {}),
-      },
-      results: {
-        ...defaultStats.results,
-        ...(parsedStats.results || {}),
-      },
-    };
+    return normalizeStats(parsedStats);
   } catch {
     return getDefaultStats();
   }
@@ -1054,11 +1875,7 @@ function saveStats(stats) {
 
 function loadUnlimitedStats() {
   try {
-    return {
-      ...getDefaultStats(),
-      ...(JSON.parse(localStorage.getItem(unlimitedStatsKey)) || {}),
-      results: {},
-    };
+    return normalizeStats(JSON.parse(localStorage.getItem(unlimitedStatsKey)) || {}, { keepResults: false });
   } catch {
     return getDefaultStats();
   }
@@ -1080,11 +1897,579 @@ function saveArchiveResults(results) {
   localStorage.setItem(archiveResultsKey, JSON.stringify(results));
 }
 
+function getDefaultAchievements() {
+  return {
+    version: 1,
+    unlocked: {},
+  };
+}
+
+function isPlainObject(value) {
+  return value !== null && typeof value === "object" && !Array.isArray(value);
+}
+
+function normalizeAchievements(parsedAchievements = {}) {
+  const defaultAchievements = getDefaultAchievements();
+  const unlocked = isPlainObject(parsedAchievements.unlocked)
+    ? Object.fromEntries(
+        Object.entries(parsedAchievements.unlocked)
+          .filter(([id, unlockedAt]) => typeof id === "string" && typeof unlockedAt === "string")
+      )
+    : {};
+
+  return {
+    ...defaultAchievements,
+    ...parsedAchievements,
+    version: Number.isFinite(Number(parsedAchievements.version))
+      ? Number(parsedAchievements.version)
+      : defaultAchievements.version,
+    unlocked,
+  };
+}
+
+function loadAchievements() {
+  try {
+    return normalizeAchievements(JSON.parse(localStorage.getItem(achievementsKey)) || {});
+  } catch {
+    return getDefaultAchievements();
+  }
+}
+
+function saveAchievements(achievements) {
+  localStorage.setItem(achievementsKey, JSON.stringify(normalizeAchievements(achievements)));
+}
+
+function getAchievementText(achievement, field) {
+  const lang = getLang();
+  return achievement?.[field]?.[lang] || achievement?.[field]?.en || "";
+}
+
+function queueAchievementToast(id) {
+  const achievement = achievementById.get(id);
+  if (!achievement) return;
+  achievementToastQueue.push(achievement);
+  if (!achievementToastActive) {
+    showNextAchievementToast();
+  }
+}
+
+function showNextAchievementToast() {
+  const achievement = achievementToastQueue.shift();
+  if (!achievement) {
+    achievementToastActive = false;
+    return;
+  }
+
+  achievementToastActive = true;
+  const existing = document.querySelector("#achievement-toast");
+  if (existing) existing.remove();
+
+  const toast = document.createElement("div");
+  toast.id = "achievement-toast";
+  toast.innerHTML = `
+    <span class="nnd-toast-label achievement-toast-symbol" aria-hidden="true">★</span>
+    <span class="achievement-toast-body">
+      <span class="achievement-toast-kicker">${escapeHtml(t("toastAchievementUnlocked"))}</span>
+      <strong>${escapeHtml(getAchievementText(achievement, "title"))}</strong>
+      <span>${escapeHtml(getAchievementText(achievement, "description"))}</span>
+    </span>
+  `;
+  document.body.appendChild(toast);
+
+  setTimeout(() => toast.classList.add("nnd-toast-fade"), 3400);
+  setTimeout(() => {
+    toast.remove();
+    showNextAchievementToast();
+  }, 4000);
+}
+
+function unlockAchievement(id, unlockedAt = new Date().toISOString()) {
+  if (!achievementById.has(id)) return false;
+  const achievements = loadAchievements();
+  if (achievements.unlocked[id]) return false;
+  achievements.unlocked[id] = unlockedAt;
+  saveAchievements(achievements);
+  if (activeModal?.id === "achievements") {
+    renderAchievements();
+  }
+  queueAchievementToast(id);
+  return true;
+}
+
+function formatAchievementDate(value) {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "";
+  const lang = getLang();
+  return new Intl.DateTimeFormat(lang === "jp" ? "ja-JP" : "en-US", {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+  }).format(date);
+}
+
+function getAchievementCategoryKey(category) {
+  const keys = {
+    all: "achievementCategoryAll",
+    general: "achievementCategoryGeneral",
+    daily: "achievementCategoryDaily",
+    unlimited: "achievementCategoryUnlimited",
+    archive: "achievementCategoryArchive",
+    knowledge: "achievementCategoryKnowledge",
+    challenge: "achievementCategoryChallenge",
+    secret: "achievementCategorySecret",
+  };
+  return keys[category] || "achievementCategoryAll";
+}
+
+function renderAchievementTabs() {
+  document.querySelectorAll("[data-achievement-category]").forEach((button) => {
+    const category = button.dataset.achievementCategory || "all";
+    button.textContent = t(getAchievementCategoryKey(category));
+    button.classList.toggle("is-active", category === state.achievementCategory);
+  });
+}
+
+function renderAchievements() {
+  if (!achievementsList || !achievementsSummary) return;
+  const achievements = loadAchievements();
+  const unlocked = achievements.unlocked || {};
+  const unlockedCount = ACHIEVEMENTS.filter((achievement) => unlocked[achievement.id]).length;
+  const totalCount = ACHIEVEMENTS.length;
+  const unlockedRate = totalCount > 0 ? Math.round((unlockedCount / totalCount) * 100) : 0;
+  const currentCategory = state.achievementCategory || "all";
+  const filtered = ACHIEVEMENTS.filter((achievement) => (
+    currentCategory === "all" ||
+    achievement.category === currentCategory ||
+    (currentCategory === "secret" && achievement.hidden)
+  ));
+
+  achievementsSummary.innerHTML = `
+    <div class="achievements-summary-top">
+      <strong>${escapeHtml(t("achievementsSummary", unlockedCount, totalCount))}</strong>
+      <em>${unlockedRate}%</em>
+    </div>
+    <div class="achievement-progress-track" aria-hidden="true">
+      <span style="width:${unlockedRate}%"></span>
+    </div>
+  `;
+
+  achievementsList.innerHTML = filtered.map((achievement) => {
+    const unlockedAt = unlocked[achievement.id];
+    const isUnlocked = Boolean(unlockedAt);
+    const isHidden = achievement.hidden && !isUnlocked;
+    const title = isHidden ? t("achievementHiddenTitle") : getAchievementText(achievement, "title");
+    const description = isHidden ? t("achievementHiddenDesc") : getAchievementText(achievement, "description");
+    const dateText = isUnlocked
+      ? t("achievementStatusUnlocked", formatAchievementDate(unlockedAt))
+      : t("achievementStatusLocked");
+    const categoryLabel = t(getAchievementCategoryKey(achievement.category));
+    const classes = [
+      "achievement-card",
+      isUnlocked ? "is-unlocked" : "is-locked",
+      isHidden ? "is-hidden" : "",
+      achievement.id === "secret_senbonzakura" ? "is-senbonzakura" : "",
+    ].filter(Boolean).join(" ");
+
+    return `
+      <article class="${classes}">
+        <div class="achievement-card-head">
+          <strong>${escapeHtml(title)}</strong>
+          <span>${escapeHtml(categoryLabel)}</span>
+        </div>
+        <p>${escapeHtml(description)}</p>
+        <small>${escapeHtml(dateText)}</small>
+      </article>
+    `;
+  }).join("");
+
+  renderAchievementTabs();
+}
+
+function getArchiveMonthCompletion(dateKey) {
+  if (!dateKey) return { played: 0, total: 0 };
+  const currentMonth = dateKey.slice(0, 7);
+  const archiveSongs = getArchiveSongs().filter((song) => song.date?.startsWith(currentMonth));
+  const archiveResults = loadArchiveResults();
+  const dailyResults = loadStats().results || {};
+  const played = archiveSongs.filter((song) => archiveResults[song.date] || dailyResults[song.date]).length;
+  return {
+    played,
+    total: archiveSongs.length,
+  };
+}
+
+function countUniqueSolvedSongs() {
+  const dailyResults = loadStats().results || {};
+  const archiveResults = loadArchiveResults();
+  const unlimitedStats = loadUnlimitedStats();
+  const ids = new Set();
+  for (const r of Object.values(dailyResults)) {
+    if (r?.won && r.vocadbId) ids.add(String(r.vocadbId));
+  }
+  for (const r of Object.values(archiveResults)) {
+    if (r?.won && r.vocadbId) ids.add(String(r.vocadbId));
+  }
+  // unlimited doesn't store per-result history, use firstTrySolves + won as proxy
+  // best we can do without per-result storage is add won count not already in ids
+  return ids.size + Math.max(0, (unlimitedStats.won || 0) - ids.size);
+}
+
+function getDailyFirstTryStreak(stats) {
+  const results = stats.results || {};
+  const sorted = Object.keys(results).sort().reverse();
+  let streak = 0;
+  for (const key of sorted) {
+    const r = results[key];
+    if (r?.won && r.attempts === 1) {
+      streak++;
+    } else {
+      break;
+    }
+  }
+  return streak;
+}
+
+function getUnlimitedFirstTryStreak() {
+  // Track via achievements storage as a simple counter since unlimited has no per-result log
+  const achievements = loadAchievements();
+  return Number(achievements.unlimitedFirstTryStreak) || 0;
+}
+
+function countCompletedArchiveMonths() {
+  const archiveSongs = getArchiveSongs();
+  const archiveResults = loadArchiveResults();
+  const dailyResults = loadStats().results || {};
+  const monthMap = {};
+  for (const song of archiveSongs) {
+    const month = song.date.slice(0, 7);
+    if (!monthMap[month]) monthMap[month] = { total: 0, played: 0 };
+    monthMap[month].total++;
+    if (archiveResults[song.date] || dailyResults[song.date]) monthMap[month].played++;
+  }
+  return Object.values(monthMap).filter((m) => m.total > 0 && m.played >= m.total).length;
+}
+
+function checkDailyPlayedAllMonth() {
+  const stats = loadStats();
+  const results = stats.results || {};
+  const today = new Date();
+  const year = today.getFullYear();
+  const month = today.getMonth();
+  const daysInMonth = new Date(year, month + 1, 0).getDate();
+  // Check previous month if today is the 1st
+  const checkYear = month === 0 && today.getDate() === 1 ? year - 1 : year;
+  const checkMonth = today.getDate() === 1 ? (month === 0 ? 11 : month - 1) : month;
+  const daysToCheck = today.getDate() === 1
+    ? new Date(checkYear, checkMonth + 1, 0).getDate()
+    : today.getDate() - 1;
+  let playedAll = true;
+  for (let d = 1; d <= daysToCheck; d++) {
+    const key = `${checkYear}-${String(checkMonth + 1).padStart(2, "0")}-${String(d).padStart(2, "0")}`;
+    if (!results[key]) { playedAll = false; break; }
+  }
+  return daysToCheck >= 28 && playedAll;
+}
+
+function checkBounceBack() {
+  const stats = loadStats();
+  const results = stats.results || {};
+  const today = new Date();
+  const todayKey = getDateKey();
+  const yesterday = new Date(today);
+  yesterday.setDate(yesterday.getDate() - 1);
+  const yKey = `${yesterday.getFullYear()}-${String(yesterday.getMonth() + 1).padStart(2, "0")}-${String(yesterday.getDate()).padStart(2, "0")}`;
+  const dayBefore = new Date(yesterday);
+  dayBefore.setDate(dayBefore.getDate() - 1);
+  const dbKey = `${dayBefore.getFullYear()}-${String(dayBefore.getMonth() + 1).padStart(2, "0")}-${String(dayBefore.getDate()).padStart(2, "0")}`;
+  // Yesterday was a loss and the day before existed (had a streak to break), today they played
+  return results[yKey] && !results[yKey].won && results[dbKey] && results[todayKey];
+}
+
+function countRareSolves() {
+  const achievements = loadAchievements();
+  return Number(achievements.rareSolveCount) || 0;
+}
+
+function countClutchSolves() {
+  const achievements = loadAchievements();
+  return Number(achievements.clutchSolveCount) || 0;
+}
+
+function getSolvedVocadbIds() {
+  const dailyResults = loadStats().results || {};
+  const archiveResults = loadArchiveResults();
+  const ids = new Set();
+  for (const r of Object.values(dailyResults)) {
+    if (r?.won && r.vocadbId) ids.add(String(r.vocadbId));
+  }
+  for (const r of Object.values(archiveResults)) {
+    if (r?.won && r.vocadbId) ids.add(String(r.vocadbId));
+  }
+  return ids;
+}
+
+function checkLocalAchievements(result, context = {}) {
+  if (!result) return;
+
+  const mode = context.mode || result.mode || state.mode;
+  const won = Boolean(result.won);
+  const rawAttempts = result.attempts;
+  const attempts = Number(rawAttempts) || 0;
+  const guesses = result.guesses || [];
+
+  // Time-based secrets
+  const now = new Date();
+  const hour = now.getHours();
+  const day = now.getDay(); // 0 = Sunday, 6 = Saturday
+  if (hour < 4) unlockAchievement("secret_play_midnight");
+  if (day === 0 || day === 6) unlockAchievement("secret_weekend_play");
+
+  if (won) {
+    unlockAchievement("first_solve");
+    if (attempts === 1) unlockAchievement("first_try");
+    if (attempts === 2) unlockAchievement("challenge_second_try");
+    if (!guesses.some((guess) => guess.result === "Skipped")) unlockAchievement("no_skip_win");
+    if (!guesses.some((guess) => guess.result === "Wrong" || guess.result === "Skipped")) unlockAchievement("challenge_no_wrong");
+
+    // Clutch solve tracking
+    if (attempts === clipStages.length) {
+      unlockAchievement("clutch_solve");
+      const achievements = loadAchievements();
+      achievements.clutchSolveCount = (Number(achievements.clutchSolveCount) || 0) + 1;
+      saveAchievements(achievements);
+      if (achievements.clutchSolveCount >= 3) unlockAchievement("challenge_clutch_3");
+    }
+
+    // Unique songs
+    const uniqueSolved = countUniqueSolvedSongs();
+    if (uniqueSolved >= 100) unlockAchievement("knowledge_100_unique");
+
+    // Same song in two modes
+    if (result.vocadbId) {
+      const existingIds = getSolvedVocadbIds();
+      // If this vocadbId was already solved in a different mode, it qualifies
+      const dailyResults = loadStats().results || {};
+      const archiveResults = loadArchiveResults();
+      const id = String(result.vocadbId);
+      const inDaily = Object.values(dailyResults).some((r) => r?.won && String(r.vocadbId) === id);
+      const inArchive = Object.values(archiveResults).some((r) => r?.won && String(r.vocadbId) === id);
+      const inUnlimited = mode === "unlimited";
+      if ((inDaily && (inArchive || inUnlimited)) || (inArchive && inUnlimited)) {
+        unlockAchievement("knowledge_same_song_twice");
+      }
+    }
+  } else if (rawAttempts === null || state.attempt >= clipStages.length || guesses.some((guess) => guess.result === "Answer")) {
+    unlockAchievement("full_reveal");
+  }
+
+  if (mode === "daily") {
+    const stats = loadStats();
+    if (stats.currentStreak >= 5) unlockAchievement("daily_streak_5");
+    if (stats.currentStreak >= 10) unlockAchievement("daily_streak_10");
+    if (stats.currentStreak >= 30) unlockAchievement("daily_streak_30");
+    if (stats.played >= 30) unlockAchievement("daily_played_30");
+    if (stats.played >= 10 && stats.won / stats.played >= 0.9) unlockAchievement("daily_win_rate_90");
+    if (checkDailyPlayedAllMonth()) unlockAchievement("daily_played_all_month");
+    if (checkBounceBack()) unlockAchievement("daily_bounce_back");
+
+    if (won && attempts === 1) {
+      const perfectStreak = getDailyFirstTryStreak(stats);
+      if (perfectStreak >= 7) unlockAchievement("challenge_perfect_daily_week");
+    }
+  }
+
+  if (mode === "unlimited") {
+    const stats = loadUnlimitedStats();
+    if (stats.won >= 10) unlockAchievement("unlimited_10_wins");
+    if (stats.won >= 50) unlockAchievement("unlimited_50_wins");
+    if (stats.won >= 100) unlockAchievement("unlimited_100_wins");
+    if (stats.won >= 200) unlockAchievement("unlimited_200_wins");
+    if (stats.won >= 500) unlockAchievement("unlimited_500_wins");
+
+    if (won) {
+      // Quick win: solved without any clip advancing (attempts === 1, no skips)
+      if (attempts === 1 && !guesses.some((g) => g.result === "Skipped")) {
+        unlockAchievement("unlimited_quick_win");
+      }
+
+      // First-try streak
+      if (attempts === 1) {
+        const streak = getUnlimitedFirstTryStreak();
+        if (streak >= 3) unlockAchievement("unlimited_first_try_streak_3");
+      }
+    }
+  }
+
+  if (mode === "archive") {
+    unlockAchievement("archive_first");
+    const archive = getArchiveStatsSummary();
+    if (archive.solved >= 10) unlockAchievement("archive_10_solved");
+    if (archive.solved >= 25) unlockAchievement("archive_25_solved");
+    if (archive.solved >= 50) unlockAchievement("archive_50_solved");
+    const month = getArchiveMonthCompletion(result.date);
+    if (month.total > 0 && month.played >= month.total) {
+      unlockAchievement("archive_month_complete");
+      const completedMonths = countCompletedArchiveMonths();
+      if (completedMonths >= 2) unlockAchievement("archive_2_months_complete");
+    }
+  }
+}
+
+function checkGlobalAchievements(globalRate, context = {}) {
+  const result = context.result || state.lastResult;
+  if (!result?.won || !Number.isFinite(globalRate)) return;
+  if (globalRate < 20) {
+    unlockAchievement("rare_solve");
+    const achievements = loadAchievements();
+    const prev = Number(achievements.rareSolveCount) || 0;
+    achievements.rareSolveCount = prev + 1;
+    saveAchievements(achievements);
+    if (achievements.rareSolveCount >= 5) unlockAchievement("knowledge_rare_5_solves");
+  }
+  if (globalRate < 10) unlockAchievement("knowledge_very_rare_solve");
+  if (globalRate < 20 && result.attempts === 1) unlockAchievement("rare_first_try");
+}
+
+function buildStatsBackup() {
+  return {
+    app: "vocaloid-heardle",
+    version: 2,
+    exportedAt: new Date().toISOString(),
+    stats: normalizeStats(loadStats()),
+    unlimitedStats: normalizeStats(loadUnlimitedStats(), { keepResults: false }),
+    archiveResults: loadArchiveResults(),
+    achievements: loadAchievements(),
+    unlimitedHistory: loadUnlimitedHistory(),
+  };
+}
+
+function sanitizeArchiveResults(results) {
+  if (!isPlainObject(results)) return {};
+  return Object.fromEntries(
+    Object.entries(results).filter(([dateKey, result]) => (
+      /^\d{4}-\d{2}-\d{2}$/.test(dateKey) && isPlainObject(result)
+    ))
+  );
+}
+
+function parseStatsBackup(text) {
+  const backup = JSON.parse(text);
+  if (!isPlainObject(backup)) throw new Error("Backup must be an object.");
+
+  const dailySource = backup.stats || backup.dailyStats || backup.daily;
+  const unlimitedSource = backup.unlimitedStats || backup.unlimited;
+  const archiveSource = backup.archiveResults || backup.archive || {};
+  const achievementsSource = backup.achievements || {};
+
+  if (!isPlainObject(dailySource) || !isPlainObject(unlimitedSource)) {
+    throw new Error("Backup is missing stats.");
+  }
+
+  return {
+    stats: normalizeStats(dailySource),
+    unlimitedStats: normalizeStats(unlimitedSource, { keepResults: false }),
+    archiveResults: sanitizeArchiveResults(archiveSource),
+    achievements: normalizeAchievements(achievementsSource),
+    unlimitedHistory: Array.isArray(backup.unlimitedHistory) ? backup.unlimitedHistory.slice(0, unlimitedHistoryLimit) : [],
+  };
+}
+
+function refreshAfterStatsImport() {
+  renderStats();
+  renderAchievements();
+  renderArchiveCalendar();
+  renderSourceTags();
+  checkNewBadge();
+}
+
 function saveArchiveResult(dateKey, result) {
   if (!dateKey) return;
   const results = loadArchiveResults();
   results[dateKey] = result;
   saveArchiveResults(results);
+}
+
+function getArchiveStatsSummary() {
+  const archiveSongs = getArchiveSongs();
+  const archiveResults = loadArchiveResults();
+  const dailyResults = loadStats().results || {};
+  const entries = archiveSongs
+    .map((song) => ({
+      song,
+      result: archiveResults[song.date] || dailyResults[song.date] || null,
+    }))
+    .filter((entry) => entry.result);
+  const played = entries.length;
+  const solved = entries.filter((entry) => entry.result.won).length;
+  const revealed = played - solved;
+  const total = archiveSongs.length;
+  const completionRate = total > 0 ? Math.round((played / total) * 100) : 0;
+  const solvedRate = total > 0 ? Math.round((solved / total) * 100) : 0;
+
+  return {
+    played,
+    solved,
+    revealed,
+    total,
+    completionRate,
+    solvedRate,
+  };
+}
+
+function getAchievementStatsSummary() {
+  const achievements = loadAchievements();
+  const unlockedCount = ACHIEVEMENTS.filter((achievement) => achievements.unlocked?.[achievement.id]).length;
+  const total = ACHIEVEMENTS.length;
+  return {
+    unlocked: unlockedCount,
+    total,
+    rate: total > 0 ? Math.round((unlockedCount / total) * 100) : 0,
+  };
+}
+
+function getStatsForMode(mode) {
+  return mode === "unlimited" ? loadUnlimitedStats() : loadStats();
+}
+
+function saveStatsForMode(mode, stats) {
+  if (mode === "unlimited") {
+    saveUnlimitedStats(stats);
+    return;
+  }
+  saveStats(stats);
+}
+
+function renderUnlimitedHistory() {
+  const list = document.querySelector("#unlimited-history-list");
+  if (!list) return;
+  const history = loadUnlimitedHistory();
+  if (history.length === 0) {
+    list.innerHTML = `<div class="unlimited-history-empty">No unlimited puzzles played yet.</div>`;
+    return;
+  }
+  list.innerHTML = history.map((entry, i) => {
+    const title = entry.displayTitle || entry.title || "Unknown";
+    const artist = entry.artist || "";
+    const attemptLabel = entry.won
+      ? `${entry.attempts}/${clipStages.length}`
+      : `x/${clipStages.length}`;
+    const date = entry.completedAt
+      ? new Date(entry.completedAt).toLocaleDateString("en-US", { month: "short", day: "numeric" })
+      : "";
+    return `
+      <div class="unlimited-history-row ${entry.won ? "is-won" : "is-lost"}">
+        <span class="unlimited-history-num">${i + 1}</span>
+        <span class="unlimited-history-info">
+          <span class="unlimited-history-title">${escapeHtml(title)}</span>
+          <span class="unlimited-history-artist">${escapeHtml(artist)}</span>
+        </span>
+        <span class="unlimited-history-meta">
+          <span class="unlimited-history-attempts">${attemptLabel}</span>
+          <span class="unlimited-history-date">${escapeHtml(date)}</span>
+        </span>
+      </div>
+    `;
+  }).join("");
 }
 
 function renderStats() {
@@ -1105,17 +2490,7 @@ function renderStats() {
     statAvgAttempts.textContent = personalAvg === null ? "—" : personalAvg.toFixed(1);
   }
 
-  // Hardest solved — read from stats.hardestSolved if present.
-  if (statHardest) {
-    const hardest = stats.hardestSolved;
-    if (hardest && hardest.title) {
-      statHardest.innerHTML = t("statHardestLine", escapeHtml(hardest.title), hardest.rate);
-      statHardest.hidden = false;
-    } else {
-      statHardest.textContent = t("statHardestEmpty");
-      statHardest.hidden = false;
-    }
-  }
+  renderStatsDetails(stats);
 
   distributionItems.forEach((item) => {
     const key = item.dataset.distribution;
@@ -1165,6 +2540,67 @@ function renderStats() {
   // update sidebar label
   const sbLabel = document.querySelector("#sb-mode-label");
   if (sbLabel) sbLabel.textContent = state.mode === "unlimited" ? t("unlimitedStats") : t("dailyStats");
+
+  // show history link only on unlimited tab
+  const historyLink = document.querySelector("#unlimited-history-link");
+  if (historyLink) historyLink.hidden = state.statsMode !== "unlimited";
+}
+
+function formatRarestStat(record) {
+  if (!record || !record.title) return t("statsNoneYet");
+  return t("statsRarestLine", escapeHtml(record.title), record.rate);
+}
+
+function renderStatsDetails(stats) {
+  if (!statsDetailList) return;
+  const summary = getLocalStatsSummary(stats);
+  const archive = getArchiveStatsSummary();
+  const achievements = getAchievementStatsSummary();
+  const rows = [
+    [t("statsFirstTry"), String(summary.firstTrySolves)],
+    [t("statsRarestSolve"), formatRarestStat(summary.rarestSolve)],
+    [t("statsRarestFirstTry"), formatRarestStat(summary.rarestFirstTry)],
+  ];
+
+  const statRows = rows.map(([label, value]) => `
+    <div class="stats-detail-row">
+      <span>${escapeHtml(label)}</span>
+      <strong>${value}</strong>
+    </div>
+  `).join("");
+
+  const archiveBlock = `
+    <div class="stats-detail-group">
+      <h3>${escapeHtml(t("statsArchiveGroup"))}</h3>
+      <div class="archive-progress-stat">
+        <div class="archive-progress-top">
+          <span>${escapeHtml(t("statsArchiveProgress"))}</span>
+          <strong>${escapeHtml(t("statsArchiveProgressLine", archive.solved, archive.total, archive.solvedRate))}</strong>
+        </div>
+        <div class="archive-progress-bar" aria-hidden="true">
+          <span class="archive-progress-solved" style="width:${archive.total > 0 ? (archive.solved / archive.total) * 100 : 0}%"></span>
+          <span class="archive-progress-revealed" style="width:${archive.total > 0 ? (archive.revealed / archive.total) * 100 : 0}%"></span>
+        </div>
+      </div>
+    </div>
+  `;
+
+  const achievementsBlock = `
+    <div class="stats-detail-group">
+      <h3>${escapeHtml(t("statsAchievementsGroup"))}</h3>
+      <div class="archive-progress-stat">
+        <div class="archive-progress-top">
+          <span>${escapeHtml(t("statsAchievementsProgress"))}</span>
+          <strong>${escapeHtml(t("statsAchievementsProgressLine", achievements.unlocked, achievements.total, achievements.rate))}</strong>
+        </div>
+        <div class="achievement-progress-track" aria-hidden="true">
+          <span style="width:${achievements.rate}%"></span>
+        </div>
+      </div>
+    </div>
+  `;
+
+  statsDetailList.innerHTML = statRows + archiveBlock + achievementsBlock;
 }
 
 // Weighted average of solve attempts 1–6. Returns null if no solves recorded.
@@ -1178,6 +2614,71 @@ function computePersonalAvg(distribution) {
     weighted += i * c;
   }
   return total > 0 ? weighted / total : null;
+}
+
+function getLocalStatsSummary(stats) {
+  const played = Number(stats.played) || 0;
+  const solved = Number(stats.won) || 0;
+  return {
+    played,
+    solved,
+    winRate: played > 0 ? Math.round((solved / played) * 100) : 0,
+    avgSolve: computePersonalAvg(stats.distribution),
+    firstTrySolves: Number(stats.firstTrySolves) || Number(stats.distribution?.[1]) || 0,
+    currentStreak: Number(stats.currentStreak) || 0,
+    maxStreak: Number(stats.maxStreak) || 0,
+    rarestSolve: stats.hardestSolved || null,
+    rarestFirstTry: stats.rarestFirstTry || null,
+  };
+}
+
+function getProfileStats() {
+  return {
+    daily: getLocalStatsSummary(loadStats()),
+    unlimited: getLocalStatsSummary(loadUnlimitedStats()),
+    archive: getArchiveStatsSummary(),
+    achievements: getAchievementStatsSummary(),
+  };
+}
+
+function formatProfileAvg(value) {
+  return value === null || value === undefined ? "—" : `${value.toFixed(1)}/6`;
+}
+
+function formatProfileRarest(record) {
+  if (!record || !record.title) return t("profileNoData");
+  return `${record.title} — ${record.rate}%`;
+}
+
+function chooseRarestRecord(...records) {
+  return records
+    .filter((record) => record && record.title && typeof record.rate === "number")
+    .sort((a, b) => a.rate - b.rate)[0] || null;
+}
+
+function buildProfileText() {
+  const profile = getProfileStats();
+  const daily = profile.daily;
+  const unlimited = profile.unlimited;
+  const archive = profile.archive;
+  const achievements = profile.achievements;
+  const totalPlayed = daily.played + unlimited.played;
+  const totalSolved = daily.solved + unlimited.solved;
+  const totalWinRate = totalPlayed > 0 ? Math.round((totalSolved / totalPlayed) * 100) : 0;
+
+  return [
+    "VOCALOID Heardle Profile",
+    "",
+    `${totalPlayed} ${t("profilePlayed")} · ${totalWinRate}% ${t("profileWinRate")}`,
+    `${t("profileDaily")}: ${daily.played} ${t("profilePlayed")} · ${daily.winRate}% · ${t("profileAvgSolve")}: ${formatProfileAvg(daily.avgSolve)}`,
+    `${t("profileUnlimited")}: ${unlimited.played} ${t("profilePlayed")} · ${unlimited.winRate}% · ${t("profileAvgSolve")}: ${formatProfileAvg(unlimited.avgSolve)}`,
+    `${t("profileFirstTry")}: ${daily.firstTrySolves + unlimited.firstTrySolves}`,
+    `${t("profileBestStreak")}: ${Math.max(daily.maxStreak, unlimited.maxStreak)}`,
+    `${t("profileRarestSolve")}: ${formatProfileRarest(chooseRarestRecord(daily.rarestSolve, unlimited.rarestSolve))}`,
+    `${t("profileRarestFirstTry")}: ${formatProfileRarest(chooseRarestRecord(daily.rarestFirstTry, unlimited.rarestFirstTry))}`,
+    `${t("profileArchive")}: ${archive.solved}/${archive.total} ${t("profileSolved")} · ${archive.completionRate}% ${t("profileOpened")}`,
+    `${t("profileAchievements")}: ${achievements.unlocked}/${achievements.total} · ${achievements.rate}%`,
+  ].join("\n");
 }
 
 // Countdown to the next local midnight, when a new daily puzzle becomes available.
@@ -1356,6 +2857,8 @@ function renderArchiveCalendar() {
     const title = !song ? t("archiveEmpty") : completed ? getDisplayTitle(song) : t("archiveUnplayed");
     const visibleTitle = !song ? title : truncateTitle(title, window.matchMedia("(max-width: 680px)").matches ? 28 : 14);
     const status = result ? (result.won ? t("archiveSolved") : t("archiveFailed")) : "";
+    const attemptLabel = result?.won && result.attempts ? `${result.attempts}/${clipStages.length}` : "";
+    const attemptClass = result?.won && result.attempts ? `is-attempt-${result.attempts}` : "";
     const cellClass = [
       "archive-day",
       selected ? "is-selected" : "",
@@ -1364,6 +2867,7 @@ function renderArchiveCalendar() {
       result && !result.won ? "is-failed" : "",
       !song ? "is-no-puzzle" : "",
       song && !completed ? "is-locked" : "",
+      attemptClass,
     ].filter(Boolean).join(" ");
 
     cells.push(`
@@ -1376,7 +2880,7 @@ function renderArchiveCalendar() {
       >
         <span class="archive-day-number">${day}</span>
         <span class="archive-day-title">${escapeHtml(visibleTitle)}</span>
-        ${status ? `<span class="archive-day-status">${escapeHtml(status)}</span>` : ""}
+        ${attemptLabel ? `<span class="archive-day-attempt">${escapeHtml(attemptLabel)}</span>` : status ? `<span class="archive-day-status">${escapeHtml(status)}</span>` : ""}
       </button>
     `);
   }
@@ -1913,8 +3417,61 @@ function shuffleSongs(playableSongs) {
   return shuffledSongs;
 }
 
+function loadUnlimitedHistory() {
+  try {
+    const parsed = JSON.parse(localStorage.getItem(unlimitedHistoryKey)) || [];
+    return Array.isArray(parsed) ? parsed.slice(0, unlimitedHistoryLimit) : [];
+  } catch {
+    return [];
+  }
+}
+
+function saveUnlimitedHistory(history) {
+  localStorage.setItem(unlimitedHistoryKey, JSON.stringify(history.slice(0, unlimitedHistoryLimit)));
+}
+
+function recordUnlimitedHistory(result) {
+  const entry = {
+    title: result.title,
+    displayTitle: result.displayTitle,
+    artist: result.artist,
+    attempts: result.attempts,
+    won: result.won,
+    completedAt: result.completedAt || Date.now(),
+  };
+  const history = loadUnlimitedHistory();
+  history.unshift(entry);
+  saveUnlimitedHistory(history);
+}
+
+function loadUnlimitedRecentIds() {
+  try {
+    const parsed = JSON.parse(localStorage.getItem(unlimitedRecentKey)) || [];
+    return Array.isArray(parsed) ? parsed.map(String).slice(0, unlimitedRecentLimit) : [];
+  } catch {
+    return [];
+  }
+}
+
+function saveUnlimitedRecentIds(ids) {
+  localStorage.setItem(unlimitedRecentKey, JSON.stringify(ids.slice(0, unlimitedRecentLimit)));
+}
+
+function rememberUnlimitedSong(song) {
+  if (!song?.vocadbId) return;
+  const songId = String(song.vocadbId);
+  const recentIds = loadUnlimitedRecentIds().filter((id) => id !== songId);
+  saveUnlimitedRecentIds([songId, ...recentIds]);
+}
+
 function refillUnlimitedQueue(playableSongs) {
-  state.unlimitedQueue = shuffleSongs(playableSongs);
+  const recentIds = new Set(loadUnlimitedRecentIds());
+  const freshSongs = playableSongs.filter((song) => !recentIds.has(String(song.vocadbId)));
+  const queueSongs = freshSongs.length >= Math.min(10, playableSongs.length)
+    ? freshSongs
+    : playableSongs;
+
+  state.unlimitedQueue = shuffleSongs(queueSongs);
 
   if (state.unlimitedQueue.length <= 1 || state.unlimitedQueue[0].title !== state.lastUnlimitedTitle) {
     return;
@@ -1938,7 +3495,9 @@ function getUnlimitedPuzzle() {
     refillUnlimitedQueue(playableSongs);
   }
 
-  return state.unlimitedQueue.shift() || null;
+  const nextSong = state.unlimitedQueue.shift() || null;
+  rememberUnlimitedSong(nextSong);
+  return nextSong;
 }
 
 function getPuzzleForCurrentMode() {
@@ -2013,6 +3572,7 @@ function loadPuzzle() {
     render();
     guessInput.focus();
     pulsePlayButton();
+    initDanmaku();
     return;
   }
   const savedDailyResults = loadStats().results || {};
@@ -2046,6 +3606,115 @@ function loadPuzzle() {
   }
 
   render();
+  initDanmaku();
+}
+
+function initDanmaku() {
+  const overlay = document.getElementById("danmaku-overlay");
+  if (!overlay) return;
+  overlay.innerHTML = "";
+  const isSenbon = isSenbonzakura();
+  const pool = isSenbon ? SENBONZAKURA_COMMENTS : DANMAKU_POOL;
+  const count = 12;
+  const topSlots = [6, 14, 22, 30, 38, 46, 54, 62, 70, 78, 86, 92];
+  const shuffled = [...pool].sort(() => Math.random() - 0.5);
+  for (let i = 0; i < count; i++) {
+    const span = document.createElement("span");
+    span.className = "danmaku-comment";
+    const duration = 6 + Math.random() * 6;
+    const delay = -(Math.random() * duration);
+    span.style.top = `${topSlots[i % topSlots.length]}%`;
+    span.style.animationDuration = `${duration.toFixed(1)}s`;
+    span.style.animationDelay = `${delay.toFixed(1)}s`;
+    span.textContent = shuffled[i % shuffled.length];
+    overlay.appendChild(span);
+  }
+}
+
+function isSenbonzakura() {
+  if (!state.puzzle) return false;
+  const title = (state.puzzle.title || "").toLowerCase();
+  return title.includes("senbonzakura") || title.includes("千本桜") || title.includes("thousand cherry");
+}
+
+function checkSenbonzakura() {
+  if (!isSenbonzakura()) return;
+  const density = localStorage.getItem("vh-danmaku-density") || "medium";
+  if (density === "many" || document.body.classList.contains("danmaku-many")) {
+    unlockAchievement("secret_senbonzakura");
+    triggerSenbonzakuraFlood();
+  }
+}
+
+function triggerSenbonzakuraFlood() {
+  const overlay = document.getElementById("danmaku-overlay");
+  if (!overlay) return;
+  let spawned = 0;
+  const maxExtra = 30;
+  const interval = setInterval(() => {
+    if (spawned >= maxExtra) { clearInterval(interval); return; }
+    const span = document.createElement("span");
+    span.className = "danmaku-comment danmaku-flood";
+    const duration = 3 + Math.random() * 3;
+    span.style.top = `${Math.random() * 90}%`;
+    span.style.animationDuration = `${duration.toFixed(1)}s`;
+    span.style.animationDelay = "0s";
+    span.style.fontSize = `${12 + Math.floor(Math.random() * 8)}px`;
+    span.style.color = ["#ffffff", "#ffcccc", "#ffaaaa", "#ff8888"][Math.floor(Math.random() * 4)];
+    span.textContent = SENBONZAKURA_COMMENTS[Math.floor(Math.random() * SENBONZAKURA_COMMENTS.length)];
+    overlay.appendChild(span);
+    setTimeout(() => span.remove(), duration * 1000 + 500);
+    spawned++;
+  }, 120);
+}
+
+const CORRECT_COMMENTS = [
+  "正解！", "すごい！", "やった！", "天才", "わかった！", "神", "さすが",
+  "ｷﾀ━━━!!", "やばい", "さすがすぎる", "完璧", "神すぎ", "天才すぎ",
+  "nice!", "got it!", "lets go!", "called it", "knew it", "goat", "easy",
+  "no way", "W", "LETS GO", "first try!!", "too easy", "gg",
+];
+
+function triggerCorrectBurst() {
+  const overlay = document.getElementById("danmaku-overlay");
+  if (!overlay) return;
+  if (document.body.classList.contains("no-danmaku")) return;
+  const count = 14;
+  const pool = [...CORRECT_COMMENTS].sort(() => Math.random() - 0.5);
+  for (let i = 0; i < count; i++) {
+    const span = document.createElement("span");
+    span.className = "danmaku-comment danmaku-correct";
+    const duration = 2.5 + Math.random() * 2;
+    const delay = i * 0.08;
+    span.style.top = `${5 + Math.random() * 88}%`;
+    span.style.animationDuration = `${duration.toFixed(1)}s`;
+    span.style.animationDelay = `${delay.toFixed(2)}s`;
+    span.style.fontSize = `${13 + Math.floor(Math.random() * 5)}px`;
+    span.textContent = pool[i % pool.length];
+    overlay.appendChild(span);
+    setTimeout(() => span.remove(), (duration + delay) * 1000 + 200);
+  }
+}
+
+function triggerCoverFlash() {
+  const wrap = document.querySelector(".nnd-player-wrap");
+  if (!wrap) return;
+  wrap.classList.remove("cover-correct-flash");
+  void wrap.offsetWidth;
+  wrap.classList.add("cover-correct-flash");
+  setTimeout(() => wrap.classList.remove("cover-correct-flash"), 1800);
+}
+
+function updateMylist() {
+  mylistCount++;
+  localStorage.setItem("vocaloid-heardle-mylist", mylistCount);
+  const el = document.getElementById("nnd-mylist-count");
+  if (el) {
+    el.textContent = mylistCount.toLocaleString();
+    el.classList.remove("mylist-bump");
+    void el.offsetWidth;
+    el.classList.add("mylist-bump");
+  }
 }
 
 function recordResult(won) {
@@ -2059,6 +3728,12 @@ function recordResult(won) {
     won,
     attempts: won ? state.attempt : null,
     title: state.puzzle.title,
+    displayTitle: getDisplayTitle(state.puzzle),
+    artist: getSuggestionArtist(state.puzzle),
+    vocadbId: state.puzzle.vocadbId,
+    date: resultKey,
+    mode: state.mode,
+    completedAt: Date.now(),
     guesses: state.guesses,
   };
 
@@ -2067,6 +3742,7 @@ function recordResult(won) {
       saveArchiveResult(resultKey, result);
       renderArchiveCalendar();
     }
+    checkLocalAchievements(result, { mode: state.mode });
     renderStats();
     return result;
   }
@@ -2088,22 +3764,38 @@ function recordResult(won) {
     stats.currentStreak += 1;
     stats.maxStreak = Math.max(stats.maxStreak, stats.currentStreak);
     stats.distribution[state.attempt] += 1;
+    if (state.attempt === 1) {
+      stats.firstTrySolves = (Number(stats.firstTrySolves) || 0) + 1;
+    }
+    if (isUnlimited) {
+      const achievements = loadAchievements();
+      achievements.unlimitedFirstTryStreak = state.attempt === 1
+        ? (Number(achievements.unlimitedFirstTryStreak) || 0) + 1
+        : 0;
+      saveAchievements(achievements);
+    }
   } else {
     stats.currentStreak = 0;
     stats.distribution.fail += 1;
+    if (isUnlimited) {
+      const achievements = loadAchievements();
+      achievements.unlimitedFirstTryStreak = 0;
+      saveAchievements(achievements);
+    }
   }
 
-  if (isDaily) {
-    saveStats(stats);
-  } else {
-    saveUnlimitedStats(stats);
+  saveStatsForMode(state.mode, stats);
+
+  if (isUnlimited) {
+    recordUnlimitedHistory(result);
   }
 
+  checkLocalAchievements(result, { mode: state.mode });
   renderStats();
   return result;
 }
 
-function revealAnswer() {
+function revealAnswer(options = {}) {
   if (!state.puzzle) {
     return;
   }
@@ -2120,6 +3812,7 @@ function revealAnswer() {
     mode: state.mode,
     puzzle: state.puzzle,
     result: state.lastResult,
+    showComparisonToast: Boolean(options.showComparisonToast),
   });
 
   const coverArts = getCoverArts(state.puzzle);
@@ -2210,33 +3903,49 @@ async function loadGlobalStats(songId, context = {}) {
 
     lastGlobalStats = { rate, plays, avg };
     renderGlobalStats();
-    maybeUpdateHardestSolved(rate, context);
+    if (context.showComparisonToast && avg !== null) {
+      showGlobalComparisonToast(buildGlobalComparisonHtml(avg, context.result));
+    }
+    checkGlobalAchievements(rate, context);
+    maybeUpdateRarestSolvedStats(rate, context);
   } catch {
     // silent — stats backend hiccup shouldn't break the answer reveal
   }
 }
 
-// If the player just solved this song AND its global solve rate is lower than
-// their previous "hardest solved" record (or they have none), update the record.
-// Stored in the same stats blob as everything else, per mode.
-function maybeUpdateHardestSolved(globalRate, context = {}) {
+// If the player just solved this song and its global solve rate is lower than
+// their previous rarest records, update the per-mode local stats blob.
+function maybeUpdateRarestSolvedStats(globalRate, context = {}) {
   const mode = context.mode || state.mode;
   const puzzle = context.puzzle || state.puzzle;
   const result = context.result || state.lastResult;
   if (mode !== "daily" && mode !== "unlimited") return;
   if (!puzzle || !result || !result.won) return;
-  const isDaily = mode === "daily";
-  const stats = isDaily ? loadStats() : loadUnlimitedStats();
-  const prev = stats.hardestSolved;
-  if (prev && typeof prev.rate === "number" && prev.rate <= globalRate) return;
-
-  stats.hardestSolved = {
+  const stats = getStatsForMode(mode);
+  let changed = false;
+  const record = {
     vocadbId: puzzle.vocadbId,
-    title: getDisplayTitle(puzzle),
+    title: result.displayTitle || getDisplayTitle(puzzle),
+    artist: result.artist || getSuggestionArtist(puzzle),
     rate: globalRate,
+    attempts: result.attempts,
     solvedAt: Date.now(),
   };
-  if (isDaily) saveStats(stats); else saveUnlimitedStats(stats);
+
+  const prevHardest = stats.hardestSolved;
+  if (!prevHardest || typeof prevHardest.rate !== "number" || prevHardest.rate > globalRate) {
+    stats.hardestSolved = record;
+    changed = true;
+  }
+
+  const prevFirstTry = stats.rarestFirstTry;
+  if (result.attempts === 1 && (!prevFirstTry || typeof prevFirstTry.rate !== "number" || prevFirstTry.rate > globalRate)) {
+    stats.rarestFirstTry = record;
+    changed = true;
+  }
+
+  if (!changed) return;
+  saveStatsForMode(mode, stats);
   // Refresh modal in case it's open right now.
   if (typeof renderStats === "function") renderStats();
 }
@@ -2254,6 +3963,26 @@ function renderGlobalStats() {
 
   globalStatsEl.innerHTML = `${statsLine}<br>${diffLine}`;
   globalStatsEl.hidden = false;
+}
+
+function getGlobalComparisonVerdict(result, avg) {
+  if (!result?.won) return t("globalComparisonRevealed");
+  const attempts = result.attempts || 0;
+  const diff = attempts - avg;
+  const displayedAvg = Number(avg.toFixed(1));
+  if (attempts === displayedAvg) return t("globalComparisonMatched");
+  if (diff <= -0.5) return t("globalComparisonBeat");
+  if (diff <= 0.75) return t("globalComparisonClose");
+  return t("globalComparisonLate");
+}
+
+function buildGlobalComparisonHtml(avg, result = state.lastResult) {
+  if (avg === null || avg === undefined || !result) return "";
+  const avgText = Number(avg).toFixed(1);
+  const verdict = getGlobalComparisonVerdict(result, Number(avg));
+  return result.won
+    ? t("globalComparisonLine", result.attempts, avgText, verdict)
+    : t("globalComparisonRevealLine", avgText, verdict);
 }
 
 function getYouTubeImageVideoId(url) {
@@ -2377,7 +4106,7 @@ function completeRound(won) {
     attempts: won ? state.attempt : null,
     title: state.puzzle.title,
   };
-  revealAnswer();
+  revealAnswer({ showComparisonToast: true });
   playButton.disabled = false;
   playButton.setAttribute("aria-label", "Play full clip");
   state.clipStage = clipStages.length - 1;
@@ -2394,6 +4123,10 @@ function completeRound(won) {
   if (won) {
     showToast(t("toastCorrect", getDisplayTitle(state.puzzle)));
     gamePanel.classList.remove("is-loss");
+    updateMylist();
+    triggerCorrectBurst();
+    triggerCoverFlash();
+    checkSenbonzakura();
   } else {
     showLossToast(t("toastAnswer", getDisplayTitle(state.puzzle)));
     gamePanel.classList.add("is-loss");
@@ -2668,12 +4401,44 @@ function playClip() {
   }, clipLength);
 }
 
+function extendActiveClipToUnlockedLength() {
+  if (!currentAudio || currentAudio.paused) {
+    return;
+  }
+
+  if (clipTimer) {
+    clearTimeout(clipTimer);
+    clipTimer = null;
+  }
+
+  const unlockedLength = clipStages[state.clipStage] || clipStages[0];
+  const remainingMs = Math.max(0, (unlockedLength - currentAudio.currentTime) * 1000);
+
+  if (remainingMs <= 0) {
+    stopClip();
+    currentAudio.currentTime = 0;
+    updateProgress(0);
+    return;
+  }
+
+  updateProgress();
+  clipTimer = setTimeout(() => {
+    stopClip();
+    currentAudio.currentTime = 0;
+    updateProgress(0);
+  }, remainingMs);
+}
+
 function buildShareText() {
   if (!state.puzzle || !state.lastResult) {
     return "";
   }
 
-  const modeLabel = state.mode === "daily" ? "Daily" : state.mode === "archive" ? "Archive" : "Unlimited";
+  const heading = state.mode === "daily"
+    ? t("heardleDaily")
+    : state.mode === "archive"
+      ? t("heardleArchive")
+      : t("heardleUnlimited");
   const score = state.lastResult.won ? `${state.lastResult.attempts}/${clipStages.length}` : `X/${clipStages.length}`;
   const context = state.mode === "daily"
     ? formatToday()
@@ -2690,10 +4455,10 @@ function buildShareText() {
       if (guess?.result === "Wrong") return "\uD83D\uDFE5";
       if (guess?.result === "Skipped") return "\u2B1B";
       if (guess?.result === "Correct") return "\uD83D\uDFE9";
-      if (!state.lastResult.won) return "⬛";
-      if (index + 1 < state.lastResult.attempts) return "⬛";
-      if (index + 1 === state.lastResult.attempts) return "🟩";
-      return "⬜";
+      if (!state.lastResult.won) return "\u2B1B";
+      if (index + 1 < state.lastResult.attempts) return "\u2B1B";
+      if (index + 1 === state.lastResult.attempts) return "\uD83D\uDFE9";
+      return "\u2B1C";
     })
     .filter((s) => s !== null)
     .join(" ");
@@ -2702,16 +4467,15 @@ function buildShareText() {
   // Race-safe: if the player copies before the fetch resolves (or fetch failed),
   // we just omit the line rather than showing placeholder text.
   const lines = [
-    `VOCALOID Heardle ${modeLabel}`,
+    heading,
     `${score} · ${context}`,
   ];
   if (lastGlobalStats) {
     const { rate, avg } = lastGlobalStats;
-    const avgPart = avg !== null ? ` · ${avg.toFixed(1)}/6 avg` : "";
-    lines.push(`${rate}% solve${avgPart}`);
+    lines.push(t("shareGlobalStats", rate, avg));
   }
   lines.push("");
-  lines.push(`🔊 ${squares}`);
+  lines.push(`\uD83D\uDD0A ${squares}`);
 
   return lines.join("\n");
 }
@@ -2885,6 +4649,28 @@ function showLossToast(message) {
   setTimeout(() => toast.remove(), 3400);
 }
 
+function showGlobalComparisonToast(messageHtml) {
+  if (!messageHtml) return;
+  const existing = document.querySelector("#global-comparison-toast");
+  if (existing) existing.remove();
+
+  const toast = document.createElement("div");
+  toast.id = "global-comparison-toast";
+  toast.innerHTML = `
+    <span class="nnd-toast-label">[AVG]</span>
+    <span class="nnd-toast-msg">${messageHtml}</span>
+    <button class="comparison-toast-close" type="button" aria-label="Close comparison">x</button>
+  `;
+  document.body.appendChild(toast);
+
+  const close = () => {
+    toast.classList.add("nnd-toast-fade");
+    setTimeout(() => toast.remove(), 500);
+  };
+  toast.querySelector(".comparison-toast-close")?.addEventListener("click", close);
+  setTimeout(close, 5000);
+}
+
 function pulsePlayButton() {
   playButton.classList.remove("pulse");
   void playButton.offsetWidth;
@@ -2945,11 +4731,15 @@ skipButton.addEventListener("click", () => {
     return;
   }
 
+  const shouldExtendClip = currentAudio && !currentAudio.paused;
   addGuess(`${t("skipped")} ${state.attempt}`, "Skipped");
   if (state.attempt >= clipStages.length) {
     completeRound(false);
   } else {
     advanceAttempt();
+    if (shouldExtendClip) {
+      extendActiveClipToUnlockedLength();
+    }
   }
   render();
 });
@@ -3089,6 +4879,55 @@ const resetStatsConfirm = document.querySelector("#reset-stats-confirm");
 const resetStatsYes = document.querySelector("#reset-stats-yes");
 const resetStatsNo = document.querySelector("#reset-stats-no");
 
+if (exportStatsButton) {
+  exportStatsButton.addEventListener("click", async () => {
+    const backup = JSON.stringify(buildStatsBackup(), null, 2);
+    try {
+      await copyText(backup);
+      showToast(t("toastStatsExported"));
+    } catch {
+      if (statsImportPanel && statsImportInput) {
+        statsImportPanel.hidden = false;
+        statsImportInput.value = backup;
+        statsImportInput.focus();
+        statsImportInput.select();
+      }
+    }
+  });
+}
+if (importStatsButton) {
+  importStatsButton.addEventListener("click", () => {
+    if (!statsImportPanel || !statsImportInput) return;
+    statsImportPanel.hidden = false;
+    statsImportInput.value = "";
+    statsImportInput.focus();
+  });
+}
+if (statsImportConfirm) {
+  statsImportConfirm.addEventListener("click", () => {
+    try {
+      const imported = parseStatsBackup(statsImportInput?.value || "");
+      saveStats(imported.stats);
+      saveUnlimitedStats(imported.unlimitedStats);
+      saveArchiveResults(imported.archiveResults);
+      saveAchievements(imported.achievements);
+      if (imported.unlimitedHistory) saveUnlimitedHistory(imported.unlimitedHistory);
+      if (statsImportPanel) statsImportPanel.hidden = true;
+      if (statsImportInput) statsImportInput.value = "";
+      refreshAfterStatsImport();
+      showToast(t("toastStatsImported"));
+    } catch {
+      showLossToast(t("toastStatsImportFailed"));
+    }
+  });
+}
+if (statsImportCancel) {
+  statsImportCancel.addEventListener("click", () => {
+    if (statsImportPanel) statsImportPanel.hidden = true;
+    if (statsImportInput) statsImportInput.value = "";
+  });
+}
+
 if (resetStatsButton) {
   resetStatsButton.addEventListener("click", () => {
     if (resetStatsConfirm) resetStatsConfirm.hidden = false;
@@ -3100,7 +4939,14 @@ if (resetStatsYes) {
     localStorage.removeItem(statsKey);
     localStorage.removeItem(unlimitedStatsKey);
     localStorage.removeItem(archiveResultsKey);
+    localStorage.removeItem(achievementsKey);
+    localStorage.removeItem(unlimitedRecentKey);
+    localStorage.removeItem(unlimitedHistoryKey);
+    localStorage.removeItem("vocaloid-heardle-mylist");
+    mylistCount = 0;
+    initMylist();
     renderStats();
+    renderAchievements();
     renderArchiveCalendar();
     showToast(t("toastStatsReset"));
     if (resetStatsConfirm) resetStatsConfirm.hidden = true;
@@ -3206,14 +5052,27 @@ shareButton.addEventListener("click", async () => {
     await copyText(shareText);
     showToast(t("toastCopied"));
     shareOutput.hidden = true;
+    unlockAchievement("secret_share_result");
   } catch {
     shareOutput.value = shareText;
     shareOutput.hidden = false;
     shareOutput.focus();
     shareOutput.select();
-    shareButton.textContent = "Select Result";
+    shareButton.textContent = t("shareSelectResult");
   }
 });
+
+if (statsCopyProfileButton) {
+  statsCopyProfileButton.addEventListener("click", async () => {
+    const profileText = buildProfileText();
+    try {
+      await copyText(profileText);
+      showToast(t("profileCopied"));
+    } catch {
+      showToast(profileText);
+    }
+  });
+}
 
 if (suggestSongForm) {
   suggestSongForm.addEventListener("submit", (event) => {
@@ -3266,6 +5125,20 @@ statsUnlimitedButton.addEventListener("click", () => {
   renderStats();
 });
 
+document.querySelectorAll(".release-tab").forEach((button) => {
+  button.addEventListener("click", () => {
+    currentReleaseVersion = button.dataset.releaseVersion || "v1.1";
+    renderReleaseNotes();
+  });
+});
+
+document.querySelectorAll("[data-achievement-category]").forEach((button) => {
+  button.addEventListener("click", () => {
+    state.achievementCategory = button.dataset.achievementCategory || "all";
+    renderAchievements();
+  });
+});
+
 modalButtons.forEach((button) => {
   button.addEventListener("click", (event) => {
     if (button.tagName === "A") {
@@ -3274,6 +5147,13 @@ modalButtons.forEach((button) => {
 
     if (button.dataset.modalTarget === "stats") {
       renderStats();
+    }
+    if (button.dataset.modalTarget === "achievements") {
+      renderAchievements();
+      unlockAchievement("secret_open_achievements");
+    }
+    if (button.dataset.modalTarget === "unlimited-history") {
+      renderUnlimitedHistory();
     }
 
     openModal(button.dataset.modalTarget);
@@ -3303,6 +5183,7 @@ document.addEventListener("click", (event) => {
 document.querySelectorAll(".lang-btn").forEach(btn => {
   btn.addEventListener("click", () => {
     const newLang = btn.dataset.lang;
+    const prevLang = localStorage.getItem("vh-lang") || "en";
     localStorage.setItem("vh-lang", newLang);
     if (newLang === "jp") {
       localStorage.setItem("vh-title-mode", "jp");
@@ -3312,6 +5193,7 @@ document.querySelectorAll(".lang-btn").forEach(btn => {
     document.querySelectorAll("[data-title-mode]").forEach(b =>
       b.classList.toggle("is-active", b.dataset.titleMode === localStorage.getItem("vh-title-mode"))
     );
+    if (newLang !== prevLang) unlockAchievement("secret_switch_language");
     applyLanguage();
     refreshTitleSurfaces();
   });
@@ -3344,3 +5226,4 @@ renderStats();
 checkNewBadge();
 applyLanguage();
 initTitleMode();
+initMylist();

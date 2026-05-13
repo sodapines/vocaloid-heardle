@@ -39,7 +39,7 @@
       <div class="nnd-header-links">
         <a href="#" data-modal-target="about">About</a>
         <span class="nnd-divider">|</span>
-        <a href="#" data-modal-target="support">Support</a>
+        <a href="#" data-modal-target="achievements">Achievements</a>
         <span class="nnd-divider">|</span>
         <a href="#" data-modal-target="release-notes">Updates</a>
         <span class="nnd-divider">|</span>
@@ -49,7 +49,7 @@
       </div>
       <div class="nnd-mobile-settings">
         <a href="#" data-modal-target="about">About</a>
-        <a href="#" data-modal-target="support">Support</a>
+        <a href="#" data-modal-target="achievements">Achievements</a>
         <a href="#" data-modal-target="release-notes">Updates</a>
         <a href="#" data-modal-target="settings">&#9881; Settings</a>
         <a class="nnd-kofi" href="https://ko-fi.com/sodapines" target="_blank" rel="noopener noreferrer">Ko-fi</a>
@@ -102,20 +102,13 @@
               <img id="cover-image" alt="" hidden>
               <div class="cover-fallback" id="cover-fallback" hidden></div>
             </div>
-            <div class="nnd-danmaku" id="danmaku-overlay" aria-hidden="true">
-              <span class="danmaku-comment" style="top:10%;animation-duration:7s;animation-delay:0s">草</span>
-              <span class="danmaku-comment" style="top:26%;animation-duration:9s;animation-delay:1.4s">神曲!!</span>
-              <span class="danmaku-comment" style="top:42%;animation-duration:6.5s;animation-delay:2.8s">I know this one!!</span>
-              <span class="danmaku-comment" style="top:58%;animation-duration:8s;animation-delay:0.6s">懐かしい～</span>
-              <span class="danmaku-comment" style="top:74%;animation-duration:10s;animation-delay:3.2s">GOAT song fr</span>
-              <span class="danmaku-comment" style="top:18%;animation-duration:7.5s;animation-delay:4.5s">ボカロ最高</span>
-              <span class="danmaku-comment" style="top:52%;animation-duration:8.5s;animation-delay:1.9s">www</span>
-            </div>
+            <div class="nnd-danmaku" id="danmaku-overlay" aria-hidden="true"></div>
           </div>
 
           <div class="nnd-meta-row">
             <span class="nnd-meta-item"><span class="nnd-meta-label">▶ Views:</span> —</span>
             <span class="nnd-meta-item"><span class="nnd-meta-label">Category:</span> Music / VOCALOID</span>
+            <span class="nnd-meta-item"><span class="nnd-mylist-heart">♥</span> <span id="nnd-mylist-count">0</span></span>
             <span class="nnd-meta-item"><span class="nnd-meta-label">Source:</span> <a id="source-link" href="https://vocadb.net" target="_blank" rel="noreferrer">VocaDB</a></span>
             <span class="nnd-meta-item next-daily-countdown" id="next-daily-countdown" hidden></span>
           </div>
@@ -253,8 +246,6 @@
             <a href="https://nicovideo.jp" target="_blank" class="sidebar-link">NicoNico ↗</a>
             <hr style="border:none;border-top:1px solid var(--line);margin:4px 0;">
             <a href="#" data-modal-target="suggest-song" class="sidebar-link">Suggest a Song</a>
-            <a href="#" data-modal-target="release-notes" class="sidebar-link">Release Notes</a>
-            <a href="#" data-modal-target="about" class="sidebar-link">About this site</a>
             <a href="#" data-modal-target="support" class="sidebar-link">Contact / Support</a>
           </div>
         </div>
@@ -263,7 +254,7 @@
     </div>
 
     <footer class="site-footer">
-      <p>VOCALOID Heardle: fan-made daily guessing game &copy; 2026 &nbsp;|&nbsp; Not affiliated with Crypton Future Media, NicoNico, or VocaDB &nbsp;|&nbsp; Song data from <a href="https://vocadb.net" target="_blank">VocaDB</a> &nbsp;|&nbsp; <a href="#" data-modal-target="song-pool">Song Pool</a> &nbsp;|&nbsp; <a href="#" data-modal-target="release-notes">Release v1.0</a></p>
+      <p>VOCALOID Heardle: fan-made daily guessing game &copy; 2026 &nbsp;|&nbsp; Not affiliated with Crypton Future Media, NicoNico, or VocaDB &nbsp;|&nbsp; Song data from <a href="https://vocadb.net" target="_blank">VocaDB</a> &nbsp;|&nbsp; <a href="#" data-modal-target="song-pool">Song Pool</a> &nbsp;|&nbsp; <a href="#" data-modal-target="release-notes">Release v1.1</a></p>
     </footer>
 
     <div class="modal-backdrop" id="modal-backdrop" hidden></div>
@@ -297,7 +288,11 @@
     <section class="modal" id="release-notes" role="dialog" aria-modal="true" aria-labelledby="release-notes-title" hidden>
       <button class="modal-close" type="button" aria-label="Close dialog">x</button>
       <h2 id="release-notes-title">Release Notes</h2>
-      <p class="release-version" id="release-version">Official Release v1.0</p>
+      <div class="release-tabs" aria-label="Release versions">
+        <button class="release-tab is-active" data-release-version="v1.1" type="button">v1.1</button>
+        <button class="release-tab" data-release-version="v1.0" type="button">v1.0</button>
+      </div>
+      <p class="release-version" id="release-version">Release v1.1</p>
       <p id="release-intro">This release collects the major updates being prepared for the public site.</p>
       <ul class="release-list">
         <li id="release-item-archive">Daily Archive with playable past puzzles, monthly completion summaries, and hardest/easiest daily notes.</li>
@@ -382,7 +377,35 @@
         <div><strong id="stat-max-streak">0</strong><span>Max streak</span></div>
         <div><strong id="stat-avg-attempts">—</strong><span>Avg attempts</span></div>
       </div>
-      <p class="stat-hardest" id="stat-hardest" hidden></p>
+      <div class="stats-detail-list" id="stats-detail-list" aria-live="polite"></div>
+      <a href="#" class="sidebar-link stats-history-link" id="unlimited-history-link" data-modal-target="unlimited-history" hidden>Recent History →</a>
+      <div class="stats-copy-profile-wrap">
+        <button class="stats-copy-profile" id="stats-copy-profile" type="button">Copy Profile</button>
+      </div>
+    </section>
+
+    <section class="modal" id="unlimited-history" role="dialog" aria-modal="true" aria-labelledby="unlimited-history-title" hidden>
+      <button class="modal-close" type="button" aria-label="Close dialog">x</button>
+      <h2 id="unlimited-history-title">Unlimited History</h2>
+      <p class="modal-note">Your last 100 unlimited puzzles, most recent first.</p>
+      <div class="unlimited-history-list" id="unlimited-history-list"></div>
+    </section>
+
+    <section class="modal" id="achievements" role="dialog" aria-modal="true" aria-labelledby="achievements-title" hidden>
+      <button class="modal-close" type="button" aria-label="Close dialog">x</button>
+      <h2 id="achievements-title">Achievements</h2>
+      <div class="achievements-summary" id="achievements-summary" aria-live="polite"></div>
+      <div class="achievement-tabs" aria-label="Achievement categories">
+        <button class="achievement-tab is-active" data-achievement-category="all" type="button">All</button>
+        <button class="achievement-tab" data-achievement-category="general" type="button">General</button>
+        <button class="achievement-tab" data-achievement-category="daily" type="button">Daily</button>
+        <button class="achievement-tab" data-achievement-category="unlimited" type="button">Unlimited</button>
+        <button class="achievement-tab" data-achievement-category="archive" type="button">Archive</button>
+        <button class="achievement-tab" data-achievement-category="knowledge" type="button">Knowledge</button>
+        <button class="achievement-tab" data-achievement-category="challenge" type="button">Challenge</button>
+        <button class="achievement-tab" data-achievement-category="secret" type="button">Secret</button>
+      </div>
+      <div class="achievements-list" id="achievements-list" aria-live="polite"></div>
     </section>
 
     <section class="modal" id="settings" role="dialog" aria-modal="true" aria-labelledby="settings-title" hidden>
@@ -493,6 +516,24 @@
             <span class="settings-desc">Clears the guess field after a wrong answer</span>
           </div>
           <button class="settings-toggle is-on" id="setting-clearwrong" type="button" role="switch" aria-checked="true">ON</button>
+        </div>
+
+        <div class="settings-row">
+          <div class="settings-info">
+            <span class="settings-label">Backup Stats</span>
+            <span class="settings-desc">Export or import local stats data</span>
+          </div>
+          <div class="settings-multi settings-backup-actions">
+            <button class="settings-choice" id="setting-export-stats" type="button">Export</button>
+            <button class="settings-choice" id="setting-import-stats" type="button">Import</button>
+          </div>
+        </div>
+        <div class="settings-import-panel" id="stats-import-panel" hidden>
+          <textarea id="stats-import-input" rows="5" spellcheck="false" placeholder="Paste exported stats JSON here"></textarea>
+          <div class="settings-confirm-btns">
+            <button class="settings-choice is-active" id="stats-import-confirm" type="button">Import</button>
+            <button class="settings-choice" id="stats-import-cancel" type="button">Cancel</button>
+          </div>
         </div>
 
         <div class="settings-row settings-row-reset">

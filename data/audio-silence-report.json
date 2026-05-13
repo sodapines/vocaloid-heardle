@@ -12,8 +12,8 @@
     11,
     16
   ],
-  "checkedCount": 981,
-  "okCount": 981,
+  "checkedCount": 979,
+  "okCount": 979,
   "errorCount": 0,
   "silentByStage": {
     "1s": [
@@ -8933,46 +8933,6 @@
           "16s": {
             "audible": true,
             "rmsDb": -10.31,
-            "peakDb": 0
-          }
-        }
-      },
-      {
-        "ok": true,
-        "vocadbId": 680923,
-        "title": "DONUT HOLE 2024",
-        "artist": "HACHI feat. GUMI",
-        "audioClip": "https://audio.sodapines.dev/680923.mp3",
-        "firstAudibleSecond": 1.4,
-        "stages": {
-          "1s": {
-            "audible": false,
-            "rmsDb": null,
-            "peakDb": null
-          },
-          "2s": {
-            "audible": true,
-            "rmsDb": -15.3,
-            "peakDb": 0
-          },
-          "4s": {
-            "audible": true,
-            "rmsDb": -11.29,
-            "peakDb": 0
-          },
-          "7s": {
-            "audible": true,
-            "rmsDb": -10.17,
-            "peakDb": 0
-          },
-          "11s": {
-            "audible": true,
-            "rmsDb": -9.72,
-            "peakDb": 0
-          },
-          "16s": {
-            "audible": true,
-            "rmsDb": -9.52,
             "peakDb": 0
           }
         }
@@ -41351,46 +41311,6 @@
     },
     {
       "ok": true,
-      "vocadbId": 4322,
-      "title": "Mischievous Function -Full ver.-",
-      "artist": "GojimajiP feat. Kasane Teto",
-      "audioClip": "https://audio.sodapines.dev/4322.mp3",
-      "firstAudibleSecond": 0.2,
-      "stages": {
-        "1s": {
-          "audible": true,
-          "rmsDb": -19.16,
-          "peakDb": -7.17
-        },
-        "2s": {
-          "audible": true,
-          "rmsDb": -18.71,
-          "peakDb": -6.78
-        },
-        "4s": {
-          "audible": true,
-          "rmsDb": -18.7,
-          "peakDb": -5.65
-        },
-        "7s": {
-          "audible": true,
-          "rmsDb": -18.1,
-          "peakDb": -5.65
-        },
-        "11s": {
-          "audible": true,
-          "rmsDb": -17.4,
-          "peakDb": -5.35
-        },
-        "16s": {
-          "audible": true,
-          "rmsDb": -16.91,
-          "peakDb": -4.96
-        }
-      }
-    },
-    {
-      "ok": true,
       "vocadbId": 28648,
       "title": "Summertime Record",
       "artist": "JIN feat. IA",
@@ -44705,46 +44625,6 @@
         "16s": {
           "audible": true,
           "rmsDb": -10.31,
-          "peakDb": 0
-        }
-      }
-    },
-    {
-      "ok": true,
-      "vocadbId": 680923,
-      "title": "DONUT HOLE 2024",
-      "artist": "HACHI feat. GUMI",
-      "audioClip": "https://audio.sodapines.dev/680923.mp3",
-      "firstAudibleSecond": 1.4,
-      "stages": {
-        "1s": {
-          "audible": false,
-          "rmsDb": null,
-          "peakDb": null
-        },
-        "2s": {
-          "audible": true,
-          "rmsDb": -15.3,
-          "peakDb": 0
-        },
-        "4s": {
-          "audible": true,
-          "rmsDb": -11.29,
-          "peakDb": 0
-        },
-        "7s": {
-          "audible": true,
-          "rmsDb": -10.17,
-          "peakDb": 0
-        },
-        "11s": {
-          "audible": true,
-          "rmsDb": -9.72,
-          "peakDb": 0
-        },
-        "16s": {
-          "audible": true,
-          "rmsDb": -9.52,
           "peakDb": 0
         }
       }

@@ -230,7 +230,6 @@ Songs with no audible audio by clip length
   28500 - Electric Paradigm (lumo, Project DIVA Channel feat. Hatsune Miku) first audible: 5
   2823 - Rotten Girl Grotesque Romance (Machigerita feat. Hatsune Miku) first audible: 7.75
   195220 - Hello Dystopia (Mafumafu feat. Kagamine Len, Kagamine Rin) first audible: 1.25
-  680923 - DONUT HOLE 2024 (HACHI feat. GUMI) first audible: 1.4
   1381 - Mozaik Role (DECO*27 feat. GUMI) first audible: 1.4
   709707 - Mimukauwa Nice Try (Nunununununununununununununununu feat. Hatsune Miku) first audible: 1.7
   4269 - ANTI THE∞HOLiC (cosMo@BousouP feat. Megurine Luka, Kagamine Rin) first audible: 1.65
